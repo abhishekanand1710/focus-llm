@@ -1,0 +1,51 @@
+Key: Mercury_7013283
+
+Question: The speed of sound is generally greatest in
+Options: ['solids and lowest in liquids.', 'solids and lowest in gases.', 'gases and lowest in liquids.', 'gases and lowest in solids.']
+Answer: solids and lowest in gases.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Speed of Sound",
+        "description": "The speed at which sound waves travel through a medium."
+    },
+    {
+        "name": "Solids",
+        "description": "A state of matter characterized by particles arranged such that their shape and volume are relatively stable."
+    },
+    {
+        "name": "Liquids",
+        "description": "A state of matter with a definite volume but no definite shape."
+    },
+    {
+        "name": "Gases",
+        "description": "A state of matter consisting of particles that have neither a defined volume nor defined shape."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Speed of Sound",
+        "relationship": "greatest in",
+        "related_concept": "Solids",
+        "description": "The speed of sound is greatest in solids due to closely packed particles."
+    },
+    {
+        "concept": "Speed of Sound",
+        "relationship": "lower in",
+        "related_concept": "Liquids",
+        "description": "The speed of sound is lower in liquids than in solids, but higher than in gases due to medium particle density."
+    },
+    {
+        "concept": "Speed of Sound",
+        "relationship": "lowest in",
+        "related_concept": "Gases",
+        "description": "The speed of sound is lowest in gases due to widely spaced particles."
+    }
+]
+
+Model Answer: {
+    "answer": "solids and lowest in gases.",
+    "reasoning": "The speed of sound is determined by the medium through which it travels, being fastest in mediums where particles are closely packed, such as solids, and slowest in mediums where particles are spaced far apart, such as gases. Therefore, according to the given options and the provided relationships, the speed of sound is greatest in solids and lowest in gases."
+}

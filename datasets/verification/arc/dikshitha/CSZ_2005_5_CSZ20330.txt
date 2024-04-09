@@ -1,0 +1,51 @@
+Key: CSZ_2005_5_CSZ20330
+
+Question: The largest body in our solar system is
+Options: ['Earth.', 'the Sun.', 'Jupiter.', 'the Moon.']
+Answer: the Sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun in our solar system, home to diverse life forms."
+    },
+    {
+        "name": "the Sun",
+        "description": "A medium-sized star at the center of our solar system."
+    },
+    {
+        "name": "Jupiter",
+        "description": "The largest planet in our solar system, known for its massive size and gas giant composition."
+    },
+    {
+        "name": "the Moon",
+        "description": "Earth's only natural satellite, orbiting the planet and affecting its tides."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "orbits",
+        "related_concept": "the Sun",
+        "description": "Earth orbits around the Sun, receiving light and warmth essential for life."
+    },
+    {
+        "concept": "the Moon",
+        "relationship": "orbits",
+        "related_concept": "Earth",
+        "description": "The Moon orbits Earth, influencing its tides and providing night illumination."
+    },
+    {
+        "concept": "Jupiter",
+        "relationship": "orbits",
+        "related_concept": "the Sun",
+        "description": "Jupiter, being a planet, also orbits the Sun, albeit at a much greater distance than Earth."
+    }
+]
+
+Model Answer: {
+    "answer": "the Sun.",
+    "reasoning": "Based on the descriptions and relationships outlined among the concepts, the Sun is the largest body in our solar system. It is a star that forms the center of our solar system, significantly larger than any planet, including Jupiter which is the largest planet, and certainly larger than Earth or the Moon."
+}

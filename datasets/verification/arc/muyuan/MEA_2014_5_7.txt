@@ -1,0 +1,71 @@
+Key: MEA_2014_5_7
+
+Question: After a heavy rain, a mudslide flows into a pond and mud mixes into the water. Which of the following is most likely to happen?
+Options: ['Fish will have more food.', 'Trees will be able to get more light.', 'Raccoons will not be able to find food.', 'Underwater plants will receive less light.']
+Answer: Underwater plants will receive less light.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mudslide",
+        "description": "A mass of mud moving downhill, often caused by heavy rain."
+    },
+    {
+        "name": "Pond",
+        "description": "A body of still water smaller than a lake."
+    },
+    {
+        "name": "Fish",
+        "description": "Aquatic animals that live in water."
+    },
+    {
+        "name": "Trees",
+        "description": "Large plants with a single trunk, branches, and leaves."
+    },
+    {
+        "name": "Raccoons",
+        "description": "Mammals known for their dexterity and nocturnal habits."
+    },
+    {
+        "name": "Underwater plants",
+        "description": "Plants that grow in water, requiring sunlight for photosynthesis."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mudslide",
+        "relationship": "flows into",
+        "related_concept": "Pond",
+        "description": "A mudslide moving downhill can enter a pond and mix mud into its water."
+    },
+    {
+        "concept": "Underwater plants",
+        "relationship": "require",
+        "related_concept": "Light",
+        "description": "Underwater plants need light to perform photosynthesis."
+    },
+    {
+        "concept": "Mud",
+        "relationship": "blocks",
+        "related_concept": "Light",
+        "description": "Mud can block sunlight from reaching places it once did."
+    },
+    {
+        "concept": "Mud in water",
+        "relationship": "reduces",
+        "related_concept": "Light penetration",
+        "description": "When mud mixes with pond water, it can reduce how deep sunlight penetrates into the water."
+    },
+    {
+        "concept": "Light penetration reduction",
+        "relationship": "affects",
+        "related_concept": "Underwater plants",
+        "description": "Reduced light penetration into the pond affects the underwater plants' ability to photosynthesize."
+    }
+]
+
+Model Answer: {
+    "answer": "Underwater plants will receive less light.",
+    "reasoning": "When a mudslide flows into a pond, the mud mixed into the water significantly reduces the penetration of light within the water. This reduction in light availability directly impacts underwater plants, as they rely on light for photosynthesis, a critical process for their growth and survival. The blocking of light by the mud makes it the most likely consequence among the provided options."
+}

@@ -1,0 +1,77 @@
+Key: MSA_2013_8_5
+
+Question: Sheep Challenge Evolution A species of sheep lives on the Scottish island of Hirta. Hirta has plenty of grass for the sheep to eat, and no natural predators of the sheep live on the island. Some sheep have dark wool, and some have light wool. The sheep with dark wool tend to be much larger and stronger than the sheep with light wool. However, researchers have found that in the last 20 years, the sheep with light wool have increased in number. Usually, strength and size help animals survive and breed. On Hirta, sheep with light wool outnumber sheep with dark wool because sheep with light wool
+Options: ['produce more wool', 'have a more restricted diet', 'produce fewer offspring each year', 'have a better chance of surviving and reproducing']
+Answer: have a better chance of surviving and reproducing
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sheep",
+        "description": "A species of animal living on the Scottish island of Hirta."
+    },
+    {
+        "name": "Hirta",
+        "description": "A Scottish island with plenty of grass and no natural sheep predators."
+    },
+    {
+        "name": "Dark Wool Sheep",
+        "description": "Sheep with dark wool, larger and stronger than those with light wool."
+    },
+    {
+        "name": "Light Wool Sheep",
+        "description": "Sheep with light wool, not as large or strong as those with dark wool."
+    },
+    {
+        "name": "Strength and Size",
+        "description": "Traits that usually help animals to survive and breed."
+    },
+    {
+        "name": "Surviving and Reproducing",
+        "description": "The ability to live and produce offspring."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sheep",
+        "relationship": "live in",
+        "related_concept": "Hirta",
+        "description": "The sheep species lives on Hirta island."
+    },
+    {
+        "concept": "Dark Wool Sheep",
+        "relationship": "is a type of",
+        "related_concept": "Sheep",
+        "description": "Dark wool sheep are a variety of sheep."
+    },
+    {
+        "concept": "Light Wool Sheep",
+        "relationship": "is a type of",
+        "related_concept": "Sheep",
+        "description": "Light wool sheep are another variety of sheep."
+    },
+    {
+        "concept": "Strength and Size",
+        "relationship": "associated with",
+        "related_concept": "Dark Wool Sheep",
+        "description": "Dark wool sheep tend to be stronger and larger."
+    },
+    {
+        "concept": "Surviving and Reproducing",
+        "relationship": "favored by",
+        "related_concept": "Strength and Size",
+        "description": "Strength and size usually aid in survival and reproduction."
+    },
+    {
+        "concept": "Light Wool Sheep",
+        "relationship": "increasing in",
+        "related_concept": "Hirta",
+        "description": "The number of light wool sheep on Hirta is increasing."
+    }
+]
+
+Model Answer: {
+    "answer": "have a better chance of surviving and reproducing",
+    "reasoning": "Given that the environment of Hirta does not pose a significant predator threat to necessitate the advantages of size and strength provided by dark wool sheep, and considering that light wool sheep have been increasing in number despite their smaller size and weaker strengths, it suggests that the traits associated with light wool sheep confer a reproductive or survival advantage not directly linked to physical prowess. Given the context, none of the other options directly relate to an observable advantage for survival and reproduction, which is the primary factor driving population changes in an environment like Hirta's where resources are abundant and predators are absent."
+}

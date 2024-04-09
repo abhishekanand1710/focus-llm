@@ -1,0 +1,61 @@
+Key: AKDE&ED_2008_8_16
+
+Question: Genes are unable to determine a person's
+Options: ['eye color.', 'athletic ability.', 'number of teeth.', 'shape of earlobes.']
+Answer: athletic ability.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Genes",
+        "description": "Units of heredity that carry information directing cells to function in particular ways."
+    },
+    {
+        "name": "eye color",
+        "description": "The color of the iris, determined by the concentration of melanin and other factors."
+    },
+    {
+        "name": "athletic ability",
+        "description": "A person's capacity to participate in sports or physical activities, influenced by both genetic and environmental factors."
+    },
+    {
+        "name": "number of teeth",
+        "description": "The total count of teeth an individual has, which can be influenced by genetics but also by external factors and health conditions."
+    },
+    {
+        "name": "shape of earlobes",
+        "description": "The physical form of the bottom part of the ears, which can be either attached or detached, largely determined by genetics."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Genes",
+        "relationship": "determine",
+        "related_concept": "eye color",
+        "description": "Genes largely determine the color of the eyes."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "influence",
+        "related_concept": "athletic ability",
+        "description": "Genes can influence, but do not solely determine, one's athletic ability."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "influence",
+        "related_concept": "number of teeth",
+        "description": "While genetics can influence the developmental aspects of tooth count, environmental factors and health conditions are also significant."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "determine",
+        "related_concept": "shape of earlobes",
+        "description": "The shape of the earlobes is directly determined by genetics."
+    }
+]
+
+Model Answer: {
+    "answer": "number of teeth",
+    "reasoning": "While genes can influence the developmental aspects that might determine the potential number of teeth an individual could have, they do not specifically determine the exact count of teeth a person will have throughout life. This count can be influenced by various factors including dental health, accidents, or dental extractions, which are unrelated to genetic factors."
+}

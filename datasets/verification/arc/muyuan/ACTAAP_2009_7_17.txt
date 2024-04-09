@@ -1,0 +1,71 @@
+Key: ACTAAP_2009_7_17
+
+Question: In plants, which describes sexual reproduction but not asexual reproduction?
+Options: ['Five limbs are grafted onto the same tree.', 'New plants are grown from pieces of other plants.', 'A fertilized egg cell divides to produce an embryo.', 'Offspring are produced that have the same genetic information as the parent.']
+Answer: A fertilized egg cell divides to produce an embryo.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sexual Reproduction",
+        "description": "A biological process where two parents contribute genetic material to produce genetically diverse offspring."
+    },
+    {
+        "name": "Asexual Reproduction",
+        "description": "A reproductive process that involves only one parent and produces offspring that are genetically identical to the parent."
+    },
+    {
+        "name": "Grafting",
+        "description": "A horticultural technique whereby tissues of plants are joined so as to continue their growth together."
+    },
+    {
+        "name": "Embryo",
+        "description": "An early stage of development in multicellular organisms, formed post fertilization."
+    },
+    {
+        "name": "Fertilization",
+        "description": "The union of male and female gametes to form a zygote."
+    },
+    {
+        "name": "Genetic Information",
+        "description": "Information encoded in the genetic material of an organism."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sexual Reproduction",
+        "relationship": "produces",
+        "related_concept": "Embryo",
+        "description": "Sexual reproduction leads to the production of an embryo through the process of fertilization."
+    },
+    {
+        "concept": "Asexual Reproduction",
+        "relationship": "does not use",
+        "related_concept": "Fertilization",
+        "description": "Asexual reproduction happens without the process of fertilization."
+    },
+    {
+        "concept": "Grafting",
+        "relationship": "method of",
+        "related_concept": "Asexual Reproduction",
+        "description": "Grafting is a technique used in asexual reproduction of plants."
+    },
+    {
+        "concept": "Fertilization",
+        "relationship": "leads to",
+        "related_concept": "Embryo",
+        "description": "Fertilization is the process that leads to the formation of an embryo."
+    },
+    {
+        "concept": "Embryo",
+        "relationship": "results from",
+        "related_concept": "Sexual Reproduction",
+        "description": "An embryo is the result of the process of sexual reproduction."
+    }
+]
+
+Model Answer: {
+    "answer": "'A fertilized egg cell divides to produce an embryo.'",
+    "reasoning": "The option 'A fertilized egg cell divides to produce an embryo.' describes sexual reproduction because it involves the process of fertilization, which is a characteristic aspect of sexual reproduction wherein genetic materials from two parents combine to produce genetically diverse offspring. This process leads to the formation of an embryo, an early development stage that occurs only in sexual reproduction. The other options describe processes associated with asexual reproduction or do not explicitly involve sexual reproduction's unique characteristics, such as grafting, growing new plants from pieces of other plants, or producing genetically identical offspring."
+}

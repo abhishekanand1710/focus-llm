@@ -1,0 +1,61 @@
+Key: LEAP_2006_8_10413
+
+Question: Which of these best defines communicable diseases?
+Options: ['They can be cured.', 'They are caused by bacteria.', 'They are spread to others.', 'They can spread only in winter.']
+Answer: They are spread to others.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Communicable diseases",
+        "description": "Diseases that can be transmitted from person to person or through vectors"
+    },
+    {
+        "name": "Cure",
+        "description": "A method or treatment that ends a disease or condition"
+    },
+    {
+        "name": "Bacteria",
+        "description": "Microorganisms that can cause disease"
+    },
+    {
+        "name": "Spread to others",
+        "description": "Transmission of disease from one person or organism to another"
+    },
+    {
+        "name": "Winter",
+        "description": "The coldest season of the year"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Communicable diseases",
+        "relationship": "can be caused by",
+        "related_concept": "Bacteria",
+        "description": "Some communicable diseases are caused by bacteria"
+    },
+    {
+        "concept": "Communicable diseases",
+        "relationship": "can have",
+        "related_concept": "Cure",
+        "description": "Some communicable diseases can be cured with the right treatment"
+    },
+    {
+        "concept": "Communicable diseases",
+        "relationship": "are characterized by",
+        "related_concept": "Spread to others",
+        "description": "The defining feature of communicable diseases is their ability to spread from person to person"
+    },
+    {
+        "concept": "Communicable diseases",
+        "relationship": "can spread in",
+        "related_concept": "Winter",
+        "description": "Communicable diseases can spread in any season, not just winter"
+    }
+]
+
+Model Answer: {
+    "answer": "They are spread to others.",
+    "reasoning": "The defining feature of communicable diseases, as indicated by their name and their characterizing relationship, is their ability to be transmitted from one person or organism to another, regardless of the season or the cure availability. While bacteria can be a cause and some diseases may have cures, the aspect of spreading to others is what classifies them as communicable."
+}

@@ -1,0 +1,57 @@
+Key: Mercury_SC_401197
+
+Question: Safe practices in the laboratory include all of these except
+Options: ['tying back long hair.', 'wearing safety goggles.', 'performing each step quickly.', 'wiping up spills immediately.']
+Answer: performing each step quickly.
+
+Model Response:
+Concepts: [
+    {
+        "name": "tying back long hair",
+        "description": "A safety measure to prevent hair from catching fire or being caught in equipment."
+    },
+    {
+        "name": "wearing safety goggles",
+        "description": "Protective eyewear that guards the wearer's eyes from hazardous materials and flying debris."
+    },
+    {
+        "name": "performing each step quickly",
+        "description": "Executing laboratory procedures in a hurried manner without due diligence."
+    },
+    {
+        "name": "wiping up spills immediately",
+        "description": "Prompt cleanup of spills to avoid accidents and potential chemical exposures."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "tying back long hair",
+        "relationship": "is a form of",
+        "related_concept": "laboratory safety",
+        "description": "Prevents accidents related to hair entanglement or fire."
+    },
+    {
+        "concept": "wearing safety goggles",
+        "relationship": "is a form of",
+        "related_concept": "laboratory safety",
+        "description": "Prevents eye injuries from chemical splashes or debris."
+    },
+    {
+        "concept": "performing each step quickly",
+        "relationship": "contradicts",
+        "related_concept": "laboratory safety",
+        "description": "Hurrying can lead to mistakes and accidents, compromising safety."
+    },
+    {
+        "concept": "wiping up spills immediately",
+        "relationship": "is a form of",
+        "related_concept": "laboratory safety",
+        "description": "Prevents slip-and-fall accidents and reduces chemical exposure risk."
+    }
+]
+
+Model Answer: {
+    "answer": "performing each step quickly",
+    "reasoning": "Among the options provided, 'performing each step quickly' contradicts the principles of laboratory safety. Effective laboratory practice requires careful attention to detail and not rushing through the procedures to minimize the risk of accidents and ensure accuracy. The other options listed (tying back long hair, wearing safety goggles, and wiping up spills immediately) are all recognized safe practices aimed at preventing accidents and exposure to hazardous materials."
+}

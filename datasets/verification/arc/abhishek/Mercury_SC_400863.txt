@@ -1,0 +1,57 @@
+Key: Mercury_SC_400863
+
+Question: There are four stages to the life cycle of a butterfly: adult, pupa, egg, and caterpillar. Which of these occurs first?
+Options: ['egg', 'adult', 'pupa', 'caterpillar']
+Answer: egg
+
+Model Response:
+Concepts: [
+    {
+        "name": "egg",
+        "description": "The first stage of a butterfly's life cycle where it begins as an embryo."
+    },
+    {
+        "name": "adult",
+        "description": "The final stage of the butterfly life cycle where it is fully grown and can reproduce."
+    },
+    {
+        "name": "pupa",
+        "description": "The third stage in the life cycle of a butterfly where the caterpillar transforms into an adult."
+    },
+    {
+        "name": "caterpillar",
+        "description": "The second stage of a butterfly's life cycle, where it eats and grows before becoming a pupa."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "egg",
+        "relationship": "develops into",
+        "related_concept": "caterpillar",
+        "description": "After hatching, the egg turns into a caterpillar."
+    },
+    {
+        "concept": "caterpillar",
+        "relationship": "transforms into",
+        "related_concept": "pupa",
+        "description": "The caterpillar stage culminates in metamorphosis into a pupa."
+    },
+    {
+        "concept": "pupa",
+        "relationship": "develops into",
+        "related_concept": "adult",
+        "description": "The pupa stage concludes with the emergence of a fully formed adult butterfly."
+    },
+    {
+        "concept": "adult",
+        "relationship": "lays",
+        "related_concept": "egg",
+        "description": "The adult butterfly lays eggs, starting the life cycle anew."
+    }
+]
+
+Model Answer: {
+    "answer": "egg",
+    "reasoning": "Based on the life cycle of a butterfly, the sequence begins with the 'egg' stage, where it is laid by the adult butterfly. This is followed by the 'caterpillar' stage, where the egg hatches into a larva (caterpillar), which then becomes a 'pupa' (chrysalis) before finally transforming into the 'adult' butterfly. The option 'egg' is the first stage in the life cycle sequence, making it the correct answer."
+}

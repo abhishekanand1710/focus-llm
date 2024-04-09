@@ -1,0 +1,75 @@
+Key: Mercury_7120698
+
+Question: A scientist working on a new package design wants to use a material that is highly recyclable, biodegradable, and inexpensive. The best material for the package design is
+Options: ['aluminum.', 'cardboard.', 'plastic.', 'glass.']
+Answer: cardboard.
+
+Model Response:
+Concepts: [
+    {
+        "name": "recyclable",
+        "description": "Materials that can be processed and used again"
+    },
+    {
+        "name": "biodegradable",
+        "description": "Materials that can decompose naturally by biological processes"
+    },
+    {
+        "name": "inexpensive",
+        "description": "Materials that are low in cost"
+    },
+    {
+        "name": "aluminum",
+        "description": "A durable, recyclable metal used in packaging"
+    },
+    {
+        "name": "cardboard",
+        "description": "A paper-based material that is biodegradable and recyclable"
+    },
+    {
+        "name": "plastic",
+        "description": "A synthetic material that can be recyclable but often not biodegradable"
+    },
+    {
+        "name": "glass",
+        "description": "A durable, recyclable material but relatively expensive and not biodegradable"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "aluminum",
+        "relationship": "is",
+        "related_concept": "recyclable",
+        "description": "Aluminum is highly recyclable but not biodegradable"
+    },
+    {
+        "concept": "cardboard",
+        "relationship": "is",
+        "related_concept": "biodegradable",
+        "description": "Cardboard is both recyclable and biodegradable"
+    },
+    {
+        "concept": "plastic",
+        "relationship": "is not typically",
+        "related_concept": "biodegradable",
+        "description": "Plastic is often recyclable but not biodegradable"
+    },
+    {
+        "concept": "glass",
+        "relationship": "is",
+        "related_concept": "recyclable",
+        "description": "Glass is recyclable but not biodegradable and can be expensive"
+    },
+    {
+        "concept": "cardboard",
+        "relationship": "is",
+        "related_concept": "inexpensive",
+        "description": "Cardboard is low in cost compared to other materials"
+    }
+]
+
+Model Answer: {
+    "answer": "cardboard.",
+    "reasoning": "Cardboard meets all the criteria specified as it is highly recyclable, biodegradable, and inexpensive, making it the best option among the given choices for the package design."
+}

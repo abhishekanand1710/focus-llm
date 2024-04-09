@@ -1,0 +1,63 @@
+Key: Mercury_177328
+
+Question: Which of the following would make the best insulator against the flow of electricity?
+Options: ['copper wire', 'steel tubing', 'plastic tape', 'aluminum foil']
+Answer: plastic tape
+
+Model Response:
+Concepts: [
+    {
+        "name": "copper wire",
+        "description": "A conductor of electricity commonly used in electrical wiring."
+    },
+    {
+        "name": "steel tubing",
+        "description": "A type of metal tube; conducts electricity but less so than copper."
+    },
+    {
+        "name": "plastic tape",
+        "description": "A type of tape made from plastic, known for its insulating properties against electricity."
+    },
+    {
+        "name": "aluminum foil",
+        "description": "A thin sheet of aluminum, conducts electricity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "copper wire",
+        "relationship": "conducts better than",
+        "related_concept": "steel tubing",
+        "description": "Copper wire is a better conductor of electricity than steel tubing."
+    },
+    {
+        "concept": "plastic tape",
+        "relationship": "does not conduct",
+        "related_concept": "electricity",
+        "description": "Plastic tape does not conduct electricity, making it an insulator."
+    },
+    {
+        "concept": "aluminum foil",
+        "relationship": "conducts",
+        "related_concept": "electricity",
+        "description": "Aluminum foil conducts electricity."
+    },
+    {
+        "concept": "copper wire",
+        "relationship": "conducts",
+        "related_concept": "electricity",
+        "description": "Copper wire conducts electricity."
+    },
+    {
+        "concept": "steel tubing",
+        "relationship": "conducts",
+        "related_concept": "electricity",
+        "description": "Steel tubing conducts electricity, though not as effectively as copper."
+    }
+]
+
+Model Answer: {
+    "answer": "plastic tape",
+    "reasoning": "Among the given options, plastic tape is the only material that does not conduct electricity, making it an effective insulator. In contrast, copper wire, steel tubing, and aluminum foil are all conductors of electricity."
+}

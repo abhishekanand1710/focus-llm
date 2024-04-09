@@ -1,0 +1,81 @@
+Key: NYSEDREGENTS_2007_8_31
+
+Question: During which phase change is heat energy absorbed by a substance?
+Options: ['liquid to gas', 'gas to solid', 'liquid to solid', 'gas to liquid']
+Answer: liquid to gas
+
+Model Response:
+Concepts: [
+    {
+        "name": "Phase Change",
+        "description": "A transition of matter from one state (solid, liquid, gas) to another."
+    },
+    {
+        "name": "Heat Energy",
+        "description": "The energy transferred from one system to another that is not work."
+    },
+    {
+        "name": "Liquid to Gas",
+        "description": "Phase change where a liquid becomes a gas, also known as vaporization."
+    },
+    {
+        "name": "Gas to Solid",
+        "description": "Phase change where a gas becomes a solid without becoming a liquid first, known as deposition."
+    },
+    {
+        "name": "Liquid to Solid",
+        "description": "Phase change where a liquid becomes a solid, known as freezing."
+    },
+    {
+        "name": "Gas to Liquid",
+        "description": "Phase change where a gas becomes a liquid, known as condensation."
+    },
+    {
+        "name": "Absorbed",
+        "description": "Energy taken in by a substance during a process."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Phase Change",
+        "relationship": "occurs with",
+        "related_concept": "Heat Energy",
+        "description": "Heat energy is either absorbed or released during a phase change."
+    },
+    {
+        "concept": "Liquid to Gas",
+        "relationship": "requires",
+        "related_concept": "Heat Energy",
+        "description": "Heat energy is absorbed during the phase change from liquid to gas."
+    },
+    {
+        "concept": "Gas to Solid",
+        "relationship": "releases",
+        "related_concept": "Heat Energy",
+        "description": "Heat energy is released during the phase change from gas to solid."
+    },
+    {
+        "concept": "Liquid to Solid",
+        "relationship": "releases",
+        "related_concept": "Heat Energy",
+        "description": "Heat energy is released during the phase change from liquid to solid."
+    },
+    {
+        "concept": "Gas to Liquid",
+        "relationship": "releases",
+        "related_concept": "Heat Energy",
+        "description": "Heat energy is released during the phase change from gas to liquid."
+    },
+    {
+        "concept": "Heat Energy",
+        "relationship": "absorbed by",
+        "related_concept": "Liquid to Gas",
+        "description": "Liquid to Gas is the phase change where heat energy is absorbed."
+    }
+]
+
+Model Answer: {
+    "answer": "liquid to gas",
+    "reasoning": "The phase change from liquid to gas, known as vaporization, is the process during which heat energy is absorbed by a substance. This is necessary to overcome the intermolecular forces holding the liquid phase together, allowing it to transition into a gaseous state. Among the given options, 'liquid to gas' is the phase change where heat energy is specifically absorbed, aligning with the concepts and relationships identified."
+}

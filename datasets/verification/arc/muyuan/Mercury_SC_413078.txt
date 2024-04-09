@@ -1,0 +1,59 @@
+Key: Mercury_SC_413078
+
+Question: Which event can cause a large rock to become soil over time?
+Options: ['decaying', 'an earthquake', 'a landslide', 'weathering']
+Answer: weathering
+
+Model Response:
+Concepts: [
+    {
+        "name": "decaying",
+        "description": "The process by which organic matter breaks down into simpler forms of matter."
+    },
+    {
+        "name": "an earthquake",
+        "description": "A sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust or volcanic action."
+    },
+    {
+        "name": "a landslide",
+        "description": "The sliding down of a mass of earth or rock from a mountain or cliff."
+    },
+    {
+        "name": "weathering",
+        "description": "The process of wearing down or changing the appearance or texture of (rocks) by long exposure to the air, water, and other natural agents."
+    },
+    {
+        "name": "soil",
+        "description": "The top layer of the earth's surface in which plants grow, a mixture of organic remains, clay, and rock particles."
+    },
+    {
+        "name": "rock",
+        "description": "A solid mineral material forming part of the surface of the earth and other similar planets, exposed on the surface or underlying the soil."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "rock",
+        "relationship": "transforms_into",
+        "related_concept": "soil",
+        "description": "Rock can transform into soil over time through the process of weathering."
+    },
+    {
+        "concept": "weathering",
+        "relationship": "causes",
+        "related_concept": "rock",
+        "description": "Weathering causes the breakdown of rock into smaller particles that can become soil."
+    },
+    {
+        "concept": "soil",
+        "relationship": "formed_by",
+        "related_concept": "weathering",
+        "description": "Soil is formed by the process of weathering breaking down rocks and organic matter over time."
+    }
+]
+
+Model Answer: {
+    "answer": "weathering",
+    "reasoning": "Weathering is the process that causes large rocks to break down over time into smaller particles, which can accumulate and form soil. Unlike decaying, which primarily involves organic matter, earthquakes, which cause sudden ground movements, or landslides, which involve the mass movement of soil and rock downhill, weathering directly contributes to the gradual disintegration of rocks into soil through exposure to air, water, and biological activity."
+}

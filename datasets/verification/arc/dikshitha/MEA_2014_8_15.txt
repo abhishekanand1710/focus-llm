@@ -1,0 +1,81 @@
+Key: MEA_2014_8_15
+
+Question: Bees can see wavelengths of only yellow, blue, and ultraviolet light. Many plant flowers consist of yellow, blue, and ultraviolet markings that are near the center of the flower. Which sentence describes which organisms benefit from this and explains why?
+Options: ['Only plants benefit, because bees are unable to reach a food source on the plant.', 'Only bees benefit, because flowers are damaged by bees.', 'Neither bees nor plants benefit, because it does not help either to reproduce.', 'Both bees and plants benefit, because bees find food and plants are aided in reproduction.']
+Answer: Both bees and plants benefit, because bees find food and plants are aided in reproduction.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Bees",
+        "description": "Insects that pollinate plants and collect nectar for food."
+    },
+    {
+        "name": "Plants",
+        "description": "Organisms that undergo photosynthesis and have flowers for reproduction."
+    },
+    {
+        "name": "Wavelengths of Light",
+        "description": "Different colors of light visible to certain organisms, including yellow, blue, and ultraviolet."
+    },
+    {
+        "name": "Ultraviolet Markings",
+        "description": "Patterns on flowers not visible to humans but visible to bees, helping them locate the flower\u2019s center."
+    },
+    {
+        "name": "Pollination",
+        "description": "The transfer of pollen from the male parts of a flower to the female parts of a flower, leading to fertilization."
+    },
+    {
+        "name": "Nectar",
+        "description": "A sweet liquid produced by plants to attract pollinators."
+    },
+    {
+        "name": "Reproduction",
+        "description": "The biological process by which new individual organisms are produced."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Bees",
+        "relationship": "can see",
+        "related_concept": "Wavelengths of Light",
+        "description": "Bees can see yellow, blue, and ultraviolet light, aiding in locating flowers."
+    },
+    {
+        "concept": "Plants",
+        "relationship": "display",
+        "related_concept": "Ultraviolet Markings",
+        "description": "Plants have ultraviolet markings to attract bees for pollination."
+    },
+    {
+        "concept": "Bees",
+        "relationship": "collect",
+        "related_concept": "Nectar",
+        "description": "Bees collect nectar from plants, serving as a food source."
+    },
+    {
+        "concept": "Plants",
+        "relationship": "are aided in",
+        "related_concept": "Reproduction",
+        "description": "Plants are aided in reproduction through the process of pollination by bees."
+    },
+    {
+        "concept": "Bees",
+        "relationship": "aid",
+        "related_concept": "Plants",
+        "description": "Bees aid plants by pollinating them, which is crucial for the plant reproduction process."
+    },
+    {
+        "concept": "Ultraviolet Markings",
+        "relationship": "guide",
+        "related_concept": "Bees",
+        "description": "Ultraviolet markings guide bees to the center of flowers for efficient pollination."
+    }
+]
+
+Model Answer: {
+    "answer": "Both bees and plants benefit, because bees find food and plants are aided in reproduction.",
+    "reasoning": "The relationship between bees and plants is mutually beneficial: bees are attracted to plants by ultraviolet markings, which guide them to nectar, serving as their food source. In the process of searching for nectar, bees inadvertently pollinate plants, which aids in the plants' reproductive process. Hence, this interdependency ensures that both species benefit, with bees securing a food source and plants receiving assistance in their reproduction."
+}

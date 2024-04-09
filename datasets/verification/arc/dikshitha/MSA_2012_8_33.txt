@@ -1,0 +1,79 @@
+Key: MSA_2012_8_33
+
+Question: A group of students plans to build a model of a local pond habitat. Which model best represents an environment similar to a pond?
+Options: ['a sealed plastic bottle containing insects and algae from a pond', 'a classroom aquarium containing plants and animals bought from a store', 'a classroom aquarium containing freshwater, non-native plants, and non-native animals', 'a small plastic outdoor pool containing freshwater, native plants, and native animals']
+Answer: a small plastic outdoor pool containing freshwater, native plants, and native animals
+
+Model Response:
+Concepts: [
+    {
+        "name": "Local pond habitat",
+        "description": "A natural body of standing water, small in size, containing local flora and fauna."
+    },
+    {
+        "name": "Sealed plastic bottle",
+        "description": "An enclosed container limiting exchange with the external environment."
+    },
+    {
+        "name": "Classroom aquarium",
+        "description": "A glass or plastic tank in an educational setting for housing aquatic plants and animals."
+    },
+    {
+        "name": "Plants and animals bought from a store",
+        "description": "Organisms that are not necessarily native and are obtained from commercial suppliers for educational or decorative purposes."
+    },
+    {
+        "name": "Freshwater",
+        "description": "Water that has low concentrations of dissolved salts, characteristic of ponds, lakes, and rivers."
+    },
+    {
+        "name": "Non-native plants and animals",
+        "description": "Species that do not naturally occur in the local ecosystem, often introduced by human activity."
+    },
+    {
+        "name": "Native plants and animals",
+        "description": "Species that naturally occur and have evolved within a specific ecosystem or geographic area."
+    },
+    {
+        "name": "Small plastic outdoor pool",
+        "description": "A synthetic, shallow basin placed outdoors used to contain water and simulate aquatic conditions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sealed plastic bottle",
+        "relationship": "limits",
+        "related_concept": "exchange with the external environment",
+        "description": "A sealed container prevents natural exchanges with the surroundings, unlike an open ecosystem."
+    },
+    {
+        "concept": "Classroom aquarium",
+        "relationship": "houses",
+        "related_concept": "non-native plants and animals",
+        "description": "Aquariums can be used to keep species that are not from the local environment."
+    },
+    {
+        "concept": "Classroom aquarium",
+        "relationship": "houses",
+        "related_concept": "plants and animals bought from a store",
+        "description": "Aquariums in classrooms often contain organisms bought for education or decoration."
+    },
+    {
+        "concept": "Native plants and animals",
+        "relationship": "belong to",
+        "related_concept": "Local pond habitat",
+        "description": "The local pond habitat naturally includes native flora and fauna."
+    },
+    {
+        "concept": "Small plastic outdoor pool",
+        "relationship": "simulates",
+        "related_concept": "Local pond habitat",
+        "description": "When filled with freshwater and local organisms, it can mimic a natural pond environment."
+    }
+]
+
+Model Answer: {
+    "answer": "a small plastic outdoor pool containing freshwater, native plants, and native animals",
+    "reasoning": "The best representation of an environment similar to a local pond would be a model that mimics the original habitat as closely as possible. A small plastic outdoor pool can simulate the pond's physical environment and, by containing fresh water along with native plants and animals, can effectively reproduce the biological and ecological conditions of a local pond habitat. The inclusion of native species ensures ecological relevance and promotes understanding of the local natural environment, unlike options with non-native or store-bought specimens, or those presented in a sealed system that prevents natural exchanges with the surrounding environment."
+}

@@ -1,0 +1,71 @@
+Key: Mercury_400940
+
+Question: Which conclusion should the students make from the information in the table?
+Options: ['There are more plant-like organisms.', 'There are more animal-like organisms.', 'The plant-like organisms cannot move by themselves.', 'The animal-like organisms eat the plant-like organisms.']
+Answer: There are more plant-like organisms.
+
+Model Response:
+Concepts: [
+    {
+        "name": "plant-like organisms",
+        "description": "Organisms with characteristics similar to plants, typically autotrophic and stationary."
+    },
+    {
+        "name": "animal-like organisms",
+        "description": "Organisms with characteristics similar to animals, typically heterotrophic and capable of movement."
+    },
+    {
+        "name": "movement",
+        "description": "The ability to change physical location or position."
+    },
+    {
+        "name": "autotrophic",
+        "description": "Organisms capable of producing their own food through photosynthesis or chemosynthesis."
+    },
+    {
+        "name": "heterotrophic",
+        "description": "Organisms that cannot synthesize their own food and depend on other organisms for nutrition."
+    },
+    {
+        "name": "photosynthesis",
+        "description": "A process used by plants and other organisms to convert light energy into chemical energy."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "plant-like organisms",
+        "relationship": "are",
+        "related_concept": "autotrophic",
+        "description": "Plant-like organisms are capable of producing their own food."
+    },
+    {
+        "concept": "animal-like organisms",
+        "relationship": "are",
+        "related_concept": "heterotrophic",
+        "description": "Animal-like organisms depend on other organisms for food."
+    },
+    {
+        "concept": "animal-like organisms",
+        "relationship": "can",
+        "related_concept": "movement",
+        "description": "Animal-like organisms are capable of movement."
+    },
+    {
+        "concept": "plant-like organisms",
+        "relationship": "cannot",
+        "related_concept": "movement",
+        "description": "Plant-like organisms typically cannot move by themselves."
+    },
+    {
+        "concept": "heterotrophic",
+        "relationship": "eat",
+        "related_concept": "autotrophic",
+        "description": "Heterotrophic organisms may consume autotrophic organisms for nutrition."
+    }
+]
+
+Model Answer: {
+    "answer": "The plant-like organisms cannot move by themselves.",
+    "reasoning": "Based on the concepts and relationships identified, it is established that plant-like organisms are typically stationary and cannot move by themselves. This conclusion is supported by their autotrophic nature, requiring them to stay in one place to carry out photosynthesis, in contrast to animal-like organisms that are capable of movement."
+}

@@ -1,0 +1,71 @@
+Key: MCAS_2003_5_6
+
+Question: Gavin has two rocks. Both rocks are made up entirely of the same mineral. What other property of his two rocks is most likely to be the same?
+Options: ['size', 'shape', 'color', 'weight']
+Answer: color
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rocks",
+        "description": "Solid aggregates of minerals forming significant parts of the earth's crust."
+    },
+    {
+        "name": "Mineral",
+        "description": "A naturally occurring, inorganic solid with a definite chemical composition and a crystalline structure."
+    },
+    {
+        "name": "Color",
+        "description": "A property of an object or material reflecting light in a particular way to produce a visual sensation of hue, saturation, and brightness."
+    },
+    {
+        "name": "Size",
+        "description": "The physical dimension or magnitude of an object."
+    },
+    {
+        "name": "Shape",
+        "description": "The external form or appearance of an object defined by its outline or boundary."
+    },
+    {
+        "name": "Weight",
+        "description": "The force exerted on an object due to gravity, often measured in units such as kilograms or pounds."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rocks",
+        "relationship": "composed_of",
+        "related_concept": "Mineral",
+        "description": "Rocks are made up of minerals."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "determines_property",
+        "related_concept": "Color",
+        "description": "The type of mineral can determine the color of a rock."
+    },
+    {
+        "concept": "Rocks",
+        "relationship": "has_property",
+        "related_concept": "Size",
+        "description": "Rocks can vary in size."
+    },
+    {
+        "concept": "Rocks",
+        "relationship": "has_property",
+        "related_concept": "Shape",
+        "description": "Rocks can vary in shape."
+    },
+    {
+        "concept": "Rocks",
+        "relationship": "has_property",
+        "related_concept": "Weight",
+        "description": "Rocks have weight, which can vary based on size and density."
+    }
+]
+
+Model Answer: {
+    "answer": "color",
+    "reasoning": "Since both rocks are made up entirely of the same mineral, it is most likely that their color will be the same. This is because the color of a rock is primarily determined by its mineral composition. While size, shape, and weight can vary significantly even among rocks composed of the same minerals, color is a property directly tied to the chemical and physical characteristics of the mineral(s) present."
+}

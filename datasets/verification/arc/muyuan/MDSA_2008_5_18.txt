@@ -1,0 +1,61 @@
+Key: MDSA_2008_5_18
+
+Question: People use water in different ways. Which of these activities wastes water?
+Options: ['filling a glass with water', 'leaving a faucet on', 'soaking vegetables in water to clean them', 'adding cups of water as directed by a recipe']
+Answer: leaving a faucet on
+
+Model Response:
+Concepts: [
+    {
+        "name": "filling a glass with water",
+        "description": "Adding water to a glass until it reaches a desired level for drinking."
+    },
+    {
+        "name": "leaving a faucet on",
+        "description": "Maintaining an open valve on a water outlet, thus allowing water to flow freely without immediate use."
+    },
+    {
+        "name": "soaking vegetables in water to clean them",
+        "description": "Submerging vegetables in water to remove dirt, pesticides, or other contaminants."
+    },
+    {
+        "name": "adding cups of water as directed by a recipe",
+        "description": "Including a specified amount of water in a cooking process, as required by a food recipe."
+    },
+    {
+        "name": "water waste",
+        "description": "The act of using water without a productive outcome, usually leading to unnecessary consumption and depletion of resources."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "leaving a faucet on",
+        "relationship": "causes",
+        "related_concept": "water waste",
+        "description": "Allowing a faucet to remain open without using the water leads to unnecessary water flow and waste."
+    },
+    {
+        "concept": "filling a glass with water",
+        "relationship": "does not cause",
+        "related_concept": "water waste",
+        "description": "Filling a glass with water for the purpose of drinking uses water productively."
+    },
+    {
+        "concept": "soaking vegetables in water to clean them",
+        "relationship": "does not cause",
+        "related_concept": "water waste",
+        "description": "Soaking vegetables in water is a method of cleaning that uses water for a necessary and productive purpose."
+    },
+    {
+        "concept": "adding cups of water as directed by a recipe",
+        "relationship": "does not cause",
+        "related_concept": "water waste",
+        "description": "Following a recipe's instructions to add water is a purposeful use of water in cooking."
+    }
+]
+
+Model Answer: {
+    "answer": "leaving a faucet on",
+    "reasoning": "Leaving a faucet on is considered wasteful because it involves letting water run without being used for any productive purpose. Unlike the other activities listed, which use water for specific, necessary tasks (such as drinking, cleaning vegetables, and cooking), leaving a faucet on does not serve a constructive use and leads to unnecessary water waste."
+}

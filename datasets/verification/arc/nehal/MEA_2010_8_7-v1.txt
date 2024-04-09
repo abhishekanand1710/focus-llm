@@ -1,0 +1,73 @@
+Key: MEA_2010_8_7-v1
+
+Question: Giant redwood trees change energy from one form to another. How is energy changed by the trees?
+Options: ['They change chemical energy into kinetic energy.', 'They change solar energy into chemical energy.', 'They change wind energy into heat energy.', 'They change mechanical energy into solar energy.']
+Answer: They change solar energy into chemical energy.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Giant redwood trees",
+        "description": "Tall trees capable of reaching over 300 feet, known for their capacity to photosynthesize."
+    },
+    {
+        "name": "Chemical energy",
+        "description": "A form of potential energy stored in chemical bonds between atoms."
+    },
+    {
+        "name": "Kinetic energy",
+        "description": "The energy of motion."
+    },
+    {
+        "name": "Solar energy",
+        "description": "Energy from the sun."
+    },
+    {
+        "name": "Photosynthesis",
+        "description": "The process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water."
+    },
+    {
+        "name": "Wind energy",
+        "description": "The process of creating electricity using the wind, or air flows that occur naturally in the earth's atmosphere."
+    },
+    {
+        "name": "Heat energy",
+        "description": "A form of energy associated with the movement of atoms and molecules in any material."
+    },
+    {
+        "name": "Mechanical energy",
+        "description": "The sum of potential energy and kinetic energy."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Giant redwood trees",
+        "relationship": "utilize",
+        "related_concept": "Solar energy",
+        "description": "Giant redwood trees utilize solar energy during photosynthesis."
+    },
+    {
+        "concept": "Solar energy",
+        "relationship": "is converted into",
+        "related_concept": "Chemical energy",
+        "description": "During photosynthesis, solar energy is converted into chemical energy."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "converts",
+        "related_concept": "Solar energy",
+        "description": "Photosynthesis converts solar energy into chemical energy in plants."
+    },
+    {
+        "concept": "Chemical energy",
+        "relationship": "stored in",
+        "related_concept": "Giant redwood trees",
+        "description": "The chemical energy is stored in the cells of the giant redwood trees as a result of photosynthesis."
+    }
+]
+
+Model Answer: {
+    "answer": "They change solar energy into chemical energy.",
+    "reasoning": "The process of photosynthesis in giant redwood trees involves the absorption of solar energy and its conversion into chemical energy, which is stored in the cells of the trees. This process is fundamental to the energy transformation highlighted in the correct option."
+}

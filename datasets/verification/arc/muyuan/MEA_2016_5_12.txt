@@ -1,0 +1,75 @@
+Key: MEA_2016_5_12
+
+Question: A group of Canada geese left a Florida lake in the spring. The geese arrived at a Maine lake 2,000 km away in 40 days. If the geese traveled at a constant rate, how far did the geese travel on the first day?
+Options: ['5 km', '20 km', '40 km', '50 km']
+Answer: 50 km
+
+Model Response:
+Concepts: [
+    {
+        "name": "Canada geese",
+        "description": "A species of bird known for its migratory behavior."
+    },
+    {
+        "name": "Florida lake",
+        "description": "A starting point of the geese's migration."
+    },
+    {
+        "name": "Maine lake",
+        "description": "The destination of the geese's migration."
+    },
+    {
+        "name": "Spring",
+        "description": "A season often associated with migration for many bird species."
+    },
+    {
+        "name": "2000 km",
+        "description": "The total distance traveled by the geese."
+    },
+    {
+        "name": "40 days",
+        "description": "The total time taken for the migration."
+    },
+    {
+        "name": "Constant rate",
+        "description": "A consistent speed or progress over time."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Canada geese",
+        "relationship": "migrates from",
+        "related_concept": "Florida lake",
+        "description": "The Canada geese start their migration from a lake in Florida."
+    },
+    {
+        "concept": "Canada geese",
+        "relationship": "arrive at",
+        "related_concept": "Maine lake",
+        "description": "The Canada geese finish their migration at a lake in Maine."
+    },
+    {
+        "concept": "Canada geese",
+        "relationship": "travels",
+        "related_concept": "2000 km",
+        "description": "The distance the Canada geese cover during their migration."
+    },
+    {
+        "concept": "2000 km",
+        "relationship": "covered in",
+        "related_concept": "40 days",
+        "description": "The distance is covered over a period of 40 days."
+    },
+    {
+        "concept": "40 days",
+        "relationship": "time taken for",
+        "related_concept": "constant rate",
+        "description": "The journey is made at a consistent rate of progress."
+    }
+]
+
+Model Answer: {
+    "answer": "50 km",
+    "reasoning": "To find the distance traveled on the first day at a constant rate, divide the total distance (2000 km) by the total number of days (40 days). This results in 2000 km / 40 days = 50 km per day. Therefore, if the geese traveled at a constant rate, they traveled 50 km on the first day."
+}

@@ -1,0 +1,71 @@
+Key: Mercury_417136
+
+Question: Estuaries are called "the nurseries of the sea" because many species lay eggs and develop their young in estuaries. Which two features of estuaries support this role most?
+Options: ['concentrated nutrients and a steep salt gradient', 'abundant shelter and concentrated nutrients', 'a steep salt gradient and shallow water', 'shallow water and abundant shelter']
+Answer: abundant shelter and concentrated nutrients
+
+Model Response:
+Concepts: [
+    {
+        "name": "Estuaries",
+        "description": "Transitional areas where rivers meet the sea, mixing fresh water with saltwater"
+    },
+    {
+        "name": "Nurseries of the sea",
+        "description": "Areas where marine species lay eggs and raise their young"
+    },
+    {
+        "name": "Concentrated nutrients",
+        "description": "Areas with a high availability of essential nutrients for marine life growth"
+    },
+    {
+        "name": "Steep salt gradient",
+        "description": "A rapid change in salinity over a short distance"
+    },
+    {
+        "name": "Abundant shelter",
+        "description": "Availability of places where young marine life can hide and be protected"
+    },
+    {
+        "name": "Shallow water",
+        "description": "Areas where the water depth is low, allowing sunlight penetration and plant growth"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Estuaries",
+        "relationship": "provides",
+        "related_concept": "Concentrated nutrients",
+        "description": "Estuaries provide a high concentration of nutrients due to the mixing of river and sea waters."
+    },
+    {
+        "concept": "Estuaries",
+        "relationship": "offer",
+        "related_concept": "Abundant shelter",
+        "description": "The structure of estuaries offers abundant places for young marine animals to find shelter."
+    },
+    {
+        "concept": "Estuaries",
+        "relationship": "feature",
+        "related_concept": "Shallow water",
+        "description": "Estuaries typically feature shallow waters, beneficial for the growth of marine life."
+    },
+    {
+        "concept": "Concentrated nutrients",
+        "relationship": "supports",
+        "related_concept": "Nurseries of the sea",
+        "description": "Concentrated nutrients support the growth and development of young marine species."
+    },
+    {
+        "concept": "Abundant shelter",
+        "relationship": "supports",
+        "related_concept": "Nurseries of the sea",
+        "description": "Abundant shelter in estuaries protects young marine life, aiding their development."
+    }
+]
+
+Model Answer: {
+    "answer": "['abundant shelter and concentrated nutrients']",
+    "reasoning": "Abundant shelter in estuaries provides protection for young marine species, which is crucial for their development and survival. Additionally, the concentrated nutrients in estuaries supply the essential dietary needs for growing marine life. These two features make estuaries highly suitable as nurseries of the sea, supporting the initial development stages of many marine species."
+}

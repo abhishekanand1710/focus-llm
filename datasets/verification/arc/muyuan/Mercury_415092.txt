@@ -1,0 +1,83 @@
+Key: Mercury_415092
+
+Question: Examine each of these chemical equations to determine which equation is correctly balanced.
+Options: ['Mg(NO_{3})_{2} + K_{2}CO_{3} -> MgCO_{3} + KNO_{3}', 'Mg(NO_{3})_{2} + K_{2}CO_{3} -> MgCO_{3} + 2KNO_{3}', '2Mg(NO_{3})_{2} + K_{2}CO_{3} -> 2MgCO_{3} + KNO_{3}', 'Mg(NO_{3})_{2} + 2K_{2}CO_{3} -> MgCO_{3} + 2KNO_{3}']
+Answer: Mg(NO_{3})_{2} + K_{2}CO_{3} -> MgCO_{3} + 2KNO_{3}
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical reaction",
+        "description": "A process that leads to the chemical transformation of one set of chemical substances to another."
+    },
+    {
+        "name": "Balanced equation",
+        "description": "A chemical equation where the number of atoms for each element in the reaction and the total charge are the same on both the reactants and the products side."
+    },
+    {
+        "name": "Reactants",
+        "description": "Substances consumed during a chemical reaction."
+    },
+    {
+        "name": "Products",
+        "description": "Substances formed as a result of a chemical reaction."
+    },
+    {
+        "name": "Mg(NO3)2",
+        "description": "Magnesium nitrate, a reactant in this context."
+    },
+    {
+        "name": "K2CO3",
+        "description": "Potassium carbonate, a reactant in this context."
+    },
+    {
+        "name": "MgCO3",
+        "description": "Magnesium carbonate, a product in this context."
+    },
+    {
+        "name": "KNO3",
+        "description": "Potassium nitrate, a product in this context."
+    },
+    {
+        "name": "Law of Conservation of Mass",
+        "description": "Matter is neither created nor destroyed in a chemical reaction."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical reaction",
+        "relationship": "involves",
+        "related_concept": "Reactants",
+        "description": "Reactants are the starting materials in a chemical reaction."
+    },
+    {
+        "concept": "Chemical reaction",
+        "relationship": "produces",
+        "related_concept": "Products",
+        "description": "Products are the substances generated from a chemical reaction."
+    },
+    {
+        "concept": "Reactants",
+        "relationship": "converted_to",
+        "related_concept": "Products",
+        "description": "Reactants are transformed into products during a chemical reaction."
+    },
+    {
+        "concept": "Balanced equation",
+        "relationship": "follows",
+        "related_concept": "Law of Conservation of Mass",
+        "description": "The balancing of a chemical equation ensures that the law of conservation of mass is obeyed."
+    },
+    {
+        "concept": "Mg(NO3)2 and K2CO3",
+        "relationship": "react_to_form",
+        "related_concept": "MgCO3 and KNO3",
+        "description": "Magnesium nitrate reacts with potassium carbonate to produce magnesium carbonate and potassium nitrate."
+    }
+]
+
+Model Answer: {
+    "answer": "Mg(NO3)2 + K2CO3 -> MgCO3 + 2KNO3",
+    "reasoning": "Upon examination, this equation appropriately adheres to the Law of Conservation of Mass, as the number of atoms for each element is the same on both sides of the reaction. Specifically, there's 1 Mg, 2 N, 6 O from the nitrate, 1 C, 3 O from carbonate, and 2 K on both sides of the equation."
+}

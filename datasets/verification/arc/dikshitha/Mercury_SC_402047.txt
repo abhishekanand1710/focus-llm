@@ -1,0 +1,87 @@
+Key: Mercury_SC_402047
+
+Question: What do ice, a rock, and a piece of aluminum have in common?
+Options: ['They are all solids.', 'They are all liquids.', 'They are all minerals.', 'They are all elements.']
+Answer: They are all solids.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Solid",
+        "description": "A state of matter characterized by particles arranged such that their shape and volume are relatively stable."
+    },
+    {
+        "name": "Liquid",
+        "description": "A state of matter with a definite volume but no fixed shape, adapting to the container it fills."
+    },
+    {
+        "name": "Mineral",
+        "description": "A naturally occurring inorganic substance with a definite chemical composition and crystalline structure."
+    },
+    {
+        "name": "Element",
+        "description": "A substance that cannot be broken down into simpler substances by chemical means."
+    },
+    {
+        "name": "Ice",
+        "description": "Frozen water, a molecular compound, in solid state."
+    },
+    {
+        "name": "Rock",
+        "description": "A naturally occurring solid aggregate of one or more minerals or mineraloids."
+    },
+    {
+        "name": "Aluminum",
+        "description": "A silvery-white, soft, nonmagnetic, ductile metal in the boron group."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Ice",
+        "relationship": "is a",
+        "related_concept": "Solid",
+        "description": "Ice is water in its solid state."
+    },
+    {
+        "concept": "Rock",
+        "relationship": "is a",
+        "related_concept": "Solid",
+        "description": "Rock is a solid aggregate of minerals."
+    },
+    {
+        "concept": "Aluminum",
+        "relationship": "is a",
+        "related_concept": "Element",
+        "description": "Aluminum is an element, a basic substance that cannot be simplified."
+    },
+    {
+        "concept": "Solid",
+        "relationship": "is not",
+        "related_concept": "Liquid",
+        "description": "Solids have a fixed shape unlike liquids."
+    },
+    {
+        "concept": "Ice",
+        "relationship": "is not",
+        "related_concept": "Mineral",
+        "description": "Although ice is a naturally occurring substance, it's water and not a mineral."
+    },
+    {
+        "concept": "Rock",
+        "relationship": "contains",
+        "related_concept": "Mineral",
+        "description": "Rocks can be composed of one or more minerals."
+    },
+    {
+        "concept": "Aluminum",
+        "relationship": "is not",
+        "related_concept": "Mineral",
+        "description": "Aluminum is an element, which is a pure chemical substance, not a composite material like minerals."
+    }
+]
+
+Model Answer: {
+    "answer": "They are all solids.",
+    "reasoning": "Ice, a rock, and a piece of aluminum share the property of being in the solid state. Ice is the solid form of water, a rock is a solid aggregation of minerals, and aluminum is a metallic element in solid form. None of these entities are liquids, minerals in a complete sense (since aluminum is an element and not a compound), or solely elements (since ice and rock are compounds or mixtures). The core commonality is their physical state as solids."
+}

@@ -1,0 +1,73 @@
+Key: Mercury_7212065
+
+Question: Which statement best describes the motion of water molecules as the water changes state from steam to liquid?
+Options: ['The molecules move faster and occupy more space.', 'The molecules move slower and occupy more space.', 'The molecules move faster and occupy less space.', 'The molecules move slower and occupy less space.']
+Answer: The molecules move slower and occupy less space.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water Molecules",
+        "description": "The smallest unit of water, consisting of two hydrogen atoms bonded to an oxygen atom."
+    },
+    {
+        "name": "Steam",
+        "description": "The gaseous state of water, occurring when water boils and vaporizes."
+    },
+    {
+        "name": "Liquid Water",
+        "description": "The liquid state of water, a common medium for chemical reactions and life processes."
+    },
+    {
+        "name": "Motion of Molecules",
+        "description": "Refers to the movement or kinetic energy of molecules in matter."
+    },
+    {
+        "name": "Change of State",
+        "description": "A physical process where a substance transitions from one state of matter to another."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water Molecules",
+        "relationship": "compose",
+        "related_concept": "Steam",
+        "description": "Steam is composed of water molecules in a gaseous state."
+    },
+    {
+        "concept": "Water Molecules",
+        "relationship": "compose",
+        "related_concept": "Liquid Water",
+        "description": "Liquid water is composed of water molecules in a closely packed liquid state."
+    },
+    {
+        "concept": "Steam",
+        "relationship": "transforms into",
+        "related_concept": "Liquid Water",
+        "description": "When steam cools down, it condenses and transforms back into liquid water."
+    },
+    {
+        "concept": "Motion of Molecules",
+        "relationship": "increases with",
+        "related_concept": "Steam",
+        "description": "The motion of water molecules increases as water transforms into steam."
+    },
+    {
+        "concept": "Motion of Molecules",
+        "relationship": "decreases with",
+        "related_concept": "Liquid Water",
+        "description": "The motion of water molecules decreases as steam condenses back into liquid water."
+    },
+    {
+        "concept": "Change of State",
+        "relationship": "occurs during",
+        "related_concept": "Steam to Liquid Water transition",
+        "description": "The transition from steam to liquid water is an example of a change of state."
+    }
+]
+
+Model Answer: {
+    "answer": "The molecules move slower and occupy less space.",
+    "reasoning": "As water changes state from steam (gaseous state) to liquid water, the motion of the water molecules decreases since the kinetic energy of the molecules decreases. Additionally, the molecules occupy less space as they transition from a gaseous state with molecules far apart to a liquid state where the molecules are much closer together. The relationships outlined show that the transition from steam to liquid water is characterized by a decrease in both the motion of molecules and the space they occupy."
+}

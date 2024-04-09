@@ -1,0 +1,71 @@
+Key: MCAS_2007_5_4788
+
+Question: Steel cans are separated from aluminum cans in a recycling center. Which of the following is the best way the recycling center can separate the steel cans from the aluminum cans?
+Options: ['sort the cans by size', 'put the cans in water', 'cool the cans to a low temperature', 'put the cans under an electromagnet']
+Answer: put the cans under an electromagnet
+
+Model Response:
+Concepts: [
+    {
+        "name": "Steel cans",
+        "description": "Cans made of steel, a magnetic material."
+    },
+    {
+        "name": "Aluminum cans",
+        "description": "Cans made of aluminum, a non-magnetic material."
+    },
+    {
+        "name": "Electromagnet",
+        "description": "A type of magnet in which the magnetic field is produced by an electric current."
+    },
+    {
+        "name": "Recycling center",
+        "description": "A facility for collecting and processing materials to be recycled."
+    },
+    {
+        "name": "Magnetic properties",
+        "description": "Characteristics that determine how a material responds to a magnetic field."
+    },
+    {
+        "name": "Sorting",
+        "description": "The process of separating items into different categories."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Steel cans",
+        "relationship": "are attracted to",
+        "related_concept": "Electromagnet",
+        "description": "Steel cans are attracted to electromagnets because they are made of a magnetic material."
+    },
+    {
+        "concept": "Aluminum cans",
+        "relationship": "are not attracted to",
+        "related_concept": "Electromagnet",
+        "description": "Aluminum cans are not attracted to electromagnets because they are made of a non-magnetic material."
+    },
+    {
+        "concept": "Electromagnet",
+        "relationship": "used for sorting",
+        "related_concept": "Steel cans and Aluminum cans",
+        "description": "Electromagnets can be used to sort steel cans from aluminum cans based on their magnetic properties."
+    },
+    {
+        "concept": "Recycling center",
+        "relationship": "separates",
+        "related_concept": "Steel cans and Aluminum cans",
+        "description": "The recycling center separates steel cans from aluminum cans as a part of the recycling process."
+    },
+    {
+        "concept": "Magnetic properties",
+        "relationship": "determine",
+        "related_concept": "Sorting method",
+        "description": "The magnetic properties of cans determine the efficiency of their separation using an electromagnet."
+    }
+]
+
+Model Answer: {
+    "answer": "put the cans under an electromagnet",
+    "reasoning": "By utilizing an electromagnet, the recycling center can efficiently separate the steel cans from the aluminum cans. This process leverages the magnetic properties of steel (being attracted to an electromagnet) contrasting with the non-magnetic properties of aluminum (not being attracted to an electromagnet). This method directly targets the inherent material characteristics of the cans, making it a highly effective sorting mechanism."
+}

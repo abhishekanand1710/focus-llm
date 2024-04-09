@@ -1,0 +1,69 @@
+Key: Mercury_411013
+
+Question: A male fruit fly is homozygous dominant for gray-body color (G) and is crossed with a female fruit fly that is homozygous recessive for ebony-body color (g). What are the probable phenotypes of the offspring?
+Options: ['25% gray, 75% ebony', '50% gray, 50% ebony', '100% ebony', '100% gray']
+Answer: 100% gray
+
+Model Response:
+Concepts: [
+    {
+        "name": "Homozygous dominant",
+        "description": "An organism with two copies of the dominant allele for a specific trait"
+    },
+    {
+        "name": "Gray-body color (G)",
+        "description": "The phenotype resulting from the dominant allele (G) in fruit flies"
+    },
+    {
+        "name": "Homozygous recessive",
+        "description": "An organism with two copies of the recessive allele for a specific trait"
+    },
+    {
+        "name": "Ebony-body color (g)",
+        "description": "The phenotype resulting from the homozygous recessive genotype (gg) in fruit flies"
+    },
+    {
+        "name": "Phenotype",
+        "description": "The observable physical properties of an organism, resulting from both its genotype and the influence of environmental factors"
+    },
+    {
+        "name": "Genotype",
+        "description": "The genetic makeup of an organism in terms of the alleles present"
+    },
+    {
+        "name": "Allele",
+        "description": "One of two or more versions of a gene"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Homozygous dominant",
+        "relationship": "has phenotype",
+        "related_concept": "Gray-body color (G)",
+        "description": "An organism homozygous dominant for a trait exhibits the phenotype associated with the dominant allele, here gray body color in fruit flies"
+    },
+    {
+        "concept": "Homozygous recessive",
+        "relationship": "has phenotype",
+        "related_concept": "Ebony-body color (g)",
+        "description": "An organism homozygous recessive for a trait exhibits the phenotype associated with the recessive allele, here ebony body color in fruit flies"
+    },
+    {
+        "concept": "Genotype",
+        "relationship": "determines",
+        "related_concept": "Phenotype",
+        "description": "The genotype of an organism is a major factor in determining its phenotype"
+    },
+    {
+        "concept": "Allele",
+        "relationship": "comprises",
+        "related_concept": "Genotype",
+        "description": "Alleles are the variants of genes that, when combined, determine the genotype of an organism"
+    }
+]
+
+Model Answer: {
+    "answer": "100% gray",
+    "reasoning": "The male fruit fly is homozygous dominant for gray-body color, meaning it has two dominant alleles (GG) for this trait. The female fruit fly is homozygous recessive for ebony-body color, carrying two recessive alleles (gg). When these flies are crossed, each offspring receives one allele from each parent. This results in all offspring being heterozygous (Gg), carrying one dominant allele for gray-body color and one recessive allele for ebony-body color. Since the gray-body color allele is dominant, all offspring will exhibit the gray-body phenotype, leading to 100% of the offspring having a gray body color."
+}

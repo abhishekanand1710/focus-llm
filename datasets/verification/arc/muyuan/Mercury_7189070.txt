@@ -1,0 +1,71 @@
+Key: Mercury_7189070
+
+Question: The gametes of human males and females have the same number of chromosomes. Which best describes what happens to the chromosomes when typical male and female gametes combine to produce offspring?
+Options: ['The chromosomes change shape.', 'The number of chromosomes doubles.', 'The chromosomes become larger in size.', 'The number of chromosomes reduces by half.']
+Answer: The number of chromosomes doubles.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Gametes",
+        "description": "Reproductive cells that carry half the number of chromosomes of regular body cells."
+    },
+    {
+        "name": "Chromosomes",
+        "description": "Thread-like structures located inside the nucleus of animal and plant cells, made of protein and a single molecule of DNA."
+    },
+    {
+        "name": "Human Male Gametes",
+        "description": "Sperm cells that carry 23 chromosomes."
+    },
+    {
+        "name": "Human Female Gametes",
+        "description": "Egg cells (ova) that also carry 23 chromosomes."
+    },
+    {
+        "name": "Fertilization",
+        "description": "The process of combining male and female gametes to form a zygote."
+    },
+    {
+        "name": "Zygote",
+        "description": "The initial cell formed when a new organism is produced by sexual reproduction, containing all chromosomes from both parents."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Gametes",
+        "relationship": "are",
+        "related_concept": "Human Male Gametes",
+        "description": "Male gametes are one type of gametes, specifically sperm in humans."
+    },
+    {
+        "concept": "Gametes",
+        "relationship": "are",
+        "related_concept": "Human Female Gametes",
+        "description": "Female gametes are another type of gametes, specifically egg cells in humans."
+    },
+    {
+        "concept": "Human Male Gametes",
+        "relationship": "combine_with",
+        "related_concept": "Human Female Gametes",
+        "description": "During fertilization, a male gamete combines with a female gamete."
+    },
+    {
+        "concept": "Fertilization",
+        "relationship": "results_in",
+        "related_concept": "Zygote",
+        "description": "The fertilization process results in the formation of a zygote."
+    },
+    {
+        "concept": "Zygote",
+        "relationship": "contains",
+        "related_concept": "Chromosomes",
+        "description": "The zygote contains all chromosomes from both the male and female gametes, thus doubling the number."
+    }
+]
+
+Model Answer: {
+    "answer": "The number of chromosomes doubles.",
+    "reasoning": "When a male gamete (sperm cell) combines with a female gamete (egg cell) during fertilization, each contributes its 23 chromosomes to the resulting zygote. This process doubles the number of chromosomes, from 23 in each gamete to the typical 46 in the zygote, which is the initial cell of a new organism. This is necessary to ensure that the offspring has the correct number of chromosomes for its species, in this case, for humans."
+}

@@ -1,0 +1,65 @@
+Key: Mercury_SC_416461
+
+Question: A class is modeling the differences between a unicellular organism and a multicellular organism. Which example is a model of a unicellular organism?
+Options: ['a student passing out water to a group', 'a student getting cereal from the cabinet', 'two students collecting trash from a group', 'four students working together to move a desk']
+Answer: a student getting cereal from the cabinet
+
+Model Response:
+Concepts: [
+    {
+        "name": "Unicellular organism",
+        "description": "An organism made up of only one cell."
+    },
+    {
+        "name": "Multicellular organism",
+        "description": "An organism made up of multiple cells that work together."
+    },
+    {
+        "name": "Student passing out water",
+        "description": "One student performing an action individually."
+    },
+    {
+        "name": "Student getting cereal",
+        "description": "Represents a solo task akin to the function of a unicellular organism."
+    },
+    {
+        "name": "Students collecting trash",
+        "description": "Multiple students collaborating on a task."
+    },
+    {
+        "name": "Students moving a desk",
+        "description": "A team effort requiring multiple participants."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Unicellular organism",
+        "relationship": "similar_to",
+        "related_concept": "Student getting cereal",
+        "description": "Both involve individual units performing tasks independently."
+    },
+    {
+        "concept": "Multicellular organism",
+        "relationship": "similar_to",
+        "related_concept": "Students collecting trash",
+        "description": "Both scenarios involve collaboration among multiple units."
+    },
+    {
+        "concept": "Multicellular organism",
+        "relationship": "similar_to",
+        "related_concept": "Students moving a desk",
+        "description": "Represents a coordinated effort by multiple units, similar to cells in a multicellular organism."
+    },
+    {
+        "concept": "Student passing out water",
+        "relationship": "does_not_fully_represent",
+        "related_concept": "Unicellular organism",
+        "description": "Though performed by an individual, it does not fully capture the essence of a unicellular organism doing all life processes alone."
+    }
+]
+
+Model Answer: {
+    "answer": "a student getting cereal from the cabinet",
+    "reasoning": "This option best represents a unicellular organism because it involves an individual (a single unit) performing a task independently, similar to how a unicellular organism operates on its own to perform all necessary life functions."
+}

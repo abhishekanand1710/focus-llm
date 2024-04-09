@@ -1,0 +1,73 @@
+Key: NAEP_2011_8_S11+2
+
+Question: What atoms combine to make up a molecule of water? 1. 1 hydrogen, 1 oxygen 2.
+Options: ['hydrogen,', 'oxygen', '2 hydrogen, 1 oxygen', '2 hydrogen, 2 oxygen']
+Answer: 2 hydrogen, 1 oxygen
+
+Model Response:
+Concepts: [
+    {
+        "name": "Hydrogen",
+        "description": "A chemical element with symbol H and atomic number 1."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A chemical element with symbol O and atomic number 8."
+    },
+    {
+        "name": "Water",
+        "description": "A molecule composed of 2 hydrogen atoms and 1 oxygen atom."
+    },
+    {
+        "name": "Molecule",
+        "description": "A group of atoms bonded together, representing the smallest fundamental unit of a chemical compound."
+    },
+    {
+        "name": "Atomic Composition",
+        "description": "The type and number of atoms that constitute a molecule."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "is_composed_of",
+        "related_concept": "Hydrogen",
+        "description": "Water molecules are composed of hydrogen atoms."
+    },
+    {
+        "concept": "Water",
+        "relationship": "is_composed_of",
+        "related_concept": "Oxygen",
+        "description": "Water molecules are composed of oxygen atoms."
+    },
+    {
+        "concept": "Hydrogen",
+        "relationship": "part_of",
+        "related_concept": "Water",
+        "description": "Hydrogen atoms are part of the composition of water molecules."
+    },
+    {
+        "concept": "Oxygen",
+        "relationship": "part_of",
+        "related_concept": "Water",
+        "description": "Oxygen atoms are part of the composition of water molecules."
+    },
+    {
+        "concept": "Water",
+        "relationship": "is_a",
+        "related_concept": "Molecule",
+        "description": "Water is an example of a molecule."
+    },
+    {
+        "concept": "Atomic Composition",
+        "relationship": "defines",
+        "related_concept": "Molecule",
+        "description": "The identity of a molecule is defined by its atomic composition."
+    }
+]
+
+Model Answer: {
+    "answer": "2 hydrogen, 1 oxygen",
+    "reasoning": "A molecule of water is made up of 2 hydrogen atoms and 1 oxygen atom, as defined by its chemical formula, H2O. This composition fits the definition and makeup of water, distinguishing it from other molecules by its specific atomic composition."
+}

@@ -1,0 +1,61 @@
+Key: MCAS_2013_5_29405
+
+Question: A student freezes some orange juice. Which of the following statements best describes how the orange juice is different after it is frozen?
+Options: ['It is a liquid.', 'It weighs more.', 'It stays in one shape.', 'It takes up less space.']
+Answer: It stays in one shape.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Phase Change",
+        "description": "The transformation of a substance from one state of matter to another, such as liquid to solid."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process of a liquid turning into a solid when its temperature is lowered below its freezing point."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that a substance or object occupies."
+    },
+    {
+        "name": "Shape",
+        "description": "The external form or appearance characteristic of someone or something; the outline of an area or figure."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, typically in kilograms or grams."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Freezing",
+        "relationship": "results_in",
+        "related_concept": "Phase Change",
+        "description": "Freezing results in a phase change from liquid to solid."
+    },
+    {
+        "concept": "Phase Change",
+        "relationship": "affects",
+        "related_concept": "Shape",
+        "description": "A phase change from liquid to solid affects an object's ability to maintain a shape."
+    },
+    {
+        "concept": "Phase Change",
+        "relationship": "affects",
+        "related_concept": "Volume",
+        "description": "A phase change may affect the volume of the substance, depending on its material properties."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "unchanged_by",
+        "related_concept": "Phase Change",
+        "description": "The mass of a substance remains unchanged during a phase change."
+    }
+]
+
+Model Answer: {
+    "answer": "It stays in one shape.",
+    "reasoning": "When orange juice is frozen, it undergoes a phase change from a liquid to a solid. This phase change allows the previously fluid orange juice to maintain a fixed shape, unlike its liquid form which could flow and take the shape of its container. Freezing does not increase its mass or reduce its volume significantly; therefore, the best description of how orange juice changes when frozen is that it stays in one shape."
+}

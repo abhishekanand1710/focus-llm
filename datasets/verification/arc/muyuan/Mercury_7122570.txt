@@ -1,0 +1,57 @@
+Key: Mercury_7122570
+
+Question: What unit do scientists use to measure the distance between stars?
+Options: ['light-year', 'angstrom unit', 'astronomical unit', 'apparent magnitude']
+Answer: light-year
+
+Model Response:
+Concepts: [
+    {
+        "name": "light-year",
+        "description": "A unit of astronomical distance equivalent to the distance that light travels in one year"
+    },
+    {
+        "name": "angstrom unit",
+        "description": "A unit of length used mainly to express wavelengths and interatomic distances, equal to 10^-10 meters"
+    },
+    {
+        "name": "astronomical unit",
+        "description": "A unit of measurement equal to the average distance from the center of the Earth to the center of the Sun, approximately 149.6 million kilometers"
+    },
+    {
+        "name": "apparent magnitude",
+        "description": "A measure of the brightness of a celestial object as seen from Earth"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "light-year",
+        "relationship": "measures",
+        "related_concept": "distance between stars",
+        "description": "A light-year is specifically used to measure large distances between celestial objects, such as stars"
+    },
+    {
+        "concept": "angstrom unit",
+        "relationship": "measures",
+        "related_concept": "wavelengths and interatomic distances",
+        "description": "The angstrom is not typically used for astronomical distances, but rather for microscopic lengths"
+    },
+    {
+        "concept": "astronomical unit",
+        "relationship": "measures",
+        "related_concept": "distance within the solar system",
+        "description": "An astronomical unit is most commonly used to measure distances within our solar system, not between stars"
+    },
+    {
+        "concept": "apparent magnitude",
+        "relationship": "quantifies",
+        "related_concept": "brightness of celestial objects",
+        "description": "Apparent magnitude is a measure of how bright a celestial object appears from Earth, not a measure of distance"
+    }
+]
+
+Model Answer: {
+    "answer": "light-year",
+    "reasoning": "Based on the provided concepts and their relationships, a light-year is the correct unit for measuring the distance between stars. It is specifically designed to measure astronomical distances such as these, unlike the angstrom unit (for microscopic lengths), the astronomical unit (primarily for distances within the solar system), and the apparent magnitude (which measures brightness, not distance)."
+}

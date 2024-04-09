@@ -1,0 +1,51 @@
+Key: Mercury_7233555
+
+Question: Which layer of Earth is the source of lava that erupts from volcanoes?
+Options: ['asthenosphere', 'inner core', 'outer core', 'lithosphere']
+Answer: asthenosphere
+
+Model Response:
+Concepts: [
+    {
+        "name": "asthenosphere",
+        "description": "The semi-fluid upper layer of the mantle on which the tectonic plates move"
+    },
+    {
+        "name": "inner core",
+        "description": "The solid innermost layer of the Earth, composed primarily of iron and nickel"
+    },
+    {
+        "name": "outer core",
+        "description": "The liquid layer of the Earth's core that lies beneath the mantle and surrounds the inner core"
+    },
+    {
+        "name": "lithosphere",
+        "description": "The rigid outer layer of the Earth, consisting of the crust and upper mantle"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "asthenosphere",
+        "relationship": "underlies",
+        "related_concept": "lithosphere",
+        "description": "The asthenosphere is directly below the lithosphere, providing a semi-fluid layer on which the lithosphere moves"
+    },
+    {
+        "concept": "lithosphere",
+        "relationship": "contains",
+        "related_concept": "volcanoes",
+        "description": "Volcanoes are geological features found in the lithosphere"
+    },
+    {
+        "concept": "asthenosphere",
+        "relationship": "source of",
+        "related_concept": "lava",
+        "description": "Lava that erupts from volcanoes originates from the asthenosphere"
+    }
+]
+
+Model Answer: {
+    "answer": "asthenosphere",
+    "reasoning": "The asthenosphere is the semi-fluid upper layer of the mantle that is found directly below the lithosphere. It is the source of the magma that feeds volcanic eruptions, as this magma rises through the crust to the surface, becoming lava. Therefore, it is the correct answer since it is directly involved in the process of producing the lava that erupts from volcanoes."
+}

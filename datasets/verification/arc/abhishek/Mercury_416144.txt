@@ -1,0 +1,51 @@
+Key: Mercury_416144
+
+Question: Earth's distance from the Sun helps the planet sustain life. If the Sun were larger, what would most likely also have to be true for Earth to sustain life?
+Options: ['Earth would have to be further from the Sun.', 'Earth would have to be closer to the Sun.', 'Earth would have to be smaller.', 'Earth would have to be larger.']
+Answer: Earth would have to be further from the Sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's distance from the Sun",
+        "description": "The specific distance of Earth from the Sun that allows it to sustain life by maintaining a suitable climate."
+    },
+    {
+        "name": "Ability to sustain life",
+        "description": "The capacity of an environment to support living organisms, which depends on various factors including temperature and atmospheric conditions."
+    },
+    {
+        "name": "Size of the Sun",
+        "description": "The diameter or mass of the Sun, which affects its gravitational pull and the amount of heat and light it emits."
+    },
+    {
+        "name": "Habitable Zone",
+        "description": "The range of orbits around a star within which a planetary surface can support liquid water given sufficient atmospheric pressure."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's distance from the Sun",
+        "relationship": "determines",
+        "related_concept": "Ability to sustain life",
+        "description": "The distance of Earth from the Sun is crucial for maintaining conditions that can support life."
+    },
+    {
+        "concept": "Size of the Sun",
+        "relationship": "affects",
+        "related_concept": "Habitable Zone",
+        "description": "The size (and thus luminosity) of the Sun defines the inner and outer edges of the Habitable Zone."
+    },
+    {
+        "concept": "Habitable Zone",
+        "relationship": "needs adjustment",
+        "related_concept": "Earth's distance from the Sun",
+        "description": "If the sun were larger, the Habitable Zone's range would shift, requiring Earth to be further for sustained life."
+    }
+]
+
+Model Answer: {
+    "answer": "Earth would have to be further from the Sun.",
+    "reasoning": "If the Sun were larger, it would emit more energy and thus increase the temperature of Earth if it remained at the same distance. To maintain a climate that is conducive to life, Earth would need to be in the adjusted Habitable Zone, which would be further from a larger Sun to keep its surface temperature within a range that supports life."
+}

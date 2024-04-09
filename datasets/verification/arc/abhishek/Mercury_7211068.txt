@@ -1,0 +1,59 @@
+Key: Mercury_7211068
+
+Question: Which system has layers of smooth muscle tissue that contract to move solid and liquid nutrients and waste through the body?
+Options: ['respiratory', 'skeletal', 'endocrine', 'digestive']
+Answer: digestive
+
+Model Response:
+Concepts: [
+    {
+        "name": "respiratory system",
+        "description": "A system in the body responsible for taking in oxygen and expelling carbon dioxide."
+    },
+    {
+        "name": "skeletal system",
+        "description": "The framework of bones supporting the body, facilitating movement with the muscular system."
+    },
+    {
+        "name": "endocrine system",
+        "description": "A chemical messenger system comprising feedback loops of the hormones released by internal glands directly into the circulatory system, regulating distant target organs."
+    },
+    {
+        "name": "digestive system",
+        "description": "A system that breaks down food into absorbable units that enter the blood for distribution to body cells."
+    },
+    {
+        "name": "smooth muscle tissue",
+        "description": "A type of muscle tissue which is used by various systems in the body, including the digestive system, to move substances along."
+    },
+    {
+        "name": "nutrients and waste",
+        "description": "Substances the body requires for energy, growth, and cell repair (nutrients) and the byproducts of metabolism that need to be removed from the body (waste)."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "digestive system",
+        "relationship": "utilizes",
+        "related_concept": "smooth muscle tissue",
+        "description": "The digestive system uses smooth muscle tissue to move food, nutrients, and waste through the body."
+    },
+    {
+        "concept": "smooth muscle tissue",
+        "relationship": "involved in",
+        "related_concept": "movement of nutrients and waste",
+        "description": "Smooth muscle tissue contracts to help move nutrients and waste through the body."
+    },
+    {
+        "concept": "nutrients and waste",
+        "relationship": "processed by",
+        "related_concept": "digestive system",
+        "description": "The digestive system processes nutrients and waste, absorbing the former and expelling the latter."
+    }
+]
+
+Model Answer: {
+    "answer": "digestive",
+    "reasoning": "The digestive system uses layers of smooth muscle tissue to contract and move solid and liquid nutrients and waste through the body. This is due to its essential role in processing ingested food, absorbing nutrients, and expelling waste, utilizing smooth muscle movements to propel the contents through the gastrointestinal tract."
+}

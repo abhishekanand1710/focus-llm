@@ -1,0 +1,75 @@
+Key: CSZ_2004_5_CSZ20414
+
+Question: A student is trying to identify a mineral that has a nonmetallic luster and is black. It can also be scratched with a fingernail. According to the mineral reference sheet, the unidentified mineral is most likely
+Options: ['mica.', 'magnetite.', 'hornblende.', 'quartz.']
+Answer: mica.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Nonmetallic luster",
+        "description": "A mineral appearance that is not shiny or metallic."
+    },
+    {
+        "name": "Black color",
+        "description": "The color of a mineral, in this context, indicating a dark appearance."
+    },
+    {
+        "name": "Scratched with a fingernail",
+        "description": "Indicates the softness of the mineral, relating to its hardness on the Mohs scale."
+    },
+    {
+        "name": "Mica",
+        "description": "A group of minerals known for their ability to be split into thin sheets."
+    },
+    {
+        "name": "Magnetite",
+        "description": "A magnetic mineral, generally of a metallic luster and black color."
+    },
+    {
+        "name": "Hornblende",
+        "description": "A dark, green to black mineral, part of the amphibole group, with a glassy luster."
+    },
+    {
+        "name": "Quartz",
+        "description": "A hard mineral with a glassy luster, often transparent or translucent."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Nonmetallic luster",
+        "relationship": "excludes",
+        "related_concept": "Magnetite",
+        "description": "Magnetite typically has a metallic luster, not nonmetallic."
+    },
+    {
+        "concept": "Scratched with a fingernail",
+        "relationship": "indicates",
+        "related_concept": "Mica",
+        "description": "Mica's softness allows it to be scratched by a fingernail."
+    },
+    {
+        "concept": "Black color",
+        "relationship": "matches",
+        "related_concept": "Magnetite",
+        "description": "Magnetite often appears in black color."
+    },
+    {
+        "concept": "Hornblende",
+        "relationship": "is",
+        "related_concept": "Nonmetallic luster",
+        "description": "Hornblende can have a nonmetallic luster but is harder than described."
+    },
+    {
+        "concept": "Quartz",
+        "relationship": "cannot_be",
+        "related_concept": "Scratched with a fingernail",
+        "description": "Quartz is too hard to be scratched by a fingernail."
+    }
+]
+
+Model Answer: {
+    "answer": "mica.",
+    "reasoning": "Based on the information provided, the mineral must have a nonmetallic luster and be soft enough to be scratched with a fingernail. Among the options given, mica fits these criteria. Mica has a nonmetallic luster, is black or can appear in black varieties, and is soft enough to be scratched with a fingernail, unlike magnetite, hornblende, and quartz which are generally too hard to be scratched by a fingernail and in the case of magnetite, it also typically has a metallic luster."
+}

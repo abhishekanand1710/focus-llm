@@ -1,0 +1,67 @@
+Key: Mercury_SC_408784
+
+Question: Michael learned that the movement of Earth in the solar system causes changes that can be seen on the planet. Which change could be seen on Earth in the time it takes Earth to rotate once on its axis?
+Options: ['day becoming night', 'winter changing to spring', 'January changing to February', 'a new moon becoming a full moon']
+Answer: day becoming night
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's rotation",
+        "description": "The spinning of Earth around its axis, taking approximately 24 hours to complete one turn"
+    },
+    {
+        "name": "Day and night cycle",
+        "description": "The cycle that causes day to turn into night and vice versa, resulting from Earth's rotation"
+    },
+    {
+        "name": "Seasonal changes",
+        "description": "Changes in weather patterns and daylight duration experienced at different times of the year, caused by Earth's orbit around the Sun and its axial tilt"
+    },
+    {
+        "name": "Calendar months",
+        "description": "Divisions of the year into twelve periods, each with a specific name and number of days"
+    },
+    {
+        "name": "Moon phases",
+        "description": "The change in the visible portion of the Moon as seen from Earth, occurring over a 29.5 day cycle"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's rotation",
+        "relationship": "causes",
+        "related_concept": "Day and night cycle",
+        "description": "The rotation of Earth on its axis leads to the alternation between day and night"
+    },
+    {
+        "concept": "Earth's rotation",
+        "relationship": "does not directly cause",
+        "related_concept": "Seasonal changes",
+        "description": "Seasonal changes are primarily caused by Earth's orbit around the Sun and its axial tilt, not by its rotation"
+    },
+    {
+        "concept": "Earth's orbit around the Sun",
+        "relationship": "leads to",
+        "related_concept": "Seasonal changes",
+        "description": "The orbit of Earth around the Sun combined with its axial tilt results in different seasons"
+    },
+    {
+        "concept": "Calendar months",
+        "relationship": "measure",
+        "related_concept": "Time",
+        "description": "Calendar months are a way to measure and organize time within a year"
+    },
+    {
+        "concept": "Moon phases",
+        "relationship": "result from",
+        "related_concept": "Moon's orbit around Earth",
+        "description": "The different phases of the Moon occur due to its orbit around Earth and the sunlight reflecting off its surface"
+    }
+]
+
+Model Answer: {
+    "answer": "day becoming night",
+    "reasoning": "The rotation of Earth on its axis is what causes the day to turn into night and vice versa. This rotation takes approximately 24 hours to complete one turn, making 'day becoming night' the change that can be observed on Earth in the time it takes Earth to rotate once on its axis. This process is directly related to Earth's rotation, unlike seasonal changes, monthly shifts, or moon phases, which are related to Earth's orbit around the Sun, the calendar system, or the Moon's orbit around Earth, respectively."
+}

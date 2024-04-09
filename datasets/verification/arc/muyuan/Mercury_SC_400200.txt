@@ -1,0 +1,57 @@
+Key: Mercury_SC_400200
+
+Question: At what temperature is water most likely to be in vapor form?
+Options: ['-10°C', '20°C', '90°C', '120°C']
+Answer: 120°C
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance that is the main constituent of Earth's hydrosphere."
+    },
+    {
+        "name": "Vapor",
+        "description": "A substance in the gas phase at a temperature lower than its critical temperature, which means that the vapor can be condensed to a liquid by increasing the pressure on it without reducing the temperature."
+    },
+    {
+        "name": "Temperature",
+        "description": "A physical quantity expressing hot and cold."
+    },
+    {
+        "name": "Boiling Point",
+        "description": "The temperature at which a liquid boils and turns to vapor."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "transforms into",
+        "related_concept": "Vapor",
+        "description": "Water can transform into vapor through the process of evaporation or boiling."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "affects",
+        "related_concept": "Water",
+        "description": "The state (solid, liquid, gas) of water is affected by its temperature."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "reaches",
+        "related_concept": "Boiling Point",
+        "description": "When the temperature of water reaches its boiling point, it turns into vapor."
+    },
+    {
+        "concept": "Boiling Point",
+        "relationship": "for water is",
+        "related_concept": "100\u00b0C (at 1 atm pressure)",
+        "description": "The boiling point of water is 100 degrees Celsius at 1 atmospheric pressure."
+    }
+]
+
+Model Answer: {
+    "answer": "120\u00b0C",
+    "reasoning": "At '-10\u00b0C' water is likely to be in solid form (ice). At '20\u00b0C', water is in its liquid state under normal conditions. At '90\u00b0C', water is hot and may start to evaporate slowly but is not at its boiling point under normal atmospheric pressure, thus not most likely to be in vapor form. At '120\u00b0C', water is above its boiling point of 100\u00b0C (at 1 atmospheric pressure), making it most likely to be in vapor form, since it is enough for water to transition from liquid to gas phase."
+}

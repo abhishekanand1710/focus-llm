@@ -1,0 +1,65 @@
+Key: NCEOGA_2013_8_51
+
+Question: How do scientists know that some mountains were once at the bottom of an ocean?
+Options: ['Freshwater rivers flow to the ocean.', 'Saltwater fish are found in some mountain streams.', 'Dinosaur bones have been discovered in the mountains.', 'Marine fossils have been found on the peaks of some mountains.']
+Answer: Marine fossils have been found on the peaks of some mountains.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Freshwater rivers",
+        "description": "Rivers that carry water without a high salt content, typically flowing into oceans."
+    },
+    {
+        "name": "Saltwater fish",
+        "description": "Fish species that live in the ocean or seas, characterized by their ability to tolerate saline waters."
+    },
+    {
+        "name": "Dinosaur bones",
+        "description": "The fossilized remains of dinosaurs found in various geological layers."
+    },
+    {
+        "name": "Marine fossils",
+        "description": "The remains of organisms that once lived in the ocean, now preserved in rock."
+    },
+    {
+        "name": "Mountains",
+        "description": "Large natural elevations of the earth's surface rising abruptly from the surrounding level."
+    },
+    {
+        "name": "Ocean",
+        "description": "A vast body of salt water that covers almost three quarters of the earth's surface."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Freshwater rivers",
+        "relationship": "flow into",
+        "related_concept": "Ocean",
+        "description": "Freshwater rivers eventually flow into the ocean, carrying water from land to sea."
+    },
+    {
+        "concept": "Saltwater fish",
+        "relationship": "live in",
+        "related_concept": "Ocean",
+        "description": "Saltwater fish inhabit the oceanic waters."
+    },
+    {
+        "concept": "Marine fossils",
+        "relationship": "found in",
+        "related_concept": "Mountains",
+        "description": "Marine fossils can be found in the geological layers of mountains."
+    },
+    {
+        "concept": "Mountains",
+        "relationship": "were once",
+        "related_concept": "Ocean",
+        "description": "Some mountains were once located at the bottom of an ocean, as indicated by the presence of marine fossils on their peaks."
+    }
+]
+
+Model Answer: {
+    "answer": "'Marine fossils have been found on the peaks of some mountains.'",
+    "reasoning": "The presence of marine fossils on mountain peaks is a clear indication that these landmasses were once at the bottom of an ocean. Marine fossils are the remains of oceanic life, and their discovery on mountains signifies that those areas were submerged under water in the past. The other options, while related to water ecosystems, do not directly support the conclusion that mountains were once under the ocean."
+}

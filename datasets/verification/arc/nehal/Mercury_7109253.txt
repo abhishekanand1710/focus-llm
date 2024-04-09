@@ -1,0 +1,63 @@
+Key: Mercury_7109253
+
+Question: Scientists have measured the rate of growth of the Atlantic Ocean basin to be about 2 to 3 cm per year. This type of activity coincides with the formation of ridges on the ocean floor. What is the most likely cause of this activity?
+Options: ['erosion from tidal action', 'the deposition of sediment', 'the flow of continental basalt', 'movement from tectonic plates']
+Answer: movement from tectonic plates
+
+Model Response:
+Concepts: [
+    {
+        "name": "Atlantic Ocean basin",
+        "description": "A large area of the Earth's surface covered by the Atlantic Ocean, expanding due to tectonic activity."
+    },
+    {
+        "name": "rate of growth",
+        "description": "The speed at which the Atlantic Ocean basin is expanding, measured in cm per year."
+    },
+    {
+        "name": "ocean floor ridges",
+        "description": "Elevations on the seabed formed by tectonic movements."
+    },
+    {
+        "name": "erosion from tidal action",
+        "description": "Wearing away of the Earth's surface by the action of ocean tides."
+    },
+    {
+        "name": "deposition of sediment",
+        "description": "Process where sediment accumulates on the ocean floor."
+    },
+    {
+        "name": "flow of continental basalt",
+        "description": "Movement and extrusion of basaltic lava from continental regions into the ocean."
+    },
+    {
+        "name": "tectonic plates",
+        "description": "Massive pieces of the Earth's crust that move over the liquid mantle, causing geological phenomena."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Atlantic Ocean basin",
+        "relationship": "is_expanded_by",
+        "related_concept": "movement from tectonic plates",
+        "description": "The movement of tectonic plates is the primary cause for the expansion of the Atlantic Ocean basin."
+    },
+    {
+        "concept": "ocean floor ridges",
+        "relationship": "are_formed_by",
+        "related_concept": "movement from tectonic plates",
+        "description": "The formation of ocean floor ridges is a direct result of tectonic plate movements."
+    },
+    {
+        "concept": "tectonic plates",
+        "relationship": "cause",
+        "related_concept": "rate of growth",
+        "description": "The movement of tectonic plates dictates the rate of growth of the Atlantic Ocean basin."
+    }
+]
+
+Model Answer: {
+    "answer": "movement from tectonic plates",
+    "reasoning": "The expansion of the Atlantic Ocean basin and the formation of ridges on the ocean floor are directly attributed to the movement of tectonic plates. This tectonic activity causes the ocean basin to grow at a rate of about 2 to 3 cm per year by creating new crust, thus demonstrating that the most likely cause of this activity is the movement from tectonic plates."
+}

@@ -1,0 +1,67 @@
+Key: NYSEDREGENTS_2006_8_26
+
+Question: Although change in multicellular species usually takes thousands of years, some species of bacteria undergo major changes in just a few years. One reason for this difference is that these bacteria
+Options: ['are microscopic', 'do not contain DNA', 'reproduce very quickly', 'cause infectious diseases']
+Answer: reproduce very quickly
+
+Model Response:
+Concepts: [
+    {
+        "name": "Bacteria",
+        "description": "Single-celled microorganisms that can exist either as independent (free-living) entities or as parasites (dependent upon another organism for life)."
+    },
+    {
+        "name": "Multicellular species",
+        "description": "Organisms that consist of more than one cell, in contrast to unicellular organisms."
+    },
+    {
+        "name": "Evolutionary change",
+        "description": "A process over time in which living organisms are thought to have developed and diversified from earlier forms during the history of the earth."
+    },
+    {
+        "name": "Reproduction rate",
+        "description": "The speed at which new individuals are produced by a species."
+    },
+    {
+        "name": "Genetic variation",
+        "description": "The diversity in gene frequencies within a species."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Bacteria",
+        "relationship": "undergo",
+        "related_concept": "Evolutionary change",
+        "description": "Bacteria can undergo evolutionary changes."
+    },
+    {
+        "concept": "Multicellular species",
+        "relationship": "undergo",
+        "related_concept": "Evolutionary change",
+        "description": "Multicellular species also undergo evolutionary changes."
+    },
+    {
+        "concept": "Bacteria",
+        "relationship": "has higher",
+        "related_concept": "Reproduction rate",
+        "description": "Bacteria typically have a higher reproduction rate compared to multicellular species."
+    },
+    {
+        "concept": "Reproduction rate",
+        "relationship": "facilitates",
+        "related_concept": "Evolutionary change",
+        "description": "A higher reproduction rate facilitates faster evolutionary change."
+    },
+    {
+        "concept": "Evolutionary change",
+        "relationship": "is affected by",
+        "related_concept": "Genetic variation",
+        "description": "Evolutionary change is influenced by the degree of genetic variation within a species."
+    }
+]
+
+Model Answer: {
+    "answer": "reproduce very quickly",
+    "reasoning": "The primary reason that some species of bacteria undergo major changes in just a few years is attributed to their high reproduction rate. Bacteria can reproduce quickly, leading to a greater number of generations over a shorter period. This accelerated generational turnover increases the opportunities for genetic variations and adaptations, facilitating rapid evolutionary changes compared to multicellular species that reproduce at a slower rate."
+}

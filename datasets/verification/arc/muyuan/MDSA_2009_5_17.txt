@@ -1,0 +1,75 @@
+Key: MDSA_2009_5_17
+
+Question: A student mixed salt and sugar. Which statement describes the physical properties of salt and sugar after they were mixed?
+Options: ['The sugar dissolved the salt.', 'The salt and sugar changed color.', 'The sugar and the salt were unchanged.', 'The salt and sugar formed a new material.']
+Answer: The sugar and the salt were unchanged.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Physical properties",
+        "description": "Characteristics of a substance that can be observed without changing it into another substance."
+    },
+    {
+        "name": "Salt",
+        "description": "A mineral composed primarily of sodium chloride (NaCl), a chemical compound."
+    },
+    {
+        "name": "Sugar",
+        "description": "A sweet-tasting, soluble carbohydrate."
+    },
+    {
+        "name": "Mixing",
+        "description": "Combining two substances without causing a chemical reaction between them."
+    },
+    {
+        "name": "Dissolving",
+        "description": "A process where a solute in gaseous, liquid, or solid phase dissolves in a solvent to form a solution."
+    },
+    {
+        "name": "Chemical reaction",
+        "description": "A process that leads to the chemical transformation of one set of chemical substances to another."
+    },
+    {
+        "name": "Solution",
+        "description": "A homogeneous mixture composed of two or more substances."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Salt",
+        "relationship": "maintains",
+        "related_concept": "Physical properties",
+        "description": "Salt retains its physical properties unless it undergoes a chemical reaction."
+    },
+    {
+        "concept": "Sugar",
+        "relationship": "maintains",
+        "related_concept": "Physical properties",
+        "description": "Sugar retains its physical properties unless it undergoes a chemical reaction."
+    },
+    {
+        "concept": "Mixing",
+        "relationship": "does not change",
+        "related_concept": "Physical properties",
+        "description": "Mixing substances does not change their physical properties if no chemical reaction occurs."
+    },
+    {
+        "concept": "Salt",
+        "relationship": "can be mixed with",
+        "related_concept": "Sugar",
+        "description": "Salt and sugar can be physically mixed without a chemical reaction taking place."
+    },
+    {
+        "concept": "Dissolving",
+        "relationship": "requires",
+        "related_concept": "Solution",
+        "description": "Dissolving is a process leading to the creation of a solution, but not relevant unless a solvent is involved."
+    }
+]
+
+Model Answer: {
+    "answer": "The sugar and the salt were unchanged.",
+    "reasoning": "When salt and sugar are mixed, they physically combine without changing each other's chemical structure. Mixing them does not initiate a chemical reaction; thus, both substances maintain their original physical properties. Neither dissolves the other in the absence of a solvent (like water), they don't change color, nor do they form a new material simply by being mixed together. The correct answer is based on the fact that mixing substances like salt and sugar does not alter their individual chemical or physical properties without the presence of another factor, such as a solvent or a trigger for a chemical reaction."
+}

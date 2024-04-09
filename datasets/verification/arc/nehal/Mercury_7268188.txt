@@ -1,0 +1,51 @@
+Key: Mercury_7268188
+
+Question: Which of these is found in all organisms?
+Options: ['a cell', 'a tissue', 'an organ', 'an organ system']
+Answer: a cell
+
+Model Response:
+Concepts: [
+    {
+        "name": "a cell",
+        "description": "The basic structural, functional, and biological unit of all living organisms."
+    },
+    {
+        "name": "a tissue",
+        "description": "A group of cells that work together to perform a particular function."
+    },
+    {
+        "name": "an organ",
+        "description": "A part of an organism that is typically self-contained and has a specific vital function."
+    },
+    {
+        "name": "an organ system",
+        "description": "A group of organs that work together to perform one or more functions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "a cell",
+        "relationship": "part_of",
+        "related_concept": "a tissue",
+        "description": "A tissue is made up of multiple cells."
+    },
+    {
+        "concept": "a tissue",
+        "relationship": "part_of",
+        "related_concept": "an organ",
+        "description": "An organ is made up of multiple tissues."
+    },
+    {
+        "concept": "an organ",
+        "relationship": "part_of",
+        "related_concept": "an organ system",
+        "description": "An organ system is made up of multiple organs."
+    }
+]
+
+Model Answer: {
+    "answer": "a cell",
+    "reasoning": "All organisms, from the simplest to the most complex, are made up of cells. Cells are the fundamental unit of life, making 'a cell' the correct answer. Tissues, organs, and organ systems are composed of cells and are found in more complex multicellular organisms, not in all organisms."
+}

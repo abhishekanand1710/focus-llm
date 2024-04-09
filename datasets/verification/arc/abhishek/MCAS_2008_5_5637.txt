@@ -1,0 +1,99 @@
+Key: MCAS_2008_5_5637
+
+Question: A statue and a table are both made of the same type of marble. Which of the following properties will most likely be the same for both of these objects?
+Options: ['size', 'shape', 'weight', 'hardness']
+Answer: hardness
+
+Model Response:
+Concepts: [
+    {
+        "name": "Statue",
+        "description": "A sculpture representing a person, animal, or object, usually made of marble, metal, or other durable materials"
+    },
+    {
+        "name": "Table",
+        "description": "Furniture consisting of a flat top supported by one or more legs, used to hold objects at a convenient height for the user"
+    },
+    {
+        "name": "Marble",
+        "description": "A hard, crystalline form of limestone, typically white with colored mottlings or streaks, used for sculpture and as a building material"
+    },
+    {
+        "name": "Hardness",
+        "description": "A measure of how resistant solid matter is to various kinds of permanent shape change when a compressive force is applied"
+    },
+    {
+        "name": "Size",
+        "description": "The overall dimensions or extent of an object"
+    },
+    {
+        "name": "Shape",
+        "description": "The external form, contours, or outline of someone or something"
+    },
+    {
+        "name": "Weight",
+        "description": "A body's relative mass or the quantity of matter contained by it, giving rise to a downward force; the heaviness of a person or thing"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Statue",
+        "relationship": "made_of",
+        "related_concept": "Marble",
+        "description": "The statue is constructed using marble as its material"
+    },
+    {
+        "concept": "Table",
+        "relationship": "made_of",
+        "related_concept": "Marble",
+        "description": "The table is constructed using marble as its material"
+    },
+    {
+        "concept": "Marble",
+        "relationship": "determines",
+        "related_concept": "Hardness",
+        "description": "The hardness property of the statue and table is determined by the marble they are made of"
+    },
+    {
+        "concept": "Statue",
+        "relationship": "has_property",
+        "related_concept": "Size",
+        "description": "The statue has its own unique size"
+    },
+    {
+        "concept": "Table",
+        "relationship": "has_property",
+        "related_concept": "Size",
+        "description": "The table has its own unique size"
+    },
+    {
+        "concept": "Statue",
+        "relationship": "has_property",
+        "related_concept": "Shape",
+        "description": "The statue has its own unique shape"
+    },
+    {
+        "concept": "Table",
+        "relationship": "has_property",
+        "related_concept": "Shape",
+        "description": "The table has its own unique shape"
+    },
+    {
+        "concept": "Statue",
+        "relationship": "has_property",
+        "related_concept": "Weight",
+        "description": "The statue has its own weight depending on its size and bulk"
+    },
+    {
+        "concept": "Table",
+        "relationship": "has_property",
+        "related_concept": "Weight",
+        "description": "The table has its own weight depending on its size and structure"
+    }
+]
+
+Model Answer: {
+    "answer": "hardness",
+    "reasoning": "Since both the statue and the table are made of the same type of marble, it is their composition, in this case marble, that primarily determines their hardness. Marble, being a specific material, has a characteristic hardness that does not change regardless of the object's shape, size, or weight. Thus, the hardness of both the statue and the table will most likely be the same, as they are made of the same material."
+}

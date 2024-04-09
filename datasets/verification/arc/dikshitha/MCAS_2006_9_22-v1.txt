@@ -1,0 +1,67 @@
+Key: MCAS_2006_9_22-v1
+
+Question: Which of the following is a central role of carbon in the chemistry of living organisms?
+Options: ['Carbon can only bond with other carbon atoms.', 'Carbon is a solvent that breaks chemical bonds.', 'Carbon readily forms ionic bonds that separate easily.', 'Carbon can form many types of molecules with covalent bonds.']
+Answer: Carbon can form many types of molecules with covalent bonds.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Carbon",
+        "description": "A chemical element that is essential for all living things."
+    },
+    {
+        "name": "Covalent Bonds",
+        "description": "Chemical bonds formed by the sharing of electrons between atoms."
+    },
+    {
+        "name": "Ionic Bonds",
+        "description": "Chemical bonds formed through the electrical force between oppositely charged ions."
+    },
+    {
+        "name": "Chemical Bonds",
+        "description": "Forces that hold atoms or ions together in molecules or compounds."
+    },
+    {
+        "name": "Molecules",
+        "description": "Groups of atoms bonded together, representing the smallest fundamental unit of a chemical compound that can take part in a chemical reaction."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Carbon",
+        "relationship": "forms",
+        "related_concept": "Covalent Bonds",
+        "description": "Carbon atoms can share electrons with other atoms to form covalent bonds."
+    },
+    {
+        "concept": "Covalent Bonds",
+        "relationship": "connect",
+        "related_concept": "Atoms",
+        "description": "Covalent bonds involve the sharing of electrons between atoms."
+    },
+    {
+        "concept": "Ionic Bonds",
+        "relationship": "involve",
+        "related_concept": "Electric Force",
+        "description": "Ionic bonds are formed through the electrical force between ions with opposite charges."
+    },
+    {
+        "concept": "Atoms",
+        "relationship": "form",
+        "related_concept": "Molecules",
+        "description": "Atoms are bonded together to form molecules."
+    },
+    {
+        "concept": "Carbon",
+        "relationship": "can form",
+        "related_concept": "Molecules",
+        "description": "Carbon can bond with other atoms, including carbon, to form a wide variety of molecular structures."
+    }
+]
+
+Model Answer: {
+    "answer": "Carbon can form many types of molecules with covalent bonds.",
+    "reasoning": "Among the given options, the central role of carbon in the chemistry of living organisms is best described by its ability to form a wide variety of molecules through covalent bonding. This is due to its four valence electrons, which enable it to form strong covalent bonds with many other elements, including other carbon atoms, thus resulting in a vast diversity of organic compounds. This characteristic is fundamental to the structure and function of macromolecules essential for life."
+}

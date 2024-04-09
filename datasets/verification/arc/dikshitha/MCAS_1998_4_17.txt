@@ -1,0 +1,51 @@
+Key: MCAS_1998_4_17
+
+Question: Which is the correct order of the metamorphosis of a butterfly?
+Options: ['egg, larva, pupa, adult', 'egg, pupa, larva, adult', 'egg, adult, larva, pupa', 'egg, larva, adult, pupa']
+Answer: egg, larva, pupa, adult
+
+Model Response:
+Concepts: [
+    {
+        "name": "egg",
+        "description": "The first stage in the life cycle of a butterfly where the butterfly begins its life."
+    },
+    {
+        "name": "larva",
+        "description": "The second stage in the butterfly lifecycle, commonly known as a caterpillar."
+    },
+    {
+        "name": "pupa",
+        "description": "The third stage in the butterfly lifecycle, a transitional stage during which the larva transforms into an adult."
+    },
+    {
+        "name": "adult",
+        "description": "The final stage of the butterfly lifecycle, the stage where it emerges as a fully developed butterfly."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "egg",
+        "relationship": "transforms_into",
+        "related_concept": "larva",
+        "description": "The egg hatches into a larva, which is the caterpillar stage."
+    },
+    {
+        "concept": "larva",
+        "relationship": "transforms_into",
+        "related_concept": "pupa",
+        "description": "The larva, after growing enough, enters into the pupa stage where it undergoes metamorphosis."
+    },
+    {
+        "concept": "pupa",
+        "relationship": "transforms_into",
+        "related_concept": "adult",
+        "description": "The pupa metamorphoses into an adult butterfly."
+    }
+]
+
+Model Answer: {
+    "answer": "egg, larva, pupa, adult",
+    "reasoning": "The correct sequence follows the life cycle of a butterfly from its inception as an egg, then progressing through stages as a larva (caterpillar), next transforming into a pupa (chrysalis), and finally emerging as an adult butterfly. This sequence is supported by the listed concepts and their relationships, where each stage precedes the next in development."
+}

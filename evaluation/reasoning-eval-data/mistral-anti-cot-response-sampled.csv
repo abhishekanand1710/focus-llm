@@ -1,0 +1,4807 @@
+,text,label,question_token1,question1,question_token2,question2,concept_guided_prompt,complete_question,COT_response,our_prompt_response,answer,is_correct_cot
+213,The mechanic received a gift from the baker because she helped with repairing the oven.,the mechanic,she,Who does 'she' refer to?,,,"Question: The mechanic received a gift from the baker because she helped with repairing the oven. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mechanic received a gift from the baker because she helped with repairing the oven. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mechanic received a gift from the baker because she helped with repairing the oven. Who does 'she' refer to?," 1. Reasoning: The scenario mentions that the mechanic received a gift from ""the baker."" It does not specify which baker this is. However, it goes on to explain that the baker was the one who needed help with repairing her oven. Therefore, based on the information given, it can be inferred that ""she"" refers to the baker.
+
+2. Answer: [Correct answer is: the baker]"," {
+  ""answer"": ""baker"",
+  ""reasoning"": ""The mechanic helped the baker repair her oven, so'she' refers to the baker.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""mechanic"",
+      ""description"": ""A person who repairs vehicles""
+    },
+    {
+      ""name"": ""baker"",
+      ""description"": ""A person who prepares and sells bread and pastries""
+    },
+    {
+      ""name"": ""gift"",
+      ""description"": ""An object given willingly to show appreciation or friendship""
+    },
+    {
+      ""name"": ""oven"",
+      ""description"": ""A large, three-sided cooking appliance used for baking""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""mechanic"",
+      ""relationship"": ""helped"",
+      ""related_concept"": ""baker"",
+      ""description"": ""The mechanic assisted the baker in repairing her oven""
+    },
+    {
+      ""concept"": ""baker"",
+      ""relationship"": ""owns"",
+      ""related_concept"": ""oven"",
+      ""description"": ""The baker possesses the oven""
+    },
+    {
+      ""concept"": ""baker"",
+      ""relationship"": ""received"",
+      ""related_concept"": ""gift"",
+      ""description"": ""The baker obtained the gift from someone""
+    },
+    {
+      ""concept"": ""mechanic"",
+      ""relationship"": ""provided"",
+      ""related_concept"": ""service"",
+      ""description"": ""The mechanic offered repair services""
+    },
+    {
+      ""concept"": ""baker"",
+      ""relationship"": ""appreciative"",
+      ""related_concept"": ""mechanic"",
+      ""description"": ""The baker is grateful towards the mechanic for helping her""
+    }
+  ]
+}",2. Answer: [Correct answer is: the baker],False
+228,The secretary took down the farmer's petition which was the hope to improve her life.,the farmer,her,Who does 'her' refer to?,,,"Question: The secretary took down the farmer's petition which was the hope to improve her life. Who does 'her' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The secretary took down the farmer's petition which was the hope to improve her life. Who does 'her' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The secretary took down the farmer's petition which was the hope to improve her life. Who does 'her' refer to?," 1. Reasoning: The pronoun ""her"" in this context refers to the secretary. The passage states that ""The secretary took down the farmer's petition."" A petition is a request or appeal for support, typically one made to an authority figure. In this case, the secretary is the one taking down the petition, implying that it is for her own benefit or improvement.
+
+2. Answer: [Correct answer is: The secretary]"," {
+  ""answer"": ""secretary"",
+  ""reasoning"": ""The use of 'her' in the sentence refers to the secretary, as the petition was taken down by her and it was her life that was supposedly going to be improved.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""Secretary"",
+      ""description"": ""A person employed to write letters, take telephone messages, keep records, and perform various administrative tasks for an organization.""
+    },
+    {
+      ""name"": ""Farmer"",
+      ""description"": ""An individual who owns or operates a farm, managing the land, crops, and livestock.""
+    },
+    {
+      ""name"": ""Petition"",
+      ""description"": ""A formal written request made to an authority or organization, signed by a number of people and often accompanied by a sum of money.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""Secretary"",
+      ""relationship"": ""took down"",
+      ""related_concept"": ""Petition"",
+      ""description"": ""The secretary is the one who physically removed the petition from its location.""
+    },
+    {
+      ""concept"": ""Farmer"",
+      ""relationship"": ""author of"",
+      ""related_concept"": ""Petition"",
+      ""description"": ""The farmer is the person who wrote and submitted the petition.""
+    },
+    {
+      ""concept"": ""Secretary"",
+      ""relationship"": ""intended to improve"",
+      ""related_concept"": ""Her (Secretary)"",
+      ""description"": ""The secretary was the intended beneficiary of the improvements that the petition was seeking to bring about.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The secretary],False
+6,The carpenter owed the counselor some money and he never asked for any interest.,the counselor,he,Who does 'he' refer to?,,,"Question: The carpenter owed the counselor some money and he never asked for any interest. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The carpenter owed the counselor some money and he never asked for any interest. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter owed the counselor some money and he never asked for any interest. Who does 'he' refer to?," 1. Reasoning: The scenario mentions that ""The carpenter owed the counselor some money."" This means that there are two distinct individuals involved in this situation - a carpenter and a counselor. The carpenter is the one who owes money to the counselor. Therefore, when the scenario states ""he,"" it is referring to the carpenter.
+
+2. Answer: [Correct answer is: The carpenter]"," {
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A person who practices carpentry""
+    },
+    {
+      ""name"": ""counselor"",
+      ""description"": ""A person who provides advice and guidance""
+    }
+  ],
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""debtor"",
+      ""related_concept"": ""counselor"",
+      ""description"": ""Owes money to""
+    },
+    {
+      ""concept"": ""counselor"",
+      ""relationship"": ""creditor"",
+      ""related_concept"": ""carpenter"",
+      ""description"": ""Is owed money by""
+    }
+  ],
+  ""answer"": ""carpenter"",
+  ""reasoning"": ""The sentence states that 'he' is the carpenter because the carpenter is the one who owes the counselor money.""
+}",2. Answer: [Correct answer is: The carpenter],False
+340,The carpenter met with the teacher so that she could fix the cabinets in the classroom.,the carpenter,she,Who does 'she' refer to?,,,"Question: The carpenter met with the teacher so that she could fix the cabinets in the classroom. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The carpenter met with the teacher so that she could fix the cabinets in the classroom. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter met with the teacher so that she could fix the cabinets in the classroom. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" in this context refers to the teacher mentioned earlier in the sentence.
+2. Answer: [Correct answer is: The teacher]"," {
+  ""answer"": ""teacher"",
+  ""reasoning"": ""The carpenter met with the teacher for her to fix the cabinets. Therefore,'she' refers to the teacher.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A skilled tradesperson who constructs, repairs, and installs structures made primarily of wood.""
+    },
+    {
+      ""name"": ""teacher"",
+      ""description"": ""A person who helps students to learn, especially by providing instruction in a school or college.""
+    },
+    {
+      ""name"": ""classroom"",
+      ""description"": ""A room in a school where classes are taught.""
+    },
+    {
+      ""name"": ""cabinets"",
+      ""description"": ""A piece of furniture used to store items, typically consisting of one or more doors, one or more shelves, and a countertop.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""met with"",
+      ""related_concept"": ""teacher"",
+      ""description"": ""The carpenter met with the teacher.""
+    },
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""could fix"",
+      ""related_concept"": ""cabinets"",
+      ""description"": ""The teacher could fix the cabinets.""
+    },
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""in the classroom of"",
+      ""related_concept"": ""classroom"",
+      ""description"": ""The teacher is in the classroom.""
+    },
+    {
+      ""concept"": ""cabinets"",
+      ""relationship"": ""in the classroom"",
+      ""related_concept"": ""classroom"",
+      ""description"": ""The cabinets are in the classroom.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The teacher],False
+375,The sheriff told the cleaner that he was requested to answer some questions.,the cleaner,he,Who does 'he' refer to?,,,"Question: The sheriff told the cleaner that he was requested to answer some questions. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff told the cleaner that he was requested to answer some questions. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff told the cleaner that he was requested to answer some questions. Who does 'he' refer to?," 1. Reasoning: The pronoun ""he"" in this context refers to the person who was speaking in the previous sentence. In this case, that person is the sheriff.
+2. Answer: [Correct answer is: The sheriff]"," {
+  ""answer"": ""sheriff"",
+  ""reasoning"": ""The cleaner stated that the sheriff told him this information, so 'he' refers to the sheriff.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""Law enforcement officer responsible for maintaining order in a jurisdiction.""
+    },
+    {
+      ""name"": ""cleaner"",
+      ""description"": ""An individual whose job is to maintain cleanliness in a building or area.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""cleaner"",
+      ""relationship"": ""informant"",
+      ""related_concept"": ""sheriff"",
+      ""description"": ""The cleaner received information from the sheriff.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The sheriff],False
+297,The sheriff asked the editor to withdraw the story because he always wrote too many details.,the editor,he,Who does 'he' refer to?,,,"Question: The sheriff asked the editor to withdraw the story because he always wrote too many details. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff asked the editor to withdraw the story because he always wrote too many details. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff asked the editor to withdraw the story because he always wrote too many details. Who does 'he' refer to?," 1. Reasoning: The pronoun 'he' in this context refers to one of the two individuals mentioned in the scenario - either the sheriff or the editor. Based on the information provided, it can be inferred that the sheriff is asking the editor to do something (withdraw the story). Therefore, 'he' most likely refers to the sheriff.
+2. Answer: [Correct answer is: The sheriff.]"," {
+  ""answer"": ""sheriff"",
+  ""reasoning"": ""In the provided text, 'he' refers to the sheriff, as he is the one who asked the editor to withdraw the story.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""A lawman responsible for maintaining order in a jurisdiction.""
+    },
+    {
+      ""name"": ""editor"",
+      ""description"": ""The person responsible for overseeing the production of a publication.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""asked"",
+      ""related_concept"": ""editor"",
+      ""description"": ""The sheriff requested an action from the editor.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The sheriff.],False
+244,The mover went to the house of the editor because he needed a mover.,the editor,he,Who does 'he' refer to?,,,"Question: The mover went to the house of the editor because he needed a mover. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mover went to the house of the editor because he needed a mover. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mover went to the house of the editor because he needed a mover. Who does 'he' refer to?," 1. Reasoning: The sentence states that ""The mover went to the house of the editor."" From this information, we can infer that there are two distinct individuals mentioned in the sentence - a mover and an editor. The mover is the one who took the action of going to the editor's house. However, the reason for his visit is not explicitly stated in the given information. But based on common sense and contextual understanding, it can be assumed that the editor is likely someone who needs moving services, which would explain why the mover went to their house in the first place. Therefore, 'he' in the sentence refers to the mover.
+
+2. Answer: [Correct answer is: The mover.]"," {
+  ""answer"": ""editor"",
+  ""reasoning"": ""In the given sentence, 'he' refers to the editor because the mover went to 'his' house (belonging to the editor). The mover was not looking for himself as a mover but rather seeking assistance from the editor.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""mover"",
+      ""description"": ""A person or company that transports goods from one place to another""
+    },
+    {
+      ""name"": ""editor"",
+      ""description"": ""A person responsible for making changes to and overseeing the production of a publication""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""mover"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""he"",
+      ""description"": ""The mover is the agent who performed the action of going to the editor's house""
+    },
+    {
+      ""concept"": ""editor"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""he"",
+      ""description"": ""The editor is the patient who had the mover visit his house""
+    }
+  ]
+}",2. Answer: [Correct answer is: The mover.],False
+372,The carpenter had to hire the assistant because he was a friend of a friend.,the assistant,he,Who does 'he' refer to?,,,"Question: The carpenter had to hire the assistant because he was a friend of a friend. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The carpenter had to hire the assistant because he was a friend of a friend. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter had to hire the assistant because he was a friend of a friend. Who does 'he' refer to?," 1. Reasoning: The sentence states that ""The carpenter had to hire the assistant"" and then provides an additional piece of information about how the assistant was connected to him through a mutual friend. This means that 'he' refers to the carpenter.
+
+2. Answer: [Correct answer is: The carpenter]"," {
+  ""answer"": ""carpenter"",
+  ""reasoning"": ""The sentence states that the carpenter had to hire the assistant because they were friends. Therefore, 'he' refers to the carpenter.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A person who practices carpentry""
+    },
+    {
+      ""name"": ""assistant"",
+      ""description"": ""A person who helps another person""
+    }
+  ]
+}
+
+[your relationships list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""is the one who"",
+      ""related_concept"": ""hired"",
+      ""description"": ""The carpenter is the one who hired someone""
+    },
+    {
+      ""concept"": ""assistant"",
+      ""relationship"": ""is a friend of"",
+      ""related_concept"": ""carpenter"",
+      ""description"": ""The assistant is a friend of the carpenter""
+    }
+  ]
+}",2. Answer: [Correct answer is: The carpenter],False
+87,The guard protected the assistant because he was threatened.,the assistant,he,Who does 'he' refer to?,,,"Question: The guard protected the assistant because he was threatened. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The guard protected the assistant because he was threatened. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The guard protected the assistant because he was threatened. Who does 'he' refer to?," 1. Reasoning: In this scenario, the pronoun ""he"" can refer to either the guard or the assistant. However, since the sentence states that ""the guard protected the assistant because he was threatened,"" it implies that the threat was directed towards the guard, causing him to take protective measures for the assistant. Therefore, ""he"" refers to the guard.
+
+2. Answer: [Correct answer is: the guard]"," {
+  ""answer"": ""guard"",
+  ""reasoning"": ""The sentence states that 'the guard protected the assistant'. Therefore, 'he' refers to the guard.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""guard"",
+      ""description"": ""A person whose duty is to prevent unauthorized entry or misconduct, typically at a particular location such as a building or event.""
+    },
+    {
+      ""name"": ""assistant"",
+      ""description"": ""A person who helps and supports another person or organization.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""guard"",
+      ""relationship"": ""protector"",
+      ""related_concept"": ""assistant"",
+      ""description"": ""The guard acted to keep the assistant safe from harm.""
+    },
+    {
+      ""concept"": ""assistant"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""threat"",
+      ""description"": ""The threat caused fear or danger towards the assistant.""
+    },
+    {
+      ""concept"": ""guard"",
+      ""relationship"": ""responder"",
+      ""related_concept"": ""threat"",
+      ""description"": ""The guard reacted to the presence of the threat.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the guard],False
+342,The construction worker handed forms to the clerk so that he processes an application.,the clerk,he,Who does 'he' refer to?,,,"Question: The construction worker handed forms to the clerk so that he processes an application. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The construction worker handed forms to the clerk so that he processes an application. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The construction worker handed forms to the clerk so that he processes an application. Who does 'he' refer to?," 1. Reasoning: The pronoun ""he"" in this context refers to the construction worker because the sentence states that ""the construction worker handed forms to the clerk.""
+2. Answer: [Correct answer is: the construction worker]"," {
+  ""answer"": ""construction worker"",
+  ""reasoning"": ""The clerk is the person who will process the application, but the action of handing the forms was performed by the construction worker.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""construction worker"",
+      ""description"": ""A person who works on building sites, installing systems, or doing repairs.""
+    },
+    {
+      ""name"": ""clerk"",
+      ""description"": ""An administrative employee who handles routine business activities, such as maintaining records or processing transactions.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""he"",
+      ""description"": ""The construction worker is the agent who performs the action.""
+    },
+    {
+      ""concept"": ""he"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""clerk"",
+      ""description"": ""The clerk is the patient who receives the forms from the construction worker.""
+    },
+    {
+      ""concept"": ""clerk"",
+      ""relationship"": ""goal"",
+      ""related_concept"": ""process application"",
+      ""description"": ""The clerk has the goal of processing the application.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the construction worker],False
+391,The construction worker said sorry to the librarian because she made some noise.,the worker,she,Who does 'she' refer to?,,,"Question: The construction worker said sorry to the librarian because she made some noise. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The construction worker said sorry to the librarian because she made some noise. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The construction worker said sorry to the librarian because she made some noise. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" in this context refers to the person who made the noise that the construction worker apologized for. Based on the information given in the scenario, it can be inferred that the librarian was the one who made the noise that the construction worker apologized for. Therefore, ""she"" in this case refers to the librarian.
+2. Answer: [Correct answer is: The librarian.]"," {
+  ""answer"": ""librarian"",
+  ""reasoning"": ""The construction worker apologized to the librarian because she (the librarian) made some noise.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""construction worker"",
+      ""description"": ""A person who works on the construction of buildings or infrastructure.""
+    },
+    {
+      ""name"": ""librarian"",
+      ""description"": ""A person whose job is to look after books and help library users find the information they need.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""apologizer"",
+      ""related_concept"": ""librarian"",
+      ""description"": ""The construction worker apologized to the librarian.""
+    },
+    {
+      ""concept"": ""librarian"",
+      ""relationship"": ""noise maker"",
+      ""related_concept"": null,
+      ""description"": ""The librarian made some noise.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The librarian.],False
+327,The teacher and the janitor were chatting about her overwhelming cleaning duties.,the janitor,her,Who does 'her' refer to?,,,"Question: The teacher and the janitor were chatting about her overwhelming cleaning duties. Who does 'her' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The teacher and the janitor were chatting about her overwhelming cleaning duties. Who does 'her' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The teacher and the janitor were chatting about her overwhelming cleaning duties. Who does 'her' refer to?," 1. Reasoning: The pronoun ""her"" in this context refers to the teacher, as the sentence states that the teacher and the janitor were chatting. Therefore, any references to ""her"" in the sentence apply to the teacher.
+
+2. Answer: [Correct answer is: The teacher.]"," {
+  ""answer"": ""janitor"",
+  ""reasoning"": ""The conversation is about the janitor's overwhelming cleaning duties.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""teacher"",
+      ""description"": ""A person who teaches students""
+    },
+    {
+      ""name"": ""janitor"",
+      ""description"": ""A person who cleans and maintains a building""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""not related"",
+      ""related_concept"": ""janitor"",
+      ""description"": """"
+    },
+    {
+      ""concept"": ""janitor"",
+      ""relationship"": ""discussed"",
+      ""related_concept"": ""cleaning duties"",
+      ""description"": ""They were chatting about the janitor's cleaning duties""
+    },
+    {
+      ""concept"": ""cleaning duties"",
+      ""relationship"": ""belongs to"",
+      ""related_concept"": ""janitor"",
+      ""description"": ""The cleaning duties being discussed belong to the janitor""
+    }
+  ]
+}",2. Answer: [Correct answer is: The teacher.],False
+18,The sheriff suspected the hairdresser was the murderer but she had no proof.,the sheriff,she,Who does 'she' refer to?,,,"Question: The sheriff suspected the hairdresser was the murderer but she had no proof. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff suspected the hairdresser was the murderer but she had no proof. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff suspected the hairdresser was the murderer but she had no proof. Who does 'she' refer to?," 1. Reasoning: The given scenario mentions that ""The sheriff suspected the hairdresser was the murderer but she had no proof."" This means that there are two distinct individuals mentioned in the text - the sheriff and the hairdresser. The sheriff is the one making the suspicion, while the hairdresser is the person being accused. Therefore,'she' in this context refers to the hairdresser.
+
+2. Answer: [Correct answer is: The hairdresser.]"," {
+  ""answer"": ""sheriff"",
+  ""reasoning"": ""The sentence 'She suspected the hairdresser was the murderer but she had no proof' implies that there are two different people involved - the one who suspects (sheriff) and the one who is being suspected (hairdresser).""
+}
+
+[concepts]
+{
+  ""name"": ""sheriff"",
+  ""description"": ""Law enforcement officer responsible for maintaining peace and order in a jurisdiction.""
+},
+{
+  ""name"": ""hairdresser"",
+  ""description"": ""A person whose occupation is cutting, styling, and arranging hair.""
+}
+[/relationships]
+{
+  ""concept"": ""sheriff"",
+  ""relationship"": ""is"",
+  ""related_concept"": ""law enforcement officer"",
+  ""description"": ""A sheriff is a type of law enforcement officer.""
+},
+{
+  ""concept"": ""sheriff"",
+  ""relationship"": ""responsible for"",
+  ""related_concept"": ""maintaining peace and order"",
+  ""description"": ""A sheriff is responsible for maintaining peace and order in a jurisdiction.""
+},
+{
+  ""concept"": ""hairdresser"",
+  ""relationship"": ""is"",
+  ""related_concept"": ""person"",
+  ""description"": ""A hairdresser is a person.""
+},
+{
+  ""concept"": ""hairdresser"",
+  ""relationship"": ""occupation is"",
+  ""related_concept"": ""cutting, styling, and arranging hair"",
+  ""description"": ""A hairdresser's occupation involves cutting, styling, and arranging hair.""
+}
+[/
+[Your answer]
+{
+  ""answer"": ""sheriff"",
+  ""reasoning"": ""The sentence 'The sheriff suspected the hairdresser was the murderer but she had no proof' implies that the sheriff is the one doing the suspecting.""
+}
+
+[Concepts]
+{
+  ""name"": ""sheriff"",
+  ""description"": ""A law enforcement officer responsible for maintaining peace and order in a jurisdiction.""
+},",2. Answer: [Correct answer is: The hairdresser.],False
+284,The CEO called the teacher to talk about her son's performance.,the ceo,her,Who does 'her' refer to?,,,"Question: The CEO called the teacher to talk about her son's performance. Who does 'her' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The CEO called the teacher to talk about her son's performance. Who does 'her' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The CEO called the teacher to talk about her son's performance. Who does 'her' refer to?," 1. Reasoning: The use of the pronoun ""her"" indicates that the speaker is a woman. The sentence also states that the woman is a teacher. Therefore, the ""her"" in this context refers to the woman who is the teacher.
+2. Answer: [Correct answer is: The teacher.]"," {
+  ""answer"": ""the teacher"",
+  ""reasoning"": ""The use of 'her' indicates that the speaker is a female. The sentence also states that the CEO called 'the teacher'. Therefore, 'her' refers to the teacher.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""CEO"",
+      ""description"": ""Chief Executive Officer""
+    },
+    {
+      ""name"": ""teacher"",
+      ""description"": ""An individual who provides instruction""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""CEO"",
+      ""relationship"": ""called"",
+      ""related_concept"": ""teacher"",
+      ""description"": ""The CEO initiated a phone call""
+    },
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""is"",
+      ""related_concept"": ""female"",
+      ""description"": ""The teacher is a female""
+    }
+  ]
+}",2. Answer: [Correct answer is: The teacher.],False
+185,The mechanic talked with the counselor for such a long time because he could not understand those engineering terms easily.,the counselor,he,Who does 'he' refer to?,,,"Question: The mechanic talked with the counselor for such a long time because he could not understand those engineering terms easily. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mechanic talked with the counselor for such a long time because he could not understand those engineering terms easily. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mechanic talked with the counselor for such a long time because he could not understand those engineering terms easily. Who does 'he' refer to?," 1. Reasoning: The pronoun ""he"" in the scenario refers to the mechanic. The reason for their lengthy conversation was that the mechanic had difficulty understanding the engineering terms used by the counselor.
+
+2. Answer: [Correct answer is: the mechanic]"," {
+  ""answer"": ""mechanic"",
+  ""reasoning"": ""The question states that 'he' is the person who had difficulty understanding engineering terms during his conversation with the counselor. Therefore, the answer is'mechanic', as this is the identity of the person referred to in the question.""
+}
+
+[concepts]
+{
+  ""name"": ""mechanic"",
+  ""description"": ""A person who repairs vehicles or machines""
+},
+{
+  ""name"": ""counselor"",
+  ""description"": ""A person who provides advice and support to individuals""
+},
+{
+  ""name"": ""engineering terms"",
+  ""description"": ""Specialized language used in various engineering disciplines""
+}
+[/] [relationships]
+{
+  ""concept"": ""mechanic"",
+  ""relationship"": ""actor"",
+  ""related_concept"": ""speaker"",
+  ""description"": ""The mechanic is the person who is speaking and having difficulty understanding engineering terms.""
+},
+{
+  ""concept"": ""counselor"",
+  ""relationship"": ""recipient"",
+  ""related_concept"": ""mechanic"",
+  ""description"": ""The counselor is the person who is being spoken to by the mechanic.""
+},
+{
+  ""concept"": ""engineering terms"",
+  ""relationship"": ""obstacle"",
+  ""related_concept"": ""understanding"",
+  ""description"": ""The engineering terms are preventing the mechanic from fully understanding the conversation.""
+}
+[/] {
+  ""answer"": ""mechanic"",
+  ""reasoning"": ""The question states that 'he' is the person who had a difficult time understanding engineering terms during his conversation with the counselor. Therefore, the answer is'mechanic'. The mechanic is the actor in this situation, and the obstacle to his understanding is the engineering terms.""
+}",2. Answer: [Correct answer is: the mechanic],False
+165,The lawyer refused to help the editor as he did not want to pay the bill.,the editor,he,Who does 'he' refer to?,,,"Question: The lawyer refused to help the editor as he did not want to pay the bill. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The lawyer refused to help the editor as he did not want to pay the bill. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The lawyer refused to help the editor as he did not want to pay the bill. Who does 'he' refer to?," 1. Reasoning: The sentence ""The lawyer refused to help the editor"" tells us that there was an action taken by the lawyer. The next part of the sentence ""as he did not want to pay the bill"" explains why the lawyer refused. Therefore, 'he' in this context refers to the lawyer.
+
+2. Answer: [Correct answer is: The lawyer]"," {
+  ""answer"": ""lawyer"",
+  ""reasoning"": ""The text states that 'he' is the lawyer, as indicated by the refusal to help being made by him.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""editor"",
+      ""description"": ""A person responsible for overseeing and managing the production of a publication""
+    },
+    {
+      ""name"": ""lawyer"",
+      ""description"": ""A professional who provides legal advice and representation""
+    }
+  ]
+}
+
+[your relationships list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""editor"",
+      ""relationship"": ""client"",
+      ""related_concept"": ""lawyer"",
+      ""description"": ""The editor is seeking legal services from the lawyer""
+    }
+  ]
+}",2. Answer: [Correct answer is: The lawyer],False
+343,The construction worker coordinated with the designer so that she can understand well the design.,the worker,she,Who does 'she' refer to?,,,"Question: The construction worker coordinated with the designer so that she can understand well the design. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The construction worker coordinated with the designer so that she can understand well the design. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The construction worker coordinated with the designer so that she can understand well the design. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" in this context refers to the designer. The sentence states that the construction worker coordinated with ""her"" to help her understand the design. Therefore, the person being helped in the understanding of the design is the designer.
+
+2. Answer: [Correct answer is: the designer]"," {
+  ""answer"": ""designer"",
+  ""reasoning"": ""The pronoun'she' refers to the designer, as indicated by the use of the feminine gender in the sentence.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""construction worker"",
+      ""description"": ""A person who works on the physical construction of buildings, roads, bridges, and other structures.""
+    },
+    {
+      ""name"": ""designer"",
+      ""description"": ""A person who plans and creates the look and functionality of something, typically a building, product, or visual communication.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""coordinated with"",
+      ""related_concept"": ""designer"",
+      ""description"": ""The construction worker communicated and collaborated with the designer to ensure accurate implementation of the design.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the designer],False
+194,The construction worker needs the assistant because he can make everything happen.,the assistant,he,Who does 'he' refer to?,,,"Question: The construction worker needs the assistant because he can make everything happen. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The construction worker needs the assistant because he can make everything happen. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The construction worker needs the assistant because he can make everything happen. Who does 'he' refer to?," 1. Reasoning: In this scenario, the pronoun ""he"" refers to the construction worker. The assistant is needed by him to help make things happen on the construction site.
+2. Answer: [Correct answer is: The construction worker]"," {
+  ""answer"": ""construction worker"",
+  ""reasoning"": ""The pronoun 'he' in the sentence refers to the construction worker, as stated in the question that 'The construction worker needs the assistant because he can make everything happen.'""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""construction worker"",
+      ""description"": ""A person who builds or repairs structures""
+    },
+    {
+      ""name"": ""assistant"",
+      ""description"": ""A person who helps another person""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""he"",
+      ""description"": ""The construction worker is the agent performing the action in the sentence.""
+    },
+    {
+      ""concept"": ""he"",
+      ""relationship"": ""identified as"",
+      ""related_concept"": ""construction worker"",
+      ""description"": ""The pronoun 'he' in the sentence refers to the construction worker.""
+    },
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""needs"",
+      ""related_concept"": ""assistant"",
+      ""description"": ""The construction worker requires the assistance of another person to help him complete his tasks.""
+    },
+    {
+      ""concept"": ""assistant"",
+      ""relationship"": ""helps"",
+      ""related_concept"": ""construction worker"",
+      ""description"": ""The assistant assists the construction worker in completing his tasks.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The construction worker],False
+229,The farmer kicked the assistant because she was very angry.,the farmer,she,Who does 'she' refer to?,,,"Question: The farmer kicked the assistant because she was very angry. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The farmer kicked the assistant because she was very angry. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The farmer kicked the assistant because she was very angry. Who does 'she' refer to?," 1. Reasoning: In this scenario, the pronoun ""she"" refers to the assistant. The farmer's anger towards her caused him to kick her.
+
+2. Answer: [Correct answer is: the assistant]"," {
+  ""answer"": ""assistant"",
+  ""reasoning"": ""The farmer kicked the assistant because'she' was angry. 'She' refers to the assistant.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""farmer"",
+      ""description"": ""A person who owns or manages a farm""
+    },
+    {
+      ""name"": ""assistant"",
+      ""description"": ""A person who helps and supports another person""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""farmer"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""assistant"",
+      ""description"": ""The farmer is the agent who performed the action""
+    },
+    {
+      ""concept"": ""assistant"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""farmer"",
+      ""description"": ""The assistant is the patient who underwent the action""
+    },
+    {
+      ""concept"": ""assistant"",
+      ""relationship"": ""affected_by"",
+      ""related_concept"": ""farmer's action"",
+      ""description"": ""The assistant was affected by the farmer's action""
+    },
+    {
+      ""concept"": ""assistant"",
+      ""relationship"": ""experiencer"",
+      ""related_concept"": ""anger"",
+      ""description"": ""The assistant experienced anger""
+    }
+  ]
+}",2. Answer: [Correct answer is: the assistant],False
+148,The mechanic is discussing with the teacher about the course he is offering next semester.,the teacher,he,Who does 'he' refer to?,,,"Question: The mechanic is discussing with the teacher about the course he is offering next semester. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mechanic is discussing with the teacher about the course he is offering next semester. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mechanic is discussing with the teacher about the course he is offering next semester. Who does 'he' refer to?," 1. Reasoning: The scenario mentions that there are two individuals involved in the discussion - a mechanic and a teacher. Based on the context provided, it can be inferred that the person who is doing the speaking or acting in the current situation is the mechanic. Therefore, when the pronoun 'he' is used, it refers to the mechanic.
+
+2. Answer: [Correct answer is: The mechanic.]"," {
+  ""answer"": ""mechanic"",
+  ""reasoning"": ""The question states that 'the mechanic' is having a discussion with the teacher. Therefore, 'he' refers to the mechanic.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""mechanic"",
+      ""description"": ""A person who repairs vehicles""
+    },
+    {
+      ""name"": ""teacher"",
+      ""description"": ""A person who instructs students""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""mechanic"",
+      ""relationship"": ""discussant"",
+      ""related_concept"": ""teacher"",
+      ""description"": ""The mechanic is having a discussion with the teacher""
+    }
+  ]
+}",2. Answer: [Correct answer is: The mechanic.],False
+326,The teacher and the janitor were chatting about his disorderly students.,the teacher,his,Who does 'his' refer to?,,,"Question: The teacher and the janitor were chatting about his disorderly students. Who does 'his' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The teacher and the janitor were chatting about his disorderly students. Who does 'his' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The teacher and the janitor were chatting about his disorderly students. Who does 'his' refer to?," 1. Reasoning: The word ""his"" in this context indicates possession. Since the janitor was being discussed in relation to the disorderly students, it can be inferred that the students belong to the teacher or the school, but the janitor is also considered part of the school staff. Therefore, the most likely interpretation is that the janitor is referring to the students under his supervision or care within the school setting.
+2. Answer: [Correct answer is: The janitor's students]"," {
+  ""answer"": ""the teacher"",
+  ""reasoning"": ""The phrase 'his students' indicates that the disorderliness is related to a group of students who belong to someone. Since the teacher is the one having the conversation with the janitor about these students, it follows that 'his' refers to the teacher.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""teacher"",
+      ""description"": ""An individual responsible for educating students in a school setting.""
+    },
+    {
+      ""name"": ""janitor"",
+      ""description"": ""An employee responsible for maintaining the physical condition of a building, typically a school.""
+    },
+    {
+      ""name"": ""students"",
+      ""description"": ""Individuals enrolled in a educational institution, under the supervision of teachers.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""is having a conversation with"",
+      ""related_concept"": ""janitor"",
+      ""description"": ""They are engaging in a dialogue.""
+    },
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""is responsible for"",
+      ""related_concept"": ""students"",
+      ""description"": ""He oversees their education.""
+    },
+    {
+      ""concept"": ""janitor"",
+      ""relationship"": ""is employed by"",
+      ""related_concept"": ""school"",
+      ""description"": ""He works at the educational institution.""
+    },
+    {
+      ""concept"": ""students"",
+      ""relationship"": ""belong to"",
+      ""related_concept"": ""teacher"",
+      ""description"": ""They are being educated by him.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The janitor's students],False
+341,The construction worker handed forms to the clerk so that she can start a new development project.,the worker,she,Who does 'she' refer to?,,,"Question: The construction worker handed forms to the clerk so that she can start a new development project. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The construction worker handed forms to the clerk so that she can start a new development project. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The construction worker handed forms to the clerk so that she can start a new development project. Who does 'she' refer to?," 1. Reasoning: The scenario mentions that ""The construction worker handed forms to the clerk."" This implies that there are two people involved in this transaction. The construction worker is identified as a male, and the person receiving the forms is referred to as ""she."" Based on this information, it can be inferred that ""she"" is a female.
+
+2. Answer: [Correct answer is: The clerk is a female.]"," {
+  ""answer"": ""clerk"",
+  ""reasoning"": ""The question states that the 'clerk' received forms from the construction worker to'start a new development project'. Therefore,'she' refers to the clerk.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""construction worker"",
+      ""description"": ""An individual who works on building sites, operating machinery, and performing manual labor.""
+    },
+    {
+      ""name"": ""clerk"",
+      ""description"": ""A person employed to maintain records, handle correspondence, and perform administrative tasks.""
+    },
+    {
+      ""name"": ""forms"",
+      ""description"": ""Documents that need to be filled out and signed, often used in legal or official procedures.""
+    },
+    {
+      ""name"": ""project"",
+      ""description"": ""A planned set of activities designed to achieve a specific goal.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""handed forms to clerk"",
+      ""description"": ""The construction worker was the agent who handed something to someone.""
+    },
+    {
+      ""concept"": ""clerk"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""received forms from construction worker"",
+      ""description"": ""The clerk was the recipient of the forms.""
+    },
+    {
+      ""concept"": ""clerk"",
+      ""relationship"": ""actor"",
+      ""related_concept"": ""can start a new development project"",
+      ""description"": ""The clerk is the actor who will start the new development project.""
+    },
+    {
+      ""concept"": ""forms"",
+      ""relationship"": ""instrument"",
+      ""related_concept"": ""allowed clerk to start new development project"",
+      ""description"": ""The forms served as an instrument that enabled the clerk to start the new development project.""
+    },
+    {
+      ""concept"": ""new development project"",
+      ""relationship"": ""goal"",
+      ""related_concept",2. Answer: [Correct answer is: The clerk is a female.],False
+70,The chief complained to the cashier about her observations.,the chief,her,Who does 'her' refer to?,,,"Question: The chief complained to the cashier about her observations. Who does 'her' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The chief complained to the cashier about her observations. Who does 'her' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The chief complained to the cashier about her observations. Who does 'her' refer to?," 1. Reasoning: The given scenario mentions that ""The chief complained to the cashier."" This means that the person doing the complaining is the chief, and the person being complained to is the cashier. Therefore, ""her"" in this context refers to the cashier.
+
+2. Answer: [Correct answer is: the cashier]"," {
+  ""answer"": ""cashier"",
+  ""reasoning"": ""The use of 'her' in the sentence indicates that the cashier is being referred to. The chief's complaint was directed towards the cashier's observations.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""chief"",
+      ""description"": ""A person who holds a leadership position within an organization""
+    },
+    {
+      ""name"": ""cashier"",
+      ""description"": ""An employee responsible for operating a cash register and accepting payment from customers""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""chief"",
+      ""relationship"": ""complained"",
+      ""related_concept"": ""cashier"",
+      ""description"": ""The chief expressed dissatisfaction or criticism towards something related to the cashier""
+    },
+    {
+      ""concept"": ""cashier"",
+      ""relationship"": ""made_observations"",
+      ""related_concept"": ""observations"",
+      ""description"": ""The cashier noticed or detected something""
+    },
+    {
+      ""concept"": ""chief"",
+      ""relationship"": ""addressed"",
+      ""related_concept"": ""cashier"",
+      ""description"": ""The chief spoke directly to the cashier""
+    }
+  ]
+}",2. Answer: [Correct answer is: the cashier],False
+106,The construction worker felt sorry for the receptionist because her carelessness led to the injury.,the worker,her,Who does 'her' refer to?,,,"Question: The construction worker felt sorry for the receptionist because her carelessness led to the injury. Who does 'her' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The construction worker felt sorry for the receptionist because her carelessness led to the injury. Who does 'her' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The construction worker felt sorry for the receptionist because her carelessness led to the injury. Who does 'her' refer to?," 1. Reasoning: In this scenario, the pronoun ""her"" refers to the receptionist herself. The sentence states that the receptionist was careless, which resulted in an injury. The construction worker then felt sympathy towards her for the incident.
+
+2. Answer: [Correct answer is: the receptionist]"," {
+  ""answer"": ""receptionist"",
+  ""reasoning"": ""The construction worker expressed sympathy towards the receptionist due to an injury caused by her carelessness.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""construction worker"",
+      ""description"": ""An individual employed in the construction industry.""
+    },
+    {
+      ""name"": ""receptionist"",
+      ""description"": ""An individual who receives and directs calls, visitors, or customers in an office setting.""
+    },
+    {
+      ""name"": ""carelessness"",
+      ""description"": ""A lack of attention or concern for the potential consequences of one's actions.""
+    },
+    {
+      ""name"": ""injury"",
+      ""description"": ""Physical harm or damage to the body.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""construction worker"",
+      ""relationship"": ""feels sympathy for"",
+      ""related_concept"": ""receptionist"",
+      ""description"": ""The construction worker expresses feelings of compassion towards the receptionist.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""is responsible for"",
+      ""related_concept"": ""carelessness"",
+      ""description"": ""The receptionist is the source of the careless behavior that resulted in the injury.""
+    },
+    {
+      ""concept"": ""carelessness"",
+      ""relationship"": ""results in"",
+      ""related_concept"": ""injury"",
+      ""description"": ""The careless behavior causes physical harm or damage to the body.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""experiences"",
+      ""related_concept"": ""injury"",
+      ""description"": ""The receptionist sustains a physical injury as a result of her carelessness.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the receptionist],False
+25,The supervisor showed dissatisfaction with the receptionist because she is very strict at work.,the supervisor,she,Who does 'she' refer to?,,,"Question: The supervisor showed dissatisfaction with the receptionist because she is very strict at work. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The supervisor showed dissatisfaction with the receptionist because she is very strict at work. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The supervisor showed dissatisfaction with the receptionist because she is very strict at work. Who does 'she' refer to?," 1. Reasoning: The given scenario mentions that the supervisor expressed dissatisfaction with the receptionist. A receptionist is an administrative role responsible for receiving visitors, answering phones, and providing information. Therefore,'she' in this context refers to the female receptionist who is being discussed.
+
+2. Answer: [Correct answer is: the receptionist]"," {
+  ""answer"": ""receptionist"",
+  ""reasoning"": ""The use of'she' in the question refers to the female receptionist whom the supervisor was dissatisfied with due to her strict demeanor at work.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""supervisor"",
+      ""description"": ""An individual who oversees and manages a team or department.""
+    },
+    {
+      ""name"": ""receptionist"",
+      ""description"": ""An individual who greets visitors, answers phone calls, and performs administrative tasks at a front desk.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""supervisor"",
+      ""relationship"": ""employer"",
+      ""related_concept"": ""receptionist"",
+      ""description"": ""The supervisor is the person who hires and manages the receptionist.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""employee"",
+      ""related_concept"": ""supervisor"",
+      ""description"": ""The receptionist works under the supervision of the supervisor.""
+    },
+    {
+      ""concept"": ""supervisor"",
+      ""relationship"": ""dissatisfied_with"",
+      ""related_concept"": ""receptionist"",
+      ""description"": ""The supervisor expressed unhappiness with the receptionist's behavior or performance.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""strict"",
+      ""related_concept"": ""herself"",
+      ""description"": ""The receptionist exhibits a strict demeanor at work.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the receptionist],False
+170,The sheriff asked the librarian for help as he was much more familiar with the library.,the librarian,he,Who does 'he' refer to?,,,"Question: The sheriff asked the librarian for help as he was much more familiar with the library. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff asked the librarian for help as he was much more familiar with the library. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff asked the librarian for help as he was much more familiar with the library. Who does 'he' refer to?," 1. Reasoning: The pronoun ""he"" in this context refers to the sheriff, as the sentence states that ""The sheriff asked the librarian for help.""
+
+2. Answer: [Correct answer is: The sheriff]"," {
+  ""answer"": ""sheriff"",
+  ""reasoning"": ""The question states that 'he' is the sheriff, as indicated by the use of masculine pronoun and the identification of the sheriff later in the sentence.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""A law enforcement officer responsible for maintaining order in a particular area.""
+    },
+    {
+      ""name"": ""librarian"",
+      ""description"": ""A person whose job is to look after books, answer questions, and help patrons find information.""
+    },
+    {
+      ""name"": ""library"",
+      ""description"": ""A building or collection of buildings where books, records, and other sources of information are kept and made available to the public.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""asked"",
+      ""related_concept"": ""librarian"",
+      ""description"": ""The sheriff requested assistance from the librarian.""
+    },
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""more familiar with"",
+      ""related_concept"": ""library"",
+      ""description"": ""The sheriff has greater knowledge and understanding of the library than the average person.""
+    },
+    {
+      ""concept"": ""librarian"",
+      ""relationship"": ""works at"",
+      ""related_concept"": ""library"",
+      ""description"": ""The librarian is employed at the library and is responsible for managing its resources and assisting patrons.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The sheriff],False
+97,The supervisor is talking to the teacher about the assignments he gave to the students.,the teacher,he,Who does 'he' refer to?,,,"Question: The supervisor is talking to the teacher about the assignments he gave to the students. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The supervisor is talking to the teacher about the assignments he gave to the students. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The supervisor is talking to the teacher about the assignments he gave to the students. Who does 'he' refer to?," 1. Reasoning: The given scenario mentions that ""The supervisor is talking to the teacher"" about assignments. This implies that there are two individuals involved in the conversation. The supervisor is one of them, and the other is the teacher. Therefore, 'he' in this context refers to the supervisor.
+
+2. Answer: [Correct answer is: The supervisor]"," {
+  ""answer"": ""supervisor"",
+  ""reasoning"": ""The use of 'he' in the sentence refers to the supervisor, as the conversation is about assignments that he gave to the students.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""Supervisor"",
+      ""description"": ""An individual who oversees and manages a group or organization.""
+    },
+    {
+      ""name"": ""Teacher"",
+      ""description"": ""An individual who provides instruction and education in a school or educational setting.""
+    },
+    {
+      ""name"": ""Students"",
+      ""description"": ""Individuals who attend a school or university and receive instruction from teachers.""
+    },
+    {
+      ""name"": ""Assignments"",
+      ""description"": ""Tasks or projects given by a teacher to students for completion outside of regular classroom hours.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""Supervisor"",
+      ""relationship"": ""is speaking to"",
+      ""related_concept"": ""Teacher"",
+      ""description"": ""The supervisor is having a conversation with the teacher.""
+    },
+    {
+      ""concept"": ""Teacher"",
+      ""relationship"": ""gave"",
+      ""related_concept"": ""Assignments"",
+      ""description"": ""The teacher assigned tasks or projects to the students.""
+    },
+    {
+      ""concept"": ""Supervisor"",
+      ""relationship"": ""is responsible for"",
+      ""related_concept"": ""Assignments"",
+      ""description"": ""The supervisor oversees the implementation and evaluation of assignments given to students.""
+    },
+    {
+      ""concept"": ""Students"",
+      ""relationship"": ""received"",
+      ""related_concept"": ""Assignments"",
+      ""description"": ""The students received tasks or projects from the teacher.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The supervisor],False
+246,The laborer owed the tailor because he offered to make a free suit.,the tailor,he,Who does 'he' refer to?,,,"Question: The laborer owed the tailor because he offered to make a free suit. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The laborer owed the tailor because he offered to make a free suit. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The laborer owed the tailor because he offered to make a free suit. Who does 'he' refer to?," 1. Reasoning: The sentence states that ""The laborer owed the tailor because he offered to make a free suit."" This means that the laborer is the one who made the offer to the tailor to make a free suit. Therefore, ""he"" in this context refers to the laborer.
+
+2. Answer: [Correct answer is: The laborer.]"," {
+  ""answer"": ""laborer"",
+  ""reasoning"": ""The laborer is the one who offered to make a free suit for the tailor, therefore, he is the one who owes the tailor.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""laborer"",
+      ""description"": ""A person who works using physical or mental effort.""
+    },
+    {
+      ""name"": ""tailor"",
+      ""description"": ""A person whose trade is making and fitting clothes.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""laborer"",
+      ""relationship"": ""offered"",
+      ""related_concept"": ""tailor"",
+      ""description"": ""The laborer offered to make a free suit for the tailor.""
+    },
+    {
+      ""concept"": ""tailor"",
+      ""relationship"": ""owed"",
+      ""related_concept"": ""laborer"",
+      ""description"": ""The tailor is owed a suit by the laborer.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The laborer.],False
+380,The mechanic helped the writer to fix the engine and she got some books in return.,the mechanic,she,Who does 'she' refer to?,,,"Question: The mechanic helped the writer to fix the engine and she got some books in return. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mechanic helped the writer to fix the engine and she got some books in return. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mechanic helped the writer to fix the engine and she got some books in return. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" refers to the writer mentioned at the beginning of the scenario.
+2. Answer: [Correct answer is: the writer]"," {
+  ""answer"": ""writer"",
+  ""reasoning"": ""The mechanic helped 'her' (female pronoun) to fix the engine, and she received books in return. Therefore,'she' refers to the writer.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""mechanic"",
+      ""description"": ""A person who repairs vehicles""
+    },
+    {
+      ""name"": ""writer"",
+      ""description"": ""A person who writes""
+    },
+    {
+      ""name"": ""engine"",
+      ""description"": ""A machine that converts energy into motion""
+    },
+    {
+      ""name"": ""books"",
+      ""description"": ""A collection of written, printed, illustrated, or blank sheets, made of ink, paper, parchment, or other materials, used for recording information""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""writer"",
+      ""relationship"": ""receiver"",
+      ""related_concept"": ""mechanic"",
+      ""description"": ""The writer received help from the mechanic""
+    },
+    {
+      ""concept"": ""mechanic"",
+      ""relationship"": ""provider"",
+      ""related_concept"": ""books"",
+      ""description"": ""The mechanic provided the writer with books in return""
+    },
+    {
+      ""concept"": ""writer"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""books"",
+      ""description"": ""The writer received the books""
+    }
+  ]
+}",2. Answer: [Correct answer is: the writer],False
+346,The driver took the editor on a ride because he wanted to see the city.,the editor,he,Who does 'he' refer to?,,,"Question: The driver took the editor on a ride because he wanted to see the city. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The driver took the editor on a ride because he wanted to see the city. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The driver took the editor on a ride because he wanted to see the city. Who does 'he' refer to?," 1. Reasoning: The sentence states that ""the driver took the editor on a ride."" This means that the driver was the one who did the action of taking someone on a ride. The person being taken on the ride is identified as ""the editor."" Therefore, ""he"" in this context refers to the driver.
+
+2. Answer: [Correct answer is: the driver]"," {
+  ""answer"": ""driver"",
+  ""reasoning"": ""The driver is the one who took the editor on a ride.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""driver"",
+      ""description"": ""A person who operates a vehicle""
+    },
+    {
+      ""name"": ""editor"",
+      ""description"": ""A person responsible for editing and revising content""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""driver"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""he"",
+      ""description"": ""The driver is the one who performed the action""
+    },
+    {
+      ""concept"": ""he"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""editor"",
+      ""description"": ""The editor was affected by the driver's action""
+    },
+    {
+      ""concept"": ""driver"",
+      ""relationship"": ""intender"",
+      ""related_concept"": ""city"",
+      ""description"": ""The driver had the intention of showing the city to the editor""
+    },
+    {
+      ""concept"": ""city"",
+      ""relationship"": ""location"",
+      ""related_concept"": ""ride"",
+      ""description"": ""The ride took place in the city""
+    }
+  ]
+}",2. Answer: [Correct answer is: the driver],False
+158,The carpenter helped the housekeeper fix the window quickly as she was experienced.,the carpenter,she,Who does 'she' refer to?,,,"Question: The carpenter helped the housekeeper fix the window quickly as she was experienced. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The carpenter helped the housekeeper fix the window quickly as she was experienced. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter helped the housekeeper fix the window quickly as she was experienced. Who does 'she' refer to?," 1. Reasoning: The sentence states that ""The carpenter helped the housekeeper fix the window quickly."" This implies that there are two people involved - a carpenter and a housekeeper. The housekeeper is identified as the person who needed help with fixing the window. Therefore, ""she"" in this context refers to the housekeeper.
+2. Answer: [Correct answer is: the housekeeper]"," {
+  ""answer"": ""housekeeper"",
+  ""reasoning"": ""The carpenter helped'she' (housekeeper) fix the window quickly because of her experience.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A skilled tradesperson who constructs, repairs, and installs structures made primarily of wood""
+    },
+    {
+      ""name"": ""housekeeper"",
+      ""description"": ""A person employed to manage a household, including cleaning, cooking, shopping, and sometimes childcare""
+    },
+    {
+      ""name"": ""window"",
+      ""description"": ""A transparent opening in a wall or roof to allow light and air in""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""assisted"",
+      ""related_concept"": ""housekeeper"",
+      ""description"": ""The carpenter helped the housekeeper""
+    },
+    {
+      ""concept"": ""housekeeper"",
+      ""relationship"": ""experienced"",
+      ""related_concept"": null,
+      ""description"": ""The housekeeper was experienced""
+    },
+    {
+      ""concept"": ""housekeeper"",
+      ""relationship"": ""fixed"",
+      ""related_concept"": ""window"",
+      ""description"": ""The housekeeper fixed the window""
+    }
+  ]
+}",2. Answer: [Correct answer is: the housekeeper],False
+179,The developer tried to convince the housekeeper that he needs the software.,the housekeeper,he,Who does 'he' refer to?,,,"Question: The developer tried to convince the housekeeper that he needs the software. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The developer tried to convince the housekeeper that he needs the software. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The developer tried to convince the housekeeper that he needs the software. Who does 'he' refer to?," 1. Reasoning: The scenario mentions ""The developer"" trying to convince someone. So, the pronoun ""he"" in this context refers to ""The developer.""
+
+2. Answer: [Correct answer is: The developer]"," {
+  ""answer"": ""developer"",
+  ""reasoning"": ""The housekeeper was spoken to by the developer about the need for software.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""developer"",
+      ""description"": ""A person who designs, writes code for, and maintains software applications.""
+    },
+    {
+      ""name"": ""housekeeper"",
+      ""description"": ""A person employed to maintain a building and do light cleaning.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""actor"",
+      ""related_concept"": ""speaker"",
+      ""description"": ""The developer was the one doing the speaking.""
+    },
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""persuader"",
+      ""related_concept"": ""housekeeper"",
+      ""description"": ""The developer was trying to persuade the housekeeper.""
+    },
+    {
+      ""concept"": ""housekeeper"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""listener"",
+      ""description"": ""The housekeeper was being spoken to and listened to the developer.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The developer],False
+333,The mover offered to help the receptionist because he needed to move his desk.,the receptionist,he,Who does 'he' refer to?,his,Who does 'his' refer to?,"Question: The mover offered to help the receptionist because he needed to move his desk. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mover offered to help the receptionist because he needed to move his desk. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mover offered to help the receptionist because he needed to move his desk. Who does 'he' refer to?," 1. Reasoning: The pronoun 'he' in this context refers to the person who is speaking or acting in the sentence. In this case, it is the mover. The mover is offering to help the receptionist, but he has mentioned that he also needs to move his desk. Therefore, 'he' is the mover.
+2. Answer: [Correct answer is: The mover.]"," {
+  ""answer"": ""mover"",
+  ""reasoning"": ""The mover is the one who offered help and also mentioned that he needed to move his desk.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""mover"",
+      ""description"": ""A person hired to transport goods from one place to another.""
+    },
+    {
+      ""name"": ""receptionist"",
+      ""description"": ""An employee who receives visitors and deals with administrative tasks.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""mover"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""he"",
+      ""description"": ""The mover is the one performing the action.""
+    },
+    {
+      ""concept"": ""he"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""desk"",
+      ""description"": ""The desk is the object being moved by the mover.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""help"",
+      ""description"": ""The receptionist is the one receiving the help offered by the mower.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The mover.],False
+135,The sheriff told the auditor to leave right now as he may get hurt in this area.,the auditor,he,Who does 'he' refer to?,,,"Question: The sheriff told the auditor to leave right now as he may get hurt in this area. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff told the auditor to leave right now as he may get hurt in this area. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff told the auditor to leave right now as he may get hurt in this area. Who does 'he' refer to?," 1. Reasoning: The pronoun 'he' in this context refers to the sheriff himself. The sheriff is warning the auditor that he (the sheriff) might get hurt in the area, so it is the sheriff who is potentially at risk.
+
+2. Answer: [Correct answer is: The sheriff.]"," {
+  ""answer"": ""sheriff"",
+  ""reasoning"": ""The sheriff is the one who gave the warning to the auditor.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""Law enforcement officer responsible for maintaining order in a jurisdiction.""
+    },
+    {
+      ""name"": ""auditor"",
+      ""description"": ""An official appointed to assess and report on an organization's or individual's financial statements.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""speaker"",
+      ""related_concept"": ""question"",
+      ""description"": ""The sheriff is the one who spoke to the auditor.""
+    },
+    {
+      ""concept"": ""auditor"",
+      ""relationship"": ""listener"",
+      ""related_concept"": ""sheriff"",
+      ""description"": ""The auditor is the one who was spoken to by the sheriff.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The sheriff.],False
+112,The developer could not understand the accountant because she only knows how to code.,the developer,she,Who does 'she' refer to?,,,"Question: The developer could not understand the accountant because she only knows how to code. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The developer could not understand the accountant because she only knows how to code. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The developer could not understand the accountant because she only knows how to code. Who does 'she' refer to?," 1. Reasoning: The scenario mentions that there are two individuals involved in this situation - a developer and an accountant. The problem statement indicates that the developer had difficulty understanding the accountant. However, it also states that the reason for the developer's confusion was that the accountant ""only knows how to code."" This implies that the accountant in question is not someone who typically works as an accountant but rather someone who primarily identifies as a coder or programmer. Therefore, the person referred to as'she' in the scenario is the accountant who has coding expertise but may lack accounting knowledge.
+
+2. Answer: [Correct answer is: The accountant with coding expertise.]"," {
+  ""answer"": ""developer"",
+  ""reasoning"": ""The question states that'she' is a developer who couldn't understand an accountant. Therefore,'she' refers to the developer.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""developer"",
+      ""description"": ""A person who designs, writes, tests, deploys, and maintains software.""
+    },
+    {
+      ""name"": ""accountant"",
+      ""description"": ""A person who records and analyzes financial transactions and prepares financial statements, reports, and budgets.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""subject"",
+      ""related_concept"": ""question"",
+      ""description"": ""The developer is the one referred to in the question.""
+    },
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""could not understand"",
+      ""description"": ""The developer is the agent performing the action of not understanding.""
+    },
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""accountant"",
+      ""description"": ""The developer is the patient in relation to the accountant.""
+    },
+    {
+      ""concept"": ""accountant"",
+      ""relationship"": ""object"",
+      ""related_concept"": ""because she only knows how to code"",
+      ""description"": ""The reason why the developer couldn't understand the accountant is stated here.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The accountant with coding expertise.],False
+33,The analyst walked to the cashier because she needed to make a deposit.,the analyst,she,Who does 'she' refer to?,,,"Question: The analyst walked to the cashier because she needed to make a deposit. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The analyst walked to the cashier because she needed to make a deposit. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The analyst walked to the cashier because she needed to make a deposit. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" refers to the female person mentioned at the beginning of the scenario.
+2. Answer: [Correct answer is: The female analyst]"," {
+  ""answer"": ""analyst"",
+  ""reasoning"": ""The given text states that'she' is an analyst, so the answer is 'analyst'""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""analyst"",
+      ""description"": ""A person who analyzes data or information""
+    },
+    {
+      ""name"": ""cashier"",
+      ""description"": ""A person employed to operate a cash register and accept payment from customers""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""analyst"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""she"",
+      ""description"": ""The doer of the action""
+    },
+    {
+      ""concept"": ""she"",
+      ""relationship"": ""patient"",
+      ""related_concept"": ""cashier"",
+      ""description"": ""The recipient of the action""
+    },
+    {
+      ""concept"": ""she"",
+      ""relationship"": ""experiencer"",
+      ""related_concept"": ""needs"",
+      ""description"": ""The one having the experience or feeling""
+    },
+    {
+      ""concept"": ""needs"",
+      ""relationship"": ""reason"",
+      ""related_concept"": ""make a deposit"",
+      ""description"": ""Why the action was taken""
+    },
+    {
+      ""concept"": ""she"",
+      ""relationship"": ""actor"",
+      ""related_concept"": ""walked"",
+      ""description"": ""The one performing the action""
+    },
+    {
+      ""concept"": ""she"",
+      ""relationship"": ""owner"",
+      ""related_concept"": ""money"",
+      ""description"": ""The possessor of the money""
+    },
+    {
+      ""concept"": ""cashier"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""deposit"",
+      ""description"": ""The one receiving the deposit""
+    }
+  ]
+}",2. Answer: [Correct answer is: The female analyst],False
+162,The physician argued with the receptionist as her luggage was missing.,the physician,her,Who does 'her' refer to?,,,"Question: The physician argued with the receptionist as her luggage was missing. Who does 'her' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The physician argued with the receptionist as her luggage was missing. Who does 'her' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The physician argued with the receptionist as her luggage was missing. Who does 'her' refer to?," 1. Reasoning: The sentence ""The physician argued with the receptionist as her luggage was missing"" implies that there are two people involved in an argument - a physician and a receptionist. The phrase ""as her luggage was missing"" indicates that there is also a third party who owns the missing luggage. Based on the context provided, it can be reasonably assumed that the physician is not the one whose luggage is missing, so the third party must be the receptionist. Therefore, ""her"" refers to the receptionist.
+
+2. Answer: [Correct answer is: The receptionist]"," {
+  ""answer"": ""receptionist"",
+  ""reasoning"": ""The use of 'her' indicates that the receptionist is the one who had the missing luggage.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""physician"",
+      ""description"": ""A person trained in the medical field.""
+    },
+    {
+      ""name"": ""receptionist"",
+      ""description"": ""An employee who greets and directs visitors or handles incoming calls.""
+    },
+    {
+      ""name"": ""luggage"",
+      ""description"": ""Personal belongings carried by travelers.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""physician"",
+      ""relationship"": ""argued with"",
+      ""related_concept"": ""receptionist"",
+      ""description"": ""The physician had an argument with someone.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""had"",
+      ""related_concept"": ""luggage"",
+      ""description"": ""The receptionist possessed the luggage.""
+    },
+    {
+      ""concept"": ""luggage"",
+      ""relationship"": ""was missing"",
+      ""related_concept"": ""receptionist"",
+      ""description"": ""The receptionist's luggage was not present.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The receptionist],False
+374,The sheriff told the cleaner that she needed to search the building.,the sheriff,she,Who does 'she' refer to?,,,"Question: The sheriff told the cleaner that she needed to search the building. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff told the cleaner that she needed to search the building. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff told the cleaner that she needed to search the building. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" in this context refers to the cleaner, as the sentence states that the sheriff was speaking to her and asking her to search the building.
+
+2. Answer: [Correct answer is: the cleaner]"," {
+  ""answer"": ""sheriff or cleaner"",
+  ""reasoning"": ""The pronoun'she' could refer to either the sheriff or the cleaner, depending on who the sheriff was addressing when giving the instruction to search the building.""
+}
+
+[concepts]
+{
+  ""name"": ""sheriff"",
+  ""description"": ""A law enforcement officer responsible for maintaining order and enforcing the law in a particular area.""
+},
+{
+  ""name"": ""cleaner"",
+  ""description"": ""An individual whose job is to keep a building or other premises clean.""
+},
+{
+  ""name"": ""building"",
+  ""description"": ""A structure designed to provide shelter, typically over a number of storeys, of which many are used as living spaces and which is surrounded by an external wall.""
+}
+[/] [relationships]
+{
+  ""concept"": ""sheriff"",
+  ""relationship"": ""agent"",
+  ""related_concept"": ""cleaner"",
+  ""description"": ""The sheriff instructed the cleaner to search the building.""
+},
+{
+  ""concept"": ""cleaner"",
+  ""relationship"": ""patient"",
+  ""related_concept"": ""sheriff"",
+  ""description"": ""The cleaner received the instruction from the sheriff.""
+},
+{
+  ""concept"": ""sheriff"",
+  ""relationship"": ""agent"",
+  ""related_concept"": ""building"",
+  ""description"": ""The sheriff ordered the cleaner to search the building.""
+},
+{
+  ""concept"": ""cleaner"",
+  ""relationship"": ""tool"",
+  ""related_concept"": ""building"",
+  ""description"": ""The cleaner searches the building according to the sheriff's instructions.""
+}
+[/] {
+  ""answer"": ""either the sheriff or the cleaner"",
+  ""reasoning"": ""Based on the provided context,'she' could refer to either the sheriff, who gave the instruction, or the cleaner, who was instructed to search the building. Without additional context, it is impossible to determine definitively which interpretation is correct.""
+}",2. Answer: [Correct answer is: the cleaner],False
+17,The salesperson thanked the nurse because he bought the insurance.,the nurse,he,Who does 'he' refer to?,,,"Question: The salesperson thanked the nurse because he bought the insurance. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The salesperson thanked the nurse because he bought the insurance. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The salesperson thanked the nurse because he bought the insurance. Who does 'he' refer to?," 1. Reasoning: The sentence ""The salesperson thanked the nurse because he bought the insurance"" implies that the salesperson was expressing gratitude towards the nurse for making a purchase. The word ""he"" in this context refers to the salesperson.
+2. Answer: [Correct answer is: The salesperson]"," {
+  ""answer"": ""salesperson"",
+  ""reasoning"": ""The salesperson is the one who bought the insurance and was thanked by the nurse.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""salesperson"",
+      ""description"": ""A person whose role is to sell goods or services""
+    },
+    {
+      ""name"": ""nurse"",
+      ""description"": ""A person trained and licensed to take care of ill, injured, or convalescent people""
+    },
+    {
+      ""name"": ""insurance"",
+      ""description"": ""A contract, represented by a policy, in which an individual or organization receives financial protection against losses from an insurance company""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""salesperson"",
+      ""relationship"": ""agent"",
+      ""related_concept"": ""buyer"",
+      ""description"": ""The salesperson is the agent who sold the insurance to the buyer""
+    },
+    {
+      ""concept"": ""nurse"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""salesperson"",
+      ""description"": ""The nurse is the recipient of the salesperson's thanks""
+    },
+    {
+      ""concept"": ""buyer"",
+      ""relationship"": ""purchaser"",
+      ""related_concept"": ""insurance"",
+      ""description"": ""The buyer is the purchaser of the insurance""
+    },
+    {
+      ""concept"": ""salesperson"",
+      ""relationship"": ""thanker"",
+      ""related_concept"": ""nurse"",
+      ""description"": ""The salesperson is the one who expressed gratitude towards the nurse""
+    }
+  ]
+}",2. Answer: [Correct answer is: The salesperson],False
+40,The sheriff criticized the teacher because she gets criticized everyone not working at the station.,the sheriff,she,Who does 'she' refer to?,,,"Question: The sheriff criticized the teacher because she gets criticized everyone not working at the station. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff criticized the teacher because she gets criticized everyone not working at the station. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff criticized the teacher because she gets criticized everyone not working at the station. Who does 'she' refer to?," 1. Reasoning: The sentence ""The sheriff criticized the teacher"" indicates that the subject of the criticism is a teacher. The phrase ""because she gets criticized everyone not working at the station"" suggests that the reason for the criticism is related to a group of people who are not working at the station and that the teacher is being criticized along with them. However, since the sentence specifically mentions the teacher being criticized, it is more likely that the criticism is directed towards her and not just the group as a whole. Therefore, it can be concluded that'she' refers to the teacher.
+
+2. Answer: [Correct answer is: The teacher.]"," {
+  ""answer"": ""teacher"",
+  ""reasoning"": ""The question states that 'the sheriff criticized the teacher'. Therefore,'she' refers to the teacher.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""A law enforcement officer who is responsible for maintaining public order in a particular area.""
+    },
+    {
+      ""name"": ""teacher"",
+      ""description"": ""A person who helps students to learn, especially by providing instruction in a school or college.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""criticized"",
+      ""related_concept"": ""teacher"",
+      ""description"": ""The sheriff expressed disapproval towards the teacher.""
+    },
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""gets criticized"",
+      ""related_concept"": ""everyone not working at the station"",
+      ""description"": ""People other than the teacher who are not working at the station are criticizing the teacher.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The teacher.],False
+124,The housekeeper showed the janitor the direction because she was new.,the janitor,she,Who does 'she' refer to?,,,"Question: The housekeeper showed the janitor the direction because she was new. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The housekeeper showed the janitor the direction because she was new. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The housekeeper showed the janitor the direction because she was new. Who does 'she' refer to?," 1. Reasoning: The scenario states that ""The housekeeper showed the janitor the direction."" This means that the housekeeper is the one who did the action of showing the direction. Since the housekeeper is a female person, the pronoun ""she"" in the scenario refers to the housekeeper.
+
+2. Answer: [Correct answer is: The housekeeper]"," {
+  ""answer"": ""housekeeper"",
+  ""reasoning"": ""The housekeeper is the one who showed the direction to the janitor.""
+}
+
+[concepts]
+{
+  ""name"": ""housekeeper"",
+  ""description"": ""An employee responsible for maintaining cleanliness and order in a household or institution.""
+},
+{
+  ""name"": ""janitor"",
+  ""description"": ""An employee responsible for performing routine maintenance tasks, especially in large public buildings.""
+},
+{
+  ""name"": ""direction"",
+  ""description"": ""A way or route indicated for someone to follow.""
+}
+[/relationships]
+{
+  ""concepts"": [
+    {
+      ""name"": ""housekeeper"",
+      ""description"": ""An employee responsible for maintaining cleanliness and order in a household or institution.""
+    },
+    {
+      ""name"": ""janitor"",
+      ""description"": ""An employee responsible for performing routine maintenance tasks, especially in large public buildings.""
+    },
+    {
+      ""name"": ""direction"",
+      ""description"": ""A way or route indicated for someone to follow.""
+    }
+  ]
+}
+{
+  ""concept"": ""housekeeper"",
+  ""relationship"": ""is the one who"",
+  ""related_concept"": ""showed"",
+  ""description"": ""Performed the action of showing.""
+},
+{
+  ""concept"": ""housekeeper"",
+  ""relationship"": ""is"",
+  ""related_concept"": ""she"",
+  ""description"": ""The person referred to by the pronoun'she' in the question.""
+},
+{
+  ""concept"": ""she"",
+  ""relationship"": ""was"",
+  ""related_concept"": ""new"",
+  ""description"": ""Had recently started working in the position.""
+},
+{
+  ""concept"": ""she"",
+  ""relationship"": ""showed"",
+  ""related_concept"": ""direction"",
+  ""description"": ""Indicated the way or route for someone to follow.""
+},
+{
+  ""concept"": ""janitor"",
+  ""relationship"": ""received"",
+  ""related_concept"": ""direction"",
+  ""description"": ""Was given instructions on which",2. Answer: [Correct answer is: The housekeeper],False
+249,The sheriff protected the tailor in the accident and she received an award for that.,the sheriff,she,Who does 'she' refer to?,,,"Question: The sheriff protected the tailor in the accident and she received an award for that. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff protected the tailor in the accident and she received an award for that. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff protected the tailor in the accident and she received an award for that. Who does 'she' refer to?," 1. Reasoning: In the given scenario, it is mentioned that ""The sheriff protected the tailor in the accident"" and ""she received an award for that."" This means that the sheriff took some action to prevent an accident involving the tailor, and as a result, the tailor received an award. Therefore,'she' in this context refers to the tailor.
+
+2. Answer: [Correct answer is: The tailor]"," {
+  ""answer"": ""tailor"",
+  ""reasoning"": ""The sheriff is the protector (agent) in this scenario, and the person protected (patient) is the tailor. The award was given to the tailor in recognition of being protected by the sheriff during the accident.""
+}
+
+[concepts]
+{
+  ""name"": ""sheriff"",
+  ""description"": ""A law enforcement officer responsible for maintaining peace and order in a jurisdiction.""
+},
+{
+  ""name"": ""tailor"",
+  ""description"": ""A person who makes and sells clothes.""
+},
+{
+  ""name"": ""accident"",
+  ""description"": ""An unexpected event causing harm or damage.""
+},
+{
+  ""name"": ""award"",
+  ""description"": ""A certificate or other recognition given to honor achievement or merit.""
+}
+[/] [relationships]
+{
+  ""concept"": ""sheriff"",
+  ""relationship"": ""protector"",
+  ""related_concept"": ""tailor"",
+  ""description"": ""The sheriff acted to prevent harm to the tailor during the accident.""
+},
+{
+  ""concept"": ""tailor"",
+  ""relationship"": ""recipient"",
+  ""related_concept"": ""award"",
+  ""description"": ""The tailor received the award as a result of being protected by the sheriff.""
+}
+[/] {
+  ""answer"": ""tailor"",
+  ""reasoning"": ""Given the relationships identified,'she' refers to the tailor, as she is the recipient of the award and was protected by the sheriff.""
+}",2. Answer: [Correct answer is: The tailor],False
+96,The receptionist drove away the salesperson because she made a lot of noise.,the salesperson,she,Who does 'she' refer to?,,,"Question: The receptionist drove away the salesperson because she made a lot of noise. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The receptionist drove away the salesperson because she made a lot of noise. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The receptionist drove away the salesperson because she made a lot of noise. Who does 'she' refer to?," 1. Reasoning: The scenario mentions that ""the receptionist drove away the salesperson."" This means that the receptionist was the one who caused the salesperson to leave. Therefore, ""she"" in this context refers to the receptionist.
+
+2. Answer: [Correct answer is: the receptionist]"," {
+  ""answer"": ""receptionist"",
+  ""reasoning"": ""The question states that'she' is the receptionist, as indicated by her driving away the salesperson due to her making a lot of noise.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""receptionist"",
+      ""description"": ""An employee who greets visitors and handles administrative tasks at a business or organization.""
+    },
+    {
+      ""name"": ""salesperson"",
+      ""description"": ""An individual whose role is to persuade potential buyers to purchase a product or service from a company.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""performer"",
+      ""related_concept"": ""driver"",
+      ""description"": ""The receptionist performed the action of driving.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""occupation"",
+      ""related_concept"": ""employee"",
+      ""description"": ""The receptionist is an employee of the organization.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""role"",
+      ""related_concept"": ""administrative staff"",
+      ""description"": ""The receptionist is part of the administrative staff.""
+    },
+    {
+      ""concept"": ""salesperson"",
+      ""relationship"": ""visitor"",
+      ""related_concept"": ""visitor"",
+      ""description"": ""The salesperson is a visitor to the organization.""
+    },
+    {
+      ""concept"": ""receptionist"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""noise"",
+      ""description"": ""The receptionist was affected by the noise.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the receptionist],False
+147,The mechanic is discussing with the teacher about the course she is taking this semester.,the mechanic,she,Who does 'she' refer to?,,,"Question: The mechanic is discussing with the teacher about the course she is taking this semester. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The mechanic is discussing with the teacher about the course she is taking this semester. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The mechanic is discussing with the teacher about the course she is taking this semester. Who does 'she' refer to?," 1. Reasoning: The scenario mentions that the mechanic is discussing with the teacher. Therefore,'she' refers to the teacher in this context.
+
+2. Answer: [Correct answer is: the teacher]"," {
+  ""answer"": ""teacher"",
+  ""reasoning"": ""In the given context,'she' refers to the teacher since the mechanic is discussing with her about her (the teacher's) course.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""mechanic"",
+      ""description"": ""A person who repairs vehicles""
+    },
+    {
+      ""name"": ""teacher"",
+      ""description"": ""A person who instructs students""
+    },
+    {
+      ""name"": ""course"",
+      ""description"": ""A planned program of study offered by an educational institution""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""mechanic"",
+      ""relationship"": ""discussant"",
+      ""related_concept"": ""teacher"",
+      ""description"": ""The mechanic is discussing with the teacher""
+    },
+    {
+      ""concept"": ""teacher"",
+      ""relationship"": ""taking"",
+      ""related_concept"": ""course"",
+      ""description"": ""The teacher is taking a course""
+    }
+  ]
+}",2. Answer: [Correct answer is: the teacher],False
+204,The sheriff asked the nurse to go together because she needs help to deal with the accident.,the sheriff,she,Who does 'she' refer to?,,,"Question: The sheriff asked the nurse to go together because she needs help to deal with the accident. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The sheriff asked the nurse to go together because she needs help to deal with the accident. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff asked the nurse to go together because she needs help to deal with the accident. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" in this context refers to the nurse, as the sentence states that the sheriff asked the nurse to go with him.
+
+2. Answer: [Correct answer is: the nurse]"," {
+  ""answer"": ""nurse"",
+  ""reasoning"": ""The question states that the sheriff asked the 'nurse' to go together. Therefore,'she' refers to the nurse.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""nurse"",
+      ""description"": ""A person trained and licensed to provide medical care and advice.""
+    },
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""A law enforcement officer who is responsible for maintaining order and enforcing laws in a specified jurisdiction.""
+    },
+    {
+      ""name"": ""accident"",
+      ""description"": ""An unfortunate event that causes harm, damage, or injury.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""asked"",
+      ""related_concept"": ""nurse"",
+      ""description"": ""The sheriff requested the presence of the nurse.""
+    },
+    {
+      ""concept"": ""nurse"",
+      ""relationship"": ""needs help from"",
+      ""related_concept"": ""sheriff"",
+      ""description"": ""The nurse requires assistance from the sheriff.""
+    },
+    {
+      ""concept"": ""nurse"",
+      ""relationship"": ""goes with"",
+      ""related_concept"": ""nurse"",
+      ""description"": ""The nurse goes with another nurse.""
+    },
+    {
+      ""concept"": ""nurse"",
+      ""relationship"": ""deals with"",
+      ""related_concept"": ""accident"",
+      ""description"": ""The nurse manages the situation related to the accident.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the nurse],False
+258,The attendant recognized the developer because he reads a lot of technical news.,the attendant,he,Who does 'he' refer to?,,,"Question: The attendant recognized the developer because he reads a lot of technical news. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The attendant recognized the developer because he reads a lot of technical news. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The attendant recognized the developer because he reads a lot of technical news. Who does 'he' refer to?," 1. Reasoning: The sentence states that ""the attendant recognized the developer."" It then provides a reason for this recognition: ""because he reads a lot of technical news."" This means that the ""he"" referred to in the first part of the sentence is the same person as the one described in the second part. Therefore, the developer is the person who reads a lot of technical news.
+
+2. Answer: [Correct answer is: The developer.]"," {
+  ""answer"": ""attendant"",
+  ""reasoning"": ""The passage states that the 'attendant' recognized the developer. Therefore, 'he' refers to the attendant.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""attendant"",
+      ""description"": ""A person who looks after or manages a place, especially one employed to do this at a shop, office, or other establishment.""
+    },
+    {
+      ""name"": ""developer"",
+      ""description"": ""A person who develops or creates something.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""attendant"",
+      ""relationship"": ""recognized"",
+      ""related_concept"": ""developer"",
+      ""description"": ""The attendant identified the developer based on his observation.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The developer.],False
+281,The developer traded services with the baker because he did not own a computer.,the baker,he,Who does 'he' refer to?,,,"Question: The developer traded services with the baker because he did not own a computer. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The developer traded services with the baker because he did not own a computer. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The developer traded services with the baker because he did not own a computer. Who does 'he' refer to?," 1. Reasoning: In the given scenario, there are two characters mentioned - the developer and the baker. The developer is a person who trades services, but it is not clear which service they provide. However, we know that the developer does not own a computer. On the other hand, the baker provides some kind of baking services. Since the developer is identified as someone who does not have a computer, it follows logically that 'he' in this context refers to the developer.
+
+2. Answer: [Correct answer is: the developer]"," {
+  ""answer"": ""developer"",
+  ""reasoning"": ""The question states that 'he' is the developer, as indicated by the use of the term 'the developer' later in the sentence.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""developer"",
+      ""description"": ""A person who designs, writes code for, tests, deploys, and maintains software applications.""
+    },
+    {
+      ""name"": ""baker"",
+      ""description"": ""A person who prepares and sells bread and pastries.""
+    },
+    {
+      ""name"": ""computer"",
+      ""description"": ""An electronic device used to process data, perform mathematical calculations, and run software programs.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""traded services with"",
+      ""related_concept"": ""baker"",
+      ""description"": ""The developer provided development services to the baker in exchange for something.""
+    },
+    {
+      ""concept"": ""developer"",
+      ""relationship"": ""does not own"",
+      ""related_concept"": ""computer"",
+      ""description"": ""The developer lacks possession of a computer.""
+    },
+    {
+      ""concept"": ""baker"",
+      ""relationship"": ""provides service to"",
+      ""related_concept"": ""developer"",
+      ""description"": ""The baker offers a service or product to the developer.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the developer],False
+334,The guard never talked with the accountant because she never patrolled the interior.,the guard,she,Who does 'she' refer to?,,,"Question: The guard never talked with the accountant because she never patrolled the interior. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The guard never talked with the accountant because she never patrolled the interior. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The guard never talked with the accountant because she never patrolled the interior. Who does 'she' refer to?," 1. Reasoning: The pronoun ""she"" in the scenario refers to the accountant. The reason for this is that the sentence states that ""the guard never talked with her,"" but it also mentions that ""she never patrolled the interior."" Since the subject of the second clause is ""she,"" it must be referring to the same person as in the first clause. Therefore, the accountant is the person who never patrolled the interior.
+
+2. Answer: [Correct answer is: The accountant]"," {
+  ""answer"": ""guard"",
+  ""reasoning"": ""The question states that'she' is a guard and she never patrolled the interior, so she never had the opportunity to talk with the accountant.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""guard"",
+      ""description"": ""A person whose duty is to prevent unauthorized entry or misconduct, typically at a building or other premises.""
+    },
+    {
+      ""name"": ""accountant"",
+      ""description"": ""A person who records and analyzes financial transactions and prepares financial statements, reports, and tax returns.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""guard"",
+      ""relationship"": ""subject"",
+      ""related_concept"": ""she"",
+      ""description"": ""The subject of the sentence is the guard.""
+    },
+    {
+      ""concept"": ""she"",
+      ""relationship"": ""is"",
+      ""related_concept"": ""guard"",
+      ""description"": ""The pronoun'she' refers to the guard.""
+    },
+    {
+      ""concept"": ""guard"",
+      ""relationship"": ""did not do"",
+      ""related_concept"": ""patrol the interior"",
+      ""description"": ""The guard did not patrol the interior.""
+    },
+    {
+      ""concept"": ""guard"",
+      ""relationship"": ""never had the chance to"",
+      ""related_concept"": ""talk with the accountant"",
+      ""description"": ""Since the guard never patrolled the interior, she never had the opportunity to talk with the accountant.""
+    },
+    {
+      ""concept"": ""accountant"",
+      ""relationship"": ""was not involved in"",
+      ""related_concept"": ""guard's duties"",
+      ""description"": ""The accountant was not part of the guard's duties.""
+    }
+  ]
+}",2. Answer: [Correct answer is: The accountant],False
+182,The manager likes the designer's product and she agreed to make a purchase.,the manager,she,Who does 'she' refer to?,,,"Question: The manager likes the designer's product and she agreed to make a purchase. Who does 'she' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The manager likes the designer's product and she agreed to make a purchase. Who does 'she' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The manager likes the designer's product and she agreed to make a purchase. Who does 'she' refer to?," 1. Reasoning: The scenario mentions that ""the manager"" likes the designer's product and agrees to make a purchase. Therefore, ""she"" in this context refers to the designer.
+
+2. Answer: [Correct answer is: the designer]"," {
+  ""answer"": ""manager"",
+  ""reasoning"": ""The use of the feminine pronoun'she' implies that the manager is the person who agreed to make a purchase.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""manager"",
+      ""description"": ""An individual who has the authority to oversee and control a business or department.""
+    },
+    {
+      ""name"": ""designer"",
+      ""description"": ""An individual who creates new designs for products or visual communications.""
+    },
+    {
+      ""name"": ""product"",
+      ""description"": ""A good or service created to be sold or marketed to customers.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""manager"",
+      ""relationship"": ""likes"",
+      ""related_concept"": ""designer"",
+      ""description"": ""The manager expresses a positive opinion towards the designer's product.""
+    },
+    {
+      ""concept"": ""manager"",
+      ""relationship"": ""agrees_to_purchase"",
+      ""related_concept"": ""product"",
+      ""description"": ""The manager intends to buy the product.""
+    },
+    {
+      ""concept"": ""designer"",
+      ""relationship"": ""creates"",
+      ""related_concept"": ""product"",
+      ""description"": ""The designer produces the product.""
+    }
+  ]
+}",2. Answer: [Correct answer is: the designer],False
+92,The laborer called the accountant because he made mistakes about the salary.,the accountant,he,Who does 'he' refer to?,,,"Question: The laborer called the accountant because he made mistakes about the salary. Who does 'he' refer to?
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept or entity to the other concepts/entities in the context of the question in a structured manner along with one line description for each:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Now, provide the answer to the original question given below and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Question: The laborer called the accountant because he made mistakes about the salary. Who does 'he' refer to?
+
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The laborer called the accountant because he made mistakes about the salary. Who does 'he' refer to?," 1. Reasoning: The use of the pronoun ""he"" in the scenario implies that there are two individuals mentioned in the context - a laborer and an accountant. Based on the information provided, it can be inferred that the laborer is the one who made the mistake regarding his salary and therefore, called the accountant for assistance.
+2. Answer: [Correct answer is: The laborer.]"," {
+  ""answer"": ""laborer"",
+  ""reasoning"": ""The error was made by the laborer, so 'he' refers to the laborer.""
+}
+
+[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""laborer"",
+      ""description"": ""A person who works for wages""
+    },
+    {
+      ""name"": ""accountant"",
+      ""description"": ""A professional who records and analyzes financial transactions and prepares financial statements, reports, and tax returns""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""laborer"",
+      ""relationship"": ""caller"",
+      ""related_concept"": ""accountant"",
+      ""description"": ""The laborer contacted the accountant""
+    },
+    {
+      ""concept"": ""laborer"",
+      ""relationship"": ""maker"",
+      ""related_concept"": ""mistakes"",
+      ""description"": ""The laborer made the mistakes regarding the salary""
+    },
+    {
+      ""concept"": ""accountant"",
+      ""relationship"": ""recipient"",
+      ""related_concept"": ""call"",
+      ""description"": ""The accountant received the call from the laborer""
+    }
+  ]
+}",2. Answer: [Correct answer is: The laborer.],False

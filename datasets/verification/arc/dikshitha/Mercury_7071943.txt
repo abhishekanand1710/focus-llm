@@ -1,0 +1,63 @@
+Key: Mercury_7071943
+
+Question: Which soil component has the least capacity for holding water?
+Options: ['silt', 'clay', 'sand', 'humus']
+Answer: sand
+
+Model Response:
+Concepts: [
+    {
+        "name": "silt",
+        "description": "Fine particles of fertile soil that can retain water moderately."
+    },
+    {
+        "name": "clay",
+        "description": "Very fine-grained soil with high water retention capacity."
+    },
+    {
+        "name": "sand",
+        "description": "Coarse-textured soil with low water retention capacity."
+    },
+    {
+        "name": "humus",
+        "description": "Organic component of soil, formed by the decomposition of leaves and other plant materials, which increases soil's capacity to retain water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "sand",
+        "relationship": "has less water retention than",
+        "related_concept": "silt",
+        "description": "Sand's coarse texture allows water to pass through more quickly than silt."
+    },
+    {
+        "concept": "silt",
+        "relationship": "has less water retention than",
+        "related_concept": "clay",
+        "description": "Silt's fine texture retains water more than sand but less than clay."
+    },
+    {
+        "concept": "clay",
+        "relationship": "has higher water retention than",
+        "related_concept": "sand",
+        "description": "Clay's very fine particles mean it can hold more water than sand or silt."
+    },
+    {
+        "concept": "humus",
+        "relationship": "increases water retention of",
+        "related_concept": "soil",
+        "description": "Humus improves soil structure, making it more capable of holding water."
+    },
+    {
+        "concept": "sand",
+        "relationship": "is a component of",
+        "related_concept": "soil",
+        "description": "Sand is one of the primary components of soil, influencing its texture and water retention properties."
+    }
+]
+
+Model Answer: {
+    "answer": "sand",
+    "reasoning": "Among the options provided, sand has the least capacity for holding water due to its coarse texture that allows water to pass through quickly. Unlike clay, which has very fine particles that can hold a significant amount of water, or humus which can greatly increase soil's water retention capacity, sand's physical properties inherently limit its ability to retain water."
+}

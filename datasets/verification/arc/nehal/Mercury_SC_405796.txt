@@ -1,0 +1,71 @@
+Key: Mercury_SC_405796
+
+Question: Which material should be used on a bicycle ramp to increase friction?
+Options: ['shiny metal', 'rough paper', 'smooth wood', 'wet plastic']
+Answer: rough paper
+
+Model Response:
+Concepts: [
+    {
+        "name": "Friction",
+        "description": "A force that opposes motion between two surfaces that are in contact"
+    },
+    {
+        "name": "Shiny Metal",
+        "description": "A polished, smooth surface that typically has low friction"
+    },
+    {
+        "name": "Rough Paper",
+        "description": "A material with a textured surface, offering more resistance compared to smooth surfaces"
+    },
+    {
+        "name": "Smooth Wood",
+        "description": "Wood with a fine, even surface, offering moderate resistance"
+    },
+    {
+        "name": "Wet Plastic",
+        "description": "Plastic that has been made slick by moisture, reducing friction"
+    },
+    {
+        "name": "Bicycle Ramp",
+        "description": "A slope or inclined plane for bicycles to ascend or descend"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Friction",
+        "relationship": "increased_by",
+        "related_concept": "Rough Paper",
+        "description": "Rough surfaces, like rough paper, increase friction due to their texture"
+    },
+    {
+        "concept": "Shiny Metal",
+        "relationship": "has_low",
+        "related_concept": "Friction",
+        "description": "The smoothness of shiny metal results in low friction"
+    },
+    {
+        "concept": "Smooth Wood",
+        "relationship": "has_moderate",
+        "related_concept": "Friction",
+        "description": "The surface of smooth wood provides moderate friction"
+    },
+    {
+        "concept": "Wet Plastic",
+        "relationship": "reduces",
+        "related_concept": "Friction",
+        "description": "Moisture on wet plastic lowers its friction"
+    },
+    {
+        "concept": "Bicycle Ramp",
+        "relationship": "requires_high",
+        "related_concept": "Friction",
+        "description": "A bicycle ramp needs high friction to prevent slipping"
+    }
+]
+
+Model Answer: {
+    "answer": "rough paper",
+    "reasoning": "Among the provided options, rough paper will increase friction on a bicycle ramp the most due to its textured surface. High friction is essential for preventing slipping and promoting safety and control on the ramp. The texture of rough paper provides the necessary resistance against the bicycle tires, making it the best choice for enhancing friction."
+}

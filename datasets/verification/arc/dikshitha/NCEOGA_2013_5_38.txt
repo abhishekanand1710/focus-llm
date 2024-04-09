@@ -1,0 +1,67 @@
+Key: NCEOGA_2013_5_38
+
+Question: In a grassland ecosystem, if the population of eagles suddenly decreased, what will most likely be the effect on the rest of the ecosystem?
+Options: ['The ecosystem will become overpopulated with snakes.', 'There will be a decrease in the population of snakes in the ecosystem.', 'The nutrition of the soil in the ecosystem will decrease.', 'More types of plants will begin growing in the ecosystem.']
+Answer: The ecosystem will become overpopulated with snakes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Grassland Ecosystem",
+        "description": "A biotic community dominated by grasses, herbs, and shrubs, and characterized by animals specially adapted to such environments."
+    },
+    {
+        "name": "Eagles",
+        "description": "Top predators in many ecosystems, feeding on small mammals, birds, and sometimes snakes."
+    },
+    {
+        "name": "Snakes",
+        "description": "Predators and prey in ecosystems, feeding on smaller animals and in turn being prey for larger birds and mammals."
+    },
+    {
+        "name": "Soil Nutrition",
+        "description": "The availability of essential chemical elements or compounds in the soil for plants and other organisms."
+    },
+    {
+        "name": "Plant Diversity",
+        "description": "The variety of plant species in an ecosystem, contributing to its overall biodiversity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Eagles",
+        "relationship": "predator_of",
+        "related_concept": "Snakes",
+        "description": "Eagles feed on snakes, controlling their population."
+    },
+    {
+        "concept": "Snakes",
+        "relationship": "prey_of",
+        "related_concept": "Eagles",
+        "description": "Snakes are a source of food for eagles."
+    },
+    {
+        "concept": "Snakes",
+        "relationship": "affect",
+        "related_concept": "Soil Nutrition",
+        "description": "The activity of snakes and their prey can indirectly affect soil quality through the cycling of nutrients."
+    },
+    {
+        "concept": "Snakes",
+        "relationship": "interact_with",
+        "related_concept": "Plant Diversity",
+        "description": "Changes in snake population can affect the plant-eating animals (herbivores) population, indirectly affecting plant diversity."
+    },
+    {
+        "concept": "Grassland Ecosystem",
+        "relationship": "supports",
+        "related_concept": "Eagles",
+        "description": "The grassland ecosystem provides habitat and food sources for eagles."
+    }
+]
+
+Model Answer: {
+    "answer": "The ecosystem will become overpopulated with snakes.",
+    "reasoning": "Eagles, being top predators of snakes in a grassland ecosystem, help control the snake population. A sudden decrease in eagle population would lead to a reduced predation pressure on snakes. Consequently, without their natural predators to keep their numbers in check, it is likely that the snake population would increase, leading to overpopulation. This could also have cascading effects on other parts of the ecosystem, such as prey species of snakes and soil nutrition. Hence, among the given options, 'The ecosystem will become overpopulated with snakes.' is the most likely effect."
+}

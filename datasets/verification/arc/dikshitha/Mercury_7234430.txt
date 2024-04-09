@@ -1,0 +1,97 @@
+Key: Mercury_7234430
+
+Question: Using nonrenewable resources for energy produces waste products that can have long-term, negative effects on Earth's subsystems. Which energy source produces waste products that can have these effects for the longest amount of time?
+Options: ['natural gas', 'uranium', 'crude oil', 'coal']
+Answer: uranium
+
+Model Response:
+Concepts: [
+    {
+        "name": "nonrenewable resources",
+        "description": "natural resources that cannot be replaced on a scale comparable to their consumption"
+    },
+    {
+        "name": "energy",
+        "description": "the ability to do work, which can be transformed and used in various forms"
+    },
+    {
+        "name": "waste products",
+        "description": "unwanted or unusable materials produced during or as a result of a process"
+    },
+    {
+        "name": "Earth's subsystems",
+        "description": "components of the Earth system, including the lithosphere, atmosphere, hydrosphere, and biosphere"
+    },
+    {
+        "name": "natural gas",
+        "description": "a fossil fuel formed from marine plant and animal matter, used primarily for heating and generating electricity"
+    },
+    {
+        "name": "uranium",
+        "description": "a heavy metal used as a fuel in nuclear power plants"
+    },
+    {
+        "name": "crude oil",
+        "description": "a liquid fossil fuel made up of hydrocarbons and other organic compounds, used in the production of gasoline and other products"
+    },
+    {
+        "name": "coal",
+        "description": "a combustible black or brownish-black sedimentary rock used primarily for electricity generation and steel production"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "nonrenewable resources",
+        "relationship": "includes",
+        "related_concept": "natural gas",
+        "description": "Natural gas is a type of nonrenewable resource"
+    },
+    {
+        "concept": "nonrenewable resources",
+        "relationship": "includes",
+        "related_concept": "uranium",
+        "description": "Uranium is a type of nonrenewable resource"
+    },
+    {
+        "concept": "nonrenewable resources",
+        "relationship": "includes",
+        "related_concept": "crude oil",
+        "description": "Crude oil is a type of nonrenewable resource"
+    },
+    {
+        "concept": "nonrenewable resources",
+        "relationship": "includes",
+        "related_concept": "coal",
+        "description": "Coal is a type of nonrenewable resource"
+    },
+    {
+        "concept": "energy",
+        "relationship": "produced from",
+        "related_concept": "nonrenewable resources",
+        "description": "Energy can be produced from nonrenewable resources"
+    },
+    {
+        "concept": "waste products",
+        "relationship": "result from",
+        "related_concept": "energy production",
+        "description": "The production of energy results in waste products"
+    },
+    {
+        "concept": "uranium",
+        "relationship": "produces waste",
+        "related_concept": "waste products",
+        "description": "Uranium produces waste that has long-term negative effects"
+    },
+    {
+        "concept": "Earth's subsystems",
+        "relationship": "affected by",
+        "related_concept": "waste products",
+        "description": "Waste products can have long-term, negative effects on Earth's subsystems"
+    }
+]
+
+Model Answer: {
+    "answer": "uranium",
+    "reasoning": "Among the options, uranium is used as fuel in nuclear power plants, wherein its waste products include radioactive material that remains hazardous for thousands of years, far longer than the waste produced by burning natural gas, crude oil, or coal. Thus, uranium produces waste products that can have negative effects on Earth's subsystems for the longest amount of time."
+}

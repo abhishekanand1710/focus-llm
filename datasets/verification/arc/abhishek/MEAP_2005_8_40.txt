@@ -1,0 +1,75 @@
+Key: MEAP_2005_8_40
+
+Question: Which of the following is NOT a description of compounds?
+Options: ['They can exist in the form of atoms or molecules.', 'They consist of atoms of two or more elements bonded together.', 'They have properties that are different from their component elements.', 'They can be broken down into elements by chemical means but not physical means.']
+Answer: They can exist in the form of atoms or molecules.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Compounds",
+        "description": "Substances formed by the chemical combination of two or more elements."
+    },
+    {
+        "name": "Atoms",
+        "description": "The smallest units of an element that maintain the identity of that element."
+    },
+    {
+        "name": "Molecules",
+        "description": "Groups of two or more atoms held together by chemical bonds."
+    },
+    {
+        "name": "Elements",
+        "description": "Pure chemical substances consisting of a single type of atom."
+    },
+    {
+        "name": "Chemical Bonds",
+        "description": "The force that holds atoms together in compounds."
+    },
+    {
+        "name": "Physical Means",
+        "description": "Methods or processes that do not change the chemical composition of a substance."
+    },
+    {
+        "name": "Chemical Means",
+        "description": "Methods or processes that result in the change of the chemical composition of a substance."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Compounds",
+        "relationship": "composed of",
+        "related_concept": "Atoms",
+        "description": "Compounds are formed by the combination of atoms of two or more elements."
+    },
+    {
+        "concept": "Compounds",
+        "relationship": "can be",
+        "related_concept": "Molecules",
+        "description": "Compounds can exist in the form of molecules, which are groups of atoms."
+    },
+    {
+        "concept": "Atoms",
+        "relationship": "form",
+        "related_concept": "Chemical Bonds",
+        "description": "Atoms form chemical bonds to create compounds."
+    },
+    {
+        "concept": "Compounds",
+        "relationship": "broken down by",
+        "related_concept": "Chemical Means",
+        "description": "Compounds can be broken down into their elements through chemical processes."
+    },
+    {
+        "concept": "Chemical Means",
+        "relationship": "opposite of",
+        "related_concept": "Physical Means",
+        "description": "Chemical means alter the chemical structure, unlike physical means."
+    }
+]
+
+Model Answer: {
+    "answer": "They can exist in the form of atoms or molecules.",
+    "reasoning": "The statement that compounds 'can exist in the form of atoms or molecules' is incorrect. This description is not accurate because compounds specifically refer to substances formed by the chemical combination of two or more elements, which means they exist in the form of molecules or networks of bonded atoms, not as individual atoms themselves. Atoms are the smallest units of an element, not compounds. Compounds are composed of molecules, which are groups of two or more atoms bonded together, not atoms in isolation."
+}

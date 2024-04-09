@@ -1,0 +1,75 @@
+Key: NYSEDREGENTS_2005_8_1
+
+Question: Which statement best explains why the Sun and the Moon appear to be about the same size in the sky?
+Options: ['The Sun and the Moon have the same diameter.', 'The Moon is larger in diameter and farther from Earth than the Sun.', 'The Moon is smaller in diameter and is closer to Earth than the Sun.', 'The Sun and the Moon are the same distance from Earth.']
+Answer: The Moon is smaller in diameter and is closer to Earth than the Sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sun",
+        "description": "A star at the center of the solar system"
+    },
+    {
+        "name": "Moon",
+        "description": "Earth's natural satellite"
+    },
+    {
+        "name": "Diameter",
+        "description": "A straight line passing from side to side through the center of a body or figure, especially a circle or sphere"
+    },
+    {
+        "name": "Distance from Earth",
+        "description": "The space between Earth and another object in the solar system or universe"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sun",
+        "relationship": "larger than",
+        "related_concept": "Moon",
+        "description": "The Sun's diameter is much larger than that of the Moon"
+    },
+    {
+        "concept": "Sun",
+        "relationship": "farther from",
+        "related_concept": "Earth",
+        "description": "The Sun is significantly farther from Earth than the Moon is"
+    },
+    {
+        "concept": "Moon",
+        "relationship": "orbits",
+        "related_concept": "Earth",
+        "description": "The Moon orbits Earth and is much closer to it than the Sun is"
+    },
+    {
+        "concept": "Diameter",
+        "relationship": "measure of",
+        "related_concept": "Sun",
+        "description": "The diameter is a way to measure the Sun's size"
+    },
+    {
+        "concept": "Diameter",
+        "relationship": "measure of",
+        "related_concept": "Moon",
+        "description": "The diameter is a way to measure the Moon's size"
+    },
+    {
+        "concept": "Distance from Earth",
+        "relationship": "characteristic of",
+        "related_concept": "Moon",
+        "description": "The Moon's proximity to Earth is described in terms of distance"
+    },
+    {
+        "concept": "Distance from Earth",
+        "relationship": "characteristic of",
+        "related_concept": "Sun",
+        "description": "The Sun's distance from Earth is significantly greater than the Moon's"
+    }
+]
+
+Model Answer: {
+    "answer": "The Moon is smaller in diameter and is closer to Earth than the Sun.",
+    "reasoning": "Although the Sun's diameter is much larger than the Moon's, the Sun is also significantly farther from Earth. The combination of these two factors - the Moon's smaller size but much closer proximity to Earth compared to the Sun - results in the Sun and the Moon appearing to be about the same size in the sky."
+}

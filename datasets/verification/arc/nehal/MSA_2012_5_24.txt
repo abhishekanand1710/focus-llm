@@ -1,0 +1,71 @@
+Key: MSA_2012_5_24
+
+Question: Most electrical wires are covered with plastic or rubber. The wires are covered with plastic or rubber because those materials
+Options: ['are conductors of electricity', 'make complete electric circuits', 'are not conductors of electricity', 'make the electricity move quickly']
+Answer: are not conductors of electricity
+
+Model Response:
+Concepts: [
+    {
+        "name": "Electrical wires",
+        "description": "Wires that conduct electricity used in electrical circuits"
+    },
+    {
+        "name": "Plastic",
+        "description": "A synthetic material used for its insulating properties"
+    },
+    {
+        "name": "Rubber",
+        "description": "A natural or synthetic flexible material also used for its insulating properties"
+    },
+    {
+        "name": "Conductors of electricity",
+        "description": "Materials that allow the flow of electric current through them"
+    },
+    {
+        "name": "Electric circuits",
+        "description": "A path for transmitting electric current"
+    },
+    {
+        "name": "Insulators",
+        "description": "Materials that do not allow the flow of electric current through them"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Electrical wires",
+        "relationship": "are covered with",
+        "related_concept": "Plastic",
+        "description": "Plastic is used as a covering for electrical wires for insulation"
+    },
+    {
+        "concept": "Electrical wires",
+        "relationship": "are covered with",
+        "related_concept": "Rubber",
+        "description": "Rubber is used as a covering for electrical wires for insulation"
+    },
+    {
+        "concept": "Plastic",
+        "relationship": "is a type of",
+        "related_concept": "Insulators",
+        "description": "Plastic does not allow electricity to flow through it, making it an insulator"
+    },
+    {
+        "concept": "Rubber",
+        "relationship": "is a type of",
+        "related_concept": "Insulators",
+        "description": "Rubber does not allow electricity to flow through it, making it an insulator"
+    },
+    {
+        "concept": "Conductors of electricity",
+        "relationship": "opposite of",
+        "related_concept": "Insulators",
+        "description": "Conductors allow electricity to pass through while insulators do not"
+    }
+]
+
+Model Answer: {
+    "answer": "are not conductors of electricity",
+    "reasoning": "Electrical wires are covered with plastic or rubber because both materials are insulators, not conductors of electricity. The purpose of using plastic and rubber is to prevent the escape of electric current from the wires, ensuring safety and the efficient functioning of electric circuits by keeping the electricity within the wires."
+}

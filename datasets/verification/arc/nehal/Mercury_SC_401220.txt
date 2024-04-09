@@ -1,0 +1,57 @@
+Key: Mercury_SC_401220
+
+Question: Which term best describes the life cycle of an insect that reaches the adult stage without being a pupa?
+Options: ['incomplete metamorphosis', 'complete metamorphosis', 'alternation of generations', 'spontaneous mutation']
+Answer: incomplete metamorphosis
+
+Model Response:
+Concepts: [
+    {
+        "name": "incomplete metamorphosis",
+        "description": "A type of insect development characterized by three stages: egg, nymph, and adult"
+    },
+    {
+        "name": "complete metamorphosis",
+        "description": "A developmental cycle of insects that includes four distinct stages: egg, larva, pupa, and adult"
+    },
+    {
+        "name": "alternation of generations",
+        "description": "A biological process where organisms switch between two forms in their life cycle, common in plants and some algae"
+    },
+    {
+        "name": "spontaneous mutation",
+        "description": "Random changes in the DNA sequence that occur without any outside influence"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "incomplete metamorphosis",
+        "relationship": "lacks",
+        "related_concept": "pupa stage",
+        "description": "Insects undergoing incomplete metamorphosis do not have a pupa stage in their development"
+    },
+    {
+        "concept": "complete metamorphosis",
+        "relationship": "includes",
+        "related_concept": "pupa stage",
+        "description": "The complete metamorphosis developmental cycle includes a pupa stage"
+    },
+    {
+        "concept": "alternation of generations",
+        "relationship": "not related to",
+        "related_concept": "insect development",
+        "description": "Alternation of generations does not apply to insect life cycles, primarily seen in plants and algae"
+    },
+    {
+        "concept": "spontaneous mutation",
+        "relationship": "not related to",
+        "related_concept": "insect development stages",
+        "description": "Spontaneous mutation is a genetic phenomenon not directly related to defined developmental stages in insects"
+    }
+]
+
+Model Answer: {
+    "answer": "incomplete metamorphosis",
+    "reasoning": "The term 'incomplete metamorphosis' best describes the life cycle of an insect that reaches the adult stage without being a pupa. This development pattern features three stages: egg, nymph, and adult, with no pupa stage involved. Therefore, it directly applies to the context of an insect maturing into an adult without undergoing a pupal phase, unlike the 'complete metamorphosis' process which includes a pupa stage. 'Alternation of generations' and 'spontaneous mutation' are unrelated concepts to the specific developmental stages of insects."
+}

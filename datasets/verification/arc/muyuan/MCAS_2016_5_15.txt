@@ -1,0 +1,77 @@
+Key: MCAS_2016_5_15
+
+Question: Which of the following characteristics of an individual wolf is most affected by its environment?
+Options: ['the size of its feet', 'the color of its eyes', 'the shape of its ears', 'the condition of its fur']
+Answer: the condition of its fur
+
+Model Response:
+Concepts: [
+    {
+        "name": "Wolf",
+        "description": "A carnivorous mammal from the genus Canis, known for living and hunting in packs."
+    },
+    {
+        "name": "Environment",
+        "description": "The surrounding conditions that affect the living organisms, including climate, food sources, and geography."
+    },
+    {
+        "name": "Fur",
+        "description": "The thick hair that covers the body of certain animals like wolves, protecting them from the cold and serving for camouflage."
+    },
+    {
+        "name": "Feet",
+        "description": "The part of the wolf's body that it stands on, used for mobility and designed to support its weight."
+    },
+    {
+        "name": "Eyes",
+        "description": "The organ of vision in wolves, allowing them to see and adapt to their surroundings."
+    },
+    {
+        "name": "Ears",
+        "description": "The organ of hearing in wolves, pivotal for communication within packs and detecting prey or predators."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Wolf",
+        "relationship": "has",
+        "related_concept": "Environment",
+        "description": "A wolf's characteristics are influenced by its environment."
+    },
+    {
+        "concept": "Wolf",
+        "relationship": "covered_by",
+        "related_concept": "Fur",
+        "description": "The body of a wolf is covered by fur."
+    },
+    {
+        "concept": "Wolf",
+        "relationship": "uses",
+        "related_concept": "Feet",
+        "description": "A wolf uses its feet for mobility."
+    },
+    {
+        "concept": "Wolf",
+        "relationship": "has",
+        "related_concept": "Eyes",
+        "description": "A wolf has eyes for vision."
+    },
+    {
+        "concept": "Wolf",
+        "relationship": "has",
+        "related_concept": "Ears",
+        "description": "A wolf has ears for hearing."
+    },
+    {
+        "concept": "Environment",
+        "relationship": "affects",
+        "related_concept": "Fur",
+        "description": "The condition of a wolf's fur is significantly affected by its environment, through factors such as temperature and humidity."
+    }
+]
+
+Model Answer: {
+    "answer": "the condition of its fur",
+    "reasoning": "Among the provided characteristics, the condition of a wolf's fur is most susceptible to environmental factors. The environment influences the health, thickness, and quality of a wolf's fur due to varying climatic conditions like temperature, humidity, and the presence or absence of pollutants. Other options, such as the size of its feet, the color of its eyes, and the shape of its ears, are primarily genetically determined and less directly influenced by the environment."
+}

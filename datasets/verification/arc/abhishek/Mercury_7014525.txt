@@ -1,0 +1,71 @@
+Key: Mercury_7014525
+
+Question: Which substance should a student apply to the skin if he or she gets splashed with an acid?
+Options: ['water', 'vinegar', 'salt', 'formaldehyde']
+Answer: water
+
+Model Response:
+Concepts: [
+    {
+        "name": "water",
+        "description": "a colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain"
+    },
+    {
+        "name": "vinegar",
+        "description": "a sour-tasting liquid containing acetic acid, used as a condiment or for preservation"
+    },
+    {
+        "name": "salt",
+        "description": "a white crystalline substance that gives seawater its characteristic taste and is used for seasoning or preserving food"
+    },
+    {
+        "name": "formaldehyde",
+        "description": "a colorless pungent gas in solution made by oxidizing methanol"
+    },
+    {
+        "name": "acid",
+        "description": "a chemical substance that neutralizes alkalis, dissolves some metals, and turns litmus red"
+    },
+    {
+        "name": "skin",
+        "description": "the thin layer of tissue forming the natural outer covering of the body of a person or animal"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "acid",
+        "relationship": "neutralized by",
+        "related_concept": "water",
+        "description": "Acid spills can be neutralized by flushing with water"
+    },
+    {
+        "concept": "skin",
+        "relationship": "harmed by",
+        "related_concept": "acid",
+        "description": "Acid can cause burns or harm to the skin upon contact"
+    },
+    {
+        "concept": "vinegar",
+        "relationship": "contains",
+        "related_concept": "acetic acid",
+        "description": "Vinegar contains acetic acid, making it unsuitable for treating acid splashes"
+    },
+    {
+        "concept": "salt",
+        "relationship": "not relevant for",
+        "related_concept": "acid neutralization on skin",
+        "description": "Salt is not used for neutralizing acids or treating chemical burns on the skin"
+    },
+    {
+        "concept": "formaldehyde",
+        "relationship": "is a",
+        "related_concept": "chemical",
+        "description": "Formaldehyde is a chemical that is harmful and not used for treating skin"
+    }
+]
+
+Model Answer: {
+    "answer": "water",
+    "reasoning": "Among the options provided, water is the only substance that should be used to flush the skin if it gets splashed with an acid. It is important to use large amounts of water to wash away the acid and reduce the risk of burns or damage to the skin. Vinegar, salt, and formaldehyde are not suitable for treating acid splashes due to their properties or potential to worsen the situation."
+}

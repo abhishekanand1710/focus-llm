@@ -1,0 +1,57 @@
+Key: Mercury_7213360
+
+Question: As a sample of mercury changes state from liquid to solid, the atoms of the sample
+Options: ['move closer together and have less kinetic energy.', 'move closer together and have more kinetic energy.', 'move farther apart and have less kinetic energy.', 'move farther apart and have more kinetic energy.']
+Answer: move closer together and have less kinetic energy.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Phase Change",
+        "description": "The transition of matter from one state (solid, liquid, gas) to another."
+    },
+    {
+        "name": "Kinetic Energy",
+        "description": "The energy that an object possesses due to its motion."
+    },
+    {
+        "name": "Atomic/Molecular Distance",
+        "description": "The average distance between the centers of adjacent atoms or molecules in a substance."
+    },
+    {
+        "name": "Mercury",
+        "description": "A heavy, silvery d-block element, known as quicksilver, that is liquid at room temperature."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Phase Change",
+        "relationship": "causes change in",
+        "related_concept": "Atomic/Molecular Distance",
+        "description": "A phase change from liquid to solid generally causes atoms or molecules to move closer together."
+    },
+    {
+        "concept": "Phase Change",
+        "relationship": "causes change in",
+        "related_concept": "Kinetic Energy",
+        "description": "Transitioning from a liquid to a solid decreases the kinetic energy of the atoms or molecules."
+    },
+    {
+        "concept": "Mercury",
+        "relationship": "undergoes",
+        "related_concept": "Phase Change",
+        "description": "Mercury can transition from a liquid to a solid state at low temperatures."
+    },
+    {
+        "concept": "Atomic/Molecular Distance",
+        "relationship": "affects",
+        "related_concept": "Kinetic Energy",
+        "description": "As atoms move closer together (decrease in distance), their kinetic energy typically decreases due to restricted movement."
+    }
+]
+
+Model Answer: {
+    "answer": "move closer together and have less kinetic energy.",
+    "reasoning": "As mercury transitions from a liquid to a solid state, its atoms move closer together, reflecting a decrease in average atomic or molecular distance. This transition also corresponds with a reduction in the kinetic energy of its atoms because their movement becomes more restricted in the solid state. This is a direct consequence of energy states transitioning, where less energy (in the form of kinetic energy) is present in the solid state compared to the liquid state."
+}

@@ -1,0 +1,77 @@
+Key: ACTAAP_2010_5_6
+
+Question: Mara planted six pots of lettuce seeds. She placed three pots in a sunny area and three pots in a shaded area. She watered each pot the same and measured the growth of the lettuce. After Mara analyzes her data, what conclusion will it help her to make?
+Options: ['When to plant her lettuce', 'Where to plant her lettuce', 'How much water to give lettuce', 'How many lettuce plants to grow']
+Answer: Where to plant her lettuce
+
+Model Response:
+Concepts: [
+    {
+        "name": "Lettuce Seeds",
+        "description": "The seeds planted by Mara, intended to grow into lettuce plants."
+    },
+    {
+        "name": "Sunny Area",
+        "description": "A location receiving a significant amount of sunlight, where three pots were placed."
+    },
+    {
+        "name": "Shaded Area",
+        "description": "An area with limited sunlight exposure, where the other three pots were placed."
+    },
+    {
+        "name": "Growth Measurement",
+        "description": "The process of measuring the development of the lettuce plants over time."
+    },
+    {
+        "name": "Watering",
+        "description": "The act of supplying water to the lettuce seeds, which was done equally for all pots."
+    },
+    {
+        "name": "Data Analysis",
+        "description": "The process Mara uses to examine the growth measurements of the lettuce to draw conclusions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Lettuce Seeds",
+        "relationship": "planted_in",
+        "related_concept": "Sunny Area",
+        "description": "Lettuce seeds were planted in pots placed in a sunny area."
+    },
+    {
+        "concept": "Lettuce Seeds",
+        "relationship": "planted_in",
+        "related_concept": "Shaded Area",
+        "description": "Lettuce seeds were also planted in pots placed in a shaded area."
+    },
+    {
+        "concept": "Sunny Area",
+        "relationship": "compared_to",
+        "related_concept": "Shaded Area",
+        "description": "The sunny area is compared to the shaded area in terms of lettuce growth."
+    },
+    {
+        "concept": "Watering",
+        "relationship": "applied_to",
+        "related_concept": "Lettuce Seeds",
+        "description": "Watering was uniformly applied to all lettuce seeds in both sunny and shaded areas."
+    },
+    {
+        "concept": "Growth Measurement",
+        "relationship": "used_for",
+        "related_concept": "Data Analysis",
+        "description": "Growth measurement of lettuce is used for performing data analysis."
+    },
+    {
+        "concept": "Data Analysis",
+        "relationship": "helps_determine",
+        "related_concept": "Where to plant her lettuce",
+        "description": "The analysis of growth data will help Mara decide on the optimal planting location for lettuce."
+    }
+]
+
+Model Answer: {
+    "answer": "Where to plant her lettuce",
+    "reasoning": "By comparing the growth of lettuce seeds in sunny versus shaded areas, Mara's experiment is designed to determine the effect of sunlight on plant growth. The consistent watering across all pots ensures that the difference in growth is attributable to sunlight exposure rather than hydration levels. Therefore, the data analysis from this experiment will help Mara conclude where to plant her lettuce to achieve optimal growth, making 'Where to plant her lettuce' the correct answer."
+}

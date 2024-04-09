@@ -1,0 +1,57 @@
+Key: MCAS_1999_4_12
+
+Question: Which of the following is a SOURCE of light?
+Options: ['Earth', 'planet', 'star', 'moon']
+Answer: star
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun, home to living organisms."
+    },
+    {
+        "name": "planet",
+        "description": "A celestial body moving in an elliptical orbit around a star."
+    },
+    {
+        "name": "star",
+        "description": "A massive celestial body that emits light and heat from nuclear fusion reactions in its core."
+    },
+    {
+        "name": "moon",
+        "description": "A natural satellite that orbits a planet."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "is_a",
+        "related_concept": "planet",
+        "description": "Earth is classified as a planet."
+    },
+    {
+        "concept": "moon",
+        "relationship": "orbits",
+        "related_concept": "planet",
+        "description": "A moon orbits around a planet."
+    },
+    {
+        "concept": "star",
+        "relationship": "source_of",
+        "related_concept": "light",
+        "description": "Stars are the primary sources of natural light in the universe."
+    },
+    {
+        "concept": "planet",
+        "relationship": "orbits",
+        "related_concept": "star",
+        "description": "Planets move in an orbit around stars."
+    }
+]
+
+Model Answer: {
+    "answer": "star",
+    "reasoning": "Among the options provided, a star is a source of light, generating its own light and heat through nuclear fusion in its core. Earth and the moon do not generate their own light; they reflect light from the stars, specifically the Sun. While 'planet' is a more general term and includes bodies that do not emit light on their own but rather reflect it."
+}

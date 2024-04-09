@@ -1,0 +1,61 @@
+Key: Mercury_7027038
+
+Question: A student concludes that a chemical reaction performed in a classroom investigation was exothermic. To communicate the validity of this conclusion, which would make the best visual evidence in a presentation?
+Options: ['photographs of reactants and products', 'listing of masses of reactants and products', 'listing of time from start to finish of reaction', 'photograph of a flame produced when the chemicals reacted']
+Answer: photograph of a flame produced when the chemicals reacted
+
+Model Response:
+Concepts: [
+    {
+        "name": "Exothermic reaction",
+        "description": "A chemical reaction that releases energy by light or heat"
+    },
+    {
+        "name": "Photographs of reactants and products",
+        "description": "Images that show the initial substances and the substances after the reaction"
+    },
+    {
+        "name": "Listing of masses of reactants and products",
+        "description": "A record of the weights of substances before and after the reaction"
+    },
+    {
+        "name": "Listing of time from start to finish of reaction",
+        "description": "A record of how long the reaction takes to complete"
+    },
+    {
+        "name": "Photograph of a flame produced when the chemicals reacted",
+        "description": "An image showing the flame as a direct observable effect of an exothermic reaction"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Exothermic reaction",
+        "relationship": "is directly evident by",
+        "related_concept": "Photograph of a flame produced when the chemicals reacted",
+        "description": "The presence of a flame directly indicates that energy is being released in the form of heat, characteristic of an exothermic reaction"
+    },
+    {
+        "concept": "Photographs of reactants and products",
+        "relationship": "does not clearly show",
+        "related_concept": "Exothermic reaction",
+        "description": "These photographs alone cannot illustrate the energy release characteristic of an exothermic reaction"
+    },
+    {
+        "concept": "Listing of masses of reactants and products",
+        "relationship": "does not indicate",
+        "related_concept": "Exothermic reaction",
+        "description": "The mass change does not provide direct evidence of energy being released as heat or light"
+    },
+    {
+        "concept": "Listing of time from start to finish of reaction",
+        "relationship": "does not indicate",
+        "related_concept": "Exothermic reaction",
+        "description": "The duration of the reaction does not directly indicate the release of energy"
+    }
+]
+
+Model Answer: {
+    "answer": "photograph of a flame produced when the chemicals reacted",
+    "reasoning": "A photograph of a flame produced when the chemicals reacted directly indicates an exothermic reaction because it visually demonstrates the release of energy in the form of heat or light, which is a fundamental characteristic of exothermic reactions. This form of evidence is more compelling and directly related to the concept of exothermic reactions compared to the alternative options provided."
+}

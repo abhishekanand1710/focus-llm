@@ -1,0 +1,71 @@
+Key: Mercury_7212030
+
+Question: Compared to similar-sized gasoline-powered vehicles, electric-gasoline-hybrid vehicles are primarily designed to
+Options: ['produce more horsepower.', 'eliminate greenhouse gas emissions.', 'operate independently of fossil fuels.', 'provide better gas mileage.']
+Answer: provide better gas mileage.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Electric-gasoline-hybrid vehicles",
+        "description": "Vehicles that use both an electric motor and a gasoline engine for propulsion."
+    },
+    {
+        "name": "Gasoline-powered vehicles",
+        "description": "Vehicles that rely solely on a gasoline engine for propulsion."
+    },
+    {
+        "name": "Horsepower",
+        "description": "A unit of measurement for power, the rate at which work is done."
+    },
+    {
+        "name": "Greenhouse gas emissions",
+        "description": "Gases that trap heat in the atmosphere, contributing to global warming."
+    },
+    {
+        "name": "Fossil fuels",
+        "description": "Natural fuels such as coal, gas, and oil formed from the remains of living organisms."
+    },
+    {
+        "name": "Gas mileage",
+        "description": "A measure of how far a vehicle can travel per unit of fuel."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Electric-gasoline-hybrid vehicles",
+        "relationship": "utilize",
+        "related_concept": "Fossil fuels",
+        "description": "Hybrid vehicles use gasoline, a type of fossil fuel, along with electric power for propulsion."
+    },
+    {
+        "concept": "Electric-gasoline-hybrid vehicles",
+        "relationship": "goal to improve",
+        "related_concept": "Gas mileage",
+        "description": "One of the main design goals of hybrid vehicles is to improve gas mileage compared to conventional vehicles."
+    },
+    {
+        "concept": "Electric-gasoline-hybrid vehicles",
+        "relationship": "partly reduce",
+        "related_concept": "Greenhouse gas emissions",
+        "description": "By improving efficiency and using electric power, hybrids can reduce greenhouse gas emissions compared to gasoline-powered vehicles."
+    },
+    {
+        "concept": "Gasoline-powered vehicles",
+        "relationship": "depend on",
+        "related_concept": "Fossil fuels",
+        "description": "Gasoline-powered vehicles solely rely on fossil fuels for propulsion."
+    },
+    {
+        "concept": "Greenhouse gas emissions",
+        "relationship": "are produced by",
+        "related_concept": "Fossil fuels",
+        "description": "Burning fossil fuels generates greenhouse gases."
+    }
+]
+
+Model Answer: {
+    "answer": "provide better gas mileage.",
+    "reasoning": "The design and integration of electric motors with gasoline engines in electric-gasoline-hybrid vehicles are primarily aimed at enhancing fuel efficiency, which translates to better gas mileage. This is achieved by using the electric motor for low-power demands and gasoline engine for higher power demands, thereby conserving fuel more effectively than vehicles that rely solely on gasoline engines. The relationships identified highlight that while hybrids use fossil fuels and contribute to a reduction in greenhouse gas emissions, their main design goal is improving gas mileage compared to similar-sized gasoline-powered vehicles."
+}

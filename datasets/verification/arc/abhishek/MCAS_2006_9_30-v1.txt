@@ -1,0 +1,61 @@
+Key: MCAS_2006_9_30-v1
+
+Question: Which of the following changes occurs as a solid is heated?
+Options: ['The kinetic energy of the solid decreases.', 'The average density of the solid increases.', 'The specific heat capacity of the solid decreases.', 'The average molecular speed in the solid increases.']
+Answer: The average molecular speed in the solid increases.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Kinetic Energy",
+        "description": "The energy possessed by an object due to its motion."
+    },
+    {
+        "name": "Average Density",
+        "description": "Mass per unit volume of a substance."
+    },
+    {
+        "name": "Specific Heat Capacity",
+        "description": "The amount of heat required to raise the temperature of a unit mass of a substance by one degree."
+    },
+    {
+        "name": "Average Molecular Speed",
+        "description": "The average speed of all molecules in a substance."
+    },
+    {
+        "name": "Heating",
+        "description": "The process of transferring energy to an object, increasing its temperature."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Heating",
+        "relationship": "increases",
+        "related_concept": "Kinetic Energy",
+        "description": "Heating a substance increases its kinetic energy."
+    },
+    {
+        "concept": "Heating",
+        "relationship": "could decrease",
+        "related_concept": "Average Density",
+        "description": "Heating expands most solids, potentially decreasing their average density."
+    },
+    {
+        "concept": "Heating",
+        "relationship": "does not directly affect",
+        "related_concept": "Specific Heat Capacity",
+        "description": "Specific heat capacity is a material property and not directly changed by simply heating."
+    },
+    {
+        "concept": "Kinetic Energy",
+        "relationship": "correlates with",
+        "related_concept": "Average Molecular Speed",
+        "description": "An increase in kinetic energy in a solid correlates with an increase in the average molecular speed."
+    }
+]
+
+Model Answer: {
+    "answer": "The average molecular speed in the solid increases.",
+    "reasoning": "As a solid is heated, the kinetic energy of its molecules increases. This increase in kinetic energy directly correlates with an increase in the average molecular speed within the solid. The other options, such as decreasing kinetic energy, increasing average density, and decreasing specific heat capacity, do not typically result from heating a solid."
+}

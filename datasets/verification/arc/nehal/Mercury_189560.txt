@@ -1,0 +1,81 @@
+Key: Mercury_189560
+
+Question: An increase in phosphate levels in a lake increases the population of algae in the lake. Increased algae blocks sunlight into the lake and results in a decrease in dissolved oxygen in the lake's water. Which of the following should be expected as a result?
+Options: ['Plant populations in the lake increase.', 'More predatory birds feed on lake animals.', 'Phosphate levels in the lake decrease.', 'Fish populations in the lake decline.']
+Answer: Fish populations in the lake decline.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Phosphate levels",
+        "description": "The amount of phosphate present in the lake."
+    },
+    {
+        "name": "Algae population",
+        "description": "The number of algae present in the lake."
+    },
+    {
+        "name": "Sunlight penetration",
+        "description": "The amount of sunlight that is able to reach the depths of the lake."
+    },
+    {
+        "name": "Dissolved oxygen",
+        "description": "The amount of oxygen that is dissolved in the lake's water."
+    },
+    {
+        "name": "Fish populations",
+        "description": "The number of fish living in the lake."
+    },
+    {
+        "name": "Plant populations",
+        "description": "The number of plants present in the lake."
+    },
+    {
+        "name": "Predatory birds",
+        "description": "Bird species that feed on animals from the lake."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Phosphate levels",
+        "relationship": "increase",
+        "related_concept": "Algae population",
+        "description": "An increase in phosphate levels leads to an increase in the algae population."
+    },
+    {
+        "concept": "Algae population",
+        "relationship": "blocks",
+        "related_concept": "Sunlight penetration",
+        "description": "An increased algae population blocks sunlight from penetrating the lake."
+    },
+    {
+        "concept": "Sunlight penetration",
+        "relationship": "decrease",
+        "related_concept": "Dissolved oxygen",
+        "description": "Decreased sunlight penetration results in a decrease in dissolved oxygen."
+    },
+    {
+        "concept": "Dissolved oxygen",
+        "relationship": "decrease",
+        "related_concept": "Fish populations",
+        "description": "A decrease in dissolved oxygen leads to a decline in fish populations."
+    },
+    {
+        "concept": "Algae population",
+        "relationship": "increase",
+        "related_concept": "Plant populations",
+        "description": "Increased algae can inhibit the growth of other plant species by blocking sunlight."
+    },
+    {
+        "concept": "Fish populations",
+        "relationship": "decline",
+        "related_concept": "Predatory birds",
+        "description": "A decline in fish populations might lead to fewer predatory birds feeding at the lake, as their food source is diminished."
+    }
+]
+
+Model Answer: {
+    "answer": "Fish populations in the lake decline.",
+    "reasoning": "The increase in phosphate levels leads to an increase in algae population, which then blocks sunlight from entering the lake. The reduced sunlight penetration decreases the levels of dissolved oxygen, which is crucial for fish survival, leading to a decline in fish populations."
+}

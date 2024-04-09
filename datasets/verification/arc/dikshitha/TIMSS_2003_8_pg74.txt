@@ -1,0 +1,101 @@
+Key: TIMSS_2003_8_pg74
+
+Question: Cats are most closely related to which of the following animals?
+Options: ['crocodiles', 'whales', 'frogs', 'penguins']
+Answer: whales
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cats",
+        "description": "Small carnivorous mammals known for being domestic pets and hunters."
+    },
+    {
+        "name": "Crocodiles",
+        "description": "Large aquatic reptiles that live in tropical regions."
+    },
+    {
+        "name": "Whales",
+        "description": "Large marine mammals that breathe air through blowholes."
+    },
+    {
+        "name": "Frogs",
+        "description": "Small amphibians known for their jumping abilities, croaking sounds, and life cycle from tadpoles."
+    },
+    {
+        "name": "Penguins",
+        "description": "Flightless birds that are native to the Southern Hemisphere, especially Antarctica."
+    },
+    {
+        "name": "Mammals",
+        "description": "Warm-blooded vertebrates characterized by the presence of mammary glands which, in females, produce milk for feeding their young."
+    },
+    {
+        "name": "Reptiles",
+        "description": "A class of cold-blooded, air-breathing vertebrates with dry, scaly skin, which lay soft-shelled eggs on land."
+    },
+    {
+        "name": "Amphibians",
+        "description": "Cold-blooded vertebrates that are capable of living both in water and on land."
+    },
+    {
+        "name": "Birds",
+        "description": "Warm-blooded, egg-laying vertebrates characterized by feathers and beaks."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cats",
+        "relationship": "is a",
+        "related_concept": "Mammals",
+        "description": "Cats belong to the class Mammalia, making them mammals."
+    },
+    {
+        "concept": "Crocodiles",
+        "relationship": "is a",
+        "related_concept": "Reptiles",
+        "description": "Crocodiles are part of the class Reptilia."
+    },
+    {
+        "concept": "Whales",
+        "relationship": "is a",
+        "related_concept": "Mammals",
+        "description": "Whales are classified within the Mammalia class."
+    },
+    {
+        "concept": "Frogs",
+        "relationship": "is a",
+        "related_concept": "Amphibians",
+        "description": "Frogs are categorized under Amphibia."
+    },
+    {
+        "concept": "Penguins",
+        "relationship": "is a",
+        "related_concept": "Birds",
+        "description": "Penguins fall within the class Aves, making them birds."
+    },
+    {
+        "concept": "Mammals",
+        "relationship": "are not",
+        "related_concept": "Reptiles",
+        "description": "Mammals and reptiles are distinct classes of animals."
+    },
+    {
+        "concept": "Mammals",
+        "relationship": "are not",
+        "related_concept": "Amphibians",
+        "description": "Mammals are separate from amphibians, with different life processes and characteristics."
+    },
+    {
+        "concept": "Mammals",
+        "relationship": "are not",
+        "related_concept": "Birds",
+        "description": "Mammals and birds belong to different classes, reflecting fundamental differences in their biology."
+    }
+]
+
+Model Answer: {
+    "answer": "Whales",
+    "reasoning": "Cats and whales are both members of the class Mammalia, making them closer relatives to each other than cats are to crocodiles (Reptiles), frogs (Amphibians), or penguins (Birds). Even though whales are aquatic and cats are terrestrial, their shared mammalian classification denotes a closer evolutionary relationship."
+}

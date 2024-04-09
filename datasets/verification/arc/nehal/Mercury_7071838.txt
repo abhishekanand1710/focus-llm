@@ -1,0 +1,61 @@
+Key: Mercury_7071838
+
+Question: Which term is used to describe a physical property of a mineral?
+Options: ['organic', 'solid', 'gaseous', 'fossiliferous']
+Answer: solid
+
+Model Response:
+Concepts: [
+    {
+        "name": "mineral",
+        "description": "A naturally occurring, inorganic solid with a defined chemical composition and crystalline structure"
+    },
+    {
+        "name": "organic",
+        "description": "Refers to the compounds primarily made of carbon atoms and generally associated with living organisms"
+    },
+    {
+        "name": "solid",
+        "description": "One of the primary states of matter characterized by structural rigidity and resistance to changes in shape or volume"
+    },
+    {
+        "name": "gaseous",
+        "description": "A state of matter characterized by neither fixed shape nor fixed volume, spreading to fill the space available"
+    },
+    {
+        "name": "fossiliferous",
+        "description": "Containing or composed of fossils, the preserved remains or traces of living organisms"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "mineral",
+        "relationship": "is_a",
+        "related_concept": "solid",
+        "description": "Minerals are characterized as being solids due to their defined crystalline structure"
+    },
+    {
+        "concept": "organic",
+        "relationship": "not_a_property_of",
+        "related_concept": "mineral",
+        "description": "Minerals are inorganic by definition, meaning they are not comprised of organic compounds"
+    },
+    {
+        "concept": "gaseous",
+        "relationship": "contrary_to",
+        "related_concept": "mineral",
+        "description": "Being in a gaseous state is contrary to the definition of a mineral, which must be solid"
+    },
+    {
+        "concept": "fossiliferous",
+        "relationship": "not_a_physical_property",
+        "related_concept": "mineral",
+        "description": "While a mineral can be found in a fossiliferous rock, 'fossiliferous' is not a term to describe a mineral's physical property but rather the presence of fossils in rock"
+    }
+]
+
+Model Answer: {
+    "answer": "solid",
+    "reasoning": "A mineral is defined as a naturally occurring, inorganic solid, hence 'solid' is the term that directly describes a physical property of a mineral. The other terms (organic, gaseous, and fossiliferous) do not accurately describe the physical properties of minerals; minerals are inorganic, not gaseous, and 'fossiliferous' describes a feature of rocks, not the physical property of a mineral itself."
+}

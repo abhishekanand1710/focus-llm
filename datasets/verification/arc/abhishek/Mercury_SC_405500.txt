@@ -1,0 +1,57 @@
+Key: Mercury_SC_405500
+
+Question: Many people throw away almost five pounds of trash each day. How could everyone decrease the amount of trash thrown away daily?
+Options: ['recycle materials', 'use more products', 'put the trash in a landfill', 'pick up the trash on the ground']
+Answer: recycle materials
+
+Model Response:
+Concepts: [
+    {
+        "name": "recycle materials",
+        "description": "The process of converting waste into new materials and objects."
+    },
+    {
+        "name": "use more products",
+        "description": "Increasing consumption or usage of products."
+    },
+    {
+        "name": "put the trash in a landfill",
+        "description": "The disposal of waste by burying it, especially as a method of filling in and reclaiming excavated pits."
+    },
+    {
+        "name": "pick up the trash on the ground",
+        "description": "The act of collecting and removing garbage found on the ground in outdoor or indoor environments."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "recycle materials",
+        "relationship": "reduces",
+        "related_concept": "amount of trash thrown away",
+        "description": "Recycling materials decrease the volume of waste that ends up in landfills by reusing the materials."
+    },
+    {
+        "concept": "use more products",
+        "relationship": "increases",
+        "related_concept": "amount of trash produced",
+        "description": "Using more products often leads to generating more trash, contrary to reducing waste."
+    },
+    {
+        "concept": "put the trash in a landfill",
+        "relationship": "method of disposal",
+        "related_concept": "amount of trash thrown away",
+        "description": "Putting trash in a landfill is a disposal method that doesn't reduce the amount of trash but manages its accumulation."
+    },
+    {
+        "concept": "pick up the trash on the ground",
+        "relationship": "cleans environment",
+        "related_concept": "presence of waste in public areas",
+        "description": "Picking up trash on the ground helps in cleaning the environment but doesn't decrease the generation of waste."
+    }
+]
+
+Model Answer: {
+    "answer": "recycle materials",
+    "reasoning": "Recycling materials directly contributes to decreasing the amount of trash thrown away daily by converting waste into new materials and objects, unlike the other options which do not reduce the amount of waste generated or only manage its disposal."
+}

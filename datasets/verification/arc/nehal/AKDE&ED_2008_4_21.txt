@@ -1,0 +1,89 @@
+Key: AKDE&ED_2008_4_21
+
+Question: Four materials are put into small containers. These materials are then moved from the small containers into larger containers. Which material will spread out to completely fill a larger container?
+Options: ['air', 'ice', 'sand', 'water']
+Answer: air
+
+Model Response:
+Concepts: [
+    {
+        "name": "air",
+        "description": "A mixture of gases that surrounds the Earth and forms its atmosphere."
+    },
+    {
+        "name": "ice",
+        "description": "Frozen water, a solid state of water."
+    },
+    {
+        "name": "sand",
+        "description": "A granular material composed of finely divided rock and mineral particles."
+    },
+    {
+        "name": "water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere."
+    },
+    {
+        "name": "matter states",
+        "description": "Physical states in which any given matter can exist: solid, liquid, or gas."
+    },
+    {
+        "name": "volume expansion",
+        "description": "The increase in physical size or volume, seen in gases more prominently when heated or when unrestrained."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "air",
+        "relationship": "is a state of",
+        "related_concept": "matter states",
+        "description": "Air is in a gaseous state."
+    },
+    {
+        "concept": "ice",
+        "relationship": "is a state of",
+        "related_concept": "matter states",
+        "description": "Ice is in a solid state."
+    },
+    {
+        "concept": "sand",
+        "relationship": "consists of",
+        "related_concept": "matter states",
+        "description": "Sand is a collection of tiny solid particles."
+    },
+    {
+        "concept": "water",
+        "relationship": "is a state of",
+        "related_concept": "matter states",
+        "description": "Water is in a liquid state."
+    },
+    {
+        "concept": "air",
+        "relationship": "undergoes",
+        "related_concept": "volume expansion",
+        "description": "Air expands to fill any container it is placed in."
+    },
+    {
+        "concept": "ice",
+        "relationship": "does not undergo",
+        "related_concept": "volume expansion",
+        "description": "Ice does not expand to fill the volume of a container due to its solid state."
+    },
+    {
+        "concept": "sand",
+        "relationship": "does not undergo",
+        "related_concept": "volume expansion",
+        "description": "Sand will not expand to completely fill a container due to its granular nature."
+    },
+    {
+        "concept": "water",
+        "relationship": "does not undergo",
+        "related_concept": "volume expansion",
+        "description": "Water will change shape but not expand to fill the entire volume of a container like a gas."
+    }
+]
+
+Model Answer: {
+    "answer": "air",
+    "reasoning": "Among the options given, air is the only material in a gaseous state. Gases, such as air, have the property of expanding to completely fill their container regardless of the container's size. This behavior is due to the high kinetic energy of gas particles, which allows them to move freely and fill any available space. Unlike solids like ice and sand or liquids like water, air (in its gaseous state) will expand and distribute evenly throughout the entire volume of the larger container it is placed in."
+}

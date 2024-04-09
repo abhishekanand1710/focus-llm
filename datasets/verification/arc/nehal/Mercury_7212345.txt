@@ -1,0 +1,81 @@
+Key: Mercury_7212345
+
+Question: Acid rain has a pH below 5.6. This rain can damage soil, lakes, crops, and buildings. Acid rain is caused by all of the following except
+Options: ['industrial emissions from factories.', 'coal that is burned to produce heat and power.', 'automobile exhaust.', 'nuclear power plants that produce radiation.']
+Answer: nuclear power plants that produce radiation.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Acid Rain",
+        "description": "Rainfall that has been acidified by atmospheric pollution causes environmental harm."
+    },
+    {
+        "name": "Industrial Emissions",
+        "description": "Pollutants released into the air by factories and industrial plants."
+    },
+    {
+        "name": "Coal",
+        "description": "A fossil fuel that when burned releases pollutants into the atmosphere."
+    },
+    {
+        "name": "Automobile Exhaust",
+        "description": "Gases and particles released into the atmosphere by vehicles."
+    },
+    {
+        "name": "Nuclear Power Plants",
+        "description": "Facilities that use nuclear reactions to produce electricity, releasing minimal air pollutants."
+    },
+    {
+        "name": "Radiation",
+        "description": "Energy emitted from nuclear reactions, not directly related to chemical pollution."
+    },
+    {
+        "name": "pH Below 5.6",
+        "description": "A measure of acidity; rain with pH below 5.6 is considered acid rain."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Acid Rain",
+        "relationship": "caused_by",
+        "related_concept": "Industrial Emissions",
+        "description": "Acid rain is exacerbated by pollutants emitted from industries."
+    },
+    {
+        "concept": "Acid Rain",
+        "relationship": "caused_by",
+        "related_concept": "Coal",
+        "description": "Burning coal releases sulfur dioxide and nitrogen oxides leading to acid rain."
+    },
+    {
+        "concept": "Acid Rain",
+        "relationship": "caused_by",
+        "related_concept": "Automobile Exhaust",
+        "description": "Vehicles emit nitrogen oxides that contribute to the formation of acid rain."
+    },
+    {
+        "concept": "Nuclear Power Plants",
+        "relationship": "does_not_cause",
+        "related_concept": "Acid Rain",
+        "description": "Nuclear power plants produce electricity without emitting air pollutants that cause acid rain."
+    },
+    {
+        "concept": "Radiation",
+        "relationship": "is_emitted_by",
+        "related_concept": "Nuclear Power Plants",
+        "description": "Radiation is a byproduct of nuclear energy production, unrelated to acid rain."
+    },
+    {
+        "concept": "Acid Rain",
+        "relationship": "is_not_caused_by",
+        "related_concept": "Radiation",
+        "description": "Acid rain is not caused by radiation emissions."
+    }
+]
+
+Model Answer: {
+    "answer": "nuclear power plants that produce radiation.",
+    "reasoning": "Among the options given, the only source that does not contribute directly to the formation of acid rain is 'nuclear power plants that produce radiation.' This is because nuclear power plants do not emit the chemical pollutants (like sulfur dioxide and nitrogen oxides) responsible for acid rain. Instead, their primary environmental concern is related to radiation, which does not contribute to acid rain's chemical formation."
+}

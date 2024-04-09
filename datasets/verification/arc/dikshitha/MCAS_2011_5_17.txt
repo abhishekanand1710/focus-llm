@@ -1,0 +1,69 @@
+Key: MCAS_2011_5_17
+
+Question: Which of the following best describes a mineral?
+Options: ['the main nutrient in all foods', 'a type of grain found in cereals', 'a natural substance that makes up rocks', 'the decomposed plant matter found in soil']
+Answer: a natural substance that makes up rocks
+
+Model Response:
+Concepts: [
+    {
+        "name": "mineral",
+        "description": "a natural substance with a chemical composition found in the earth"
+    },
+    {
+        "name": "main nutrient",
+        "description": "essential substances that an organism needs to live and grow"
+    },
+    {
+        "name": "type of grain",
+        "description": "seeds or small hard fruits especially those of cereal plants"
+    },
+    {
+        "name": "cereal",
+        "description": "plants such as wheat, rice, oats, cornmeal, barley or another grain product"
+    },
+    {
+        "name": "rocks",
+        "description": "solid mineral material forming part of the surface of the earth and other similar planets"
+    },
+    {
+        "name": "decomposed plant matter",
+        "description": "organic material that has broken down over time into a simpler form"
+    },
+    {
+        "name": "soil",
+        "description": "the top layer of the earth in which plants grow, a mixture of organic remains, clay, and rock particles"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "mineral",
+        "relationship": "composes",
+        "related_concept": "rocks",
+        "description": "Minerals are the natural substances that make up rocks"
+    },
+    {
+        "concept": "main nutrient",
+        "relationship": "required by",
+        "related_concept": "organism",
+        "description": "Main nutrients are essential substances needed by organisms to live and grow"
+    },
+    {
+        "concept": "type of grain",
+        "relationship": "subset of",
+        "related_concept": "cereal",
+        "description": "Grains are small, hard seeds and a subset of cereals, which are grass cultivated for these grains"
+    },
+    {
+        "concept": "decomposed plant matter",
+        "relationship": "component of",
+        "related_concept": "soil",
+        "description": "Decomposed plant matter is a key organic component that enriches the soil"
+    }
+]
+
+Model Answer: {
+    "answer": "a natural substance that makes up rocks",
+    "reasoning": "The correct answer can be determined from the concept of a 'mineral' which is described as a natural substance with a defined chemical composition that makes up rocks. None of the other options accurately reflect the definition or properties of minerals. Additionally, the relationship identified between 'minerals' and 'rocks', where minerals compose rocks, provides the direct link to the correct choice."
+}

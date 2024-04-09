@@ -1,0 +1,71 @@
+Key: MSA_2013_8_4
+
+Question: Sheep Challenge Evolution A species of sheep lives on the Scottish island of Hirta. Hirta has plenty of grass for the sheep to eat, and no natural predators of the sheep live on the island. Some sheep have dark wool, and some have light wool. The sheep with dark wool tend to be much larger and stronger than the sheep with light wool. However, researchers have found that in the last 20 years, the sheep with light wool have increased in number. Usually, strength and size help animals survive and breed. A new sheep predator is introduced to the island. Which change to the sheep population will most likely occur first?
+Options: ['a decrease in the population of sheep with dark wool', 'a decrease in the population of sheep with light wool', 'an increase in the population of sheep with dark wool', 'an increase in the population of sheep with light wool']
+Answer: a decrease in the population of sheep with light wool
+
+Model Response:
+Concepts: [
+    {
+        "name": "Natural Selection",
+        "description": "Process by which organisms that are better adapted to their environment tend to survive and produce more offspring."
+    },
+    {
+        "name": "Predation",
+        "description": "Biological interaction where a predator (an organism that is hunting) feeds on its prey (the organism that is attacked)."
+    },
+    {
+        "name": "Physical Traits",
+        "description": "Observable characteristics determined by genes."
+    },
+    {
+        "name": "Sheep Population Dynamics",
+        "description": "The study of how sheep population sizes change over time and space."
+    },
+    {
+        "name": "Adaptation",
+        "description": "A trait that helps an organism survive and reproduce."
+    },
+    {
+        "name": "Sheep Predator",
+        "description": "An organism that hunts and feeds on sheep."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Natural Selection",
+        "relationship": "influences",
+        "related_concept": "Sheep Population Dynamics",
+        "description": "Natural selection affects which traits are favorable in the sheep population."
+    },
+    {
+        "concept": "Predation",
+        "relationship": "drives",
+        "related_concept": "Natural Selection",
+        "description": "Predation pressures can lead to natural selection favoring certain traits over others."
+    },
+    {
+        "concept": "Physical Traits",
+        "relationship": "determine",
+        "related_concept": "Adaptation",
+        "description": "Physical traits can determine how well an organism is adapted to its environment."
+    },
+    {
+        "concept": "Sheep Predator",
+        "relationship": "causes",
+        "related_concept": "Predation",
+        "description": "Introduction of a sheep predator will result in predation on the sheep population."
+    },
+    {
+        "concept": "Adaptation",
+        "relationship": "results in",
+        "related_concept": "Survival",
+        "description": "Adaptations are traits that enhance survival and reproductive success."
+    }
+]
+
+Model Answer: {
+    "answer": "a decrease in the population of sheep with light wool",
+    "reasoning": "Introducing a new predator to the island will likely result in increased predation, favoring the survival of sheep that are larger and stronger, which in this case are the dark-wooled sheep. Given that dark-wooled sheep tend to be much larger and stronger than their light-wooled counterparts, they might be better equipped to either defend themselves against predators or survive environmental pressures that the predator introduces. Therefore, the sheep with light wool, being smaller and less strong, are more vulnerable to predation and likely to decrease in number more significantly at first."
+}

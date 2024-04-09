@@ -1,0 +1,87 @@
+Key: Mercury_7263393
+
+Question: Dr. Tanaka discovered a new virus. The virus has a single strand of a nucleic acid, but she does not know if it is DNA or RNA. After running tests, she concludes that it is DNA. Which of the following would lead her to that conclusion?
+Options: ['It contains uracil.', 'It contains adenine.', 'It contains thymine.', 'It contains cytosine.']
+Answer: It contains thymine.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Virus",
+        "description": "A microscopic organism that replicates inside the living cells of an organism."
+    },
+    {
+        "name": "DNA",
+        "description": "A molecule that carries the genetic instructions used in growth, development, functioning, and reproduction."
+    },
+    {
+        "name": "RNA",
+        "description": "A nucleic acid present in all living cells. Its principal role is to act as a messenger carrying instructions from DNA for controlling the synthesis of proteins."
+    },
+    {
+        "name": "Uracil",
+        "description": "A nitrogenous base found in RNA and not in DNA, it pairs with adenine."
+    },
+    {
+        "name": "Adenine",
+        "description": "A nucleobase used in the structure of both DNA and RNA, where it pairs with thymine in DNA and with uracil in RNA."
+    },
+    {
+        "name": "Thymine",
+        "description": "A nucleobase found in DNA, pairs with adenine."
+    },
+    {
+        "name": "Cytosine",
+        "description": "A nucleobase found in both DNA and RNA, where it pairs with guanine."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Virus",
+        "relationship": "contains",
+        "related_concept": "DNA",
+        "description": "A virus can contain DNA as its genetic material."
+    },
+    {
+        "concept": "Virus",
+        "relationship": "contains",
+        "related_concept": "RNA",
+        "description": "A virus can contain RNA as its genetic material."
+    },
+    {
+        "concept": "DNA",
+        "relationship": "does not contain",
+        "related_concept": "Uracil",
+        "description": "DNA does not contain uracil; it contains thymine instead."
+    },
+    {
+        "concept": "RNA",
+        "relationship": "contains",
+        "related_concept": "Uracil",
+        "description": "RNA contains uracil, pairing with adenine instead of thymine."
+    },
+    {
+        "concept": "DNA",
+        "relationship": "contains",
+        "related_concept": "Thymine",
+        "description": "The presence of thymine is specific to DNA."
+    },
+    {
+        "concept": "Cytosine",
+        "relationship": "contained by",
+        "related_concept": "DNA",
+        "description": "Cytosine is found in DNA."
+    },
+    {
+        "concept": "Cytosine",
+        "relationship": "contained by",
+        "related_concept": "RNA",
+        "description": "Cytosine is found in RNA."
+    }
+]
+
+Model Answer: {
+    "answer": "It contains thymine.",
+    "reasoning": "The presence of thymine in the nucleic acid structure is a clear indicator that the virus's genetic material is DNA and not RNA, as RNA contains uracil instead of thymine. Thymine exclusively pairs with adenine in DNA, while RNA uses uracil to pair with adenine. Therefore, discovering thymine among the virus's nucleic acids led Dr. Tanaka to the conclusion that it is DNA."
+}

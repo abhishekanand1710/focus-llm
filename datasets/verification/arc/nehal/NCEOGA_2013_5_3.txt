@@ -1,0 +1,67 @@
+Key: NCEOGA_2013_5_3
+
+Question: A girl walked for 30 minutes. She noticed that she traveled farther in the first 15 minutes of her walk than in the second 15 minutes. What can she conclude about her walk?
+Options: ['She walked over many hills.', 'Her average speed was faster during the first half of her walk.', 'She walked in two different directions.', 'She was walking at a constant speed.']
+Answer: Her average speed was faster during the first half of her walk.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Walking",
+        "description": "The act of moving at a slow pace on foot."
+    },
+    {
+        "name": "Average Speed",
+        "description": "The total distance traveled divided by the total time taken."
+    },
+    {
+        "name": "First Half of Walk",
+        "description": "The initial 15 minutes of the walk."
+    },
+    {
+        "name": "Second Half of Walk",
+        "description": "The last 15 minutes of the walk."
+    },
+    {
+        "name": "Distance",
+        "description": "The length of the path traveled from one point to another."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Walking",
+        "relationship": "results in",
+        "related_concept": "Distance",
+        "description": "Walking results in covering some distance."
+    },
+    {
+        "concept": "First Half of Walk",
+        "relationship": "has",
+        "related_concept": "Average Speed",
+        "description": "The first half of the walk has a certain average speed."
+    },
+    {
+        "concept": "Second Half of Walk",
+        "relationship": "has",
+        "related_concept": "Average Speed",
+        "description": "The second half of the walk has a certain average speed."
+    },
+    {
+        "concept": "First Half of Walk",
+        "relationship": "compared to",
+        "related_concept": "Second Half of Walk",
+        "description": "The distance traveled in the first half of the walk is compared to the distance traveled in the second half."
+    },
+    {
+        "concept": "Average Speed",
+        "relationship": "affects",
+        "related_concept": "Distance",
+        "description": "The average speed affects the distance traveled."
+    }
+]
+
+Model Answer: {
+    "answer": "Her average speed was faster during the first half of her walk.",
+    "reasoning": "Given that the girl traveled farther in the first 15 minutes than in the second 15 minutes, we can conclude that her speed during the first half of the walk was higher than during the second half. This is because, for the same amount of time, the distance covered is directly proportional to the speed, indicating that her average speed during the first half was faster."
+}

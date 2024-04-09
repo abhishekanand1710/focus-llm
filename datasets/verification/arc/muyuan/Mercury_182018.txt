@@ -1,0 +1,59 @@
+Key: Mercury_182018
+
+Question: Which characteristic property indicates that igneous rock cools slowly?
+Options: ['mineral composition', 'hardness', 'density', 'crystal size']
+Answer: crystal size
+
+Model Response:
+Concepts: [
+    {
+        "name": "Igneous rock",
+        "description": "A type of rock that forms from the cooling and solidification of magma or lava"
+    },
+    {
+        "name": "Crystal size",
+        "description": "The size of the crystals in a rock, which can indicate the rate at which the rock cooled"
+    },
+    {
+        "name": "Mineral composition",
+        "description": "The types and amounts of minerals found within a rock"
+    },
+    {
+        "name": "Hardness",
+        "description": "A measure of how resistant a mineral is to scratching"
+    },
+    {
+        "name": "Density",
+        "description": "The mass per unit volume of a substance"
+    },
+    {
+        "name": "Cooling rate",
+        "description": "The speed at which magma or lava cools, affecting the size of the crystals that form"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Igneous rock",
+        "relationship": "is determined by",
+        "related_concept": "Cooling rate",
+        "description": "The characteristics of an igneous rock, such as crystal size, are determined by its cooling rate"
+    },
+    {
+        "concept": "Cooling rate",
+        "relationship": "affects",
+        "related_concept": "Crystal size",
+        "description": "The rate at which magma or lava cools affects the size of the crystals that form within the rock"
+    },
+    {
+        "concept": "Crystal size",
+        "relationship": "is an indicator of",
+        "related_concept": "Cooling rate",
+        "description": "Crystal size serves as an indicator of the cooling rate of the magma or lava from which an igneous rock forms"
+    }
+]
+
+Model Answer: {
+    "answer": "crystal size",
+    "reasoning": "Crystal size in igneous rocks serves as an indicator of the cooling rate, with larger crystals typically indicating a slower cooling process. The relationships outlined show that the cooling rate directly affects crystal size, and it's this characteristic property among the options given that indicates an igneous rock cooled slowly. Therefore, 'crystal size' is the correct answer."
+}

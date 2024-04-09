@@ -1,0 +1,61 @@
+Key: Mercury_7219905
+
+Question: Cell membranes are described as selectively permeable. Four students were asked to explain what this means and provided the answers given below.Student 1: Cell membranes prevent all materials from entering the cell.Student 2: Cell membranes only provide structural support for the cell.Student 3: Cell membranes regulate which substances can enter and exit the cell.Student 4: Cell membranes allow water and water-soluble substances to enter the cell.Which student correctly identified the function of the selectively permeable membrane?
+Options: ['Student 1', 'Student 2', 'Student 3', 'Student 4']
+Answer: Student 3
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cell membranes",
+        "description": "Biological membranes that separate and protect the interior of the cell by regulating what substances can enter and exit"
+    },
+    {
+        "name": "Selectively permeable",
+        "description": "Only allowing certain substances to pass through while blocking others"
+    },
+    {
+        "name": "Regulate",
+        "description": "To control or maintain the rate or speed of a process so that it operates properly"
+    },
+    {
+        "name": "Structural support",
+        "description": "Provides physical strength and stability"
+    },
+    {
+        "name": "Water-soluble substances",
+        "description": "Substances that can dissolve in water"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cell membranes",
+        "relationship": "is described as",
+        "related_concept": "Selectively permeable",
+        "description": "Cell membranes are characterized by their selective permeability"
+    },
+    {
+        "concept": "Selectively permeable",
+        "relationship": "means",
+        "related_concept": "Regulate",
+        "description": "Being selectively permeable involves regulation of substances that can pass through"
+    },
+    {
+        "concept": "Cell membranes",
+        "relationship": "provides",
+        "related_concept": "Structural support",
+        "description": "Beyond their selective permeability, cell membranes also provide physical structure and support"
+    },
+    {
+        "concept": "Water-soluble substances",
+        "relationship": "related to",
+        "related_concept": "Regulate",
+        "description": "The regulation can include water-soluble substances, but is not limited to them"
+    }
+]
+
+Model Answer: {
+    "answer": "Student 3",
+    "reasoning": "Student 3 accurately describes the function of selectively permeable membranes. They do this by stating that such membranes 'regulate which substances can enter and exit the cell,' aligning with the definition of being selectively permeable. This involves regulating\u2014not entirely blocking or only structurally supporting\u2014the movement of substances based on specific criteria, rather than their solubility in water exclusively or providing merely structural support."
+}

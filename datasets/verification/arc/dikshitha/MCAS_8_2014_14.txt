@@ -1,0 +1,57 @@
+Key: MCAS_8_2014_14
+
+Question: A student uses the following characteristics to describe a group of objects in space. * 200 billion stars * 30 million light years from Earth * 500 light years in diameter Which of the following is the student most likely describing?
+Options: ['a galaxy', 'the universe', 'a constellation', 'the solar system']
+Answer: a galaxy
+
+Model Response:
+Concepts: [
+    {
+        "name": "galaxy",
+        "description": "A large system of stars, gas, and dust bound together by gravity, often containing billions of stars."
+    },
+    {
+        "name": "the universe",
+        "description": "All of space and time and their contents, including planets, stars, galaxies, and all other forms of matter and energy."
+    },
+    {
+        "name": "a constellation",
+        "description": "A group of stars forming a recognizable pattern that is traditionally named after its apparent form or identified with a mythological figure."
+    },
+    {
+        "name": "the solar system",
+        "description": "The collection of eight planets and their moons in orbit around the sun, together with smaller bodies in the form of asteroids, meteoroids, and comets."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "galaxy",
+        "relationship": "contains",
+        "related_concept": "stars",
+        "description": "A galaxy contains billions of stars."
+    },
+    {
+        "concept": "the universe",
+        "relationship": "contains",
+        "related_concept": "galaxies",
+        "description": "The universe contains all space and time, including all galaxies."
+    },
+    {
+        "concept": "a constellation",
+        "relationship": "is made of",
+        "related_concept": "stars",
+        "description": "A constellation is a recognizable pattern of stars in the sky."
+    },
+    {
+        "concept": "the solar system",
+        "relationship": "is part of",
+        "related_concept": "a galaxy",
+        "description": "The solar system is a part of the Milky Way galaxy."
+    }
+]
+
+Model Answer: {
+    "answer": "a galaxy",
+    "reasoning": "The description of having '200 billion stars' and being '500 light years in diameter' closely matches the characteristics of a galaxy, as galaxies contain billions of stars and span thousands to hundreds of thousands of light-years across. Additionally, being '30 million light years from Earth' indicates an object that is outside our solar system and even beyond the local star group, which aligns with the distance to other galaxies rather than the universe as a whole, a constellation, or the solar system."
+}

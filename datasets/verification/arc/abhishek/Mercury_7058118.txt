@@ -1,0 +1,91 @@
+Key: Mercury_7058118
+
+Question: A student is using descriptions to classify organisms. One organism is described as having sense organs to detect heat, laying eggs to reproduce, using venom for protection, and having the ability to change body temperature with its surroundings. How would the student classify this organism?
+Options: ['bacteria', 'mammal', 'reptile', 'bird']
+Answer: reptile
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sense organs to detect heat",
+        "description": "Specialized organs in some animals that can detect temperature changes."
+    },
+    {
+        "name": "Laying eggs",
+        "description": "A mode of reproduction involving the release of an ovum from the female, which is then fertilized and developed outside the body."
+    },
+    {
+        "name": "Venom for protection",
+        "description": "Use of a toxic substance produced by some animals for defense or to capture prey."
+    },
+    {
+        "name": "Ability to change body temperature with surroundings",
+        "description": "A characteristic of organisms that do not maintain a constant internal body temperature but instead change temperature based on the environment."
+    },
+    {
+        "name": "Bacteria",
+        "description": "Single-celled, microscopic organisms that lack chlorophyll and reproduce by fission."
+    },
+    {
+        "name": "Mammal",
+        "description": "Warm-blooded vertebrate animals characterized by the possession of hair or fur, secretion of milk by females for the nourishment of the young, and typically the birth of live young."
+    },
+    {
+        "name": "Reptile",
+        "description": "A class of cold-blooded, egg-laying vertebrates with scales or scutes that include snakes, lizards, crocodiles, and turtles."
+    },
+    {
+        "name": "Bird",
+        "description": "Warm-blooded vertebrates characterized by feathers, beaks without teeth, and laying hard-shelled eggs."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sense organs to detect heat",
+        "relationship": "is a trait of",
+        "related_concept": "Reptile",
+        "description": "Many reptiles, like certain snakes, have specialized sense organs to detect heat."
+    },
+    {
+        "concept": "Laying eggs",
+        "relationship": "is a mode of reproduction of",
+        "related_concept": "Reptile",
+        "description": "Reptiles reproduce by laying eggs."
+    },
+    {
+        "concept": "Venom for protection",
+        "relationship": "is used by",
+        "related_concept": "Reptile",
+        "description": "Some reptiles, such as certain snakes, use venom for protection."
+    },
+    {
+        "concept": "Ability to change body temperature with surroundings",
+        "relationship": "is a characteristic of",
+        "related_concept": "Reptile",
+        "description": "Reptiles are ectothermic, meaning their internal body temperature changes with the environment."
+    },
+    {
+        "concept": "Reptile",
+        "relationship": "is not",
+        "related_concept": "Bacteria",
+        "description": "Reptiles are multicellular organisms, unlike single-celled bacteria."
+    },
+    {
+        "concept": "Reptile",
+        "relationship": "is not",
+        "related_concept": "Mammal",
+        "description": "Reptiles are ectothermic, whereas mammals are endothermic and have fur or hair."
+    },
+    {
+        "concept": "Reptile",
+        "relationship": "is not",
+        "related_concept": "Bird",
+        "description": "Birds are warm-blooded and have feathers, while reptiles are cold-blooded and have scales or scutes."
+    }
+]
+
+Model Answer: {
+    "answer": "reptile",
+    "reasoning": "The described organism matches the traits of reptiles, which are known to have sense organs to detect heat (like pit vipers), use venom for protection (such as some snakes), lay eggs, and have the ability to change their body temperature with their surroundings, being ectothermic. None of the other options (bacteria, mammal, bird) fit all these traits simultaneously."
+}

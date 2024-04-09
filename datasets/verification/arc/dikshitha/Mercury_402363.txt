@@ -1,0 +1,75 @@
+Key: Mercury_402363
+
+Question: Red is dominant to white for flower color in a particular plant. If a red flowered plant (RR) is crossed with a white flowered plant (rr), what color will the offspring be?
+Options: ['100% pink', '100% red', '50% white, 50% red', '100% white']
+Answer: 100% red
+
+Model Response:
+Concepts: [
+    {
+        "name": "Genotype",
+        "description": "The genetic makeup of an organism in terms of the alleles present."
+    },
+    {
+        "name": "Phenotype",
+        "description": "The physical or physiological traits of an organism, resulting from its genotype."
+    },
+    {
+        "name": "Dominant allele",
+        "description": "An allele that expresses its phenotype even in the presence of a recessive allele."
+    },
+    {
+        "name": "Recessive allele",
+        "description": "An allele that expresses its phenotype only when paired with an identical allele."
+    },
+    {
+        "name": "Homozygous",
+        "description": "Having two identical alleles for a particular gene."
+    },
+    {
+        "name": "Heterozygous",
+        "description": "Having two different alleles for a particular gene."
+    },
+    {
+        "name": "Punnett square",
+        "description": "A tool used to predict the outcomes of a genetic cross."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dominant allele",
+        "relationship": "masks",
+        "related_concept": "Recessive allele",
+        "description": "The expression of the dominant allele masks the expression of the recessive allele in the phenotype."
+    },
+    {
+        "concept": "Genotype",
+        "relationship": "determines",
+        "related_concept": "Phenotype",
+        "description": "The genotype of an organism is what determines its phenotype."
+    },
+    {
+        "concept": "Homozygous",
+        "relationship": "specific form of",
+        "related_concept": "Genotype",
+        "description": "Homozygous is a specific form of genotype where both alleles for a gene are identical."
+    },
+    {
+        "concept": "Heterozygous",
+        "relationship": "produces",
+        "related_concept": "Phenotype",
+        "description": "A heterozygous genotype produces a phenotype that is determined by the dominant allele."
+    },
+    {
+        "concept": "Punnett square",
+        "relationship": "predicts",
+        "related_concept": "Genotype",
+        "description": "A Punnett square is used to predict the genotypes of offspring from parents' genotypes."
+    }
+]
+
+Model Answer: {
+    "answer": "100% red",
+    "reasoning": "The red flowered plant has a genotype of RR (homozygous dominant), and the white flowered plant has a genotype of rr (homozygous recessive). When crossed, all the offspring will inherit one R allele from the red-flowered parent and one r allele from the white-flowered parent, making their genotypes Rr. Since the R (red) allele is dominant over the r (white) allele, all offspring will express the red phenotype, resulting in 100% red-flowered offspring."
+}

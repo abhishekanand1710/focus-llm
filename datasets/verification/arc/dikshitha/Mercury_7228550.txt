@@ -1,0 +1,57 @@
+Key: Mercury_7228550
+
+Question: How many basic units of information in a DNA molecule are required to encode a single amino acid?
+Options: ['1', '2', '3', '4']
+Answer: 3
+
+Model Response:
+Concepts: [
+    {
+        "name": "DNA",
+        "description": "A molecule that carries the genetic instructions used in growth, development, functioning, and reproduction of all known living organisms."
+    },
+    {
+        "name": "Amino Acid",
+        "description": "Organic compounds that combine to form proteins, serving as the building blocks of life."
+    },
+    {
+        "name": "Codon",
+        "description": "A sequence of three nucleotides that together form a unit of genetic code in a DNA or RNA molecule."
+    },
+    {
+        "name": "Genetic Code",
+        "description": "The set of rules used by living cells to translate information encoded within genetic material (DNA or mRNA sequences) into proteins."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "DNA",
+        "relationship": "encodes",
+        "related_concept": "Genetic Code",
+        "description": "DNA encodes the genetic information that is translated according to the genetic code."
+    },
+    {
+        "concept": "Genetic Code",
+        "relationship": "defines",
+        "related_concept": "Codon",
+        "description": "The genetic code defines how sequences of codons are translated into amino acids."
+    },
+    {
+        "concept": "Codon",
+        "relationship": "specifies",
+        "related_concept": "Amino Acid",
+        "description": "Each codon specifies a single amino acid or a stop signal during protein synthesis."
+    },
+    {
+        "concept": "Amino Acid",
+        "relationship": "forms",
+        "related_concept": "Proteins",
+        "description": "Amino acids are the building blocks that form proteins."
+    }
+]
+
+Model Answer: {
+    "answer": "3",
+    "reasoning": "The relationship between these concepts highlights that a codon, which is made up of three nucleotides, is required to specify a single amino acid in the process of protein synthesis. This is because the genetic code operates by reading the sequences of DNA or RNA three nucleotides at a time (as codons) to translate them into amino acids, the building blocks of proteins. Therefore, it takes three basic units of information in a DNA molecule, in the form of a codon, to encode a single amino acid."
+}

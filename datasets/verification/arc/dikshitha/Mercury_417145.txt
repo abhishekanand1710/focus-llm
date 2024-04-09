@@ -1,0 +1,57 @@
+Key: Mercury_417145
+
+Question: Which marine ecosystem is independent of sunlight?
+Options: ['estuary', 'whale fall', 'black smoker', 'open ocean']
+Answer: black smoker
+
+Model Response:
+Concepts: [
+    {
+        "name": "estuary",
+        "description": "A partially enclosed coastal body of water where freshwater from rivers and streams meets and mixes with salt water from the ocean."
+    },
+    {
+        "name": "whale fall",
+        "description": "A phenomenon where a dead whale's carcass falls to the deep-ocean floor, creating a complex localized ecosystem that can sustain deep-sea life for decades."
+    },
+    {
+        "name": "black smoker",
+        "description": "A type of hydrothermal vent found on the ocean floor that emits a plume of mineral-rich water heated by the Earth's geothermal energy."
+    },
+    {
+        "name": "open ocean",
+        "description": "The vast expanses of sea located away from the coastlines, beyond the continental shelf, usually characterized by a depth exceeding 200 meters."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "whale fall",
+        "relationship": "supports",
+        "related_concept": "deep-sea life",
+        "description": "A whale fall provides nutrients and energy to deep-sea organisms in an otherwise nutrient-poor environment."
+    },
+    {
+        "concept": "black smoker",
+        "relationship": "creates",
+        "related_concept": "hydrothermal vent ecosystem",
+        "description": "Black smokers are responsible for the existence of complex ecosystems by emitting mineral-rich, hot water that supports unique life forms."
+    },
+    {
+        "concept": "estuary",
+        "relationship": "mixes",
+        "related_concept": "freshwater and saltwater",
+        "description": "Estuaries are transition zones where rivers meet the ocean, mixing freshwater with saltwater."
+    },
+    {
+        "concept": "open ocean",
+        "relationship": "relies",
+        "related_concept": "sunlight",
+        "description": "Photosynthesis in the open ocean requires sunlight, making it dependent on solar energy for the base of its food web."
+    }
+]
+
+Model Answer: {
+    "answer": "black smoker",
+    "reasoning": "Among the options given, 'black smoker' represents a marine ecosystem that is independent of sunlight. Black smokers are found on the ocean floor and support unique ecosystems through chemosynthesis, which relies on chemical energy from Earth's geothermal activity, rather than sunlight for energy. This contrasts with the other options, where 'estuary', 'open ocean', and even 'whale fall' are either directly or indirectly dependent on sunlight for their ecological processes."
+}

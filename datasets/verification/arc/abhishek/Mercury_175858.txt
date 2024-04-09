@@ -1,0 +1,61 @@
+Key: Mercury_175858
+
+Question: Which of the following is a by-product of cellular respiration in animals?
+Options: ['oxygen', 'heat', 'sugar', 'protein']
+Answer: heat
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cellular Respiration",
+        "description": "A biochemical process in cells where organic molecules are broken down to release energy for use by the cell."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A gas that is a reactant in the process of cellular respiration."
+    },
+    {
+        "name": "Heat",
+        "description": "A form of energy that is produced as a by-product in many biochemical reactions, including cellular respiration."
+    },
+    {
+        "name": "Sugar",
+        "description": "Organic molecules, such as glucose, used as a primary reactant or substrate in cellular respiration."
+    },
+    {
+        "name": "Protein",
+        "description": "Large biomolecules, or macromolecules, composed of one or more long chains of amino acid residues which are not a direct by-product of cellular respiration."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cellular Respiration",
+        "relationship": "consumes",
+        "related_concept": "Oxygen",
+        "description": "Cellular respiration uses oxygen to break down organic molecules."
+    },
+    {
+        "concept": "Cellular Respiration",
+        "relationship": "produces",
+        "related_concept": "Heat",
+        "description": "Cellular respiration results in the production of heat as a by-product."
+    },
+    {
+        "concept": "Cellular Respiration",
+        "relationship": "consumes",
+        "related_concept": "Sugar",
+        "description": "Sugar is a primary reactant consumed during cellular respiration to release energy."
+    },
+    {
+        "concept": "Cellular Respiration",
+        "relationship": "does not produce",
+        "related_concept": "Protein",
+        "description": "Protein is not a direct by-product of cellular respiration."
+    }
+]
+
+Model Answer: {
+    "answer": "heat",
+    "reasoning": "Among the options provided, heat is the only correct by-product of cellular respiration in animals. Oxygen is consumed, and not produced, during cellular respiration. Sugar is also consumed as a substrate to produce energy, while protein is not a by-product of this process. Instead, cellular respiration generates heat as part of its energy conversion process."
+}

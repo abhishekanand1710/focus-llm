@@ -1,0 +1,75 @@
+Key: MCAS_2008_8_5691
+
+Question: After a windstorm, Niko called the electric company to report that he had no electricity. His phone call is an example of which of the following elements of a universal systems model?
+Options: ['designing a process', 'generating output', 'giving feedback', 'setting a goal']
+Answer: giving feedback
+
+Model Response:
+Concepts: [
+    {
+        "name": "Windstorm",
+        "description": "A storm with high winds but little or no rain."
+    },
+    {
+        "name": "Electric Company",
+        "description": "A company that generates and distributes electricity."
+    },
+    {
+        "name": "Electricity",
+        "description": "A form of energy resulting from the existence of charged particles."
+    },
+    {
+        "name": "Phone Call",
+        "description": "A communication session between two or more participants over the phone."
+    },
+    {
+        "name": "Universal Systems Model",
+        "description": "A framework for understanding the process of creating systems which includes input, process, output, feedback, and goal setting."
+    },
+    {
+        "name": "Feedback",
+        "description": "Information sent back to the system to adjust or improve future performance."
+    },
+    {
+        "name": "Goal Setting",
+        "description": "The process of identifying a specific objective to accomplish."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Windstorm",
+        "relationship": "causes",
+        "related_concept": "Electricity",
+        "description": "The windstorm caused the disruption to electricity supply."
+    },
+    {
+        "concept": "Electric Company",
+        "relationship": "provides",
+        "related_concept": "Electricity",
+        "description": "The Electric Company generates and provides electricity to consumers."
+    },
+    {
+        "concept": "Phone Call",
+        "relationship": "is a form of",
+        "related_concept": "Feedback",
+        "description": "Niko's phone call to the electric company acts as feedback regarding the electricity outage."
+    },
+    {
+        "concept": "Feedback",
+        "relationship": "part of",
+        "related_concept": "Universal Systems Model",
+        "description": "Feedback is a key element in the Universal Systems Model for adjusting and improving systems."
+    },
+    {
+        "concept": "Goal Setting",
+        "relationship": "part of",
+        "related_concept": "Universal Systems Model",
+        "description": "Setting a goal is an essential step in the Universal Systems Model for system development."
+    }
+]
+
+Model Answer: {
+    "answer": "giving feedback",
+    "reasoning": "Niko's phone call to the electric company to report an outage post windstorm serves as feedback about the service disruption. This feedback is crucial for the electric company, allowing them to address and rectify the issue, fitting into the 'feedback' component of the Universal Systems Model where information is sent back to the system to make adjustments or improvements."
+}

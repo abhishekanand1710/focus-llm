@@ -1,0 +1,61 @@
+Key: Mercury_SC_405207
+
+Question: Which activity has the invention of the light bulb helped the most?
+Options: ['swimming', 'walking', 'reading', 'talking']
+Answer: reading
+
+Model Response:
+Concepts: [
+    {
+        "name": "light bulb",
+        "description": "A device that produces light from electricity."
+    },
+    {
+        "name": "swimming",
+        "description": "The act of moving through water by using the arms and legs."
+    },
+    {
+        "name": "walking",
+        "description": "The act of moving at a regular pace by lifting and setting down each foot in turn."
+    },
+    {
+        "name": "reading",
+        "description": "The process of looking at and understanding written symbols."
+    },
+    {
+        "name": "talking",
+        "description": "The act of conveying information or expressing one's thoughts and feelings in spoken language."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "light bulb",
+        "relationship": "facilitates",
+        "related_concept": "reading",
+        "description": "The light bulb provides illumination that allows for reading in dark environments."
+    },
+    {
+        "concept": "light bulb",
+        "relationship": "has minimal impact on",
+        "related_concept": "swimming",
+        "description": "The activity of swimming is less dependent on the presence of artificial light provided by a light bulb."
+    },
+    {
+        "concept": "light bulb",
+        "relationship": "has lesser impact on",
+        "related_concept": "walking",
+        "description": "While artificial light can improve safety during walking at night, it is not as essential as it is for reading."
+    },
+    {
+        "concept": "light bulb",
+        "relationship": "has minimal impact on",
+        "related_concept": "talking",
+        "description": "Talking does not require artificial light, so the impact of the light bulb is minimum."
+    }
+]
+
+Model Answer: {
+    "answer": "reading",
+    "reasoning": "Based on the relationships identified, the invention of the light bulb has the most significant impact on reading. This is because the light bulb provides the necessary illumination to see and read written materials in environments where natural light is inadequate or unavailable. Whereas activities like swimming, walking, and talking are less dependent on artificial light for their execution, making reading the most affected and benefited by the invention of the light bulb."
+}

@@ -1,0 +1,71 @@
+Key: Mercury_SC_415349
+
+Question: How does a tiger get stripes?
+Options: ['from its environment', 'from its food', 'from its offspring', 'from its parents']
+Answer: from its parents
+
+Model Response:
+Concepts: [
+    {
+        "name": "Tiger",
+        "description": "A large carnivorous feline mammal with a distinct pattern of dark vertical stripes on reddish-orange fur with a lighter underside."
+    },
+    {
+        "name": "Genetics",
+        "description": "The study of heredity and the variation of inherited characteristics."
+    },
+    {
+        "name": "Environment",
+        "description": "The surroundings or conditions in which a person, animal, or plant lives or operates."
+    },
+    {
+        "name": "Food",
+        "description": "Any nutritious substance that people or animals eat or drink or that plants absorb in order to maintain life and growth."
+    },
+    {
+        "name": "Offspring",
+        "description": "A person's or animal's young, especially of an animal born at one birth."
+    },
+    {
+        "name": "Parents",
+        "description": "A mother or father of a person or animal."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Tiger",
+        "relationship": "receives_traits_from",
+        "related_concept": "Parents",
+        "description": "A tiger inherits physical characteristics, such as stripes, from its parents through genetics."
+    },
+    {
+        "concept": "Genetics",
+        "relationship": "determines",
+        "related_concept": "Stripes",
+        "description": "The genetic material an offspring inherits from its parents determines characteristics like stripes in tigers."
+    },
+    {
+        "concept": "Food",
+        "relationship": "does_not_determine",
+        "related_concept": "Stripes",
+        "description": "What a tiger eats does not influence the presence or pattern of its stripes."
+    },
+    {
+        "concept": "Environment",
+        "relationship": "does_not_determine",
+        "related_concept": "Stripes",
+        "description": "The environment a tiger lives in does not directly result in the development of its stripes."
+    },
+    {
+        "concept": "Offspring",
+        "relationship": "inherits_traits_from",
+        "related_concept": "Parents",
+        "description": "The offspring of a tiger inherits its traits, including stripes, from its parents."
+    }
+]
+
+Model Answer: {
+    "answer": "from its parents",
+    "reasoning": "A tiger's stripes are a genetic trait inherited from its parents. The stripes are coded in the tiger's DNA, which is passed from parents to their offspring. This makes 'from its parents' the correct answer as neither the environment, food, nor the offspring itself initiates the presence of stripes; instead, they are a result of genetic inheritance."
+}

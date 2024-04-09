@@ -1,0 +1,65 @@
+Key: Mercury_7210000
+
+Question: Students make weather observations outside the school building, and then they record their observations. Which observation should be recorded as a fact?
+Options: ['The air feels very cold.', 'The wind is blowing at 5 m/s.', 'It is nicer than the day before.', 'It looks like it might warm up later.']
+Answer: The wind is blowing at 5 m/s.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Weather Observations",
+        "description": "The process of recording data about atmospheric conditions"
+    },
+    {
+        "name": "Fact",
+        "description": "A statement that can be proven true or false"
+    },
+    {
+        "name": "Feeling Temperature",
+        "description": "A subjective measure of how cold or warm an individual perceives the air to be"
+    },
+    {
+        "name": "Wind Speed",
+        "description": "The rate at which air is moving in the atmosphere, measured in meters per second (m/s)"
+    },
+    {
+        "name": "Comparative Observation",
+        "description": "An observation that compares one event or item to another"
+    },
+    {
+        "name": "Predictive Observation",
+        "description": "An observation that anticipates future changes in weather conditions"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Feeling Temperature",
+        "relationship": "is not",
+        "related_concept": "Fact",
+        "description": "Subjective feelings about temperature cannot be universally proven true or false"
+    },
+    {
+        "concept": "Wind Speed",
+        "relationship": "is",
+        "related_concept": "Fact",
+        "description": "Wind speed is a quantifiable measurement that can be proven true or false"
+    },
+    {
+        "concept": "Comparative Observation",
+        "relationship": "is not",
+        "related_concept": "Fact",
+        "description": "Comparisons such as 'nicer than the day before' are subjective and cannot be universally proven"
+    },
+    {
+        "concept": "Predictive Observation",
+        "relationship": "is not",
+        "related_concept": "Fact",
+        "description": "Predictions such as 'it might warm up later' cannot be proven true or false at the time of observation"
+    }
+]
+
+Model Answer: {
+    "answer": "The wind is blowing at 5 m/s.",
+    "reasoning": "The observation that the wind is blowing at 5 m/s is a quantifiable and measurable fact. Unlike the subjective or predictive nature of the other options, measuring wind speed provides a specific, verifiable piece of data that can be accurately recorded and proven true or false."
+}

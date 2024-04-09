@@ -1,0 +1,79 @@
+Key: Mercury_7168560
+
+Question: The water cycle describes the movement of the water of Earth. About 96% of the water of Earth is the salt water found in the oceans while the remaining 4% is fresh water. Where would the majority of the freshwater on Earth be found?
+Options: ['groundwater and aquifers', 'swamps and wetlands', 'ice caps and glaciers', 'lakes and rivers']
+Answer: ice caps and glaciers
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water Cycle",
+        "description": "The continuous movement of water on, above, and below the surface of the Earth."
+    },
+    {
+        "name": "Salt Water",
+        "description": "Water that contains a significant concentration of dissolved salts, primarily found in the oceans."
+    },
+    {
+        "name": "Fresh Water",
+        "description": "Water that has a low concentration of dissolved salts, essential for most terrestrial life forms."
+    },
+    {
+        "name": "Oceans",
+        "description": "Large bodies of salt water that cover most of the Earth's surface."
+    },
+    {
+        "name": "Ice Caps and Glaciers",
+        "description": "Large ice masses that accumulate in polar regions and high mountains, consisting mostly of fresh water."
+    },
+    {
+        "name": "Groundwater and Aquifers",
+        "description": "Water that is found underground in cracks and spaces in soil, sand, and rock, stored in aquifers."
+    },
+    {
+        "name": "Swamps and Wetlands",
+        "description": "Areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time."
+    },
+    {
+        "name": "Lakes and Rivers",
+        "description": "Inland bodies of fresh water, with lakes being larger and more stagnant than rivers which flow in one direction."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water Cycle",
+        "relationship": "includes",
+        "related_concept": "Salt Water",
+        "description": "The water cycle entails the movement of all types of water on Earth, including salt water."
+    },
+    {
+        "concept": "Water Cycle",
+        "relationship": "includes",
+        "related_concept": "Fresh Water",
+        "description": "Fresh water is a crucial component of the water cycle, involving its continuous movement."
+    },
+    {
+        "concept": "Salt Water",
+        "relationship": "found_in",
+        "related_concept": "Oceans",
+        "description": "Salt water constitutes the majority of the water in the oceans."
+    },
+    {
+        "concept": "Fresh Water",
+        "relationship": "largest_component",
+        "related_concept": "Ice Caps and Glaciers",
+        "description": "The majority of Earth's fresh water is locked in ice caps and glaciers."
+    },
+    {
+        "concept": "Fresh Water",
+        "relationship": "found_in",
+        "related_concept": "Groundwater and Aquifers",
+        "description": "A significant amount of fresh water is stored underground in aquifers."
+    }
+]
+
+Model Answer: {
+    "answer": "ice caps and glaciers",
+    "reasoning": "Based on the identified concepts and their relationships, the majority of the Earth's freshwater is found in ice caps and glaciers. This is established through the relationship that fresh water's largest component is ice caps and glaciers, indicating that despite being only 4% of the Earth's total water, most of this fresh water is locked in ice formations in polar regions and high mountains."
+}

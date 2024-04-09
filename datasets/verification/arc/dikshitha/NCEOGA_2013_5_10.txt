@@ -1,0 +1,65 @@
+Key: NCEOGA_2013_5_10
+
+Question: Which is the best explanation for how air masses move across the United States?
+Options: ['The prevailing westerlies move air masses from west to east across the United States but may be deflected by the jet stream.', 'The trade winds move air masses from west to east across the United States.', 'The jet stream moves air masses from the Pacific Ocean across the United States.', 'The warm air of the Gulf Stream causes air masses to move from the Atlantic Ocean to the Pacific Ocean.']
+Answer: The prevailing westerlies move air masses from west to east across the United States but may be deflected by the jet stream.
+
+Model Response:
+Concepts: [
+    {
+        "name": "prevailing westerlies",
+        "description": "Winds that move from west to east in the mid-latitudes."
+    },
+    {
+        "name": "jet stream",
+        "description": "Fast flowing, narrow air currents found in the atmosphere."
+    },
+    {
+        "name": "trade winds",
+        "description": "Winds that blow from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere, towards the equator."
+    },
+    {
+        "name": "Gulf Stream",
+        "description": "A strong, fast moving, warm ocean current that originates in the Gulf of Mexico and flows into the Atlantic Ocean."
+    },
+    {
+        "name": "Pacific Ocean",
+        "description": "The largest and deepest of the world's ocean basins."
+    },
+    {
+        "name": "Atlantic Ocean",
+        "description": "The second largest of the world's oceans, separating Europe and Africa from the Americas."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "prevailing westerlies",
+        "relationship": "moves",
+        "related_concept": "air masses",
+        "description": "The prevailing westerlies are responsible for moving air masses across the United States from west to east."
+    },
+    {
+        "concept": "jet stream",
+        "relationship": "deflects",
+        "related_concept": "prevailing westerlies",
+        "description": "The jet stream can cause the prevailing westerlies to change course."
+    },
+    {
+        "concept": "trade winds",
+        "relationship": "not relevant",
+        "related_concept": "United States",
+        "description": "Trade winds primarily affect regions closer to the equator and are not a major factor in moving air masses across the contiguous United States."
+    },
+    {
+        "concept": "Gulf Stream",
+        "relationship": "influences",
+        "related_concept": "Atlantic Ocean",
+        "description": "The Gulf Stream warms the North Atlantic but does not directly cause air masses to move from the Atlantic to the Pacific."
+    }
+]
+
+Model Answer: {
+    "answer": "The prevailing westerlies move air masses from west to east across the United States but may be deflected by the jet stream.",
+    "reasoning": "The prevailing westerlies are the primary driver of weather patterns across the United States, moving air masses from west to east. These movements can be influenced or altered by the jet stream, which can cause changes in weather patterns. The options involving the trade winds and the Gulf Stream are less applicable, as these do not directly influence the movement of air masses across the United States in the manner described by the question. Trade winds affect regions closer to the equator, and the Gulf Stream's influence is primarily over oceanic currents and temperatures in the North Atlantic, without direct involvement in moving air masses from the Atlantic Ocean to the Pacific Ocean."
+}

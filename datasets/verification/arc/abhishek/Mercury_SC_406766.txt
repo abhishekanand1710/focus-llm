@@ -1,0 +1,61 @@
+Key: Mercury_SC_406766
+
+Question: What precaution must be taken by students when making observations of the Sun?
+Options: ['Use only new equipment.', 'Use a very strong telescope.', 'Project image onto a piece of cardboard.', 'Look at the Sun only in the morning.']
+Answer: Project image onto a piece of cardboard.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sun observation safety",
+        "description": "Safety measures needed to observe the Sun without harming eyesight"
+    },
+    {
+        "name": "New equipment",
+        "description": "Recently manufactured observational tools or devices"
+    },
+    {
+        "name": "Strong telescope",
+        "description": "A telescope with high magnification and light-gathering capabilities"
+    },
+    {
+        "name": "Image projection",
+        "description": "Technique of projecting an image of the Sun onto a surface for safe viewing"
+    },
+    {
+        "name": "Morning observation",
+        "description": "Viewing the Sun during the morning hours"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sun observation safety",
+        "relationship": "not achieved by",
+        "related_concept": "New equipment",
+        "description": "Safety in observing the Sun is not necessarily achieved through the use of new equipment"
+    },
+    {
+        "concept": "Sun observation safety",
+        "relationship": "not reliant on",
+        "related_concept": "Strong telescope",
+        "description": "A strong telescope without proper solar filters can cause eye damage"
+    },
+    {
+        "concept": "Sun observation safety",
+        "relationship": "achieved by",
+        "related_concept": "Image projection",
+        "description": "Image projection onto a piece of cardboard can safely allow observation of the Sun"
+    },
+    {
+        "concept": "Sun observation safety",
+        "relationship": "not specific to",
+        "related_concept": "Morning observation",
+        "description": "The safety of observing the Sun is not limited to morning hours"
+    }
+]
+
+Model Answer: {
+    "answer": "Project image onto a piece of cardboard.",
+    "reasoning": "Projecting the image of the Sun onto a piece of cardboard is a safe method for observing the Sun. It avoids direct eye exposure to the harmful solar radiation by observing a secondary source, the projected image. This technique is safe and effective and doesn't depend on the quality of equipment, their newness, or the time of day for observation, making it the best option among the given choices."
+}

@@ -1,0 +1,61 @@
+Key: NYSEDREGENTS_2009_8_7
+
+Question: Which sequence of energy transformations occurs after a battery-operated flashlight is turned on?
+Options: ['electrical -> light -> chemical', 'electrical -> chemical -> light', 'chemical -> light -> electrical', 'chemical -> electrical -> light']
+Answer: chemical -> electrical -> light
+
+Model Response:
+Concepts: [
+    {
+        "name": "Battery",
+        "description": "A device that stores energy in chemical form and converts it into electrical energy."
+    },
+    {
+        "name": "Flashlight",
+        "description": "A portable hand-held electric light."
+    },
+    {
+        "name": "Electrical Energy",
+        "description": "Energy caused by the movement of electrons."
+    },
+    {
+        "name": "Light Energy",
+        "description": "Energy that is visible, perceivable by the normal human eye as light."
+    },
+    {
+        "name": "Chemical Energy",
+        "description": "Energy stored in the bonds of chemical compounds (atoms and molecules)."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Battery",
+        "relationship": "stores and converts",
+        "related_concept": "Chemical Energy",
+        "description": "The battery stores energy in chemical form and converts it into electrical energy."
+    },
+    {
+        "concept": "Battery",
+        "relationship": "supplies",
+        "related_concept": "Electrical Energy",
+        "description": "The battery supplies electrical energy to the flashlight."
+    },
+    {
+        "concept": "Flashlight",
+        "relationship": "converts",
+        "related_concept": "Electrical Energy",
+        "description": "The flashlight converts electrical energy into light energy."
+    },
+    {
+        "concept": "Electrical Energy",
+        "relationship": "converted to",
+        "related_concept": "Light Energy",
+        "description": "Electrical energy is transformed into light energy by the flashlight."
+    }
+]
+
+Model Answer: {
+    "answer": "chemical -> electrical -> light",
+    "reasoning": "Initially, the battery in the flashlight stores energy in chemical form. Once the flashlight is turned on, this chemical energy is converted into electrical energy, which then flows through the flashlight's components. Finally, the flashlight's bulb or LED converts this electrical energy into light energy, illuminating the surroundings."
+}

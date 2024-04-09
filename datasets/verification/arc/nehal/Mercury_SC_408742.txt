@@ -1,0 +1,77 @@
+Key: Mercury_SC_408742
+
+Question: Farmers plant fruit trees in an area that was once a grassy meadow. Which will most likely happen to the rabbits living in the meadow?
+Options: ['They will learn to eat fruit.', 'They will learn to climb trees.', 'The number of their young will increase.', 'The size of their population will decrease.']
+Answer: The size of their population will decrease.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rabbits",
+        "description": "Small mammals with a strong preference for living in areas with plenty of ground cover."
+    },
+    {
+        "name": "Fruit trees",
+        "description": "Trees cultivated for their edible fruit."
+    },
+    {
+        "name": "Grassy meadow",
+        "description": "An area covered with grass that serves as a habitat for various species."
+    },
+    {
+        "name": "Food sources",
+        "description": "Resources in the environment that organisms consume to obtain energy."
+    },
+    {
+        "name": "Habitat alteration",
+        "description": "Changes made to the living spaces of species, which can affect their survival."
+    },
+    {
+        "name": "Population dynamics",
+        "description": "The study of how and why the number of individuals in a population changes over time."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rabbits",
+        "relationship": "inhabit",
+        "related_concept": "Grassy meadow",
+        "description": "Rabbits live in areas such as grassy meadows."
+    },
+    {
+        "concept": "Fruit trees",
+        "relationship": "replace",
+        "related_concept": "Grassy meadow",
+        "description": "Planting fruit trees transforms a grassy meadow into a different type of habitat."
+    },
+    {
+        "concept": "Habitat alteration",
+        "relationship": "results from",
+        "related_concept": "Fruit trees",
+        "description": "The introduction of fruit trees leads to habitat alteration for the existing species."
+    },
+    {
+        "concept": "Rabbits",
+        "relationship": "affected by",
+        "related_concept": "Habitat alteration",
+        "description": "The living conditions and resources available to rabbits are modified due to habitat alteration."
+    },
+    {
+        "concept": "Population dynamics",
+        "relationship": "influenced by",
+        "related_concept": "Food sources",
+        "description": "The availability of food sources directly impacts the population dynamics of a species."
+    },
+    {
+        "concept": "Rabbits",
+        "relationship": "rely on",
+        "related_concept": "Food sources",
+        "description": "Rabbits depend on certain types of food sources found in their habitat for survival."
+    }
+]
+
+Model Answer: {
+    "answer": "The size of their population will decrease.",
+    "reasoning": "The transformation of a grassy meadow into an area with fruit trees results in habitat alteration. This change affects the rabbits' living conditions by altering the availability of their traditional food sources and possibly providing less ground cover. Since rabbits are adapted to meadow environments and the specific types of food sources found there, the alteration can lead to a decrease in their population size because their habitat no longer supports their needs as effectively. The other options, such as learning to eat fruit or climb trees, are less likely immediate responses to habitat change and do not directly address the fundamental issue of habitat suitability and food source availability."
+}

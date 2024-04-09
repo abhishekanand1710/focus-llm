@@ -1,0 +1,81 @@
+Key: Mercury_7056613
+
+Question: When a car engine is started, gasoline is mixed with air and burned. Heat, sound, and chemical products are released. As the engine operates, which of these remains constant?
+Options: ['the masses of compounds found in the engine', 'the amount of heat in the engine', 'the total mass of gasoline', 'the total amount of energy']
+Answer: the total amount of energy
+
+Model Response:
+Concepts: [
+    {
+        "name": "Engine combustion",
+        "description": "The process of mixing gasoline with air to produce energy in an engine."
+    },
+    {
+        "name": "Heat",
+        "description": "Energy transferred due to temperature difference."
+    },
+    {
+        "name": "Sound",
+        "description": "Energy transmitted through air (or other media) as a wave."
+    },
+    {
+        "name": "Chemical products",
+        "description": "Substances formed as a result of a chemical reaction."
+    },
+    {
+        "name": "Mass conservation",
+        "description": "A principle stating that mass is neither created nor destroyed in a chemical reaction."
+    },
+    {
+        "name": "Energy conservation",
+        "description": "A principle stating that the total amount of energy in an isolated system remains constant."
+    },
+    {
+        "name": "Gasoline consumption",
+        "description": "The process of using gasoline to produce energy in an engine."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Engine combustion",
+        "relationship": "produces",
+        "related_concept": "Heat",
+        "description": "Engine combustion releases heat as a byproduct."
+    },
+    {
+        "concept": "Engine combustion",
+        "relationship": "produces",
+        "related_concept": "Sound",
+        "description": "The process of combustion in an engine generates sound."
+    },
+    {
+        "concept": "Engine combustion",
+        "relationship": "produces",
+        "related_concept": "Chemical products",
+        "description": "Combustion in an engine results in various chemical products."
+    },
+    {
+        "concept": "Gasoline consumption",
+        "relationship": "reduces",
+        "related_concept": "the total mass of gasoline",
+        "description": "Consuming gasoline in an engine decreases its total mass."
+    },
+    {
+        "concept": "Energy conservation",
+        "relationship": "governs",
+        "related_concept": "Heat",
+        "description": "The principle of energy conservation applies to the conversion of chemical energy to heat."
+    },
+    {
+        "concept": "Mass conservation",
+        "relationship": "governs",
+        "related_concept": "Chemical products",
+        "description": "The mass of the chemical products is governed by the principle of mass conservation."
+    }
+]
+
+Model Answer: {
+    "answer": "the total amount of energy",
+    "reasoning": "Based on the principle of energy conservation, in an isolated system, the total amount of energy remains constant. Despite the transformation of energy forms (from chemical energy in gasoline to heat, sound, and kinetic energy) within the engine, the overall energy of the system does not change. The other options (mass of compounds, the amount of heat, and the total mass of gasoline) can vary during the operation of an engine through consumption and transformation processes."
+}

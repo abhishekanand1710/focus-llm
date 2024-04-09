@@ -1,0 +1,81 @@
+Key: ACTAAP_2009_5_13
+
+Question: Alan is using cabbage juice to determine the relative pH of various household solutions. Which of these steps communicates the results of his investigation?
+Options: ['Conduct multiple trials', 'Write down a procedure', 'Identify the materials to be tested', 'Record observations and data in a journal']
+Answer: Record observations and data in a journal
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cabbage Juice",
+        "description": "A natural pH indicator that changes color in response to acidity or basicity of a solution"
+    },
+    {
+        "name": "pH",
+        "description": "A scale used to specify the acidity or basicity of an aqueous solution"
+    },
+    {
+        "name": "Household Solutions",
+        "description": "Various liquid substances found in homes that can have different pH values"
+    },
+    {
+        "name": "Conduct multiple trials",
+        "description": "Performing an experiment several times to ensure consistency in results"
+    },
+    {
+        "name": "Write down a procedure",
+        "description": "Documenting the steps taken during an experiment"
+    },
+    {
+        "name": "Identify the materials to be tested",
+        "description": "Listing all items and solutions that will undergo pH testing"
+    },
+    {
+        "name": "Record observations and data in a journal",
+        "description": "Writing down the outcomes of each test for analysis and comparison"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cabbage Juice",
+        "relationship": "used for",
+        "related_concept": "pH",
+        "description": "Cabbage juice is used as an indicator to test the pH levels of solutions"
+    },
+    {
+        "concept": "pH",
+        "relationship": "determines",
+        "related_concept": "Household Solutions",
+        "description": "The pH level determines the acidity or basicity of household solutions"
+    },
+    {
+        "concept": "Conduct multiple trials",
+        "relationship": "ensures",
+        "related_concept": "Record observations and data in a journal",
+        "description": "Conducting multiple trials ensures the reliability of data recorded in a journal"
+    },
+    {
+        "concept": "Write down a procedure",
+        "relationship": "facilitates",
+        "related_concept": "Conduct multiple trials",
+        "description": "Writing down a procedure facilitates the accurate repetition in multiple trials"
+    },
+    {
+        "concept": "Identify the materials to be tested",
+        "relationship": "precedes",
+        "related_concept": "Write down a procedure",
+        "description": "Identifying materials is a step that precedes and is necessary for writing down a procedure"
+    },
+    {
+        "concept": "Record observations and data in a journal",
+        "relationship": "communicates",
+        "related_concept": "pH",
+        "description": "Recording observations and data in a journal communicates the pH findings from the investigation"
+    }
+]
+
+Model Answer: {
+    "answer": "Record observations and data in a journal",
+    "reasoning": "Recording observations and data in a journal is the step that directly communicates the results of Alan's investigation into the pH levels of various household solutions using cabbage juice. This step follows conducting the tests and allows for analysis, comparison, and communication of the finding. It is an essential part of scientific method to document and share results."
+}

@@ -1,0 +1,61 @@
+Key: Mercury_177468
+
+Question: When a blue light is shone on a yellow banana, what color does the banana appear to be?
+Options: ['blue', 'yellow', 'green', 'black']
+Answer: black
+
+Model Response:
+Concepts: [
+    {
+        "name": "blue light",
+        "description": "A type of light with a wavelength between approximately 450 and 495 nanometers."
+    },
+    {
+        "name": "yellow banana",
+        "description": "A fruit that reflects yellow color when white light shines on it."
+    },
+    {
+        "name": "color perception",
+        "description": "The ability of the human eye to differentiate various wavelengths of light as distinct colors."
+    },
+    {
+        "name": "color absorption and reflection",
+        "description": "Materials absorb some wavelengths of light and reflect others; the color perceived is the wavelength combination of reflected light."
+    },
+    {
+        "name": "light source",
+        "description": "Origin of light that illuminates objects, making them visible."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "blue light",
+        "relationship": "illuminates",
+        "related_concept": "yellow banana",
+        "description": "The blue light shines on the yellow banana, affecting its color appearance."
+    },
+    {
+        "concept": "yellow banana",
+        "relationship": "absorbs/reflects",
+        "related_concept": "blue light",
+        "description": "The yellow banana absorbs some wavelengths and reflects others; under blue light, its color appearance changes."
+    },
+    {
+        "concept": "color absorption and reflection",
+        "relationship": "determines",
+        "related_concept": "color perception",
+        "description": "The process of absorbing and reflecting light influences how colors are perceived by the human eye."
+    },
+    {
+        "concept": "light source",
+        "relationship": "provides",
+        "related_concept": "color perception",
+        "description": "The type of light source affects the color seen by an observer due to the light it emits."
+    }
+]
+
+Model Answer: {
+    "answer": "black",
+    "reasoning": "When blue light is shone on a yellow banana, the banana appears black. This is because the yellow banana reflects yellow light under normal conditions. When illuminated by blue light, which does not contain yellow wavelengths, the banana cannot reflect the blue light since it is designed to reflect yellow light. Thus, it absorbs the blue light, and none (or very little) of the light is reflected back to the observer. Since no light is being reflected, the banana appears black."
+}

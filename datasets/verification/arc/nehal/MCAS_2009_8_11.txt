@@ -1,0 +1,75 @@
+Key: MCAS_2009_8_11
+
+Question: Comparing the skeletons of which of the following fish would best show the evolution of a fish species?
+Options: ['a male fish and a female fish that could produce offspring', 'the same fish just before it received a cut and after it healed', 'a fish that lived recently and a fish that lived a long time ago', 'the same fish just after it hatched and when it was full-grown']
+Answer: a fish that lived recently and a fish that lived a long time ago
+
+Model Response:
+Concepts: [
+    {
+        "name": "Evolution",
+        "description": "The process through which species change over time through genetic variation and natural selection."
+    },
+    {
+        "name": "Skeleton",
+        "description": "The internal structure that supports the body of an animal."
+    },
+    {
+        "name": "Species",
+        "description": "A group of individuals that actually or potentially interbreed in nature."
+    },
+    {
+        "name": "Sexual Dimorphism",
+        "description": "The differences in appearance between male and female of the same species, such as in size, color, or structure."
+    },
+    {
+        "name": "Healing",
+        "description": "The process of recovery from an injury."
+    },
+    {
+        "name": "Time Scale",
+        "description": "The length of time over which events or processes occur in the natural world."
+    },
+    {
+        "name": "Development",
+        "description": "The process by which an organism grows and changes from a juvenile to a mature form."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Evolution",
+        "relationship": "is reflected in",
+        "related_concept": "Skeleton",
+        "description": "Changes and adaptations in a species over time can often be observed in the structure of its skeleton."
+    },
+    {
+        "concept": "Species",
+        "relationship": "exhibit",
+        "related_concept": "Sexual Dimorphism",
+        "description": "Some species show different physical traits between males and females beyond their reproductive organs."
+    },
+    {
+        "concept": "Healing",
+        "relationship": "does not indicate",
+        "related_concept": "Evolution",
+        "description": "Healing is a process that happens within the lifetime of one individual and does not reflect evolutionary changes."
+    },
+    {
+        "concept": "Time Scale",
+        "relationship": "is crucial for",
+        "related_concept": "Evolution",
+        "description": "Evolution is a process that happens over a long period of time, making time scale crucial for observing evolutionary changes."
+    },
+    {
+        "concept": "Development",
+        "relationship": "occurs in",
+        "related_concept": "Species",
+        "description": "The process of development from juvenile to adult occurs within individuals of a species."
+    }
+]
+
+Model Answer: {
+    "answer": "a fish that lived recently and a fish that lived a long time ago",
+    "reasoning": "To best observe the evolution of a fish species, comparing the skeletons of a fish that lived recently and a fish that lived a long time ago is most effective. This comparison allows us to see the physical changes and adaptations that have occurred over a significant period of time, reflecting the process of evolution. In contrast, looking at differences between male and female fish, before and after an injury, or from juvenile to adult within the same individual, would primarily show sexual dimorphism, healing processes, or individual development, none of which directly reflect evolutionary changes across the species over time."
+}

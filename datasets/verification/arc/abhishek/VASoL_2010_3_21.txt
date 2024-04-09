@@ -1,0 +1,61 @@
+Key: VASoL_2010_3_21
+
+Question: Which of these describes water in a solid state?
+Options: ['Vapor rising in the sky', 'Hail during a storm', 'Waves crashing on the seashore', 'Rain falling from the clouds']
+Answer: Hail during a storm
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water in a solid state",
+        "description": "Water frozen into a solid form, commonly known as ice"
+    },
+    {
+        "name": "Vapor rising in the sky",
+        "description": "Gaseous state of water, visible as steam or fog"
+    },
+    {
+        "name": "Hail during a storm",
+        "description": "Precipitation in the form of balls or irregular lumps of ice"
+    },
+    {
+        "name": "Waves crashing on the seashore",
+        "description": "Large bodies of water, usually in liquid form, moving in a strong and forceful way against a shore"
+    },
+    {
+        "name": "Rain falling from the clouds",
+        "description": "Liquid water droplets that have condensed from atmospheric water vapor and then precipitated\u2014falling to the ground"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water in a solid state",
+        "relationship": "is a form of",
+        "related_concept": "Hail during a storm",
+        "description": "Hail is water in its solid state"
+    },
+    {
+        "concept": "Vapor rising in the sky",
+        "relationship": "is a form of",
+        "related_concept": "Water in a gaseous state",
+        "description": "Vapor represents the gaseous state of water"
+    },
+    {
+        "concept": "Waves crashing on the seashore",
+        "relationship": "is a form of",
+        "related_concept": "Water in a liquid state",
+        "description": "Sea waves are water in its liquid state"
+    },
+    {
+        "concept": "Rain falling from the clouds",
+        "relationship": "is a form of",
+        "related_concept": "Water in a liquid state",
+        "description": "Rain is water in its liquid state"
+    }
+]
+
+Model Answer: {
+    "answer": "Hail during a storm",
+    "reasoning": "Hail during a storm best describes water in a solid state. It is precipitation that comes down as balls or irregular lumps of ice, contrasting with the other options, such as vapor, waves, and rain, which represent water in its gaseous and liquid states."
+}

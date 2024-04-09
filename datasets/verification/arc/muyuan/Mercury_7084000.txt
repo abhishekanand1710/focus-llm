@@ -1,0 +1,61 @@
+Key: Mercury_7084000
+
+Question: Which of these is true when a piece of wood is completely burned in a fire?
+Options: ['The change in the wood is reversible.', 'The energy in the wood is destroyed.', 'The change in the wood is physical.', 'The energy in the wood is transformed.']
+Answer: The energy in the wood is transformed.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Wood burning",
+        "description": "A chemical process where wood combusts releasing heat, light, and combustion products."
+    },
+    {
+        "name": "Reversible change",
+        "description": "A change that can be undone or reversed to get back to the original state or substance."
+    },
+    {
+        "name": "Energy transformation",
+        "description": "The process of changing one form of energy into another form of energy."
+    },
+    {
+        "name": "Physical change",
+        "description": "A change in which the form of matter is altered but one substance is not transformed into another."
+    },
+    {
+        "name": "Conservation of Energy",
+        "description": "A principle stating that energy cannot be created or destroyed, only transformed from one form to another."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Wood burning",
+        "relationship": "results in",
+        "related_concept": "Energy transformation",
+        "description": "The process of wood burning transforms the chemical energy stored in the wood into heat and light."
+    },
+    {
+        "concept": "Wood burning",
+        "relationship": "is not",
+        "related_concept": "Reversible change",
+        "description": "Once wood is burned, it cannot be converted back to its original state, making the change irreversible."
+    },
+    {
+        "concept": "Wood burning",
+        "relationship": "is not",
+        "related_concept": "Physical change",
+        "description": "Burning wood is a chemical change rather than a physical one as it results in new substances being formed."
+    },
+    {
+        "concept": "Energy transformation",
+        "relationship": "complies with",
+        "related_concept": "Conservation of Energy",
+        "description": "The energy transformation during wood burning demonstrates the principle of conservation of energy."
+    }
+]
+
+Model Answer: {
+    "answer": "The energy in the wood is transformed.",
+    "reasoning": "When wood is completely burned in a fire, the chemical process transforms the stored chemical energy in the wood into other forms of energy, like heat and light, while producing combustion products. This transformation complies with the Conservation of Energy principle, stating that energy is neither created nor destroyed but transformed. It is not a reversible change since the wood cannot be returned to its original state after burning, and it represents a chemical change, not a physical one."
+}

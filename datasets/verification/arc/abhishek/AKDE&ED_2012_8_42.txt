@@ -1,0 +1,71 @@
+Key: AKDE&ED_2012_8_42
+
+Question: A change in the density of air can result in a breeze. Which diagram best shows a series of energy transfers that begins with the Sun and results in a breeze?
+Options: ['radiation → conduction → breeze', 'radiation → conduction → convection → breeze', 'convection → radiation → breeze', 'convection → conduction → radiation → breeze']
+Answer: radiation → conduction → convection → breeze
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sun",
+        "description": "A star at the center of our solar system that emits energy in the form of light and heat."
+    },
+    {
+        "name": "radiation",
+        "description": "The transfer of energy through space without the need for a medium."
+    },
+    {
+        "name": "conduction",
+        "description": "The transfer of heat through a material without the material itself moving."
+    },
+    {
+        "name": "convection",
+        "description": "The transfer of heat by the physical movement of a fluid (such as air or water)."
+    },
+    {
+        "name": "density of air",
+        "description": "A measure of how many molecules of air are contained in a given volume."
+    },
+    {
+        "name": "breeze",
+        "description": "A soft and gentle flow of air."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sun",
+        "relationship": "emits",
+        "related_concept": "radiation",
+        "description": "The Sun emits energy in the form of radiation."
+    },
+    {
+        "concept": "radiation",
+        "relationship": "causes",
+        "related_concept": "heating of Earth's surface",
+        "description": "Radiation from the Sun causes the heating of Earth's surface."
+    },
+    {
+        "concept": "heating of Earth's surface",
+        "relationship": "leads to",
+        "related_concept": "convection",
+        "description": "The heating of Earth's surface leads to convection in the atmosphere."
+    },
+    {
+        "concept": "convection",
+        "relationship": "results in",
+        "related_concept": "changes in air density",
+        "description": "Convection results in changes in the density of air."
+    },
+    {
+        "concept": "changes in air density",
+        "relationship": "causes",
+        "related_concept": "breeze",
+        "description": "Changes in the density of air cause air movements, or breezes."
+    }
+]
+
+Model Answer: {
+    "answer": "radiation \u2192 conduction \u2192 convection \u2192 breeze",
+    "reasoning": "The process begins with the Sun emitting radiation, which transfers energy to the Earth's surface primarily through radiation. Once the Earth's surface is heated, it conducts heat to the air immediately above it, causing the air to warm up. This warm air then rises, and cooler air moves in to replace it\u2014a process known as convection. These movements of air due to differences in temperature and thus density result in breezes. The direct path from radiation to the creation of a breeze involves conduction (as heat transfer to the air) and then convection (as the movement of air), resulting in the correct sequence: 'radiation \u2192 conduction \u2192 convection \u2192 breeze'."
+}

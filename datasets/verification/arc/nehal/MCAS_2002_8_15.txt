@@ -1,0 +1,57 @@
+Key: MCAS_2002_8_15
+
+Question: Which of the following is least involved in the decomposition and decay of dead plants and animals?
+Options: ['worms', 'fungi', 'plant roots', 'microorganisms']
+Answer: plant roots
+
+Model Response:
+Concepts: [
+    {
+        "name": "worms",
+        "description": "Invertebrates that play a crucial role in soil health and decomposition."
+    },
+    {
+        "name": "fungi",
+        "description": "Organisms that break down dead organic material, releasing nutrients back into the ecosystem."
+    },
+    {
+        "name": "plant roots",
+        "description": "The part of a plant that anchors it to the ground and absorbs nutrients and water."
+    },
+    {
+        "name": "microorganisms",
+        "description": "Microscopic organisms such as bacteria and archaea that are pivotal in decomposition and nutrient cycling."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "worms",
+        "relationship": "participates in",
+        "related_concept": "decomposition",
+        "description": "Worms eat dead material, aiding in its breakdown."
+    },
+    {
+        "concept": "fungi",
+        "relationship": "participates in",
+        "related_concept": "decomposition",
+        "description": "Fungi decompose dead organic matter by breaking it down into simpler molecules."
+    },
+    {
+        "concept": "microorganisms",
+        "relationship": "participates in",
+        "related_concept": "decomposition",
+        "description": "Microorganisms break down organic matter, releasing nutrients into the soil."
+    },
+    {
+        "concept": "plant roots",
+        "relationship": "do not participate in",
+        "related_concept": "decomposition",
+        "description": "Plant roots absorb water and nutrients but are not directly involved in the breakdown and decay of dead material."
+    }
+]
+
+Model Answer: {
+    "answer": "plant roots",
+    "reasoning": "Among the options provided, plant roots are the least involved in the decomposition and decay of dead plants and animals. While worms, fungi, and microorganisms all play a direct role in the decomposition process by consuming, breaking down, or aiding in the breakdown of dead organic material, plant roots are primarily involved in water and nutrient absorption for the living plant and do not participate in the decomposition of dead matter."
+}

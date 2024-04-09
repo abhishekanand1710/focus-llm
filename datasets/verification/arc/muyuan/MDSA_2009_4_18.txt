@@ -1,0 +1,91 @@
+Key: MDSA_2009_4_18
+
+Question: Scientists group animals based on physical features. Trout are classified as fish because of what physical feature?
+Options: ['Fish have gills.', 'Fish eat the same food.', 'Fish live in the same area.', 'Fish have the same predators.']
+Answer: Fish have gills.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Trout",
+        "description": "A type of fish known for living in freshwater and some in saltwater environments."
+    },
+    {
+        "name": "Classifying animals",
+        "description": "The scientific process of grouping animals based on shared characteristics."
+    },
+    {
+        "name": "Physical features",
+        "description": "Observable characteristics of organisms, used in classification."
+    },
+    {
+        "name": "Fish",
+        "description": "Aquatic vertebrates that typically have gills, fins, and a long body covered with scales."
+    },
+    {
+        "name": "Gills",
+        "description": "Respiratory organ found in fish and aquatic animals, used for breathing underwater."
+    },
+    {
+        "name": "Diet",
+        "description": "The usual food and drink consumed by an organism."
+    },
+    {
+        "name": "Habitat",
+        "description": "The natural environment in which an organism lives."
+    },
+    {
+        "name": "Predators",
+        "description": "Organisms that hunt and eat other organisms for food."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Trout",
+        "relationship": "is a",
+        "related_concept": "Fish",
+        "description": "Trout is classified under the broad group of fish due to its characteristics."
+    },
+    {
+        "concept": "Fish",
+        "relationship": "have",
+        "related_concept": "Gills",
+        "description": "Fish are characterized by having gills, which allow them to breathe underwater."
+    },
+    {
+        "concept": "Classifying animals",
+        "relationship": "uses",
+        "related_concept": "Physical features",
+        "description": "The process of classifying animals utilizes physical features to group similar organisms together."
+    },
+    {
+        "concept": "Physical features",
+        "relationship": "include",
+        "related_concept": "Gills",
+        "description": "Physical features considered in classification include distinct aspects like gills for fish."
+    },
+    {
+        "concept": "Fish",
+        "relationship": "vary in",
+        "related_concept": "Diet",
+        "description": "Fish can have varied diets, not necessarily a shared common diet."
+    },
+    {
+        "concept": "Fish",
+        "relationship": "live in",
+        "related_concept": "Habitat",
+        "description": "Fish inhabit diverse environments, not limited to one area."
+    },
+    {
+        "concept": "Fish",
+        "relationship": "preyed upon by",
+        "related_concept": "Predators",
+        "description": "Different fish have different predators, depending on their size, habitat, and behavior."
+    }
+]
+
+Model Answer: {
+    "answer": "Fish have gills.",
+    "reasoning": "Trout are classified as fish primarily because they possess gills, which is a distinctive physical feature enabling them to breathe underwater. This characteristic is crucial for their classification within the group of fish, as it directly relates to their respiratory system, which is a significant aspect of their biology and distinct from other animal groups."
+}

@@ -1,0 +1,61 @@
+Key: Mercury_SC_415723
+
+Question: Why can steam be used to cook food?
+Options: ['Steam does work on objects.', 'Steam is a form of water.', 'Steam can transfer heat to cooler objects.', 'Steam is able to move through small spaces.']
+Answer: Steam can transfer heat to cooler objects.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Steam",
+        "description": "The gas phase of water when it is heated above its boiling point."
+    },
+    {
+        "name": "Heat Transfer",
+        "description": "The process of heat moving from a warmer object to a cooler one."
+    },
+    {
+        "name": "Cooking",
+        "description": "The process of preparing food by applying heat, often involving chemical and physical changes."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere."
+    },
+    {
+        "name": "Cooler Objects",
+        "description": "Objects at a lower temperature compared to the surrounding environment or to another object being compared."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Steam",
+        "relationship": "is a phase of",
+        "related_concept": "Water",
+        "description": "Steam is produced when water is heated above its boiling point, changing from liquid to gas."
+    },
+    {
+        "concept": "Steam",
+        "relationship": "can transfer heat to",
+        "related_concept": "Cooler Objects",
+        "description": "Steam, being at a higher temperature, can transfer its heat to objects that are cooler."
+    },
+    {
+        "concept": "Heat Transfer",
+        "relationship": "is essential for",
+        "related_concept": "Cooking",
+        "description": "Cooking involves the transfer of heat from a heat source to the food."
+    },
+    {
+        "concept": "Steam",
+        "relationship": "is used in",
+        "related_concept": "Cooking",
+        "description": "Steam can be used as a medium for cooking food, utilizing its heat to cook."
+    }
+]
+
+Model Answer: {
+    "answer": "Steam can transfer heat to cooler objects.",
+    "reasoning": "Steam is capable of transferring heat to objects that are cooler than itself, which is the principle behind using steam to cook food. The heat from the steam is transferred to the food, causing it to cook. This is supported by the relationship between steam being able to transfer its heat to cooler objects, and heat transfer being an essential element in the cooking process."
+}

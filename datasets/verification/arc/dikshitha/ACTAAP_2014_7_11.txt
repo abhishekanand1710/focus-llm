@@ -1,0 +1,77 @@
+Key: ACTAAP_2014_7_11
+
+Question: A teacher puts a cup of coffee into the cup holder of a car. When the car stops suddenly some of the coffee spills out of the cup. Which statement best explains why the coffee spills?
+Options: ['The coffee stays in motion because the stopping force acts only on the car.', 'The coffee stays in motion because a force from the cup holder pulls on the coffee.', 'The stopping force on the car causes an equal and opposite reaction from the coffee.', 'The stopping force causes the motion of the car to slow down and the motion of the coffee to speed up.']
+Answer: The coffee stays in motion because the stopping force acts only on the car.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Inertia",
+        "description": "An object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force."
+    },
+    {
+        "name": "Force",
+        "description": "An action exerted on an object which may change the object's state of rest or motion."
+    },
+    {
+        "name": "Newton's First Law of Motion",
+        "description": "A law that states that an object at rest stays at rest and an object in motion stays in motion unless acted upon by an unbalanced force."
+    },
+    {
+        "name": "Reaction Force",
+        "description": "Force that is equal in size but opposite in direction to an action force, forming an action-reaction pair."
+    },
+    {
+        "name": "Stopping Force",
+        "description": "The force applied to bring a moving object to a stop."
+    },
+    {
+        "name": "Coffee",
+        "description": "A liquid that is being described in the motion context."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Inertia",
+        "relationship": "is a result of",
+        "related_concept": "Newton's First Law of Motion",
+        "description": "Inertia is the concept that is defined by Newton's First Law of Motion."
+    },
+    {
+        "concept": "Stopping Force",
+        "relationship": "acts on",
+        "related_concept": "Car",
+        "description": "The car stops because a stopping force is applied to it."
+    },
+    {
+        "concept": "Coffee",
+        "relationship": "experiences",
+        "related_concept": "Inertia",
+        "description": "The coffee continues to move due to its inertia when the car stops suddenly."
+    },
+    {
+        "concept": "Car",
+        "relationship": "contains",
+        "related_concept": "Coffee",
+        "description": "The coffee is inside the car in a cup holder."
+    },
+    {
+        "concept": "Force",
+        "relationship": "is required to",
+        "related_concept": "change motion",
+        "description": "A force is required to change the state of motion of an object, according to Newton's Laws."
+    },
+    {
+        "concept": "Reaction Force",
+        "relationship": "does not directly explain",
+        "related_concept": "Coffee spillage",
+        "description": "The concept of a reaction force does not directly explain the spilling of coffee, rather inertia does."
+    }
+]
+
+Model Answer: {
+    "answer": "The coffee stays in motion because the stopping force acts only on the car.",
+    "reasoning": "According to Newton's First Law of Motion, an object in motion stays in motion unless acted upon by an unbalanced force. When the car stops suddenly due to a stopping force applied to it, the coffee inside, due to its inertia, continues to move in its original direction of motion. This is because the stopping force acts directly on the car, not on the coffee inside it, leading to the spilling of the coffee."
+}

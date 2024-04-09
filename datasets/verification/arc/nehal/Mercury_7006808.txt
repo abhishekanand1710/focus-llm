@@ -1,0 +1,67 @@
+Key: Mercury_7006808
+
+Question: Which part of an atom occupies the majority of the volume?
+Options: ['nucleus', 'protons', 'neutrons', 'electrons']
+Answer: electrons
+
+Model Response:
+Concepts: [
+    {
+        "name": "atom",
+        "description": "The smallest unit of matter that retains the identity of the substance"
+    },
+    {
+        "name": "nucleus",
+        "description": "The central core of an atom, containing protons and neutrons"
+    },
+    {
+        "name": "protons",
+        "description": "Positively charged particles found within the nucleus of an atom"
+    },
+    {
+        "name": "neutrons",
+        "description": "Charge-neutral particles found within the nucleus of an atom"
+    },
+    {
+        "name": "electrons",
+        "description": "Negatively charged particles that orbit the nucleus of an atom"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "nucleus",
+        "relationship": "contains",
+        "related_concept": "protons",
+        "description": "The nucleus of an atom contains protons"
+    },
+    {
+        "concept": "nucleus",
+        "relationship": "contains",
+        "related_concept": "neutrons",
+        "description": "The nucleus of an atom contains neutrons"
+    },
+    {
+        "concept": "atom",
+        "relationship": "contains",
+        "related_concept": "nucleus",
+        "description": "An atom contains a nucleus"
+    },
+    {
+        "concept": "atom",
+        "relationship": "contains",
+        "related_concept": "electrons",
+        "description": "An atom contains electrons which orbit the nucleus"
+    },
+    {
+        "concept": "atom",
+        "relationship": "occupied_by",
+        "related_concept": "electrons",
+        "description": "The majority of an atom's volume is occupied by the space through which electrons move"
+    }
+]
+
+Model Answer: {
+    "answer": "electrons",
+    "reasoning": "Despite their minuscule mass, electrons occupy the majority of the volume of an atom, as they are located in orbits around the nucleus, which itself is very dense but occupies only a tiny fraction of the atom's volume. The space within which electrons move defines the overall size of the atom."
+}

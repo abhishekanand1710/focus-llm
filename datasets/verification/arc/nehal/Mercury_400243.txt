@@ -1,0 +1,69 @@
+Key: Mercury_400243
+
+Question: A mouse is homozygous for black fur (BB). The other parent is heterozygous for black fur with a recessive trait for brown fur ( Bb ). If black is the dominant trait, what percentage of the offspring will be brown?
+Options: ['100%', '50%', '25%', '0%']
+Answer: 0%
+
+Model Response:
+Concepts: [
+    {
+        "name": "Genetics",
+        "description": "The study of genes, genetic variation, and heredity in living organisms."
+    },
+    {
+        "name": "Dominant Trait",
+        "description": "A trait that will appear in the offspring if one of the parents contributes it."
+    },
+    {
+        "name": "Recessive Trait",
+        "description": "A trait that must be contributed by both parents in order to appear in the offspring."
+    },
+    {
+        "name": "Homozygous",
+        "description": "An organism that has two identical alleles for a trait."
+    },
+    {
+        "name": "Heterozygous",
+        "description": "An organism that has two different alleles for a trait."
+    },
+    {
+        "name": "Phenotype",
+        "description": "The set of observable characteristics of an individual resulting from the interaction of its genotype with the environment."
+    },
+    {
+        "name": "Genotype",
+        "description": "The genetic makeup of an individual organism."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dominant Trait",
+        "relationship": "masks",
+        "related_concept": "Recessive Trait",
+        "description": "In the presence of a dominant trait, the recessive trait is not expressed in the phenotype."
+    },
+    {
+        "concept": "Homozygous",
+        "relationship": "expresses",
+        "related_concept": "Phenotype",
+        "description": "A homozygous genotype fully determines the phenotype for that trait if it includes a dominant allele."
+    },
+    {
+        "concept": "Heterozygous",
+        "relationship": "contains",
+        "related_concept": "Recessive Trait",
+        "description": "A heterozygous genotype includes one allele for the recessive trait but does not necessarily express it in the phenotype."
+    },
+    {
+        "concept": "Genotype",
+        "relationship": "determines",
+        "related_concept": "Phenotype",
+        "description": "The genotype is the genetic makeup that determines the phenotype of an organism."
+    }
+]
+
+Model Answer: {
+    "answer": "0%",
+    "reasoning": "Since one parent is homozygous for black fur (BB) and the dominant trait is black fur, it can only pass on the allele for black fur. The other parent, being heterozygous (Bb), has a 50% chance of passing on the allele for black fur and a 50% chance of passing on the allele for brown fur. However, since the black fur allele is dominant, any offspring receiving at least one black fur allele (B) from either parent will have black fur. As the offspring need to inherit the recessive brown allele (b) from both parents to express brown fur and one parent is homozygous BB (can only provide B), no offspring will express the phenotype for brown fur. Therefore, 0% of the offspring will be brown."
+}

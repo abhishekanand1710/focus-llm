@@ -1,0 +1,57 @@
+Key: Mercury_SC_416654
+
+Question: Which comparison of ecosystems is true?
+Options: ['Tundras are warmer than grasslands.', 'Grasslands get more rain than deserts.', 'Deserts have more plants than rainforests.', 'Rainforests are rockier than tundras.']
+Answer: Grasslands get more rain than deserts.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Tundras",
+        "description": "Cold, treeless regions with low precipitation, a short growing season, and permafrost."
+    },
+    {
+        "name": "Grasslands",
+        "description": "Areas where the vegetation is dominated by grasses, often receiving more rain than deserts but less than forests."
+    },
+    {
+        "name": "Deserts",
+        "description": "Dry areas that receive less than 250mm of rain per year, characterized by sparse vegetation."
+    },
+    {
+        "name": "Rainforests",
+        "description": "Dense forests that receive high amounts of rain, characterized by high biodiversity and a dense canopy."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Tundras",
+        "relationship": "colder_than",
+        "related_concept": "Grasslands",
+        "description": "Tundras are colder than grasslands due to their higher latitudes and permafrost."
+    },
+    {
+        "concept": "Grasslands",
+        "relationship": "more_rain_than",
+        "related_concept": "Deserts",
+        "description": "Grasslands receive more rainfall than deserts, supporting more extensive grassy vegetation."
+    },
+    {
+        "concept": "Deserts",
+        "relationship": "less_plants_than",
+        "related_concept": "Rainforests",
+        "description": "Deserts have fewer plants than rainforests due to significantly lower precipitation."
+    },
+    {
+        "concept": "Rainforests",
+        "relationship": "less_rocky_than",
+        "related_concept": "Tundras",
+        "description": "Rainforests have less exposed rock and more soil and organic material cover than tundras."
+    }
+]
+
+Model Answer: {
+    "answer": "Grasslands get more rain than deserts.",
+    "reasoning": "Based on the concepts and their relationships, the statement about grasslands receiving more rain than deserts is true. Deserts are defined by their low precipitation, while grasslands, although not as moist as forests, still receive more rain than deserts, allowing for the growth of grasses and supporting different types of flora and fauna."
+}

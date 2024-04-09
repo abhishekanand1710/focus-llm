@@ -1,0 +1,57 @@
+Key: Mercury_SC_401216
+
+Question: It takes approximately 365 days for
+Options: ['the Sun to orbit around Earth.', 'the Moon to orbit around Earth.', 'Earth to orbit around the Sun.', 'Earth to orbit around the Moon.']
+Answer: Earth to orbit around the Sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun in our solar system."
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of the solar system."
+    },
+    {
+        "name": "Moon",
+        "description": "The natural satellite of Earth."
+    },
+    {
+        "name": "Orbit",
+        "description": "The curved path of a celestial object around a star, planet, or moon."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "orbits around",
+        "related_concept": "Sun",
+        "description": "Earth moves around the Sun in an elliptical orbit."
+    },
+    {
+        "concept": "Moon",
+        "relationship": "orbits around",
+        "related_concept": "Earth",
+        "description": "The Moon moves around Earth in an elliptical orbit."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "does not orbit around",
+        "related_concept": "Earth",
+        "description": "Contrary to early belief, the Sun does not orbit around Earth."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "does not orbit around",
+        "related_concept": "Moon",
+        "description": "Earth does not orbit around the Moon; it's the other way around."
+    }
+]
+
+Model Answer: {
+    "answer": "Earth to orbit around the Sun.",
+    "reasoning": "It takes approximately 365 days for Earth to complete one orbit around the Sun, aligning with the period known as a year. This fact is supported by our understanding of the solar system's structure, where planets, including Earth, orbit the Sun due to gravitational forces."
+}

@@ -1,0 +1,71 @@
+Key: NYSEDREGENTS_2005_8_28
+
+Question: The main function of the human digestive system is to
+Options: ['break down foods for absorption into the blood', 'exchange oxygen and carbon dioxide in the lungs', 'release energy from sugars within the cells', 'carry nutrients to all parts of the body']
+Answer: break down foods for absorption into the blood
+
+Model Response:
+Concepts: [
+    {
+        "name": "Human digestive system",
+        "description": "A series of organs that converts food into essential nutrients absorbed into the blood and removes unused waste."
+    },
+    {
+        "name": "Absorption",
+        "description": "The process by which the nutrients from foods are taken into the body's internal environment."
+    },
+    {
+        "name": "Blood",
+        "description": "A body fluid in humans and other animals that delivers necessary substances such as nutrients and oxygen to the cells and transports metabolic waste products away."
+    },
+    {
+        "name": "Exchange of oxygen and carbon dioxide",
+        "description": "The main function of the respiratory system, where oxygen is taken in and carbon dioxide is expelled."
+    },
+    {
+        "name": "Release of energy from sugars",
+        "description": "A cellular process that breaks down sugar molecules to release energy; mainly associated with cellular respiration."
+    },
+    {
+        "name": "Carrying nutrients to all parts of the body",
+        "description": "A function of the circulatory system, particularly the blood, which transports nutrients to where they are needed."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Human digestive system",
+        "relationship": "facilitates",
+        "related_concept": "Absorption",
+        "description": "The digestive system breaks down food to facilitate nutrient absorption into the blood."
+    },
+    {
+        "concept": "Absorption",
+        "relationship": "results in",
+        "related_concept": "Blood",
+        "description": "Nutrients absorbed by the digestive system enter the bloodstream."
+    },
+    {
+        "concept": "Exchange of oxygen and carbon dioxide",
+        "relationship": "function of",
+        "related_concept": "Respiratory system",
+        "description": "The exchange of oxygen and carbon dioxide is the primary function of the respiratory system, not the digestive system."
+    },
+    {
+        "concept": "Release of energy from sugars",
+        "relationship": "occurs in",
+        "related_concept": "cells",
+        "description": "The process of releasing energy from sugars occurs in the cells, primarily through cellular respiration."
+    },
+    {
+        "concept": "Carrying nutrients to all parts of the body",
+        "relationship": "function of",
+        "related_concept": "Circulatory system",
+        "description": "The circulatory system, particularly through the blood, is responsible for carrying nutrients to all parts of the body."
+    }
+]
+
+Model Answer: {
+    "answer": "break down foods for absorption into the blood",
+    "reasoning": "The primary function of the human digestive system is to break down foods into smaller molecules that can be absorbed into the blood, providing essential nutrients to the body. This function aligns with the concept of 'Absorption,' which indicates the process through which nutrients from foods are taken into the body's internal environment. This action facilitates the distribution of nutrients by the blood to various parts of the body, distinguishing it from other options which describe functions of the respiratory system (exchange of oxygen and carbon dioxide), cellular processes (release of energy from sugars), and the circulatory system's role (carrying nutrients to all parts of the body)."
+}

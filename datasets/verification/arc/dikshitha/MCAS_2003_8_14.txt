@@ -1,0 +1,61 @@
+Key: MCAS_2003_8_14
+
+Question: The pull of gravity on Earth is a direct result of the
+Options: ['mass of Earth.', 'magnetic field of Earth.', 'rotation of Earth on its axis.', "weight of Earth's atmosphere."]
+Answer: mass of Earth.
+
+Model Response:
+Concepts: [
+    {
+        "name": "mass of Earth",
+        "description": "The total amount of matter contained within the Earth."
+    },
+    {
+        "name": "magnetic field of Earth",
+        "description": "A field that extends from the Earth's interior out into space, which protects the planet from the charged particles of the solar wind."
+    },
+    {
+        "name": "rotation of Earth on its axis",
+        "description": "The Earth's spin around an imaginary line that passes through the North and South Poles."
+    },
+    {
+        "name": "weight of Earth's atmosphere",
+        "description": "The total force exerted by the Earth's atmosphere on the surface of the planet."
+    },
+    {
+        "name": "gravity",
+        "description": "A natural phenomenon by which all things with mass or energy are brought toward one another."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "mass of Earth",
+        "relationship": "results in",
+        "related_concept": "gravity",
+        "description": "The mass of Earth directly influences the gravitational pull it exerts on objects."
+    },
+    {
+        "concept": "magnetic field of Earth",
+        "relationship": "does not result in",
+        "related_concept": "gravity",
+        "description": "The Earth's magnetic field is related to magnetism and not directly responsible for the gravitational force."
+    },
+    {
+        "concept": "rotation of Earth on its axis",
+        "relationship": "does not result in",
+        "related_concept": "gravity",
+        "description": "Rotation of the Earth on its axis affects day/night cycles and can influence weather patterns but does not create gravity."
+    },
+    {
+        "concept": "weight of Earth's atmosphere",
+        "relationship": "influenced by",
+        "related_concept": "gravity",
+        "description": "The weight of the Earth's atmosphere is a result of gravity pulling the atmospheric gases towards the planet, not a cause of gravity."
+    }
+]
+
+Model Answer: {
+    "answer": "mass of Earth.",
+    "reasoning": "The pull of gravity on Earth is a direct result of the mass of the Earth. It is the Earth's mass that creates the gravitational force pulling objects toward it, not its magnetic field, rotation, or the weight of its atmosphere. The relationship between the mass of a celestial body like Earth and its gravitational pull is foundational in physics, based on Newton's law of universal gravitation, which indicates that every mass exerts an attractive force on every other mass."
+}

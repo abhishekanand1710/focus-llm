@@ -1,0 +1,65 @@
+Key: Mercury_SC_402170
+
+Question: For a class project, students converted the daily temperatures for the past month from Fahrenheit to Celsius. What is the clearest way for the students to present the information?
+Options: ['table', 'formula', 'pie chart', 'line graph']
+Answer: table
+
+Model Response:
+Concepts: [
+    {
+        "name": "table",
+        "description": "A method of presenting information in rows and columns."
+    },
+    {
+        "name": "formula",
+        "description": "A mathematical way of showing how to calculate or convert one value to another."
+    },
+    {
+        "name": "pie chart",
+        "description": "A type of graph that shows parts of a whole as slices of a circle."
+    },
+    {
+        "name": "line graph",
+        "description": "A chart used to display information which changes over time."
+    },
+    {
+        "name": "daily temperatures",
+        "description": "Measurements of how hot or cold it is each day."
+    },
+    {
+        "name": "Fahrenheit to Celsius conversion",
+        "description": "The process of changing temperature readings from Fahrenheit to Celsius."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "daily temperatures",
+        "relationship": "represented_by",
+        "related_concept": "table",
+        "description": "Daily temperatures can be organized and displayed in a table."
+    },
+    {
+        "concept": "daily temperatures",
+        "relationship": "represented_by",
+        "related_concept": "line graph",
+        "description": "Changes in daily temperatures over time can be visually represented in a line graph."
+    },
+    {
+        "concept": "Fahrenheit to Celsius conversion",
+        "relationship": "applied_through",
+        "related_concept": "formula",
+        "description": "The conversion from Fahrenheit to Celsius is achieved by applying a formula."
+    },
+    {
+        "concept": "daily temperatures",
+        "relationship": "not_suitably_represented_by",
+        "related_concept": "pie chart",
+        "description": "A pie chart is not suited for showing changes in temperatures over time."
+    }
+]
+
+Model Answer: {
+    "answer": "line graph",
+    "reasoning": "Among the provided options, a line graph is the best way to present the daily temperatures converted from Fahrenheit to Celsius for the past month. It visually displays the changes over time, allowing for easy comparison of temperature trends. While a table could also organize this data effectively, it does not provide the same immediate visual insight into the fluctuations and trends that a line graph offers. The conversion process itself is handled through a formula, but presenting the converted temperatures is most effectively achieved with a line graph. A pie chart is less suitable for this task as it is designed to show parts of a whole, not trends over time."
+}

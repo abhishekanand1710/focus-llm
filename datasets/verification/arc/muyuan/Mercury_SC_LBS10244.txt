@@ -1,0 +1,47 @@
+Key: Mercury_SC_LBS10244
+
+Question: Which list gives the correct order of substances from the lowest melting point to the highest?
+Options: ['oxygen, water, iron', 'water, iron, oxygen', 'oxygen, iron, water', 'iron, oxygen, water']
+Answer: oxygen, water, iron
+
+Model Response:
+Concepts: [
+    {
+        "name": "Oxygen",
+        "description": "A diatomic gas at room temperature with a very low melting point."
+    },
+    {
+        "name": "Water",
+        "description": "A liquid at room temperature with a moderate melting point."
+    },
+    {
+        "name": "Iron",
+        "description": "A metal with a high melting point."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Oxygen",
+        "relationship": "has_lower_melting_point_than",
+        "related_concept": "Water",
+        "description": "Oxygen turns solid at a much lower temperature than water freezes."
+    },
+    {
+        "concept": "Water",
+        "relationship": "has_lower_melting_point_than",
+        "related_concept": "Iron",
+        "description": "Water freezes into ice at a much lower temperature than iron melts."
+    },
+    {
+        "concept": "Oxygen",
+        "relationship": "has_much_lower_melting_point_than",
+        "related_concept": "Iron",
+        "description": "The difference in melting points between oxygen and iron is significantly large, with oxygen being much lower."
+    }
+]
+
+Model Answer: {
+    "answer": "oxygen, water, iron",
+    "reasoning": "Based on the melting points, oxygen transitions from a gas to a solid state at the lowest temperature, followed by water turning from liquid to solid, and iron has the highest melting point among the three. Therefore, the correct order from lowest to highest melting point is oxygen, water, iron."
+}

@@ -1,0 +1,81 @@
+Key: MCAS_2000_8_27
+
+Question: Read the description of the experiment below to answer the question. One hundred pea seeds were put in petri dishes and covered with wet paper towels. The petri dishes were then put inside black plastic bags. Half of them were placed in an incubator set to 10°C. The remaining half were placed in an incubator set to 30°C. This experiment was most likely designed to study the effect of which variable on the germination of pea seeds?
+Options: ['temperature', 'water', 'light', 'seed type']
+Answer: temperature
+
+Model Response:
+Concepts: [
+    {
+        "name": "germination",
+        "description": "The process by which a plant grows from a seed."
+    },
+    {
+        "name": "pea seeds",
+        "description": "Seeds of the pea plant, used in the experiment as the subject of germination."
+    },
+    {
+        "name": "temperature",
+        "description": "A measure of how hot or cold something is."
+    },
+    {
+        "name": "incubator",
+        "description": "An apparatus providing a controlled environment for the care and protection of premature or unusually small babies, or in this context, for controlling environmental conditions for experiments."
+    },
+    {
+        "name": "petri dish",
+        "description": "A shallow cylindrical glass or plastic lidded dish that biologists use to culture cells - in this case, used to hold pea seeds."
+    },
+    {
+        "name": "wet paper towels",
+        "description": "Paper towels moistened with water, used to provide moisture for the germination of seeds."
+    },
+    {
+        "name": "black plastic bags",
+        "description": "Used to cover the petri dishes, likely to block light from the environment."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "pea seeds",
+        "relationship": "subject of",
+        "related_concept": "germination",
+        "description": "Pea seeds are the subject put through the process of germination in the experiment."
+    },
+    {
+        "concept": "germination",
+        "relationship": "affected by",
+        "related_concept": "temperature",
+        "description": "The process of germination can be influenced by the temperature."
+    },
+    {
+        "concept": "pea seeds",
+        "relationship": "placed in",
+        "related_concept": "petri dish",
+        "description": "Pea seeds were placed in petri dishes for the experiment."
+    },
+    {
+        "concept": "petri dish",
+        "relationship": "covered with",
+        "related_concept": "wet paper towels",
+        "description": "Petri dishes containing pea seeds were covered with wet paper towels to maintain moisture."
+    },
+    {
+        "concept": "petri dish",
+        "relationship": "put inside",
+        "related_concept": "black plastic bags",
+        "description": "Petri dishes were then put inside black plastic bags, likely to control light exposure."
+    },
+    {
+        "concept": "temperature",
+        "relationship": "controlled by",
+        "related_concept": "incubator",
+        "description": "The temperature for the germination experiment was controlled by using an incubator."
+    }
+]
+
+Model Answer: {
+    "answer": "temperature",
+    "reasoning": "This experiment was designed to study the effect of temperature on the germination of pea seeds. The seeds were placed in conditions that were identical except for the temperature, with half of them in an incubator set to 10\u00b0C and the other half set to 30\u00b0C. The use of wet paper towels and black plastic bags indicates that other factors like moisture and light were controlled to focus solely on the impact of temperature on germination."
+}

@@ -1,0 +1,61 @@
+Key: ACTAAP_2008_5_7
+
+Question: What do cells break down to produce energy?
+Options: ['food', 'water', 'chlorophyll', 'carbon dioxide']
+Answer: food
+
+Model Response:
+Concepts: [
+    {
+        "name": "cells",
+        "description": "Basic structural, functional, and biological units of all living organisms."
+    },
+    {
+        "name": "food",
+        "description": "Substances consumed by organisms for energy and growth."
+    },
+    {
+        "name": "water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance that is essential for the survival of living organisms."
+    },
+    {
+        "name": "chlorophyll",
+        "description": "A green pigment found in cyanobacteria and the chloroplasts of algae and plants, essential in photosynthesis."
+    },
+    {
+        "name": "carbon dioxide",
+        "description": "A colorless gas produced by burning carbon and organic compounds and by respiration. It is naturally present in air and is absorbed by plants in photosynthesis."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "cells",
+        "relationship": "break down",
+        "related_concept": "food",
+        "description": "Cells break down food to produce energy."
+    },
+    {
+        "concept": "chlorophyll",
+        "relationship": "used by",
+        "related_concept": "cells",
+        "description": "Chlorophyll is used by plant cells to capture light energy for photosynthesis."
+    },
+    {
+        "concept": "cells",
+        "relationship": "produce",
+        "related_concept": "carbon dioxide",
+        "description": "Cells produce carbon dioxide as a byproduct of breaking down food."
+    },
+    {
+        "concept": "water",
+        "relationship": "required by",
+        "related_concept": "cells",
+        "description": "Water is required by cells for various metabolic processes."
+    }
+]
+
+Model Answer: {
+    "answer": "food",
+    "reasoning": "Cells break down food to produce energy, making use of nutrients and organic compounds contained in it to fuel cellular processes. This energy production is crucial for sustaining life and supporting the body's various functions."
+}

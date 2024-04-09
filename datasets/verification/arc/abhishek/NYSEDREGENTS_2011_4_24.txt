@@ -1,0 +1,61 @@
+Key: NYSEDREGENTS_2011_4_24
+
+Question: Which activity is an example of a good health habit?
+Options: ['watching television', 'smoking cigarettes', 'eating candy', 'exercising every day']
+Answer: exercising every day
+
+Model Response:
+Concepts: [
+    {
+        "name": "watching television",
+        "description": "The activity of viewing programs on a television."
+    },
+    {
+        "name": "smoking cigarettes",
+        "description": "The act of inhaling and exhaling the smoke of tobacco or a drug."
+    },
+    {
+        "name": "eating candy",
+        "description": "Consuming sweets, which are typically high in sugar."
+    },
+    {
+        "name": "exercising every day",
+        "description": "The activity of engaging in physical fitness on a daily basis."
+    },
+    {
+        "name": "good health habit",
+        "description": "A practice that is beneficial to one's physical or mental health."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "watching television",
+        "relationship": "not typically considered",
+        "related_concept": "good health habit",
+        "description": "Watching television is not typically considered a physical activity that contributes to good health."
+    },
+    {
+        "concept": "smoking cigarettes",
+        "relationship": "detrimental to",
+        "related_concept": "good health habit",
+        "description": "Smoking cigarettes is known to be detrimental to physical health, thus not a good health habit."
+    },
+    {
+        "concept": "eating candy",
+        "relationship": "can be detrimental to",
+        "related_concept": "good health habit",
+        "description": "Regular consumption of high-sugar items like candy can be detrimental to health, thus not considered a good health habit."
+    },
+    {
+        "concept": "exercising every day",
+        "relationship": "is considered",
+        "related_concept": "good health habit",
+        "description": "Exercising every day is widely recognized as a beneficial activity for maintaining or improving health."
+    }
+]
+
+Model Answer: {
+    "answer": "exercising every day",
+    "reasoning": "Among the given options, 'exercising every day' is the only activity that is universally recognized as a beneficial practice for one's physical and mental health, making it an example of a good health habit. The other options, such as watching television, smoking cigarettes, and eating candy, do not contribute to good health and, in some cases, can be quite detrimental."
+}

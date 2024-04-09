@@ -1,0 +1,61 @@
+Key: Mercury_7037240
+
+Question: What part of an atom orbits around the center of the atom?
+Options: ['proton', 'nucleus', 'neutron', 'electron']
+Answer: electron
+
+Model Response:
+Concepts: [
+    {
+        "name": "atom",
+        "description": "The smallest unit of ordinary matter that forms a chemical element."
+    },
+    {
+        "name": "proton",
+        "description": "A subatomic particle found in the nucleus of every atom with a positive electric charge."
+    },
+    {
+        "name": "nucleus",
+        "description": "The central part of an atom that contains protons and neutrons."
+    },
+    {
+        "name": "neutron",
+        "description": "A subatomic particle found in the nucleus of every atom, it is neutral as it carries no electric charge."
+    },
+    {
+        "name": "electron",
+        "description": "A subatomic particle with a negative electric charge that orbits the nucleus of an atom."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "proton",
+        "relationship": "part_of",
+        "related_concept": "nucleus",
+        "description": "Protons are part of the nucleus of an atom."
+    },
+    {
+        "concept": "neutron",
+        "relationship": "part_of",
+        "related_concept": "nucleus",
+        "description": "Neutrons are part of the nucleus of an atom."
+    },
+    {
+        "concept": "nucleus",
+        "relationship": "center_of",
+        "related_concept": "atom",
+        "description": "The nucleus is the center of the atom."
+    },
+    {
+        "concept": "electron",
+        "relationship": "orbits_around",
+        "related_concept": "nucleus",
+        "description": "Electrons orbit around the nucleus of an atom."
+    }
+]
+
+Model Answer: {
+    "answer": "electron",
+    "reasoning": "Based on the entities and their relationships, electrons are the subatomic particles that orbit around the nucleus, which is the center of an atom. Neither protons nor neutrons orbit around the nucleus; instead, they are part of the nucleus. The nucleus itself does not orbit but is the central part of the atom."
+}

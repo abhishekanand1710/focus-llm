@@ -1,0 +1,65 @@
+Key: Mercury_SC_402281
+
+Question: When prehistoric animals died and their soft parts decayed, which product was formed?
+Options: ['oil', 'sand', 'coal', 'shale']
+Answer: oil
+
+Model Response:
+Concepts: [
+    {
+        "name": "prehistoric animals",
+        "description": "animals that lived millions of years ago before the history was documented"
+    },
+    {
+        "name": "soft parts decayed",
+        "description": "biological process where soft tissues of organisms break down after death"
+    },
+    {
+        "name": "oil",
+        "description": "a fossil fuel formed from the remains of ancient marine organisms"
+    },
+    {
+        "name": "sand",
+        "description": "a granular material composed of finely divided rock and mineral particles"
+    },
+    {
+        "name": "coal",
+        "description": "a black or brownish-black sedimentary rock formed from vegetation that is subjected to high pressure and temperature over millions of years"
+    },
+    {
+        "name": "shale",
+        "description": "a fine-grained sedimentary rock that forms from the compaction of silt and clay-size mineral particles"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "prehistoric animals",
+        "relationship": "decomposition leads to",
+        "related_concept": "oil",
+        "description": "The decomposition of prehistoric marine organisms under anaerobic conditions leads to the formation of oil"
+    },
+    {
+        "concept": "prehistoric animals",
+        "relationship": "decomposition leads to",
+        "related_concept": "coal",
+        "description": "The decomposition of prehistoric terrestrial plants and animals under high pressure and temperature leads to the formation of coal"
+    },
+    {
+        "concept": "soft parts decayed",
+        "relationship": "is a process in",
+        "related_concept": "oil",
+        "description": "The decay of soft parts of marine organisms is a primary process in the formation of oil"
+    },
+    {
+        "concept": "soft parts decayed",
+        "relationship": "is a process in",
+        "related_concept": "coal",
+        "description": "The decay and transformation of plant material under specific conditions is a primary process in the formation of coal"
+    }
+]
+
+Model Answer: {
+    "answer": "oil",
+    "reasoning": "When prehistoric animals, specifically marine organisms, died and their soft parts decayed under anaerobic conditions (without oxygen), the organic material gradually transformed into what we know today as oil. This process does not specifically result in the formation of sand, coal, or shale in this context, although coal is similarly formed from plant material under different conditions. In the context of the question, focusing on the decay of soft parts, oil is the correct answer as it directly relates to the decay of marine organisms."
+}

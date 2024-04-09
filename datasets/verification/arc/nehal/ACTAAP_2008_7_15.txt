@@ -1,0 +1,61 @@
+Key: ACTAAP_2008_7_15
+
+Question: Which would a scientist use in trying to model the cause of planetary years?
+Options: ['planetary mass', 'planetary color', "a planet's core temperature", "a planet's distance from the Sun"]
+Answer: a planet's distance from the Sun
+
+Model Response:
+Concepts: [
+    {
+        "name": "planetary mass",
+        "description": "The measure of a planet's mass relative to other planets or objects in space."
+    },
+    {
+        "name": "planetary color",
+        "description": "The apparent color of a planet as seen from a distance, influenced by its surface and atmospheric composition."
+    },
+    {
+        "name": "a planet's core temperature",
+        "description": "The temperature at the center of a planet."
+    },
+    {
+        "name": "a planet's distance from the Sun",
+        "description": "The space between a planet and the Sun, usually measured in astronomical units."
+    },
+    {
+        "name": "planetary years",
+        "description": "The period it takes for a planet to complete one orbit around the Sun."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "a planet's distance from the Sun",
+        "relationship": "determines",
+        "related_concept": "planetary years",
+        "description": "The distance of a planet from the Sun is the primary determinant of its orbital period, or year."
+    },
+    {
+        "concept": "planetary mass",
+        "relationship": "influences",
+        "related_concept": "a planet's orbit",
+        "description": "While not directly influencing the length of a year, a planet's mass can affect its gravitational interactions and stability in its orbit."
+    },
+    {
+        "concept": "planetary color",
+        "relationship": "does not affect",
+        "related_concept": "planetary years",
+        "description": "The color of a planet does not have any influence on the calculation or duration of its year."
+    },
+    {
+        "concept": "a planet's core temperature",
+        "relationship": "unrelated",
+        "related_concept": "planetary years",
+        "description": "The temperature of a planet's core has no impact on the length of its orbital period around the Sun."
+    }
+]
+
+Model Answer: {
+    "answer": "a planet's distance from the Sun",
+    "reasoning": "The distance of a planet from the Sun is the critical factor in determining the length of its year or orbital period. This is because the gravitational force exerted by the Sun decreases with distance, affecting the speed at which a planet orbits it. Therefore, among the options provided, a scientist modeling the cause of planetary years would most directly use a planet's distance from the Sun as it directly determines the orbital period, which is synonymous with a planetary year."
+}

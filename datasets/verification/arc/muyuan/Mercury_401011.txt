@@ -1,0 +1,71 @@
+Key: Mercury_401011
+
+Question: The noble gases, helium, neon, argon, krypton, xenon, and radon, rarely react with other elements because they
+Options: ['are low-density gases.', 'are not abundant on Earth.', 'have complete outermost energy levels.', 'have two electrons in their outermost energy level.']
+Answer: have complete outermost energy levels.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Noble Gases",
+        "description": "A group of gases including helium, neon, argon, krypton, xenon, and radon, characterized by their lack of chemical reactivity."
+    },
+    {
+        "name": "Outermost Energy Levels",
+        "description": "The electron shell furthest from the nucleus of an atom."
+    },
+    {
+        "name": "Electrons",
+        "description": "Subatomic particles with a negative charge that orbit the nucleus of an atom."
+    },
+    {
+        "name": "Chemical Reactivity",
+        "description": "The ability of a substance to undergo a chemical change with another material."
+    },
+    {
+        "name": "Density",
+        "description": "The degree of compactness of a substance."
+    },
+    {
+        "name": "Abundance on Earth",
+        "description": "The relative amount of an element or material present in the Earth's crust or atmosphere."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Noble Gases",
+        "relationship": "have",
+        "related_concept": "Outermost Energy Levels",
+        "description": "Noble gases have complete outermost energy levels, contributing to their chemical inertness."
+    },
+    {
+        "concept": "Outermost Energy Levels",
+        "relationship": "determine",
+        "related_concept": "Chemical Reactivity",
+        "description": "The completion of outermost energy levels determines an element's lack of chemical reactivity."
+    },
+    {
+        "concept": "Chemical Reactivity",
+        "relationship": "influenced by",
+        "related_concept": "Electrons",
+        "description": "The presence or absence of electrons in the outermost energy level influences a substance's chemical reactivity."
+    },
+    {
+        "concept": "Noble Gases",
+        "relationship": "are not",
+        "related_concept": "Density",
+        "description": "The low reactivity of noble gases is not directly related to their density."
+    },
+    {
+        "concept": "Noble Gases",
+        "relationship": "are not determined by",
+        "related_concept": "Abundance on Earth",
+        "description": "The chemical inertness of noble gases is not determined by their abundance on Earth."
+    }
+]
+
+Model Answer: {
+    "answer": "have complete outermost energy levels.",
+    "reasoning": "The noble gases rarely react with other elements because they have complete outermost energy levels, making them chemically inert. The completion of these energy levels means that noble gases have a stable electron configuration that does not easily allow them to participate in chemical reactions, unlike other elements that seek to fill or empty their outermost shells to achieve stability."
+}

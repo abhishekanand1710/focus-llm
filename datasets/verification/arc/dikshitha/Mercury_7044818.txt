@@ -1,0 +1,71 @@
+Key: Mercury_7044818
+
+Question: Where is the smallest negatively-charged particle found in an atom?
+Options: ['nucleus', 'orbits in the nucleus', 'orbits around the nucleus', 'between the proton and neutron']
+Answer: orbits around the nucleus
+
+Model Response:
+Concepts: [
+    {
+        "name": "Atom",
+        "description": "The smallest unit of ordinary matter that forms a chemical element"
+    },
+    {
+        "name": "Nucleus",
+        "description": "The central part of an atom containing protons and neutrons"
+    },
+    {
+        "name": "Electron",
+        "description": "A stable subatomic particle with a charge of negative electricity, found in all atoms and acting as the primary carrier of electricity in solids"
+    },
+    {
+        "name": "Proton",
+        "description": "A subatomic particle found in the nucleus of every atom, with a positive electric charge"
+    },
+    {
+        "name": "Neutron",
+        "description": "A subatomic particle found in the nucleus of atoms, without any electric charge"
+    },
+    {
+        "name": "Orbits around the nucleus",
+        "description": "The path that electrons follow around an atom's nucleus"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Atom",
+        "relationship": "contains",
+        "related_concept": "Nucleus",
+        "description": "Every atom has a nucleus at its center"
+    },
+    {
+        "concept": "Nucleus",
+        "relationship": "contains",
+        "related_concept": "Proton",
+        "description": "The nucleus of an atom contains protons"
+    },
+    {
+        "concept": "Nucleus",
+        "relationship": "contains",
+        "related_concept": "Neutron",
+        "description": "The nucleus of an atom contains neutrons"
+    },
+    {
+        "concept": "Atom",
+        "relationship": "has",
+        "related_concept": "Electron",
+        "description": "Atoms have electrons which orbit around the nucleus"
+    },
+    {
+        "concept": "Electron",
+        "relationship": "orbits",
+        "related_concept": "Nucleus",
+        "description": "Electrons orbit around the nucleus of an atom"
+    }
+]
+
+Model Answer: {
+    "answer": "orbits around the nucleus",
+    "reasoning": "The smallest negatively-charged particle found in an atom is the electron. According to the relationships outlined, electrons orbit around the nucleus of an atom. They do not reside in the nucleus itself or between the proton and neutron, but instead follow certain paths or orbits around the nucleus."
+}

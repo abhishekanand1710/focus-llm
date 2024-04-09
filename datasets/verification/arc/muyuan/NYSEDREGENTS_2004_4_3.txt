@@ -1,0 +1,61 @@
+Key: NYSEDREGENTS_2004_4_3
+
+Question: Water freezing is an example of a
+Options: ['liquid changing to a solid', 'solid changing to a liquid', 'gas changing to a solid', 'gas changing to a liquid']
+Answer: liquid changing to a solid
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water Freezing",
+        "description": "The process of water turning from liquid to solid"
+    },
+    {
+        "name": "Liquid Changing to a Solid",
+        "description": "The process where a substance moves from a liquid state to a solid state"
+    },
+    {
+        "name": "Solid Changing to a Liquid",
+        "description": "The transformation of a substance from solid to liquid"
+    },
+    {
+        "name": "Gas Changing to a Solid",
+        "description": "A transition of matter from a gas state directly to a solid state without passing through the liquid state"
+    },
+    {
+        "name": "Gas Changing to a Liquid",
+        "description": "The change of state of matter from gas phase to liquid phase"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water Freezing",
+        "relationship": "is a specific instance of",
+        "related_concept": "Liquid Changing to a Solid",
+        "description": "Water freezing specifically refers to water as the liquid that changes into ice, a solid"
+    },
+    {
+        "concept": "Liquid Changing to a Solid",
+        "relationship": "is the opposite of",
+        "related_concept": "Solid Changing to a Liquid",
+        "description": "The process of a liquid changing to a solid is the reverse process of a solid changing into a liquid"
+    },
+    {
+        "concept": "Gas Changing to a Solid",
+        "relationship": "is distinct from",
+        "related_concept": "Liquid Changing to a Solid",
+        "description": "The process of gas changing to a solid (deposition) occurs without passing through the liquid phase, unlike freezing"
+    },
+    {
+        "concept": "Gas Changing to a Liquid",
+        "relationship": "is the opposite of",
+        "related_concept": "Liquid Changing to a Gas",
+        "description": "The process of gas changing to a liquid (condensation) is opposite to evaporation, where a liquid changes to a gas"
+    }
+]
+
+Model Answer: {
+    "answer": "liquid changing to a solid",
+    "reasoning": "Water freezing is the process where water (a liquid) turns into ice (a solid). This is the definition of 'liquid changing to a solid,' which matches the description and relational context of the concepts discussed."
+}

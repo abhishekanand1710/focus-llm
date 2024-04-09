@@ -1,0 +1,51 @@
+Key: NYSEDREGENTS_2007_4_17
+
+Question: Apple trees can live for many years, but bean plants usually live for only a few months. This statement suggests that
+Options: ['different plants have different life spans', 'plants depend on other plants', 'plants produce many offspring', 'seasonal changes help plants grow']
+Answer: different plants have different life spans
+
+Model Response:
+Concepts: [
+    {
+        "name": "Apple trees",
+        "description": "Perennial plants that can live for many years."
+    },
+    {
+        "name": "Bean plants",
+        "description": "Annual plants that usually live for only a few months."
+    },
+    {
+        "name": "Life span",
+        "description": "The duration of time a living organism exists."
+    },
+    {
+        "name": "Different plants",
+        "description": "Variety of plants with varying characteristics including life span."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Apple trees",
+        "relationship": "have a longer",
+        "related_concept": "Life span",
+        "description": "Apple trees, being perennial, have a longer life span compared to many other plants."
+    },
+    {
+        "concept": "Bean plants",
+        "relationship": "have a shorter",
+        "related_concept": "Life span",
+        "description": "Bean plants live for only a few months, indicating a short life span."
+    },
+    {
+        "concept": "Different plants",
+        "relationship": "exhibit",
+        "related_concept": "Life span",
+        "description": "Different plants exhibit different life spans, as seen in apple trees vs. bean plants."
+    }
+]
+
+Model Answer: {
+    "answer": "different plants have different life spans",
+    "reasoning": "The statement illustrates the concept of varying life spans across different types of plants, as exemplified by the long-lived apple trees and the much shorter-lived bean plants. This showcases the diversity in plant life span, leading to the conclusion that different plants have different life spans."
+}

@@ -1,0 +1,75 @@
+Key: ACTAAP_2010_7_13
+
+Question: Which best describes two organ systems working together to help maintain homeostasis?
+Options: ['The reproductive organs produce sex cells.', 'The nerves carry signals from the eye to the brain.', 'The bones and muscles of the hand work together to grip a pencil.', 'The muscles of the chest tighten to push carbon dioxide out of the lungs.']
+Answer: The muscles of the chest tighten to push carbon dioxide out of the lungs.
+
+Model Response:
+Concepts: [
+    {
+        "name": "homeostasis",
+        "description": "the tendency of the body to maintain a stable, balanced internal environment"
+    },
+    {
+        "name": "organ system",
+        "description": "a group of organs that work together to perform one or more functions"
+    },
+    {
+        "name": "respiratory system",
+        "description": "the network of organs and tissues that help you breathe"
+    },
+    {
+        "name": "muscular system",
+        "description": "the system that allows the body to move using muscles"
+    },
+    {
+        "name": "skeletal system",
+        "description": "the framework of bones and other tissues that supports the body"
+    },
+    {
+        "name": "nervous system",
+        "description": "the network of nerve cells and fibers that transmits nerve impulses between parts of the body"
+    },
+    {
+        "name": "reproductive system",
+        "description": "the system of organs involved with the production of offspring"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "respiratory system",
+        "relationship": "works with",
+        "related_concept": "muscular system",
+        "description": "The muscles of the chest, which are part of the muscular system, tighten to push carbon dioxide out of the lungs, a function of the respiratory system"
+    },
+    {
+        "concept": "muscular system",
+        "relationship": "works with",
+        "related_concept": "skeletal system",
+        "description": "The bones and muscles work together to move parts of the body like the hand"
+    },
+    {
+        "concept": "nervous system",
+        "relationship": "controls",
+        "related_concept": "muscular system",
+        "description": "Nerves carry signals to muscles, controlling their movements"
+    },
+    {
+        "concept": "nervous system",
+        "relationship": "sends signals from",
+        "related_concept": "sensory organs",
+        "description": "The nerves carry signals from organs like the eye to the brain"
+    },
+    {
+        "concept": "reproductive system",
+        "relationship": "produces",
+        "related_concept": "sex cells",
+        "description": "This system's main function is to produce sex cells for reproduction"
+    }
+]
+
+Model Answer: {
+    "answer": "The muscles of the chest tighten to push carbon dioxide out of the lungs.",
+    "reasoning": "This option best illustrates two organ systems \u2013 the muscular system and the respiratory system \u2013 working together to maintain homeostasis. The muscular system's involvement through the chest muscles tightening collaborates with the respiratory system's function of expelling carbon dioxide, a key process in maintaining the body\u2019s internal balance of oxygen and carbon dioxide levels."
+}

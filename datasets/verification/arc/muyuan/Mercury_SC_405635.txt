@@ -1,0 +1,71 @@
+Key: Mercury_SC_405635
+
+Question: A student is measuring the boiling point of a salt and water mixture. He takes one temperature measurement of 105°C. Which is the best way to ensure the results are valid?
+Options: ['repeat the investigation', 'change the volume of water', 'add more salt to the mixture', 'do the investigation without salt']
+Answer: repeat the investigation
+
+Model Response:
+Concepts: [
+    {
+        "name": "Boiling point",
+        "description": "The temperature at which a liquid turns to vapor"
+    },
+    {
+        "name": "Salt",
+        "description": "A mineral composed primarily of sodium chloride (NaCl), a chemical compound"
+    },
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere"
+    },
+    {
+        "name": "Mixture",
+        "description": "A material made up of two or more different substances which are physically combined"
+    },
+    {
+        "name": "Temperature measurement",
+        "description": "The process of obtaining the temperature of a substance"
+    },
+    {
+        "name": "Investigation",
+        "description": "The action of thoroughly examining a subject"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Boiling point",
+        "relationship": "influenced_by",
+        "related_concept": "Salt",
+        "description": "The presence of salt can raise the boiling point of water"
+    },
+    {
+        "concept": "Water",
+        "relationship": "forms_part_of",
+        "related_concept": "Mixture",
+        "description": "Water is a component of the salt and water mixture"
+    },
+    {
+        "concept": "Salt",
+        "relationship": "forms_part_of",
+        "related_concept": "Mixture",
+        "description": "Salt is a component of the salt and water mixture"
+    },
+    {
+        "concept": "Temperature measurement",
+        "relationship": "method_of",
+        "related_concept": "Boiling point",
+        "description": "Temperature measurement is used to determine the boiling point"
+    },
+    {
+        "concept": "Investigation",
+        "relationship": "utilizes",
+        "related_concept": "Temperature measurement",
+        "description": "The investigation uses temperature measurement to gather data"
+    }
+]
+
+Model Answer: {
+    "answer": "repeat the investigation",
+    "reasoning": "To ensure the results are valid, repeating the investigation is crucial. This is because it checks for consistency in the results obtained, thereby reducing the impact of any anomalies or errors in the single measurement. Changing the volume of water, adding more salt to the mixture, or doing the investigation without salt would alter the conditions of the experiment and not directly contribute to the validity of the initial result."
+}

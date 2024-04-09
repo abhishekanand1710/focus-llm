@@ -1,0 +1,65 @@
+Key: Mercury_SC_401644
+
+Question: A baby horse will inherit all of these traits from its parents except
+Options: ['height.', 'weight.', 'coat color.', 'preferred food.']
+Answer: preferred food.
+
+Model Response:
+Concepts: [
+    {
+        "name": "height",
+        "description": "The measurement of how tall an individual is."
+    },
+    {
+        "name": "weight",
+        "description": "The body mass of an individual."
+    },
+    {
+        "name": "coat color",
+        "description": "The coloration of the fur or skin, in this context, of a horse."
+    },
+    {
+        "name": "preferred food",
+        "description": "The type of food an individual shows a preference for consuming."
+    },
+    {
+        "name": "inheritance",
+        "description": "The process by which traits or characteristics are passed from parents to their offspring."
+    },
+    {
+        "name": "baby horse",
+        "description": "A young horse, also known as a foal."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "baby horse",
+        "relationship": "inherits",
+        "related_concept": "height",
+        "description": "A baby horse inherits its height from its parents."
+    },
+    {
+        "concept": "baby horse",
+        "relationship": "inherits",
+        "related_concept": "weight",
+        "description": "A baby horse inherits its weight from its parents, although it can change over time due to environmental factors."
+    },
+    {
+        "concept": "baby horse",
+        "relationship": "inherits",
+        "related_concept": "coat color",
+        "description": "A baby horse inherits its coat color from its parents through genetics."
+    },
+    {
+        "concept": "preferred food",
+        "relationship": "not inherited trait",
+        "related_concept": "baby horse",
+        "description": "Preferred food is not a genetically inherited trait but can be influenced by the environment and experience."
+    }
+]
+
+Model Answer: {
+    "answer": "preferred food.",
+    "reasoning": "The traits such as height, weight, and coat color are genetically inherited from the parents to their offspring, thus a baby horse would inherit these from its parents. Preferred food, however, is not a trait that is passed down genetically, but rather, is influenced by the horse's experiences and environment. Therefore, a baby horse does not inherit its preferred food from its parents."
+}

@@ -1,0 +1,57 @@
+Key: NCEOGA_2013_5_60
+
+Question: Which trait do children most likely inherit from their parents?
+Options: ['shape of earlobes', 'musical ability', 'personality', 'language']
+Answer: shape of earlobes
+
+Model Response:
+Concepts: [
+    {
+        "name": "shape of earlobes",
+        "description": "A physical characteristic that can be either attached or detached, influenced by genetics."
+    },
+    {
+        "name": "musical ability",
+        "description": "A skill or talent in music, which can be influenced by both genetic and environmental factors."
+    },
+    {
+        "name": "personality",
+        "description": "A person's characteristic way of thinking, feeling, and behaving, influenced by both genetic and environmental factors."
+    },
+    {
+        "name": "language",
+        "description": "A system of communication used by a particular country or community, learned through social interaction."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "shape of earlobes",
+        "relationship": "influenced_by",
+        "related_concept": "genetics",
+        "description": "The shape of earlobes is primarily determined by genetic inheritance from parents."
+    },
+    {
+        "concept": "musical ability",
+        "relationship": "influenced_by",
+        "related_concept": "genetics and environment",
+        "description": "Musical ability is affected by genetic predispositions and environmental exposure and education."
+    },
+    {
+        "concept": "personality",
+        "relationship": "influenced_by",
+        "related_concept": "genetics and environment",
+        "description": "Personality is shaped by genetic factors as well as life experiences and environmental context."
+    },
+    {
+        "concept": "language",
+        "relationship": "learned_from",
+        "related_concept": "environment",
+        "description": "Language is acquired through social interactions rather than inherited genetically."
+    }
+]
+
+Model Answer: {
+    "answer": "shape of earlobes",
+    "reasoning": "Among the options provided, the shape of earlobes is the trait most directly and purely inherited from parents via genetics, with minimal influence from environmental factors. While traits like musical ability and personality have genetic components, they are significantly influenced by the environment. Language is predominantly learned through social interaction and is not genetically inherited."
+}

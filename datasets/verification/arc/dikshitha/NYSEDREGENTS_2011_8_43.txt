@@ -1,0 +1,47 @@
+Key: NYSEDREGENTS_2011_8_43
+
+Question: A student pushes against a tree with a force of 10 newtons (N). The tree does not move. What is the amount of force exerted by the tree on the student?
+Options: ['0 N', '5 N', '10 N', '20 N']
+Answer: 10 N
+
+Model Response:
+Concepts: [
+    {
+        "name": "Newton's Third Law of Motion",
+        "description": "For every action, there is an equal and opposite reaction."
+    },
+    {
+        "name": "Force",
+        "description": "An interaction that, when unopposed, changes the motion of an object."
+    },
+    {
+        "name": "Static Equilibrium",
+        "description": "A state where an object is at rest and the sum of the forces acting on it is zero."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Force",
+        "relationship": "required_by",
+        "related_concept": "Newton's Third Law of Motion",
+        "description": "The concept of force is necessary to explain the action and reaction pairs in Newton's Third Law."
+    },
+    {
+        "concept": "Newton's Third Law of Motion",
+        "relationship": "explains",
+        "related_concept": "Static Equilibrium",
+        "description": "Newton's Third Law helps explain the forces at play in static equilibrium, where action and reaction forces are balanced."
+    },
+    {
+        "concept": "Static Equilibrium",
+        "relationship": "results_from",
+        "related_concept": "Force",
+        "description": "Static equilibrium is achieved when the sum of all forces (action and reaction) on an object is zero."
+    }
+]
+
+Model Answer: {
+    "answer": "10 N",
+    "reasoning": "According to Newton's Third Law of Motion, for every action, there is an equal and opposite reaction. This means that if the student exerts a force of 10 N against the tree, the tree exerts an equal and opposite force of 10 N against the student. The concept of static equilibrium supports this as well, indicating that the forces are balanced since the tree does not move. Therefore, the force exerted by the tree on the student is 10 N."
+}

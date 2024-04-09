@@ -1,0 +1,51 @@
+Key: NYSEDREGENTS_2004_4_9
+
+Question: Which characteristic can a human offspring inherit?
+Options: ['facial scar', 'blue eyes', 'long hair', 'broken leg']
+Answer: blue eyes
+
+Model Response:
+Concepts: [
+    {
+        "name": "facial scar",
+        "description": "A mark left on the skin or within body tissue where a wound, burn, or sore has not healed completely and fibrous connective tissue has developed."
+    },
+    {
+        "name": "blue eyes",
+        "description": "A genetically inherited eye color involving a specific allele combination that results in less melanin in the iris."
+    },
+    {
+        "name": "long hair",
+        "description": "A physical characteristic determining the length of hair on an individual, which can vary over time and is influenced by environmental and grooming factors."
+    },
+    {
+        "name": "broken leg",
+        "description": "A fracture in one or more of the bones in the leg, considered a physical injury rather than a genetic characteristic."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "blue eyes",
+        "relationship": "is inheritable",
+        "related_concept": "facial scar",
+        "description": "Blue eyes are determined by genetics and can be inherited, unlike facial scars which are caused by environmental factors and not inherited."
+    },
+    {
+        "concept": "blue eyes",
+        "relationship": "is inheritable",
+        "related_concept": "long hair",
+        "description": "While hair color can be influenced by genetics, the length of hair (long hair) is not directly inherited but can change due to environmental and grooming practices."
+    },
+    {
+        "concept": "blue eyes",
+        "relationship": "is inheritable",
+        "related_concept": "broken leg",
+        "description": "Blue eyes are a genetic trait that can be passed from parents to offspring, unlike a broken leg which is an accidental injury and not hereditary."
+    }
+]
+
+Model Answer: {
+    "answer": "blue eyes",
+    "reasoning": "Of the options presented, only 'blue eyes' is a characteristic that can be inherited from parents to their offspring. This is because eye color is determined by genetics, involving specific alleles that dictate melanin distribution in the iris, making it an inheritable trait. Other options like facial scar, long hair, and a broken leg are influenced by environmental factors, personal circumstances, and grooming practices, and thus cannot be inherited."
+}

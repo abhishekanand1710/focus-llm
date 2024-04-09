@@ -1,0 +1,61 @@
+Key: LEAP__7_10343
+
+Question: Researchers recently discovered a gene in humans that previously was unknown to science. Which statement best explains why the gene probably was not discovered much sooner?
+Options: ['The gene only recently evolved in humans.', 'The technology used to study genes is still being developed.', 'Scientists were not interested in genes until a few years ago.', 'Scientists were sure they had already discovered every possible gene.']
+Answer: The technology used to study genes is still being developed.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Gene discovery",
+        "description": "The process of identifying and understanding the function of genes in organisms."
+    },
+    {
+        "name": "Human evolution",
+        "description": "The lengthy process of change by which people originated from apelike ancestors."
+    },
+    {
+        "name": "Genetic technology",
+        "description": "Technologies used to study and manipulate genetic material."
+    },
+    {
+        "name": "Scientific interest",
+        "description": "The focus or attention of scientists on particular areas of research."
+    },
+    {
+        "name": "Comprehensive gene discovery",
+        "description": "The belief or assumption that all possible genes in an organism have been discovered."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Genetic technology",
+        "relationship": "enables",
+        "related_concept": "Gene discovery",
+        "description": "Advancements in genetic technology enable the discovery of new genes."
+    },
+    {
+        "concept": "Human evolution",
+        "relationship": "not relevant to immediate discovery",
+        "related_concept": "Gene discovery",
+        "description": "Human evolution is a slow process, making it unlikely for new genes to have evolved only recently."
+    },
+    {
+        "concept": "Scientific interest",
+        "relationship": "drives",
+        "related_concept": "Gene discovery",
+        "description": "Areas of scientific interest drive research focus, but genes have been a focus for longer than a few years."
+    },
+    {
+        "concept": "Comprehensive gene discovery",
+        "relationship": "misconception",
+        "related_concept": "Gene discovery",
+        "description": "Believing all genes have been discovered may hinder the search for new ones, but this is rarely a fixed stance in science."
+    }
+]
+
+Model Answer: {
+    "answer": "The technology used to study genes is still being developed.",
+    "reasoning": "The discovery of a previously unknown gene in humans can most logically be attributed to advancements in genetic technology. This field is continuously evolving, offering new methodologies and tools for deeper exploration of the human genome. Unlike the options suggesting human evolution or lack of scientific interest, which are either improbable or incorrect considering the long-standing and intense focus on genetics, or the belief that all genes have been discovered, which does not reflect the ever-expanding understanding in the field, the development of genetic technology provides a practical explanation for why the gene was not discovered sooner."
+}

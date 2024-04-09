@@ -1,0 +1,61 @@
+Key: CSZ30494
+
+Question: Which of the following represents the velocity of a moving object?
+Options: ['40', '40 m north', '40 m/s', '40 m/s north']
+Answer: 40 m/s north
+
+Model Response:
+Concepts: [
+    {
+        "name": "velocity",
+        "description": "A physical vector quantity that represents the rate of change of position with respect to time, including direction."
+    },
+    {
+        "name": "speed",
+        "description": "A scalar quantity that represents the rate of change of position with respect to time, without direction."
+    },
+    {
+        "name": "direction",
+        "description": "The line or path along which something is moving, pointing, or aiming."
+    },
+    {
+        "name": "unit of speed",
+        "description": "Measured in meters per second (m/s) indicating the distance covered in one second."
+    },
+    {
+        "name": "unit of direction",
+        "description": "Typically described using cardinal points like North, South, East, and West."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "velocity",
+        "relationship": "consists_of",
+        "related_concept": "speed",
+        "description": "Velocity includes both speed (magnitude of velocity) and a direction."
+    },
+    {
+        "concept": "velocity",
+        "relationship": "consists_of",
+        "related_concept": "direction",
+        "description": "Velocity is defined with not just how fast an object moves, but also in which direction it moves."
+    },
+    {
+        "concept": "speed",
+        "relationship": "measured_in",
+        "related_concept": "unit of speed",
+        "description": "Speed is quantified using units of distance over time, typically m/s."
+    },
+    {
+        "concept": "direction",
+        "relationship": "described_by",
+        "related_concept": "unit of direction",
+        "description": "Direction is often represented using cardinal directions such as North, South, etc."
+    }
+]
+
+Model Answer: {
+    "answer": "40 m/s north",
+    "reasoning": "The correct representation of the velocity of a moving object must include both a magnitude (speed) and a direction, as velocity is a vector quantity. '40 m/s north' provides both the speed ('40 m/s') and the direction ('north'), aligning with the definition of velocity, where speed is quantified in meters per second and direction indicated by a cardinal point."
+}

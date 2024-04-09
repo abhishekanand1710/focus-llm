@@ -1,0 +1,61 @@
+Key: AKDE&ED_2012_4_17
+
+Question: After observing several dogs running, students ask the following question: Do dogs with long hair run faster than dogs with short hair? How can the students best answer their question?
+Options: ['record the weights and heights of many dogs', 'measure the speeds and hair lengths of many dogs', 'research to find the type of dog with the longest hair', 'race one long-haired dog against one short-haired dog']
+Answer: measure the speeds and hair lengths of many dogs
+
+Model Response:
+Concepts: [
+    {
+        "name": "Dog's running speed",
+        "description": "The velocity at which a dog can move"
+    },
+    {
+        "name": "Dog's hair length",
+        "description": "The length of a dog's fur, which may vary greatly between breeds"
+    },
+    {
+        "name": "Measurement of speed",
+        "description": "The process of determining the distance covered over time"
+    },
+    {
+        "name": "Measurement of hair length",
+        "description": "Determining the length of the hair from root to tip"
+    },
+    {
+        "name": "Diverse dog breeds",
+        "description": "Different kinds of dog breeds that might have varying hair lengths and running speeds"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dog's running speed",
+        "relationship": "influenced by",
+        "related_concept": "Diverse dog breeds",
+        "description": "Different dog breeds may have different physical adaptations affecting their speed"
+    },
+    {
+        "concept": "Dog's hair length",
+        "relationship": "characteristic of",
+        "related_concept": "Diverse dog breeds",
+        "description": "Hair length is a physical characteristic that varies among dog breeds"
+    },
+    {
+        "concept": "Measurement of speed",
+        "relationship": "used to determine",
+        "related_concept": "Dog's running speed",
+        "description": "Speed measurement is necessary to know how fast a dog can run"
+    },
+    {
+        "concept": "Measurement of hair length",
+        "relationship": "used to determine",
+        "related_concept": "Dog's hair length",
+        "description": "Hair length measurement provides the exact length of a dog's hair"
+    }
+]
+
+Model Answer: {
+    "answer": "measure the speeds and hair lengths of many dogs",
+    "reasoning": "To accurately answer the question regarding the correlation between a dog's hair length and running speed, it's essential to have specific data on both variables across a variety of dogs. By measuring both the speeds and hair lengths of many dogs, students can analyze the data for any patterns or relationships between these two factors, allowing for a more accurate and comprehensive conclusion."
+}

@@ -1,0 +1,69 @@
+Key: Mercury_7216843
+
+Question: Water enters a cell and waste material leaves a cell through the cell membrane. Based on this information, the cell membrane is
+Options: ['semi-permeable.', 'transparent.', 'rigid.', 'impermeable.']
+Answer: semi-permeable.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cell membrane",
+        "description": "A biological membrane that separates the interior of all cells from the outside environment."
+    },
+    {
+        "name": "Semi-permeable",
+        "description": "A membrane allowing certain substances to pass through it but not others."
+    },
+    {
+        "name": "Water",
+        "description": "A molecule (H2O) essential for all known forms of life."
+    },
+    {
+        "name": "Waste material",
+        "description": "Substances expelled from living organisms that are no longer needed or toxic."
+    },
+    {
+        "name": "Transparent",
+        "description": "Allowing light to pass through so that objects behind can be distinctly seen."
+    },
+    {
+        "name": "Rigid",
+        "description": "Unable to bend or be forced out of shape."
+    },
+    {
+        "name": "Impermeable",
+        "description": "Not allowing fluid to pass through."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cell membrane",
+        "relationship": "characterized_by",
+        "related_concept": "Semi-permeable",
+        "description": "The cell membrane is characterized by its semi-permeable nature, allowing selective substances to pass."
+    },
+    {
+        "concept": "Water",
+        "relationship": "passes_through",
+        "related_concept": "Cell membrane",
+        "description": "Water enters a cell through the semi-permeable cell membrane."
+    },
+    {
+        "concept": "Waste material",
+        "relationship": "exits_through",
+        "related_concept": "Cell membrane",
+        "description": "Waste material leaves a cell through the cell membrane."
+    },
+    {
+        "concept": "Semi-permeable",
+        "relationship": "enables",
+        "related_concept": "Selective transport",
+        "description": "Being semi-permeable enables the cell membrane to allow selective substances to pass through it."
+    }
+]
+
+Model Answer: {
+    "answer": "semi-permeable.",
+    "reasoning": "The ability for water to enter a cell and for waste material to exit a cell through the cell membrane indicates the membrane's selective permeability. Among the options, only 'semi-permeable' accurately describes a membrane that allows certain substances to pass while blocking others, matching the functionality of the cell membrane as described."
+}

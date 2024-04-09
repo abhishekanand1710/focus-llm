@@ -1,0 +1,61 @@
+Key: Mercury_192745
+
+Question: Which of the following is a renewable resource?
+Options: ['coal', 'minerals', 'petroleum', 'sunlight']
+Answer: sunlight
+
+Model Response:
+Concepts: [
+    {
+        "name": "renewable resource",
+        "description": "A resource which can be used repeatedly because it is replaced naturally and can be replenished over time."
+    },
+    {
+        "name": "coal",
+        "description": "A combustible black or brownish-black sedimentary rock used as a fossil fuel."
+    },
+    {
+        "name": "minerals",
+        "description": "A solid, naturally occurring inorganic substance."
+    },
+    {
+        "name": "petroleum",
+        "description": "A liquid mixture of hydrocarbons that is present in certain rock strata and can be extracted and refined to produce fuels."
+    },
+    {
+        "name": "sunlight",
+        "description": "The light and energy that comes from the Sun."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "coal",
+        "relationship": "is not",
+        "related_concept": "renewable resource",
+        "description": "Coal is a fossil fuel that cannot be replenished on a human time scale."
+    },
+    {
+        "concept": "minerals",
+        "relationship": "are not",
+        "related_concept": "renewable resource",
+        "description": "Minerals, once mined, cannot be replaced on a human time scale."
+    },
+    {
+        "concept": "petroleum",
+        "relationship": "is not",
+        "related_concept": "renewable resource",
+        "description": "Petroleum is a fossil fuel that cannot be replenished on a human time scale."
+    },
+    {
+        "concept": "sunlight",
+        "relationship": "is",
+        "related_concept": "renewable resource",
+        "description": "Sunlight is replenished naturally and can be used repeatedly, making it a renewable resource."
+    }
+]
+
+Model Answer: {
+    "answer": "sunlight",
+    "reasoning": "Sunlight is identified as a renewable resource because it is naturally replenished and can be used repeatedly over time, making it sustainable and inexhaustible on a human time scale, unlike coal, minerals, and petroleum which are not renewed in a human lifespan."
+}

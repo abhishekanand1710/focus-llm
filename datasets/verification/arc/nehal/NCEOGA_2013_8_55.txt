@@ -1,0 +1,85 @@
+Key: NCEOGA_2013_8_55
+
+Question: In a food pyramid, which best explains why the number of organisms decreases from one trophic level to the next?
+Options: ['Consumers at the lower level require more energy than the top-level consumers.', 'Consumers at the top level require more energy than the lower-level consumers.', 'The consumers are feeding on larger organisms that have less energy.', 'The consumers are feeding on smaller organisms that have less energy.']
+Answer: Consumers at the top level require more energy than the lower-level consumers.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Food Pyramid",
+        "description": "A graphical representation showing the number of organisms at each trophic level in an ecosystem."
+    },
+    {
+        "name": "Trophic Level",
+        "description": "A level or position in a food chain or ecological pyramid occupied by a group of organisms with similar feeding mode."
+    },
+    {
+        "name": "Energy Transfer",
+        "description": "The movement of energy from one organism to another through the food chain."
+    },
+    {
+        "name": "Energy Loss",
+        "description": "The reduction in energy as it moves from one trophic level to the next, primarily due to the laws of thermodynamics."
+    },
+    {
+        "name": "Consumers",
+        "description": "Organisms that eat other organisms for energy."
+    },
+    {
+        "name": "Top-Level Consumers",
+        "description": "Predators at the top of the food chain that have no natural predators."
+    },
+    {
+        "name": "Lower-Level Consumers",
+        "description": "Organisms that consume producers or other consumers but are also prey for higher trophic levels."
+    },
+    {
+        "name": "Producers",
+        "description": "Organisms, like plants, that produce their own energy through photosynthesis."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Food Pyramid",
+        "relationship": "illustrates",
+        "related_concept": "Trophic Level",
+        "description": "The Food Pyramid illustrates the different Trophic Levels."
+    },
+    {
+        "concept": "Trophic Level",
+        "relationship": "comprised of",
+        "related_concept": "Consumers",
+        "description": "Each Trophic Level is comprised of different Consumers."
+    },
+    {
+        "concept": "Energy Transfer",
+        "relationship": "occurs between",
+        "related_concept": "Trophic Level",
+        "description": "Energy Transfer occurs between different Trophic Levels."
+    },
+    {
+        "concept": "Energy Loss",
+        "relationship": "results in",
+        "related_concept": "decrease in organisms",
+        "description": "Energy Loss results in a decrease in the number of organisms from one Trophic Level to the next."
+    },
+    {
+        "concept": "Consumers",
+        "relationship": "feed on",
+        "related_concept": "Producers",
+        "description": "Lower-Level Consumers feed on Producers."
+    },
+    {
+        "concept": "Top-Level Consumers",
+        "relationship": "predate on",
+        "related_concept": "Lower-Level Consumers",
+        "description": "Top-Level Consumers predate on Lower-Level Consumers."
+    }
+]
+
+Model Answer: {
+    "answer": "Consumers at the top level require more energy than the lower-level consumers.",
+    "reasoning": "As energy is transferred from one trophic level to the next, a significant amount of energy is lost primarily due to the second law of thermodynamics which states that energy conversions are not 100% efficient. At each step, only about 10% of the energy is transferred to the next level, while the rest is lost as heat. This leads to fewer organisms being supported at higher trophic levels since more energy is required by top-level consumers to sustain themselves. Thus, the correct answer is that consumers at the top level require more energy than those at lower levels, explaining the decrease in the number of organisms from one trophic level to the next."
+}

@@ -1,0 +1,71 @@
+Key: Mercury_SC_405514
+
+Question: A student plans to design a new toothpaste tube that will give the same amount of toothpaste every time it is squeezed. Which should the student do first when designing the new tube?
+Options: ['make a data table of amounts of toothpaste', 'gather building materials', 'create models of old toothpaste tubes', 'draw a few possible solutions']
+Answer: draw a few possible solutions
+
+Model Response:
+Concepts: [
+    {
+        "name": "Design Process",
+        "description": "A series of steps taken to develop a new product or system."
+    },
+    {
+        "name": "Data Table",
+        "description": "A way to organize data in columns and rows for easy reference and analysis."
+    },
+    {
+        "name": "Building Materials",
+        "description": "The raw components needed to physically create a product."
+    },
+    {
+        "name": "Models",
+        "description": "Physical or conceptual representations of a design used for testing and exploration of ideas."
+    },
+    {
+        "name": "Drawing",
+        "description": "A graphical representation of an idea or design."
+    },
+    {
+        "name": "Solution",
+        "description": "A means of solving a problem or dealing with a difficult situation."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Design Process",
+        "relationship": "involves",
+        "related_concept": "Data Table",
+        "description": "The design process can involve creating data tables to understand and analyze requirements or effects."
+    },
+    {
+        "concept": "Design Process",
+        "relationship": "uses",
+        "related_concept": "Building Materials",
+        "description": "Materials are utilized in the design process to build prototypes or the final product."
+    },
+    {
+        "concept": "Design Process",
+        "relationship": "employs",
+        "related_concept": "Models",
+        "description": "Models are employed for experimenting with designs during the design process."
+    },
+    {
+        "concept": "Design Process",
+        "relationship": "begins with",
+        "related_concept": "Drawing",
+        "description": "Drawing is often a starting point to visualize ideas in the design process."
+    },
+    {
+        "concept": "Drawing",
+        "relationship": "visualizes",
+        "related_concept": "Solution",
+        "description": "Drawing helps in visualizing possible solutions for the design challenge."
+    }
+]
+
+Model Answer: {
+    "answer": "draw a few possible solutions",
+    "reasoning": "The initial step in designing a new product, such as a toothpaste tube that dispenses a consistent amount, typically involves brainstorming and visualizing ideas. Drawing a few possible solutions allows the student to conceptualize different approaches and mechanisms that could enable the toothpaste tube to function as desired. This step comes before detailed data collection, gathering materials, or creating models, as it helps to define the direction and scope of the project in a tangible form. It leverages the relationship of 'Drawing' as a starting point in the 'Design Process' to visualize 'Solutions', enabling the definition and refinement of the product's concept before moving into more detailed planning and development."
+}

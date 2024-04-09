@@ -1,0 +1,67 @@
+Key: Mercury_7008050
+
+Question: Which is an example of organic weathering of rocks?
+Options: ['glaciers moving large pieces of a fractured rock', 'tree roots growing in a fractured rock', 'ice freezing on a rock surface', 'wind blowing sand against a rock surface']
+Answer: tree roots growing in a fractured rock
+
+Model Response:
+Concepts: [
+    {
+        "name": "Organic weathering",
+        "description": "The breakdown of rocks and minerals by biological activity, especially by plants and animals."
+    },
+    {
+        "name": "Glaciers moving large pieces of fractured rock",
+        "description": "A physical weathering process where glaciers cause rocks to break and move."
+    },
+    {
+        "name": "Tree roots growing in a fractured rock",
+        "description": "An organic weathering process where roots expand and exert pressure on rock fractures."
+    },
+    {
+        "name": "Ice freezing on a rock surface",
+        "description": "A form of physical weathering known as frost wedging."
+    },
+    {
+        "name": "Wind blowing sand against a rock surface",
+        "description": "A form of physical weathering known as abrasion."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Glaciers moving large pieces of fractured rock",
+        "relationship": "is a type of",
+        "related_concept": "Physical weathering",
+        "description": "Glaciers contribute to physical weathering by moving and breaking rocks."
+    },
+    {
+        "concept": "Tree roots growing in a fractured rock",
+        "relationship": "is a type of",
+        "related_concept": "Organic weathering",
+        "description": "Tree roots growing in rocks contribute to organic weathering by expanding fractures."
+    },
+    {
+        "concept": "Ice freezing on a rock surface",
+        "relationship": "is a type of",
+        "related_concept": "Physical weathering",
+        "description": "Water freezing in rock surfaces causes frost wedging, a physical weathering process."
+    },
+    {
+        "concept": "Wind blowing sand against a rock surface",
+        "relationship": "is a type of",
+        "related_concept": "Physical weathering",
+        "description": "Sand blown by wind contributes to physical weathering through abrasion."
+    },
+    {
+        "concept": "Organic weathering",
+        "relationship": "is caused by",
+        "related_concept": "Tree roots growing in a fractured rock",
+        "description": "Organic weathering can be caused by biological factors such as tree root growth."
+    }
+]
+
+Model Answer: {
+    "answer": "tree roots growing in a fractured rock",
+    "reasoning": "Among the provided options, 'tree roots growing in a fractured rock' is the only example of organic weathering. This process involves biological activities, specifically the growth of tree roots into rock fractures, which gradually breaks down the rock. The other options describe physical weathering processes (movement by glaciers, ice freezing, and wind blowing sand), which do not involve biological activity."
+}

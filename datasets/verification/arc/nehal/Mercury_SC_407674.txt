@@ -1,0 +1,59 @@
+Key: Mercury_SC_407674
+
+Question: Which diagram best shows how energy flows through a simple food chain?
+Options: ['Leaves -> Caterpillar -> Bird', 'Tree -> Bird -> Caterpillar', 'Leaves -> Tree -> Caterpillar', 'Caterpillar -> Leaves -> Bird']
+Answer: Leaves -> Caterpillar -> Bird
+
+Model Response:
+Concepts: [
+    {
+        "name": "Energy Flow",
+        "description": "The movement of energy through trophic levels in an ecosystem."
+    },
+    {
+        "name": "Food Chain",
+        "description": "A linear sequence of organisms through which nutrients and energy pass as one organism eats another."
+    },
+    {
+        "name": "Leaves",
+        "description": "The part of the plant where photosynthesis generally occurs, producing energy."
+    },
+    {
+        "name": "Caterpillar",
+        "description": "A larval stage of a butterfly or moth that typically feeds on leaves."
+    },
+    {
+        "name": "Bird",
+        "description": "A warm-blooded vertebrate characterized by feathers, beaks, and typically flying capabilities, often consuming insects or seeds."
+    },
+    {
+        "name": "Tree",
+        "description": "A perennial plant with an elongated stem, or trunk, supporting branches and leaves."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Leaves",
+        "relationship": "consumed_by",
+        "related_concept": "Caterpillar",
+        "description": "Caterpillars eat leaves to gain energy."
+    },
+    {
+        "concept": "Caterpillar",
+        "relationship": "consumed_by",
+        "related_concept": "Bird",
+        "description": "Birds eat caterpillars as a source of energy."
+    },
+    {
+        "concept": "Tree",
+        "relationship": "produces",
+        "related_concept": "Leaves",
+        "description": "Trees produce leaves which are capable of photosynthesis."
+    }
+]
+
+Model Answer: {
+    "answer": "Leaves -> Caterpillar -> Bird",
+    "reasoning": "This option correctly represents the flow of energy in a simple food chain. Energy is produced in leaves through photosynthesis. Caterpillars consume the leaves and transform the stored energy into biomass, which in turn is consumed by birds. The sequence 'Leaves -> Caterpillar -> Bird' illustrates a linear and realistic flow of energy from producers (leaves) to primary consumers (caterpillar) and then to secondary consumers (bird). Other options inaccurately depict the relationship between trees, leaves, and caterpillars or place the organisms in an incorrect order for a simple food chain."
+}

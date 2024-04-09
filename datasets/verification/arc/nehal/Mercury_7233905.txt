@@ -1,0 +1,71 @@
+Key: Mercury_7233905
+
+Question: In the carbon cycle, carbon moves from reservoir to reservoir as various organic and inorganic processes occur on Earth. Only a small percentage of the global carbon is moved in this cycle each year. The remaining carbon is stored in these reservoirs. Which reservoir contains the greatest amount of stored carbon?
+Options: ['plant biomass', 'the atmosphere', 'fossil fuels', 'the deep ocean']
+Answer: the deep ocean
+
+Model Response:
+Concepts: [
+    {
+        "name": "carbon cycle",
+        "description": "the process by which carbon moves between the Earth's oceans, atmosphere, land, and biosphere"
+    },
+    {
+        "name": "reservoir",
+        "description": "a storage location for carbon, such as the atmosphere, oceans, and living organisms"
+    },
+    {
+        "name": "plant biomass",
+        "description": "the total mass of all plant life in a particular area"
+    },
+    {
+        "name": "the atmosphere",
+        "description": "the layer of gases surrounding Earth, one of the primary reservoirs of carbon, mainly in the form of CO2"
+    },
+    {
+        "name": "fossil fuels",
+        "description": "carbon-rich energy sources formed from the remains of ancient plants and animals, such as coal, oil, and natural gas"
+    },
+    {
+        "name": "the deep ocean",
+        "description": "the largest carbon reservoir on Earth, where carbon is stored in the form of dissolved inorganic carbon"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "carbon cycle",
+        "relationship": "involves movement of carbon between",
+        "related_concept": "reservoir",
+        "description": "Carbon moves from one storage location to another through the Earth's carbon cycle"
+    },
+    {
+        "concept": "plant biomass",
+        "relationship": "is a type of",
+        "related_concept": "reservoir",
+        "description": "Plant biomass is a carbon reservoir where carbon is stored in the form of organic matter"
+    },
+    {
+        "concept": "the atmosphere",
+        "relationship": "is a type of",
+        "related_concept": "reservoir",
+        "description": "The atmosphere is a carbon reservoir containing gases such as CO2"
+    },
+    {
+        "concept": "fossil fuels",
+        "relationship": "is a type of",
+        "related_concept": "reservoir",
+        "description": "Fossil fuels are a carbon reservoir consisting of ancient biotic material"
+    },
+    {
+        "concept": "the deep ocean",
+        "relationship": "is a type of",
+        "related_concept": "reservoir",
+        "description": "The deep ocean is the largest carbon reservoir, storing dissolved inorganic carbon"
+    }
+]
+
+Model Answer: {
+    "answer": "the deep ocean",
+    "reasoning": "Among the options provided, the deep ocean contains the greatest amount of stored carbon. It acts as the largest reservoir in the carbon cycle, storing carbon in the form of dissolved inorganic carbon. The deep ocean surpasses other reservoirs like the atmosphere, plant biomass, and fossil fuels in terms of the volume of carbon stored."
+}

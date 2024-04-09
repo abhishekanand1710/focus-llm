@@ -1,0 +1,57 @@
+Key: Mercury_401376
+
+Question: Which of these is not an example of a physical change of state?
+Options: ['boiling', 'stirring', 'freezing', 'evaporating']
+Answer: stirring
+
+Model Response:
+Concepts: [
+    {
+        "name": "boiling",
+        "description": "The process of a liquid turning into vapor when heated to its boiling point."
+    },
+    {
+        "name": "stirring",
+        "description": "The act of moving a liquid or substance around in a circular motion with an object or tool."
+    },
+    {
+        "name": "freezing",
+        "description": "The process of a liquid turning into a solid when its temperature is lowered below its freezing point."
+    },
+    {
+        "name": "evaporating",
+        "description": "The process of a liquid turning into vapor at temperatures below its boiling point."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "boiling",
+        "relationship": "is a type of",
+        "related_concept": "physical change of state",
+        "description": "Boiling is a type of physical change where a substance changes from liquid to gas phase."
+    },
+    {
+        "concept": "freezing",
+        "relationship": "is a type of",
+        "related_concept": "physical change of state",
+        "description": "Freezing is a physical change where a substance changes from liquid to solid phase."
+    },
+    {
+        "concept": "evaporating",
+        "relationship": "is a type of",
+        "related_concept": "physical change of state",
+        "description": "Evaporating is a physical change where a substance changes from liquid to gas at temperatures below boiling."
+    },
+    {
+        "concept": "stirring",
+        "relationship": "is not a type of",
+        "related_concept": "physical change of state",
+        "description": "Stirring is not a change in state; it is merely a physical action that does not alter the substance's state."
+    }
+]
+
+Model Answer: {
+    "answer": "stirring",
+    "reasoning": "Stirring is the only option that is not an example of a physical change of state. Boiling, freezing, and evaporating are all processes where a substance changes from one state of matter to another (liquid to gas, liquid to solid, and liquid to gas, respectively), which are considered physical changes of state. Whereas stirring is simply an action that involves moving a substance around without changing its state."
+}

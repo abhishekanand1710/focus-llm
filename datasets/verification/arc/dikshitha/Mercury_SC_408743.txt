@@ -1,0 +1,71 @@
+Key: Mercury_SC_408743
+
+Question: Jeremiah noticed a plant had many missing leaves and large holes in other leaves. Why do missing leaves hurt the plant?
+Options: ['The plant makes less food.', 'The plant takes in less water.', 'The plant attracts fewer insects.', 'The plant does not have support.']
+Answer: The plant makes less food.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Photosynthesis",
+        "description": "The process by which green plants use sunlight to synthesize nutrients from carbon dioxide and water."
+    },
+    {
+        "name": "Leaves",
+        "description": "The primary sites of photosynthesis in most plants."
+    },
+    {
+        "name": "Food Production in Plants",
+        "description": "The creation of glucose and oxygen by plants, predominantly through the process of photosynthesis."
+    },
+    {
+        "name": "Water Intake in Plants",
+        "description": "The absorption of water through plant roots to support various cellular functions, including photosynthesis."
+    },
+    {
+        "name": "Plant Insect Interaction",
+        "description": "The various ways plants and insects interact, including pollination and the eating of leaves by insects."
+    },
+    {
+        "name": "Structural Support in Plants",
+        "description": "The physical support provided to plants by their stems, enabling them to stand upright and grow towards light."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Leaves",
+        "relationship": "are sites of",
+        "related_concept": "Photosynthesis",
+        "description": "Leaves are where photosynthesis predominantly occurs in plants."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "results in",
+        "related_concept": "Food Production in Plants",
+        "description": "Photosynthesis is the process that results in the production of glucose and oxygen, providing necessary food for the plant."
+    },
+    {
+        "concept": "Leaves",
+        "relationship": "contribute to",
+        "related_concept": "Water Intake in Plants",
+        "description": "Through transpiration, leaves play a part in the plant's intake of water."
+    },
+    {
+        "concept": "Leaves",
+        "relationship": "attract",
+        "related_concept": "Plant Insect Interaction",
+        "description": "Leaves can either attract insects for pollination or be eaten by insects."
+    },
+    {
+        "concept": "Leaves",
+        "relationship": "provide",
+        "related_concept": "Structural Support in Plants",
+        "description": "Though not the primary source, leaves contribute to the overall structure and weight distribution in plants."
+    }
+]
+
+Model Answer: {
+    "answer": "The plant makes less food.",
+    "reasoning": "With many missing leaves and large holes in other leaves, the plant's capability for photosynthesis is significantly reduced. Since leaves are the primary sites for photosynthesis, their absence means the plant cannot efficiently synthesize nutrients from carbon dioxide and water. This leads to reduced food production, hindering the plant's growth and survival. The other options, although relevant in general plant physiology, do not directly address the primary consequence of missing leaves which is the reduced capability for photosynthesis and thus less food production."
+}

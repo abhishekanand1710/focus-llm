@@ -1,0 +1,59 @@
+Key: ACTAAP_2010_7_7
+
+Question: Which is the best evidence that cell division is occurring constantly in our bodies?
+Options: ['The body has to keep breathing around the clock.', 'Active people often require more food than inactive ones.', 'There are many different types of tissues in the human body.', 'Human beings shed millions of']
+Answer: Human beings shed millions of
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cell Division",
+        "description": "The process by which a parent cell divides into two or more daughter cells."
+    },
+    {
+        "name": "Breathing",
+        "description": "The process of inhaling oxygen and exhaling carbon dioxide from the blood."
+    },
+    {
+        "name": "Food Intake",
+        "description": "The consumption of food substances by organisms to acquire energy and nutrients for cellular processes."
+    },
+    {
+        "name": "Tissue Diversity",
+        "description": "The presence of different types of tissues within the human body, each serving a specific function."
+    },
+    {
+        "name": "Shedding of Skin Cells",
+        "description": "The process of losing dead skin cells from the surface of the body."
+    },
+    {
+        "name": "Activity Levels",
+        "description": "The range of physical exertion, from inactive to highly active, influencing the body's energy needs."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cell Division",
+        "relationship": "supports",
+        "related_concept": "Shedding of Skin Cells",
+        "description": "Cell division is necessary to replace the skin cells that are constantly being shed."
+    },
+    {
+        "concept": "Food Intake",
+        "relationship": "influenced by",
+        "related_concept": "Activity Levels",
+        "description": "The amount of food intake can increase with higher activity levels due to greater energy expenditure."
+    },
+    {
+        "concept": "Tissue Diversity",
+        "relationship": "result of",
+        "related_concept": "Cell Division",
+        "description": "Different types of tissues in the body are formed through the process of cell division."
+    }
+]
+
+Model Answer: {
+    "answer": "Human beings shed millions of",
+    "reasoning": "The best evidence that cell division is occurring constantly in our bodies is the fact that human beings shed millions of skin cells regularly. This process of shedding dead skin cells and replacing them with new ones indicates ongoing cell division, specifically in the epidermis. Unlike the other options which relate to broader physiological processes (such as breathing and food intake) or outcomes (such as tissue diversity), shedding skin cells directly evidences the regular occurrence of cell division to replenish the body's outermost layer."
+}

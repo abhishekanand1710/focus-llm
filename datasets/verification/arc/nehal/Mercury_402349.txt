@@ -1,0 +1,57 @@
+Key: Mercury_402349
+
+Question: According to a pH scale, which pH would be the strongest acid?
+Options: ['3', '6', '9', '12']
+Answer: 3
+
+Model Response:
+Concepts: [
+    {
+        "name": "pH scale",
+        "description": "A scale used to specify the acidity or basicity of an aqueous solution."
+    },
+    {
+        "name": "Acid",
+        "description": "Substances with a pH less than 7 on the pH scale, which donate protons or accept electrons."
+    },
+    {
+        "name": "Basicity",
+        "description": "Characterized by substances with a pH greater than 7 on the pH scale."
+    },
+    {
+        "name": "Neutral",
+        "description": "Describes a substance with a pH of 7, showing neither acidity nor basicity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "pH scale",
+        "relationship": "measures",
+        "related_concept": "Acid",
+        "description": "The pH scale is used to measure how acidic or basic a substance is."
+    },
+    {
+        "concept": "pH scale",
+        "relationship": "has_range",
+        "related_concept": "Neutral",
+        "description": "A pH of 7 is considered neutral on the pH scale, serving as the midpoint."
+    },
+    {
+        "concept": "Acid",
+        "relationship": "has_property",
+        "related_concept": "pH scale < 7",
+        "description": "Acidic substances have a pH less than 7 on the pH scale."
+    },
+    {
+        "concept": "Basicity",
+        "relationship": "opposite_of",
+        "related_concept": "Acid",
+        "description": "Basicity is the opposite of acidity, characterized by a pH greater than 7."
+    }
+]
+
+Model Answer: {
+    "answer": "3",
+    "reasoning": "According to the pH scale, a lower number indicates a higher level of acidity. Among the options given, '3' is the lowest number, indicating the strongest acid. Acids have a pH less than 7, with numbers getting smaller as the acid gets stronger."
+}

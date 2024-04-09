@@ -1,0 +1,73 @@
+Key: LEAP_2011_4_10298
+
+Question: Joann is testing soils to see which kind is best for growing marigolds. Which of the following should she do?
+Options: ['Plant the marigolds in the same soil, but water some plants more than others.', 'Plant the marigolds in one kind of soil, radishes in another, and daisies in a third kind.', 'Plant the marigolds three kinds of soil, and give them different amounts of sun.', 'Plant the marigolds in three kinds of soil, and give them the same amounts of water and sun.']
+Answer: Plant the marigolds in three kinds of soil, and give them the same amounts of water and sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Soil type",
+        "description": "Different compositions of soil that affect plant growth"
+    },
+    {
+        "name": "Marigold growth",
+        "description": "The process through which marigolds develop and mature"
+    },
+    {
+        "name": "Watering",
+        "description": "The act of supplying water to plants"
+    },
+    {
+        "name": "Sunlight",
+        "description": "Natural light from the sun, essential for photosynthesis in plants"
+    },
+    {
+        "name": "Controlled experiment",
+        "description": "An experiment in which only one variable is changed at a time"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Soil type",
+        "relationship": "influences",
+        "related_concept": "Marigold growth",
+        "description": "The type of soil determines how well marigolds can grow"
+    },
+    {
+        "concept": "Watering",
+        "relationship": "affects",
+        "related_concept": "Marigold growth",
+        "description": "The amount of water marigolds receive impacts their health and growth"
+    },
+    {
+        "concept": "Sunlight",
+        "relationship": "affects",
+        "related_concept": "Marigold growth",
+        "description": "Sunlight is necessary for marigold photosynthesis and growth"
+    },
+    {
+        "concept": "Controlled experiment",
+        "relationship": "requires",
+        "related_concept": "Soil type",
+        "description": "To determine the best soil for marigolds, soil type must be varied systematically"
+    },
+    {
+        "concept": "Controlled experiment",
+        "relationship": "requires",
+        "related_concept": "Watering",
+        "description": "Watering should be consistent to isolate soil type as the variable of interest"
+    },
+    {
+        "concept": "Controlled experiment",
+        "relationship": "requires",
+        "related_concept": "Sunlight",
+        "description": "Sunlight exposure should be consistent to focus on soil variation effects"
+    }
+]
+
+Model Answer: {
+    "answer": "Plant the marigolds in three kinds of soil, and give them the same amounts of water and sun.",
+    "reasoning": "To test which soil type is best for growing marigolds effectively, it's crucial to change only the type of soil while keeping other variables like watering and sunlight consistent. This approach aligns with the principles of a controlled experiment, which aims to isolate the effect of a single variable (in this case, soil type) on an outcome (marigold growth). Planting marigolds in three kinds of soil under identical water and sun conditions allows for a fair comparison of how well each soil supports marigold growth."
+}

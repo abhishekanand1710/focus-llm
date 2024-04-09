@@ -1,0 +1,75 @@
+Key: TIMSS_2011_8_pg100
+
+Question: Which organ in a frog has a function similar to the function of lungs in a bird?
+Options: ['kidney', 'skin', 'liver', 'heart']
+Answer: skin
+
+Model Response:
+Concepts: [
+    {
+        "name": "Frog",
+        "description": "An amphibian that can breathe through its skin as well as its lungs."
+    },
+    {
+        "name": "Bird",
+        "description": "A warm-blooded vertebrate characterized by feathers, beaks, and typically the ability to fly, with lungs for breathing."
+    },
+    {
+        "name": "Lungs",
+        "description": "Organs in vertebrates involved in the process of gas exchange with the environment."
+    },
+    {
+        "name": "Skin",
+        "description": "The soft outer tissue covering of vertebrates that serves as a protective barrier."
+    },
+    {
+        "name": "Kidney",
+        "description": "A pair of organs in vertebrates that remove waste products from the blood and excrete urine."
+    },
+    {
+        "name": "Liver",
+        "description": "A large organ in vertebrates that processes blood and aids in metabolism."
+    },
+    {
+        "name": "Heart",
+        "description": "A muscular organ in vertebrates responsible for pumping blood through the blood vessels by repeated, rhythmic contractions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Frog",
+        "relationship": "has similar function",
+        "related_concept": "Bird",
+        "description": "Frog's skin has a gas exchange function similar to the lungs in birds."
+    },
+    {
+        "concept": "Skin",
+        "relationship": "serves function",
+        "related_concept": "Lungs",
+        "description": "In frogs, the skin serves a similar gas exchange function as lungs do in birds."
+    },
+    {
+        "concept": "Kidney",
+        "relationship": "not related in function",
+        "related_concept": "Lungs",
+        "description": "The kidney's function of filtering blood and producing urine is not related to the gas exchange function of lungs."
+    },
+    {
+        "concept": "Liver",
+        "relationship": "not related in function",
+        "related_concept": "Lungs",
+        "description": "The liver's function of processing blood and aiding in metabolism is not related to the gas exchange function of lungs."
+    },
+    {
+        "concept": "Heart",
+        "relationship": "not related in function",
+        "related_concept": "Lungs",
+        "description": "The heart's function of pumping blood is not directly related to the gas exchange function of lungs."
+    }
+]
+
+Model Answer: {
+    "answer": "skin",
+    "reasoning": "Among the options provided, the skin of a frog has a function most similar to the lungs in a bird, as it participates in gas exchange, allowing the frog to breathe through it, much like birds use their lungs for breathing and gas exchange with the environment."
+}

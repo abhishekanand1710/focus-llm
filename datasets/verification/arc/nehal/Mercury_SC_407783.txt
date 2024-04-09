@@ -1,0 +1,61 @@
+Key: Mercury_SC_407783
+
+Question: Mrs. Gordon's class studies maple trees. Which property can the students measure with a meter stick?
+Options: ['the mass of a leaf', 'the volume of its sap', 'the length of a branch', 'the temperature of its bark']
+Answer: the length of a branch
+
+Model Response:
+Concepts: [
+    {
+        "name": "meter stick",
+        "description": "a tool used to measure length or distance"
+    },
+    {
+        "name": "mass of a leaf",
+        "description": "the quantity of matter which a leaf contains, measured in kilograms or grams"
+    },
+    {
+        "name": "volume of its sap",
+        "description": "the amount of space that the sap of a tree occupies, measured in liters or cubic centimeters"
+    },
+    {
+        "name": "length of a branch",
+        "description": "the measurement of a branch from one end to the other, measured in meters or centimeters"
+    },
+    {
+        "name": "temperature of its bark",
+        "description": "the degree of heat present in the bark of a tree, measured in Celsius or Fahrenheit"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "meter stick",
+        "relationship": "measures",
+        "related_concept": "length of a branch",
+        "description": "A meter stick can be used to measure the physical length of objects, such as a branch."
+    },
+    {
+        "concept": "mass of a leaf",
+        "relationship": "measured by",
+        "related_concept": "scale",
+        "description": "The mass of a leaf would require a scale for accurate measurement, not a meter stick."
+    },
+    {
+        "concept": "volume of its sap",
+        "relationship": "measured by",
+        "related_concept": "graduated cylinder or volumetric tool",
+        "description": "The volume of sap would be measured with tools designed for liquid volume, not a meter stick."
+    },
+    {
+        "concept": "temperature of its bark",
+        "relationship": "measured by",
+        "related_concept": "thermometer",
+        "description": "The temperature of a tree's bark would be measured with a thermometer, not a meter stick."
+    }
+]
+
+Model Answer: {
+    "answer": "the length of a branch",
+    "reasoning": "Among the options provided, only the length of a branch is a measurement of distance or length, which is what a meter stick is specifically designed to measure. The other options involve measuring mass, volume, and temperature, which require different tools such as a scale, a volumetric tool, and a thermometer respectively."
+}

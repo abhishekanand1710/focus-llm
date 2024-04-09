@@ -1,0 +1,69 @@
+Key: Mercury_SC_401281
+
+Question: A wasp uses poison in a stinger to
+Options: ['produce eggs.', 'defend itself.', 'build a nest.', 'attract a mate.']
+Answer: defend itself.
+
+Model Response:
+Concepts: [
+    {
+        "name": "wasp",
+        "description": "A type of insect known for its ability to sting."
+    },
+    {
+        "name": "poison",
+        "description": "A toxic substance used by some animals to immobilize or kill prey, or as defense against predators."
+    },
+    {
+        "name": "stinger",
+        "description": "A sharp organ in certain animals, including wasps, used to inject poison."
+    },
+    {
+        "name": "produce eggs",
+        "description": "The biological process of generating offspring by females of a species."
+    },
+    {
+        "name": "defend itself",
+        "description": "The act of protecting oneself from threats or attacks."
+    },
+    {
+        "name": "build a nest",
+        "description": "The process of constructing a place to live, lay eggs, or rear young."
+    },
+    {
+        "name": "attract a mate",
+        "description": "The act of drawing in a potential sexual or reproductive partner through various behaviors or signals."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "wasp",
+        "relationship": "uses",
+        "related_concept": "poison",
+        "description": "A wasp uses poison primarily for defense or predation."
+    },
+    {
+        "concept": "wasp",
+        "relationship": "has",
+        "related_concept": "stinger",
+        "description": "A wasp has a stinger as a means to deliver poison."
+    },
+    {
+        "concept": "poison",
+        "relationship": "delivered via",
+        "related_concept": "stinger",
+        "description": "Poison is delivered via the stinger."
+    },
+    {
+        "concept": "wasp",
+        "relationship": "uses stinger to",
+        "related_concept": "defend itself",
+        "description": "The stinger, which delivers poison, is used by the wasp to defend itself."
+    }
+]
+
+Model Answer: {
+    "answer": "defend itself.",
+    "reasoning": "Based on the identified concepts and their relationships, wasps primarily use their poison delivered through a stinger as a means of defense. The relationship between the wasp's use of poison and its stinger is directly related to its ability to defend itself, and not for producing eggs, building nests, or attracting mates. Therefore, the most accurate option is that a wasp uses poison in a stinger to defend itself."
+}

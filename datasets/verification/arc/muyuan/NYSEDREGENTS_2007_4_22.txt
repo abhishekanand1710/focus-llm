@@ -1,0 +1,61 @@
+Key: NYSEDREGENTS_2007_4_22
+
+Question: A decrease in air temperature from 60°F to 35°F would most likely cause a person to
+Options: ['shiver', 'sweat', 'blink his eyes', 'feel sleepy']
+Answer: shiver
+
+Model Response:
+Concepts: [
+    {
+        "name": "Air Temperature",
+        "description": "A measure of how hot or cold the air is."
+    },
+    {
+        "name": "Shiver",
+        "description": "A bodily function in response to cold, causing rapid, involuntary muscle movements to generate heat."
+    },
+    {
+        "name": "Sweat",
+        "description": "A bodily function that helps cool the body through evaporation of moisture from the skin."
+    },
+    {
+        "name": "Blink His Eyes",
+        "description": "A rapid closing and opening of the eyelid, which is usually an involuntary response to stimuli."
+    },
+    {
+        "name": "Feel Sleepy",
+        "description": "A sensation of tiredness and the body's natural inclination towards sleep."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Air Temperature",
+        "relationship": "decrease",
+        "related_concept": "Shiver",
+        "description": "A decrease in air temperature can trigger the body to shiver as a response to cold."
+    },
+    {
+        "concept": "Air Temperature",
+        "relationship": "decrease",
+        "related_concept": "Sweat",
+        "description": "A decrease in air temperature would likely not cause sweating, as sweating is a response to heat."
+    },
+    {
+        "concept": "Air Temperature",
+        "relationship": "decrease",
+        "related_concept": "Blink His Eyes",
+        "description": "A decrease in air temperature has no direct relationship to blinking."
+    },
+    {
+        "concept": "Air Temperature",
+        "relationship": "decrease",
+        "related_concept": "Feel Sleepy",
+        "description": "While cold might affect sleep patterns, a direct cause to feel sleepy from a decrease in air temperature is not typical."
+    }
+]
+
+Model Answer: {
+    "answer": "shiver",
+    "reasoning": "Among the options, 'shiver' is the most appropriate response to a decrease in air temperature from 60\u00b0F to 35\u00b0F. This response is a natural reaction of the human body to generate heat when exposed to cold conditions, which is supported by the relationship between the decrease in air temperature and the body's reaction to shiver."
+}

@@ -1,0 +1,75 @@
+Key: Mercury_7247835
+
+Question: Which statement describes how muscles work to allow a person to extend an arm from a curled position by straightening the elbow?
+Options: ['Both the biceps and triceps contract.', 'Both the biceps and the triceps relax.', 'The triceps contract and the biceps relax.', 'The biceps contract and the triceps relax.']
+Answer: The triceps contract and the biceps relax.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Muscles",
+        "description": "Tissues in the body that have the ability to contract and move parts of the body."
+    },
+    {
+        "name": "Biceps",
+        "description": "A muscle in the front of the upper arm that flexes the forearm."
+    },
+    {
+        "name": "Triceps",
+        "description": "A muscle in the back of the upper arm that extends the forearm."
+    },
+    {
+        "name": "Contract",
+        "description": "Decrease in length, making a muscle shorter to produce movement."
+    },
+    {
+        "name": "Relax",
+        "description": "When a muscle returns to its original length, stopping the production of movement."
+    },
+    {
+        "name": "Extend",
+        "description": "To straighten a body part."
+    },
+    {
+        "name": "Curl",
+        "description": "To bend a body part."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Biceps",
+        "relationship": "opposes",
+        "related_concept": "Triceps",
+        "description": "Biceps contraction results in curling while triceps contraction results in extending."
+    },
+    {
+        "concept": "Contract",
+        "relationship": "results in",
+        "related_concept": "Extend",
+        "description": "Contraction of the triceps muscle results in extending the arm."
+    },
+    {
+        "concept": "Relax",
+        "relationship": "precedes",
+        "related_concept": "Contract",
+        "description": "For a muscle to contract, its opposing muscle must relax."
+    },
+    {
+        "concept": "Triceps",
+        "relationship": "contracts",
+        "related_concept": "Extend",
+        "description": "Triceps contraction is necessary for arm extension."
+    },
+    {
+        "concept": "Biceps",
+        "relationship": "contracts",
+        "related_concept": "Curl",
+        "description": "Biceps contraction is necessary for curling the arm."
+    }
+]
+
+Model Answer: {
+    "answer": "The triceps contract and the biceps relax.",
+    "reasoning": "To extend an arm from a curled position by straightening the elbow, the triceps muscle contracts, causing the arm to extend. Simultaneously, the biceps muscle relaxes to allow this movement. This is because the biceps and triceps are antagonistic muscles, meaning that they perform opposite actions; when one contracts, the other relaxes. Therefore, contraction of the triceps along with relaxation of the biceps results in extending the arm."
+}

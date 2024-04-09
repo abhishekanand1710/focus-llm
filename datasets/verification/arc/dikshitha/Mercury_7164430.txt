@@ -1,0 +1,81 @@
+Key: Mercury_7164430
+
+Question: Mercury and gold are both metals. Unlike gold, mercury cannot be used to make jewelry because it is a liquid at room temperature. The difference in the state of matter is an example of which type of property?
+Options: ['chemical', 'electrical', 'nuclear', 'physical']
+Answer: physical
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mercury",
+        "description": "A metal that is liquid at room temperature"
+    },
+    {
+        "name": "Gold",
+        "description": "A metal that is solid at room temperature and commonly used in jewelry"
+    },
+    {
+        "name": "State of Matter",
+        "description": "Physical condition in which matter can exist, such as solid, liquid, or gas"
+    },
+    {
+        "name": "Chemical Property",
+        "description": "A characteristic of a substance that is observed during a chemical reaction"
+    },
+    {
+        "name": "Electrical Property",
+        "description": "A characteristic that defines the electrical behavior of a substance"
+    },
+    {
+        "name": "Nuclear Property",
+        "description": "A characteristic related to the nucleus of an atom, including phenomena like radioactivity"
+    },
+    {
+        "name": "Physical Property",
+        "description": "A characteristic of a substance that can be observed without changing its identity"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mercury",
+        "relationship": "has state of matter",
+        "related_concept": "State of Matter",
+        "description": "Mercury is in the liquid state at room temperature"
+    },
+    {
+        "concept": "Gold",
+        "relationship": "has state of matter",
+        "related_concept": "State of Matter",
+        "description": "Gold is in the solid state at room temperature"
+    },
+    {
+        "concept": "State of Matter",
+        "relationship": "is a type of",
+        "related_concept": "Physical Property",
+        "description": "The state of matter is an example of a physical property of substances"
+    },
+    {
+        "concept": "Chemical Property",
+        "relationship": "contrasted with",
+        "related_concept": "Physical Property",
+        "description": "Chemical properties involve changes to a substance's chemical structure, unlike physical properties"
+    },
+    {
+        "concept": "Electrical Property",
+        "relationship": "subset of",
+        "related_concept": "Physical Property",
+        "description": "Electrical properties are considered a subset of physical properties related to electricity"
+    },
+    {
+        "concept": "Nuclear Property",
+        "relationship": "subset of",
+        "related_concept": "Physical Property",
+        "description": "Nuclear properties deal with the nucleus of atoms and are a specialized aspect of physical properties"
+    }
+]
+
+Model Answer: {
+    "answer": "physical",
+    "reasoning": "The difference in states of matter between mercury and gold, which is the basis for why one cannot be used to make jewelry, is directly related to their physical properties. Mercury's liquid state at room temperature compared to gold's solid state is a matter of physical condition, not chemical, electrical, or nuclear properties."
+}

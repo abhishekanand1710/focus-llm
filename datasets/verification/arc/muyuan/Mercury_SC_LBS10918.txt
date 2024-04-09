@@ -1,0 +1,61 @@
+Key: Mercury_SC_LBS10918
+
+Question: A person is 6 feet tall. Which of the following metric measurements is most near to 6 feet?
+Options: ['6 meters', '3 meters', '2 meters', '1 meter']
+Answer: 2 meters
+
+Model Response:
+Concepts: [
+    {
+        "name": "feet",
+        "description": "A unit of measurement in the imperial system, used to measure length."
+    },
+    {
+        "name": "meters",
+        "description": "The basic unit of length in the metric system."
+    },
+    {
+        "name": "conversion factor",
+        "description": "A ratio used to convert one unit of measurement to another."
+    },
+    {
+        "name": "1 foot to meters",
+        "description": "The equivalent of 1 foot is approximately 0.3048 meters."
+    },
+    {
+        "name": "6 feet in meters",
+        "description": "The result of converting 6 feet into meters."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "feet",
+        "relationship": "is converted to",
+        "related_concept": "meters",
+        "description": "Feet are converted to meters using the conversion factor."
+    },
+    {
+        "concept": "conversion factor",
+        "relationship": "used for",
+        "related_concept": "1 foot to meters",
+        "description": "The conversion factor is used to express 1 foot in meters."
+    },
+    {
+        "concept": "1 foot to meters",
+        "relationship": "multiplied by",
+        "related_concept": "6",
+        "description": "The value for 1 foot in meters is multiplied by 6 to find the metric equivalent of 6 feet."
+    },
+    {
+        "concept": "6 feet in meters",
+        "relationship": "calculated by",
+        "related_concept": "1 foot to meters",
+        "description": "6 feet in meters is calculated by the conversion from 1 foot to meters."
+    }
+]
+
+Model Answer: {
+    "answer": "2 meters",
+    "reasoning": "Using the conversion factor, 1 foot is approximately equal to 0.3048 meters. Therefore, 6 feet is about 6 * 0.3048 = 1.8288 meters. Among the options given, 2 meters is the closest to this value."
+}

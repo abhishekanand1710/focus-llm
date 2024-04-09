@@ -1,0 +1,67 @@
+Key: Mercury_7214603
+
+Question: Approximately how many times does the Moon revolve around Earth during one revolution of Earth around the Sun?
+Options: ['1', '12', '28', '365']
+Answer: 12
+
+Model Response:
+Concepts: [
+    {
+        "name": "Moon",
+        "description": "A natural satellite that orbits the Earth"
+    },
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun in our solar system"
+    },
+    {
+        "name": "Revolution",
+        "description": "The movement of an object around another object"
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of our solar system"
+    },
+    {
+        "name": "Orbit",
+        "description": "The path one object in space takes around another"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Moon",
+        "relationship": "orbits",
+        "related_concept": "Earth",
+        "description": "The Moon moves around the Earth in an elliptical path"
+    },
+    {
+        "concept": "Earth",
+        "relationship": "orbits",
+        "related_concept": "Sun",
+        "description": "The Earth travels around the Sun in an elliptical orbit"
+    },
+    {
+        "concept": "Revolution",
+        "relationship": "describes_movement",
+        "related_concept": "Orbit",
+        "description": "A revolution is a complete trip along an orbit"
+    },
+    {
+        "concept": "Moon",
+        "relationship": "completes_multiple_revolutions",
+        "related_concept": "Earth",
+        "description": "The Moon revolves around the Earth multiple times during one Earth year"
+    },
+    {
+        "concept": "Earth",
+        "relationship": "completes_one_revolution",
+        "related_concept": "Sun",
+        "description": "The Earth completes one revolution around the Sun in one year"
+    }
+]
+
+Model Answer: {
+    "answer": "12",
+    "reasoning": "The Moon completes a revolution around the Earth approximately once every month. Given there are about 12 months in a year, the Moon revolves around the Earth approximately 12 times during one revolution of Earth around the Sun. This reasoning aligns with the concepts of orbits and revolutions, where the Earth's orbit around the Sun takes one year, while the Moon's orbit around the Earth fits within a month, amounting to about 12 revolutions of the Moon around the Earth in the time it takes the Earth to orbit the Sun once."
+}

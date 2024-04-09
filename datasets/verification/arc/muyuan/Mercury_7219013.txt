@@ -1,0 +1,71 @@
+Key: Mercury_7219013
+
+Question: Which object has a gravitational force so strong that it forms the center of the solar system?
+Options: ['Earth', 'Pluto', 'the Moon', 'the Sun']
+Answer: the Sun
+
+Model Response:
+Concepts: [
+    {
+        "name": "Gravitational Force",
+        "description": "A force that attracts any two objects with mass."
+    },
+    {
+        "name": "Solar System",
+        "description": "The collection of the Sun and the objects that orbit around it."
+    },
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun and one of the objects in the Solar System."
+    },
+    {
+        "name": "Pluto",
+        "description": "A dwarf planet in the Solar System."
+    },
+    {
+        "name": "the Moon",
+        "description": "The natural satellite orbiting the Earth."
+    },
+    {
+        "name": "the Sun",
+        "description": "The star at the center of the Solar System."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sun",
+        "relationship": "has",
+        "related_concept": "Gravitational Force",
+        "description": "The Sun has a gravitational force that dominates the Solar System."
+    },
+    {
+        "concept": "Solar System",
+        "relationship": "is centered on",
+        "related_concept": "Sun",
+        "description": "The Solar System is centered on the Sun due to its gravitational force."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "orbits",
+        "related_concept": "Sun",
+        "description": "Earth orbits the Sun due to the Sun's gravitational pull."
+    },
+    {
+        "concept": "Pluto",
+        "relationship": "orbits",
+        "related_concept": "Sun",
+        "description": "Pluto orbits the Sun, affected by its gravitational force."
+    },
+    {
+        "concept": "Moon",
+        "relationship": "orbits",
+        "related_concept": "Earth",
+        "description": "The Moon orbits Earth, not the Sun directly."
+    }
+]
+
+Model Answer: {
+    "answer": "the Sun",
+    "reasoning": "The Sun's gravitational force is so strong that it holds the entire Solar System together, making it the center of the Solar System. All planets, including Earth and dwarf planets like Pluto, orbit around the Sun due to this gravitational force. The Moon orbits Earth, not directly contributing to the gravitational center of the Solar System."
+}

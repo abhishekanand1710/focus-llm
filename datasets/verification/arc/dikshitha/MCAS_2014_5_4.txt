@@ -1,0 +1,63 @@
+Key: MCAS_2014_5_4
+
+Question: Every year, green sea turtles migrate approximately 2000 km to reproduce. This migration is an example of
+Options: ['a learned behavior.', 'an instinctive behavior.', 'a response to crowding.', 'an escape from predators.']
+Answer: an instinctive behavior.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Green sea turtles",
+        "description": "A species of large sea turtle known for its migration to reproduce."
+    },
+    {
+        "name": "Migration",
+        "description": "The seasonal movement of animals from one region to another."
+    },
+    {
+        "name": "Reproduce",
+        "description": "The biological process of producing new offspring."
+    },
+    {
+        "name": "Learned behavior",
+        "description": "A behavior that an animal acquires through experience."
+    },
+    {
+        "name": "Instinctive behavior",
+        "description": "A behavior that is innate and does not need to be learned."
+    },
+    {
+        "name": "Response to crowding",
+        "description": "An act or behavior triggered by increased population density."
+    },
+    {
+        "name": "Escape from predators",
+        "description": "Behavior aimed at avoiding being eaten by predators."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Green sea turtles",
+        "relationship": "perform",
+        "related_concept": "Migration",
+        "description": "Green sea turtles migrate annually."
+    },
+    {
+        "concept": "Migration",
+        "relationship": "purpose",
+        "related_concept": "Reproduce",
+        "description": "The purpose of migration for green sea turtles is to reproduce."
+    },
+    {
+        "concept": "Learned behavior",
+        "relationship": "opposite",
+        "related_concept": "Instinctive behavior",
+        "description": "Learned behavior is acquired, while instinctive behavior is innate."
+    }
+]
+
+Model Answer: {
+    "answer": "an instinctive behavior.",
+    "reasoning": "The annual migration of green sea turtles spanning approximately 2000 km to reproduce is classified as 'an instinctive behavior' because it is an innate activity. They undertake this journey not as a learned response or as a reaction to external conditions like crowding or escaping predators but are driven by instinct to return to their breeding grounds to reproduce. This behavior is ingrained and does not require the turtles to learn it from experience."
+}

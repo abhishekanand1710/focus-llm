@@ -1,0 +1,67 @@
+Key: Mercury_7200165
+
+Question: Mr. Jenkins's class is studying sex chromosomes. He tells his students that the nuclei of human cells have 22 pairs of autosomes. How many sex chromosomes does the human body have?
+Options: ['1', '2', '23', '46']
+Answer: 2
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sex Chromosomes",
+        "description": "Chromosomes that determine the sex of an organism"
+    },
+    {
+        "name": "Human Cells",
+        "description": "Basic structural, functional, and biological units of all known living organisms in humans"
+    },
+    {
+        "name": "Nucleus",
+        "description": "A membrane-bound organelle that contains the chromosomes and controls the activities of the cell"
+    },
+    {
+        "name": "Autosomes",
+        "description": "Chromosomes that are not involved in determining the sex of an individual"
+    },
+    {
+        "name": "Pairs",
+        "description": "Two corresponding structures, objects, or units, especially when joined"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Human Cells",
+        "relationship": "contain",
+        "related_concept": "Nucleus",
+        "description": "Nucleus is an organelle found inside human cells"
+    },
+    {
+        "concept": "Nucleus",
+        "relationship": "has",
+        "related_concept": "Autosomes",
+        "description": "The nucleus of a human cell contains 22 pairs of autosomes"
+    },
+    {
+        "concept": "Nucleus",
+        "relationship": "has",
+        "related_concept": "Sex Chromosomes",
+        "description": "In addition to autosomes, the nucleus of a human cell contains sex chromosomes"
+    },
+    {
+        "concept": "Sex Chromosomes",
+        "relationship": "determine",
+        "related_concept": "Human",
+        "description": "Sex chromosomes are responsible for determining the sex of a human"
+    },
+    {
+        "concept": "Autosomes",
+        "relationship": "paired with",
+        "related_concept": "Sex Chromosomes",
+        "description": "In addition to the 22 pairs of autosomes, human cells also have a pair of sex chromosomes"
+    }
+]
+
+Model Answer: {
+    "answer": "2",
+    "reasoning": "The question addresses the number of sex chromosomes in human cells. Given that human cells are specified to have 22 pairs of autosomes (non-sex chromosomes), focusing on the fact that chromosomes exist in pairs within human cells, the remaining component to achieve the total of 23 pairs of chromosomes in human cells are the sex chromosomes. These sex chromosomes come in a pair (either XX for females or XY for males), making the total number of sex chromosomes in the human body 2. This is in addition to the 22 pairs of autosomes for a complete set of 46 chromosomes in 23 pairs."
+}

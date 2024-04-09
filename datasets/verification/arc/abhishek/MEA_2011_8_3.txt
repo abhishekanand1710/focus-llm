@@ -1,0 +1,71 @@
+Key: MEA_2011_8_3
+
+Question: Which location on Earth has the least intense sunlight on December 22?
+Options: ['Equator', 'Florida', 'Maine', 'North Pole']
+Answer: North Pole
+
+Model Response:
+Concepts: [
+    {
+        "name": "Equator",
+        "description": "An imaginary line around the middle of the Earth, equidistant from the North Pole and South Pole."
+    },
+    {
+        "name": "Florida",
+        "description": "A US state located in the southeastern region, known for its warm climate."
+    },
+    {
+        "name": "Maine",
+        "description": "A US state located in the northeastern tip of the country, known for colder climates."
+    },
+    {
+        "name": "North Pole",
+        "description": "The northernmost point on Earth, lying diametrically opposite the South Pole."
+    },
+    {
+        "name": "Sunlight intensity",
+        "description": "The amount of solar power or energy the Earth's surface receives from the sun."
+    },
+    {
+        "name": "December 22",
+        "description": "Date marking the winter solstice in the northern hemisphere, the shortest day of the year."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Equator",
+        "relationship": "has consistent",
+        "related_concept": "Sunlight intensity",
+        "description": "The Equator experiences relatively consistent sunlight intensity throughout the year."
+    },
+    {
+        "concept": "Florida",
+        "relationship": "experiences more",
+        "related_concept": "Sunlight intensity",
+        "description": "Florida experiences more sunlight intensity than the North Pole on December 22."
+    },
+    {
+        "concept": "Maine",
+        "relationship": "experiences less",
+        "related_concept": "Sunlight intensity",
+        "description": "Maine experiences less sunlight intensity than the Equator but more than the North Pole on December 22."
+    },
+    {
+        "concept": "North Pole",
+        "relationship": "receives no",
+        "related_concept": "Sunlight intensity",
+        "description": "The North Pole receives no sunlight on December 22, marking the peak of its polar night."
+    },
+    {
+        "concept": "December 22",
+        "relationship": "correlates with",
+        "related_concept": "Sunlight intensity",
+        "description": "Sunlight intensity varies significantly across different locations on Earth on December 22 due to the winter solstice in the northern hemisphere."
+    }
+]
+
+Model Answer: {
+    "answer": "North Pole",
+    "reasoning": "On December 22, which is the winter solstice in the northern hemisphere, the North Pole experiences the least intense sunlight compared to the other options listed. In fact, the North Pole receives no sunlight at all on this day, entering a continuous period of darkness known as the polar night."
+}

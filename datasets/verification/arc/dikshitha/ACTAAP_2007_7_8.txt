@@ -1,0 +1,71 @@
+Key: ACTAAP_2007_7_8
+
+Question: When performing an experiment for a science fair, what should be done if the data do not support the hypothesis?
+Options: ['Check for errors and run the experiment again.', 'Change the hypothesis to match the conclusion.', 'Change the variable so the data will match the hypothesis.', 'Ignore the data and prepare the science fair display anyway.']
+Answer: Check for errors and run the experiment again.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Experiment",
+        "description": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact."
+    },
+    {
+        "name": "Science Fair",
+        "description": "A competition where contestants present their science project results in the form of a report, display board, and/or models that they have created."
+    },
+    {
+        "name": "Data",
+        "description": "Facts and statistics collected together for reference or analysis."
+    },
+    {
+        "name": "Hypothesis",
+        "description": "A proposed explanation made on the basis of limited evidence as a starting point for further investigation."
+    },
+    {
+        "name": "Error Checking",
+        "description": "The process of verifying accuracy and consistency of data."
+    },
+    {
+        "name": "Variables",
+        "description": "Any item, factor, or condition that can be controlled or changed."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Experiment",
+        "relationship": "yields",
+        "related_concept": "Data",
+        "description": "Experiments are conducted to generate data for analysis."
+    },
+    {
+        "concept": "Data",
+        "relationship": "supports or refutes",
+        "related_concept": "Hypothesis",
+        "description": "The data obtained from the experiment can either support or refute the hypothesis."
+    },
+    {
+        "concept": "Hypothesis",
+        "relationship": "guided by",
+        "related_concept": "Experiment",
+        "description": "The hypothesis guides the direction and purpose of the experiment."
+    },
+    {
+        "concept": "Error Checking",
+        "relationship": "applied to",
+        "related_concept": "Data",
+        "description": "Error checking is applied to data to ensure its accuracy and reliability."
+    },
+    {
+        "concept": "Variables",
+        "relationship": "controlled in",
+        "related_concept": "Experiment",
+        "description": "Variables are controlled or changed in an experiment to observe effects on the outcome."
+    }
+]
+
+Model Answer: {
+    "answer": "Check for errors and run the experiment again.",
+    "reasoning": "If the data do not support the hypothesis, it is scientifically rigorous to first check for errors and if any inconsistencies or mistakes are found, the experiment should be run again. This approach ensures accuracy and reliability of the results, staying true to the scientific method. Changing the hypothesis to match the data, altering variables to force a match, or ignoring the data compromises the integrity of the scientific process and findings."
+}

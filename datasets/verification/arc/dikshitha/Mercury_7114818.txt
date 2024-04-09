@@ -1,0 +1,69 @@
+Key: Mercury_7114818
+
+Question: A type of bird in Africa eats blood-sucking insects off large mammals. Which word best describes the relationship between the bird and the mammals?
+Options: ['mutualism', 'parasitism', 'neutralism', 'commensalism']
+Answer: mutualism
+
+Model Response:
+Concepts: [
+    {
+        "name": "mutualism",
+        "description": "a symbiotic relationship where both parties benefit"
+    },
+    {
+        "name": "parasitism",
+        "description": "a relationship where one organism benefits at the expense of the other"
+    },
+    {
+        "name": "neutralism",
+        "description": "a relationship where two species interact but neither benefits nor is harmed"
+    },
+    {
+        "name": "commensalism",
+        "description": "a relationship where one organism benefits and the other is neither helped nor harmed"
+    },
+    {
+        "name": "bird",
+        "description": "avian creatures, some species of which eat insects"
+    },
+    {
+        "name": "blood-sucking insects",
+        "description": "insects that feed on the blood of mammals"
+    },
+    {
+        "name": "large mammals",
+        "description": "big animals, often the host for various parasites including blood-sucking insects"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "bird",
+        "relationship": "eats",
+        "related_concept": "blood-sucking insects",
+        "description": "The bird consumes the blood-sucking insects"
+    },
+    {
+        "concept": "blood-sucking insects",
+        "relationship": "parasitize",
+        "related_concept": "large mammals",
+        "description": "The insects feed on the blood of the large mammals, harming them"
+    },
+    {
+        "concept": "bird",
+        "relationship": "helps",
+        "related_concept": "large mammals",
+        "description": "By eating the insects, the bird reduces the number of parasites on the mammals"
+    },
+    {
+        "concept": "large mammals",
+        "relationship": "provides food",
+        "related_concept": "bird",
+        "description": "The presence of insects on the mammals gives the bird a source of food"
+    }
+]
+
+Model Answer: {
+    "answer": "mutualism",
+    "reasoning": "The relationship between the bird and the large mammals is best described as mutualism, where both parties benefit. Here, the bird gets a source of food by eating the blood-sucking insects, and the large mammals benefit from the removal of these parasites, reducing harm and potential diseases carried by the insects."
+}

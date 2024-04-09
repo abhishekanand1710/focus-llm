@@ -1,0 +1,51 @@
+Key: ACTAAP_2014_5_1
+
+Question: Dawn brought a chocolate bar for lunch, but the chocolate melted in her backpack. Dawn wants to perform a scientific investigation to determine the reason her chocolate bar melted in her backpack. Which hypothesis should Dawn use for her investigation?
+Options: ['Chocolate will taste better when melted.', 'Chocolate will taste the same even when melted.', 'If the chocolate is broken then the chocolate will melt.', 'If heat is added to chocolate then the chocolate will melt.']
+Answer: If heat is added to chocolate then the chocolate will melt.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chocolate",
+        "description": "A sweet, typically brown food preparation of roasted and ground cacao seeds."
+    },
+    {
+        "name": "Heat",
+        "description": "A form of energy that is transferred by a difference in temperature."
+    },
+    {
+        "name": "Melting",
+        "description": "The process of becoming liquefied by heat."
+    },
+    {
+        "name": "Hypothesis",
+        "description": "A proposed explanation made on the basis of limited evidence as a starting point for further investigation."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chocolate",
+        "relationship": "responds to",
+        "related_concept": "Heat",
+        "description": "Chocolate melts when exposed to heat."
+    },
+    {
+        "concept": "Heat",
+        "relationship": "causes",
+        "related_concept": "Melting",
+        "description": "Heat is a direct cause for the melting process."
+    },
+    {
+        "concept": "Hypothesis",
+        "relationship": "guides",
+        "related_concept": "Investigation",
+        "description": "Hypotheses are propositions that are tested to guide scientific investigations."
+    }
+]
+
+Model Answer: {
+    "answer": "'If heat is added to chocolate then the chocolate will melt.'",
+    "reasoning": "This hypothesis directly correlates with the scientific principles relating to the effect of heat on substances such as chocolate, where heat causes chocolate to melt. It provides a testable condition that can be experimentally verified, making it suitable for a scientific investigation."
+}

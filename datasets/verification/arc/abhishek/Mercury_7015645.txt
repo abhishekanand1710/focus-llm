@@ -1,0 +1,51 @@
+Key: Mercury_7015645
+
+Question: What is the first step of the process in the formation of sedimentary rocks?
+Options: ['erosion', 'deposition', 'compaction', 'cementation']
+Answer: erosion
+
+Model Response:
+Concepts: [
+    {
+        "name": "erosion",
+        "description": "The process by which natural forces move weathered rock and soil from one place to another."
+    },
+    {
+        "name": "deposition",
+        "description": "The process by which sediments, soil, and rocks are added to a landform or land mass."
+    },
+    {
+        "name": "compaction",
+        "description": "The process that presses sediments together, reducing their volume and making them more solid."
+    },
+    {
+        "name": "cementation",
+        "description": "The binding together of particles or other things by cement."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "erosion",
+        "relationship": "precedes",
+        "related_concept": "deposition",
+        "description": "Eroded materials are moved to a new location where they can be deposited."
+    },
+    {
+        "concept": "deposition",
+        "relationship": "precedes",
+        "related_concept": "compaction",
+        "description": "After sediments are deposited, they are compacted over time under more layers of sediments."
+    },
+    {
+        "concept": "compaction",
+        "relationship": "precedes",
+        "related_concept": "cementation",
+        "description": "After sediments are compacted, they may undergo cementation to bind together and form solid rock."
+    }
+]
+
+Model Answer: {
+    "answer": "erosion",
+    "reasoning": "The formation of sedimentary rocks begins with erosion, where natural forces like water, wind, and ice wear down and move rock and soil from one place to another. This first step is crucial for providing the materials that will eventually become sedimentary rocks through the subsequent processes of deposition, compaction, and cementation."
+}

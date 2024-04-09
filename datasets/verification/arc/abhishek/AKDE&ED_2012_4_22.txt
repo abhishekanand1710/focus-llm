@@ -1,0 +1,61 @@
+Key: AKDE&ED_2012_4_22
+
+Question: Many stars can be seen in the sky at night. Which statement best explains why the Sun appears brighter than the stars seen in the night sky?
+Options: ['The Sun is bigger than the stars seen in the night sky.', 'The Sun is smaller than the stars seen in the night sky.', 'The Sun is closer to Earth than the stars seen in the night sky.', 'The Sun is farther from Earth than the stars seen in the night sky.']
+Answer: The Sun is closer to Earth than the stars seen in the night sky.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sun",
+        "description": "The star at the center of the Solar System, around which Earth orbits."
+    },
+    {
+        "name": "Stars seen in the night sky",
+        "description": "Celestial bodies emitting light, visible on Earth primarily during the night."
+    },
+    {
+        "name": "Brightness",
+        "description": "The amount of light emitted or appearing to be emitted by an object."
+    },
+    {
+        "name": "Distance from Earth",
+        "description": "The physical space between Earth and another celestial body."
+    },
+    {
+        "name": "Size of celestial bodies",
+        "description": "The physical dimension or magnitude of an astronomical object."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Brightness",
+        "relationship": "is affected by",
+        "related_concept": "Distance from Earth",
+        "description": "An object's brightness as seen from Earth decreases as the distance from Earth increases."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "is closer to",
+        "related_concept": "Earth",
+        "description": "The Sun is much closer to Earth compared to other stars."
+    },
+    {
+        "concept": "Size of celestial bodies",
+        "relationship": "is not directly correlated to",
+        "related_concept": "Brightness",
+        "description": "The perceived brightness of celestial bodies as seen from Earth does not directly correlate to their actual sizes due to varying distances."
+    },
+    {
+        "concept": "Stars seen in the night sky",
+        "relationship": "are generally farther from",
+        "related_concept": "Earth",
+        "description": "Stars visible at night are much farther from Earth than the Sun."
+    }
+]
+
+Model Answer: {
+    "answer": "The Sun is closer to Earth than the stars seen in the night sky.",
+    "reasoning": "The reason the Sun appears brighter than other stars is principally due to its proximity to Earth. Despite the vastness and potential luminosity of other stars, their significant distance from Earth means they will appear as mere points of light in the night sky, whereas the Sun, being much closer, dominates our daytime sky with its brightness."
+}

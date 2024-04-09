@@ -1,0 +1,61 @@
+Key: MCAS_2001_8_5
+
+Question: Which is a major function of the vacuoles found in cells?
+Options: ['to store water and food for cells', 'to release energy for cells', 'to control what enters and leaves cells', 'to provide protection for cells']
+Answer: to store water and food for cells
+
+Model Response:
+Concepts: [
+    {
+        "name": "Vacuoles",
+        "description": "Membrane-bound sacs within the cytoplasm of a cell that function in several ways including storage and transport"
+    },
+    {
+        "name": "Water and food storage",
+        "description": "The process of holding nutrients and water within the cell for later use"
+    },
+    {
+        "name": "Energy release",
+        "description": "The process where cells break down molecules to release energy stored in chemical bonds"
+    },
+    {
+        "name": "Cell membrane control",
+        "description": "Regulating the passage of substances into and out of the cell"
+    },
+    {
+        "name": "Cell protection",
+        "description": "Mechanisms and structures that provide physical and chemical protection to cells"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Vacuoles",
+        "relationship": "perform",
+        "related_concept": "Water and food storage",
+        "description": "Vacuoles store water and food for the cell, aiding in nutrition and hydration"
+    },
+    {
+        "concept": "Energy release",
+        "relationship": "not a primary function of",
+        "related_concept": "Vacuoles",
+        "description": "Releasing energy is not a primary function of vacuoles; it is mainly associated with mitochondria in cells"
+    },
+    {
+        "concept": "Cell membrane control",
+        "relationship": "distinct from",
+        "related_concept": "Vacuoles",
+        "description": "Controlling what enters and leaves the cell is mainly the function of the cell membrane, not vacuoles"
+    },
+    {
+        "concept": "Cell protection",
+        "relationship": "not a primary function of",
+        "related_concept": "Vacuoles",
+        "description": "Protecting the cell is more related to structures like the cell wall or membrane rather than vacuoles"
+    }
+]
+
+Model Answer: {
+    "answer": "to store water and food for cells",
+    "reasoning": "Based on the relationships and functions described, vacuoles primarily serve to store water and food for cells. This storage capacity helps in regulating the cell's internal environment and providing necessary resources for metabolism and growth, distinguishing it from the other functions related to energy release, cell membrane control, and cell protection which are not primary roles of vacuoles."
+}

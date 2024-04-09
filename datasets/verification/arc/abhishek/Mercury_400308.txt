@@ -1,0 +1,61 @@
+Key: Mercury_400308
+
+Question: Which behavior of a dog is the best example of a learned behavior?
+Options: ['barking', 'tail-wagging', 'digging a hole', 'coming when called']
+Answer: coming when called
+
+Model Response:
+Concepts: [
+    {
+        "name": "barking",
+        "description": "A vocalization made by dogs."
+    },
+    {
+        "name": "tail-wagging",
+        "description": "A dog's way of showing emotions through the movement of its tail."
+    },
+    {
+        "name": "digging a hole",
+        "description": "The act of a dog using its paws to remove soil or another substrate to create a hole."
+    },
+    {
+        "name": "coming when called",
+        "description": "A behavior where a dog approaches its owner upon hearing their command."
+    },
+    {
+        "name": "learned behavior",
+        "description": "Actions or reactions that an animal acquires through experience."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "coming when called",
+        "relationship": "is an example of",
+        "related_concept": "learned behavior",
+        "description": "Coming when called is a behavior dogs usually acquire through training, making it a learned behavior."
+    },
+    {
+        "concept": "barking",
+        "relationship": "can be both inherent and learned",
+        "related_concept": "learned behavior",
+        "description": "While barking can be a natural response, specific barking cues can be learned."
+    },
+    {
+        "concept": "tail-wagging",
+        "relationship": "is more of an inherent behavior",
+        "related_concept": "learned behavior",
+        "description": "Tail-wagging is primarily an instinctive reaction to various stimuli, not learned."
+    },
+    {
+        "concept": "digging a hole",
+        "relationship": "can be both inherent and stimulated by external conditions",
+        "related_concept": "learned behavior",
+        "description": "Digging can be an instinct but often is influenced by the dog's environment or training."
+    }
+]
+
+Model Answer: {
+    "answer": "coming when called",
+    "reasoning": "Among the options provided, 'coming when called' is the best example of a learned behavior as it directly involves training and commands that the dog learns to follow. Unlike barking or tail-wagging, which are more instinctual and can be displayed without specific training, or digging a hole, which can be both a natural instinct and a product of stimulation, 'coming when called' expressly requires the dog to learn and respond to specific vocal commands given by humans."
+}

@@ -1,0 +1,69 @@
+Key: Mercury_7133700
+
+Question: Which fact about water is an example of a chemical property?
+Options: ['Water expands when it freezes.', 'The boiling point of water is 100ºC.', 'Water can separate into hydrogen and oxygen.', 'The density of water is greater than the density of ice.']
+Answer: Water can separate into hydrogen and oxygen.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water expands when it freezes",
+        "description": "Physical transformation where water increases in volume and decreases in density when it forms ice"
+    },
+    {
+        "name": "Boiling point of water",
+        "description": "The temperature at which water changes from liquid to gas, 100\u00baC at standard pressure"
+    },
+    {
+        "name": "Water can separate into hydrogen and oxygen",
+        "description": "A chemical reaction where water molecules are split into their elemental components, hydrogen and oxygen gases"
+    },
+    {
+        "name": "Density of water",
+        "description": "Mass per unit volume of water at a specific temperature and pressure"
+    },
+    {
+        "name": "Density of ice",
+        "description": "Mass per unit volume of ice, which is less than that of water at 0\u00baC"
+    },
+    {
+        "name": "Chemical property",
+        "description": "Characteristics of a substance that become evident during a chemical reaction, indicating its ability to change into different substances"
+    },
+    {
+        "name": "Physical property",
+        "description": "Characteristics that can be observed or measured without changing the composition of the material"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water expands when it freezes",
+        "relationship": "example of",
+        "related_concept": "Physical property",
+        "description": "Expanding when freezing is a change in state, not composition, making it a physical property"
+    },
+    {
+        "concept": "Boiling point of water",
+        "relationship": "example of",
+        "related_concept": "Physical property",
+        "description": "The boiling point is a temperature at which a physical change happens, marking it as a physical property"
+    },
+    {
+        "concept": "Water can separate into hydrogen and oxygen",
+        "relationship": "example of",
+        "related_concept": "Chemical property",
+        "description": "The ability to separate into hydrogen and oxygen through a chemical reaction shows a change in composition, a chemical property"
+    },
+    {
+        "concept": "Density of water",
+        "relationship": "greater than",
+        "related_concept": "Density of ice",
+        "description": "Water has a higher mass per unit volume compared to ice, relating to its physical, not chemical, properties"
+    }
+]
+
+Model Answer: {
+    "answer": "Water can separate into hydrogen and oxygen.",
+    "reasoning": "The ability of water to separate into hydrogen and oxygen gases through electrolysis or other chemical reactions is a chemical property. This fact relates to how it can change into different substances, distinguishing it from the other options that describe physical properties such as changes in state or measurements that do not involve changing the water into a fundamentally different substance."
+}

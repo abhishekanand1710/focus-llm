@@ -1,0 +1,51 @@
+Key: Mercury_7268223
+
+Question: Which of these is a function of all cells?
+Options: ['to absorb nutrients and gases from blood', 'to extract energy from food to sustain life', 'to produce food using water and carbon dioxide', 'to give shape and structural support to an organism']
+Answer: to extract energy from food to sustain life
+
+Model Response:
+Concepts: [
+    {
+        "name": "absorb nutrients and gases from blood",
+        "description": "Process of taking in nutrients and gases from the blood by cells, not applicable to all cells"
+    },
+    {
+        "name": "extract energy from food to sustain life",
+        "description": "Universal cellular process of converting food into energy"
+    },
+    {
+        "name": "produce food using water and carbon dioxide",
+        "description": "Process known as photosynthesis, specific to plant cells"
+    },
+    {
+        "name": "give shape and structural support to an organism",
+        "description": "Function of certain cells, not a primary function of all cells"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "absorb nutrients and gases from blood",
+        "relationship": "is not a universal function of",
+        "related_concept": "extract energy from food to sustain life",
+        "description": "Absorption from blood is specific to certain cells, while energy extraction is a fundamental process of all cells"
+    },
+    {
+        "concept": "produce food using water and carbon dioxide",
+        "relationship": "is a specific function of",
+        "related_concept": "plant cells",
+        "description": "Only plant cells, through photosynthesis, produce their own food, which is not a feature of all cells"
+    },
+    {
+        "concept": "give shape and structural support to an organism",
+        "relationship": "is not a primary function of",
+        "related_concept": "all cells",
+        "description": "While important, not all cells primarily function to provide structure; their main function is related to sustaining life"
+    }
+]
+
+Model Answer: {
+    "answer": "to extract energy from food to sustain life",
+    "reasoning": "All cells, regardless of their type or organism they belong to, require energy to sustain life. This energy is universally extracted from food or nutrients through cellular respiration or similar processes, making it a fundamental function of all cells. The other options are either too specific to certain cell types or do not represent a primary function of all cells."
+}

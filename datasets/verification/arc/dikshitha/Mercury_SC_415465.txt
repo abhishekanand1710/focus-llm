@@ -1,0 +1,51 @@
+Key: Mercury_SC_415465
+
+Question: Oscar is investigating how many days it takes for a chick to hatch from an egg. Which number of eggs would give Oscar the most reliable results?
+Options: ['1', '3', '5', '7']
+Answer: 7
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sample Size",
+        "description": "The number of observations or data points in a study or experiment"
+    },
+    {
+        "name": "Reliability",
+        "description": "The consistency of a measure or experiment"
+    },
+    {
+        "name": "Chick Hatching",
+        "description": "The process of a chick emerging from its egg"
+    },
+    {
+        "name": "Egg",
+        "description": "An organic vessel containing the zygote in which an animal embryo develops until it can survive on its own"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sample Size",
+        "relationship": "affects",
+        "related_concept": "Reliability",
+        "description": "A larger sample size generally increases the reliability of an experiment's outcomes"
+    },
+    {
+        "concept": "Egg",
+        "relationship": "undergoes",
+        "related_concept": "Chick Hatching",
+        "description": "The egg is the subject of the chick hatching process"
+    },
+    {
+        "concept": "Sample Size",
+        "relationship": "applied_to",
+        "related_concept": "Chick Hatching",
+        "description": "The concept of sample size is applicable in determining the reliability of the results in a chick hatching experiment"
+    }
+]
+
+Model Answer: {
+    "answer": "7",
+    "reasoning": "Given the relationship that a larger sample size increases the reliability of an experiment's outcomes, and considering the options provided, selecting 7 eggs would allow Oscar to achieve the most reliable results in his investigation on how many days it takes for a chick to hatch from an egg. This option ensures that variations and anomalies can be better averaged out, providing a more consistent and reliable result."
+}

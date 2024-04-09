@@ -1,0 +1,81 @@
+Key: Mercury_7222373
+
+Question: Based on the Doppler effect, the electromagnetic waves reaching Earth from a galaxy that is moving away from Earth would be expected to
+Options: ['experience an increase in their amplitude.', 'experience an increase in frequency.', 'experience a decrease from transverse waves to longitudinal waves.', 'experience a decrease in frequency.']
+Answer: experience a decrease in frequency.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Doppler effect",
+        "description": "A change in frequency or wavelength of a wave in relation to an observer moving relative to the wave source"
+    },
+    {
+        "name": "Electromagnetic waves",
+        "description": "Waves of the electromagnetic field, propagating through space, carrying electromagnetic radiant energy"
+    },
+    {
+        "name": "Frequency",
+        "description": "The number of waves that pass a fixed point in unit time"
+    },
+    {
+        "name": "Galaxy",
+        "description": "A huge system of millions or billions of stars, together with gas and dust, held together by gravitational attraction"
+    },
+    {
+        "name": "Amplitude",
+        "description": "The height of a wave's crest"
+    },
+    {
+        "name": "Transverse waves",
+        "description": "Waves in which the displacement of the medium is perpendicular to the direction of propagation of the wave"
+    },
+    {
+        "name": "Longitudinal waves",
+        "description": "Waves in which the displacement of the medium is in the same direction as, or the opposite direction to, the direction of propagation of the wave"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Doppler effect",
+        "relationship": "results in",
+        "related_concept": "change in frequency",
+        "description": "The Doppler effect causes the frequency of waves to change based on the relative motion of the source and the observer."
+    },
+    {
+        "concept": "Electromagnetic waves",
+        "relationship": "emitted by",
+        "related_concept": "Galaxy",
+        "description": "Galaxies emit electromagnetic waves of various frequencies, including visible light."
+    },
+    {
+        "concept": "Galaxy moving away from Earth",
+        "relationship": "leads to",
+        "related_concept": "decrease in frequency",
+        "description": "When a galaxy moves away from Earth, the electromagnetic waves it emits experience a decrease in frequency due to the Doppler effect."
+    },
+    {
+        "concept": "Frequency",
+        "relationship": "opposite of",
+        "related_concept": "Amplitude",
+        "description": "Frequency and amplitude are different characteristics of waves; change in one doesn't imply change in the other."
+    },
+    {
+        "concept": "Electromagnetic waves",
+        "relationship": "type of",
+        "related_concept": "Transverse waves",
+        "description": "Electromagnetic waves are transverse waves."
+    },
+    {
+        "concept": "Transverse waves",
+        "relationship": "contrast to",
+        "related_concept": "Longitudinal waves",
+        "description": "Transverse and longitudinal waves differ in the direction of the displacement of the medium relative to the wave propagation."
+    }
+]
+
+Model Answer: {
+    "answer": "experience a decrease in frequency.",
+    "reasoning": "The Doppler effect explains how the frequency of waves changes due to the motion of the source relative to the observer. When a galaxy is moving away from the Earth, the electromagnetic waves it emits extend in wavelength, or redshift, which results in a decrease in frequency. This change in frequency is a direct consequence of the Doppler effect and is observed with galaxies moving away from the Earth. Neither the amplitude of the waves nor their type (transverse/longitudinal) are affected by the motion of the source relative to the observer in this context."
+}

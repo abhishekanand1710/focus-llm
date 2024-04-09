@@ -1,0 +1,75 @@
+Key: Mercury_7195685
+
+Question: Sea-floor spreading occurs at divergent boundaries. Which statement best identifies the geologic process taking place at the point where sea-floor spreading occurs?
+Options: ['a trench is forming', 'new crust is forming', 'oceanic crust is subducting', 'a continental plate is subducting']
+Answer: new crust is forming
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sea-floor spreading",
+        "description": "The process by which new oceanic crust is formed at divergent boundaries, as molten material from the mantle reaches the Earth's surface and solidifies"
+    },
+    {
+        "name": "Divergent boundaries",
+        "description": "Locations where tectonic plates are moving away from each other"
+    },
+    {
+        "name": "New crust",
+        "description": "Freshly solidified rock that forms the outer layer of the Earth's surface"
+    },
+    {
+        "name": "Trench",
+        "description": "A deep depression on the ocean floor, typically formed at convergent boundaries where one plate is subducting under another"
+    },
+    {
+        "name": "Oceanic crust",
+        "description": "The relatively thin part of the Earth's crust that underlies the ocean basins"
+    },
+    {
+        "name": "Subducting",
+        "description": "The process of one tectonic plate moving under another"
+    },
+    {
+        "name": "Continental plate",
+        "description": "A large, relatively rigid segment of the Earth's crust that forms part of a continent"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sea-floor spreading",
+        "relationship": "occurs at",
+        "related_concept": "Divergent boundaries",
+        "description": "Sea-floor spreading happens where tectonic plates are moving apart, at divergent boundaries"
+    },
+    {
+        "concept": "New crust",
+        "relationship": "is formed by",
+        "related_concept": "Sea-floor spreading",
+        "description": "The creation of new oceanic crust is a direct result of sea-floor spreading"
+    },
+    {
+        "concept": "Trench",
+        "relationship": "is formed at",
+        "related_concept": "Convergent boundaries",
+        "description": "Trenches are typically formed at places where one tectonic plate is subducting under another, not at divergent boundaries"
+    },
+    {
+        "concept": "Oceanic crust",
+        "relationship": "is subducting",
+        "related_concept": "Subducting",
+        "description": "Subduction is the process of oceanic crust moving under another plate"
+    },
+    {
+        "concept": "Continental plate",
+        "relationship": "is subducting",
+        "related_concept": "Subducting",
+        "description": "In some cases, a continental plate can move under another plate through subduction"
+    }
+]
+
+Model Answer: {
+    "answer": "new crust is forming",
+    "reasoning": "Sea-floor spreading occurs at divergent boundaries, which are locations where tectonic plates are moving apart from each other. This process leads to the formation of new oceanic crust as molten material from the mantle reaches the Earth's surface and solidifies. Therefore, the correct option is that new crust is forming, aligning with the definition and outcome of sea-floor spreading."
+}

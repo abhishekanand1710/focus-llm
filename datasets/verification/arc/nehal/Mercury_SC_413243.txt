@@ -1,0 +1,81 @@
+Key: Mercury_SC_413243
+
+Question: How is a moth's life cycle most different from an insect that goes through incomplete metamorphosis?
+Options: ['It creates a cocoon.', 'It becomes an adult.', 'It lays eggs.', 'It eats leaves.']
+Answer: It creates a cocoon.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Moth",
+        "description": "An insect that goes through complete metamorphosis."
+    },
+    {
+        "name": "Incomplete Metamorphosis",
+        "description": "A type of insect development that does not involve a pupal stage."
+    },
+    {
+        "name": "Complete Metamorphosis",
+        "description": "A type of insect development that includes egg, larva, pupa, and adult stages."
+    },
+    {
+        "name": "Cocoon",
+        "description": "A protective casing spun by moth larvae in which they undergo metamorphosis into the adult form."
+    },
+    {
+        "name": "Adult",
+        "description": "The final, sexually mature stage of an insect's life cycle."
+    },
+    {
+        "name": "Eggs",
+        "description": "The first stage of an insect's life cycle."
+    },
+    {
+        "name": "Leaves",
+        "description": "The primary food source for many types of insect larvae, including moths."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Moth",
+        "relationship": "undergoes",
+        "related_concept": "Complete Metamorphosis",
+        "description": "Moths go through complete metamorphosis, which includes a pupal stage."
+    },
+    {
+        "concept": "Complete Metamorphosis",
+        "relationship": "involves",
+        "related_concept": "Cocoon",
+        "description": "The pupal stage in complete metamorphosis involves the formation of a cocoon for moths."
+    },
+    {
+        "concept": "Incomplete Metamorphosis",
+        "relationship": "lacks",
+        "related_concept": "Cocoon",
+        "description": "Insects with incomplete metamorphosis do not form cocoons during their development."
+    },
+    {
+        "concept": "Moth",
+        "relationship": "lays",
+        "related_concept": "Eggs",
+        "description": "Moths lay eggs as the first stage of their life cycle."
+    },
+    {
+        "concept": "Moth",
+        "relationship": "eats",
+        "related_concept": "Leaves",
+        "description": "Moth larvae, or caterpillars, often eat leaves."
+    },
+    {
+        "concept": "Adult",
+        "relationship": "develops_from",
+        "related_concept": "Cocoon",
+        "description": "The adult moth emerges from the cocoon, which was spun by the larva."
+    }
+]
+
+Model Answer: {
+    "answer": "It creates a cocoon.",
+    "reasoning": "The most significant difference between a moth's life cycle and an insect that goes through incomplete metamorphosis is the creation of a cocoon. Moths undergo complete metamorphosis, which includes a pupal stage where the larva forms a cocoon. In contrast, insects with incomplete metamorphosis do not have a pupal stage and, therefore, do not create cocoons."
+}

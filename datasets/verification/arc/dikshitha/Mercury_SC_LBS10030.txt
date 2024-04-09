@@ -1,0 +1,81 @@
+Key: Mercury_SC_LBS10030
+
+Question: When potholders are used to remove hot pans from an oven, the potholders are serving as
+Options: ['conductors.', 'insulators.', 'reflectors.', 'transmitters.']
+Answer: insulators.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Potholders",
+        "description": "Items used to protect hands from hot surfaces."
+    },
+    {
+        "name": "Hot pans",
+        "description": "Cookware that becomes hot when used for cooking, requiring protection to handle."
+    },
+    {
+        "name": "Oven",
+        "description": "A kitchen appliance used for baking or roasting food."
+    },
+    {
+        "name": "Conductors",
+        "description": "Materials that allow heat or electricity to flow through them easily."
+    },
+    {
+        "name": "Insulators",
+        "description": "Materials that do not allow heat or electricity to flow through them easily."
+    },
+    {
+        "name": "Reflectors",
+        "description": "Materials that can reflect light or heat."
+    },
+    {
+        "name": "Transmitters",
+        "description": "Devices or materials that send out a signal, light, heat, or sound."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Potholders",
+        "relationship": "used to handle",
+        "related_concept": "Hot pans",
+        "description": "Potholders are specifically used for handling hot pans to prevent burns."
+    },
+    {
+        "concept": "Hot pans",
+        "relationship": "removed from",
+        "related_concept": "Oven",
+        "description": "Hot pans are typically removed from an oven, which has heated them."
+    },
+    {
+        "concept": "Potholders",
+        "relationship": "function as",
+        "related_concept": "Insulators",
+        "description": "Potholders act as insulators by preventing the heat from the hot pans from reaching the user's hands."
+    },
+    {
+        "concept": "Transmitters",
+        "relationship": "contrast",
+        "related_concept": "Insulators",
+        "description": "Unlike insulators, transmitters would allow the passage of heat, making them unsuitable for this context."
+    },
+    {
+        "concept": "Conductors",
+        "relationship": "oppose",
+        "related_concept": "Insulators",
+        "description": "Conductors allow heat to pass through, while insulators prevent it, highlighting their opposing functions."
+    },
+    {
+        "concept": "Reflectors",
+        "relationship": "diverse function from",
+        "related_concept": "Insulators",
+        "description": "Reflectors bounce heat off their surfaces, a different mechanism of action compared to insulators."
+    }
+]
+
+Model Answer: {
+    "answer": "insulators.",
+    "reasoning": "Potholders are designed to protect the user's hands from the heat of hot pans removed from an oven. This protection is achieved because potholders function as insulators, preventing heat from passing through them to the user's hands. Unlike conductors, which allow heat to pass through, or transmitters, which would disseminate heat or signals, insulators block the flow of heat, making 'insulators.' the correct answer."
+}

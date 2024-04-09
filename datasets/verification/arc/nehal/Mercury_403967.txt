@@ -1,0 +1,81 @@
+Key: Mercury_403967
+
+Question: If 100 grams of vinegar and 5 grams of baking soda are poured in a container, a small amount of gas will be produced. What will the final mass of the products be if the gas is trapped in the container?
+Options: ['100 grams', '104 grams', '105 grams', '110 grams']
+Answer: 105 grams
+
+Model Response:
+Concepts: [
+    {
+        "name": "Vinegar",
+        "description": "A liquid substance commonly used in cooking, composed mainly of acetic acid and water."
+    },
+    {
+        "name": "Baking Soda",
+        "description": "A sodium bicarbonate compound that acts as a leavening agent in baking and reacts with acids to produce carbon dioxide gas."
+    },
+    {
+        "name": "Carbon Dioxide (CO2)",
+        "description": "A colorless, odorless gas produced as a byproduct of the reaction between vinegar and baking soda."
+    },
+    {
+        "name": "Chemical Reaction",
+        "description": "A process that involves the rearrangement of molecular or ionic structure of substances, resulting in the formation of new products."
+    },
+    {
+        "name": "Law of Conservation of Mass",
+        "description": "A principle that states that mass in an isolated system is neither created nor destroyed by chemical reactions or physical transformations."
+    },
+    {
+        "name": "Gas",
+        "description": "One of the fundamental states of matter with no fixed shape or volume."
+    },
+    {
+        "name": "Container",
+        "description": "An item in which substances are held or carried."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Vinegar",
+        "relationship": "reacts with",
+        "related_concept": "Baking Soda",
+        "description": "Vinegar reacts with baking soda to produce carbon dioxide and other substances."
+    },
+    {
+        "concept": "Baking Soda",
+        "relationship": "produces",
+        "related_concept": "Carbon Dioxide (CO2)",
+        "description": "The reaction of baking soda with an acid, like vinegar, produces carbon dioxide gas."
+    },
+    {
+        "concept": "Chemical Reaction",
+        "relationship": "obeys",
+        "related_concept": "Law of Conservation of Mass",
+        "description": "All chemical reactions adhere to the Law of Conservation of Mass, indicating that mass is conserved before and after the reaction."
+    },
+    {
+        "concept": "Carbon Dioxide (CO2)",
+        "relationship": "is a type of",
+        "related_concept": "Gas",
+        "description": "Carbon Dioxide is one specific form of gas produced in many chemical reactions, including the reaction between vinegar and baking soda."
+    },
+    {
+        "concept": "Gas",
+        "relationship": "contained in",
+        "related_concept": "Container",
+        "description": "If produced in an enclosed space, gas will be contained within the container, affecting its total mass."
+    },
+    {
+        "concept": "Container",
+        "relationship": "holds",
+        "related_concept": "Chemical Reaction",
+        "description": "The container holds the substances undergoing the chemical reaction and any products formed."
+    }
+]
+
+Model Answer: {
+    "answer": "105 grams",
+    "reasoning": "According to the Law of Conservation of Mass, the total mass before and after a chemical reaction must remain constant if the system is closed, meaning no mass is lost to the environment. In this scenario, 100 grams of vinegar react with 5 grams of baking soda, giving a total initial mass of 105 grams. As the gas produced is trapped within the container, no mass is lost, and thus the final mass of the products, including the trapped gas, remains 105 grams. Hence, '105 grams' is the correct answer."
+}

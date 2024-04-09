@@ -1,0 +1,61 @@
+Key: MCAS_2007_8_5171
+
+Question: Laura adds 50 mL of boiling water to 100 mL of ice water. If the 150 mL of water is then put into a freezer, at what temperature will the water freeze?
+Options: ['0°C', '15°C', '37°C', '50°C']
+Answer: 0°C
+
+Model Response:
+Concepts: [
+    {
+        "name": "boiling water",
+        "description": "Water at its boiling point, typically 100\u00b0C at standard atmospheric pressure."
+    },
+    {
+        "name": "ice water",
+        "description": "Water in thermal equilibrium with ice, typically at 0\u00b0C."
+    },
+    {
+        "name": "freezer",
+        "description": "An appliance designed to lower the temperature of its contents and maintain that lower temperature."
+    },
+    {
+        "name": "temperature",
+        "description": "A measure of the warmth or coldness of an object or substance with reference to some standard value."
+    },
+    {
+        "name": "water freeze point",
+        "description": "The temperature at which liquid water becomes solid ice, 0\u00b0C under standard atmospheric conditions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "boiling water",
+        "relationship": "mixed with",
+        "related_concept": "ice water",
+        "description": "Boiling water is added to ice water leading to a temperature change."
+    },
+    {
+        "concept": "mixed water",
+        "relationship": "put into",
+        "related_concept": "freezer",
+        "description": "The mixture of boiling and ice water is placed in a freezer for cooling."
+    },
+    {
+        "concept": "freezer",
+        "relationship": "lowers temperature of",
+        "related_concept": "mixed water",
+        "description": "The freezer lowers the temperature of its contents until freezing is achieved."
+    },
+    {
+        "concept": "water freeze point",
+        "relationship": "determines freezing",
+        "related_concept": "mixed water",
+        "description": "The point at which water in the freezer will turn to ice."
+    }
+]
+
+Model Answer: {
+    "answer": "0\u00b0C",
+    "reasoning": "The process of freezing water is not dependent on the initial temperature of the water (whether it's boiling or ice water originally) once mixed; it eventually reaches the ambient temperature of the freezer. The critical temperature at which water turns to ice is its freeze point, which is 0\u00b0C under standard conditions. Regardless of the starting temperatures of the water added together, once the mixed water is placed in a freezer, it will freeze at the water freeze point, which is 0\u00b0C."
+}

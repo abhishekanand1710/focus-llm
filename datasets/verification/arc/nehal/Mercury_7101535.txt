@@ -1,0 +1,63 @@
+Key: Mercury_7101535
+
+Question: Which of these determines whether a fertilized egg develops into a toad, a snake, or a lizard?
+Options: ['the sex of the egg', 'the age of the egg', 'the size of the egg', 'the genes of the egg']
+Answer: the genes of the egg
+
+Model Response:
+Concepts: [
+    {
+        "name": "the sex of the egg",
+        "description": "Refers to the biological differences of male and female gametes."
+    },
+    {
+        "name": "the age of the egg",
+        "description": "Refers to the time duration after the egg has been fertilized."
+    },
+    {
+        "name": "the size of the egg",
+        "description": "Refers to the physical dimensions or volume of the egg."
+    },
+    {
+        "name": "the genes of the egg",
+        "description": "Refers to the DNA sequences within the egg that determine the inherited characteristics."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "the genes of the egg",
+        "relationship": "determine",
+        "related_concept": "the development of the fertilized egg",
+        "description": "The genes within an egg contain the biological instructions for development into an organism."
+    },
+    {
+        "concept": "the development of the fertilized egg",
+        "relationship": "results in",
+        "related_concept": "a toad, a snake, or a lizard",
+        "description": "The outcome of the egg's development is a specific organism depending on the genetic instructions."
+    },
+    {
+        "concept": "the sex of the egg",
+        "relationship": "influences",
+        "related_concept": "characteristics of the offspring",
+        "description": "While the sex may influence traits of the offspring, it does not determine species type."
+    },
+    {
+        "concept": "the age of the egg",
+        "relationship": "affects",
+        "related_concept": "the developmental stage",
+        "description": "The age may affect the progression through developmental stages but not the species."
+    },
+    {
+        "concept": "the size of the egg",
+        "relationship": "correlates with",
+        "related_concept": "species-specific traits",
+        "description": "Egg size may be characteristic of certain species but is not a determinant of species."
+    }
+]
+
+Model Answer: {
+    "answer": "the genes of the egg",
+    "reasoning": "The genes within an egg carry the inherent information necessary for determining the species of the resulting organism, such as a toad, snake, or lizard. These genetic instructions guide the developmental processes that result in the specific physical and physiological traits characteristic of each species. The other options, such as the sex, age, or size of the egg, might influence traits within a species or the development stage but do not determine the species itself."
+}

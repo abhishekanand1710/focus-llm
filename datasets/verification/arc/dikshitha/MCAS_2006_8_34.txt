@@ -1,0 +1,71 @@
+Key: MCAS_2006_8_34
+
+Question: Spirogyra are green algae that can reproduce sexually. Which of the following features identifies reproduction in Spirogyra as sexual reproduction?
+Options: ['The cells of parent algae have nuclei.', 'Each offspring contains chloroplasts.', 'Several offspring may be produced at once.', 'Genetic material is contributed by two parent cells.']
+Answer: Genetic material is contributed by two parent cells.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Spirogyra",
+        "description": "A genus of filamentous green algae known for its beautiful spiral chloroplasts."
+    },
+    {
+        "name": "Sexual reproduction",
+        "description": "A biological process where two cells from different individuals unite to produce the first cell of a new organism."
+    },
+    {
+        "name": "Nucleus",
+        "description": "A membrane-bound organelle that contains the cell's chromosomes."
+    },
+    {
+        "name": "Chloroplast",
+        "description": "A type of organelle in plant and algae cells where photosynthesis takes place."
+    },
+    {
+        "name": "Genetic material",
+        "description": "The medium by which instructions are transmitted from one generation of organisms to the next; in most life forms, this is DNA."
+    },
+    {
+        "name": "Parent cells",
+        "description": "Cells that give rise to daughter cells through the cellular division process."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Spirogyra",
+        "relationship": "undergoes",
+        "related_concept": "Sexual reproduction",
+        "description": "Spirogyra can reproduce through a process of sexual reproduction."
+    },
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "involves",
+        "related_concept": "Genetic material",
+        "description": "Sexual reproduction involves the combination of genetic material from two different cells."
+    },
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "results in",
+        "related_concept": "Parent cells",
+        "description": "Sexual reproduction results in offspring that are genetically distinct from either parent cell."
+    },
+    {
+        "concept": "Nucleus",
+        "relationship": "contains",
+        "related_concept": "Genetic material",
+        "description": "The nucleus is the organelle that contains the cell's genetic material."
+    },
+    {
+        "concept": "Chloroplast",
+        "relationship": "located in",
+        "related_concept": "Spirogyra",
+        "description": "Chloroplasts are located within Spirogyra cells and are essential for photosynthesis."
+    }
+]
+
+Model Answer: {
+    "answer": "'Genetic material is contributed by two parent cells.'",
+    "reasoning": "The key characteristic that identifies reproduction in Spirogyra as sexual reproduction is the contribution of genetic material by two parent cells. This is a defining feature of sexual reproduction, involving the combination of genetic material from two different individuals to produce genetically distinct offspring. The presence of nuclei, chloroplasts in offspring, or the production of several offspring at once are all aspects that can occur in both sexual and asexual reproduction and do not specifically identify sexual reproduction."
+}

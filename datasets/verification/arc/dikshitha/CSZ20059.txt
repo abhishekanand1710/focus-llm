@@ -1,0 +1,81 @@
+Key: CSZ20059
+
+Question: Which action will result in a product with new chemical properties?
+Options: ['shredding a newspaper', 'breaking a mirror', 'cutting wood', 'popping popcorn']
+Answer: popping popcorn
+
+Model Response:
+Concepts: [
+    {
+        "name": "shredding a newspaper",
+        "description": "Physically altering paper by cutting it into smaller pieces without changing its chemical composition."
+    },
+    {
+        "name": "breaking a mirror",
+        "description": "Physically altering glass by cracking or fracturing it, without changing its chemical composition."
+    },
+    {
+        "name": "cutting wood",
+        "description": "Physically altering wood by sawing or slicing it, without changing its chemical composition."
+    },
+    {
+        "name": "popping popcorn",
+        "description": "Heating corn kernels causing them to explode and puff up, changing their physical and chemical properties."
+    },
+    {
+        "name": "chemical properties",
+        "description": "Characteristics of a substance that determine how it interacts with other substances resulting in a chemical change."
+    },
+    {
+        "name": "physical change",
+        "description": "A change that alters the form or appearance of a substance but does not make the substance into another chemical substance."
+    },
+    {
+        "name": "chemical change",
+        "description": "A change that occurs when a substance combines with another to form a new substance, with different chemical properties."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "shredding a newspaper",
+        "relationship": "is a type of",
+        "related_concept": "physical change",
+        "description": "Shredding a newspaper is a physical change because it alters appearance without changing chemical composition."
+    },
+    {
+        "concept": "breaking a mirror",
+        "relationship": "is a type of",
+        "related_concept": "physical change",
+        "description": "Breaking a mirror is a physical change because it alters appearance without changing chemical composition."
+    },
+    {
+        "concept": "cutting wood",
+        "relationship": "is a type of",
+        "related_concept": "physical change",
+        "description": "Cutting wood is a physical change because it alters appearance without changing chemical composition."
+    },
+    {
+        "concept": "popping popcorn",
+        "relationship": "results in",
+        "related_concept": "chemical change",
+        "description": "Popping popcorn results in a chemical change due to the heat triggering a transformation in the chemical composition."
+    },
+    {
+        "concept": "physical change",
+        "relationship": "does not change",
+        "related_concept": "chemical properties",
+        "description": "A physical change does not alter the chemical properties of the substance involved."
+    },
+    {
+        "concept": "chemical change",
+        "relationship": "changes",
+        "related_concept": "chemical properties",
+        "description": "A chemical change alters the chemical properties of the substances involved."
+    }
+]
+
+Model Answer: {
+    "answer": "popping popcorn",
+    "reasoning": "Out of the given options, only 'popping popcorn' results in a chemical change, which by its nature alters the chemical properties of the corn kernels. Heating corn kernels causes them to transform, resulting in new substances with new chemical properties, unlike the physical changes involved in shredding a newspaper, breaking a mirror, or cutting wood, which do not change the substances\u2019 chemical properties."
+}

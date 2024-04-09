@@ -1,0 +1,65 @@
+Key: Mercury_7221795
+
+Question: As part of a study, a scientist observed a number of different molecular changes in matter. Which of the following observations provides evidence of a physical change?
+Options: ['using heat to burn a log in a fireplace', 'using light to produce sugar in plants', 'a cake that was baked from many ingredients', 'a bottle that was broken into many small pieces']
+Answer: a bottle that was broken into many small pieces
+
+Model Response:
+Concepts: [
+    {
+        "name": "Physical change",
+        "description": "A change that alters the form or appearance of material but does not make any substance in the material into a different substance"
+    },
+    {
+        "name": "Chemical change",
+        "description": "A change where a new form of matter is formed"
+    },
+    {
+        "name": "Heat to burn a log",
+        "description": "A process that involves combustion to change the chemical composition of the log"
+    },
+    {
+        "name": "Light to produce sugar in plants",
+        "description": "Photosynthesis, a process where plants convert light into chemical energy (sugar)"
+    },
+    {
+        "name": "Baking a cake",
+        "description": "A process that involves mixing ingredients and heating to cause chemical reactions creating a new product"
+    },
+    {
+        "name": "Breaking a bottle",
+        "description": "A physical act that changes the shape or form of the bottle without altering its chemical structure"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Physical change",
+        "relationship": "is demonstrated by",
+        "related_concept": "Breaking a bottle",
+        "description": "Breaking a bottle into pieces changes its form but not its chemical composition, exemplifying a physical change"
+    },
+    {
+        "concept": "Chemical change",
+        "relationship": "is demonstrated by",
+        "related_concept": "Heat to burn a log",
+        "description": "Burning a log changes its chemical composition, demonstrating a chemical change"
+    },
+    {
+        "concept": "Chemical change",
+        "relationship": "is demonstrated by",
+        "related_concept": "Light to produce sugar in plants",
+        "description": "The process of photosynthesis where plants produce sugar from light is a chemical change"
+    },
+    {
+        "concept": "Chemical change",
+        "relationship": "is demonstrated by",
+        "related_concept": "Baking a cake",
+        "description": "Baking a cake from many ingredients through heat creates a new product, demonstrating a chemical change"
+    }
+]
+
+Model Answer: {
+    "answer": "a bottle that was broken into many small pieces",
+    "reasoning": "Among the given options, only the act of breaking a bottle into many small pieces corresponds to a physical change. This is because it alters the bottle's appearance and form without changing its chemical structure, which is the key characteristic of a physical change."
+}

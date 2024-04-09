@@ -1,0 +1,65 @@
+Key: MDSA_2010_5_2
+
+Question: Materials combine chemically or physically. Which materials form a new substance when chemically combined?
+Options: ['salt and pepper', 'water and sugar', 'iron nails and pennies', 'baking soda and vinegar']
+Answer: baking soda and vinegar
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical combination",
+        "description": "A process where two or more substances combine to form a new substance with different properties."
+    },
+    {
+        "name": "Physical combination",
+        "description": "A process where substances mix without forming new chemical substances."
+    },
+    {
+        "name": "Salt and pepper",
+        "description": "A physical mixture of two spices without a chemical reaction."
+    },
+    {
+        "name": "Water and sugar",
+        "description": "A solution where sugar dissolves in water, not forming a new chemical substance."
+    },
+    {
+        "name": "Iron nails and pennies",
+        "description": "A physical mixture of metal objects without a chemical reaction."
+    },
+    {
+        "name": "Baking soda and vinegar",
+        "description": "Reactants in a chemical reaction that produces carbon dioxide gas, water, and a salt."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Salt and pepper",
+        "relationship": "example of",
+        "related_concept": "Physical combination",
+        "description": "Salt and pepper mixed together do not chemically react."
+    },
+    {
+        "concept": "Water and sugar",
+        "relationship": "example of",
+        "related_concept": "Physical combination",
+        "description": "Sugar dissolves in water, but they do not form a new chemical substance."
+    },
+    {
+        "concept": "Iron nails and pennies",
+        "relationship": "example of",
+        "related_concept": "Physical combination",
+        "description": "Iron nails and pennies mixed together do not undergo a chemical change."
+    },
+    {
+        "concept": "Baking soda and vinegar",
+        "relationship": "reactants in",
+        "related_concept": "Chemical combination",
+        "description": "Baking soda and vinegar react chemically to form new substances."
+    }
+]
+
+Model Answer: {
+    "answer": "baking soda and vinegar",
+    "reasoning": "Among the given options, only the combination of baking soda and vinegar results in a chemical reaction where new substances are formed, such as carbon dioxide gas, water, and a salt. This aligns with the definition of a chemical combination where two or more substances combine to form a new substance with different properties."
+}

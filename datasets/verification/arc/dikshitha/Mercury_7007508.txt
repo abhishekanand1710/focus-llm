@@ -1,0 +1,51 @@
+Key: Mercury_7007508
+
+Question: When a compression wave travels through a medium, in what direction is the medium displaced?
+Options: ['upward', 'downward', 'in the same direction', 'in the opposite direction']
+Answer: in the same direction
+
+Model Response:
+Concepts: [
+    {
+        "name": "Compression wave",
+        "description": "A type of wave where the direction of displacement of the medium's particles is parallel to the direction of wave propagation."
+    },
+    {
+        "name": "Medium",
+        "description": "A physical substance through which waves can travel."
+    },
+    {
+        "name": "Displacement",
+        "description": "The action of moving something from its place or position."
+    },
+    {
+        "name": "Direction of wave propagation",
+        "description": "The direction in which the wave travels through the medium."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Compression wave",
+        "relationship": "propagates through",
+        "related_concept": "Medium",
+        "description": "Compression waves travel through a medium, causing particles to move."
+    },
+    {
+        "concept": "Displacement",
+        "relationship": "caused by",
+        "related_concept": "Compression wave",
+        "description": "The compression wave causes displacement of medium's particles."
+    },
+    {
+        "concept": "Direction of wave propagation",
+        "relationship": "is the direction of",
+        "related_concept": "Displacement",
+        "description": "In a compression wave, the displacement of medium's particles is in the same direction as the wave propagation."
+    }
+]
+
+Model Answer: {
+    "answer": "in the same direction",
+    "reasoning": "Compression waves cause the medium's particles to move in a way that their displacement is parallel to, or in the same direction as, the direction of the wave's propagation."
+}

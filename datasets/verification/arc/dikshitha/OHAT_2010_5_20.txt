@@ -1,0 +1,67 @@
+Key: OHAT_2010_5_20
+
+Question: Nectar is a sweet liquid that some flowering plants produce. A hummingbird drinks nectar from a flower. When a hummingbird drinks nectar, pollen from the flower sticks to the hummingbird's beak. The picture shows a hummingbird drinking nectar from a flower. Which statement explains the role of a hummingbird in the life cycle of a flowering plant?
+Options: ['A hummingbird carries food to the plant.', 'A hummingbird helps the plant reproduce.', 'A hummingbird protects the plant from predators.', 'A hummingbird makes the flowers produce nectar.']
+Answer: A hummingbird helps the plant reproduce.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Nectar",
+        "description": "A sweet liquid produced by flowers to attract pollinators."
+    },
+    {
+        "name": "Flowering plants",
+        "description": "Plants that produce flowers for reproduction."
+    },
+    {
+        "name": "Hummingbird",
+        "description": "A small bird that feeds on nectar from flowers."
+    },
+    {
+        "name": "Pollen",
+        "description": "A fine powdery substance, typically yellow, containing the male gametes of seed plants."
+    },
+    {
+        "name": "Reproduction in plants",
+        "description": "The biological process by which plants produce new individuals, or offspring."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Nectar",
+        "relationship": "attracts",
+        "related_concept": "Hummingbird",
+        "description": "Nectar attracts hummingbirds to flowers for feeding."
+    },
+    {
+        "concept": "Hummingbird",
+        "relationship": "feeds on",
+        "related_concept": "Nectar",
+        "description": "Hummingbirds feed on the nectar of flowers."
+    },
+    {
+        "concept": "Hummingbird",
+        "relationship": "carries",
+        "related_concept": "Pollen",
+        "description": "When hummingbirds feed on nectar, pollen sticks to their beak and is carried to other flowers."
+    },
+    {
+        "concept": "Pollen",
+        "relationship": "is required for",
+        "related_concept": "Reproduction in plants",
+        "description": "Pollen is necessary for the fertilization and reproductive process in flowering plants."
+    },
+    {
+        "concept": "Flowering plants",
+        "relationship": "produce",
+        "related_concept": "Nectar",
+        "description": "Flowering plants produce nectar to attract pollinators like hummingbirds."
+    }
+]
+
+Model Answer: {
+    "answer": "A hummingbird helps the plant reproduce.",
+    "reasoning": "The relationship between hummingbirds and flowering plants is crucial for plant reproduction. As hummingbirds feed on the nectar of flowers, pollen sticks to their beak and is then carried to another flower. This process of transferring pollen from one flower to another, known as pollination, is essential for the reproductive cycle of flowering plants. Therefore, hummingbirds play a significant role in helping flowering plants reproduce by facilitating the pollination process."
+}

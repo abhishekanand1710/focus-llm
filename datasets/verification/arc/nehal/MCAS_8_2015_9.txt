@@ -1,0 +1,71 @@
+Key: MCAS_8_2015_9
+
+Question: A company is designing a new laptop computer. The computer must not exceed a certain weight. Which of the following is the most likely reason to have a weight restriction for the computer?
+Options: ['to make it easier to test the prototype', 'to reduce the cost of making the computer', 'to make it easier to transport the computer', 'to reduce the cost of building the prototype']
+Answer: to make it easier to transport the computer
+
+Model Response:
+Concepts: [
+    {
+        "name": "Laptop computer",
+        "description": "A portable personal computer."
+    },
+    {
+        "name": "Weight restriction",
+        "description": "A limit on the weight of an object."
+    },
+    {
+        "name": "Prototype testing",
+        "description": "The process of evaluating the initial version of a product."
+    },
+    {
+        "name": "Manufacturing cost",
+        "description": "The total expense incurred in producing a product."
+    },
+    {
+        "name": "Transportability",
+        "description": "The ease with which something can be moved from one place to another."
+    },
+    {
+        "name": "Prototype building cost",
+        "description": "The expense involved in creating the first model of a product."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Laptop computer",
+        "relationship": "has attribute",
+        "related_concept": "Weight restriction",
+        "description": "A laptop computer must adhere to a specific weight limit for practical purposes."
+    },
+    {
+        "concept": "Weight restriction",
+        "relationship": "affects",
+        "related_concept": "Transportability",
+        "description": "A weight restriction directly impacts how easily a laptop can be transported."
+    },
+    {
+        "concept": "Laptop computer",
+        "relationship": "requires",
+        "related_concept": "Prototype testing",
+        "description": "A laptop computer must undergo prototype testing to ensure functionality and quality."
+    },
+    {
+        "concept": "Laptop computer",
+        "relationship": "incurs",
+        "related_concept": "Manufacturing cost",
+        "description": "Producing a laptop computer involves various manufacturing costs."
+    },
+    {
+        "concept": "Laptop computer",
+        "relationship": "incurs",
+        "related_concept": "Prototype building cost",
+        "description": "Creating the initial prototype of a laptop computer requires certain investments."
+    }
+]
+
+Model Answer: {
+    "answer": "to make it easier to transport the computer",
+    "reasoning": "Among the given options, the most relevant reason for imposing a weight restriction on a laptop computer is to enhance its transportability. Laptops are valued for their portability, and a lighter device significantly contributes to this characteristic, making it easier for users to carry it around. Unlike the other options, which either involve costs (manufacturing costs, the cost of building the prototype) or testing ease, which are less directly impacted by the weight of the laptop, transportability is a core feature that directly benefits from a lower weight, aligning with the primary appeal of laptops as portable devices."
+}

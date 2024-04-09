@@ -1,0 +1,51 @@
+Key: MDSA_2010_8_18
+
+Question: Human bodies have complex structures that support growth and survival. What is the most basic structure of the human body that supports growth and survival?
+Options: ['a cell', 'a tissue', 'an organ', 'an organ system']
+Answer: a cell
+
+Model Response:
+Concepts: [
+    {
+        "name": "a cell",
+        "description": "The smallest structural and functional unit of an organism, typically microscopic and consisting of cytoplasm and a nucleus enclosed in a membrane."
+    },
+    {
+        "name": "a tissue",
+        "description": "An ensemble of similar cells from the same origin that together carry out a specific function."
+    },
+    {
+        "name": "an organ",
+        "description": "A part of the body of a living organism that is typically self-contained and has a specific vital function, such as the heart or liver in humans."
+    },
+    {
+        "name": "an organ system",
+        "description": "A group of organs that work together to perform one or more functions. Each does a particular job in the body, and is made up of certain tissues."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "a cell",
+        "relationship": "forms",
+        "related_concept": "a tissue",
+        "description": "Cells form tissues by grouping together to perform a specific function."
+    },
+    {
+        "concept": "a tissue",
+        "relationship": "combines",
+        "related_concept": "an organ",
+        "description": "Tissues combine to form an organ, working together to perform specific functions within an organism."
+    },
+    {
+        "concept": "an organ",
+        "relationship": "part_of",
+        "related_concept": "an organ system",
+        "description": "Organs are part of an organ system, where they work in concert to perform complex functions for the organism."
+    }
+]
+
+Model Answer: {
+    "answer": "a cell",
+    "reasoning": "The most basic structure of the human body that supports growth and survival is 'a cell'. Cells are the fundamental unit of life, making up all tissues, organs, and organ systems in the body. They perform a wide array of functions essential for the growth and survival of organisms, initiating the hierarchy of biological organization from the simplest to the most complex structures."
+}

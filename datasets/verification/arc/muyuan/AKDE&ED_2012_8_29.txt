@@ -1,0 +1,75 @@
+Key: AKDE&ED_2012_8_29
+
+Question: A research scientist repeatedly observes a bird avoiding a specific butterfly species even  though it eats other types of butterflies. Which statement most likely explains the behavior of the bird?
+Options: ['The behavior is a random act.', 'The behavior is the result of a genetic mutation.', "The behavior is inherited from the bird's parents.", 'The behavior is learned over the lifetime of the bird.']
+Answer: The behavior is learned over the lifetime of the bird.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Bird",
+        "description": "A feathered vertebrate animal that is capable of flying."
+    },
+    {
+        "name": "Butterfly",
+        "description": "An insect with large wings that is known for its colorful patterns."
+    },
+    {
+        "name": "Avoidance behavior",
+        "description": "An action taken by an animal to avoid certain stimuli that could be harmful or undesirable."
+    },
+    {
+        "name": "Learned behavior",
+        "description": "Behavior that an animal acquires over its lifetime through experiences and interactions with the environment."
+    },
+    {
+        "name": "Genetic mutation",
+        "description": "A change in the DNA sequence within an organism's gene or chromosome, leading to variations in its traits or behavior."
+    },
+    {
+        "name": "Inherited behavior",
+        "description": "Behavior passed down from parents to offspring through genes."
+    },
+    {
+        "name": "Random act",
+        "description": "An action taken without a particular reason or pattern."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Bird",
+        "relationship": "exhibits",
+        "related_concept": "Avoidance behavior",
+        "description": "The bird shows a specific reaction to avoid the butterfly species."
+    },
+    {
+        "concept": "Avoidance behavior",
+        "relationship": "might be a result of",
+        "related_concept": "Learned behavior",
+        "description": "The bird\u2019s avoidance could have been learned through experience."
+    },
+    {
+        "concept": "Learned behavior",
+        "relationship": "contrasts with",
+        "related_concept": "Genetic mutation",
+        "description": "Learned behavior is acquired, unlike traits determined by genetic mutations."
+    },
+    {
+        "concept": "Learned behavior",
+        "relationship": "opposes",
+        "related_concept": "Inherited behavior",
+        "description": "Learned behavior is developed through life, rather than inherited genetically from parents."
+    },
+    {
+        "concept": "Learned behavior",
+        "relationship": "not explained by",
+        "related_concept": "Random act",
+        "description": "Learned behavior is a result of specific experiences, unlike a random act without motive."
+    }
+]
+
+Model Answer: {
+    "answer": "The behavior is learned over the lifetime of the bird.",
+    "reasoning": "Given the context that the bird avoids a specific butterfly species while consuming other types, it indicates a particular response developed through experience. This specific behavior is less likely to be a result of genetic mutations or inherited behavior since it is a targeted response to a specific type of butterfly, which suggests an adaptation or a learned behavior over time rather than a random act or inherent instinct. Unlike a genetic mutation or inherited behavior, learned behavior stems from the bird's interaction with its environment, potentially after experiencing or observing negative consequences from trying to eat that specific butterfly species."
+}

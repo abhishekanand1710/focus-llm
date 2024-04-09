@@ -1,0 +1,61 @@
+Key: Mercury_401790
+
+Question: Which situation is an example of an inherited trait?
+Options: ['lions preying on zebras', 'monkeys using twigs to get food', 'birds following migratory patterns', 'bears opening coolers at campsites']
+Answer: lions preying on zebras
+
+Model Response:
+Concepts: [
+    {
+        "name": "Inherited Trait",
+        "description": "A characteristic or feature passed from parent to offspring through genes"
+    },
+    {
+        "name": "Lions Preying on Zebras",
+        "description": "A behavioral pattern where lions hunt zebras for food"
+    },
+    {
+        "name": "Monkeys Using Twigs to Get Food",
+        "description": "An example of tool use where monkeys manipulate twigs to access food"
+    },
+    {
+        "name": "Birds Following Migratory Patterns",
+        "description": "Seasonal movement of birds from one region to another, often driven by changes in climate and available resources"
+    },
+    {
+        "name": "Bears Opening Coolers at Campsites",
+        "description": "Behavior observed in bears where they open coolers to access food in human camping areas"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Inherited Trait",
+        "relationship": "is_exemplified_by",
+        "related_concept": "Birds Following Migratory Patterns",
+        "description": "The migratory patterns of birds are an example of an inherited trait, encoded genetically and passed down through generations"
+    },
+    {
+        "concept": "Lions Preying on Zebras",
+        "relationship": "is_not_example_of",
+        "related_concept": "Inherited Trait",
+        "description": "Preying on zebras is a learned behavior for survival, not directly an inherited genetic trait"
+    },
+    {
+        "concept": "Monkeys Using Twigs to Get Food",
+        "relationship": "is_not_example_of",
+        "related_concept": "Inherited Trait",
+        "description": "The use of twigs to get food by monkeys is more of a learned or cultural behavior than a directly inherited trait"
+    },
+    {
+        "concept": "Bears Opening Coolers at Campsites",
+        "relationship": "is_not_example_of",
+        "related_concept": "Inherited Trait",
+        "description": "Opening coolers at campsites by bears is learned behavior influenced by the environment, not an inherited trait"
+    }
+]
+
+Model Answer: {
+    "answer": "Birds Following Migratory Patterns",
+    "reasoning": "Birds following migratory patterns is an inherited trait because it is a behavior that is genetically encoded and passed from parents to offspring, not learned from experience. This is unlike the other examples provided, such as lions preying on zebras, monkeys using twigs to get food, and bears opening coolers at campsites, which are behaviors that are learned or influenced by environmental factors rather than strictly inherited."
+}

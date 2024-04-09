@@ -1,0 +1,71 @@
+Key: Mercury_7038570
+
+Question: Students are learning about different types of waves. Which is the least likely way for the students to generate a wave?
+Options: ['by tossing a ball in the air', 'by shaking the ends of a rope', 'by throwing a pebble into a pool of water', 'by pulling on a coiled spring toy']
+Answer: by tossing a ball in the air
+
+Model Response:
+Concepts: [
+    {
+        "name": "Wave",
+        "description": "A disturbance that transfers energy from one place to another."
+    },
+    {
+        "name": "Mechanical wave",
+        "description": "Wave that requires a medium through which to travel."
+    },
+    {
+        "name": "Tossing a ball in the air",
+        "description": "A physical action where a ball is thrown upwards into the air."
+    },
+    {
+        "name": "Shaking the ends of a rope",
+        "description": "A method to create waves along the length of the rope."
+    },
+    {
+        "name": "Throwing a pebble into a pool of water",
+        "description": "Creates ripples or waves in the water."
+    },
+    {
+        "name": "Pulling on a coiled spring toy",
+        "description": "Can create waves along the coils of the spring."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Wave",
+        "relationship": "requires medium",
+        "related_concept": "Mechanical wave",
+        "description": "Mechanical waves need a material medium like rope, water, or spring to travel through."
+    },
+    {
+        "concept": "Shaking the ends of a rope",
+        "relationship": "creates",
+        "related_concept": "Mechanical wave",
+        "description": "Shaking a rope induces mechanical waves along its length."
+    },
+    {
+        "concept": "Throwing a pebble into a pool of water",
+        "relationship": "creates",
+        "related_concept": "Mechanical wave",
+        "description": "The action causes ripples, a type of mechanical wave, on the water's surface."
+    },
+    {
+        "concept": "Pulling on a coiled spring toy",
+        "relationship": "creates",
+        "related_concept": "Mechanical wave",
+        "description": "Pulling and releasing creates compressional waves along the spring."
+    },
+    {
+        "concept": "Tossing a ball in the air",
+        "relationship": "does not create",
+        "related_concept": "Mechanical wave",
+        "description": "This action does not generate waves in a medium around it."
+    }
+]
+
+Model Answer: {
+    "answer": "by tossing a ball in the air",
+    "reasoning": "Tossing a ball in the air does not create a wave in a medium around it, unlike shaking a rope, throwing a pebble into water, or pulling on a coiled spring toy, all of which generate mechanical waves in their respective mediums."
+}

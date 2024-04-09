@@ -1,0 +1,79 @@
+Key: MDSA_2008_5_40
+
+Question: A student is investigating changes in the states of matter. The student fills a graduated cylinder with 50 milliliters of packed snow. The graduated cylinder has a mass of 50 grams when empty and 95 grams when filled with the snow. The packed snow changes to liquid water when the snow is put in a warm room. Which statement best describes this process?
+Options: ['Cooling causes the snow to melt.', 'Cooling causes the snow to freeze.', 'Heating causes the snow to freeze.', 'Heating causes the snow to melt.']
+Answer: Heating causes the snow to melt.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Snow",
+        "description": "Frozen water in a solid state that falls as precipitation."
+    },
+    {
+        "name": "Water",
+        "description": "A liquid substance at standard temperature and pressure."
+    },
+    {
+        "name": "Heating",
+        "description": "The process of raising the temperature of a substance."
+    },
+    {
+        "name": "Melting",
+        "description": "The transition of a substance from solid to liquid when heat is applied."
+    },
+    {
+        "name": "Cooling",
+        "description": "The process of lowering the temperature of a substance."
+    },
+    {
+        "name": "States of Matter",
+        "description": "Distinct forms that different phases of matter take on, including solid, liquid, and gas."
+    },
+    {
+        "name": "Graduated Cylinder",
+        "description": "A piece of laboratory equipment used to measure the volume of a liquid."
+    },
+    {
+        "name": "Freezing",
+        "description": "The transition of a substance from liquid to solid when heat is removed."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Snow",
+        "relationship": "transition_to",
+        "related_concept": "Water",
+        "description": "Snow melts into water when heated."
+    },
+    {
+        "concept": "Heating",
+        "relationship": "causes",
+        "related_concept": "Melting",
+        "description": "Heating causes melting of snow into water."
+    },
+    {
+        "concept": "Cooling",
+        "relationship": "causes",
+        "related_concept": "Freezing",
+        "description": "Cooling causes water to freeze into snow."
+    },
+    {
+        "concept": "States of Matter",
+        "relationship": "includes",
+        "related_concept": "Snow/Water",
+        "description": "States of matter include solid (snow) and liquid (water)."
+    },
+    {
+        "concept": "Graduated Cylinder",
+        "relationship": "used_for",
+        "related_concept": "Measuring Volume",
+        "description": "Graduated cylinders are used to measure the volume of liquids."
+    }
+]
+
+Model Answer: {
+    "answer": "Heating causes the snow to melt.",
+    "reasoning": "The process described indicates that the snow, which is in a solid state, transforms into water, a liquid, when placed in a warmer environment. This transition from solid to liquid is known as melting, and it occurs due to the application of heat. Therefore, among the given options, heating causing the snow to melt is the correct description of the process observed."
+}

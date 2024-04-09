@@ -1,0 +1,75 @@
+Key: Mercury_416464
+
+Question: A student used the dimmest setting on a light microscope to observe a euglena and an amoeba. The student shined a narrow beam of light at the top of the cover slip. She observed that the euglena swam up toward the light but the amoeba did not. She knew the amoeba was alive because it slowly changed shape while she watched. What inference should the student draw from her observation?
+Options: ['An amoeba can only move side to side.', 'An amoeba is unable to respond to light.', 'An amoeba moves too slowly to observe.', 'An amoeba only moves when it is hungry.']
+Answer: An amoeba is unable to respond to light.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Euglena",
+        "description": "A single-celled aquatic organism that can photosynthesize, often moving towards light."
+    },
+    {
+        "name": "Amoeba",
+        "description": "A type of single-celled organism that moves and ingests food by extending pseudopods."
+    },
+    {
+        "name": "Light Microscope",
+        "description": "A tool that uses light and lens systems to magnify objects not visible to the naked eye."
+    },
+    {
+        "name": "Phototaxis",
+        "description": "Movement of an organism in response to light, either towards it (positive phototaxis) or away from it (negative phototaxis)."
+    },
+    {
+        "name": "Cover Slip",
+        "description": "A small, thin piece of glass placed over the specimen on a microscope slide."
+    },
+    {
+        "name": "Observation",
+        "description": "The act of noting and recording something with instruments or the senses."
+    },
+    {
+        "name": "Inference",
+        "description": "A logical conclusion based on observations and prior knowledge."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Euglena",
+        "relationship": "exhibits",
+        "related_concept": "Phototaxis",
+        "description": "Euglena moves towards light, showing a positive phototaxis."
+    },
+    {
+        "concept": "Amoeba",
+        "relationship": "does not exhibit",
+        "related_concept": "Phototaxis",
+        "description": "Amoeba does not move towards the light, indicating it does not exhibit phototaxis in this observation."
+    },
+    {
+        "concept": "Light Microscope",
+        "relationship": "used for",
+        "related_concept": "Observation",
+        "description": "The light microscope is used to observe the euglena and amoeba behaviors."
+    },
+    {
+        "concept": "Cover Slip",
+        "relationship": "part of",
+        "related_concept": "Light Microscope",
+        "description": "The cover slip is used on a slide under the light microscope during observation of specimens."
+    },
+    {
+        "concept": "Observation",
+        "relationship": "leads to",
+        "related_concept": "Inference",
+        "description": "The act of observing the behavior of organisms under the light microscope leads to making inferences about their characteristics."
+    }
+]
+
+Model Answer: {
+    "answer": "An amoeba is unable to respond to light.",
+    "reasoning": "The observation that the euglena moves towards the light (exhibiting positive phototaxis) while the amoeba does not respond to the light and instead continues to change shape passively indicates that amoebas, based on this experiment, do not exhibit a phototactic response. This behavior suggests that the amoeba does not respond to light stimuli in the way euglena does, leading to the inference that 'An amoeba is unable to respond to light.' The other options are either too narrowly defined or speculate on behavior not directly observed in this experiment."
+}

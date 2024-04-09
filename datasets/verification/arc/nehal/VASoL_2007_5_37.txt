@@ -1,0 +1,69 @@
+Key: VASoL_2007_5_37
+
+Question: Which of these substances conducts electricity the best?
+Options: ['Wood', 'Brick', 'Copper', 'Plastic']
+Answer: Copper
+
+Model Response:
+Concepts: [
+    {
+        "name": "Wood",
+        "description": "An organic material from trees, poor conductor of electricity."
+    },
+    {
+        "name": "Brick",
+        "description": "Baked clay used in building, poor conductor of electricity."
+    },
+    {
+        "name": "Copper",
+        "description": "A reddish-brown metal known for its high electrical conductivity."
+    },
+    {
+        "name": "Plastic",
+        "description": "Synthetic material made from a wide range of organic polymers, poor conductor of electricity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Wood",
+        "relationship": "is_less_conductive_than",
+        "related_concept": "Copper",
+        "description": "Wood is a poorer conductor of electricity compared to copper."
+    },
+    {
+        "concept": "Brick",
+        "relationship": "is_less_conductive_than",
+        "related_concept": "Copper",
+        "description": "Brick is a poorer conductor of electricity compared to copper."
+    },
+    {
+        "concept": "Plastic",
+        "relationship": "is_less_conductive_than",
+        "related_concept": "Copper",
+        "description": "Plastic is a poorer conductor of electricity compared to copper."
+    },
+    {
+        "concept": "Copper",
+        "relationship": "is_more_conductive_than",
+        "related_concept": "Wood",
+        "description": "Copper is a better conductor of electricity compared to wood."
+    },
+    {
+        "concept": "Copper",
+        "relationship": "is_more_conductive_than",
+        "related_concept": "Brick",
+        "description": "Copper is a better conductor of electricity compared to brick."
+    },
+    {
+        "concept": "Copper",
+        "relationship": "is_more_conductive_than",
+        "related_concept": "Plastic",
+        "description": "Copper is a better conductor of electricity compared to plastic."
+    }
+]
+
+Model Answer: {
+    "answer": "Copper",
+    "reasoning": "Among the options provided, copper is known for its high electrical conductivity, making it the best conductor of electricity. Wood, brick, and plastic are poor conductors of electricity in comparison."
+}

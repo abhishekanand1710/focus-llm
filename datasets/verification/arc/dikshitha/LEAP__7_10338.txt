@@ -1,0 +1,65 @@
+Key: LEAP__7_10338
+
+Question: Which example describes a behavioral adaptation?
+Options: ['A bird builds its nest in the ash near a volcano.', 'A whale has the ability to hold its breath for 20 minutes.', "A fox's hair is white in the winter and brown in the summer.", 'A monkey has long arms that allow it to swing from one branch to another.']
+Answer: A bird builds its nest in the ash near a volcano.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Behavioral adaptation",
+        "description": "Changes in behavior to survive in a changing environment."
+    },
+    {
+        "name": "Physical adaptation",
+        "description": "Biological changes to the body structure for survival."
+    },
+    {
+        "name": "Nesting behavior",
+        "description": "The actions related to where and how an animal builds its nest."
+    },
+    {
+        "name": "Breath-holding ability",
+        "description": "Capacity to hold breath underwater for extended periods."
+    },
+    {
+        "name": "Seasonal fur color change",
+        "description": "Change in fur color in response to different seasons."
+    },
+    {
+        "name": "Limb length",
+        "description": "The length of the arms or legs of an animal, affecting its mobility or ability to handle objects."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Behavioral adaptation",
+        "relationship": "is exemplified by",
+        "related_concept": "Nesting behavior",
+        "description": "Building a nest in a specific location is a behavioral adaptation to the environment."
+    },
+    {
+        "concept": "Physical adaptation",
+        "relationship": "is exemplified by",
+        "related_concept": "Breath-holding ability",
+        "description": "The ability to hold one's breath for extended periods is a physical adaptation for surviving underwater."
+    },
+    {
+        "concept": "Physical adaptation",
+        "relationship": "is exemplified by",
+        "related_concept": "Seasonal fur color change",
+        "description": "Changing fur color with the seasons is a physical adaptation for camouflage."
+    },
+    {
+        "concept": "Physical adaptation",
+        "relationship": "is exemplified by",
+        "related_concept": "Limb length",
+        "description": "Having long arms for swinging from branches is a physical adaptation for arboreal animals."
+    }
+]
+
+Model Answer: {
+    "answer": "A bird builds its nest in the ash near a volcano.",
+    "reasoning": "This example describes a behavioral adaptation because the bird chooses a specific location for nesting based on environmental conditions, which is a change in behavior rather than a physical feature of the bird. The other options describe physical adaptations: the whale's breath-holding ability, the fox's seasonal fur color change, and the monkey's long arms for swinging."
+}

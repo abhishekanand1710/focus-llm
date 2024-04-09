@@ -1,0 +1,77 @@
+Key: MCAS_1998_8_8
+
+Question: Many common hand tools create a mechanical advantage by using the basic principles found in simple machines. For example, a screwdriver uses the principles of the wheel and axle. In order to increase gripping force, pliers use the principle demonstrated in the
+Options: ['pulley.', 'lever.', 'wedge.', 'screw.']
+Answer: lever.
+
+Model Response:
+Concepts: [
+    {
+        "name": "mechanical advantage",
+        "description": "the gain in force or speed achieved by using a tool or machine"
+    },
+    {
+        "name": "simple machines",
+        "description": "basic mechanical devices for applying a force, such as levers, pulleys, screws, wedges, and wheels and axles"
+    },
+    {
+        "name": "screwdriver",
+        "description": "a tool used to turn screws, operates on the wheel and axle principle"
+    },
+    {
+        "name": "pliers",
+        "description": "a hand tool used to hold objects firmly, possibly also to cut and bend material"
+    },
+    {
+        "name": "wheel and axle",
+        "description": "a simple machine that reduces the friction involved in moving an object, making the work easier"
+    },
+    {
+        "name": "pulley",
+        "description": "a simple machine that uses grooved wheels and a rope to raise, lower or move a load"
+    },
+    {
+        "name": "lever",
+        "description": "a rigid bar resting on a pivot, used to help move a heavy or firmly fixed load with one end when force is applied to the other"
+    },
+    {
+        "name": "wedge",
+        "description": "a piece of wood, metal, etc. with a pointed edge for driving into something to split it apart"
+    },
+    {
+        "name": "screw",
+        "description": "a simple machine that converts rotational force into linear motion"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "mechanical advantage",
+        "relationship": "achieved_by",
+        "related_concept": "simple machines",
+        "description": "mechanical advantage is achieved by using simple machines"
+    },
+    {
+        "concept": "screwdriver",
+        "relationship": "uses_principle_of",
+        "related_concept": "wheel and axle",
+        "description": "a screwdriver operates on the basic principles of the wheel and axle"
+    },
+    {
+        "concept": "pliers",
+        "relationship": "uses_principle_of",
+        "related_concept": "lever",
+        "description": "to increase gripping force, pliers use the principle of the lever"
+    },
+    {
+        "concept": "simple machines",
+        "relationship": "includes",
+        "related_concept": "lever",
+        "description": "simple machines include the lever among others like pulley, screw, and wedge"
+    }
+]
+
+Model Answer: {
+    "answer": "lever.",
+    "reasoning": "To increase gripping force, pliers use a principle that requires applying force to one point to generate a greater force at another point, which is the basic principle of the lever. This is because pliers have pivot points and arms that act like levers, amplifying the force applied by our hands to the handles to achieve a more significant gripping or cutting force. None of the other options (pulley, wedge, screw) directly describe the operation mechanism of pliers."
+}

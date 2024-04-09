@@ -1,0 +1,89 @@
+Key: Mercury_7268013
+
+Question: In which way are rainforests and coral reefs different from ecosystems with few species?
+Options: ['There are more prey than predators.', 'The food web is more stable and lasting.', 'Organisms often must compete for food.', 'Plant populations are the primary producers.']
+Answer: The food web is more stable and lasting.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rainforests",
+        "description": "Dense forests found in areas of heavy rainfall."
+    },
+    {
+        "name": "Coral Reefs",
+        "description": "Underwater ecosystems characterized by reef-building corals."
+    },
+    {
+        "name": "Ecosystems with few species",
+        "description": "Ecosystems that have a low biodiversity."
+    },
+    {
+        "name": "Prey",
+        "description": "Organisms that are hunted and eaten by predators."
+    },
+    {
+        "name": "Predators",
+        "description": "Organisms that hunt and eat other organisms."
+    },
+    {
+        "name": "Food web",
+        "description": "A system of interlocking and interdependent food chains."
+    },
+    {
+        "name": "Competition",
+        "description": "A situation in which organisms vie for the same resources, such as food."
+    },
+    {
+        "name": "Plant populations",
+        "description": "Groups of plants belonging to the same species that live in the same area."
+    },
+    {
+        "name": "Primary producers",
+        "description": "Organisms in an ecosystem that produce biomass from inorganic compounds."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rainforests",
+        "relationship": "contrast with",
+        "related_concept": "Ecosystems with few species",
+        "description": "Rainforests have high biodiversity compared to ecosystems with few species."
+    },
+    {
+        "concept": "Coral Reefs",
+        "relationship": "contrast with",
+        "related_concept": "Ecosystems with few species",
+        "description": "Coral reefs have high biodiversity compared to ecosystems with few species."
+    },
+    {
+        "concept": "Prey",
+        "relationship": "less than",
+        "related_concept": "Predators",
+        "description": "In ecosystems with balanced biodiversity, the number of prey generally exceeds the number of predators."
+    },
+    {
+        "concept": "Food web",
+        "relationship": "is more complex in",
+        "related_concept": "Rainforests and Coral Reefs",
+        "description": "The food web is more complex in ecosystems with high biodiversity."
+    },
+    {
+        "concept": "Competition",
+        "relationship": "occurs in",
+        "related_concept": "High biodiversity ecosystems",
+        "description": "Competition for resources often occurs in ecosystems with many species."
+    },
+    {
+        "concept": "Plant populations",
+        "relationship": "serve as",
+        "related_concept": "Primary producers",
+        "description": "Plant populations are the primary producers in many ecosystems."
+    }
+]
+
+Model Answer: {
+    "answer": "The food web is more stable and lasting.",
+    "reasoning": "Rainforests and coral reefs differ from ecosystems with few species by having a more complex and interconnected food web, which contributes to their stability and lasting nature. Due to the high biodiversity found in rainforests and coral reefs, the food web consists of multiple layers and interdependencies that can absorb changes and disturbances better than ecosystems with fewer species. This complexity and variety in species leads to a more resilient ecosystem where the loss of one species can be compensated by others, ensuring ecosystem stability and longevity."
+}

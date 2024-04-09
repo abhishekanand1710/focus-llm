@@ -1,0 +1,77 @@
+Key: MDSA_2007_5_9
+
+Question: A student boils 100 grams of water to form water vapor (gas). What method should the student use to determine that the mass of the water vapor is equal to 100 grams?
+Options: ['measuring the amount of water vapor (gas) in the air', 'collecting the water vapor (gas) and cooling it back to a liquid', 'weighing the beaker before and after the water is boiled', 'comparing the temperature of the boiling water to the temperature of the water vapor (gas)']
+Answer: collecting the water vapor (gas) and cooling it back to a liquid
+
+Model Response:
+Concepts: [
+    {
+        "name": "Conservation of Mass",
+        "description": "A principle stating that mass cannot be created or destroyed in a closed system through ordinary chemical or physical means"
+    },
+    {
+        "name": "Boiling",
+        "description": "The rapid vaporization of a liquid, which occurs when a liquid is heated to its boiling point"
+    },
+    {
+        "name": "Water Vapor",
+        "description": "The gaseous phase of water"
+    },
+    {
+        "name": "Cooling",
+        "description": "The process of lowering the temperature of an object or substance"
+    },
+    {
+        "name": "Condensation",
+        "description": "The change of the physical state of matter from the gas phase into the liquid phase"
+    },
+    {
+        "name": "Weighing",
+        "description": "The action of measuring the mass of an object using a scale or balance"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Boiling",
+        "relationship": "transforms",
+        "related_concept": "Water Vapor",
+        "description": "Boiling water transforms it from a liquid state to its gaseous state, water vapor"
+    },
+    {
+        "concept": "Conservation of Mass",
+        "relationship": "governs",
+        "related_concept": "Boiling",
+        "description": "The principle of Conservation of Mass governs the process of boiling, ensuring the mass remains constant before and after the process"
+    },
+    {
+        "concept": "Water Vapor",
+        "relationship": "result of",
+        "related_concept": "Boiling",
+        "description": "Water vapor is the result of boiling water"
+    },
+    {
+        "concept": "Cooling",
+        "relationship": "reverts",
+        "related_concept": "Water Vapor to liquid",
+        "description": "Cooling water vapor causes it to condense back into its liquid form"
+    },
+    {
+        "concept": "Weighing",
+        "relationship": "method to measure",
+        "related_concept": "Conservation of Mass",
+        "description": "Weighing is a method used to measure mass, which helps in verifying the principle of Conservation of Mass"
+    },
+    {
+        "concept": "Condensation",
+        "relationship": "is caused by",
+        "related_concept": "Cooling",
+        "description": "Condensation of water vapor into liquid water is caused by the cooling process"
+    }
+]
+
+Model Answer: {
+    "answer": "collecting the water vapor (gas) and cooling it back to a liquid",
+    "reasoning": "By boiling water, it transforms from its liquid state to a gaseous state (water vapor), as governed by boiling. The principle of Conservation of Mass states that mass cannot be created or destroyed, implying that the mass of the water before boiling should be equal to the mass of the water vapor formed. To confirm the mass of the water vapor is equal to 100 grams, the water vapor must be collected and cooled back to a liquid (through condensation), allowing for direct weighing. This method effectively measures the mass of the water before and after the phase change, adhering to the principle of Conservation of Mass."
+}

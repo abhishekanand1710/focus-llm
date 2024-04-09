@@ -1,0 +1,65 @@
+Key: Mercury_7213290
+
+Question: Some students used a hot plate to heat 1 L of water from 20°C to the boiling point of water. The students recorded the temperature of the water each minute until it began to boil. Which of the following provides the most appropriate way to represent the data?
+Options: ['a bar graph with temperature on the y-axis and time on the x-axis', 'a bar graph with time on the y-axis and temperature on the x-axis', 'a line graph with temperature on the y-axis and time on the x-axis', 'a line graph with time on the y-axis and temperature on the x-axis']
+Answer: a line graph with temperature on the y-axis and time on the x-axis
+
+Model Response:
+Concepts: [
+    {
+        "name": "Bar graph",
+        "description": "A chart that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent."
+    },
+    {
+        "name": "Line graph",
+        "description": "A type of chart used to show information that changes over time."
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the hotness or coldness of an object or substance with reference to some standard value."
+    },
+    {
+        "name": "Time",
+        "description": "The indefinite continued progress of existence and events in the past, present, and future regarded as a whole."
+    },
+    {
+        "name": "Y-axis",
+        "description": "The vertical axis in a chart, which represent the measurement of the data."
+    },
+    {
+        "name": "X-axis",
+        "description": "The horizontal axis in a chart, which represents the time frame or categories of the data."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Bar graph",
+        "relationship": "is not suited for",
+        "related_concept": "Changes over time",
+        "description": "Bar graphs are better suited for comparing discrete categories and not well-suited for depicting changes over time."
+    },
+    {
+        "concept": "Line graph",
+        "relationship": "is suited for",
+        "related_concept": "Changes over time",
+        "description": "Line graphs are especially well-suited for displaying data that changes over time and showing trends."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "is measured in",
+        "related_concept": "Y-axis",
+        "description": "In this context, temperature is a variable that is best represented as a measured value along the y-axis."
+    },
+    {
+        "concept": "Time",
+        "relationship": "is represented on",
+        "related_concept": "X-axis",
+        "description": "Time is often represented on the x-axis to show progression or change over time."
+    }
+]
+
+Model Answer: {
+    "answer": "a line graph with temperature on the y-axis and time on the x-axis",
+    "reasoning": "A line graph is most appropriate for representing data that changes over time, such as the temperature of water as it heats up to boiling point. The temperature, being the variable that is measured and changes, should be represented on the y-axis, while the time, which is the independent variable that controls the experiment, should be on the x-axis. This setup allows for the clear depiction of how the temperature changes minute by minute as the water approaches boiling point."
+}

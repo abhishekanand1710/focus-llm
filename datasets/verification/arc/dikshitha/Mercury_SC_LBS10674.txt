@@ -1,0 +1,61 @@
+Key: Mercury_SC_LBS10674
+
+Question: Which of the following is an example of a chemical change?
+Options: ['clouds forming', 'sugar dissolving', 'water freezing', 'a candle burning']
+Answer: a candle burning
+
+Model Response:
+Concepts: [
+    {
+        "name": "chemical change",
+        "description": "A process where one or more substances are altered into one or more new and different substances"
+    },
+    {
+        "name": "clouds forming",
+        "description": "The process where water vapor in the air cools and condenses into liquid droplets or ice crystals"
+    },
+    {
+        "name": "sugar dissolving",
+        "description": "Physical process where sugar dissolves in a solvent like water without changing chemically"
+    },
+    {
+        "name": "water freezing",
+        "description": "A physical change where water transitions from a liquid to a solid state due to temperature decrease"
+    },
+    {
+        "name": "a candle burning",
+        "description": "A chemical change where the candle wax combusts in the presence of oxygen, producing heat, light, carbon dioxide, and water vapor"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "chemical change",
+        "relationship": "is exemplified by",
+        "related_concept": "a candle burning",
+        "description": "Burning of a candle is a scenario where a chemical change occurs because new substances are produced"
+    },
+    {
+        "concept": "clouds forming",
+        "relationship": "does not result in",
+        "related_concept": "chemical change",
+        "description": "Formation of clouds is a physical change and does not produce new chemical substances"
+    },
+    {
+        "concept": "sugar dissolving",
+        "relationship": "does not result in",
+        "related_concept": "chemical change",
+        "description": "Dissolving sugar in water is a physical change without a chemical reaction"
+    },
+    {
+        "concept": "water freezing",
+        "relationship": "does not result in",
+        "related_concept": "chemical change",
+        "description": "Freezing of water is a physical change and does not alter its chemical structure"
+    }
+]
+
+Model Answer: {
+    "answer": "a candle burning",
+    "reasoning": "Among the given options, a candle burning represents a chemical change as it involves the transformation of wax and oxygen into new substances such as carbon dioxide, water vapor, heat, and light, demonstrating the characteristics of a chemical change."
+}

@@ -1,0 +1,79 @@
+Key: Mercury_417572
+
+Question: Rhinoceroses and horses are related. They have very similar digestive systems and an odd number of toes on their feet. Horses have one toe, and rhinoceroses have three. These facts best support which claim?
+Options: ['Horses and rhinoceroses share a common ancestor.', 'Horses and rhinoceroses are genetically identical.', 'Horses are the ancestors of modern rhinoceroses.', 'Horses have descended from modern rhinoceroses.']
+Answer: Horses and rhinoceroses share a common ancestor.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rhinoceroses",
+        "description": "Large, herbivorous mammals known for their distinctive horned snouts"
+    },
+    {
+        "name": "Horses",
+        "description": "Large, herbivorous mammals domesticated for riding and racing, with a single toe or hoof"
+    },
+    {
+        "name": "Digestive Systems",
+        "description": "Complex biological systems involved in the process of breaking down food for nutrient absorption and waste elimination"
+    },
+    {
+        "name": "Odd number of toes",
+        "description": "A characteristic referring to the number of toes on the feet of certain mammals, being either one, three, or another odd number"
+    },
+    {
+        "name": "Common Ancestor",
+        "description": "A theoretical or actual extinct species from which two different species have evolved"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rhinoceroses",
+        "relationship": "share characteristics",
+        "related_concept": "Horses",
+        "description": "Though different species, they share similarities in digestive systems and toe count which suggest a related lineage"
+    },
+    {
+        "concept": "Rhinoceroses",
+        "relationship": "have",
+        "related_concept": "Odd number of toes",
+        "description": "Rhinoceroses have three toes on their feet, an odd number"
+    },
+    {
+        "concept": "Horses",
+        "relationship": "have",
+        "related_concept": "Odd number of toes",
+        "description": "Horses have one toe or hoof, which is an odd number"
+    },
+    {
+        "concept": "Rhinoceroses",
+        "relationship": "have",
+        "related_concept": "Digestive Systems",
+        "description": "Rhinoceroses possess complex digestive systems for breaking down plant material"
+    },
+    {
+        "concept": "Horses",
+        "relationship": "have",
+        "related_concept": "Digestive Systems",
+        "description": "Horses possess complex digestive systems for breaking down plant material"
+    },
+    {
+        "concept": "Common Ancestor",
+        "relationship": "is ancestor of",
+        "related_concept": "Rhinoceroses",
+        "description": "A common ancestor would be an ancestral species from which rhinoceroses have evolved"
+    },
+    {
+        "concept": "Common Ancestor",
+        "relationship": "is ancestor of",
+        "related_concept": "Horses",
+        "description": "A common ancestor would be an ancestral species from which horses have evolved"
+    }
+]
+
+Model Answer: {
+    "answer": "Horses and rhinoceroses share a common ancestor.",
+    "reasoning": "The similarities in digestive systems and the characteristic of having an odd number of toes suggest that horses and rhinoceroses have evolved from a common ancestor. These shared features imply a related lineage rather than horses or rhinoceroses directly descending from one another or being genetically identical."
+}

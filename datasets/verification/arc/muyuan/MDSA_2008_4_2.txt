@@ -1,0 +1,81 @@
+Key: MDSA_2008_4_2
+
+Question: Animals use resources in the environment to survive. Which of the following resources does an animal use for energy?
+Options: ['air', 'food', 'shelter', 'water']
+Answer: food
+
+Model Response:
+Concepts: [
+    {
+        "name": "Animals",
+        "description": "Living organisms that move and consume resources for survival."
+    },
+    {
+        "name": "Resources",
+        "description": "Materials or substances in the environment needed by animals for survival."
+    },
+    {
+        "name": "Air",
+        "description": "The invisible gaseous substance surrounding the earth, a mix of mainly oxygen and nitrogen."
+    },
+    {
+        "name": "Food",
+        "description": "Substances consumed by animals to provide nutritional support and energy."
+    },
+    {
+        "name": "Shelter",
+        "description": "A structure that provides protection or cover for animals."
+    },
+    {
+        "name": "Water",
+        "description": "A colorless, transparent, odorless liquid that forms the seas, lakes, rivers, and rain."
+    },
+    {
+        "name": "Energy",
+        "description": "The capacity to do work, vital for survival, growth, and reproduction in animals."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Animals",
+        "relationship": "use",
+        "related_concept": "Resources",
+        "description": "Animals use resources in the environment to survive."
+    },
+    {
+        "concept": "Air",
+        "relationship": "is a type of",
+        "related_concept": "Resources",
+        "description": "Air is a resource needed for breathing."
+    },
+    {
+        "concept": "Food",
+        "relationship": "is a type of",
+        "related_concept": "Resources",
+        "description": "Food is a resource consumed for energy and survival."
+    },
+    {
+        "concept": "Shelter",
+        "relationship": "is a type of",
+        "related_concept": "Resources",
+        "description": "Shelter is a resource used for protection."
+    },
+    {
+        "concept": "Water",
+        "relationship": "is a type of",
+        "related_concept": "Resources",
+        "description": "Water is a resource consumed for hydration."
+    },
+    {
+        "concept": "Food",
+        "relationship": "provides",
+        "related_concept": "Energy",
+        "description": "Food provides the energy necessary for animals to perform various functions."
+    }
+]
+
+Model Answer: {
+    "answer": "food",
+    "reasoning": "Among the listed options, food is the resource animals use for energy. Air, shelter, and water are essential for survival, but food is directly converted into energy through digestion, necessary for physical activities, growth, and bodily functions."
+}

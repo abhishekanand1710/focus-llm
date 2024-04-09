@@ -1,0 +1,65 @@
+Key: Mercury_7163258
+
+Question: In whitetail deer, females seldom grow antlers. Which best explains why male whitetail deer grow antlers but females seldom grow antlers?
+Options: ['Female deer have no need for antlers.', 'Male deer are older than female deer.', 'Antler growth is controlled by genes.', 'Antler growth depends on behavior.']
+Answer: Antler growth is controlled by genes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Whitetail deer",
+        "description": "A species of deer known for the distinctive white underside to their tails."
+    },
+    {
+        "name": "Antlers",
+        "description": "Bony structures that grow on the head of deer and some other animals, which are typically shed and regrown annually."
+    },
+    {
+        "name": "Female deer",
+        "description": "The female sex of the whitetail deer species."
+    },
+    {
+        "name": "Male deer",
+        "description": "The male sex of the whitetail deer species."
+    },
+    {
+        "name": "Genes",
+        "description": "Units of heredity that contribute to the characteristics and behavior of an organism."
+    },
+    {
+        "name": "Behavior",
+        "description": "The actions or reactions of an organism, often in relation to its environment."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Female deer",
+        "relationship": "seldom grow",
+        "related_concept": "Antlers",
+        "description": "Female whitetail deer rarely develop antlers."
+    },
+    {
+        "concept": "Male deer",
+        "relationship": "grow",
+        "related_concept": "Antlers",
+        "description": "Male whitetail deer regularly grow antlers."
+    },
+    {
+        "concept": "Antler growth",
+        "relationship": "controlled by",
+        "related_concept": "Genes",
+        "description": "The development of antlers in deer is genetically determined."
+    },
+    {
+        "concept": "Antler growth",
+        "relationship": "not primarily depends on",
+        "related_concept": "Behavior",
+        "description": "While behavior might influence physical condition, antler growth itself is not directly a behavioral trait."
+    }
+]
+
+Model Answer: {
+    "answer": "Antler growth is controlled by genes.",
+    "reasoning": "The development of antlers in male whitetail deer but not in females is best explained by genetic factors. Both male and female deer possess the genes for antler growth, but these genes are expressed primarily in males due to the influence of sex hormones. The rarity of female deer with antlers further supports the idea that the presence or absence of antlers is a trait controlled by genetics rather than age, necessity for antlers, or behavior."
+}

@@ -1,0 +1,67 @@
+Key: MCAS_2004_9_15
+
+Question: A 72 W navigation unit on a commercial aircraft has a 24 V power supply and uses 3 A of electric current. What is the electrical resistance of the navigation unit?
+Options: ['4 ohms', '8 ohms', '13 ohms', '22 ohms']
+Answer: 8 ohms
+
+Model Response:
+Concepts: [
+    {
+        "name": "Electric Current",
+        "description": "The flow of electric charge in a conductor."
+    },
+    {
+        "name": "Voltage",
+        "description": "Potential difference across a conductor that drives electric current."
+    },
+    {
+        "name": "Resistance",
+        "description": "A material's opposition to the flow of electric current."
+    },
+    {
+        "name": "Ohm's Law",
+        "description": "A principle that states the current through a conductor between two points is directly proportional to the voltage across the two points."
+    },
+    {
+        "name": "Power",
+        "description": "The rate at which electrical energy is transferred by an electric circuit."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Ohm's Law",
+        "relationship": "defines",
+        "related_concept": "Resistance",
+        "description": "Ohm's Law is used to calculate Resistance as Resistance = Voltage / Current."
+    },
+    {
+        "concept": "Voltage",
+        "relationship": "drives",
+        "related_concept": "Electric Current",
+        "description": "Voltage is the potential difference that drives Electric Current through a conductor."
+    },
+    {
+        "concept": "Resistance",
+        "relationship": "determines",
+        "related_concept": "Electric Current",
+        "description": "Resistance determines the amount of Electric Current flowing for a given Voltage."
+    },
+    {
+        "concept": "Power",
+        "relationship": "is_product_of",
+        "related_concept": "Voltage",
+        "description": "Power is the product of Voltage and Electric Current in a circuit."
+    },
+    {
+        "concept": "Power",
+        "relationship": "is_product_of",
+        "related_concept": "Electric Current",
+        "description": "Power can also be expressed as the product of Electric Current squared and Resistance."
+    }
+]
+
+Model Answer: {
+    "answer": "8 ohms",
+    "reasoning": "Using Ohm's Law, Resistance (R) can be calculated using Voltage (V) and Electric Current (I), where R = V / I. Given the Voltage of 24 V and Electric Current of 3 A, the Resistance can be calculated as 24 V / 3 A = 8 ohms. This matches with the option '8 ohms'."
+}

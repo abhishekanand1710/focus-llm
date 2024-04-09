@@ -1,0 +1,67 @@
+Key: TIMSS_2011_4_pg67
+
+Question: A hot, boiled egg is put into a cup of cold water. What happens to the temperature of the water and the egg?
+Options: ['The water gets colder and the egg gets warmer.', 'The water gets warmer and the egg gets colder.', 'The water temperature stays the same and the egg gets colder.', 'Both the water and the egg get warmer.']
+Answer: The water gets warmer and the egg gets colder.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Temperature",
+        "description": "A measure of the average kinetic energy of the particles in a system."
+    },
+    {
+        "name": "Heat Transfer",
+        "description": "The movement of heat from a warmer object to a cooler one."
+    },
+    {
+        "name": "Boiled Egg",
+        "description": "An egg cooked in boiling water, typically having a solid white and firm yolk."
+    },
+    {
+        "name": "Cold Water",
+        "description": "Water at a temperature significantly lower than the surrounding air or an object's surface temperature."
+    },
+    {
+        "name": "Thermal Equilibrium",
+        "description": "The state in which two objects connected by a permeable barrier do not transfer heat, having equal temperatures."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Boiled Egg",
+        "relationship": "transfers heat to",
+        "related_concept": "Cold Water",
+        "description": "The boiled egg, being at a higher temperature, transfers heat to the surrounding cold water."
+    },
+    {
+        "concept": "Heat Transfer",
+        "relationship": "results in",
+        "related_concept": "Change in Temperature",
+        "description": "Heat transfer between two objects results in a change in their temperatures until thermal equilibrium is achieved."
+    },
+    {
+        "concept": "Cold Water",
+        "relationship": "increases in temperature",
+        "related_concept": "Heat Transfer",
+        "description": "Cold water absorbs heat, resulting in an increase in its temperature."
+    },
+    {
+        "concept": "Boiled Egg",
+        "relationship": "decreases in temperature",
+        "related_concept": "Heat Transfer",
+        "description": "As heat leaves the boiled egg, its temperature decreases."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "balances out",
+        "related_concept": "Thermal Equilibrium",
+        "description": "The temperatures of the boiled egg and cold water will try to balance out to reach thermal equilibrium."
+    }
+]
+
+Model Answer: {
+    "answer": "The water gets warmer and the egg gets colder.",
+    "reasoning": "Heat transfer occurs from the hot, boiled egg to the cold water until thermal equilibrium is achieved, causing the water's temperature to increase and the egg's temperature to decrease."
+}

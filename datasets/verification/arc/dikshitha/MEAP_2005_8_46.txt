@@ -1,0 +1,81 @@
+Key: MEAP_2005_8_46
+
+Question: The depth of Lake Superior can be measured by sending sound waves to the bottom and measuring the period of time it takes for the reflected sound waves to return to the surface. Which of the following would indicate a shallow depth?
+Options: ['There is no return signal.', 'The return signal is very weak.', 'The return signal appears almost instantaneously.', 'The return signal comes back at a different speed']
+Answer: The return signal appears almost instantaneously.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Lake Superior",
+        "description": "The largest of the Great Lakes in North America."
+    },
+    {
+        "name": "Sound Waves",
+        "description": "Vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear."
+    },
+    {
+        "name": "Reflection of Sound Waves",
+        "description": "Occurs when a sound wave strikes an object and bounces back."
+    },
+    {
+        "name": "Return Signal",
+        "description": "The reflected sound wave received by the equipment after being sent to the bottom of the lake."
+    },
+    {
+        "name": "Signal Strength",
+        "description": "The intensity of the return signal."
+    },
+    {
+        "name": "Signal Speed",
+        "description": "The rate at which the return signal travels back to the surface."
+    },
+    {
+        "name": "Depth Measurement",
+        "description": "Determining the distance from the water surface to the bottom of a body of water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Lake Superior",
+        "relationship": "is measured by",
+        "related_concept": "Sound Waves",
+        "description": "The depth of Lake Superior is measured using sound waves."
+    },
+    {
+        "concept": "Sound Waves",
+        "relationship": "bounce from",
+        "related_concept": "Lake Superior Bottom",
+        "description": "Sound waves sent to Lake Superior bottom reflect back to the surface."
+    },
+    {
+        "concept": "Reflection of Sound Waves",
+        "relationship": "results in",
+        "related_concept": "Return Signal",
+        "description": "The reflected sound waves are detected as return signals."
+    },
+    {
+        "concept": "Depth Measurement",
+        "relationship": "uses",
+        "related_concept": "Return Signal Timing",
+        "description": "The depth of the lake is gauged by the time it takes for the return signal to appear."
+    },
+    {
+        "concept": "Return Signal",
+        "relationship": "strength indicates",
+        "related_concept": "Signal Strength",
+        "description": "The intensity of the returned signal can provide information about the depth."
+    },
+    {
+        "concept": "Return Signal",
+        "relationship": "speed differentiates",
+        "related_concept": "Signal Speed",
+        "description": "The speed of the return signal may vary, indicating different depths."
+    }
+]
+
+Model Answer: {
+    "answer": "The return signal appears almost instantaneously.",
+    "reasoning": "When sound waves are used to measure the depth of a body of water like Lake Superior, the period it takes for the reflected sound waves (return signal) to come back to the surface indicates the depth. A shallow depth means the sound waves do not have to travel very far before reflecting back to the surface. Therefore, if a return signal appears almost instantaneously, this indicates a shallow depth because the sound waves travelled a short distance, reflected off the bottom, and returned quickly."
+}

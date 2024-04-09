@@ -1,0 +1,61 @@
+Key: Mercury_7082810
+
+Question: A bowling ball sitting motionless on a table exerts a downward force on the table. The force exerted by the table must be
+Options: ['equal to the force of the ball.', 'continually changing with the ball.', 'greater than the force of the ball.', 'less than the force of the ball.']
+Answer: equal to the force of the ball.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Newton's Third Law of Motion",
+        "description": "For every action, there is an equal and opposite reaction."
+    },
+    {
+        "name": "Force",
+        "description": "A push or pull upon an object resulting from its interaction with another object."
+    },
+    {
+        "name": "Gravitational Force",
+        "description": "A force that attracts any two objects with mass."
+    },
+    {
+        "name": "Equilibrium",
+        "description": "A state in which opposing forces are balanced."
+    },
+    {
+        "name": "Contact Force",
+        "description": "The force between objects that are in contact."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Gravitational Force",
+        "relationship": "results in",
+        "related_concept": "Force",
+        "description": "Gravitational force results in the downward force exerted by the bowling ball."
+    },
+    {
+        "concept": "Force",
+        "relationship": "requires",
+        "related_concept": "Equilibrium",
+        "description": "The state of equilibrium is achieved when forces are balanced."
+    },
+    {
+        "concept": "Contact Force",
+        "relationship": "is a type of",
+        "related_concept": "Force",
+        "description": "Contact force is an example of force that occurs at the contact between objects."
+    },
+    {
+        "concept": "Newton's Third Law of Motion",
+        "relationship": "explains",
+        "related_concept": "Equilibrium",
+        "description": "Newton's third law explains how forces are balanced in a state of equilibrium."
+    }
+]
+
+Model Answer: {
+    "answer": "equal to the force of the ball.",
+    "reasoning": "According to Newton's Third Law of Motion, for every action, there is an equal and opposite reaction. In this case, the downward force (gravitational force) exerted by the bowling ball on the table is countered with an equal and opposite force exerted by the table on the bowling ball. This interaction is what keeps the ball in equilibrium (not moving) on the table. Therefore, the force exerted by the table must be equal to the force of the ball."
+}

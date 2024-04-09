@@ -1,0 +1,71 @@
+Key: Mercury_7219083
+
+Question: The radioactive isotope content of a rock can be used to identify which property of the rock?
+Options: ['the total mass of the rock', 'the rate at which the rock formed', 'the types of fossils that the rock contains', 'the amount of time passed since the rock formed']
+Answer: the amount of time passed since the rock formed
+
+Model Response:
+Concepts: [
+    {
+        "name": "Radioactive isotope content",
+        "description": "Amount of unstable atoms in a rock that decay over time"
+    },
+    {
+        "name": "Rock",
+        "description": "A solid mineral material forming part of the surface of the earth"
+    },
+    {
+        "name": "Total mass of the rock",
+        "description": "The combined weight of all minerals and components in a rock"
+    },
+    {
+        "name": "Rate at which the rock formed",
+        "description": "The speed or duration it took for the rock to form from its initial materials"
+    },
+    {
+        "name": "Types of fossils that the rock contains",
+        "description": "The variety of preserved remains or impressions left by past organisms in the rock"
+    },
+    {
+        "name": "Amount of time passed since the rock formed",
+        "description": "The duration from when the rock initially formed to the present"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Radioactive isotope content",
+        "relationship": "used to determine",
+        "related_concept": "Amount of time passed since the rock formed",
+        "description": "The decay rate of isotopes in a rock is a measure of the time since its formation"
+    },
+    {
+        "concept": "Rock",
+        "relationship": "contains",
+        "related_concept": "Radioactive isotope content",
+        "description": "Rocks can contain unstable atoms that decay over time"
+    },
+    {
+        "concept": "Rock",
+        "relationship": "has property",
+        "related_concept": "Total mass of the rock",
+        "description": "Rocks can be characterized by their total mass"
+    },
+    {
+        "concept": "Rock",
+        "relationship": "indicates",
+        "related_concept": "Rate at which the rock formed",
+        "description": "Certain characteristics of a rock might suggest how quickly it formed"
+    },
+    {
+        "concept": "Rock",
+        "relationship": "can contain",
+        "related_concept": "Types of fossils that the rock contains",
+        "description": "Fossils within a rock are indicators of the organisms that once lived in that environment"
+    }
+]
+
+Model Answer: {
+    "answer": "the amount of time passed since the rock formed",
+    "reasoning": "The radioactive isotope content in a rock decays over a known and measurable rate (half-life), which can be used to calculate the amount of time that has passed since the rock was formed. This concept utilizes the principle of radioactive decay as a 'clock' for dating rocks, making it possible to determine their age. This relationship between radioactive isotope content and estimating the age of rocks is fundamental in geology, particularly in the fields of stratigraphy and historical geology."
+}

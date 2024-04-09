@@ -1,0 +1,77 @@
+Key: Mercury_416635
+
+Question: Sam was listing the differences between a euglena and a paramecium. Which characteristic should not be on Sam's list?
+Options: ['only the euglena can respond to light', 'only the euglena have a definite shape', 'only the euglena use a flagellum to move', 'only the euglena can make their own food']
+Answer: only the euglena have a definite shape
+
+Model Response:
+Concepts: [
+    {
+        "name": "Euglena",
+        "description": "A genus of single-celled flagellate eukaryotes."
+    },
+    {
+        "name": "Paramecium",
+        "description": "A genus of unicellular ciliated protozoa."
+    },
+    {
+        "name": "Phototaxis",
+        "description": "Movement of an organism toward or away from a source of light."
+    },
+    {
+        "name": "Shape",
+        "description": "The physical form or appearance of an object."
+    },
+    {
+        "name": "Flagellum",
+        "description": "A long, whip-like structure that allows a cell to move."
+    },
+    {
+        "name": "Photosynthesis",
+        "description": "The process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Euglena",
+        "relationship": "capable_of",
+        "related_concept": "Phototaxis",
+        "description": "Euglena can move toward or away from light sources."
+    },
+    {
+        "concept": "Euglena",
+        "relationship": "has_trait",
+        "related_concept": "Flagellum",
+        "description": "Euglena possess a flagellum for movement."
+    },
+    {
+        "concept": "Euglena",
+        "relationship": "capable_of",
+        "related_concept": "Photosynthesis",
+        "description": "Euglena can synthesize their own food through photosynthesis."
+    },
+    {
+        "concept": "Paramecium",
+        "relationship": "lacks",
+        "related_concept": "Flagellum",
+        "description": "Paramecium do not have a flagellum but rather use cilia for movement."
+    },
+    {
+        "concept": "Paramecium",
+        "relationship": "lacks",
+        "related_concept": "Photosynthesis",
+        "description": "Paramecium cannot synthesize their own food through photosynthesis."
+    },
+    {
+        "concept": "Euglena",
+        "relationship": "differs_in",
+        "related_concept": "Shape",
+        "description": "Euglena possesses a more variable shape compared to the definite shape of Paramecium."
+    }
+]
+
+Model Answer: {
+    "answer": "only the euglena have a definite shape",
+    "reasoning": "This statement should not be on Sam's list because it is incorrect. Unlike a paramecium, which generally maintains a definite, somewhat fixed shape due to its pellicle, euglena are known for their more flexible cell membrane that allows them to change shape. Therefore, suggesting that only euglena have a definite shape is inaccurate as it is actually the other way around, with paramecium having a more definite shape compared to euglena."
+}

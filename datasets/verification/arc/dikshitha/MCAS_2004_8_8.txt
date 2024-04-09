@@ -1,0 +1,57 @@
+Key: MCAS_2004_8_8
+
+Question: Which body system's primary function is the continuation of the species?
+Options: ['digestive', 'nervous', 'excretory', 'reproductive']
+Answer: reproductive
+
+Model Response:
+Concepts: [
+    {
+        "name": "digestive",
+        "description": "System responsible for breaking down food into nutrients and energy"
+    },
+    {
+        "name": "nervous",
+        "description": "System responsible for controlling and coordinating all other systems in the body through electrical signals"
+    },
+    {
+        "name": "excretory",
+        "description": "System responsible for removing waste from the body"
+    },
+    {
+        "name": "reproductive",
+        "description": "System responsible for producing offspring and ensuring the continuation of the species"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "digestive",
+        "relationship": "is_not",
+        "related_concept": "reproductive",
+        "description": "Digestive system is not directly responsible for reproduction or species continuation"
+    },
+    {
+        "concept": "nervous",
+        "relationship": "controls",
+        "related_concept": "reproductive",
+        "description": "Nervous system controls the reproductive system but is not its primary function"
+    },
+    {
+        "concept": "excretory",
+        "relationship": "is_not",
+        "related_concept": "reproductive",
+        "description": "Excretory system is not directly responsible for reproduction or species continuation"
+    },
+    {
+        "concept": "reproductive",
+        "relationship": "is_responsible_for",
+        "related_concept": "species continuation",
+        "description": "Reproductive system's primary function is the continuation of the species"
+    }
+]
+
+Model Answer: {
+    "answer": "reproductive",
+    "reasoning": "Based on the provided concepts and their relationships, the reproductive system is directly responsible for the continuation of species, aligning with the primary function mentioned in the question. Unlike the digestive, nervous, and excretory systems, which play critical roles in individual survival and functioning, the reproductive system's unique role centers around producing offspring, thus ensuring the continuation of the species."
+}

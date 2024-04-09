@@ -1,0 +1,55 @@
+Key: Mercury_7013003
+
+Question: Which two systems are involved when waste and water are removed from blood as it flows through the kidneys?
+Options: ['respiratory and circulatory', 'digestive and respiratory', 'digestive and urinary', 'urinary and circulatory']
+Answer: urinary and circulatory
+
+Model Response:
+Concepts: [
+    {
+        "name": "urinary system",
+        "description": "A system in the body responsible for removing waste and excess water from the blood."
+    },
+    {
+        "name": "circulatory system",
+        "description": "The body's system responsible for transporting blood, oxygen, nutrients, and hormones to and from cells."
+    },
+    {
+        "name": "respiratory system",
+        "description": "A series of organs responsible for taking in oxygen and expelling carbon dioxide."
+    },
+    {
+        "name": "digestive system",
+        "description": "The system by which ingested food is acted upon by physical and chemical means to provide the body with absorbable nutrients and to excrete waste products."
+    },
+    {
+        "name": "kidneys",
+        "description": "Organs in the urinary system that filter blood to remove waste products and excess water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "kidneys",
+        "relationship": "are part of",
+        "related_concept": "urinary system",
+        "description": "The kidneys are major components of the urinary system, performing the crucial function of filtering waste from the blood."
+    },
+    {
+        "concept": "urinary system",
+        "relationship": "interacts with",
+        "related_concept": "circulatory system",
+        "description": "The urinary system removes waste and water from the blood received from the circulatory system."
+    },
+    {
+        "concept": "circulatory system",
+        "relationship": "delivers blood to",
+        "related_concept": "kidneys",
+        "description": "The circulatory system transports blood to the kidneys for filtration."
+    }
+]
+
+Model Answer: {
+    "answer": "urinary and circulatory",
+    "reasoning": "The kidneys, which are part of the urinary system, filter waste and water from the blood, a process that is directly connected to the circulatory system. This system delivers the blood to the kidneys to be filtered, which establishes a direct relationship between the urinary and circulatory systems in the context of removing waste and water from the blood."
+}

@@ -1,0 +1,57 @@
+Key: Mercury_SC_407137
+
+Question: Plants use nutrients found in soil. Which of these can break down in soil and become nutrients?
+Options: ['air', 'water', 'leaves', 'sunlight']
+Answer: leaves
+
+Model Response:
+Concepts: [
+    {
+        "name": "air",
+        "description": "A mixture of gases surrounding the earth, breathable by living organisms."
+    },
+    {
+        "name": "water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans."
+    },
+    {
+        "name": "leaves",
+        "description": "The main photosynthetic organs of vascular plants, primarily responsible for gas exchange and photosynthesis."
+    },
+    {
+        "name": "sunlight",
+        "description": "The total spectrum of the electromagnetic radiation given off by the Sun."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "leaves",
+        "relationship": "decompose in",
+        "related_concept": "soil",
+        "description": "Leaves can break down in soil, enriching it with organic matter and nutrients."
+    },
+    {
+        "concept": "water",
+        "relationship": "circulates through",
+        "related_concept": "soil",
+        "description": "Water circulates through soil, helping to dissolve and distribute nutrients."
+    },
+    {
+        "concept": "air",
+        "relationship": "interacts with",
+        "related_concept": "soil",
+        "description": "Air, specifically oxygen in the air, is important for the decomposition processes in soil but does not itself decompose to become a nutrient."
+    },
+    {
+        "concept": "sunlight",
+        "relationship": "facilitates",
+        "related_concept": "photosynthesis",
+        "description": "Sunlight is essential for photosynthesis in leaves but does not break down in soil to become a nutrient."
+    }
+]
+
+Model Answer: {
+    "answer": "leaves",
+    "reasoning": "Among the options provided, leaves can break down in soil and become nutrients. This decomposition process enriches the soil with organic matter and nutrients necessary for plant growth. Air, water, and sunlight are essential for plant life and soil health, but they do not decompose to become nutrients in the same way leaves do."
+}

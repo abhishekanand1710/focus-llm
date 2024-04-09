@@ -1,0 +1,71 @@
+Key: MCAS_2008_5_5647
+
+Question: Annette is using many tools to build a doghouse. For which of the following would Annette most likely use a tape measure while building the doghouse?
+Options: ['deciding which type of wood to use', 'removing extra nails from the wood', 'attaching different pieces of wood together', 'determining where to cut the wood into pieces']
+Answer: determining where to cut the wood into pieces
+
+Model Response:
+Concepts: [
+    {
+        "name": "Tape Measure",
+        "description": "A flexible ruler used to measure size or distance."
+    },
+    {
+        "name": "Type of Wood",
+        "description": "Refers to the various species or kinds of wood used in construction."
+    },
+    {
+        "name": "Extra Nails",
+        "description": "Nails that are surplus or not needed in the construction process."
+    },
+    {
+        "name": "Attaching Wood",
+        "description": "The process of connecting different pieces of wood together."
+    },
+    {
+        "name": "Cutting Wood",
+        "description": "The action of sawing or slicing wood into pieces of specific sizes."
+    },
+    {
+        "name": "Doghouse",
+        "description": "A small shelter intended for a dog."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Tape Measure",
+        "relationship": "used for",
+        "related_concept": "Cutting Wood",
+        "description": "A tape measure is used to determine the length and width before cutting the wood."
+    },
+    {
+        "concept": "Type of Wood",
+        "relationship": "not measured by",
+        "related_concept": "Tape Measure",
+        "description": "Choosing the type of wood is based on material properties, not dimensions."
+    },
+    {
+        "concept": "Extra Nails",
+        "relationship": "not measured by",
+        "related_concept": "Tape Measure",
+        "description": "Removing extra nails does not require measurement."
+    },
+    {
+        "concept": "Attaching Wood",
+        "relationship": "might use after",
+        "related_concept": "Cutting Wood",
+        "description": "Wood is typically measured and cut before being attached together."
+    },
+    {
+        "concept": "Doghouse",
+        "relationship": "constructed from",
+        "related_concept": "Cutting Wood",
+        "description": "The construction of a doghouse involves cutting wood into pieces before assembling."
+    }
+]
+
+Model Answer: {
+    "answer": "determining where to cut the wood into pieces",
+    "reasoning": "The tape measure is essential for accurately measuring the dimensions of wood before making cuts. This ensures that the pieces fit together properly in the construction of the doghouse. Unlike the other options, choosing the type of wood, removing extra nails, or attaching pieces together, determining where to cut the wood directly involves measurements for accuracy and fit, making the tape measure an indispensable tool in this context."
+}

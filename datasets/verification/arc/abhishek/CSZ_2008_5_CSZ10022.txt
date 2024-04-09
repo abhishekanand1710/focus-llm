@@ -1,0 +1,61 @@
+Key: CSZ_2008_5_CSZ10022
+
+Question: Which of the following factors would most likely cause a hurricane to decrease in strength?
+Options: ['staying over a warm body of water for a long time.', 'increasing the number of large clouds.', 'moving over a continent.', 'moving toward tropical waters.']
+Answer: moving over a continent.
+
+Model Response:
+Concepts: [
+    {
+        "name": "hurricane",
+        "description": "A powerful tropical storm with high winds and heavy rain."
+    },
+    {
+        "name": "warm body of water",
+        "description": "Oceans or seas with high temperatures, typically found in tropical regions."
+    },
+    {
+        "name": "large clouds",
+        "description": "Massive accumulations of water droplets or ice crystals in the atmosphere."
+    },
+    {
+        "name": "continent",
+        "description": "Large landmasses on Earth's surface."
+    },
+    {
+        "name": "tropical waters",
+        "description": "Warm ocean waters near the equator."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "hurricane",
+        "relationship": "draws energy from",
+        "related_concept": "warm body of water",
+        "description": "Hurricanes gain strength from warm ocean waters."
+    },
+    {
+        "concept": "hurricane",
+        "relationship": "weakened by",
+        "related_concept": "continent",
+        "description": "Moving over land deprives hurricanes of their moisture source, causing them to weaken."
+    },
+    {
+        "concept": "hurricane",
+        "relationship": "maintains or gains strength",
+        "related_concept": "tropical waters",
+        "description": "Warm tropical waters can contribute to a hurricane's maintenance or increase in strength."
+    },
+    {
+        "concept": "large clouds",
+        "relationship": "component of",
+        "related_concept": "hurricane",
+        "description": "Large clouds are part of the hurricane system, influenced by its dynamics."
+    }
+]
+
+Model Answer: {
+    "answer": "moving over a continent.",
+    "reasoning": "Based on the identified concepts and relationships, a hurricane decreases in strength when it moves over a continent because this action deprives it of the warm, moist environment (provided by warm bodies of water) that it requires to sustain and gain strength. Moving over land interrupts the hurricane's energy source, leading to dissipation."
+}

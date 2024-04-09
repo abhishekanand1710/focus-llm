@@ -1,0 +1,75 @@
+Key: Mercury_400893
+
+Question: In humans, the gene for a free earlobe [E] is dominant over the gene for an attached earlobe [e]. If one parent has a free earlobe [ Ee ] and the other parent has an attached earlobe ( ee ), what is the probability that their offspring will have an attached earlobe?
+Options: ['0%', '25%', '50%', '100%']
+Answer: 50%
+
+Model Response:
+Concepts: [
+    {
+        "name": "Dominant Gene",
+        "description": "A gene that is expressed phenotypically in heterozygous or homozygous form"
+    },
+    {
+        "name": "Recessive Gene",
+        "description": "A gene that is phenotypically expressed only in homozygous form and masked in the presence of a dominant gene"
+    },
+    {
+        "name": "Genotype",
+        "description": "The genetic constitution of an individual organism"
+    },
+    {
+        "name": "Phenotype",
+        "description": "The set of observable characteristics of an individual resulting from the interaction of its genotype with the environment"
+    },
+    {
+        "name": "Heterozygous",
+        "description": "Having two different alleles of a particular gene or genes"
+    },
+    {
+        "name": "Homozygous",
+        "description": "Having two identical alleles of a particular gene or genes"
+    },
+    {
+        "name": "Probability",
+        "description": "A measure of the likelihood that an event will occur"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dominant Gene",
+        "relationship": "masks",
+        "related_concept": "Recessive Gene",
+        "description": "Dominant alleles mask the expression of recessive alleles in heterozygotes"
+    },
+    {
+        "concept": "Genotype",
+        "relationship": "determines",
+        "related_concept": "Phenotype",
+        "description": "The genotype of an organism determines its phenotype"
+    },
+    {
+        "concept": "Heterozygous",
+        "relationship": "involves",
+        "related_concept": "Dominant Gene and Recessive Gene",
+        "description": "Heterozygous individuals carry one dominant and one recessive allele"
+    },
+    {
+        "concept": "Homozygous",
+        "relationship": "involves",
+        "related_concept": "Identical alleles",
+        "description": "Homozygous individuals carry two identical alleles, either dominant or recessive"
+    },
+    {
+        "concept": "Probability",
+        "relationship": "applies to",
+        "related_concept": "Genotypic outcomes",
+        "description": "Probability measures the likelihood of genotypic outcomes during reproduction"
+    }
+]
+
+Model Answer: {
+    "answer": "50%",
+    "reasoning": "The parent with a free earlobe [Ee] can pass either the E (dominant) or e (recessive) allele to the offspring, and the parent with an attached earlobe [ee] can only pass the e (recessive) allele. This results in a 50% chance of the offspring having an ee genotype (and thus, an attached earlobe) because there are two possible combinations (Ee and ee), and ee signifies attached earlobes. The probability calculation reflects the combination of genotypes that can occur during reproduction."
+}

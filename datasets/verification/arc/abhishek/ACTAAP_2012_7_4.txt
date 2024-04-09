@@ -1,0 +1,67 @@
+Key: ACTAAP_2012_7_4
+
+Question: Which describes the role of sexual reproduction in plants and animals?
+Options: ['keeps all organisms looking similar', 'ensures the continuation of the species', 'produces offspring that are identical to the parents', 'increases the size of any population over a long period of time']
+Answer: ensures the continuation of the species
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sexual reproduction",
+        "description": "A biological process that creates a new organism by combining the genetic material of two organisms."
+    },
+    {
+        "name": "Genetic diversity",
+        "description": "The total number of genetic characteristics in the genetic makeup of a species."
+    },
+    {
+        "name": "Species continuity",
+        "description": "The ongoing survival of a species through reproduction."
+    },
+    {
+        "name": "Offspring variability",
+        "description": "Differences among siblings in a family due to genetic recombination during sexual reproduction."
+    },
+    {
+        "name": "Population growth",
+        "description": "An increase in the number of individuals in a population."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "creates",
+        "related_concept": "Offspring variability",
+        "description": "Sexual reproduction leads to offspring that are genetically different from their parents."
+    },
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "increases",
+        "related_concept": "Genetic diversity",
+        "description": "Through combining genetic material from two parents, sexual reproduction increases genetic diversity within a species."
+    },
+    {
+        "concept": "Genetic diversity",
+        "relationship": "supports",
+        "related_concept": "Species continuity",
+        "description": "Higher genetic diversity increases a species' adaptability to changing environments, supporting its continuation."
+    },
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "contributes to",
+        "related_concept": "Population growth",
+        "description": "By producing offspring, sexual reproduction contributes to the growth of populations over time."
+    },
+    {
+        "concept": "Offspring variability",
+        "relationship": "is a result of",
+        "related_concept": "Sexual reproduction",
+        "description": "The genetic differences among offspring are an outcome of the sexual reproduction process."
+    }
+]
+
+Model Answer: {
+    "answer": "ensures the continuation of the species",
+    "reasoning": "Sexual reproduction results in offspring variability and increases genetic diversity, which in turn supports species continuity by enhancing the species' adaptability and survival in changing environments. While it also contributes to population growth, increasing genetic diversity and ensuring adaptability are fundamental to the ongoing survival of a species."
+}

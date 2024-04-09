@@ -1,0 +1,91 @@
+Key: NCEOGA_2013_8_10
+
+Question: Which best describes how ice cores are important to the study of geologic history?
+Options: ['They show unconformities, which signal changes in deposition.', 'They hold index fossils, which are used to date the different ice cores.', 'They contain evidence showing changes in the atmospheric composition over time.', 'They follow the Law of Superposition, which gives reasons for extinctions of species.']
+Answer: They contain evidence showing changes in the atmospheric composition over time.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Ice cores",
+        "description": "Cylindrical sections from ice sheets or glaciers, capturing atmospheric and environmental conditions of the past."
+    },
+    {
+        "name": "Geologic history",
+        "description": "The study of Earth's physical history and processes through time."
+    },
+    {
+        "name": "Unconformities",
+        "description": "Gaps in the sedimentary record that show missing time due to erosion or a lack of deposition."
+    },
+    {
+        "name": "Deposition",
+        "description": "The geological process in which sediments, soil, and rocks are added to a landform or landmass."
+    },
+    {
+        "name": "Index fossils",
+        "description": "Fossils used to define and identify geological periods."
+    },
+    {
+        "name": "Atmospheric composition",
+        "description": "The chemical makeup of the earth's atmosphere."
+    },
+    {
+        "name": "Law of Superposition",
+        "description": "A principle that in any undisturbed sequence of rock, older layers are on the bottom and younger layers are on the top."
+    },
+    {
+        "name": "Extinctions of species",
+        "description": "The dying out or termination of a species."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Ice cores",
+        "relationship": "capture",
+        "related_concept": "Atmospheric composition",
+        "description": "Ice cores contain trapped air bubbles that provide a record of past atmospheric composition."
+    },
+    {
+        "concept": "Geologic history",
+        "relationship": "studied by",
+        "related_concept": "Ice cores",
+        "description": "Ice cores are used as a primary source for the study of geologic history in relation to climate."
+    },
+    {
+        "concept": "Unconformities",
+        "relationship": "indicate",
+        "related_concept": "Changes in deposition",
+        "description": "Unconformities provide evidence for changes in deposition over time."
+    },
+    {
+        "concept": "Deposition",
+        "relationship": "blocked by",
+        "related_concept": "Unconformities",
+        "description": "Unconformities signify periods where deposition did not occur."
+    },
+    {
+        "concept": "Index fossils",
+        "relationship": "used for",
+        "related_concept": "Dating",
+        "description": "Index fossils are utilized to date geological layers."
+    },
+    {
+        "concept": "Law of Superposition",
+        "relationship": "explains",
+        "related_concept": "Geological layering",
+        "description": "This law helps in understanding the chronological order of rock layers."
+    },
+    {
+        "concept": "Extinctions of species",
+        "relationship": "caused by",
+        "related_concept": "Changes in the atmospheric composition",
+        "description": "Changes in atmospheric composition can lead to the extinction of species."
+    }
+]
+
+Model Answer: {
+    "answer": "They contain evidence showing changes in the atmospheric composition over time.",
+    "reasoning": "Ice cores are valued in geologic history studies mainly because they capture air bubbles from the past, preserving the atmospheric composition over time. This evidence is crucial to understanding changes in Earth's climate and atmospheric conditions, rather than providing data about unconformities, index fossils, or directly explaining the laws of superposition and extinctions."
+}

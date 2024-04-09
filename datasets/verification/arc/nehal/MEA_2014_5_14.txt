@@ -1,0 +1,71 @@
+Key: MEA_2014_5_14
+
+Question: Ten grams of sugar is dissolved in 100 grams (g) of water. How many grams is the sugar-and-water solution?
+Options: ['90 g', '100 g', '110 g', '1000 g']
+Answer: 110 g
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mass",
+        "description": "A physical property reflecting the amount of matter within an object."
+    },
+    {
+        "name": "Sugar",
+        "description": "A sweet crystalline substance obtained from various plants."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent fluid which forms the world's streams, lakes, oceans, and rain."
+    },
+    {
+        "name": "Solution",
+        "description": "A homogeneous mixture composed of two or more substances."
+    },
+    {
+        "name": "Dissolution",
+        "description": "The process of dissolving a solute in a solvent to create a solution."
+    },
+    {
+        "name": "Addition of Masses",
+        "description": "The total mass of a combination of substances is the sum of the individual masses."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sugar",
+        "relationship": "is dissolved in",
+        "related_concept": "Water",
+        "description": "Sugar is dissolved in water to form a solution."
+    },
+    {
+        "concept": "Dissolution",
+        "relationship": "results in",
+        "related_concept": "Solution",
+        "description": "The process of dissolving a solute (sugar) into a solvent (water) results in a solution."
+    },
+    {
+        "concept": "Addition of Masses",
+        "relationship": "applies to",
+        "related_concept": "Solution",
+        "description": "The principle that the total mass of the solution is the sum of the mass of sugar and the mass of water."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "property of",
+        "related_concept": "Sugar",
+        "description": "Mass is a property that quantifies the amount of sugar."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "property of",
+        "related_concept": "Water",
+        "description": "Mass is a property that quantifies the amount of water."
+    }
+]
+
+Model Answer: {
+    "answer": "110 g",
+    "reasoning": "According to the principle of addition of masses, when 10 grams of sugar is dissolved in 100 grams of water, the total mass of the resulting solution is simply the sum of the mass of sugar and the mass of water. Thus, 10 g (sugar) + 100 g (water) = 110 g. Therefore, the mass of the sugar-and-water solution is 110 grams."
+}

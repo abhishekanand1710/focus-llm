@@ -1,0 +1,77 @@
+Key: AKDE&ED_2012_4_33
+
+Question: A student gives a red toy car a push on a wooden floor. The student then pushes the same red toy car on a cement floor. Which question is the student most likely investigating?
+Options: ['How fast does a toy car usually roll?', 'What is the best way to make a toy car roll?', 'Which surface allows a toy car to roll farther?', 'Does color have an effect on the distance a toy car rolls?']
+Answer: Which surface allows a toy car to roll farther?
+
+Model Response:
+Concepts: [
+    {
+        "name": "Surface Material",
+        "description": "Type of material that the floor is made of, which affects the rolling of the toy car."
+    },
+    {
+        "name": "Wooden Floor",
+        "description": "Floor made of wood, which might have different friction characteristics."
+    },
+    {
+        "name": "Cement Floor",
+        "description": "Floor made of cement, which might have different friction characteristics."
+    },
+    {
+        "name": "Friction",
+        "description": "The force that opposes the motion of the toy car, affected by surface material."
+    },
+    {
+        "name": "Distance Rolled",
+        "description": "The measure of how far the toy car travels."
+    },
+    {
+        "name": "Push",
+        "description": "The force applied to the toy car to initiate movement."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Surface Material",
+        "relationship": "is a type of",
+        "related_concept": "Wooden Floor",
+        "description": "Wooden Floor is a type of Surface Material."
+    },
+    {
+        "concept": "Surface Material",
+        "relationship": "is a type of",
+        "related_concept": "Cement Floor",
+        "description": "Cement Floor is a type of Surface Material."
+    },
+    {
+        "concept": "Wooden Floor",
+        "relationship": "affects",
+        "related_concept": "Friction",
+        "description": "Wooden Floor affects the level of Friction."
+    },
+    {
+        "concept": "Cement Floor",
+        "relationship": "affects",
+        "related_concept": "Friction",
+        "description": "Cement Floor affects the level of Friction."
+    },
+    {
+        "concept": "Friction",
+        "relationship": "impacts",
+        "related_concept": "Distance Rolled",
+        "description": "Friction impacts the Distance Rolled."
+    },
+    {
+        "concept": "Push",
+        "relationship": "initiates",
+        "related_concept": "Distance Rolled",
+        "description": "Push initiates the Distance Rolled."
+    }
+]
+
+Model Answer: {
+    "answer": "Which surface allows a toy car to roll farther?",
+    "reasoning": "The student is comparing the effects of different surfaces (wooden and cement floor) on the distance a toy car rolls after being pushed, indicating an investigation into how surface material affects the rolling distance of the toy car due to differences in friction. The other options are not directly related to the change of surfaces."
+}

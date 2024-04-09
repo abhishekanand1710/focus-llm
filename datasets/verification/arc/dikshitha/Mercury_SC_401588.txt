@@ -1,0 +1,61 @@
+Key: Mercury_SC_401588
+
+Question: A student is given three identically sized blocks. Each block is made of a different material. What characteristic of the blocks should be examined to find out which block is made of metal?
+Options: ['color', 'weight', 'texture', 'conductivity']
+Answer: conductivity
+
+Model Response:
+Concepts: [
+    {
+        "name": "Color",
+        "description": "The appearance of objects described in terms of someone's perception of their hue and lightness (or brightness) and saturation."
+    },
+    {
+        "name": "Weight",
+        "description": "A measure of the force exerted on an object by gravity."
+    },
+    {
+        "name": "Texture",
+        "description": "The feel, appearance, or consistency of a surface."
+    },
+    {
+        "name": "Conductivity",
+        "description": "A measure of the ability of a material to conduct electric current."
+    },
+    {
+        "name": "Metal",
+        "description": "A material that is typically hard, opaque, shiny, and has good electrical and thermal conductivity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Weight",
+        "relationship": "is characteristic of",
+        "related_concept": "Metal",
+        "description": "Metals tend to be denser than other materials, giving them higher weight for the same volume."
+    },
+    {
+        "concept": "Texture",
+        "relationship": "can vary across",
+        "related_concept": "Metal",
+        "description": "Metals can have a range of textures but this is not uniquely distinguishing."
+    },
+    {
+        "concept": "Color",
+        "relationship": "is characteristic of",
+        "related_concept": "Metal",
+        "description": "Different metals can exhibit a wide range of colors, but this is not unique to metals."
+    },
+    {
+        "concept": "Conductivity",
+        "relationship": "is uniquely high in",
+        "related_concept": "Metal",
+        "description": "Metals are uniquely known for their high electrical and thermal conductivity."
+    }
+]
+
+Model Answer: {
+    "answer": "conductivity",
+    "reasoning": "Among color, weight, texture, and conductivity, the characteristic that most uniquely identifies a block as made of metal is conductivity. Metals are known for their exceptionally high electrical and thermal conductivity compared to other materials like wood or plastic. While metals can vary in color, weight, and texture, these properties are not as uniquely distinguishing as the ability to conduct electricity, which is a defining property of metals."
+}

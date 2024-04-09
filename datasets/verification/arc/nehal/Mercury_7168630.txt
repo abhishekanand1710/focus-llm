@@ -1,0 +1,87 @@
+Key: Mercury_7168630
+
+Question: Cells are the basic unit of structure and function in all living organisms. Which describes the greatest difference between the cells of a baby gorilla and the cells of an adult gorilla?
+Options: ['The adult has more cells than the baby.', 'The baby has simpler cells than an adult.', 'The baby has smaller cells than the adult.', 'The adult has different types of cells than the baby.']
+Answer: The adult has more cells than the baby.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cell",
+        "description": "The basic unit of structure and function in all living organisms."
+    },
+    {
+        "name": "Baby gorilla",
+        "description": "A young gorilla, which is still growing and developing."
+    },
+    {
+        "name": "Adult gorilla",
+        "description": "A fully grown and mature gorilla."
+    },
+    {
+        "name": "Cell complexity",
+        "description": "Refers to the structural and functional complexity within a cell."
+    },
+    {
+        "name": "Cell size",
+        "description": "Refers to the physical dimensions of a cell."
+    },
+    {
+        "name": "Cell types",
+        "description": "Different kinds of cells specialized to carry out specific functions."
+    },
+    {
+        "name": "Growth and development",
+        "description": "The process by which living organisms increase in size and undergo various changes."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Baby gorilla",
+        "relationship": "grows_into",
+        "related_concept": "Adult gorilla",
+        "description": "A baby gorilla grows and develops into an adult gorilla."
+    },
+    {
+        "concept": "Growth and development",
+        "relationship": "results_in",
+        "related_concept": "More cells",
+        "description": "The process of growth and development in organisms results in an increase in the number of cells."
+    },
+    {
+        "concept": "Cell",
+        "relationship": "part_of",
+        "related_concept": "Baby gorilla",
+        "description": "Cells form the basic unit of structure and function in baby gorillas."
+    },
+    {
+        "concept": "Cell",
+        "relationship": "part_of",
+        "related_concept": "Adult gorilla",
+        "description": "Cells form the basic unit of structure and function in adult gorillas."
+    },
+    {
+        "concept": "Cell complexity",
+        "relationship": "attribute_of",
+        "related_concept": "Cell",
+        "description": "Cell complexity describes the inherent complexity within a cell, applicable to both baby and adult gorillas."
+    },
+    {
+        "concept": "Cell size",
+        "relationship": "attribute_of",
+        "related_concept": "Cell",
+        "description": "Cell size refers to the size of individual cells, which can vary but is not dependent on the age of an organism."
+    },
+    {
+        "concept": "Cell types",
+        "relationship": "variation_in",
+        "related_concept": "Cell",
+        "description": "Different cell types exist within organisms, serving various functions, present from an early developmental stage."
+    }
+]
+
+Model Answer: {
+    "answer": "The adult has more cells than the baby.",
+    "reasoning": "The main distinction between the cells of a baby gorilla and an adult gorilla lies in the number of cells. Both baby and adult gorillas are made up of cells that share the same level of complexity, the cells are similarly complex across different life stages. The size of the cells does not inherently differ significantly between a baby and an adult gorilla, and while the types of cells needed for various functions are already present in early developmental stages, the number of cells increases as a baby gorilla grows into an adult. This increase in cell number is a direct result of the growth and developmental processes that a baby gorilla undergoes to become an adult."
+}

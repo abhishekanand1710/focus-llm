@@ -1,0 +1,83 @@
+Key: Mercury_182718
+
+Question: Birds that do not receive adequate nutrition during development sing less often and for shorter periods of time as adult birds. Which best describes the outcome of nutritional stress in these songbirds?
+Options: ['They are less likely to ward off predators.', 'They are less likely to obtain good nesting sites.', 'They are less likely to find adequate food supplies.', 'They are less likely to attract mates and pass on their genes.']
+Answer: They are less likely to attract mates and pass on their genes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Nutritional stress",
+        "description": "Lack of adequate nutrition during the development of birds."
+    },
+    {
+        "name": "Song frequency",
+        "description": "The occurrence of singing in birds."
+    },
+    {
+        "name": "Song duration",
+        "description": "The length of time a bird sings."
+    },
+    {
+        "name": "Adult birds",
+        "description": "Birds that have reached maturity."
+    },
+    {
+        "name": "Mating success",
+        "description": "Ability of birds to attract mates and reproduce."
+    },
+    {
+        "name": "Genetics",
+        "description": "The biological inheritance of traits from parents to offspring."
+    },
+    {
+        "name": "Predation",
+        "description": "The preying of one animal on others."
+    },
+    {
+        "name": "Nesting sites",
+        "description": "Locations chosen by birds to lay eggs and raise offspring."
+    },
+    {
+        "name": "Food supplies",
+        "description": "Availability of food for birds."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Nutritional stress",
+        "relationship": "leads to",
+        "related_concept": "Song frequency",
+        "description": "Inadequate nutrition results in birds singing less often."
+    },
+    {
+        "concept": "Nutritional stress",
+        "relationship": "leads to",
+        "related_concept": "Song duration",
+        "description": "Insufficient nutrition causes birds to sing for shorter periods."
+    },
+    {
+        "concept": "Song frequency",
+        "relationship": "affects",
+        "related_concept": "Mating success",
+        "description": "Less frequent singing negatively impacts a bird's ability to attract mates."
+    },
+    {
+        "concept": "Song duration",
+        "relationship": "affects",
+        "related_concept": "Mating success",
+        "description": "Shorter singing durations hinder a bird's mating success."
+    },
+    {
+        "concept": "Mating success",
+        "relationship": "influences",
+        "related_concept": "Genetics",
+        "description": "Successful mating allows for the passing of genes to offspring."
+    }
+]
+
+Model Answer: {
+    "answer": "They are less likely to attract mates and pass on their genes.",
+    "reasoning": "Nutritional stress during development leads to birds singing less often and for shorter durations, which are critical aspects of attracting mates in many bird species. This, in turn, negatively affects their mating success, making them less likely to attract mates and subsequently less likely to pass on their genes. The relationships between nutritional stress, song frequency and duration, mating success, and genetic transmission underscore the importance of adequate nutrition for the reproductive success of songbirds."
+}

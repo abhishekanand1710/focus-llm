@@ -1,0 +1,113 @@
+Key: Mercury_412149
+
+Question: Sodium, Na, is in the same group as
+Options: ['Ne.', 'Mg.', 'Ca.', 'K.']
+Answer: K.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sodium",
+        "description": "A chemical element with the symbol Na, an alkali metal."
+    },
+    {
+        "name": "Neon",
+        "description": "A chemical element with the symbol Ne, a noble gas."
+    },
+    {
+        "name": "Magnesium",
+        "description": "A chemical element with the symbol Mg, an alkaline earth metal."
+    },
+    {
+        "name": "Calcium",
+        "description": "A chemical element with the symbol Ca, an alkaline earth metal."
+    },
+    {
+        "name": "Potassium",
+        "description": "A chemical element with the symbol K, an alkali metal."
+    },
+    {
+        "name": "Periodic Table",
+        "description": "A tabular display of the chemical elements organized by atomic number, electron configuration, and recurring chemical properties."
+    },
+    {
+        "name": "Alkali Metals",
+        "description": "A group of chemical elements in the periodic table with similar properties: shiny, highly reactive at standard temperature and pressure."
+    },
+    {
+        "name": "Alkaline Earth Metals",
+        "description": "A group of chemical elements in the periodic table with similar properties including being more dense than alkali metals but less reactive."
+    },
+    {
+        "name": "Noble Gases",
+        "description": "A group of chemical elements with very low reactivity; monoatomic gases under standard conditions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sodium",
+        "relationship": "is a",
+        "related_concept": "Alkali Metals",
+        "description": "Sodium is part of the alkali metals group."
+    },
+    {
+        "concept": "Potassium",
+        "relationship": "is a",
+        "related_concept": "Alkali Metals",
+        "description": "Potassium is part of the alkali metals group."
+    },
+    {
+        "concept": "Magnesium",
+        "relationship": "is a",
+        "related_concept": "Alkaline Earth Metals",
+        "description": "Magnesium is part of the alkaline earth metals group."
+    },
+    {
+        "concept": "Calcium",
+        "relationship": "is a",
+        "related_concept": "Alkaline Earth Metals",
+        "description": "Calcium is part of the alkaline earth metals group."
+    },
+    {
+        "concept": "Neon",
+        "relationship": "is a",
+        "related_concept": "Noble Gases",
+        "description": "Neon is part of the noble gases group."
+    },
+    {
+        "concept": "Periodic Table",
+        "relationship": "organizes",
+        "related_concept": "Sodium",
+        "description": "The Periodic Table organizes elements like Sodium according to its properties."
+    },
+    {
+        "concept": "Periodic Table",
+        "relationship": "organizes",
+        "related_concept": "Potassium",
+        "description": "The Periodic Table organizes elements like Potassium according to its properties."
+    },
+    {
+        "concept": "Periodic Table",
+        "relationship": "divides_into",
+        "related_concept": "Alkali Metals",
+        "description": "The Periodic Table divides elements into groups such as Alkali Metals."
+    },
+    {
+        "concept": "Periodic Table",
+        "relationship": "divides_into",
+        "related_concept": "Alkaline Earth Metals",
+        "description": "The Periodic Table divides elements into groups such as Alkaline Earth Metals."
+    },
+    {
+        "concept": "Periodic Table",
+        "relationship": "divides_into",
+        "related_concept": "Noble Gases",
+        "description": "The Periodic Table divides elements into groups such as Noble Gases."
+    }
+]
+
+Model Answer: {
+    "answer": "K.",
+    "reasoning": "Both Sodium (Na) and Potassium (K) are in the same group on the periodic table; they are both Alkali Metals. This group is characterized by similar properties including being shiny and highly reactive. Unlike Magnesium (Mg) and Calcium (Ca), which are Alkaline Earth Metals, and Neon (Ne), which is a Noble Gas, Potassium shares the closest chemical properties with Sodium, making it the only correct match from the options provided."
+}

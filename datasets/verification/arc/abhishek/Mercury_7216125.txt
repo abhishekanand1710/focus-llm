@@ -1,0 +1,69 @@
+Key: Mercury_7216125
+
+Question: Many school districts are placing dispensers of hand sanitizer in classrooms and computer labs. Which of the following is the most likely purpose of this practice?
+Options: ['conserve water resources', 'control noninfectious diseases', 'promote safe use of technology', 'limit diseases spread by contact']
+Answer: limit diseases spread by contact
+
+Model Response:
+Concepts: [
+    {
+        "name": "hand sanitizer",
+        "description": "a liquid, gel, or foam generally used to decrease infectious agents on the hands"
+    },
+    {
+        "name": "dispensers",
+        "description": "devices that release a specific amount of substance when activated"
+    },
+    {
+        "name": "classrooms and computer labs",
+        "description": "places where students gather to learn, both physically and via electronic devices"
+    },
+    {
+        "name": "conserve water resources",
+        "description": "the reduction in water usage to protect the environment"
+    },
+    {
+        "name": "control noninfectious diseases",
+        "description": "measures taken to manage diseases that cannot be spread from person to person"
+    },
+    {
+        "name": "promote safe use of technology",
+        "description": "actions taken to ensure technology is used without causing harm"
+    },
+    {
+        "name": "limit diseases spread by contact",
+        "description": "reduction of the transmission of diseases through direct or indirect physical touch"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "hand sanitizer",
+        "relationship": "placed in",
+        "related_concept": "classrooms and computer labs",
+        "description": "Hand sanitizer dispensers are being installed in classrooms and computer labs"
+    },
+    {
+        "concept": "hand sanitizer",
+        "relationship": "used for",
+        "related_concept": "limit diseases spread by contact",
+        "description": "Hand sanitizer is primarily used to reduce the transmission of diseases through touch"
+    },
+    {
+        "concept": "dispensers",
+        "relationship": "contain",
+        "related_concept": "hand sanitizer",
+        "description": "Dispensers are devices that contain and dispense hand sanitizer"
+    },
+    {
+        "concept": "classrooms and computer labs",
+        "relationship": "are locations",
+        "related_concept": "limit diseases spread by contact",
+        "description": "Places where disease transmission through contact can be a concern due to high student interaction"
+    }
+]
+
+Model Answer: {
+    "answer": "limit diseases spread by contact",
+    "reasoning": "The main purpose of placing hand sanitizer dispensers in classrooms and computer labs is to limit the spread of diseases by contact. Given that these are shared spaces where students are in close proximity and may use shared devices like computers, reducing transmission through hand contact is crucial. Hand sanitizers are specifically designed for this purpose, especially in environments where it's not always convenient to wash hands with soap and water immediately. This aligns with the general goal of maintaining a healthier environment for students by minimizing infectious agents that can be easily spread through touch."
+}

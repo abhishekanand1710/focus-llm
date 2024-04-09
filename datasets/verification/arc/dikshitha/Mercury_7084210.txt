@@ -1,0 +1,61 @@
+Key: Mercury_7084210
+
+Question: A researcher examines a marine organism that is the size of an average human hand. Without more information, which statement about the organism is most likely accurate?
+Options: ['It is mobile.', 'It has organ systems.', 'It is made of many cells.', 'It makes its own food.']
+Answer: It is made of many cells.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mobile",
+        "description": "Ability to move from one place to another"
+    },
+    {
+        "name": "Organ Systems",
+        "description": "Groups of organs that work together to perform one or more functions"
+    },
+    {
+        "name": "Multicellular",
+        "description": "Consisting of many cells"
+    },
+    {
+        "name": "Autotroph",
+        "description": "An organism that makes its own food"
+    },
+    {
+        "name": "Marine Organism",
+        "description": "An organism that lives in salt water"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Marine Organism",
+        "relationship": "is likely to be",
+        "related_concept": "Multicellular",
+        "description": "Most marine organisms of the size of a human hand are multicellular due to the complexity and functions required for survival in their environment."
+    },
+    {
+        "concept": "Multicellular",
+        "relationship": "can have",
+        "related_concept": "Organ Systems",
+        "description": "Multicellular organisms may develop complex structures such as organ systems to support life."
+    },
+    {
+        "concept": "Marine Organism",
+        "relationship": "may be",
+        "related_concept": "Mobile",
+        "description": "Many marine organisms are mobile to find food, escape predators, or reproduce."
+    },
+    {
+        "concept": "Marine Organism",
+        "relationship": "may or may not be",
+        "related_concept": "Autotroph",
+        "description": "Marine organisms can be autotrophs (like some algae) or heterotrophs depending on their mode of nutrition."
+    }
+]
+
+Model Answer: {
+    "answer": "It is made of many cells.",
+    "reasoning": "Given the organism's size (comparable to an average human hand), it is most probable that it is multicellular. This presumption is based on the fact that larger size often correlates with multicellularity due to the increased need for complexity and specialized functions, which single-celled organisms cannot adequately support. The presence of cells allows for specialization and the capability to form structures and systems necessary for supporting life in a marine environment."
+}

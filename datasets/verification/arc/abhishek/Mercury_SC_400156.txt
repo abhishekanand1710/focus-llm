@@ -1,0 +1,77 @@
+Key: Mercury_SC_400156
+
+Question: In which two parts of the water cycle does water absorb energy?
+Options: ['condensation and evaporation', 'precipitation and condensation', 'melting and evaporation', 'evaporation and precipitation']
+Answer: melting and evaporation
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water Cycle",
+        "description": "The continuous movement of water on, above, and below the surface of the Earth."
+    },
+    {
+        "name": "Condensation",
+        "description": "The process by which water vapor in the atmosphere cools and becomes liquid."
+    },
+    {
+        "name": "Evaporation",
+        "description": "The process by which water changes from a liquid to a gas or vapor."
+    },
+    {
+        "name": "Precipitation",
+        "description": "Any form of water - liquid or solid - falling from the sky, such as rain, snow, sleet, or hail."
+    },
+    {
+        "name": "Melting",
+        "description": "The process by which solid water (ice) changes into liquid water."
+    },
+    {
+        "name": "Energy Absorption",
+        "description": "The process of taking in energy, which is necessary for phase changes in the water cycle."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Evaporation",
+        "relationship": "requires",
+        "related_concept": "Energy Absorption",
+        "description": "Evaporation needs energy to convert liquid water into water vapor."
+    },
+    {
+        "concept": "Melting",
+        "relationship": "requires",
+        "related_concept": "Energy Absorption",
+        "description": "Melting needs energy to convert ice into liquid water."
+    },
+    {
+        "concept": "Condensation",
+        "relationship": "opposite_of",
+        "related_concept": "Evaporation",
+        "description": "In condensation, water vapor becomes liquid water, opposite of evaporating."
+    },
+    {
+        "concept": "Precipitation",
+        "relationship": "follows",
+        "related_concept": "Condensation",
+        "description": "After water condenses in the atmosphere, it can fall as precipitation."
+    },
+    {
+        "concept": "Water Cycle",
+        "relationship": "includes",
+        "related_concept": "Evaporation",
+        "description": "The water cycle consists of evaporation among other processes."
+    },
+    {
+        "concept": "Water Cycle",
+        "relationship": "includes",
+        "related_concept": "Condensation",
+        "description": "Condensation is a part of the water cycle."
+    }
+]
+
+Model Answer: {
+    "answer": "melting and evaporation",
+    "reasoning": "In the context of the water cycle, both melting and evaporation are processes that require energy absorption. Melting requires energy for the phase change from solid (ice) to liquid water. Similarly, evaporation needs energy to transition water from a liquid to a gaseous state. These processes are essential parts of the water cycle where energy absorption is necessary to change the phase of water."
+}

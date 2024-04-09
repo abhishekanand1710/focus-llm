@@ -1,0 +1,63 @@
+Key: Mercury_7083808
+
+Question: When two unequal forces act in opposite directions on a moving object, the object will
+Options: ['absorb the forces.', 'come to an immediate stop.', 'continue to move in the same direction.', 'move in the same direction as the larger force.']
+Answer: move in the same direction as the larger force.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Force",
+        "description": "A push or pull on an object that can cause it to change velocity."
+    },
+    {
+        "name": "Direction of force",
+        "description": "The particular orientation or course along which a force is applied."
+    },
+    {
+        "name": "Motion",
+        "description": "A change in position of an object with respect to time."
+    },
+    {
+        "name": "Net force",
+        "description": "The overall force acting on an object when all the individual forces are combined."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Force",
+        "relationship": "acts on",
+        "related_concept": "Motion",
+        "description": "Force can cause or change the motion of an object."
+    },
+    {
+        "concept": "Direction of force",
+        "relationship": "determines",
+        "related_concept": "Motion direction",
+        "description": "The direction of the applied force influences the direction of motion."
+    },
+    {
+        "concept": "Net force",
+        "relationship": "is result of",
+        "related_concept": "Force",
+        "description": "Net force is calculated by combining all the individual forces acting upon an object."
+    },
+    {
+        "concept": "Net force",
+        "relationship": "determines",
+        "related_concept": "Motion change",
+        "description": "The net force determines how the motion of an object is changed."
+    },
+    {
+        "concept": "Motion",
+        "relationship": "is influenced by",
+        "related_concept": "Net force",
+        "description": "The motion of an object is influenced by the net force acting on it."
+    }
+]
+
+Model Answer: {
+    "answer": "move in the same direction as the larger force.",
+    "reasoning": "When two unequal forces act in opposite directions on a moving object, the net force acting on the object is in the direction of the larger force. This net force will cause the object to continue moving in the direction of the larger force, albeit possibly at a changed velocity, depending on the magnitude of the forces. The concept of net force and its relationship with motion direction indicates that the object's future direction is determined by the direction of the net force, which in this scenario aligns with the larger of the two forces."
+}

@@ -1,0 +1,57 @@
+Key: Mercury_SC_401836
+
+Question: Which of these events occurs about every three months?
+Options: ['high tide', 'new moon', 'new season', 'solar eclipse']
+Answer: new season
+
+Model Response:
+Concepts: [
+    {
+        "name": "high tide",
+        "description": "A state of the sea where the water level rises to its highest point."
+    },
+    {
+        "name": "new moon",
+        "description": "A phase of the moon when it is in conjunction with the sun and invisible from earth."
+    },
+    {
+        "name": "new season",
+        "description": "A division of the year marked by changes in weather, ecology, and daylight hours."
+    },
+    {
+        "name": "solar eclipse",
+        "description": "An astronomical event that occurs when the moon passes between the sun and Earth, blocking all or part of the sun's light."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "high tide",
+        "relationship": "caused by",
+        "related_concept": "new moon",
+        "description": "High tides are stronger during new moon due to the alignment of the Earth, moon, and sun."
+    },
+    {
+        "concept": "new moon",
+        "relationship": "occurs",
+        "related_concept": "every month",
+        "description": "A new moon happens approximately every 29.5 days, marking the beginning of a new lunar cycle."
+    },
+    {
+        "concept": "new season",
+        "relationship": "starts",
+        "related_concept": "every three months",
+        "description": "A new season begins every three months, dividing the year into four distinct periods."
+    },
+    {
+        "concept": "solar eclipse",
+        "relationship": "requires",
+        "related_concept": "new moon",
+        "description": "A solar eclipse can only occur during a new moon when the moon moves between the Earth and the sun."
+    }
+]
+
+Model Answer: {
+    "answer": "new season",
+    "reasoning": "Based on the listed concepts and their relationships, 'new season' occurs about every three months, marking a division of the year into four distinct periods. This is consistent with the regular, quarterly division of the year, unlike the other options which either occur more frequently or irregularly."
+}

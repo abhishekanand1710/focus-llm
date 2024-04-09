@@ -1,0 +1,85 @@
+Key: MCAS_2008_8_5694
+
+Question: Which of the following statements best explains why the tilt of Earth on its axis causes summer to be warmer than winter in the Northern Hemisphere?
+Options: ['The warm ocean currents flow from the tropics to the Northern Hemisphere in the summer.', 'The rays of the Sun strike the Northern Hemisphere more directly in the summer.', 'The greenhouse effect increases in the Northern Hemisphere in the summer.', 'The Northern Hemisphere is closer to the Sun in the summer.']
+Answer: The rays of the Sun strike the Northern Hemisphere more directly in the summer.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's axial tilt",
+        "description": "The angle at which Earth tilts on its axis as it orbits the Sun."
+    },
+    {
+        "name": "Summer",
+        "description": "The warmest season of the year, occurring between spring and autumn."
+    },
+    {
+        "name": "Winter",
+        "description": "The coldest season of the year, occurring between autumn and spring."
+    },
+    {
+        "name": "Northern Hemisphere",
+        "description": "The half of Earth that is north of the Equator."
+    },
+    {
+        "name": "Sun rays",
+        "description": "Rays of light and heat that emanate from the Sun."
+    },
+    {
+        "name": "Warm ocean currents",
+        "description": "Streams of warm water that move through the oceans, redistributing heat."
+    },
+    {
+        "name": "Greenhouse effect",
+        "description": "The trapping of the Sun's warmth in a planet's lower atmosphere."
+    },
+    {
+        "name": "Proximity to the Sun",
+        "description": "The closeness of an object to the Sun."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's axial tilt",
+        "relationship": "causes",
+        "related_concept": "Seasonal variation",
+        "description": "The tilt of the Earth on its axis leads to variations in seasons."
+    },
+    {
+        "concept": "Seasonal variation",
+        "relationship": "results in",
+        "related_concept": "Summer",
+        "description": "The tilt causes differences in heating, creating summer in the Northern Hemisphere when it tilts toward the Sun."
+    },
+    {
+        "concept": "Sun rays",
+        "relationship": "strike more directly",
+        "related_concept": "Summer",
+        "description": "During summer, the Northern Hemisphere receives more direct sunlight."
+    },
+    {
+        "concept": "Northern Hemisphere",
+        "relationship": "experiences",
+        "related_concept": "Warm ocean currents",
+        "description": "Warm ocean currents can flow to the Northern Hemisphere but are not a primary reason for seasonal temperature differences."
+    },
+    {
+        "concept": "Seasonal variation",
+        "relationship": "does not significantly affect",
+        "related_concept": "Greenhouse effect",
+        "description": "The greenhouse effect is fairly constant and not the primary reason for seasonal temperature changes."
+    },
+    {
+        "concept": "Northern Hemisphere",
+        "relationship": "not significantly closer",
+        "related_concept": "Proximity to the Sun",
+        "description": "The difference in Earth's proximity to the Sun during summer and winter is minimal and does not cause the seasonal temperature differences."
+    }
+]
+
+Model Answer: {
+    "answer": "The rays of the Sun strike the Northern Hemisphere more directly in the summer.",
+    "reasoning": "The tilt of the Earth on its axis causes sunlight to be more direct in the Northern Hemisphere during summer, leading to higher temperatures. This is because the direct rays of the Sun provide more energy and warmth compared to when the Sun's rays are more oblique, which happens during winter. The concepts of 'Earth's axial tilt' and 'Sun rays' are directly related to this phenomenon, as they explain how and why the Northern Hemisphere experiences warmer temperatures in the summer."
+}

@@ -1,0 +1,57 @@
+Key: Mercury_7210578
+
+Question: Which of these is only found outside the solar system?
+Options: ['planets', 'moons', 'nebulae', 'comets']
+Answer: nebulae
+
+Model Response:
+Concepts: [
+    {
+        "name": "planets",
+        "description": "Celestial bodies orbiting a star, massive enough to be rounded by their own gravity but not enough to cause thermonuclear fusion"
+    },
+    {
+        "name": "moons",
+        "description": "Natural satellites orbiting planets or minor planets"
+    },
+    {
+        "name": "nebulae",
+        "description": "Immense clouds of gas and dust in space, often serving as stellar nurseries"
+    },
+    {
+        "name": "comets",
+        "description": "Ice-containing small Solar System bodies that, when passing close to the Sun, warm and begin to release gases, a process called outgassing"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "planets",
+        "relationship": "exist within",
+        "related_concept": "solar system",
+        "description": "Planets are found both within and outside the solar system, orbiting stars"
+    },
+    {
+        "concept": "moons",
+        "relationship": "orbit",
+        "related_concept": "planets",
+        "description": "Moons are natural satellites that orbit planets, found both in and outside our solar system"
+    },
+    {
+        "concept": "nebulae",
+        "relationship": "located within",
+        "related_concept": "galaxy",
+        "description": "Nebulae are found within galaxies, both in and beyond the Milky Way, hence outside our solar system"
+    },
+    {
+        "concept": "comets",
+        "relationship": "originate from",
+        "related_concept": "solar system",
+        "description": "Comets are often originated in the outer parts of the solar system but can travel through it"
+    }
+]
+
+Model Answer: {
+    "answer": "nebulae",
+    "reasoning": "While planets, moons, and comets are all found within our solar system, nebulae are immense clouds of gas and dust located both in and beyond the Milky Way galaxy, hence existing outside the solar system as well. Unlike the other options, nebulae are not bound to the solar system and can be found throughout the universe, making 'nebulae' the correct answer."
+}

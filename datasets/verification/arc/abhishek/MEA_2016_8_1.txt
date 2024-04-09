@@ -1,0 +1,81 @@
+Key: MEA_2016_8_1
+
+Question: A fox gave birth to an offspring that had a better sense of hearing than most foxes. How could this small change most likely result in descendants that are different from the original fox?
+Options: ['Foxes that have a better sense of hearing may mutate more frequently than other foxes.', 'Foxes that have a better sense of hearing may be hunted more frequently.', 'Over time, descendants of this fox may hear and hunt prey better than other foxes.', 'Over time, descendants of this fox may become extinct.']
+Answer: Over time, descendants of this fox may hear and hunt prey better than other foxes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Natural Selection",
+        "description": "A process by which characteristics that make an individual better suited to its environment become more common in a species."
+    },
+    {
+        "name": "Mutation",
+        "description": "A change in DNA that can lead to a change in a trait, such as better hearing."
+    },
+    {
+        "name": "Predation",
+        "description": "The action of preying on other organisms for food."
+    },
+    {
+        "name": "Survival Advantage",
+        "description": "A trait that makes an organism more likely to survive in its environment."
+    },
+    {
+        "name": "Reproduction",
+        "description": "The process by which organisms produce offspring."
+    },
+    {
+        "name": "Evolution",
+        "description": "The change in the heritable traits of biological populations over successive generations."
+    },
+    {
+        "name": "Heritability",
+        "description": "Traits that can be passed down from parents to their offspring through genes."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mutation",
+        "relationship": "leads to",
+        "related_concept": "Survival Advantage",
+        "description": "A mutation can result in a trait that offers a survival advantage, like better hearing."
+    },
+    {
+        "concept": "Survival Advantage",
+        "relationship": "results in",
+        "related_concept": "Natural Selection",
+        "description": "Traits that confer a survival advantage are more likely to be selected for in natural selection."
+    },
+    {
+        "concept": "Natural Selection",
+        "relationship": "drives",
+        "related_concept": "Evolution",
+        "description": "Natural selection is a key mechanism by which evolution occurs."
+    },
+    {
+        "concept": "Evolution",
+        "relationship": "results from",
+        "related_concept": "Reproduction",
+        "description": "Evolution occurs through differences in the traits of offspring, which are inherited from the parents."
+    },
+    {
+        "concept": "Reproduction",
+        "relationship": "influenced by",
+        "related_concept": "Heritability",
+        "description": "Traits that are highly heritable play a crucial role in the reproduction of organisms."
+    },
+    {
+        "concept": "Survival Advantage",
+        "relationship": "improves",
+        "related_concept": "Predation",
+        "description": "A survival advantage, such as better hearing, can improve an organism's ability to hunt or avoid predators."
+    }
+]
+
+Model Answer: {
+    "answer": "Over time, descendants of this fox may hear and hunt prey better than other foxes.",
+    "reasoning": "The fox with better hearing has a mutation that results in a survival advantage; it can detect predators and prey more efficiently. This trait can be passed down to its descendants through heritability, leading to natural selection that favors those with better hearing. Over time, this can result in an evolutionary path where descendants are better hunters due to their superior hearing capabilities."
+}

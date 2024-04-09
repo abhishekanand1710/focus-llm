@@ -1,0 +1,71 @@
+Key: LEAP__7_10344
+
+Question: What is a difference between mitosis and meiosis?
+Options: ['Mitosis occurs in all the cells in animals and plants, while meiosis occurs in only in bacteria.', 'In mitosis, the products are identical to the parent cell, while in meiosis the products are different from the parent cell.', 'In mitosis, one cell divides into two cells, while in meiosis two cells combine to make one cell.', 'Mitosis involves separating the chromosomes, while meiosis involves only the cytoplasm of the cell.']
+Answer: In mitosis, the products are identical to the parent cell, while in meiosis the products are different from the parent cell.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mitosis",
+        "description": "A process of cell division that results in two genetically identical daughter cells."
+    },
+    {
+        "name": "Meiosis",
+        "description": "A process of cell division that reduces the chromosome number by half, resulting in four genetically unique daughter cells."
+    },
+    {
+        "name": "Chromosomes",
+        "description": "Structures within cells that contain DNA and carry genetic information."
+    },
+    {
+        "name": "Daughter Cells",
+        "description": "Cells produced as a result of cell division."
+    },
+    {
+        "name": "Genetic Diversity",
+        "description": "Variability in the genetic composition of individuals within or among species."
+    },
+    {
+        "name": "Cell Division",
+        "description": "The process by which a parent cell divides into two or more daughter cells."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mitosis",
+        "relationship": "produces",
+        "related_concept": "Daughter Cells",
+        "description": "Mitosis results in the production of two daughter cells."
+    },
+    {
+        "concept": "Meiosis",
+        "relationship": "produces",
+        "related_concept": "Daughter Cells",
+        "description": "Meiosis results in the production of four daughter cells."
+    },
+    {
+        "concept": "Daughter Cells",
+        "relationship": "genetically related to",
+        "related_concept": "Parent Cell",
+        "description": "Daughter cells inherit genetic material from the parent cell."
+    },
+    {
+        "concept": "Mitosis",
+        "relationship": "results in",
+        "related_concept": "Genetic Identity",
+        "description": "The daughter cells from mitosis are genetically identical to the parent cell."
+    },
+    {
+        "concept": "Meiosis",
+        "relationship": "results in",
+        "related_concept": "Genetic Diversity",
+        "description": "The daughter cells from meiosis are genetically diverse."
+    }
+]
+
+Model Answer: {
+    "answer": "In mitosis, the products are identical to the parent cell, while in meiosis the products are different from the parent cell.",
+    "reasoning": "Mitosis results in two daughter cells that are genetically identical to the parent cell, maintaining the chromosome number. In contrast, meiosis produces four daughter cells that are genetically distinct from each other and the parent cell, with half the chromosome number, which introduces genetic diversity among the products."
+}

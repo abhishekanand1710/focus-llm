@@ -1,0 +1,81 @@
+Key: Mercury_7145478
+
+Question: Many fertilizers contain organic materials that are helpful to an orchard but have a different effect when rain causes them to run off into a freshwater ecosystem. How does the addition of organic waste from fertilizers most commonly affect freshwater ecosystems?
+Options: ['increasing biodiversity', 'increasing water clarity', 'decreasing algae blooms', 'decreasing oxygen levels']
+Answer: decreasing oxygen levels
+
+Model Response:
+Concepts: [
+    {
+        "name": "Fertilizers",
+        "description": "Substances added to soil to supply nutrients for plant growth."
+    },
+    {
+        "name": "Organic materials",
+        "description": "Natural substances derived from living organisms."
+    },
+    {
+        "name": "Orchard",
+        "description": "A plantation of fruit trees."
+    },
+    {
+        "name": "Freshwater ecosystem",
+        "description": "Aquatic systems composed of water with low salt concentration."
+    },
+    {
+        "name": "Runoff",
+        "description": "The flow of water that occurs when excess stormwater, meltwater, or other sources flows over the Earth's surface."
+    },
+    {
+        "name": "Algae blooms",
+        "description": "Rapid increase or accumulation in the population of algae in water systems."
+    },
+    {
+        "name": "Oxygen levels",
+        "description": "The amount of dissolved oxygen in water, essential for aquatic life."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Fertilizers",
+        "relationship": "contain",
+        "related_concept": "Organic materials",
+        "description": "Fertilizers include organic materials to promote plant growth."
+    },
+    {
+        "concept": "Organic materials",
+        "relationship": "used in",
+        "related_concept": "Orchard",
+        "description": "Organic materials in fertilizers are used to assist in growing plants in orchards."
+    },
+    {
+        "concept": "Runoff",
+        "relationship": "caused by",
+        "related_concept": "Rain",
+        "description": "Rain causes fertilizers to run off into water bodies."
+    },
+    {
+        "concept": "Runoff",
+        "relationship": "transports",
+        "related_concept": "Organic materials",
+        "description": "Runoff can carry organic materials from fertilizers into freshwater ecosystems."
+    },
+    {
+        "concept": "Organic materials",
+        "relationship": "contribute to",
+        "related_concept": "Algae blooms",
+        "description": "The influx of organic materials can nourish algae, leading to blooms."
+    },
+    {
+        "concept": "Algae blooms",
+        "relationship": "decrease",
+        "related_concept": "Oxygen levels",
+        "description": "Significant algae growth consumes a lot of oxygen, lowering oxygen levels in the water."
+    }
+]
+
+Model Answer: {
+    "answer": "decreasing oxygen levels",
+    "reasoning": "The addition of organic waste from fertilizers to freshwater ecosystems most commonly results in decreasing oxygen levels. This is because the organic materials in the fertilizers promote algae blooms when they run off into freshwater systems. These blooms consume a significant amount of oxygen, depleting the oxygen levels in the water and affecting aquatic life."
+}

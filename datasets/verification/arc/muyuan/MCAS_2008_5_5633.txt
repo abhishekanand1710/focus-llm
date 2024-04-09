@@ -1,0 +1,77 @@
+Key: MCAS_2008_5_5633
+
+Question: Students want to plant a lemon tree at their school, but the cold winter temperatures in Massachusetts would kill the tree. Which of the following is the best solution to this problem?
+Options: ['planting several lemon trees together in a row', 'building a greenhouse to shelter the lemon tree', 'giving the lemon tree extra fertilizer in the winter', 'tying a stake to the lemon tree for support during the winter']
+Answer: building a greenhouse to shelter the lemon tree
+
+Model Response:
+Concepts: [
+    {
+        "name": "Lemon Tree",
+        "description": "A type of citrus tree that is sensitive to cold temperatures."
+    },
+    {
+        "name": "Massachusetts Winter",
+        "description": "Characterized by cold temperatures that can be harsh for plants not adapted to cold climates."
+    },
+    {
+        "name": "Greenhouse",
+        "description": "A structure with walls and roof made chiefly of transparent material, such as glass, in which plants requiring regulated climatic conditions are grown."
+    },
+    {
+        "name": "Fertilizer",
+        "description": "A chemical or natural substance added to soil or land to increase its fertility."
+    },
+    {
+        "name": "Stake",
+        "description": "A support stick for plants, which helps them grow straight and provides support against winds."
+    },
+    {
+        "name": "Planting in a Row",
+        "description": "A method of planting trees in a linear arrangement, which can sometimes offer mild protection or support."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Lemon Tree",
+        "relationship": "is affected by",
+        "related_concept": "Massachusetts Winter",
+        "description": "The lemon tree, which is sensitive to cold, is negatively affected by the cold Massachusetts winter."
+    },
+    {
+        "concept": "Greenhouse",
+        "relationship": "provides",
+        "related_concept": "Regulated Climatic Conditions",
+        "description": "A greenhouse provides a controlled environment that can shield plants from extreme outdoor conditions."
+    },
+    {
+        "concept": "Lemon Tree",
+        "relationship": "benefits from",
+        "related_concept": "Greenhouse",
+        "description": "A lemon tree would benefit from being in a greenhouse due to the protection from cold."
+    },
+    {
+        "concept": "Fertilizer",
+        "relationship": "enhances growth of",
+        "related_concept": "Lemon Tree",
+        "description": "Fertilizer can enhance the growth of a lemon tree but does not protect it from cold."
+    },
+    {
+        "concept": "Stake",
+        "relationship": "provides support to",
+        "related_concept": "Lemon Tree",
+        "description": "A stake can provide physical support to a lemon tree but does not protect it from cold temperatures."
+    },
+    {
+        "concept": "Planting in a Row",
+        "relationship": "is a method of",
+        "related_concept": "Lemon Tree",
+        "description": "Planting lemon trees in a row is a planting method, which might provide minimal wind protection but not temperature control."
+    }
+]
+
+Model Answer: {
+    "answer": "building a greenhouse to shelter the lemon tree",
+    "reasoning": "Of the provided options, building a greenhouse to shelter the lemon tree is the best solution to the problem of cold winter temperatures in Massachusetts potentially killing the tree. A greenhouse provides a controlled environment that can protect the tree from the cold, which directly addresses the key issue of temperature sensitivity in lemon trees."
+}

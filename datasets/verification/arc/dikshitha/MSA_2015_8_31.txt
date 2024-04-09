@@ -1,0 +1,95 @@
+Key: MSA_2015_8_31
+
+Question: Students study human body structure to learn how the body functions. Which life-size model would best represent the size, shape, and location of human internal organs?
+Options: ['a two-dimensional upper body diagram with magnetic stickers of the organs', 'a three-dimensional plastic upper body with removable parts', 'a two-dimensional detailed wall poster', 'a three-dimensional paper body']
+Answer: a three-dimensional plastic upper body with removable parts
+
+Model Response:
+Concepts: [
+    {
+        "name": "Human body structure",
+        "description": "The arrangement of various parts of the human body including organs, bones, and tissues."
+    },
+    {
+        "name": "Two-dimensional representation",
+        "description": "A flat representation of an object that only includes height and width."
+    },
+    {
+        "name": "Three-dimensional representation",
+        "description": "A representation of an object that includes height, width, and depth, offering a more realistic view."
+    },
+    {
+        "name": "Upper body",
+        "description": "Part of the human body that includes the head, neck, torso, and arms."
+    },
+    {
+        "name": "Removable parts",
+        "description": "Components of a model that can be detached and reattached to demonstrate functionality or structure."
+    },
+    {
+        "name": "Internal organs",
+        "description": "Organs located inside the body, responsible for various bodily functions."
+    },
+    {
+        "name": "Magnetic stickers",
+        "description": "Adhesive labels with magnetic backing used for attaching to magnetic surfaces."
+    },
+    {
+        "name": "Wall poster",
+        "description": "A large printed piece of paper designed for attaching to a wall."
+    },
+    {
+        "name": "Paper body",
+        "description": "A model of the human body made from paper."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Human body structure",
+        "relationship": "represented by",
+        "related_concept": "Three-dimensional representation",
+        "description": "A three-dimensional representation can accurately depict the human body structure including depth."
+    },
+    {
+        "concept": "Two-dimensional representation",
+        "relationship": "lacks",
+        "related_concept": "Depth",
+        "description": "Two-dimensional representations do not include depth, making them less realistic."
+    },
+    {
+        "concept": "Three-dimensional representation",
+        "relationship": "includes",
+        "related_concept": "Removable parts",
+        "description": "Three-dimensional models can have removable parts to show internal structures like organs."
+    },
+    {
+        "concept": "Internal organs",
+        "relationship": "depicted by",
+        "related_concept": "Three-dimensional plastic upper body with removable parts",
+        "description": "Internal organs are best represented by models with removable parts for a realistic representation."
+    },
+    {
+        "concept": "Magnetic stickers",
+        "relationship": "used for",
+        "related_concept": "Two-dimensional upper body diagram",
+        "description": "Magnetic stickers can represent organs on a two-dimensional surface but lack realistic placement and depth."
+    },
+    {
+        "concept": "Wall poster",
+        "relationship": "is a form of",
+        "related_concept": "Two-dimensional representation",
+        "description": "Wall posters are flat and do not offer a three-dimensional view, limiting the understanding of organ placement."
+    },
+    {
+        "concept": "Paper body",
+        "relationship": "lacks realism",
+        "related_concept": "Three-dimensional plastic upper body with removable parts",
+        "description": "While three-dimensional, a paper body may not offer the same level of detail and durability as plastic models with removable parts."
+    }
+]
+
+Model Answer: {
+    "answer": "a three-dimensional plastic upper body with removable parts",
+    "reasoning": "This option best represents the size, shape, and location of human internal organs as it provides a realistic three-dimensional view that allows for interactive learning through removable parts. This hands-on approach enhances understanding of human body structure, surpassing the educational value provided by two-dimensional diagrams or posters, and is more durable and detailed compared to models made of paper."
+}

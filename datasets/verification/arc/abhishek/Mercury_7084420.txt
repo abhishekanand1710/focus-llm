@@ -1,0 +1,51 @@
+Key: Mercury_7084420
+
+Question: The human body produces motion by changing chemical energy into mechanical energy. Which of these best describes what happens to the energy?
+Options: ['The total amount of energy increases.', 'The total amount of energy is constant.', 'The energy is destroyed through motion.', 'The amount of chemical energy increases.']
+Answer: The total amount of energy is constant.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical Energy",
+        "description": "Energy stored in the bonds of chemical compounds"
+    },
+    {
+        "name": "Mechanical Energy",
+        "description": "Energy possessed by an object due to its motion or position"
+    },
+    {
+        "name": "Conservation of Energy",
+        "description": "A principle stating energy cannot be created or destroyed, only transformed"
+    },
+    {
+        "name": "Human Body",
+        "description": "Biological system capable of converting chemical energy into mechanical energy for movement"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical Energy",
+        "relationship": "is converted into",
+        "related_concept": "Mechanical Energy",
+        "description": "The human body converts chemical energy into mechanical energy to produce motion"
+    },
+    {
+        "concept": "Conservation of Energy",
+        "relationship": "governs",
+        "related_concept": "Chemical Energy",
+        "description": "The principle of conservation of energy applies to the transformation of chemical energy into other forms"
+    },
+    {
+        "concept": "Conservation of Energy",
+        "relationship": "governs",
+        "related_concept": "Mechanical Energy",
+        "description": "The transformation of energy in the human body adheres to the law of conservation of energy"
+    }
+]
+
+Model Answer: {
+    "answer": "The total amount of energy is constant.",
+    "reasoning": "Based on the principle of conservation of energy, energy cannot be created or destroyed, only transformed from one form to another. In the context of the human body converting chemical energy into mechanical energy for motion, the total amount of energy remains constant throughout this process."
+}

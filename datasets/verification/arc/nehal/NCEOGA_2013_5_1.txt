@@ -1,0 +1,61 @@
+Key: NCEOGA_2013_5_1
+
+Question: Four solid balls, each with a different mass, are moving at the same speed. Which ball would require the most force to stop its motion?
+Options: ['ball with a mass of 5 kg', 'ball with a mass of 10 kg', 'ball with a mass of 15 kg', 'ball with a mass of 20 kg']
+Answer: ball with a mass of 20 kg
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, typically in kilograms."
+    },
+    {
+        "name": "Force",
+        "description": "An interaction that, when unopposed, changes the motion of an object."
+    },
+    {
+        "name": "Motion",
+        "description": "A change in position of an object with respect to time."
+    },
+    {
+        "name": "Newton's Second Law of Motion",
+        "description": "The principle that the force acting on an object is equal to the mass of that object multiplied by its acceleration."
+    },
+    {
+        "name": "Speed",
+        "description": "The rate at which an object moves along a path."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Force",
+        "relationship": "is dependent on",
+        "related_concept": "Mass",
+        "description": "The greater the mass of the object, the more force required to change its motion."
+    },
+    {
+        "concept": "Force",
+        "relationship": "is calculated using",
+        "related_concept": "Newton's Second Law of Motion",
+        "description": "Force is calculated as mass multiplied by acceleration, according to Newton's Second Law of Motion."
+    },
+    {
+        "concept": "Motion",
+        "relationship": "is influenced by",
+        "related_concept": "Force",
+        "description": "An object's motion changes in response to the application of a force."
+    },
+    {
+        "concept": "Speed",
+        "relationship": "is a component of",
+        "related_concept": "Motion",
+        "description": "Speed describes how fast an object's position changes over time."
+    }
+]
+
+Model Answer: {
+    "answer": "ball with a mass of 20 kg",
+    "reasoning": "Since all balls are moving at the same speed but have different masses, stopping each ball's motion requires applying a force. According to Newton's Second Law of Motion, the force required to change an object's motion is directly proportional to its mass when the change in velocity is constant. Therefore, the ball with the largest mass (20 kg) will require the most force to stop its motion."
+}

@@ -1,0 +1,55 @@
+Key: NCEOGA_2013_5_26
+
+Question: A student notices that an inflated balloon gets larger when it is warmed by a lamp. Which best describes the mass of the balloon as a result of this change?
+Options: ['The mass of the balloon increases because the size of the balloon has increased.', 'The mass of the balloon increases because the temperature of the balloon has increased.', 'The mass of the balloon stays the same because the gas inside the balloon still has the same mass after it warms up.', 'The mass of the balloon stays the same because warming decreases the mass enough to cancel out the effect of increasing the size.']
+Answer: The mass of the balloon stays the same because the gas inside the balloon still has the same mass after it warms up.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object."
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the average kinetic energy of particles in an object."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that a substance or object occupies."
+    },
+    {
+        "name": "Thermal Expansion",
+        "description": "The increase in volume of a substance due to an increase in temperature."
+    },
+    {
+        "name": "Conservation of Mass",
+        "description": "A principle stating that mass cannot be created or destroyed in a closed system through chemical or physical transformations."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Temperature",
+        "relationship": "increases",
+        "related_concept": "Thermal Expansion",
+        "description": "An increase in temperature leads to thermal expansion."
+    },
+    {
+        "concept": "Thermal Expansion",
+        "relationship": "causes",
+        "related_concept": "Volume",
+        "description": "Thermal expansion causes an increase in volume."
+    },
+    {
+        "concept": "Conservation of Mass",
+        "relationship": "applies to",
+        "related_concept": "Mass",
+        "description": "The principle of conservation of mass dictates that the mass remains constant in a closed system despite physical changes."
+    }
+]
+
+Model Answer: {
+    "answer": "The mass of the balloon stays the same because the gas inside the balloon still has the same mass after it warms up.",
+    "reasoning": "When the balloon is warmed and its volume increases due to thermal expansion, the temperature of the gas inside increases, leading to an increase in volume. However, the mass of the gas inside the balloon remains unchanged because the amount of matter (mass) does not increase or decrease due to temperature changes, in accordance with the conservation of mass. Thus, despite the physical changes in volume and temperature, the mass of the balloon and its contents remains constant."
+}

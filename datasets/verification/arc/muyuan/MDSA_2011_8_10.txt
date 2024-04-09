@@ -1,0 +1,71 @@
+Key: MDSA_2011_8_10
+
+Question: The crust, the mantle, and the core are structures of Earth. Which description is a feature of Earth's mantle?
+Options: ['contains fossil remains', 'consists of tectonic plates', 'is located at the center of Earth', 'has properties of both liquids and solids']
+Answer: has properties of both liquids and solids
+
+Model Response:
+Concepts: [
+    {
+        "name": "Crust",
+        "description": "The outermost layer of the Earth."
+    },
+    {
+        "name": "Mantle",
+        "description": "The thick layer of rock between the Earth's crust and the core."
+    },
+    {
+        "name": "Core",
+        "description": "The central part of the Earth below the mantle."
+    },
+    {
+        "name": "Fossil Remains",
+        "description": "Traces or impressions of ancient organisms preserved in rock."
+    },
+    {
+        "name": "Tectonic Plates",
+        "description": "Large movable plates into which the Earth's lithosphere is divided."
+    },
+    {
+        "name": "Liquids and Solids",
+        "description": "States of matter, with liquids having a definite volume but no fixed shape and solids having a fixed shape and volume."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Crust",
+        "relationship": "is above",
+        "related_concept": "Mantle",
+        "description": "The crust sits on top of the Earth's mantle."
+    },
+    {
+        "concept": "Mantle",
+        "relationship": "encases",
+        "related_concept": "Core",
+        "description": "The mantle surrounds and encases the Earth's core."
+    },
+    {
+        "concept": "Fossil Remains",
+        "relationship": "are found in",
+        "related_concept": "Crust",
+        "description": "Fossil remains are typically found in the Earth's crust."
+    },
+    {
+        "concept": "Tectonic Plates",
+        "relationship": "comprise",
+        "related_concept": "Crust",
+        "description": "Tectonic plates make up the Earth's crust."
+    },
+    {
+        "concept": "Mantle",
+        "relationship": "has properties of",
+        "related_concept": "Liquids and Solids",
+        "description": "The Earth's mantle exhibits properties of both liquids and solids."
+    }
+]
+
+Model Answer: {
+    "answer": "has properties of both liquids and solids",
+    "reasoning": "Based on the identified concepts and their relationships, the mantle is described as having properties of both liquids and solids. This is due to its ability to flow, similar to a liquid, under long-term pressure conditions, even though it is mostly composed of solid rock material. This unique characteristic is what allows for the movement of tectonic plates and various geological phenomena. None of the other options correctly describe features of Earth's mantle."
+}

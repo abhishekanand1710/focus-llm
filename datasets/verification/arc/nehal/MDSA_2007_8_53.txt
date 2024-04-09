@@ -1,0 +1,87 @@
+Key: MDSA_2007_8_53
+
+Question: Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must
+Options: ['collect relevant evidence', 'tell people about the data', 'publish results from the investigation', 'discuss the investigation with other scientists']
+Answer: collect relevant evidence
+
+Model Response:
+Concepts: [
+    {
+        "name": "Scientists",
+        "description": "Individuals who conduct research to discover new information about the natural world."
+    },
+    {
+        "name": "Investigations",
+        "description": "Systematic and scientific inquiry into a particular subject, object, or phenomenon."
+    },
+    {
+        "name": "Valid Conclusion",
+        "description": "A logical determination that is supported by empirical evidence and reasoning."
+    },
+    {
+        "name": "Collect relevant evidence",
+        "description": "Gathering information and data that directly support or refute a hypothesis within the context of an investigation."
+    },
+    {
+        "name": "Tell people about the data",
+        "description": "Sharing gathered data and findings with others, possibly through presentations or informal discussions."
+    },
+    {
+        "name": "Publish results from the investigation",
+        "description": "Formally sharing the findings of a research project through journals, books, or online platforms."
+    },
+    {
+        "name": "Discuss the investigation with other scientists",
+        "description": "Engaging in dialogue with peers to review, critique, or expand upon research findings."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Scientists",
+        "relationship": "conduct",
+        "related_concept": "Investigations",
+        "description": "Scientists are the individuals who undertake investigations."
+    },
+    {
+        "concept": "Investigations",
+        "relationship": "aim to",
+        "related_concept": "Valid Conclusion",
+        "description": "The primary goal of an investigation is to reach a valid conclusion."
+    },
+    {
+        "concept": "Valid Conclusion",
+        "relationship": "requires",
+        "related_concept": "Collect relevant evidence",
+        "description": "A valid conclusion is supported by relevant evidence collected during the investigation."
+    },
+    {
+        "concept": "Collect relevant evidence",
+        "relationship": "is prerequisite for",
+        "related_concept": "Valid Conclusion",
+        "description": "Relevant evidence needs to be collected before a valid conclusion can be made."
+    },
+    {
+        "concept": "Tell people about the data",
+        "relationship": "follows",
+        "related_concept": "Collect relevant evidence",
+        "description": "Informing others about the data typically comes after evidence has been collected."
+    },
+    {
+        "concept": "Publish results from the investigation",
+        "relationship": "is a form of",
+        "related_concept": "Tell people about the data",
+        "description": "Publishing results is a specific way of telling people about the data gathered."
+    },
+    {
+        "concept": "Discuss the investigation with other scientists",
+        "relationship": "can enhance",
+        "related_concept": "Valid Conclusion",
+        "description": "Discussion with other scientists can refine or confirm the validity of a conclusion."
+    }
+]
+
+Model Answer: {
+    "answer": "collect relevant evidence",
+    "reasoning": "Before making a valid conclusion, scientists must collect relevant evidence. This is because a valid conclusion is based on empirical evidence and reasoning directly related to the hypothesis or questions posed by the investigation. Collecting relevant evidence is a prerequisite for drawing any conclusions from the investigation, as it directly supports or refutes the initial hypothesis. The other options, while part of the scientific process, are actions that typically occur after the relevant evidence has been collected and analyzed."
+}

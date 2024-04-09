@@ -1,0 +1,81 @@
+Key: Mercury_7210263
+
+Question: Which of these is a property of water that allows it to transport materials through the Earth system?
+Options: ['It expands as it solidifies.', 'It is transparent.', 'It dissolves many substances.', 'It is a compound.']
+Answer: It dissolves many substances.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance."
+    },
+    {
+        "name": "Earth System",
+        "description": "The global interconnecting web of physical and biological phenomena involving the planet Earth."
+    },
+    {
+        "name": "Transportation of Materials",
+        "description": "The movement of materials from one location to another."
+    },
+    {
+        "name": "Expansion upon Solidification",
+        "description": "A property where a substance increases in volume as it changes from liquid to solid."
+    },
+    {
+        "name": "Transparency",
+        "description": "The property of allowing light to pass through a substance."
+    },
+    {
+        "name": "Solvent Capacity",
+        "description": "The ability of a substance to dissolve other substances."
+    },
+    {
+        "name": "Compound",
+        "description": "A substance formed from two or more chemical elements chemically bonded together."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "is a",
+        "related_concept": "Compound",
+        "description": "Water is a chemical compound made of hydrogen and oxygen."
+    },
+    {
+        "concept": "Water",
+        "relationship": "possesses",
+        "related_concept": "Expansion upon Solidification",
+        "description": "Water expands as it solidifies, which is unusual for a chemical compound."
+    },
+    {
+        "concept": "Water",
+        "relationship": "has property",
+        "related_concept": "Transparency",
+        "description": "Water is transparent, allowing light to pass through it."
+    },
+    {
+        "concept": "Water",
+        "relationship": "has capability",
+        "related_concept": "Solvent Capacity",
+        "description": "Water can dissolve many substances, making it a universal solvent."
+    },
+    {
+        "concept": "Water",
+        "relationship": "facilitates",
+        "related_concept": "Transportation of Materials",
+        "description": "The properties of water enable it to transport materials through the Earth system."
+    },
+    {
+        "concept": "Transportation of Materials",
+        "relationship": "supported by",
+        "related_concept": "Solvent Capacity",
+        "description": "The ability to dissolve substances allows water to transport materials."
+    }
+]
+
+Model Answer: {
+    "answer": "It dissolves many substances.",
+    "reasoning": "Among the given options, the property of water being able to dissolve many substances is what enables it to transport materials through the Earth system. This is because the solvent capacity of water allows it to carry various dissolved substances within it, facilitating their movement across different parts of the Earth system."
+}

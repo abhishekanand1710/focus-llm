@@ -1,0 +1,61 @@
+Key: Mercury_SC_415475
+
+Question: Which has the greatest effect on the color of a young eagle's eyes?
+Options: ['parents', 'nest', 'diet', 'behavior']
+Answer: parents
+
+Model Response:
+Concepts: [
+    {
+        "name": "parents",
+        "description": "Biological progenitors of the eagle, contributing genetically to its offspring."
+    },
+    {
+        "name": "nest",
+        "description": "The structure built or chosen by eagles for laying eggs and raising their young."
+    },
+    {
+        "name": "diet",
+        "description": "The food consumed by the young eagle."
+    },
+    {
+        "name": "behavior",
+        "description": "The actions or reactions of the young eagle in response to external or internal stimuli."
+    },
+    {
+        "name": "eye color",
+        "description": "The color of the iris in the eye of the young eagle, which can be a genetic or environmental trait."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "parents",
+        "relationship": "contribute to",
+        "related_concept": "eye color",
+        "description": "The genetics of the parents directly contribute to the characteristics such as eye color of the offspring."
+    },
+    {
+        "concept": "nest",
+        "relationship": "provides environment for",
+        "related_concept": "behavior",
+        "description": "The nest provides the immediate environment that influences the behavior of the young eagle."
+    },
+    {
+        "concept": "diet",
+        "relationship": "influences",
+        "related_concept": "eye color",
+        "description": "In some species, the diet can influence physical traits, including the coloration of parts of the body, though its impact on eye color is more indirect and less significant compared to genetics."
+    },
+    {
+        "concept": "behavior",
+        "relationship": "result of",
+        "related_concept": "environment and genetics",
+        "description": "The behavior of the young eagle is a result of both its genetic predispositions and environmental influences, including interactions within the nest."
+    }
+]
+
+Model Answer: {
+    "answer": "parents",
+    "reasoning": "The eye color of a young eagle, like in many other animals, is primarily determined by genetics, which are directly contributed by the parents. While factors such as diet and behavior can have effects on the physical development of an eagle, the foundational aspect of eye color is genetic, thus making the parents the greatest factor influencing the color of a young eagle's eyes. The other options, nest and behavior, play roles in the eagle's development but do not directly influence eye color to the extent that genetics do."
+}

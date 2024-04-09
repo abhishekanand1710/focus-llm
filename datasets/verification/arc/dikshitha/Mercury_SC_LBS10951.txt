@@ -1,0 +1,61 @@
+Key: Mercury_SC_LBS10951
+
+Question: Which statement best describes the theory of natural selection?
+Options: ['It guarantees the survival of a species.', 'It increases the size of a population.', 'It requires the individuals to be identical.', 'It happens over a long period of time.']
+Answer: It happens over a long period of time.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Natural Selection",
+        "description": "A process where organisms better adapted to their environment tend to survive and produce more offspring."
+    },
+    {
+        "name": "Survival of a species",
+        "description": "The continuation of a species' existence."
+    },
+    {
+        "name": "Population size",
+        "description": "The total number of individuals within a defined area."
+    },
+    {
+        "name": "Individual genetic variation",
+        "description": "Differences in the DNA among individuals within a population."
+    },
+    {
+        "name": "Time",
+        "description": "The indefinite continued progress of existence and events."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Natural Selection",
+        "relationship": "does not guarantee",
+        "related_concept": "Survival of a species",
+        "description": "Natural selection does not ensure any particular species will survive indefinitely."
+    },
+    {
+        "concept": "Natural Selection",
+        "relationship": "does not directly affect",
+        "related_concept": "Population size",
+        "description": "Natural selection influences which individuals reproduce, not necessarily the total population size."
+    },
+    {
+        "concept": "Natural Selection",
+        "relationship": "requires",
+        "related_concept": "Individual genetic variation",
+        "description": "Variation among individuals in a population is necessary for natural selection to occur."
+    },
+    {
+        "concept": "Natural Selection",
+        "relationship": "occurs over",
+        "related_concept": "Time",
+        "description": "Natural selection is a process that happens over generations."
+    }
+]
+
+Model Answer: {
+    "answer": "It happens over a long period of time.",
+    "reasoning": "The theory of natural selection is based on the process by which organisms that are better adapted to their environment tend to survive and produce more offspring. This process requires genetic variation among individuals in a population and does not guarantee the survival of any one species nor does it directly influence the size of a population. Rather, it is a mechanism that operates over an extended period, through many generations."
+}

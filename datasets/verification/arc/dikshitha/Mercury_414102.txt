@@ -1,0 +1,51 @@
+Key: Mercury_414102
+
+Question: Organisms can be separated by their most basic characteristics into the broadest groups known as
+Options: ['kingdoms.', 'domains.', 'phyla.', 'orders.']
+Answer: domains.
+
+Model Response:
+Concepts: [
+    {
+        "name": "kingdoms",
+        "description": "One of several categories in the traditional hierarchy below domain and above phylum used to classify organisms."
+    },
+    {
+        "name": "domains",
+        "description": "The highest taxonomic rank in the classification of organisms, above kingdoms."
+    },
+    {
+        "name": "phyla",
+        "description": "A category in the classification hierarchy that is below kingdom and above class, used to group together organisms that share a basic body plan."
+    },
+    {
+        "name": "orders",
+        "description": "A category in the biological taxonomy that is below class and above family, grouping together organisms with similar characteristics."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "domains",
+        "relationship": "is broader than",
+        "related_concept": "kingdoms",
+        "description": "Domains encompass the broadest classification of organisms, which are then further divided into kingdoms."
+    },
+    {
+        "concept": "kingdoms",
+        "relationship": "is broader than",
+        "related_concept": "phyla",
+        "description": "Kingdoms are divided into phyla which group organisms based on their fundamental body structures."
+    },
+    {
+        "concept": "phyla",
+        "relationship": "is broader than",
+        "related_concept": "orders",
+        "description": "Phyla are subdivided into orders, which classify organisms with more specific similar characteristics."
+    }
+]
+
+Model Answer: {
+    "answer": "domains.",
+    "reasoning": "Based on the provided concepts and their relationships, 'domains' are identified as the broadest groups into which organisms can be classified, standing above kingdoms, phyla, and orders in the biological classification hierarchy. This makes 'domains' the correct answer from the given options."
+}

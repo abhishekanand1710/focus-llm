@@ -1,0 +1,61 @@
+Key: Mercury_7211663
+
+Question: Newly discovered organisms are now classified based on DNA evidence. Which of the following is most helpful to a researcher classifying a newly discovered organism?
+Options: ['fossil record', 'gene splicing', 'selective breeding', 'gel electrophoresis']
+Answer: gel electrophoresis
+
+Model Response:
+Concepts: [
+    {
+        "name": "DNA evidence",
+        "description": "Genetic material used to identify, classify, or track the genetic information of an organism."
+    },
+    {
+        "name": "fossil record",
+        "description": "Historical archives of biological organisms preserved in geological formations."
+    },
+    {
+        "name": "gene splicing",
+        "description": "A technique used to alter the genome of an organism by adding or removing sections of DNA."
+    },
+    {
+        "name": "selective breeding",
+        "description": "A process to develop particular phenotype traits by choosing which animals or plants to sexually reproduce."
+    },
+    {
+        "name": "gel electrophoresis",
+        "description": "A laboratory method used to separate mixtures of DNA, RNA, or proteins according to molecular size."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "DNA evidence",
+        "relationship": "analyzed by",
+        "related_concept": "gel electrophoresis",
+        "description": "Gel electrophoresis is a method to analyze and separate DNA, making it directly applicable to studying DNA evidence."
+    },
+    {
+        "concept": "DNA evidence",
+        "relationship": "not directly related to",
+        "related_concept": "fossil record",
+        "description": "The fossil record provides historical biological context but does not involve direct analysis of DNA."
+    },
+    {
+        "concept": "DNA evidence",
+        "relationship": "not used for",
+        "related_concept": "selective breeding",
+        "description": "Selective breeding relies on phenotypic traits rather than direct DNA manipulation."
+    },
+    {
+        "concept": "DNA evidence",
+        "relationship": "not directly used in",
+        "related_concept": "gene splicing",
+        "description": "Gene splicing modifies an organism's DNA but is not a method for classifying organisms based on DNA evidence."
+    }
+]
+
+Model Answer: {
+    "answer": "gel electrophoresis",
+    "reasoning": "Gel electrophoresis is the most helpful technique for a researcher classifying a newly discovered organism based on DNA evidence because it allows for the analysis and comparison of DNA sequences through the separation of DNA fragments by size. This method is directly related to studying DNA evidence, unlike the fossil record, gene splicing, and selective breeding, which do not provide a direct approach to classifying organisms based on DNA sequences."
+}

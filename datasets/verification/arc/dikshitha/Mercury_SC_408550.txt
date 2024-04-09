@@ -1,0 +1,87 @@
+Key: Mercury_SC_408550
+
+Question: Michelle performed an investigation but the results did not match her hypothesis. What should Michelle do next?
+Options: ['perform the investigation in a different way', 'change the hypothesis to match the results', 'choose a different investigation', 'repeat the investigation']
+Answer: repeat the investigation
+
+Model Response:
+Concepts: [
+    {
+        "name": "Investigation",
+        "description": "A systematic inquiry to discover or verify facts."
+    },
+    {
+        "name": "Hypothesis",
+        "description": "A proposed explanation for a phenomenon, based on limited evidence as a starting point for further investigation."
+    },
+    {
+        "name": "Results",
+        "description": "Data and observations collected during the investigation."
+    },
+    {
+        "name": "Repeat the investigation",
+        "description": "Performing the same investigation again to confirm the findings."
+    },
+    {
+        "name": "Change the hypothesis",
+        "description": "Modifying the initial hypothesis to better align with the observed results."
+    },
+    {
+        "name": "Perform the investigation in a different way",
+        "description": "Altering the methodology or approach of the investigation."
+    },
+    {
+        "name": "Choose a different investigation",
+        "description": "Selecting a completely new or different investigation focus."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Investigation",
+        "relationship": "produces",
+        "related_concept": "Results",
+        "description": "An investigation yields results or outcomes."
+    },
+    {
+        "concept": "Hypothesis",
+        "relationship": "is basis of",
+        "related_concept": "Investigation",
+        "description": "A hypothesis provides a foundation for conducting an investigation."
+    },
+    {
+        "concept": "Results",
+        "relationship": "evaluate",
+        "related_concept": "Hypothesis",
+        "description": "The results of an investigation are used to evaluate the validity of the hypothesis."
+    },
+    {
+        "concept": "Repeat the investigation",
+        "relationship": "is a form of",
+        "related_concept": "Investigation",
+        "description": "Repeating the investigation is a method of conducting another instance of an investigation."
+    },
+    {
+        "concept": "Change the hypothesis",
+        "relationship": "responds to",
+        "related_concept": "Results",
+        "description": "Changing the hypothesis is a response to the results that did not match the initial hypothesis."
+    },
+    {
+        "concept": "Perform the investigation in a different way",
+        "relationship": "is a modification of",
+        "related_concept": "Investigation",
+        "description": "Performing the investigation in a different way implies modifying the original investigation method."
+    },
+    {
+        "concept": "Choose a different investigation",
+        "relationship": "diverges from",
+        "related_concept": "Original investigation",
+        "description": "Choosing a different investigation means selecting a new focus or method diverging from the original investigation plan."
+    }
+]
+
+Model Answer: {
+    "answer": "repeat the investigation",
+    "reasoning": "Repeating the investigation is a logical next step when initial results do not match the hypothesis. This allows for verification of the results, reduction of errors, and assurance that the process was conducted correctly. It utilizes the relationship between the hypothesis, investigation, and results, emphasizing the scientific method's iterative nature, where results inform the repetition or adjustment of the investigation. Changing the hypothesis or choosing a different investigation might prematurely discard the initial inquiry without thoroughly testing its validity."
+}

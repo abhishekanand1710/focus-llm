@@ -1,0 +1,71 @@
+Key: MCAS_2005_5_15
+
+Question: When a volcano erupts, lava flows out from the top. What type of rock is formed as the lava cools?
+Options: ['magma', 'igneous', 'sedimentary', 'metamorphic']
+Answer: igneous
+
+Model Response:
+Concepts: [
+    {
+        "name": "volcano",
+        "description": "A geological formation where magma from the Earth's mantle erupts through the crust."
+    },
+    {
+        "name": "lava",
+        "description": "Magma that has erupted onto the Earth's surface."
+    },
+    {
+        "name": "igneous rock",
+        "description": "Rock formed through the cooling and solidification of magma or lava."
+    },
+    {
+        "name": "magma",
+        "description": "Molten rock stored beneath the Earth's surface."
+    },
+    {
+        "name": "sedimentary rock",
+        "description": "Rock formed by the accumulation and cementation of mineral and organic particles on the Earth's surface."
+    },
+    {
+        "name": "metamorphic rock",
+        "description": "Rock formed by the alteration of existing rock types in the Earth's crust through heat, pressure, and/or chemically active fluids."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "volcano",
+        "relationship": "erupts",
+        "related_concept": "lava",
+        "description": "Lava flows out from volcanoes during an eruption."
+    },
+    {
+        "concept": "lava",
+        "relationship": "cools_and_solidifies",
+        "related_concept": "igneous rock",
+        "description": "Lava forms igneous rock when it cools and solidifies."
+    },
+    {
+        "concept": "magma",
+        "relationship": "is_erupted_as",
+        "related_concept": "lava",
+        "description": "Magma becomes lava when it erupts from a volcano and reaches the Earth's surface."
+    },
+    {
+        "concept": "igneous rock",
+        "relationship": "is_not_formed_by",
+        "related_concept": "sedimentary rock",
+        "description": "Igneous rock formation does not involve processes of sedimentation."
+    },
+    {
+        "concept": "igneous rock",
+        "relationship": "is_not_formed_by",
+        "related_concept": "metamorphic rock",
+        "description": "Igneous rock formation does not involve alteration by heat, pressure, or chemically active fluids."
+    }
+]
+
+Model Answer: {
+    "answer": "igneous",
+    "reasoning": "The correct answer is 'igneous rock' because it is formed through the cooling and solidification of lava that flows out from a volcano during an eruption. This process directly correlates with the description of how igneous rocks are created, differing fundamentally from the processes that form sedimentary and metamorphic rocks."
+}

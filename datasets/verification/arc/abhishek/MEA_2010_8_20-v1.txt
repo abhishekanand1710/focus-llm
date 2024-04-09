@@ -1,0 +1,61 @@
+Key: MEA_2010_8_20-v1
+
+Question: What is the most likely outcome of the Moon moving away from Earth?
+Options: ['A lunar day is shorter.', 'A lunar eclipse lasts longer.', 'Earth moves closer to the Sun.', "Earth's tides decrease in size."]
+Answer: Earth's tides decrease in size.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Moon's orbit",
+        "description": "The path the Moon follows as it revolves around the Earth"
+    },
+    {
+        "name": "Lunar day",
+        "description": "The time it takes for the Moon to make one complete rotation on its axis"
+    },
+    {
+        "name": "Lunar eclipse",
+        "description": "Occurs when the Earth comes between the Sun and the Moon, casting a shadow on the Moon"
+    },
+    {
+        "name": "Earth's orbit",
+        "description": "The path Earth follows as it revolves around the Sun"
+    },
+    {
+        "name": "Tides",
+        "description": "The rise and fall of sea levels caused by the gravitational forces exerted by the Moon and the Sun, and the rotation of Earth"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Moon's orbit",
+        "relationship": "expansion",
+        "related_concept": "Lunar day",
+        "description": "The expansion of the Moon's orbit could potentially make a lunar day longer, not shorter"
+    },
+    {
+        "concept": "Moon's orbit",
+        "relationship": "expansion",
+        "related_concept": "Lunar eclipse",
+        "description": "The distance increase does not directly affect the duration of lunar eclipses significantly"
+    },
+    {
+        "concept": "Moon's orbit",
+        "relationship": "expansion",
+        "related_concept": "Earth's orbit",
+        "description": "The Moon moving away from Earth has negligible direct effect on Earth's orbit around the Sun"
+    },
+    {
+        "concept": "Moon's orbit",
+        "relationship": "expansion",
+        "related_concept": "Tides",
+        "description": "The Moon moving away from Earth could result in decreased gravitational pull, leading to smaller tides"
+    }
+]
+
+Model Answer: {
+    "answer": "Earth's tides decrease in size.",
+    "reasoning": "As the Moon moves away from Earth, the gravitational pull it exerts on Earth decreases. This reduction in gravitational pull would result in smaller tides on Earth, because the magnitude of tidal forces is directly related to the distance between the Earth and the Moon. The other options are not directly affected in the manner described by the Moon moving away from Earth."
+}

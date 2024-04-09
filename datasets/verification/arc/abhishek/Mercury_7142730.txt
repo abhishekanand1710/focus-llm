@@ -1,0 +1,61 @@
+Key: Mercury_7142730
+
+Question: Which type of energy is found in fossil fuels?
+Options: ['chemical', 'mechanical', 'nuclear', 'radiant']
+Answer: chemical
+
+Model Response:
+Concepts: [
+    {
+        "name": "chemical energy",
+        "description": "Energy stored in the bonds of chemical compounds."
+    },
+    {
+        "name": "mechanical energy",
+        "description": "The sum of potential energy and kinetic energy present in the components of a mechanical system."
+    },
+    {
+        "name": "nuclear energy",
+        "description": "The energy released during nuclear fission or fusion, especially when used to generate electricity."
+    },
+    {
+        "name": "radiant energy",
+        "description": "Energy that travels by waves or particles, particularly electromagnetic radiation such as heat or light."
+    },
+    {
+        "name": "fossil fuels",
+        "description": "Naturally occurring fuels formed from the remains of ancient plants and animals, such as coal, oil, and natural gas."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "fossil fuels",
+        "relationship": "contain",
+        "related_concept": "chemical energy",
+        "description": "Fossil fuels contain high amounts of chemical energy stored from ancient biological material."
+    },
+    {
+        "concept": "chemical energy",
+        "relationship": "converts_to",
+        "related_concept": "mechanical energy",
+        "description": "Chemical energy can be converted into mechanical energy through various processes, such as combustion in engines."
+    },
+    {
+        "concept": "chemical energy",
+        "relationship": "not_typically_associated_with",
+        "related_concept": "nuclear energy",
+        "description": "Chemical energy in fossil fuels is not directly converted into nuclear energy in typical energy production scenarios."
+    },
+    {
+        "concept": "chemical energy",
+        "relationship": "can_be_converted_to",
+        "related_concept": "radiant energy",
+        "description": "Burning fossil fuels can convert chemical energy into radiant energy, such as light and heat."
+    }
+]
+
+Model Answer: {
+    "answer": "chemical",
+    "reasoning": "Fossil fuels contain high amounts of chemical energy that is released during combustion processes. This energy originates from the chemical bonds formed from ancient biological material. Unlike mechanical, nuclear, or radiant energy, chemical energy is inherent in the molecular structure of fossil fuels, making it the correct answer."
+}

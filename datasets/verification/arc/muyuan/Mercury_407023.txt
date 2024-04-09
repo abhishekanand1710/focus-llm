@@ -1,0 +1,61 @@
+Key: Mercury_407023
+
+Question: Which of the following best shows the basic three-step energy transformation for a battery-operated radio?
+Options: ['Acoustical -> Mechanical -> Electrical', 'Mechanical -> Acoustical -> Chemical', 'Chemical -> Electrical -> Acoustical', 'Electrical -> Acoustical -> Chemical']
+Answer: Chemical -> Electrical -> Acoustical
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical Energy",
+        "description": "Energy stored in the bonds of chemical compounds, released in a chemical reaction."
+    },
+    {
+        "name": "Electrical Energy",
+        "description": "Energy caused by the movement of electrons."
+    },
+    {
+        "name": "Acoustical Energy",
+        "description": "Energy carried by sound waves."
+    },
+    {
+        "name": "Battery",
+        "description": "A device that stores chemical energy and converts it to electrical energy."
+    },
+    {
+        "name": "Radio",
+        "description": "A device that receives electromagnetic waves and converts them to sound waves."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Battery",
+        "relationship": "stores",
+        "related_concept": "Chemical Energy",
+        "description": "Battery has the chemical energy stored in it."
+    },
+    {
+        "concept": "Battery",
+        "relationship": "converts",
+        "related_concept": "Electrical Energy",
+        "description": "Battery converts chemical energy into electrical energy."
+    },
+    {
+        "concept": "Radio",
+        "relationship": "receives",
+        "related_concept": "Electrical Energy",
+        "description": "Radio operates using the electrical energy."
+    },
+    {
+        "concept": "Radio",
+        "relationship": "converts",
+        "related_concept": "Acoustical Energy",
+        "description": "Radio converts electrical energy into acoustical energy."
+    }
+]
+
+Model Answer: {
+    "answer": "Chemical -> Electrical -> Acoustical",
+    "reasoning": "A battery-operated radio utilizes the chemical energy stored in the battery, converting it into electrical energy to operate the radio. The radio then converts this electrical energy into acoustical energy, producing sound."
+}

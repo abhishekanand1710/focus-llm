@@ -1,0 +1,71 @@
+Key: Mercury_402213
+
+Question: Which of these does not illustrate substances reacting to form new substances?
+Options: ['H_{2}O(l) -> H_{2}O(g)', '2H_{2} + O_{2} -> 2H_{2}O', '2Na + Cl_{2} -> 2NaCl', '6CO_{2} + 6H_{2}O -> C_{6}H_{12}O_{6} + 6O_{2}']
+Answer: H_{2}O(l) -> H_{2}O(g)
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical Reaction",
+        "description": "A process that involves rearrangement of the molecular or ionic structure of a substance, forming new substance(s) as products."
+    },
+    {
+        "name": "Physical Change",
+        "description": "A change in which the form of matter is altered but one substance is not transformed into another."
+    },
+    {
+        "name": "Combination Reaction",
+        "description": "A chemical change where two or more substances combine to form a single new substance."
+    },
+    {
+        "name": "Decomposition Reaction",
+        "description": "A reaction in which a single compound breaks down into two or more elements or new compounds."
+    },
+    {
+        "name": "Photosynthesis",
+        "description": "A process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities."
+    },
+    {
+        "name": "State Change",
+        "description": "A physical change of a substance from one state of matter to another."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical Reaction",
+        "relationship": "includes",
+        "related_concept": "Combination Reaction",
+        "description": "Combination reactions are a type of chemical reaction."
+    },
+    {
+        "concept": "Chemical Reaction",
+        "relationship": "includes",
+        "related_concept": "Decomposition Reaction",
+        "description": "Decomposition reactions are a type of chemical reaction."
+    },
+    {
+        "concept": "Chemical Reaction",
+        "relationship": "is_not",
+        "related_concept": "Physical Change",
+        "description": "Chemical reactions involve transformation into new substances, unlike physical changes."
+    },
+    {
+        "concept": "Physical Change",
+        "relationship": "includes",
+        "related_concept": "State Change",
+        "description": "Changing the state of matter (e.g., liquid to gas) is a type of physical change."
+    },
+    {
+        "concept": "Chemical Reaction",
+        "relationship": "includes",
+        "related_concept": "Photosynthesis",
+        "description": "Photosynthesis is a complex series of chemical reactions."
+    }
+]
+
+Model Answer: {
+    "answer": "'H_{2}O(l) -> H_{2}O(g)'",
+    "reasoning": "The given options illustrate various processes. The conversion of water (H2O) from liquid (l) to gas (g) state represents a physical change, specifically a state change, rather than a chemical reaction where substances react to form new substances. The other options describe chemical reactions where new substances are indeed formed: 2H2 + O2 -> 2H2O is a combination reaction forming water from hydrogen and oxygen, 2Na + Cl2 -> 2NaCl describes the formation of sodium chloride from sodium and chlorine, and 6CO2 + 6H2O -> C6H12O6 + 6O2 represents the photosynthesis process producing glucose and oxygen from carbon dioxide and water."
+}

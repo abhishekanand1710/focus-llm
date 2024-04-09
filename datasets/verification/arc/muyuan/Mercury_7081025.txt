@@ -1,0 +1,91 @@
+Key: Mercury_7081025
+
+Question: A student investigates how speed changes as a ball travels down a ramp. Measurements taken by computer every second are recorded on a data table. Which diagram will best display the data from this table?
+Options: ['a bar graph', 'a line graph', 'a pie chart', 'a pictograph']
+Answer: a line graph
+
+Model Response:
+Concepts: [
+    {
+        "name": "Speed",
+        "description": "A measure of how fast an object moves relative to a reference point"
+    },
+    {
+        "name": "Data Table",
+        "description": "A way to organize data in columns and rows for easy reference"
+    },
+    {
+        "name": "Bar Graph",
+        "description": "A chart that represents categorical data with rectangular bars with heights or lengths proportional to the values they represent"
+    },
+    {
+        "name": "Line Graph",
+        "description": "A type of chart used to show information that changes over time"
+    },
+    {
+        "name": "Pie Chart",
+        "description": "A circular statistical graphic, which is divided into slices to illustrate numerical proportion"
+    },
+    {
+        "name": "Pictograph",
+        "description": "A graph that uses pictures or symbols to show data"
+    },
+    {
+        "name": "Computer Measurements",
+        "description": "Data collected and recorded by a computer at set intervals"
+    },
+    {
+        "name": "Ramp",
+        "description": "An inclined surface or slope"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Speed",
+        "relationship": "measured by",
+        "related_concept": "Computer Measurements",
+        "description": "Speed is quantified using computer measurements"
+    },
+    {
+        "concept": "Computer Measurements",
+        "relationship": "recorded in",
+        "related_concept": "Data Table",
+        "description": "Measurements taken by a computer are organized and recorded in a data table"
+    },
+    {
+        "concept": "Data Table",
+        "relationship": "visualized using",
+        "related_concept": "Line Graph",
+        "description": "A line graph is an effective tool for visualizing data over time from a data table"
+    },
+    {
+        "concept": "Data Table",
+        "relationship": "less effectively visualized using",
+        "related_concept": "Bar Graph",
+        "description": "Bar graphs can represent data but are less effective for displaying continuous measurements over time"
+    },
+    {
+        "concept": "Data Table",
+        "relationship": "not effectively visualized using",
+        "related_concept": "Pie Chart",
+        "description": "Pie charts are not suitable for displaying data that changes over time or measurements at intervals"
+    },
+    {
+        "concept": "Data Table",
+        "relationship": "not effectively visualized using",
+        "related_concept": "Pictograph",
+        "description": "Pictographs are less precise and not ideal for displaying detailed continuous measurements"
+    },
+    {
+        "concept": "Ramp",
+        "relationship": "context for",
+        "related_concept": "Speed",
+        "description": "The change in speed is observed in the context of a ball moving down a ramp"
+    }
+]
+
+Model Answer: {
+    "answer": "a line graph",
+    "reasoning": "Given the nature of the data being measurements of speed taken over time as a ball travels down a ramp, a line graph is best suited for displaying this type of continuous data. It effectively shows how the speed changes over time, illustrating trends or patterns in a clear, comprehensible manner. Bar graphs, pie charts, and pictographs do not provide the same level of clarity for showing data that changes over time, making the line graph the optimal choice."
+}

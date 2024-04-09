@@ -1,0 +1,57 @@
+Key: Mercury_SC_400696
+
+Question: What best explains why some cooking pans have rubber handles?
+Options: ['The rubber in the handles is easy to hold.', 'The rubber in the handles is a good insulator.', 'The rubber in the handles keeps the food in the pan hot.', 'The rubber in the handles keeps the metal in the pan cool.']
+Answer: The rubber in the handles is a good insulator.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rubber Handles",
+        "description": "Handles made of rubber material attached to cooking pans."
+    },
+    {
+        "name": "Insulation",
+        "description": "A material's ability to prevent the transmission of heat or electrical current."
+    },
+    {
+        "name": "Cooking Pans",
+        "description": "Kitchen tools used for cooking, made of metal and sometimes with rubber handles."
+    },
+    {
+        "name": "Heat Conduction",
+        "description": "The process of heat transfer through a material."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rubber Handles",
+        "relationship": "is made of",
+        "related_concept": "Insulation",
+        "description": "Rubber handles are made of a material that serves as an insulator."
+    },
+    {
+        "concept": "Insulation",
+        "relationship": "prevents",
+        "related_concept": "Heat Conduction",
+        "description": "Insulation material prevents the transfer of heat."
+    },
+    {
+        "concept": "Cooking Pans",
+        "relationship": "have",
+        "related_concept": "Rubber Handles",
+        "description": "Cooking pans may have rubber handles attached to them."
+    },
+    {
+        "concept": "Rubber Handles",
+        "relationship": "attached to",
+        "related_concept": "Cooking Pans",
+        "description": "Rubber handles are attached to cooking pans to prevent heat transfer."
+    }
+]
+
+Model Answer: {
+    "answer": "The rubber in the handles is a good insulator.",
+    "reasoning": "Rubber handles on cooking pans are designed to be good insulators. This quality prevents heat from the pan from transferring to the handles, thus making it safer and more comfortable for the user to hold the pan without burning their hands. The insulation property of rubber handles is crucial for this functionality, aligning with the concept that insulation prevents heat conduction, and thus making 'The rubber in the handles is a good insulator.' the best explanation."
+}

@@ -1,0 +1,65 @@
+Key: Mercury_7159530
+
+Question: Rolando wants to see at what temperature various liquids boil. He boils tap water and records the temperature. He then boils tap water with milk added and tap water with sugar added. What is the purpose of boiling plain tap water first?
+Options: ['to include a factor to manipulate', 'to have a possible explanation to a problem', 'to change one variable while observing the others', 'to provide a standard by which to compare the results']
+Answer: to provide a standard by which to compare the results
+
+Model Response:
+Concepts: [
+    {
+        "name": "Boiling Point",
+        "description": "Temperature at which a liquid turns into vapor"
+    },
+    {
+        "name": "Control Variable",
+        "description": "A variable that is kept constant during a controlled experiment"
+    },
+    {
+        "name": "Standard of Comparison",
+        "description": "A baseline measurement or value used for comparison"
+    },
+    {
+        "name": "Tap Water",
+        "description": "Water that comes from a municipal source or public water system"
+    },
+    {
+        "name": "Manipulated Variable",
+        "description": "A variable that is changed or controlled in a scientific experiment"
+    },
+    {
+        "name": "Observation",
+        "description": "Act of noting and recording something with instruments"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Control Variable",
+        "relationship": "is established by",
+        "related_concept": "Boiling Point of Tap Water",
+        "description": "The boiling point of tap water acts as a control variable to compare other results"
+    },
+    {
+        "concept": "Standard of Comparison",
+        "relationship": "is exemplified by",
+        "related_concept": "Boiling Point of Tap Water",
+        "description": "The boiling point of tap water is used as a baseline to compare the effects of added substances"
+    },
+    {
+        "concept": "Tap Water",
+        "relationship": "is a prerequisite for",
+        "related_concept": "Boiling Point",
+        "description": "Understanding the boiling point of tap water is necessary before manipulating it"
+    },
+    {
+        "concept": "Manipulated Variable",
+        "relationship": "is introduced after",
+        "related_concept": "Observation of Tap Water",
+        "description": "Observations of the boiling point of tap water must be made before introducing substances like sugar or milk"
+    }
+]
+
+Model Answer: {
+    "answer": "to provide a standard by which to compare the results",
+    "reasoning": "Boiling plain tap water first allows Rolando to establish a control or baseline (the boiling point of plain tap water) against which he can compare the effects of added substances, such as milk or sugar. This comparison is essential to understanding how these additions change the boiling point of the water."
+}

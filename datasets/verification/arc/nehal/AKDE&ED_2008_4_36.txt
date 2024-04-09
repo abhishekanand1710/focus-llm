@@ -1,0 +1,77 @@
+Key: AKDE&ED_2008_4_36
+
+Question: A person catches and measures a large fish called a halibut. She thinks that this halibut is above average in size. To help support her thinking, it would be most helpful to measure
+Options: ['many types of fish.', 'many fish of the same type.', 'fish from the same location.', 'fish during a different season.']
+Answer: many fish of the same type.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Halibut",
+        "description": "A species of fish that the person has caught and is measuring."
+    },
+    {
+        "name": "Average size",
+        "description": "A statistical measure that summarises the size distribution of a particular group of fish."
+    },
+    {
+        "name": "Many types of fish",
+        "description": "A diverse group of fish species, not limited to halibut."
+    },
+    {
+        "name": "Many fish of the same type",
+        "description": "Multiple individuals of a single species, such as halibut, used for comparison."
+    },
+    {
+        "name": "Fish from the same location",
+        "description": "Fish that are caught or found in the same geographical area."
+    },
+    {
+        "name": "Fish during a different season",
+        "description": "Fish that are caught or observed during different times of the year, potentially affecting their size."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Halibut",
+        "relationship": "is a",
+        "related_concept": "Many types of fish",
+        "description": "Halibut is one of the many types of fish."
+    },
+    {
+        "concept": "Halibut",
+        "relationship": "is one of",
+        "related_concept": "Many fish of the same type",
+        "description": "The measured halibut is an instance within the broader category of halibut."
+    },
+    {
+        "concept": "Halibut",
+        "relationship": "can be compared by",
+        "related_concept": "Average size",
+        "description": "The size of the halibut can be evaluated in the context of the average size of halibut."
+    },
+    {
+        "concept": "Many fish of the same type",
+        "relationship": "supports calculation of",
+        "related_concept": "Average size",
+        "description": "Measuring many fish of the same type (halibut) enables the calculation of an average size for the group."
+    },
+    {
+        "concept": "Fish from the same location",
+        "relationship": "provides context for",
+        "related_concept": "Average size",
+        "description": "Fish from the same location might share size characteristics, providing additional context for average size calculations."
+    },
+    {
+        "concept": "Fish during a different season",
+        "relationship": "might affect",
+        "related_concept": "Average size",
+        "description": "Seasonal variations can influence the size of the fish, possibly affecting averages."
+    }
+]
+
+Model Answer: {
+    "answer": "many fish of the same type.",
+    "reasoning": "To support her thinking that the halibut she caught is above average in size, it is most useful to measure many fish of the same type (halibut). This approach directly contributes to understanding the average size of halibut by providing a comparison group identical in species. Measuring different types of fish or fish from different locations or seasons would introduce variables that could skew the perception of what is average for a halibut specifically."
+}

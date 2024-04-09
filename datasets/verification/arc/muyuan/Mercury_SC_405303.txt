@@ -1,0 +1,61 @@
+Key: Mercury_SC_405303
+
+Question: Which form of water is most likely to appear when the temperature is below freezing?
+Options: ['fog', 'rain', 'snow', 'clouds']
+Answer: snow
+
+Model Response:
+Concepts: [
+    {
+        "name": "freezing temperature",
+        "description": "a temperature below 0 degrees Celsius (32 degrees Fahrenheit) where water becomes solid"
+    },
+    {
+        "name": "fog",
+        "description": "tiny water droplets suspended in the air, forming a thick cloud visible at the earth's surface"
+    },
+    {
+        "name": "rain",
+        "description": "liquid water in the form of droplets that have condensed from atmospheric water vapor and then precipitate"
+    },
+    {
+        "name": "snow",
+        "description": "precipitation in the form of ice crystals, originating from clouds where the temperature is below freezing"
+    },
+    {
+        "name": "clouds",
+        "description": "a visible mass of condensed water vapor floating in the atmosphere, typically high above the ground"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "freezing temperature",
+        "relationship": "affects",
+        "related_concept": "rain",
+        "description": "Rain is less likely to occur at freezing temperatures as water freezes and may fall as snow"
+    },
+    {
+        "concept": "freezing temperature",
+        "relationship": "transforms",
+        "related_concept": "water",
+        "description": "At freezing temperatures, water transforms into ice or snow"
+    },
+    {
+        "concept": "snow",
+        "relationship": "results_from",
+        "related_concept": "freezing temperature",
+        "description": "Snow is a result of water vapor in the air freezing into ice crystals"
+    },
+    {
+        "concept": "clouds",
+        "relationship": "associated_with",
+        "related_concept": "snow",
+        "description": "Clouds are associated with snow as snow originates from them in cold conditions"
+    }
+]
+
+Model Answer: {
+    "answer": "snow",
+    "reasoning": "Based on the concept that 'snow' is precipitation in the form of ice crystals that originates from clouds where the temperature is below freezing, it is the most likely form of water to appear when the temperature is below freezing. This is supported by the relationship indicating that 'snow' results from freezing temperatures transforming water vapor in the air into ice crystals. Therefore, among the options provided, 'snow' is the most logical answer."
+}

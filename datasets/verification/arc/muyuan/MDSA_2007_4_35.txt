@@ -1,0 +1,51 @@
+Key: MDSA_2007_4_35
+
+Question: Aluminum and copper are composed of different types of matter. Which statement best describes matter?
+Options: ['Matter has mass.', 'Matter has mass and volume.', 'Matter must change into different forms.', 'Matter must be contained in a certain volume.']
+Answer: Matter has mass and volume.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Matter",
+        "description": "Anything that occupies space and has mass."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that an object occupies."
+    },
+    {
+        "name": "Physical change",
+        "description": "A change in the state or appearance of matter that does not affect its composition."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Matter",
+        "relationship": "has property",
+        "related_concept": "Mass",
+        "description": "Matter inherently possesses mass as a fundamental property."
+    },
+    {
+        "concept": "Matter",
+        "relationship": "occupies",
+        "related_concept": "Volume",
+        "description": "By its nature, matter takes up a certain volume of space."
+    },
+    {
+        "concept": "Matter",
+        "relationship": "undergoes",
+        "related_concept": "Physical change",
+        "description": "Matter can experience physical changes, altering its state or appearance but not its composition."
+    }
+]
+
+Model Answer: {
+    "answer": "Matter has mass and volume.",
+    "reasoning": "By definition, matter occupies space, indicating it has volume, and has mass. Options stating that matter must change forms or be contained in a certain volume misunderstand the fundamental properties of matter. The correct option that encaptures the intrinsic properties of matter, corroborated by the relationships identified, is that matter has mass and volume."
+}

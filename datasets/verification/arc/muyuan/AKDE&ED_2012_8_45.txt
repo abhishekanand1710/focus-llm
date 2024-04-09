@@ -1,0 +1,65 @@
+Key: AKDE&ED_2012_8_45
+
+Question: Which action is most likely a learned behavior?
+Options: ['A bird builds a nest.', 'A spider spins a web.', 'A lion cub practices its hunting skills.', 'An earthworm moves away from bright light.']
+Answer: A lion cub practices its hunting skills.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Learned behavior",
+        "description": "Behavior that an organism doesn't start life with but acquires as a result of its experiences"
+    },
+    {
+        "name": "Innate behavior",
+        "description": "Behavior that is genetically hardwired in an organism and can be performed without any prior experience or training"
+    },
+    {
+        "name": "Bird nest building",
+        "description": "The act of birds collecting materials and constructing the structures in which they lay their eggs"
+    },
+    {
+        "name": "Spider web spinning",
+        "description": "The process by which spiders produce silk and weave it into webs for hunting and living"
+    },
+    {
+        "name": "Lion cub hunting practice",
+        "description": "The activities undertaken by young lions as they learn to hunt prey, typically taught by older members of the pride"
+    },
+    {
+        "name": "Earthworm phototaxis",
+        "description": "The movement of earthworms in response to light, generally moving away from bright light"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Bird nest building",
+        "relationship": "is a type of",
+        "related_concept": "Innate behavior",
+        "description": "Birds are born with the knowledge to build nests, indicating an innate behavior"
+    },
+    {
+        "concept": "Spider web spinning",
+        "relationship": "is a type of",
+        "related_concept": "Innate behavior",
+        "description": "Spiders spin webs naturally without being taught, an example of innate behavior"
+    },
+    {
+        "concept": "Lion cub hunting practice",
+        "relationship": "is a type of",
+        "related_concept": "Learned behavior",
+        "description": "Lion cubs learn to hunt through practice and observation, showcasing learned behavior"
+    },
+    {
+        "concept": "Earthworm phototaxis",
+        "relationship": "is a type of",
+        "related_concept": "Innate behavior",
+        "description": "Earthworms instinctively move away from light, an innate reaction"
+    }
+]
+
+Model Answer: {
+    "answer": "A lion cub practices its hunting skills.",
+    "reasoning": "Among the options, the action most indicative of learned behavior is 'A lion cub practices its hunting skills.' This is because unlike nest building in birds, web spinning in spiders, or phototaxis in earthworms, which are examples of innate behaviors that the organisms are born with, lion cubs develop their hunting skills over time through observation and practice within their social group. This makes their hunting practice a learned behavior, as it is acquired through experience rather than being an inborn instinct."
+}

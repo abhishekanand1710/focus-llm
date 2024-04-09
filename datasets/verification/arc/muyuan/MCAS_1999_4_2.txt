@@ -1,0 +1,67 @@
+Key: MCAS_1999_4_2
+
+Question: Why is it better to wear a white T-shirt than a dark blue T-shirt in the summer?
+Options: ['Light-colored clothes let more air in.', 'Light-colored clothes prevent sweating.', 'Light-colored clothes are not as heavy as dark-colored clothes.', 'Light-colored clothes reflect more sunlight than dark-colored clothes.']
+Answer: Light-colored clothes reflect more sunlight than dark-colored clothes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Light-colored clothes",
+        "description": "Clothes that have colors towards the lighter end of the spectrum, such as white."
+    },
+    {
+        "name": "Dark-colored clothes",
+        "description": "Clothes that have colors towards the darker end of the spectrum, such as dark blue."
+    },
+    {
+        "name": "Sunlight reflection",
+        "description": "The process of light being bounced back by a surface, rather than being absorbed."
+    },
+    {
+        "name": "Heat absorption",
+        "description": "The process of a material taking in heat from its surroundings."
+    },
+    {
+        "name": "Summer",
+        "description": "The warmest season of the year, typically associated with hot weather."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Light-colored clothes",
+        "relationship": "reflect more",
+        "related_concept": "Sunlight",
+        "description": "Light-colored clothes reflect more sunlight than dark-colored clothes, reducing heat absorption."
+    },
+    {
+        "concept": "Dark-colored clothes",
+        "relationship": "absorb more",
+        "related_concept": "Sunlight",
+        "description": "Dark-colored clothes absorb more sunlight than light-colored clothes, increasing heat absorption."
+    },
+    {
+        "concept": "Sunlight reflection",
+        "relationship": "leads to",
+        "related_concept": "Less heat absorption",
+        "description": "Reflecting more sunlight leads to less heat being absorbed."
+    },
+    {
+        "concept": "Heat absorption",
+        "relationship": "increases with",
+        "related_concept": "Dark-colored clothes",
+        "description": "Dark-colored clothes increase the rate of heat absorption."
+    },
+    {
+        "concept": "Summer",
+        "relationship": "associated with",
+        "related_concept": "Hot weather",
+        "description": "Summer is associated with hotter weather, making heat management important."
+    }
+]
+
+Model Answer: {
+    "answer": "'Light-colored clothes reflect more sunlight than dark-colored clothes.'",
+    "reasoning": "The key reason for wearing light-colored clothes, such as a white T-shirt, over dark-colored ones like a dark blue T-shirt in summer is due to their ability to reflect more sunlight. This reflection leads to less absorption of heat, keeping the individual cooler in the hot weather associated with summer."
+}

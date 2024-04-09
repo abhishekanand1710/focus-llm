@@ -1,0 +1,57 @@
+Key: VASoL_2007_5_28
+
+Question: Which gas is given off by plants?
+Options: ['Hydrogen', 'Nitrogen', 'Oxygen', 'Helium']
+Answer: Oxygen
+
+Model Response:
+Concepts: [
+    {
+        "name": "Photosynthesis",
+        "description": "A process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A chemical element with symbol O and atomic number 8, essential for most types of life on Earth."
+    },
+    {
+        "name": "Carbon Dioxide",
+        "description": "A colorless gas with a density about 53% higher than that of dry air, used by plants in the process of photosynthesis."
+    },
+    {
+        "name": "Plants",
+        "description": "A wide variety of living organisms from the kingdom Plantae that use photosynthesis to produce oxygen."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Plants",
+        "relationship": "use",
+        "related_concept": "Photosynthesis",
+        "description": "Plants use photosynthesis to convert light energy into chemical energy."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "consumes",
+        "related_concept": "Carbon Dioxide",
+        "description": "Photosynthesis consumes carbon dioxide and water to produce oxygen and glucose."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "produces",
+        "related_concept": "Oxygen",
+        "description": "Photosynthesis produces oxygen as a by-product."
+    },
+    {
+        "concept": "Oxygen",
+        "relationship": "produced by",
+        "related_concept": "Plants",
+        "description": "Oxygen is produced by plants as a result of photosynthesis."
+    }
+]
+
+Model Answer: {
+    "answer": "Oxygen",
+    "reasoning": "According to the relationship and concepts identified, plants use the process of photosynthesis to convert carbon dioxide and water into glucose and oxygen. Oxygen is the gas that is given off by plants as a by-product of the photosynthesis process."
+}

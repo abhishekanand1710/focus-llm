@@ -1,0 +1,61 @@
+Key: Mercury_SC_401207
+
+Question: Which graph is best to present data collected on yearly water usage in the United States?
+Options: ['bar graph', 'line graph', 'scatterplot', 'circle graph']
+Answer: line graph
+
+Model Response:
+Concepts: [
+    {
+        "name": "bar graph",
+        "description": "A chart that represents categorical data with rectangular bars with heights or lengths proportional to the values they represent."
+    },
+    {
+        "name": "line graph",
+        "description": "A type of chart which displays information as a series of data points called 'markers' connected by straight line segments."
+    },
+    {
+        "name": "scatterplot",
+        "description": "A graphical representation where each value in the set is represented by a dot."
+    },
+    {
+        "name": "circle graph",
+        "description": "Also known as a pie chart, it shows data as slices of a circle, illustrating proportions."
+    },
+    {
+        "name": "yearly water usage in the United States",
+        "description": "The amount of water used over the span of a year in the United States."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "yearly water usage in the United States",
+        "relationship": "illustrated by",
+        "related_concept": "bar graph",
+        "description": "Yearly water usage can be illustrated by a bar graph to show comparisons among categories."
+    },
+    {
+        "concept": "yearly water usage in the United States",
+        "relationship": "illustrated by",
+        "related_concept": "line graph",
+        "description": "Yearly water usage can be illustrated by a line graph to show trends over time."
+    },
+    {
+        "concept": "yearly water usage in the United States",
+        "relationship": "not effectively illustrated by",
+        "related_concept": "scatterplot",
+        "description": "Yearly water usage is less effectively illustrated by a scatterplot since it's best for showing relationships between two variables."
+    },
+    {
+        "concept": "yearly water usage in the United States",
+        "relationship": "not effectively illustrated by",
+        "related_concept": "circle graph",
+        "description": "Yearly water usage is less effectively illustrated by a circle graph since it's best for showing proportions of a whole at one time point."
+    }
+]
+
+Model Answer: {
+    "answer": "line graph",
+    "reasoning": "A line graph is best suited to present data on yearly water usage in the United States because it is effective at showing trends over time. Given the nature of the data, illustrating how water usage changes from year to year is essential, and a line graph facilitates this visualization by connecting data points across a timeline. Unlike bar graphs that also can show changes over time, line graphs provide a clearer view of the trend and patterns over the years. Scatterplots and circle graphs do not present this information effectively; scatterplots are more suited to depicting relationships between variables, and circle graphs are ideal for showing proportions at a single point in time."
+}

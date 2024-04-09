@@ -1,0 +1,71 @@
+Key: Mercury_SC_405724
+
+Question: To conserve the supply of nonrenewable resources, it is best to recycle
+Options: ['newspapers.', 'phonebooks.', 'paper towels.', 'soda cans.']
+Answer: soda cans.
+
+Model Response:
+Concepts: [
+    {
+        "name": "recycle",
+        "description": "The process of converting waste into reusable material."
+    },
+    {
+        "name": "nonrenewable resources",
+        "description": "Resources that cannot be replaced once they are used."
+    },
+    {
+        "name": "newspapers",
+        "description": "Paper products used primarily for disseminating news."
+    },
+    {
+        "name": "phonebooks",
+        "description": "Paper-based directories that list individuals' and businesses' phone numbers."
+    },
+    {
+        "name": "paper towels",
+        "description": "Disposable towels made of paper used for drying hands or cleaning."
+    },
+    {
+        "name": "soda cans",
+        "description": "Aluminum containers used for holding soda and other beverages."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "recycle",
+        "relationship": "reduces use of",
+        "related_concept": "nonrenewable resources",
+        "description": "Recycling helps to conserve nonrenewable resources by using materials that are already available."
+    },
+    {
+        "concept": "newspapers",
+        "relationship": "are made from",
+        "related_concept": "nonrenewable resources",
+        "description": "Newspapers, like many paper products, use wood pulp from trees, a renewable resource, but recycling them saves trees."
+    },
+    {
+        "concept": "phonebooks",
+        "relationship": "are made from",
+        "related_concept": "nonrenewable resources",
+        "description": "Phonebooks are made from paper, originating from trees, a renewable resource; their recycling similarly conserves resources."
+    },
+    {
+        "concept": "paper towels",
+        "relationship": "are made from",
+        "related_concept": "nonrenewable resources",
+        "description": "Paper towels are made from paper but are typically not recycled due to contamination from use."
+    },
+    {
+        "concept": "soda cans",
+        "relationship": "are made from",
+        "related_concept": "nonrenewable resources",
+        "description": "Soda cans are primarily made from aluminum, a nonrenewable resource but highly recyclable."
+    }
+]
+
+Model Answer: {
+    "answer": "soda cans.",
+    "reasoning": "Out of the given options, soda cans are made from aluminum, which is a nonrenewable resource but is highly recyclable and can conserve a significant amount of nonrenewable resources when recycled. Newspapers, phonebooks, and paper towels are made from paper, which comes from trees, a renewable resource, and paper towels are often not recycled due to contamination. Therefore, recycling soda cans is the best option to conserve nonrenewable resources."
+}

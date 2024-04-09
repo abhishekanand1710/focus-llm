@@ -1,0 +1,79 @@
+Key: Mercury_7038150
+
+Question: Which pair of human body systems functions most closely together?
+Options: ['nervous and excretory', 'digestive and muscular', 'skeletal and circulatory', 'respiratory and cardiovascular']
+Answer: respiratory and cardiovascular
+
+Model Response:
+Concepts: [
+    {
+        "name": "nervous system",
+        "description": "Controls and coordinates body actions and reactions."
+    },
+    {
+        "name": "excretory system",
+        "description": "Responsible for removing waste from the body."
+    },
+    {
+        "name": "digestive system",
+        "description": "Breaks down food into nutrients that can be absorbed by the body."
+    },
+    {
+        "name": "muscular system",
+        "description": "Enables movement of the body and internal organs."
+    },
+    {
+        "name": "skeletal system",
+        "description": "Provides structure to the body and protects vital organs."
+    },
+    {
+        "name": "circulatory system",
+        "description": "Transports blood, nutrients, gases, and wastes to and from cells."
+    },
+    {
+        "name": "respiratory system",
+        "description": "Responsible for gas exchange, taking in oxygen and expelling carbon dioxide."
+    },
+    {
+        "name": "cardiovascular system",
+        "description": "Comprises the heart and blood vessels, circulating blood throughout the body."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "skeletal system",
+        "relationship": "supports",
+        "related_concept": "circulatory system",
+        "description": "The skeletal system provides a framework that supports the circulatory system, especially the bone marrow where blood cells are produced."
+    },
+    {
+        "concept": "respiratory system",
+        "relationship": "supplies",
+        "related_concept": "cardiovascular system",
+        "description": "The respiratory system supplies oxygen from inhaled air to the blood and removes carbon dioxide through the cardiovascular system."
+    },
+    {
+        "concept": "nervous system",
+        "relationship": "controls",
+        "related_concept": "excretory system",
+        "description": "The nervous system can influence the rate of excretion, although their functions are quite distinct and not as closely linked as other pairings."
+    },
+    {
+        "concept": "digestive system",
+        "relationship": "relies on",
+        "related_concept": "muscular system",
+        "description": "The digestive system relies on muscle contractions to move food along and physically digest it."
+    },
+    {
+        "concept": "cardiovascular system",
+        "relationship": "integral part of",
+        "related_concept": "respiratory system",
+        "description": "The cardiovascular system is an integral part of the respiratory function, as it carries oxygen and carbon dioxide to and from the lungs."
+    }
+]
+
+Model Answer: {
+    "answer": "respiratory and cardiovascular",
+    "reasoning": "Among the options given, the respiratory and cardiovascular systems function most closely together. This is evidenced by the relationship where the respiratory system supplies oxygen to and removes carbon dioxide from the blood via the cardiovascular system, making them integrally connected in the process of gas exchange which is vital for cellular respiration and hence the survival of the organism."
+}

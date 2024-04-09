@@ -1,0 +1,71 @@
+Key: Mercury_SC_408423
+
+Question: Marni runs 1500 meters around the school track. What does she need to know in order to find out her speed?
+Options: ['her time from start to finish', 'the number of steps she took', 'her heart rate at the finish line', 'the direction she began running']
+Answer: her time from start to finish
+
+Model Response:
+Concepts: [
+    {
+        "name": "Speed",
+        "description": "The measure of the distance covered per unit of time."
+    },
+    {
+        "name": "Distance",
+        "description": "The total length of the path traveled by an object."
+    },
+    {
+        "name": "Time",
+        "description": "The duration or interval it takes to complete a task or occurrence."
+    },
+    {
+        "name": "Steps",
+        "description": "The individual motions made by the feet when walking or running."
+    },
+    {
+        "name": "Heart Rate",
+        "description": "The number of heartbeats per unit of time, typically expressed in beats per minute."
+    },
+    {
+        "name": "Direction",
+        "description": "The course along which someone or something moves."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Speed",
+        "relationship": "is calculated from",
+        "related_concept": "Distance",
+        "description": "Speed is the quotient of distance divided by time."
+    },
+    {
+        "concept": "Speed",
+        "relationship": "is calculated from",
+        "related_concept": "Time",
+        "description": "Time is the denominator in the calculation of speed."
+    },
+    {
+        "concept": "Distance",
+        "relationship": "is independent of",
+        "related_concept": "Steps",
+        "description": "While the number of steps can affect the distance, knowing the distance alone doesn't require knowledge of the exact steps taken."
+    },
+    {
+        "concept": "Distance",
+        "relationship": "is independent of",
+        "related_concept": "Heart Rate",
+        "description": "The total distance covered is not determined by the runner's heart rate."
+    },
+    {
+        "concept": "Distance",
+        "relationship": "is independent of",
+        "related_concept": "Direction",
+        "description": "The distance travelled does not change based on direction in the context of a track."
+    }
+]
+
+Model Answer: {
+    "answer": "her time from start to finish",
+    "reasoning": "To calculate speed, the distance covered and the time taken to cover that distance are essential. Since the distance (1500 meters) is already known, the only other piece of information needed is the time from start to finish. The number of steps taken, heart rate at the finish line, and the direction she began running do not directly affect the calculation of speed."
+}

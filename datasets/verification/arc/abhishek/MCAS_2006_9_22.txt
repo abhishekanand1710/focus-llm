@@ -1,0 +1,65 @@
+Key: MCAS_2006_9_22
+
+Question: One 7.0 kg bowling ball is lifted to a storage shelf 1.0 m above the floor. A second 7.0 kg ball is lifted to a storage shelf 2.0 m above the floor. Which of the following best explains why the measured force of gravity on each ball is nearly identical?
+Options: ['The final potential energy of each ball increased.', 'The amount of work required to lift each ball is identical.', "The distance of each ball from Earth's center of mass is almost identical.", "The gravitational force of each ball on the other cancels out the force of Earth's gravity."]
+Answer: The distance of each ball from Earth's center of mass is almost identical.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Gravity",
+        "description": "A force that attracts any two objects with mass."
+    },
+    {
+        "name": "Force of gravity",
+        "description": "The force with which the earth attracts an object towards it."
+    },
+    {
+        "name": "Potential energy",
+        "description": "The energy held by an object because of its position relative to other objects."
+    },
+    {
+        "name": "Work",
+        "description": "The process of energy transfer to an object via the application of force along a displacement."
+    },
+    {
+        "name": "Distance from Earth's center of mass",
+        "description": "The distance of an object from the planet's center of gravity."
+    },
+    {
+        "name": "Gravitational force between objects",
+        "description": "The mutual force of attraction between masses."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Gravity",
+        "relationship": "is a type of",
+        "related_concept": "Force of gravity",
+        "description": "Gravity is the general phenomenon, while force of gravity refers specifically to the gravitational force the Earth exerts on objects."
+    },
+    {
+        "concept": "Potential energy",
+        "relationship": "is increased by",
+        "related_concept": "Work",
+        "description": "Doing work on an object by lifting increases its potential energy."
+    },
+    {
+        "concept": "Distance from Earth's center of mass",
+        "relationship": "determines",
+        "related_concept": "Force of gravity",
+        "description": "The force of gravity on an object is inversely related to its distance from Earth's center of mass."
+    },
+    {
+        "concept": "Gravitational force between objects",
+        "relationship": "is negligible compared to",
+        "related_concept": "Force of gravity",
+        "description": "For small objects near the Earth's surface, the gravitational force between them is much smaller than the earth's gravitational force."
+    }
+]
+
+Model Answer: {
+    "answer": "The distance of each ball from Earth's center of mass is almost identical.",
+    "reasoning": "The force of gravity on each ball is nearly identical because their distances from Earth's center of mass are almost the same. Changes in height such as 1.0 m or 2.0 m are negligible compared to the Earth's radius, meaning the gravitational force exerted by the Earth on each ball remains nearly constant. Other factors, such as the work done to lift them or their potential energy, do not directly affect the measured gravitational force itself."
+}

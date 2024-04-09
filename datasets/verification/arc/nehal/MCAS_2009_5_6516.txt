@@ -1,0 +1,71 @@
+Key: MCAS_2009_5_6516
+
+Question: Which of the following statements best explains why magnets usually stick to a refrigerator door?
+Options: ['The refrigerator door is smooth.', 'The refrigerator door contains iron.', 'The refrigerator door is a good conductor.', 'The refrigerator door has electric wires in it.']
+Answer: The refrigerator door contains iron.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Magnets",
+        "description": "Objects that produce a magnetic field, attracting materials like iron."
+    },
+    {
+        "name": "Refrigerator door",
+        "description": "A part of the refrigerator that opens and closes, often made of metal."
+    },
+    {
+        "name": "Iron",
+        "description": "A metallic element that is commonly found in the Earth's crust and is attracted by magnets."
+    },
+    {
+        "name": "Smooth surface",
+        "description": "A surface with an even and regular texture; not rough or coarse."
+    },
+    {
+        "name": "Electrical conductivity",
+        "description": "The measure of a material's ability to allow the flow of electrical current."
+    },
+    {
+        "name": "Electric wires",
+        "description": "Conductors used to carry electricity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Magnets",
+        "relationship": "attract",
+        "related_concept": "Iron",
+        "description": "Magnets attract iron due to their magnetic fields."
+    },
+    {
+        "concept": "Refrigerator door",
+        "relationship": "contains",
+        "related_concept": "Iron",
+        "description": "Refrigerator doors often contain iron in their composition, making them magnetic."
+    },
+    {
+        "concept": "Smooth surface",
+        "relationship": "is a characteristic of",
+        "related_concept": "Refrigerator door",
+        "description": "Refrigerator doors typically have a smooth surface, but this does not influence magnetism."
+    },
+    {
+        "concept": "Electrical conductivity",
+        "relationship": "is unrelated to",
+        "related_concept": "Magnets",
+        "description": "The electrical conductivity of a surface does not affect its ability to attract magnets."
+    },
+    {
+        "concept": "Electric wires",
+        "relationship": "are present in",
+        "related_concept": "Refrigerator",
+        "description": "Electric wires are found in refrigerators but not specifically in their doors for magnetism purposes."
+    }
+]
+
+Model Answer: {
+    "answer": "The refrigerator door contains iron.",
+    "reasoning": "Magnets stick to a refrigerator door primarily because the door contains iron, a metal that magnets attract due to their magnetic field. The smoothness of the door, its electrical conductivity, and the presence of electric wires in the refrigerator do not directly influence the magnetic attraction."
+}

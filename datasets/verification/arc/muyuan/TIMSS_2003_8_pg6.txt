@@ -1,0 +1,61 @@
+Key: TIMSS_2003_8_pg6
+
+Question: A son can inherit traits
+Options: ['only from his father', 'only from his mother', 'from both his father and his mother', 'from either his father or his mother, but not from both']
+Answer: from both his father and his mother
+
+Model Response:
+Concepts: [
+    {
+        "name": "Genetic inheritance",
+        "description": "The process by which physical and biological characteristics are transmitted from the parent (or parents) to the offspring"
+    },
+    {
+        "name": "Son",
+        "description": "A male offspring of parents"
+    },
+    {
+        "name": "Father",
+        "description": "A male parent"
+    },
+    {
+        "name": "Mother",
+        "description": "A female parent"
+    },
+    {
+        "name": "Traits",
+        "description": "Characteristics or attributes of an organism that are expressed by genes and/or influenced by the environment"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Son",
+        "relationship": "inherits traits from",
+        "related_concept": "Father",
+        "description": "A son inherits half of his genetic traits from his father"
+    },
+    {
+        "concept": "Son",
+        "relationship": "inherits traits from",
+        "related_concept": "Mother",
+        "description": "A son inherits half of his genetic traits from his mother"
+    },
+    {
+        "concept": "Traits",
+        "relationship": "determined by",
+        "related_concept": "Genetic inheritance",
+        "description": "Traits are determined through the process of genetic inheritance from parents"
+    },
+    {
+        "concept": "Genetic inheritance",
+        "relationship": "involves",
+        "related_concept": "Father and Mother",
+        "description": "Genetic inheritance involves the transmission of traits from both the father and the mother to the son"
+    }
+]
+
+Model Answer: {
+    "answer": "from both his father and his mother",
+    "reasoning": "The process of genetic inheritance ensures that a son receives traits from both his father and his mother, as half of his genetic material comes from each parent. This biological principle dictates that traits and characteristics of an individual are the result of the combination of genetic information from both parents."
+}

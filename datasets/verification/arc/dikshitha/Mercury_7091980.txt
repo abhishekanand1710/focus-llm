@@ -1,0 +1,61 @@
+Key: Mercury_7091980
+
+Question: The interior of Earth is made up of several physically different layers. The solid layer of Earth that moves over a viscous layer is called the
+Options: ['core.', 'crust.', 'asthenosphere.', 'atmosphere.']
+Answer: crust.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's Interior",
+        "description": "Refers to the layers beneath the surface of the Earth."
+    },
+    {
+        "name": "Core",
+        "description": "The innermost layer of Earth, composed of solid and liquid metal."
+    },
+    {
+        "name": "Crust",
+        "description": "The outermost layer of the Earth, consisting of solid rock."
+    },
+    {
+        "name": "Asthenosphere",
+        "description": "A viscous, mechanically weak region of the upper mantle of the Earth."
+    },
+    {
+        "name": "Atmosphere",
+        "description": "The layer of gases surrounding Earth, not involved in its internal structure."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Crust",
+        "relationship": "moves over",
+        "related_concept": "Asthenosphere",
+        "description": "The Earth's crust moves over the viscous asthenosphere layer."
+    },
+    {
+        "concept": "Asthenosphere",
+        "relationship": "underlies",
+        "related_concept": "Crust",
+        "description": "The asthenosphere is the layer beneath the Earth's crust."
+    },
+    {
+        "concept": "Core",
+        "relationship": "is beneath",
+        "related_concept": "Asthenosphere",
+        "description": "The core is located beneath the asthenosphere and is the deepest layer of the Earth."
+    },
+    {
+        "concept": "Atmosphere",
+        "relationship": "surrounds",
+        "related_concept": "Crust",
+        "description": "The atmosphere surrounds the outermost layer of the Earth, the crust."
+    }
+]
+
+Model Answer: {
+    "answer": "crust.",
+    "reasoning": "The question specifically mentions a solid layer of Earth that moves over a viscous layer. Based on the relationships identified, the crust is the outermost solid layer of Earth that moves over the asthenosphere, which is a viscous, mechanically weak region of the upper mantle. Therefore, the correct answer is 'crust.'"
+}

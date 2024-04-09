@@ -1,0 +1,61 @@
+Key: Mercury_400350
+
+Question: Which mechanism is not an example of a negative feedback mechanism in the human body?
+Options: ['contracting muscles', 'regulating blood pressure', 'regulating body temperature', 'maintaining blood sugar level']
+Answer: contracting muscles
+
+Model Response:
+Concepts: [
+    {
+        "name": "Negative Feedback Mechanism",
+        "description": "A process that reduces discrepancies from a set point in physiological systems."
+    },
+    {
+        "name": "Contracting Muscles",
+        "description": "The process of muscles contracting and relaxing to cause movement."
+    },
+    {
+        "name": "Regulating Blood Pressure",
+        "description": "The adjustment of blood pressure to maintain it within a normal range."
+    },
+    {
+        "name": "Regulating Body Temperature",
+        "description": "The process of maintaining an internal temperature within a tolerable range."
+    },
+    {
+        "name": "Maintaining Blood Sugar Level",
+        "description": "The regulation of glucose levels in the bloodstream."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Negative Feedback Mechanism",
+        "relationship": "is essential for",
+        "related_concept": "Regulating Blood Pressure",
+        "description": "Negative feedback mechanisms help maintain blood pressure within a normal range by adjusting it."
+    },
+    {
+        "concept": "Negative Feedback Mechanism",
+        "relationship": "is essential for",
+        "related_concept": "Regulating Body Temperature",
+        "description": "Negative feedback mechanisms ensure the body's temperature is kept within a narrow, healthy range."
+    },
+    {
+        "concept": "Negative Feedback Mechanism",
+        "relationship": "is essential for",
+        "related_concept": "Maintaining Blood Sugar Level",
+        "description": "Negative feedback mechanisms regulate blood glucose levels to prevent hyperglycemia or hypoglycemia."
+    },
+    {
+        "concept": "Contracting Muscles",
+        "relationship": "is not directly involved in",
+        "related_concept": "Negative Feedback Mechanism",
+        "description": "Muscle contraction is primarily a response and not a regulatory feedback mechanism for maintaining homeostasis."
+    }
+]
+
+Model Answer: {
+    "answer": "contracting muscles",
+    "reasoning": "Among the options, contracting muscles is not an example of a negative feedback mechanism. While muscle contraction is crucial for movement and various bodily functions, it is not directly involved in the regulatory feedback processes that maintain homeostasis, such as regulating blood pressure, body temperature, or blood sugar levels, which are classic examples of negative feedback mechanisms."
+}

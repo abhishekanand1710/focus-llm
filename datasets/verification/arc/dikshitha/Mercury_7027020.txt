@@ -1,0 +1,71 @@
+Key: Mercury_7027020
+
+Question: A student investigated the percentage of energy obtained from several food sources for a population of eagles. Which format is the best way to display this data?
+Options: ['a table', 'a pie chart', 'a bar graph', 'a line graph']
+Answer: a pie chart
+
+Model Response:
+Concepts: [
+    {
+        "name": "table",
+        "description": "A method of organizing data in columns and rows."
+    },
+    {
+        "name": "pie chart",
+        "description": "A circular chart divided into sectors, each sector shows the relative size of each value."
+    },
+    {
+        "name": "bar graph",
+        "description": "A chart that presents categorical data with rectangular bars with heights or lengths proportional to the values they represent."
+    },
+    {
+        "name": "line graph",
+        "description": "A type of chart which displays information as a series of data points called 'markers' connected by straight line segments."
+    },
+    {
+        "name": "percentage of energy obtained from food sources",
+        "description": "A quantifiable measure of food energy contribution to an entity, typically expressed as a percentage."
+    },
+    {
+        "name": "population of eagles",
+        "description": "A group of eagles living in a specified area."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "percentage of energy obtained from food sources",
+        "relationship": "measured_by",
+        "related_concept": "table",
+        "description": "A table can be used to organize and display the percentages of energy obtained from various food sources."
+    },
+    {
+        "concept": "percentage of energy obtained from food sources",
+        "relationship": "visualized_by",
+        "related_concept": "pie chart",
+        "description": "A pie chart can visualize proportions or percentages of energy obtained from different food sources."
+    },
+    {
+        "concept": "percentage of energy obtained from food sources",
+        "relationship": "represented_by",
+        "related_concept": "bar graph",
+        "description": "A bar graph can represent different amounts of energy obtained from various food sources as bars."
+    },
+    {
+        "concept": "percentage of energy obtained from food sources",
+        "relationship": "not_effectively_visualized_by",
+        "related_concept": "line graph",
+        "description": "A line graph is less effective for showing percentages of energy obtained because it is best used for showing changes over time."
+    },
+    {
+        "concept": "population of eagles",
+        "relationship": "subject_of_study",
+        "related_concept": "percentage of energy obtained from food sources",
+        "description": "The population of eagles is studied to determine the percentage of energy obtained from their food sources."
+    }
+]
+
+Model Answer: {
+    "answer": "a pie chart",
+    "reasoning": "A pie chart is the most appropriate format to display the percentage of energy obtained from several food sources for a population of eagles because it efficiently visualizes the contributions of different parts to a whole. In this context, it effectively represents the proportion of energy each food source contributes to the eagles, making it easy to understand at a glance."
+}

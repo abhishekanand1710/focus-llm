@@ -1,0 +1,61 @@
+Key: Mercury_7041860
+
+Question: A boat is acted on by a river current flowing north and by wind blowing on its sails. The boat travels northeast. In which direction is the wind most likely applying force to the sails of the boat?
+Options: ['west', 'east', 'north', 'south']
+Answer: east
+
+Model Response:
+Concepts: [
+    {
+        "name": "boat",
+        "description": "A vehicle designed to navigate on water."
+    },
+    {
+        "name": "river current",
+        "description": "Water moving in a definite direction in a river."
+    },
+    {
+        "name": "wind",
+        "description": "The natural movement of air, especially as it affects weather and the force applied on objects."
+    },
+    {
+        "name": "sails",
+        "description": "Large pieces of fabric attached to a boat used to catch the wind and propel the boat."
+    },
+    {
+        "name": "northeast direction",
+        "description": "A compass direction that is exactly 45 degrees, a combination of north and east."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "river current",
+        "relationship": "flows",
+        "related_concept": "north",
+        "description": "The river current is moving towards the north."
+    },
+    {
+        "concept": "wind",
+        "relationship": "applies force",
+        "related_concept": "sails",
+        "description": "The wind applies force to the sails of the boat to move it."
+    },
+    {
+        "concept": "boat",
+        "relationship": "travels",
+        "related_concept": "northeast direction",
+        "description": "The boat is moving in a northeast direction."
+    },
+    {
+        "concept": "northeast direction",
+        "relationship": "results from",
+        "related_concept": "north and another direction",
+        "description": "Moving northeast requires influence from both north and an eastern component."
+    }
+]
+
+Model Answer: {
+    "answer": "east",
+    "reasoning": "Based on the given information, the boat is moving northeast, which means it is influenced by forces acting both from the north and the east. Since the river current is already providing the northern component of motion, the wind must be providing the eastern component. Thus, the wind is most likely applying force from the west towards the east to allow the boat to travel in a northeast direction."
+}

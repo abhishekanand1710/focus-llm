@@ -1,0 +1,59 @@
+Key: NCEOGA2013_8_50
+
+Question: What do earthquakes tell scientists about the history of the planet?
+Options: ['Earth’s climate is constantly changing.', 'The continents of Earth are continually moving.', 'Dinosaurs became extinct about 65 million years ago.', 'The oceans are much deeper today than millions years ago.']
+Answer: The continents of Earth are continually moving.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earthquakes",
+        "description": "Sudden and violent shaking of the ground, sometimes causing great destruction, as a result of movements within the earth's crust or volcanic action."
+    },
+    {
+        "name": "Plate Tectonics",
+        "description": "A theory explaining the structure of the earth's crust and many associated phenomena as resulting from the interaction of rigid lithospheric plates that move slowly over the underlying mantle."
+    },
+    {
+        "name": "Continental Drift",
+        "description": "The gradual movement of the continents across the earth's surface through geological time."
+    },
+    {
+        "name": "Earth's Climate Change",
+        "description": "A long-term change in the earth's weather patterns or average temperature."
+    },
+    {
+        "name": "Dinosaur Extinction",
+        "description": "The event approximately 65 million years ago when dinosaurs became extinct."
+    },
+    {
+        "name": "Ocean Depth Changes",
+        "description": "Changes in the depth of the oceans over geological time periods."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earthquakes",
+        "relationship": "provide evidence for",
+        "related_concept": "Plate Tectonics",
+        "description": "The occurrence and study of earthquakes contribute to the understanding and evidence of plate tectonics."
+    },
+    {
+        "concept": "Plate Tectonics",
+        "relationship": "explains the mechanism behind",
+        "related_concept": "Continental Drift",
+        "description": "Plate tectonics theory explains how continents move over time through continental drift."
+    },
+    {
+        "concept": "Continental Drift",
+        "relationship": "is a process that leads to",
+        "related_concept": "The structure and positioning of continents",
+        "description": "The movement of continents over geological time changes the structure and position of landmasses on Earth."
+    }
+]
+
+Model Answer: {
+    "answer": "The continents of Earth are continually moving.",
+    "reasoning": "Earthquakes provide critical data which supports the theory of plate tectonics. This theory, in turn, explains the mechanism behind continental drift, indicating that the continents of Earth are continually moving. This is the most direct connection between what earthquakes reveal about Earth's history and the options provided."
+}

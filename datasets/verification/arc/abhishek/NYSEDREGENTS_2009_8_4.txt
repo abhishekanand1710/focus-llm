@@ -1,0 +1,93 @@
+Key: NYSEDREGENTS_2009_8_4
+
+Question: Which weather event usually includes heavy precipitation, strong winds, and surface air temperatures below 0°C?
+Options: ['blizzard', 'hurricane', 'thunderstorm', 'tornado']
+Answer: blizzard
+
+Model Response:
+Concepts: [
+    {
+        "name": "blizzard",
+        "description": "A severe snowstorm characterized by strong winds and low visibility."
+    },
+    {
+        "name": "hurricane",
+        "description": "A tropical cyclone with intense winds and heavy rains."
+    },
+    {
+        "name": "thunderstorm",
+        "description": "A storm with thunder and lightning, typically with heavy rain or hail."
+    },
+    {
+        "name": "tornado",
+        "description": "A rapidly rotating column of air that is in contact with both the surface of the Earth and a cumulonimbus cloud."
+    },
+    {
+        "name": "heavy precipitation",
+        "description": "A significant amount of rainfall or snowfall over a short period."
+    },
+    {
+        "name": "strong winds",
+        "description": "High-speed winds that can cause damage."
+    },
+    {
+        "name": "surface air temperatures below 0\u00b0C",
+        "description": "Air temperature at the Earth's surface is below the freezing point of water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "blizzard",
+        "relationship": "involves",
+        "related_concept": "heavy precipitation",
+        "description": "Blizzards involve significant snowfall."
+    },
+    {
+        "concept": "blizzard",
+        "relationship": "involves",
+        "related_concept": "strong winds",
+        "description": "Blizzards are characterized by high wind speeds."
+    },
+    {
+        "concept": "blizzard",
+        "relationship": "occurs at",
+        "related_concept": "surface air temperatures below 0\u00b0C",
+        "description": "Blizzards occur when the surface air temperature is below freezing."
+    },
+    {
+        "concept": "hurricane",
+        "relationship": "involves",
+        "related_concept": "heavy precipitation",
+        "description": "Hurricanes bring heavy rainfall."
+    },
+    {
+        "concept": "hurricane",
+        "relationship": "involves",
+        "related_concept": "strong winds",
+        "description": "Hurricanes are defined by their strong winds."
+    },
+    {
+        "concept": "thunderstorm",
+        "relationship": "can involve",
+        "related_concept": "heavy precipitation",
+        "description": "Thunderstorms often come with heavy rain or hail."
+    },
+    {
+        "concept": "thunderstorm",
+        "relationship": "can involve",
+        "related_concept": "strong winds",
+        "description": "Strong winds can occur during thunderstorms."
+    },
+    {
+        "concept": "tornado",
+        "relationship": "involves",
+        "related_concept": "strong winds",
+        "description": "Tornadoes are characterized by extremely high wind speeds."
+    }
+]
+
+Model Answer: {
+    "answer": "blizzard",
+    "reasoning": "A blizzard is the only event among the options that is specifically characterized by heavy precipitation (as snow), strong winds, and typically occurs when surface air temperatures are below 0\u00b0C. Hurricanes, though involving heavy precipitation and strong winds, occur in tropical environments with warmer temperatures. Thunderstorms and tornadoes can involve strong winds and precipitation but are not required to have temperatures below 0\u00b0C."
+}

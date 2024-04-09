@@ -1,0 +1,81 @@
+Key: Mercury_SC_401199
+
+Question: Using fossil fuels wisely and avoiding waste is an example of
+Options: ['rationing.', 'recycling.', 'substitution.', 'conservation.']
+Answer: conservation.
+
+Model Response:
+Concepts: [
+    {
+        "name": "fossil fuels",
+        "description": "natural fuels formed from the remains of living organisms, such as coal, oil, and natural gas"
+    },
+    {
+        "name": "wisely",
+        "description": "having or showing experience, knowledge, and good judgment"
+    },
+    {
+        "name": "avoiding waste",
+        "description": "actions taken to reduce unwanted or unusable resources"
+    },
+    {
+        "name": "rationing",
+        "description": "allowing each person to have only a fixed amount of a particular commodity"
+    },
+    {
+        "name": "recycling",
+        "description": "converting waste into reusable material"
+    },
+    {
+        "name": "substitution",
+        "description": "the act of replacing one thing with another"
+    },
+    {
+        "name": "conservation",
+        "description": "prevention of wasteful use of a resource"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "fossil fuels",
+        "relationship": "is a subject of",
+        "related_concept": "conservation",
+        "description": "fossil fuels are a resource that conservation aims to use wisely and avoid waste"
+    },
+    {
+        "concept": "avoiding waste",
+        "relationship": "is a method of",
+        "related_concept": "conservation",
+        "description": "avoiding waste is a practice within the broader concept of conservation"
+    },
+    {
+        "concept": "wisely",
+        "relationship": "is an aspect of",
+        "related_concept": "conservation",
+        "description": "using resources wisely is central to the concept of conservation"
+    },
+    {
+        "concept": "conservation",
+        "relationship": "is the opposite of",
+        "related_concept": "wastefulness",
+        "description": "conservation seeks to prevent what wastefulness allows"
+    },
+    {
+        "concept": "recycling",
+        "relationship": "is a form of",
+        "related_concept": "conservation",
+        "description": "recycling is a specific way to conserve resources by reusing them"
+    },
+    {
+        "concept": "substitution",
+        "relationship": "can be a strategy for",
+        "related_concept": "conservation",
+        "description": "substituting harmful practices or resources with better alternatives can be part of conserving resources"
+    }
+]
+
+Model Answer: {
+    "answer": "conservation",
+    "reasoning": "Using fossil fuels wisely and avoiding waste directly relates to the principle of 'conservation,' which is about the prevention of wasteful use of a resource. The concepts and relationships outlined show that conservation encompasses practices like using resources wisely and avoiding waste, making it the most fitting option from the provided choices."
+}

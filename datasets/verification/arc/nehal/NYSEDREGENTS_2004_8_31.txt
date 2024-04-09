@@ -1,0 +1,77 @@
+Key: NYSEDREGENTS_2004_8_31
+
+Question: A chemical property of a mineral is evident if the mineral
+Options: ['breaks easily when struck with a hammer', 'bubbles when acid is placed on it', 'is easily scratched by a fingernail', 'reflects light from its surface']
+Answer: bubbles when acid is placed on it
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical property",
+        "description": "Characteristics that describe the behavior of a substance when it reacts or combines with other substances."
+    },
+    {
+        "name": "Mineral",
+        "description": "A naturally occurring, inorganic solid with a definite chemical composition and a crystalline structure."
+    },
+    {
+        "name": "Acid reaction",
+        "description": "A chemical reaction that occurs when an acid is applied to a substance, often resulting in bubbles or fizz."
+    },
+    {
+        "name": "Hardness",
+        "description": "A measure of how easily a mineral can be scratched."
+    },
+    {
+        "name": "Cleavage",
+        "description": "The tendency of a mineral to break along flat, even surfaces."
+    },
+    {
+        "name": "Luster",
+        "description": "The way a mineral reflects light from its surface."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mineral",
+        "relationship": "has_property",
+        "related_concept": "Chemical property",
+        "description": "Minerals have specific chemical properties that define their reactions with other substances."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "has_reaction",
+        "related_concept": "Acid reaction",
+        "description": "Some minerals exhibit a specific reaction, such as fizzing, when acid is applied."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "has_feature",
+        "related_concept": "Hardness",
+        "description": "The hardness of a mineral determines how easily it can be scratched."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "has_feature",
+        "related_concept": "Cleavage",
+        "description": "Determines how a mineral breaks along flat, even surfaces."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "shows",
+        "related_concept": "Luster",
+        "description": "Minerals can reflect light from their surfaces, exhibiting luster."
+    },
+    {
+        "concept": "Acid reaction",
+        "relationship": "is_a",
+        "related_concept": "Chemical property",
+        "description": "Reaction with acid is a type of chemical property."
+    }
+]
+
+Model Answer: {
+    "answer": "bubbles when acid is placed on it",
+    "reasoning": "The option 'bubbles when acid is placed on it' directly refers to a 'chemical property' of a mineral, specifically an acid reaction, which is a characteristic behavior when it reacts with chemicals (in this case, acid). This is a clear indication of a chemical interaction between the acid and the mineral, distinguishing it from the other options which describe physical properties such as hardness (being easily scratched), cleavage (breaking easily), and luster (reflecting light)."
+}

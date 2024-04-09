@@ -1,0 +1,71 @@
+Key: MDSA_2011_8_25
+
+Question: All animals need food to survive. Immediately after an animal eats food, the food is
+Options: ['stored for later use', 'converted into waste', 'transported by the bloodstream', 'digested into simpler substances']
+Answer: digested into simpler substances
+
+Model Response:
+Concepts: [
+    {
+        "name": "animals",
+        "description": "Living organisms that feed on organic matter"
+    },
+    {
+        "name": "food",
+        "description": "Substances consumed by organisms for nutritional value"
+    },
+    {
+        "name": "digestion",
+        "description": "Biological process by which food is broken down into simpler substances"
+    },
+    {
+        "name": "waste",
+        "description": "Substances that are expelled from the body after digestion"
+    },
+    {
+        "name": "bloodstream",
+        "description": "The flowing blood within the circulatory system of a body"
+    },
+    {
+        "name": "simpler substances",
+        "description": "The end products of the digestion process, usable by the body"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "animals",
+        "relationship": "consume",
+        "related_concept": "food",
+        "description": "Animals eat food to obtain nutrients"
+    },
+    {
+        "concept": "food",
+        "relationship": "undergoes",
+        "related_concept": "digestion",
+        "description": "Food is broken down into simpler substances through digestion"
+    },
+    {
+        "concept": "digestion",
+        "relationship": "produces",
+        "related_concept": "simpler substances",
+        "description": "Digestion breaks down complex food into simpler substances"
+    },
+    {
+        "concept": "simpler substances",
+        "relationship": "transported_by",
+        "related_concept": "bloodstream",
+        "description": "Simpler substances are absorbed into the bloodstream to be used by the body"
+    },
+    {
+        "concept": "digestion",
+        "relationship": "results_in",
+        "related_concept": "waste",
+        "description": "Digestion processes food, resulting in waste that is expelled"
+    }
+]
+
+Model Answer: {
+    "answer": "digested into simpler substances",
+    "reasoning": "Immediately after an animal eats food, the food undergoes the digestion process, where it is broken down into simpler substances that can be absorbed and utilized by the body. This is supported by the relationships identified among the concepts of animals consuming food, which then undergoes digestion to produce simpler substances."
+}

@@ -1,0 +1,101 @@
+Key: MSA_2015_8_38
+
+Question: Heat transfer is part of everyday life. Which of these examples involving heat transfer occurs mainly by conduction?
+Options: ['The sun warms the ground.', 'A hot oven warms a cold kitchen.', "A campfire warms a person's hands.", 'Hot soup warms a metal spoon handle.']
+Answer: Hot soup warms a metal spoon handle.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Heat Transfer",
+        "description": "The movement of thermal energy from one object or substance to another"
+    },
+    {
+        "name": "Conduction",
+        "description": "Heat transfer through a material without the material itself moving"
+    },
+    {
+        "name": "Radiation",
+        "description": "Transfer of heat energy through electromagnetic waves without requiring a medium"
+    },
+    {
+        "name": "Convection",
+        "description": "Heat transfer by the movement of a fluid (liquid or gas) between areas of different temperature"
+    },
+    {
+        "name": "Sun",
+        "description": "A star at the center of the Solar System that emits heat and light"
+    },
+    {
+        "name": "Oven",
+        "description": "A household appliance used for baking or roasting food by generating heat"
+    },
+    {
+        "name": "Campfire",
+        "description": "An outdoor fire used for warmth or cooking"
+    },
+    {
+        "name": "Soup",
+        "description": "A liquid dish, typically made by boiling meat, fish, or vegetables, etc., in stock or water"
+    },
+    {
+        "name": "Metal Spoon",
+        "description": "A utensil made of metal used for eating or serving food"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Conduction",
+        "relationship": "is a type of",
+        "related_concept": "Heat Transfer",
+        "description": "Conduction is a method through which heat is transferred"
+    },
+    {
+        "concept": "Radiation",
+        "relationship": "is a type of",
+        "related_concept": "Heat Transfer",
+        "description": "Radiation is a method through which heat is transferred"
+    },
+    {
+        "concept": "Convection",
+        "relationship": "is a type of",
+        "related_concept": "Heat Transfer",
+        "description": "Convection is a method through which heat is transferred"
+    },
+    {
+        "concept": "Sun",
+        "relationship": "transfers heat through",
+        "related_concept": "Radiation",
+        "description": "The sun warms the ground mainly through radiation"
+    },
+    {
+        "concept": "Oven",
+        "relationship": "transfers heat through",
+        "related_concept": "Convection",
+        "description": "A hot oven warms a cold kitchen mainly through convection"
+    },
+    {
+        "concept": "Campfire",
+        "relationship": "transfers heat through",
+        "related_concept": "Radiation",
+        "description": "A campfire warms a person's hands mainly through radiation"
+    },
+    {
+        "concept": "Soup",
+        "relationship": "transfers heat to",
+        "related_concept": "Metal Spoon",
+        "description": "Hot soup warms a metal spoon handle mainly through conduction"
+    },
+    {
+        "concept": "Metal Spoon",
+        "relationship": "is warmed by",
+        "related_concept": "Conduction",
+        "description": "The metal spoon handle is warmed through conduction by the soup"
+    }
+]
+
+Model Answer: {
+    "answer": "Hot soup warms a metal spoon handle.",
+    "reasoning": "Among the provided options, the process of warming a metal spoon handle when it is placed in hot soup is an example of heat transfer mainly by conduction. Conduction occurs because the heat from the soup is directly transferred to the spoon's handle through the material of the spoon, without the movement of the soup itself. This differs from radiation and convection, where heat is transferred through electromagnetic waves without requiring a medium or by the movement of fluid, respectively."
+}

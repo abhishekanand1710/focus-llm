@@ -1,0 +1,57 @@
+Key: Mercury_SC_401183
+
+Question: All of the following are part of an animal life cycle except
+Options: ['growth.', 'fertilization.', 'binary fission.', 'gamete development.']
+Answer: binary fission.
+
+Model Response:
+Concepts: [
+    {
+        "name": "growth",
+        "description": "The process of increasing in physical size."
+    },
+    {
+        "name": "fertilization",
+        "description": "The fusion of male and female gametes to form a zygote."
+    },
+    {
+        "name": "binary fission",
+        "description": "A form of asexual reproduction in which an organism divides into two parts, each part becoming a new organism."
+    },
+    {
+        "name": "gamete development",
+        "description": "The process by which male and female gametes are formed, typically involving meiosis."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "growth",
+        "relationship": "part_of",
+        "related_concept": "animal life cycle",
+        "description": "Growth is a stage in the animal life cycle."
+    },
+    {
+        "concept": "fertilization",
+        "relationship": "part_of",
+        "related_concept": "animal life cycle",
+        "description": "Fertilization initiates the development of a new organism in the animal life cycle."
+    },
+    {
+        "concept": "gamete development",
+        "relationship": "part_of",
+        "related_concept": "animal life cycle",
+        "description": "Gamete development is crucial for sexual reproduction within the animal life cycle."
+    },
+    {
+        "concept": "binary fission",
+        "relationship": "not_part_of",
+        "related_concept": "animal life cycle",
+        "description": "Binary fission is not a stage in the typical multicellular animal life cycle but is a form of reproduction in single-celled organisms."
+    }
+]
+
+Model Answer: {
+    "answer": "binary fission.",
+    "reasoning": "Among the provided options, binary fission is the only process that is not part of the typical multicellular animal life cycle. Growth, fertilization, and gamete development are all stages or processes within the animal life cycle, while binary fission is a form of asexual reproduction in single-celled organisms such as bacteria, not multicellular animals."
+}

@@ -1,0 +1,51 @@
+Key: Mercury_7221253
+
+Question: The alkaline earth metal elements are in the same family in the periodic table because they all have
+Options: ['one valence electron.', 'two valence electrons.', 'seven valence electrons.', 'eight valence electrons.']
+Answer: two valence electrons.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Alkaline earth metals",
+        "description": "A group of elements in group 2 of the periodic table."
+    },
+    {
+        "name": "Periodic table",
+        "description": "A tabular arrangement of the chemical elements, organized on the basis of their atomic numbers, electron configurations, and recurring chemical properties."
+    },
+    {
+        "name": "Valence electrons",
+        "description": "The electrons in the outer shell of an atom that are involved in forming bonds to adjacent atoms."
+    },
+    {
+        "name": "Family (or group) in periodic table",
+        "description": "A column of elements in the periodic table that share common properties."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Alkaline earth metals",
+        "relationship": "are members of",
+        "related_concept": "Family (or group) in periodic table",
+        "description": "Alkaline earth metals belong to the same family or group in the periodic table."
+    },
+    {
+        "concept": "Family (or group) in periodic table",
+        "relationship": "is part of",
+        "related_concept": "Periodic table",
+        "description": "Families or groups are columns within the periodic table."
+    },
+    {
+        "concept": "Alkaline earth metals",
+        "relationship": "have",
+        "related_concept": "Valence electrons",
+        "description": "Alkaline earth metals are characterized by having two valence electrons."
+    }
+]
+
+Model Answer: {
+    "answer": "two valence electrons.",
+    "reasoning": "Alkaline earth metals, being in the same family in the periodic table, share common properties including their electron configuration. They are characterized by having two valence electrons, which explains their placement in Group 2 of the periodic table and their similar chemical behaviors."
+}

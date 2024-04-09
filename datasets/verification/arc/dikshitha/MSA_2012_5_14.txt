@@ -1,0 +1,69 @@
+Key: MSA_2012_5_14
+
+Question: Students made lemonade using the following recipe: 100 grams of lemon juice 100 grams of sugar 1,000 grams of water The students combined the lemon juice, sugar, and water in a container. They stirred the lemonade until all the sugar dissolved. They poured the lemonade into a plastic tray and put the tray in a freezer. The next day, the students removed the tray from the freezer and observed that the lemonade was a solid. What is the mass of the solid lemonade?
+Options: ['100 grams', '200 grams', '1,000 grams', '1,200 grams']
+Answer: 1,200 grams
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, usually in grams or kilograms."
+    },
+    {
+        "name": "Lemon Juice",
+        "description": "A liquid extracted from lemons."
+    },
+    {
+        "name": "Sugar",
+        "description": "A sweet substance used as a sweetener in food and drink."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance which is the main constituent of Earth's streams, lakes, and oceans."
+    },
+    {
+        "name": "Dissolution",
+        "description": "The process of dissolving a solute in a solvent to make a solution."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process of changing from a liquid to a solid due to cold temperature."
+    },
+    {
+        "name": "Solid Lemonade",
+        "description": "The frozen form of lemonade, a combination of lemon juice, sugar, and water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Lemon Juice",
+        "relationship": "is combined with",
+        "related_concept": "Sugar",
+        "description": "Lemon juice and sugar are mixed together in the recipe."
+    },
+    {
+        "concept": "Sugar",
+        "relationship": "dissolves in",
+        "related_concept": "Water",
+        "description": "Sugar dissolves in water to make a solution."
+    },
+    {
+        "concept": "Water",
+        "relationship": "freezes to form",
+        "related_concept": "Solid Lemonade",
+        "description": "Water becomes solid lemonade when frozen."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "is the sum of",
+        "related_concept": "Lemon Juice, Sugar, Water",
+        "description": "The mass of the solid lemonade is the sum of the masses of lemon juice, sugar, and water."
+    }
+]
+
+Model Answer: {
+    "answer": "1,200 grams",
+    "reasoning": "The mass of the solid lemonade would be the sum of the mass of the lemon juice (100 grams), the sugar (100 grams), and the water (1,000 grams) because mass is conserved when substances are mixed together. Hence, the total mass of the solid lemonade is 1,200 grams."
+}

@@ -1,0 +1,57 @@
+Key: Mercury_7008085
+
+Question: Which of the following has the greatest mass?
+Options: ['star', 'moon', 'planet', 'galaxy']
+Answer: galaxy
+
+Model Response:
+Concepts: [
+    {
+        "name": "star",
+        "description": "A massive, luminous sphere of plasma held together by gravity"
+    },
+    {
+        "name": "moon",
+        "description": "A natural satellite that orbits a planet"
+    },
+    {
+        "name": "planet",
+        "description": "A celestial body moving in an elliptical orbit around a star"
+    },
+    {
+        "name": "galaxy",
+        "description": "A huge collection of gas, dust, and billions of stars and their solar systems, all held together by gravity"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "moon",
+        "relationship": "orbits",
+        "related_concept": "planet",
+        "description": "A moon goes around a planet"
+    },
+    {
+        "concept": "planet",
+        "relationship": "orbits",
+        "related_concept": "star",
+        "description": "A planet moves around a star"
+    },
+    {
+        "concept": "star",
+        "relationship": "part_of",
+        "related_concept": "galaxy",
+        "description": "Stars are part of galaxies"
+    },
+    {
+        "concept": "planet",
+        "relationship": "part_of",
+        "related_concept": "galaxy",
+        "description": "Planets are part of a system that belong to a galaxy"
+    }
+]
+
+Model Answer: {
+    "answer": "galaxy",
+    "reasoning": "From the concepts and their relationships, it's clear that a galaxy comprises numerous stars, their planets, and moons, making it the largest and most massive entity among the options provided. Therefore, a galaxy has the greatest mass."
+}

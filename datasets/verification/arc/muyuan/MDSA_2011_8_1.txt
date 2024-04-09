@@ -1,0 +1,77 @@
+Key: MDSA_2011_8_1
+
+Question: During sexual reproduction, a sperm cell fertilizes an egg cell to form a fertilized egg. The fertilized egg then develops into a new organism. Which statement describes the primary advantage of sexual reproduction over asexual reproduction?
+Options: ['Sexual reproduction produces identical offspring.', 'Sexual reproduction results in less adaptable offspring.', 'Sexual reproduction generates a large number of offspring.', 'Sexual reproduction results in genetic variation in offspring.']
+Answer: Sexual reproduction results in genetic variation in offspring.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sexual reproduction",
+        "description": "A mode of reproduction involving the fusion of female gamete (egg) and male gamete (sperm) to create a zygote that develops into a new organism."
+    },
+    {
+        "name": "Asexual reproduction",
+        "description": "A mode of reproduction that does not involve the fusion of gametes and produces offspring that are genetically identical to the parent."
+    },
+    {
+        "name": "Genetic variation",
+        "description": "Differences in DNA sequences among individuals, which can lead to differences in traits."
+    },
+    {
+        "name": "Sperm cell",
+        "description": "Male gamete involved in sexual reproduction."
+    },
+    {
+        "name": "Egg cell",
+        "description": "Female gamete involved in sexual reproduction."
+    },
+    {
+        "name": "Fertilized egg",
+        "description": "A cell formed by the fusion of a sperm cell and an egg cell during fertilization."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "involves",
+        "related_concept": "Sperm cell",
+        "description": "Sexual reproduction involves the participation of a sperm cell."
+    },
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "involves",
+        "related_concept": "Egg cell",
+        "description": "Sexual reproduction involves the participation of an egg cell."
+    },
+    {
+        "concept": "Sperm cell",
+        "relationship": "fuses with",
+        "related_concept": "Egg cell",
+        "description": "A sperm cell fuses with an egg cell to form a fertilized egg."
+    },
+    {
+        "concept": "Fertilized egg",
+        "relationship": "develops into",
+        "related_concept": "new organism",
+        "description": "A fertilized egg develops into a new organism."
+    },
+    {
+        "concept": "Sexual reproduction",
+        "relationship": "results in",
+        "related_concept": "Genetic variation",
+        "description": "Sexual reproduction results in genetic variation in offspring."
+    },
+    {
+        "concept": "Asexual reproduction",
+        "relationship": "produces",
+        "related_concept": "identical offspring",
+        "description": "Asexual reproduction produces offspring that are genetically identical to the parent."
+    }
+]
+
+Model Answer: {
+    "answer": "Sexual reproduction results in genetic variation in offspring.",
+    "reasoning": "Sexual reproduction involves the fusion of sperm and egg cells, leading to the mixing of genetic material from two parents. This process results in offspring that have genetic variations. Genetic variation is crucial for adaptation and survival in changing environments, making it the primary advantage of sexual reproduction over asexual reproduction, where offspring are genetically identical to the parent."
+}

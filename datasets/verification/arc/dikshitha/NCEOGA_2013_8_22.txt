@@ -1,0 +1,71 @@
+Key: NCEOGA_2013_8_22
+
+Question: Which pair of elements has the most similar properties?
+Options: ['Li and B', 'I and Ca', 'K and He', 'N and P']
+Answer: N and P
+
+Model Response:
+Concepts: [
+    {
+        "name": "Periodic Table",
+        "description": "A chart organizing elements by their atomic number and properties."
+    },
+    {
+        "name": "Element",
+        "description": "A substance consisting of atoms which all have the same number of protons."
+    },
+    {
+        "name": "Atomic Number",
+        "description": "The number of protons found in the nucleus of an atom."
+    },
+    {
+        "name": "Chemical Property",
+        "description": "Characteristics of a substance that become evident during a chemical reaction."
+    },
+    {
+        "name": "Group (Periodic Table)",
+        "description": "Columns in the periodic table, indicating elements with similar chemical behaviors."
+    },
+    {
+        "name": "Period (Periodic Table)",
+        "description": "Rows in the periodic table, indicating elements with the same number of electron shells."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Element",
+        "relationship": "organized by",
+        "related_concept": "Periodic Table",
+        "description": "Elements are organized in the Periodic Table based on their properties."
+    },
+    {
+        "concept": "Atomic Number",
+        "relationship": "defines",
+        "related_concept": "Element",
+        "description": "The atomic number defines the identity of an element."
+    },
+    {
+        "concept": "Chemical Property",
+        "relationship": "characterizes",
+        "related_concept": "Element",
+        "description": "Chemical properties characterize how elements behave under chemical reactions."
+    },
+    {
+        "concept": "Group (Periodic Table)",
+        "relationship": "indicates",
+        "related_concept": "Chemical Property",
+        "description": "Elements in the same group have similar chemical behaviors."
+    },
+    {
+        "concept": "Period (Periodic Table)",
+        "relationship": "indicates",
+        "related_concept": "Electron Shells",
+        "description": "Elements in the same period have the same number of electron shells."
+    }
+]
+
+Model Answer: {
+    "answer": "N and P",
+    "reasoning": "Nitrogen (N) and Phosphorus (P) have the most similar properties among the given options because they are both found in the same group in the Periodic Table. This means they have similar chemical behaviors due to having the same valence electron configuration. Elements in the same group tend to show greater similarity in chemical properties compared to elements that belong to different groups or periods. Other pairs listed do not share this level of similarity; for instance, Li and B are adjacent but belong to different groups, I and Ca are from entirely different groups with distinct properties, and K is an alkaline metal while He is a noble gas, making their properties markedly different."
+}

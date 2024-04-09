@@ -1,0 +1,79 @@
+Key: Mercury_7108640
+
+Question: A scientist investigated the effect of workplace stress on heart disease in humans. Men of various ages were divided into two groups based on whether they described their work as very stressful or not very stressful. During the one year investigation the scientist monitored the heart health of each man. What was the bias in this investigation?
+Options: ['The investigation only lasted one year.', 'The only organ studied was the heart.', 'The investigation tested only men.', 'The age of the participants varied.']
+Answer: The investigation tested only men.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Workplace stress",
+        "description": "The experience of stress related to job conditions or environment."
+    },
+    {
+        "name": "Heart disease",
+        "description": "A range of conditions that affect the heart, such as coronary artery disease, heart attacks, and others."
+    },
+    {
+        "name": "Men",
+        "description": "Male humans used as participants in the study."
+    },
+    {
+        "name": "Very stressful work",
+        "description": "Work perceived by participants as causing high levels of stress."
+    },
+    {
+        "name": "Not very stressful work",
+        "description": "Work perceived by participants as causing low levels of stress."
+    },
+    {
+        "name": "One year investigation",
+        "description": "Duration of the study, spanning a single year."
+    },
+    {
+        "name": "Heart health monitoring",
+        "description": "The process of tracking the wellness of the heart through various measures over time."
+    },
+    {
+        "name": "Age variation",
+        "description": "Differences in ages of the participants in the study."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Workplace stress",
+        "relationship": "examined_in_relation_to",
+        "related_concept": "Heart disease",
+        "description": "The study focuses on how workplace stress affects heart disease."
+    },
+    {
+        "concept": "Men",
+        "relationship": "divided_into",
+        "related_concept": "Very stressful work",
+        "description": "Male participants were split based on their experience of workplace stress."
+    },
+    {
+        "concept": "Men",
+        "relationship": "divided_into",
+        "related_concept": "Not very stressful work",
+        "description": "A division of male participants based on low stress in their work."
+    },
+    {
+        "concept": "One year investigation",
+        "relationship": "time_frame_of",
+        "related_concept": "Heart health monitoring",
+        "description": "Heart health was monitored over a period of one year."
+    },
+    {
+        "concept": "Age variation",
+        "relationship": "characteristic_of",
+        "related_concept": "Men",
+        "description": "The men in the study varied in age."
+    }
+]
+
+Model Answer: {
+    "answer": "The investigation tested only men.",
+    "reasoning": "The bias in the investigation comes from testing only men, which limits the generalizability of the results. While workplace stress, heart disease, and the duration of the study are relevant factors, the choice to include only male participants means the findings may not accurately represent the effects of workplace stress on heart disease in the entire human population, including women. This research design overlooks gender differences in heart disease and stress response, which are crucial for a comprehensive understanding of the relationship between workplace stress and heart health."
+}

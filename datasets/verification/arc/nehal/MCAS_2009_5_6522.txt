@@ -1,0 +1,81 @@
+Key: MCAS_2009_5_6522
+
+Question: Heat, light, and sound are all different forms of ___.
+Options: ['fuel', 'energy', 'matter', 'electricity']
+Answer: energy
+
+Model Response:
+Concepts: [
+    {
+        "name": "Heat",
+        "description": "A form of energy associated with the movement of atoms and molecules in any material."
+    },
+    {
+        "name": "Light",
+        "description": "Electromagnetic radiation within a certain portion of the electromagnetic spectrum, perceived by the human eye."
+    },
+    {
+        "name": "Sound",
+        "description": "Vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear."
+    },
+    {
+        "name": "Energy",
+        "description": "The capacity to do work or produce change, present in many forms such as heat, light, and motion."
+    },
+    {
+        "name": "Fuel",
+        "description": "A material that can be consumed to produce energy."
+    },
+    {
+        "name": "Matter",
+        "description": "Anything that has mass and takes up space by having volume."
+    },
+    {
+        "name": "Electricity",
+        "description": "The set of physical phenomena associated with the presence and motion of electric charge."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Heat",
+        "relationship": "is a form of",
+        "related_concept": "Energy",
+        "description": "Heat is a manifestation of energy in terms of atomic and molecular motion."
+    },
+    {
+        "concept": "Light",
+        "relationship": "is a form of",
+        "related_concept": "Energy",
+        "description": "Light represents energy through electromagnetic radiation visible to the human eye."
+    },
+    {
+        "concept": "Sound",
+        "relationship": "is a form of",
+        "related_concept": "Energy",
+        "description": "Sound is energy transmitted as vibrations through air or other media."
+    },
+    {
+        "concept": "Fuel",
+        "relationship": "produces",
+        "related_concept": "Energy",
+        "description": "Fuel consumption leads to the production of energy."
+    },
+    {
+        "concept": "Matter",
+        "relationship": "is not directly related to",
+        "related_concept": "Energy",
+        "description": "Matter is a physical substance, which contrasts with energy, the capability to perform work."
+    },
+    {
+        "concept": "Electricity",
+        "relationship": "is a form of",
+        "related_concept": "Energy",
+        "description": "Electricity is energy created by the movement of electrons."
+    }
+]
+
+Model Answer: {
+    "answer": "energy",
+    "reasoning": "Heat, light, and sound are all manifestations of energy, characterized by their unique properties and ways of transmission (atomic and molecular motion for heat, electromagnetic radiation for light, and mechanical vibrations for sound), differing from matter, which is physical substance, fuel, a source of energy, and electricity, which is just one form of energy."
+}

@@ -1,0 +1,89 @@
+Key: FCAT_2012_8_7
+
+Question: Food webs show feeding relationships among different types of organisms. Those organisms each have a specific niche. Which of the following best describes a function of decomposers in food webs?
+Options: ['to recycle nutrients into soil', 'to convert solar energy into food', 'to provide food for secondary consumers', 'to compete with secondary consumers for oxygen']
+Answer: to recycle nutrients into soil
+
+Model Response:
+Concepts: [
+    {
+        "name": "Food webs",
+        "description": "A network of feeding interactions among different species in an ecosystem"
+    },
+    {
+        "name": "Organisms",
+        "description": "Individual living entities that can carry out life processes independently"
+    },
+    {
+        "name": "Niche",
+        "description": "The role or function of an organism or species within an ecosystem"
+    },
+    {
+        "name": "Decomposers",
+        "description": "Organisms that breakdown dead organisms and waste products into simpler compounds"
+    },
+    {
+        "name": "Nutrients",
+        "description": "Chemical substances that organisms need to sustain life"
+    },
+    {
+        "name": "Soil",
+        "description": "The top layer of the earth's surface in which plants grow, a mixture of organic remains, clay, and rock particles"
+    },
+    {
+        "name": "Solar energy",
+        "description": "Energy from the sun that is converted into thermal or electrical energy"
+    },
+    {
+        "name": "Secondary consumers",
+        "description": "Organisms that consume other organisms that are themselves consumers in the food chain"
+    },
+    {
+        "name": "Oxygen",
+        "description": "A chemical element essential for most forms of life on Earth"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Food webs",
+        "relationship": "include",
+        "related_concept": "Organisms",
+        "description": "Food webs consist of various organisms interacting through feeding relationships"
+    },
+    {
+        "concept": "Organisms",
+        "relationship": "occupy",
+        "related_concept": "Niche",
+        "description": "Each organism in an ecosystem occupies a specific niche"
+    },
+    {
+        "concept": "Decomposers",
+        "relationship": "recycle",
+        "related_concept": "Nutrients",
+        "description": "Decomposers breakdown materials to recycle nutrients back into the ecosystem"
+    },
+    {
+        "concept": "Nutrients",
+        "relationship": "enrich",
+        "related_concept": "Soil",
+        "description": "The nutrients decomposed and released by decomposers enrich the soil"
+    },
+    {
+        "concept": "Solar energy",
+        "relationship": "converted by",
+        "related_concept": "Organisms",
+        "description": "Some organisms convert solar energy into food through photosynthesis"
+    },
+    {
+        "concept": "Secondary consumers",
+        "relationship": "consume",
+        "related_concept": "Organisms",
+        "description": "Secondary consumers feed on other organisms that are part of the food web"
+    }
+]
+
+Model Answer: {
+    "answer": "to recycle nutrients into soil",
+    "reasoning": "Decomposers play a critical role in food webs by breaking down dead organisms and waste products. This process not only disposes of dead material but also recycles nutrients back into the ecosystem, enriching the soil and making the nutrients available for use by plants and other organisms. This function is crucial for the sustenance of ecosystem health and productivity, unlike the other options which are not directly associated with the primary role of decomposers."
+}

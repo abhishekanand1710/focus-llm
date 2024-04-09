@@ -1,0 +1,61 @@
+Key: MDSA_2007_8_54
+
+Question: When Chemical X is added to a certain liquid, the chemical breaks into Substances Y and Z. It is not possible to break Substances Y and Z into simpler particles. Which statement is best supported by this evidence?
+Options: ['Chemical X is an element.', 'Chemical X is soluble in water.', 'Substances Y and Z are elements.', 'Substances Y and Z are compounds.']
+Answer: Substances Y and Z are elements.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical X",
+        "description": "A substance that breaks into two simpler substances when added to a certain liquid."
+    },
+    {
+        "name": "Substance Y",
+        "description": "One of the simpler substances resulting from the breakdown of Chemical X."
+    },
+    {
+        "name": "Substance Z",
+        "description": "Another simpler substance resulting from the breakdown of Chemical X."
+    },
+    {
+        "name": "Element",
+        "description": "A substance that cannot be broken down into simpler substances by chemical means."
+    },
+    {
+        "name": "Compound",
+        "description": "A substance made up of two or more elements chemically combined in fixed proportions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical X",
+        "relationship": "breaks into",
+        "related_concept": "Substance Y and Substance Z",
+        "description": "Chemical X decomposes into two simpler substances, Y and Z."
+    },
+    {
+        "concept": "Substances Y and Z",
+        "relationship": "cannot be broken down",
+        "related_concept": "Element",
+        "description": "Since substances Y and Z cannot be broken down into simpler particles, they are elements."
+    },
+    {
+        "concept": "Element",
+        "relationship": "is not made of",
+        "related_concept": "Compound",
+        "description": "Elements are not compounds because they cannot be broken down into simpler substances."
+    },
+    {
+        "concept": "Compound",
+        "relationship": "is made of",
+        "related_concept": "Element",
+        "description": "Compounds are made up of two or more elements."
+    }
+]
+
+Model Answer: {
+    "answer": "Substances Y and Z are elements.",
+    "reasoning": "Given that Substances Y and Z cannot be broken down into simpler particles, they meet the definition of elements, which are substances that cannot be chemically broken down into simpler substances. This implies that Chemical X is a compound breaking down into its constituent elements, hence making 'Substances Y and Z are elements' the best-supported statement."
+}

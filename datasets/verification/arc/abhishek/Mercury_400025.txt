@@ -1,0 +1,61 @@
+Key: Mercury_400025
+
+Question: Four identical candles are set on a safe surface and lit. One is covered with a small-sized jar, one is covered with a large-sized jar, and one candle is left in the open. A fourth lit candle is placed in a vacuum. Which candle will most likely stay lit the longest?
+Options: ['the candle placed in the vacuum', 'the candle covered with the small-sized jar', 'the candle covered with the large-sized jar', 'the candle left out in the open']
+Answer: the candle left out in the open
+
+Model Response:
+Concepts: [
+    {
+        "name": "Combustion",
+        "description": "A chemical reaction that produces heat and light, typically involving oxygen and a fuel"
+    },
+    {
+        "name": "Oxygen",
+        "description": "An element essential for combustion to occur"
+    },
+    {
+        "name": "Jar Size",
+        "description": "The volume inside a jar, affecting the amount of available oxygen"
+    },
+    {
+        "name": "Vacuum",
+        "description": "A space devoid of matter, including oxygen"
+    },
+    {
+        "name": "Candle",
+        "description": "An object that produces light through combustion"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Combustion",
+        "relationship": "requires",
+        "related_concept": "Oxygen",
+        "description": "Combustion cannot occur without oxygen"
+    },
+    {
+        "concept": "Jar Size",
+        "relationship": "influences",
+        "related_concept": "Oxygen",
+        "description": "The size of the jar affects the amount of trapped oxygen for combustion"
+    },
+    {
+        "concept": "Vacuum",
+        "relationship": "eliminates",
+        "related_concept": "Oxygen",
+        "description": "A vacuum contains no oxygen, making combustion impossible"
+    },
+    {
+        "concept": "Candle",
+        "relationship": "undergoes",
+        "related_concept": "Combustion",
+        "description": "A candle produces light and heat by undergoing combustion"
+    }
+]
+
+Model Answer: {
+    "answer": "the candle left out in the open",
+    "reasoning": "The candle left out in the open has continuous access to oxygen in the environment, essential for combustion to occur. The candles under jars have limited oxygen supply, determined by the jar size, and will extinguish once the oxygen is depleted. The candle placed in the vacuum will extinguish immediately as a vacuum is devoid of matter, including oxygen, making combustion impossible. Therefore, the candle left in the open can sustain combustion for the longest period."
+}

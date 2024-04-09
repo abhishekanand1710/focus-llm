@@ -1,0 +1,79 @@
+Key: Mercury_7282118
+
+Question: Rat snakes, Elaphe obsoleta, are a species made of many distinct populations in different areas. Each of the populations has different markings and colorings. Where would rat snakes most likely be gray?
+Options: ['in a forest', 'in a swamp', 'in a gravel pit', 'in a corn field']
+Answer: in a gravel pit
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rat snakes",
+        "description": "A species of snakes with diverse populations and varying colors and markings."
+    },
+    {
+        "name": "Elaphe obsoleta",
+        "description": "Scientific name for rat snakes."
+    },
+    {
+        "name": "Populations",
+        "description": "Distinct groups within a species, often adapted to specific environments."
+    },
+    {
+        "name": "Markings and colorings",
+        "description": "Visual patterns and hues on an animal\u2019s body."
+    },
+    {
+        "name": "Forest",
+        "description": "A large area dominated by trees."
+    },
+    {
+        "name": "Swamp",
+        "description": "A wetland often partially or intermittently covered with water, typically dominated by woody vegetation."
+    },
+    {
+        "name": "Gravel pit",
+        "description": "An open-pit mine for the extraction of gravel."
+    },
+    {
+        "name": "Corn field",
+        "description": "A field where corn is grown."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rat snakes",
+        "relationship": "scientific name",
+        "related_concept": "Elaphe obsoleta",
+        "description": "Rat snakes are scientifically known as Elaphe obsoleta."
+    },
+    {
+        "concept": "Rat snakes",
+        "relationship": "comprise",
+        "related_concept": "Populations",
+        "description": "Rat snakes are made up of many distinct populations."
+    },
+    {
+        "concept": "Populations",
+        "relationship": "feature",
+        "related_concept": "Markings and colorings",
+        "description": "Each population of rat snakes has distinct markings and coloring adapted to their environment."
+    },
+    {
+        "concept": "Forest",
+        "relationship": "contrast",
+        "related_concept": "Gravel pit",
+        "description": "Forests are natural vegetative areas, whereas gravel pits are manmade excavations."
+    },
+    {
+        "concept": "Swamp",
+        "relationship": "contrast",
+        "related_concept": "Corn field",
+        "description": "Swamps are wetlands, while corn fields are agricultural areas."
+    }
+]
+
+Model Answer: {
+    "answer": "in a gravel pit",
+    "reasoning": "Considering the adaptive nature of rat snake populations to their environments, the likeliest color for camouflage in a gravel pit - an area with a lot of grays and neutral tones from the stones and gravel - would be gray. In contrast, forests, swamps, and corn fields would likely demand different colorings and patterns more suited to green, brown, and varied environments."
+}

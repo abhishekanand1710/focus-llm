@@ -1,0 +1,71 @@
+Key: Mercury_7239523
+
+Question: A signal from the brain to a muscle in the arm is transmitted by which structures?
+Options: ['sensory neurons', 'interneurons', 'motor neurons', 'mechanoreceptor neurons']
+Answer: motor neurons
+
+Model Response:
+Concepts: [
+    {
+        "name": "sensory neurons",
+        "description": "Neurons that carry information from the sensory receptor cells throughout the body to the brain."
+    },
+    {
+        "name": "interneurons",
+        "description": "Neurons that connect sensory neurons, motor neurons, or other interneurons in the brain and spinal cord."
+    },
+    {
+        "name": "motor neurons",
+        "description": "Neurons that convey impulses from the brain or spinal cord to the muscles and glands."
+    },
+    {
+        "name": "mechanoreceptor neurons",
+        "description": "Specialized neurons that respond to mechanical pressure or distortion."
+    },
+    {
+        "name": "brain",
+        "description": "The control center of the nervous system, located in the skull, responsible for perception, processing, and responding to sensory information."
+    },
+    {
+        "name": "muscle",
+        "description": "Tissue that contracts to produce movement in parts of the body."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "brain",
+        "relationship": "sends signals to",
+        "related_concept": "motor neurons",
+        "description": "The brain sends motor signals to motor neurons to initiate movement."
+    },
+    {
+        "concept": "motor neurons",
+        "relationship": "transmit signals to",
+        "related_concept": "muscle",
+        "description": "Motor neurons carry signals from the brain or spinal cord to the muscles to cause contraction."
+    },
+    {
+        "concept": "sensory neurons",
+        "relationship": "transmit signals from",
+        "related_concept": "muscle",
+        "description": "Sensory neurons carry information from sensory receptors in the body back to the brain."
+    },
+    {
+        "concept": "interneurons",
+        "relationship": "connect",
+        "related_concept": "sensory neurons and motor neurons",
+        "description": "Interneurons form connections between sensory and motor neurons within the brain and spinal cord."
+    },
+    {
+        "concept": "mechanoreceptor neurons",
+        "relationship": "are a type of",
+        "related_concept": "sensory neurons",
+        "description": "Mechanoreceptor neurons are specialized sensory neurons that respond to mechanical stimuli."
+    }
+]
+
+Model Answer: {
+    "answer": "motor neurons",
+    "reasoning": "The correct answer is 'motor neurons' because these are the neurons responsible for conveying impulses from the brain or spinal cord to the muscles to produce movement. As described, the brain sends motor signals specifically through motor neurons to initiate movements in muscles, including those in the arm."
+}

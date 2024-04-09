@@ -1,0 +1,79 @@
+Key: Mercury_7038203
+
+Question: When a finger is cut and bleeds, platelets and plasma proteins move to the cut to stop the bleeding. As these move to the cut, this stimulates more platelets and proteins to move to the cut to stop the bleeding. What type of mechanism is being illustrated?
+Options: ['negative feedback', 'positive feedback', 'regulatory feedback', 'stimulation feedback']
+Answer: positive feedback
+
+Model Response:
+Concepts: [
+    {
+        "name": "Platelets",
+        "description": "Blood cells involved in clotting"
+    },
+    {
+        "name": "Plasma proteins",
+        "description": "Proteins in blood plasma that play a role in clotting"
+    },
+    {
+        "name": "Cut",
+        "description": "A break in the skin or flesh"
+    },
+    {
+        "name": "Bleeding",
+        "description": "Loss of blood"
+    },
+    {
+        "name": "Positive feedback",
+        "description": "A mechanism that amplifies a response"
+    },
+    {
+        "name": "Negative feedback",
+        "description": "A mechanism that reduces a response"
+    },
+    {
+        "name": "Regulatory feedback",
+        "description": "Feedback that maintains homeostasis"
+    },
+    {
+        "name": "Stimulation feedback",
+        "description": "Feedback that increases a specific response"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cut",
+        "relationship": "causes",
+        "related_concept": "Bleeding",
+        "description": "A cut results in bleeding"
+    },
+    {
+        "concept": "Bleeding",
+        "relationship": "triggers",
+        "related_concept": "Platelets",
+        "description": "Bleeding triggers the movement of platelets to the site"
+    },
+    {
+        "concept": "Platelets",
+        "relationship": "stimulate",
+        "related_concept": "Plasma proteins",
+        "description": "Platelets stimulate movement of plasma proteins to the cut"
+    },
+    {
+        "concept": "Platelets",
+        "relationship": "attract",
+        "related_concept": "More platelets",
+        "description": "Platelets attract more platelets to the cut"
+    },
+    {
+        "concept": "Positive feedback",
+        "relationship": "is represented by",
+        "related_concept": "Platelets attracting more platelets",
+        "description": "The mechanism of platelets attracting more platelets represents positive feedback"
+    }
+]
+
+Model Answer: {
+    "answer": "positive feedback",
+    "reasoning": "The mechanism of platelets and plasma proteins moving to the cut and stimulating more platelets and proteins to move to the cut to stop the bleeding represents a positive feedback loop, where the initial response enhances further similar responses, thus amplifying the effect."
+}

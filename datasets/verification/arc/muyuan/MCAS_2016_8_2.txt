@@ -1,0 +1,71 @@
+Key: MCAS_2016_8_2
+
+Question: A company is creating an advertisement for its custom-made guitars. Which of the following statements should be in the advertisement to best emphasize the company's custom production processes?
+Options: ['Our guitars are made using hand tools.', 'We make our guitars to your specifications.', 'We produce and sell thousands of guitars each year.', 'Our guitars are the best quality your money can buy.']
+Answer: We make our guitars to your specifications.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Custom-made Guitars",
+        "description": "Guitars that are tailored to the specific preferences and requirements of an individual."
+    },
+    {
+        "name": "Hand Tools",
+        "description": "Tools operated by hand rather than by a motor or engine, used in the crafting process."
+    },
+    {
+        "name": "Specifications",
+        "description": "Detailed descriptions of design, materials, and requirements used in production."
+    },
+    {
+        "name": "Production Volume",
+        "description": "The total number of units of a product made by a company in a given period."
+    },
+    {
+        "name": "Quality",
+        "description": "The standard of something as measured against other things of a similar kind; the degree of excellence."
+    },
+    {
+        "name": "Custom Production Processes",
+        "description": "The methods and procedures involved in tailoring products to meet individual customer's specific needs."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Custom-made Guitars",
+        "relationship": "are made using",
+        "related_concept": "Hand Tools",
+        "description": "Custom-made guitars can be made using hand tools to achieve a unique craftsmanship quality."
+    },
+    {
+        "concept": "Custom-made Guitars",
+        "relationship": "tailored to",
+        "related_concept": "Specifications",
+        "description": "The production of custom-made guitars involves tailoring them to meet specific customer specifications."
+    },
+    {
+        "concept": "Custom-made Guitars",
+        "relationship": "measured by",
+        "related_concept": "Quality",
+        "description": "The appeal of custom-made guitars often lies in their quality, which is seen as superior to mass-produced counterparts."
+    },
+    {
+        "concept": "Production Volume",
+        "relationship": "does not indicate",
+        "related_concept": "Custom Production Processes",
+        "description": "High production volume is not indicative of custom production processes, which are more tailored and individualized."
+    },
+    {
+        "concept": "Custom Production Processes",
+        "relationship": "emphasized by",
+        "related_concept": "Specifications",
+        "description": "Custom production processes are best emphasized by the ability to make products to customer specifications."
+    }
+]
+
+Model Answer: {
+    "answer": "We make our guitars to your specifications.",
+    "reasoning": "The statement 'We make our guitars to your specifications.' directly emphasizes the company's custom production processes. It highlights the ability to tailor the guitars according to the individual preferences and specifications of the customers, which is a central aspect of custom production. This statement connects the concept of 'Specifications' to 'Custom-made Guitars' and 'Custom Production Processes', illustrating how the production is adapted to meet individual needs, a hallmark of customization."
+}

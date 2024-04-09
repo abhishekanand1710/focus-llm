@@ -1,0 +1,71 @@
+Key: Mercury_7204260
+
+Question: Salivary amylase is an enzyme in the human body that digests carbohydrates from food. When food mixed with saliva enters the stomach, the action of salivary amylase slows dramatically. Which causes salivary amylase enzyme to stop digesting food?
+Options: ['The pH of the stomach is lower than in the mouth.', 'The concentration of food decreases in the stomach.', 'The temperature of the food increases in the stomach.', 'The food is mixed more in the mouth than in the stomach.']
+Answer: The pH of the stomach is lower than in the mouth.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Salivary amylase",
+        "description": "An enzyme that starts the digestion of carbohydrates in the mouth."
+    },
+    {
+        "name": "pH",
+        "description": "Measure of acidity or alkalinity of a solution."
+    },
+    {
+        "name": "Stomach",
+        "description": "An organ in the human body where the breakdown of food continues after it leaves the mouth."
+    },
+    {
+        "name": "Food concentration",
+        "description": "The relative amount of food particles in a given volume."
+    },
+    {
+        "name": "Temperature",
+        "description": "The degree or intensity of heat present in a substance or object."
+    },
+    {
+        "name": "Mixture",
+        "description": "A substance made by mixing other substances together."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Salivary amylase",
+        "relationship": "is affected by",
+        "related_concept": "pH",
+        "description": "The activity of salivary amylase is influenced by the pH of its environment."
+    },
+    {
+        "concept": "Stomach",
+        "relationship": "has a lower",
+        "related_concept": "pH",
+        "description": "The stomach has a lower pH compared to the mouth, making it more acidic."
+    },
+    {
+        "concept": "Stomach",
+        "relationship": "changes",
+        "related_concept": "Food concentration",
+        "description": "Food concentration changes when food enters the stomach due to digestion processes."
+    },
+    {
+        "concept": "Stomach",
+        "relationship": "affects",
+        "related_concept": "Temperature",
+        "description": "The temperature in the stomach might slightly change due to the temperature of ingested food, but remains relatively constant due to body homoeostasis."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "is influenced by",
+        "related_concept": "Mouth and Stomach",
+        "description": "The degree of mixing food occurs differently in the mouth and stomach."
+    }
+]
+
+Model Answer: {
+    "answer": "The pH of the stomach is lower than in the mouth.",
+    "reasoning": "The main reason why salivary amylase stops functioning effectively once food enters the stomach is due to the significantly lower pH in the stomach. Enzymes like salivary amylase are sensitive to pH, and the acidic environment of the stomach denatures the enzyme, rendering it inactive. This relationship between the enzyme's activity and pH, alongside the fact that the stomach's acidic environment is established to aid in digestion but inhibits the process of salivary amylase, provides a clear explanation."
+}

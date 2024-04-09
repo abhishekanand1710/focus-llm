@@ -1,0 +1,61 @@
+Key: NYSEDREGENTS_2006_8_6
+
+Question: Weather forecasts are more accurate today than in the past due to
+Options: ['global warming', 'air-quality control', 'plate tectonics', 'use of images from space']
+Answer: use of images from space
+
+Model Response:
+Concepts: [
+    {
+        "name": "Weather forecasts",
+        "description": "Predictions about future weather conditions."
+    },
+    {
+        "name": "global warming",
+        "description": "The long-term rise in the average temperature of the Earth\u2019s climate system."
+    },
+    {
+        "name": "air-quality control",
+        "description": "The process of monitoring and improving the air quality in different environments."
+    },
+    {
+        "name": "plate tectonics",
+        "description": "A scientific theory that describes the large-scale motion of Earth's lithosphere."
+    },
+    {
+        "name": "use of images from space",
+        "description": "The application of satellite imagery to various fields, including meteorology for weather forecasting."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Weather forecasts",
+        "relationship": "improved by",
+        "related_concept": "use of images from space",
+        "description": "The accuracy of weather forecasts has improved with the use of satellite images."
+    },
+    {
+        "concept": "Weather forecasts",
+        "relationship": "not directly related to",
+        "related_concept": "global warming",
+        "description": "The accuracy of weather forecasts is not directly linked to global warming."
+    },
+    {
+        "concept": "Weather forecasts",
+        "relationship": "not directly related to",
+        "related_concept": "air-quality control",
+        "description": "Air-quality control does not directly impact the accuracy of weather forecasts."
+    },
+    {
+        "concept": "Weather forecasts",
+        "relationship": "not directly related to",
+        "related_concept": "plate tectonics",
+        "description": "Plate tectonics does not have a direct impact on the accuracy of weather forecasts."
+    }
+]
+
+Model Answer: {
+    "answer": "use of images from space",
+    "reasoning": "Among the given options, the use of images from space has directly contributed to the improvement of weather forecasting. Satellite imagery allows for real-time monitoring of weather systems globally, enhancing the ability to predict weather conditions accurately. None of the other options directly affect the accuracy of weather forecasts in the manner that satellite technology does."
+}

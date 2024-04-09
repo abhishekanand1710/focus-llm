@@ -1,0 +1,77 @@
+Key: Mercury_SC_409907
+
+Question: Charisma has a goldfish she keeps in a tank. She planted several underwater plants in the bottom of the tank. How are the goldfish and the plants in the tank similar?
+Options: ['Both add oxygen to the water.', 'Both perform photosynthesis.', 'Both are made up of cells.', 'Both eat food.']
+Answer: Both are made up of cells.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Goldfish",
+        "description": "A common aquatic pet that breathes using gills."
+    },
+    {
+        "name": "Underwater plants",
+        "description": "Plants that grow in water and can perform photosynthesis."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A gas essential for respiration in animals and a product of photosynthesis."
+    },
+    {
+        "name": "Photosynthesis",
+        "description": "A process used by plants to convert light energy into chemical energy, producing oxygen as a byproduct."
+    },
+    {
+        "name": "Cells",
+        "description": "The basic structural, functional, and biological units of all living organisms."
+    },
+    {
+        "name": "Food",
+        "description": "Substances consumed to provide nutritional support for an organism."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Goldfish",
+        "relationship": "breathes",
+        "related_concept": "Oxygen",
+        "description": "Goldfish use oxygen dissolved in water for respiration."
+    },
+    {
+        "concept": "Underwater plants",
+        "relationship": "produces",
+        "related_concept": "Oxygen",
+        "description": "Underwater plants produce oxygen as a byproduct of photosynthesis."
+    },
+    {
+        "concept": "Underwater plants",
+        "relationship": "undergo",
+        "related_concept": "Photosynthesis",
+        "description": "Underwater plants undergo photosynthesis, utilizing light to generate energy."
+    },
+    {
+        "concept": "Goldfish",
+        "relationship": "consists_of",
+        "related_concept": "Cells",
+        "description": "Goldfish are made up of cells."
+    },
+    {
+        "concept": "Underwater plants",
+        "relationship": "consists_of",
+        "related_concept": "Cells",
+        "description": "Underwater plants are made up of cells."
+    },
+    {
+        "concept": "Goldfish",
+        "relationship": "consumes",
+        "related_concept": "Food",
+        "description": "Goldfish consume food for energy."
+    }
+]
+
+Model Answer: {
+    "answer": "Both are made up of cells.",
+    "reasoning": "Both goldfish and underwater plants consist of cells, which are the basic structural, functional, and biological units of all living organisms. This makes them similar at a fundamental biological level. While goldfish breathe oxygen and consume food, and plants perform photosynthesis to produce oxygen, the fact that both entities are composed of cells is a shared characteristic that applies to both options provided in the question."
+}

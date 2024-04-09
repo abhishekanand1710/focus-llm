@@ -1,0 +1,85 @@
+Key: Mercury_SC_401591
+
+Question: Solar cells absorb energy from the sun. In order to use this energy to power household appliances, solar cells must convert the absorbed energy to
+Options: ['heat.', 'light.', 'radiation.', 'electricity.']
+Answer: electricity.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Solar cells",
+        "description": "Devices that convert light energy directly into electrical energy."
+    },
+    {
+        "name": "Energy from the sun",
+        "description": "The solar radiation or sunlight that reaches the Earth."
+    },
+    {
+        "name": "Household appliances",
+        "description": "Devices and machines used in homes to perform various functions, like cooking or cleaning, requiring electricity to operate."
+    },
+    {
+        "name": "Convert",
+        "description": "To change something into a different form or properties."
+    },
+    {
+        "name": "Heat",
+        "description": "The energy transferred between objects that are at different temperatures."
+    },
+    {
+        "name": "Light",
+        "description": "The natural agent that stimulates sight and makes things visible."
+    },
+    {
+        "name": "Radiation",
+        "description": "Emission or transmission of energy in the form of waves or particles."
+    },
+    {
+        "name": "Electricity",
+        "description": "A form of energy resulting from the existence of charged particles such as electrons or protons, either statically as an accumulation of charge or dynamically as a current."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Solar cells",
+        "relationship": "absorb",
+        "related_concept": "Energy from the sun",
+        "description": "Solar cells capture and absorb sunlight."
+    },
+    {
+        "concept": "Solar cells",
+        "relationship": "convert absorbed energy",
+        "related_concept": "Electricity",
+        "description": "Solar cells transform the energy from the sun into electrical energy."
+    },
+    {
+        "concept": "Electricity",
+        "relationship": "powers",
+        "related_concept": "Household appliances",
+        "description": "Electrical energy is used to operate household appliances."
+    },
+    {
+        "concept": "Heat",
+        "relationship": "byproduct",
+        "related_concept": "Convert",
+        "description": "Heat can be a byproduct of energy conversion but is not the primary goal in solar cell energy conversion."
+    },
+    {
+        "concept": "Light",
+        "relationship": "input",
+        "related_concept": "Solar cells",
+        "description": "Light is the input energy for solar cells, not the output."
+    },
+    {
+        "concept": "Radiation",
+        "relationship": "input",
+        "related_concept": "Solar cells",
+        "description": "Radiation is what solar cells absorb and convert, not the output."
+    }
+]
+
+Model Answer: {
+    "answer": "electricity.",
+    "reasoning": "Solar cells are designed to absorb energy from the sun and convert it directly into electricity. This electrical energy is then used to power household appliances. Options such as 'heat', 'light', and 'radiation' represent either forms of energy that solar cells absorb (like light and radiation) or byproducts (such as heat during conversion), not the intended converted output for powering appliances."
+}

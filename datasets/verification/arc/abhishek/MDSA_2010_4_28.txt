@@ -1,0 +1,91 @@
+Key: MDSA_2010_4_28
+
+Question: Some foods that humans eat, such as corn and peas, are actually seeds from plants. What best describes the role of humans in a food web containing these plants?
+Options: ['a consumer', 'a decomposer', 'a producer', 'a scavenger']
+Answer: a consumer
+
+Model Response:
+Concepts: [
+    {
+        "name": "consumer",
+        "description": "An organism that generally obtains food by feeding on other organisms."
+    },
+    {
+        "name": "decomposer",
+        "description": "Organisms, often bacteria or fungi, that break down dead organisms and waste materials into their constituent substances."
+    },
+    {
+        "name": "producer",
+        "description": "An organism, often a green plant or bacterium, that produces its own food through photosynthesis or chemosynthesis, forming the basis of the food chain."
+    },
+    {
+        "name": "scavenger",
+        "description": "An organism that consumes dead animals or plants that were not killed by the scavenger."
+    },
+    {
+        "name": "humans",
+        "description": "A species that consumes various types of food, including plants, animals, fungi, and occasionally detritus."
+    },
+    {
+        "name": "food web",
+        "description": "A complex network of interrelated food chains in an ecological community."
+    },
+    {
+        "name": "corn",
+        "description": "A type of plant that produces seeds (kernels) consumed by humans and animals."
+    },
+    {
+        "name": "peas",
+        "description": "A type of plant that produces seeds consumed by humans and animals."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "humans",
+        "relationship": "consume",
+        "related_concept": "corn",
+        "description": "Humans eat corn, which is a seed of a plant."
+    },
+    {
+        "concept": "humans",
+        "relationship": "consume",
+        "related_concept": "peas",
+        "description": "Humans eat peas, which are seeds of a plant."
+    },
+    {
+        "concept": "corn",
+        "relationship": "part_of",
+        "related_concept": "food web",
+        "description": "Corn represents a producer in a food web, serving as food for consumers."
+    },
+    {
+        "concept": "peas",
+        "relationship": "part_of",
+        "related_concept": "food web",
+        "description": "Peas represent a producer in a food web, serving as food for consumers."
+    },
+    {
+        "concept": "humans",
+        "relationship": "role_in",
+        "related_concept": "food web",
+        "description": "Humans act as consumers in food webs by eating plants or animals."
+    },
+    {
+        "concept": "producer",
+        "relationship": "is",
+        "related_concept": "corn",
+        "description": "Corn is a type of producer in the ecological sense, providing energy for consumers."
+    },
+    {
+        "concept": "producer",
+        "relationship": "is",
+        "related_concept": "peas",
+        "description": "Peas are a type of producer providing energy for consumers."
+    }
+]
+
+Model Answer: {
+    "answer": "a consumer",
+    "reasoning": "Humans consume both corn and peas, which are seeds from plants, making them consumers in the food web. As consumers, they rely on producers (such as corn and peas) for nourishment, rather than producing energy themselves (like producers) or breaking down dead organic material (like decomposers). Scavengers consume dead animals or plants, which does not directly apply to the consumption of living plant seeds by humans."
+}

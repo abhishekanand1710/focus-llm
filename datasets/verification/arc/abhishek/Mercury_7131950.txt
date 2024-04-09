@@ -1,0 +1,65 @@
+Key: Mercury_7131950
+
+Question: Emily made a chart that included physical changes and chemical changes. Which change should be categorized as a chemical change?
+Options: ['iron becomes rusty', 'a gold bar is melted', 'lake water evaporates', 'a granite rock is polished']
+Answer: iron becomes rusty
+
+Model Response:
+Concepts: [
+    {
+        "name": "Physical Change",
+        "description": "A change in which the form or appearance changes, but the substance remains the same."
+    },
+    {
+        "name": "Chemical Change",
+        "description": "A change that results in the formation of one or more new substances."
+    },
+    {
+        "name": "Iron becoming rusty",
+        "description": "Iron reacts with oxygen and water to form rust, altering its chemical composition."
+    },
+    {
+        "name": "Melting a gold bar",
+        "description": "Gold changes from solid to liquid form but remains gold."
+    },
+    {
+        "name": "Lake water evaporates",
+        "description": "Water changes from liquid to gas without altering its chemical composition."
+    },
+    {
+        "name": "Polishing a granite rock",
+        "description": "The physical appearance of granite changes, but its chemical composition remains the same."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Iron becoming rusty",
+        "relationship": "is an example of",
+        "related_concept": "Chemical Change",
+        "description": "Rust formation is a chemical process where iron reacts with oxygen."
+    },
+    {
+        "concept": "Melting a gold bar",
+        "relationship": "is an example of",
+        "related_concept": "Physical Change",
+        "description": "Melting gold changes its state but not its chemical identity."
+    },
+    {
+        "concept": "Lake water evaporates",
+        "relationship": "is an example of",
+        "related_concept": "Physical Change",
+        "description": "Evaporation of water is a physical process that changes water's state."
+    },
+    {
+        "concept": "Polishing a granite rock",
+        "relationship": "is an example of",
+        "related_concept": "Physical Change",
+        "description": "Polishing granite changes its surface appearance without altering its composition."
+    }
+]
+
+Model Answer: {
+    "answer": "iron becomes rusty",
+    "reasoning": "Iron becoming rusty is a chemical change because it involves the reaction of iron with oxygen and water to form a new substance, rust. This is distinct from the other options, which are examples of physical changes where the substances involved do not change their chemical composition but only their physical form or appearance."
+}

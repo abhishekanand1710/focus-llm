@@ -1,0 +1,75 @@
+Key: MCAS_2005_9_19
+
+Question: A student is standing on a skateboard that is not moving. The total mass of the student and the skateboard is 50 kilograms. The student throws a ball with a mass of 2 kilograms forward at 5 m/s. Assuming the skateboard wheels are frictionless, how will the student and the skateboard move?
+Options: ['forward at 0.4 m/s', 'forward at 5 m/s', 'backward at 0.2 m/s', 'backward at 5 m/s']
+Answer: backward at 5 m/s
+
+Model Response:
+Concepts: [
+    {
+        "name": "Conservation of Momentum",
+        "description": "The total momentum of a closed system is conserved when not acted upon by external forces."
+    },
+    {
+        "name": "Momentum",
+        "description": "The quantity of motion of a moving body, measured as a product of its mass and velocity."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object."
+    },
+    {
+        "name": "Velocity",
+        "description": "The speed of something in a given direction."
+    },
+    {
+        "name": "Frictionless",
+        "description": "Without friction; surfaces can move freely past each other."
+    },
+    {
+        "name": "System",
+        "description": "A set of interacting or interdependent components forming an integrated whole."
+    },
+    {
+        "name": "External Forces",
+        "description": "Forces that act on an object as a result of its interaction with the environment outside the system."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Conservation of Momentum",
+        "relationship": "applies to",
+        "related_concept": "System",
+        "description": "The principle of conservation of momentum applies to the closed system of the student, skateboard, and ball."
+    },
+    {
+        "concept": "Momentum",
+        "relationship": "is product of",
+        "related_concept": "Mass",
+        "description": "Momentum of an object is calculated by multiplying its mass by its velocity."
+    },
+    {
+        "concept": "Momentum",
+        "relationship": "is product of",
+        "related_concept": "Velocity",
+        "description": "Momentum of an object is calculated by multiplying its velocity by its mass."
+    },
+    {
+        "concept": "Frictionless",
+        "relationship": "enables",
+        "related_concept": "Conservation of Momentum",
+        "description": "Frictionless surfaces allow for the conservation of momentum within the system as external forces are minimal."
+    },
+    {
+        "concept": "External Forces",
+        "relationship": "are absent in",
+        "related_concept": "Frictionless",
+        "description": "In a frictionless scenario, external forces like friction do not play a role."
+    }
+]
+
+Model Answer: {
+    "answer": "backward at 0.2 m/s",
+    "reasoning": "Given the conservation of momentum and the absence of external forces (due to frictionless wheels), the momentum before and after throwing the ball must be equal. Initially, the system is at rest, so its total momentum is 0. When the student throws the ball forward at 5 m/s, the momentum of the ball is (2 kg)(5 m/s) = 10 kg*m/s forward. For momentum to be conserved, the student and skateboard must move backward with equal momentum but in the opposite direction. Since the total mass of the student and skateboard is 50 kg, to achieve a momentum of -10 kg*m/s, their velocity must be (momentum) / (mass) = (-10 kg*m/s) / (50 kg) = -0.2 m/s. Therefore, the student and skateboard move backward at 0.2 m/s."
+}

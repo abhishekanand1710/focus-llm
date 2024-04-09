@@ -1,0 +1,75 @@
+Key: Mercury_7188930
+
+Question: The heart is the major organ of the circulatory system. Which part of the body is responsible for delivering de-oxygenated blood to the heart?
+Options: ['arteries', 'capillaries', 'valves', 'veins']
+Answer: veins
+
+Model Response:
+Concepts: [
+    {
+        "name": "heart",
+        "description": "A muscular organ that pumps blood through the circulatory system."
+    },
+    {
+        "name": "circulatory system",
+        "description": "The system in the body by which blood and lymph are circulated."
+    },
+    {
+        "name": "de-oxygenated blood",
+        "description": "Blood carrying less oxygen and more carbon dioxide, returning to the heart."
+    },
+    {
+        "name": "arteries",
+        "description": "Blood vessels that carry blood away from the heart."
+    },
+    {
+        "name": "capillaries",
+        "description": "Small blood vessels where gas exchange occurs."
+    },
+    {
+        "name": "valves",
+        "description": "Structures in the heart and veins that regulate the flow of blood."
+    },
+    {
+        "name": "veins",
+        "description": "Blood vessels that carry blood towards the heart."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "heart",
+        "relationship": "is the major organ of",
+        "related_concept": "circulatory system",
+        "description": "The heart is the central component of the circulatory system."
+    },
+    {
+        "concept": "de-oxygenated blood",
+        "relationship": "is carried by",
+        "related_concept": "veins",
+        "description": "Veins are responsible for carrying de-oxygenated blood back to the heart."
+    },
+    {
+        "concept": "arteries",
+        "relationship": "carry blood",
+        "related_concept": "away from the heart",
+        "description": "Arteries transport oxygenated blood from the heart to the rest of the body."
+    },
+    {
+        "concept": "valves",
+        "relationship": "regulate blood flow",
+        "related_concept": "in the heart and veins",
+        "description": "Valves ensure blood flows in the correct direction within the heart and veins."
+    },
+    {
+        "concept": "capillaries",
+        "relationship": "connect",
+        "related_concept": "arteries and veins",
+        "description": "Capillaries serve as the exchange sites between arteries and veins."
+    }
+]
+
+Model Answer: {
+    "answer": "veins",
+    "reasoning": "Veins are identified as the blood vessels responsible for carrying de-oxygenated blood back to the heart, which directly addresses the query regarding which part of the body is accountable for delivering de-oxygenated blood to the heart. This function contrasts with arteries, which carry oxygenated blood away from the heart, capillaries, which serve as sites of gas exchange, and valves, which regulate blood flow."
+}

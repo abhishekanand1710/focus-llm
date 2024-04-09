@@ -1,0 +1,57 @@
+Key: Mercury_7271285
+
+Question: Which of these is the main function of the vomiting reflex?
+Options: ['to rid the body of wastes', 'to expel food that has no nutritional value', 'to empty the stomach when it has too much food in it', 'to remove toxic material from the stomach before it is absorbed']
+Answer: to remove toxic material from the stomach before it is absorbed
+
+Model Response:
+Concepts: [
+    {
+        "name": "vomiting reflex",
+        "description": "a protective mechanism of the body to remove harmful substances"
+    },
+    {
+        "name": "toxic material",
+        "description": "substances that can cause harm to the body"
+    },
+    {
+        "name": "stomach",
+        "description": "a digestive organ where food is broken down"
+    },
+    {
+        "name": "absorption",
+        "description": "the process by which substances are taken up into the bloodstream"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "vomiting reflex",
+        "relationship": "activated by",
+        "related_concept": "toxic material",
+        "description": "The vomiting reflex is triggered by the presence of toxic materials."
+    },
+    {
+        "concept": "toxic material",
+        "relationship": "located in",
+        "related_concept": "stomach",
+        "description": "Toxic materials can be present in the stomach and pose a threat to health."
+    },
+    {
+        "concept": "stomach",
+        "relationship": "site for",
+        "related_concept": "absorption",
+        "description": "The stomach is a primary site where substances start to be absorbed into the bloodstream."
+    },
+    {
+        "concept": "vomiting reflex",
+        "relationship": "prevents",
+        "related_concept": "absorption of toxic material",
+        "description": "The vomiting reflex acts to prevent the absorption of toxic materials into the bloodstream."
+    }
+]
+
+Model Answer: {
+    "answer": "to remove toxic material from the stomach before it is absorbed",
+    "reasoning": "The main function of the vomiting reflex is to protect the body by expelling toxic substances from the stomach before they can be absorbed into the bloodstream. This is achieved by the reflex's ability to identify and respond to the presence of harmful substances in the stomach, thus preventing potential damage to the body by stopping their absorption."
+}

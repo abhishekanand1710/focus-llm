@@ -1,0 +1,57 @@
+Key: Mercury_7069458
+
+Question: Which of these will reduce the gravitational force between two objects the most?
+Options: ['halving the distance between them', 'doubling the distance between them', 'halving the distance between them and doubling their mass', 'doubling the distance between them and halving their mass']
+Answer: doubling the distance between them and halving their mass
+
+Model Response:
+Concepts: [
+    {
+        "name": "Gravitational Force",
+        "description": "The force that attracts two bodies towards each other, proportional to the product of their masses and inversely proportional to the square of the distance between them"
+    },
+    {
+        "name": "Distance Between Objects",
+        "description": "The space or interval between two objects"
+    },
+    {
+        "name": "Mass of Objects",
+        "description": "The quantity of matter which a body contains"
+    },
+    {
+        "name": "Inverse Square Law",
+        "description": "A physical law stating that a specified physical quantity or intensity is inversely proportional to the square of the distance from the source of that physical quantity"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Gravitational Force",
+        "relationship": "is inversely proportional to",
+        "related_concept": "Distance Between Objects",
+        "description": "Increasing the distance between two objects decreases the gravitational force between them"
+    },
+    {
+        "concept": "Gravitational Force",
+        "relationship": "is directly proportional to",
+        "related_concept": "Mass of Objects",
+        "description": "Increasing the mass of any one or both objects increases the gravitational force between them"
+    },
+    {
+        "concept": "Distance Between Objects",
+        "relationship": "is subject to",
+        "related_concept": "Inverse Square Law",
+        "description": "The effect of doubling or halving the distance significantly affects the gravitational force due to the inverse square law"
+    },
+    {
+        "concept": "Mass of Objects",
+        "relationship": "affects",
+        "related_concept": "Gravitational Force",
+        "description": "Changes in mass of the objects have a linear effect on gravitational force"
+    }
+]
+
+Model Answer: {
+    "answer": "doubling the distance between them and halving their mass",
+    "reasoning": "According to the inverse square law, doubling the distance between two objects reduces the gravitational force between them by a factor of four. Halving the mass of both objects further reduces the gravitational force by half. This combination of increasing the distance and reducing the mass will result in the greatest reduction of the gravitational force between the two objects compared to the other options."
+}

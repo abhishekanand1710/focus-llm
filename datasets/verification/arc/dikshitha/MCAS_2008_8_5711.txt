@@ -1,0 +1,57 @@
+Key: MCAS_2008_8_5711
+
+Question: Tobias rode his bike on a road for a 2 hr period. On average, he passed a 1 km marker every 3 min during this period. Which of the following was his average speed for this 2 hr period?
+Options: ['10 km/hr', '15 km/hr', '20 km/hr', '25 km/hr']
+Answer: 20 km/hr
+
+Model Response:
+Concepts: [
+    {
+        "name": "Bike riding",
+        "description": "The act of moving on a bike, propelled by human effort"
+    },
+    {
+        "name": "Time duration",
+        "description": "A specific period during which an activity takes place"
+    },
+    {
+        "name": "Kilometer marker",
+        "description": "A physical or conceptual marker indicating a kilometer has been traveled"
+    },
+    {
+        "name": "Average speed",
+        "description": "The total distance traveled divided by the total time taken"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Bike riding",
+        "relationship": "measured by",
+        "related_concept": "Time duration",
+        "description": "The bike riding activity is bounded and measured in terms of time duration, in this case, 2 hours"
+    },
+    {
+        "concept": "Bike riding",
+        "relationship": "results in",
+        "related_concept": "Kilometer marker",
+        "description": "As a result of bike riding, Tobias passes kilometer markers"
+    },
+    {
+        "concept": "Kilometer marker",
+        "relationship": "passed every",
+        "related_concept": "Time duration",
+        "description": "Tobias passes a kilometer marker at intervals of a specific time duration, specifically every 3 minutes"
+    },
+    {
+        "concept": "Kilometer marker",
+        "relationship": "used to calculate",
+        "related_concept": "Average speed",
+        "description": "The frequency and intervals at which kilometer markers are passed are used to calculate the average speed of Tobias' bike riding"
+    }
+]
+
+Model Answer: {
+    "answer": "20 km/hr",
+    "reasoning": "If Tobias passes a 1 km marker every 3 minutes, then in 60 minutes (1 hour), he passes 20 markers (since 60 divided by 3 equals 20). Therefore, Tobias travels 20 kilometers every hour, making his average speed 20 km/hr."
+}

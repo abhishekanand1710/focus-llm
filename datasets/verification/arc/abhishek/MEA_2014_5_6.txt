@@ -1,0 +1,81 @@
+Key: MEA_2014_5_6
+
+Question: Two flowers are both roses. One rose is larger and has more fragrance than the other rose. What advantage will one of the roses most likely gain because of this difference?
+Options: ['The larger rose will have fewer petals than the smaller rose.', 'The larger rose will more easily attract bees than the smaller rose.', 'The smaller rose will have more pollen than the larger rose.', 'The smaller rose will grow faster than the larger rose.']
+Answer: The larger rose will more easily attract bees than the smaller rose.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rose flower",
+        "description": "A type of flowering plant in the genus Rosa, in the family Rosaceae"
+    },
+    {
+        "name": "Size",
+        "description": "The physical dimension or magnitude of an object"
+    },
+    {
+        "name": "Fragrance",
+        "description": "The quality of having a pleasant or attractive scent"
+    },
+    {
+        "name": "Bees",
+        "description": "Flying insects closely related to wasps and ants, known for their role in pollination"
+    },
+    {
+        "name": "Petals",
+        "description": "The colorful parts of a flower that are often aromatic and attract pollinators"
+    },
+    {
+        "name": "Pollen",
+        "description": "Fine to coarse powdery substance comprising pollen grains which are male gametophytes of seed plants"
+    },
+    {
+        "name": "Pollination",
+        "description": "The transfer of pollen from a male part of a plant to a female part of a plant, enabling fertilization and reproduction"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rose flower",
+        "relationship": "has attribute",
+        "related_concept": "Size",
+        "description": "Rose flowers can vary in size"
+    },
+    {
+        "concept": "Rose flower",
+        "relationship": "has attribute",
+        "related_concept": "Fragrance",
+        "description": "Rose flowers can have varying levels of fragrance"
+    },
+    {
+        "concept": "Size",
+        "relationship": "affects",
+        "related_concept": "Petals",
+        "description": "The size of a rose may influence the number of petals it has, though not specified in this context"
+    },
+    {
+        "concept": "Fragrance",
+        "relationship": "attracts",
+        "related_concept": "Bees",
+        "description": "Stronger fragrance in flowers can more effectively attract bees"
+    },
+    {
+        "concept": "Bees",
+        "relationship": "facilitate",
+        "related_concept": "Pollination",
+        "description": "Bees play a crucial role in the pollination of flowers"
+    },
+    {
+        "concept": "Pollen",
+        "relationship": "is required for",
+        "related_concept": "Pollination",
+        "description": "Pollen is essential for the process of pollination"
+    }
+]
+
+Model Answer: {
+    "answer": "The larger rose will more easily attract bees than the smaller rose.",
+    "reasoning": "Given that one rose is larger and emits more fragrance than the other, it is likely to have an advantage in attracting bees due to its strong scent and possibly greater visual presence. Bees are attracted to flowers by both their appearance and their fragrance, as these insects play a significant role in the process of pollination. Since the larger rose has a stronger fragrance, it will more effectively allure bees for the purpose of pollination compared to the smaller, less fragrant rose."
+}

@@ -1,0 +1,75 @@
+Key: CSZ_2004_5_CSZ10003
+
+Question: Which of the following questions is testable in a scientific investigation?
+Options: ['Are dogs better pets than cats?.', 'Are dogs happy when they are walked?.', 'Are cats more active at night than during the day?.', 'Are cats easier to take care of than dogs?.']
+Answer: Are cats more active at night than during the day?.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Scientific Investigation",
+        "description": "A methodical process to study the natural world and propose explanations based on evidence gathered through experimentation and observation."
+    },
+    {
+        "name": "Testable Question",
+        "description": "A question that can be answered through empirical evidence obtained by direct observation or experimentation."
+    },
+    {
+        "name": "Dogs",
+        "description": "A domesticated carnivorous mammal (Canis familiaris) known for its loyalty and ability to be trained."
+    },
+    {
+        "name": "Cats",
+        "description": "A small domesticated carnivorous mammal (Felis catus) with soft fur, a short snout, and retractile claws."
+    },
+    {
+        "name": "Happiness in Dogs",
+        "description": "A state of well-being in dogs often observed through physical and behavioral signs."
+    },
+    {
+        "name": "Cats' Activity Patterns",
+        "description": "The behavioral patterns of cats related to their periods of activity and rest."
+    },
+    {
+        "name": "Pet Care",
+        "description": "The process of maintaining the health and well-being of domesticated animals by providing for their needs."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Scientific Investigation",
+        "relationship": "requires",
+        "related_concept": "Testable Question",
+        "description": "Scientific investigations begin with formulating a question that can be tested through empirical evidence."
+    },
+    {
+        "concept": "Testable Question",
+        "relationship": "related to",
+        "related_concept": "Happiness in Dogs",
+        "description": "Questions about the happiness of dogs can sometimes be tested through observation and experimentation."
+    },
+    {
+        "concept": "Testable Question",
+        "relationship": "related to",
+        "related_concept": "Cats' Activity Patterns",
+        "description": "Questions about cats' activity patterns can be tested by observing and recording their behavior during different times of the day."
+    },
+    {
+        "concept": "Dogs",
+        "relationship": "subject of",
+        "related_concept": "Pet Care",
+        "description": "Dogs require specific care practices for their health and well-being."
+    },
+    {
+        "concept": "Cats",
+        "relationship": "subject of",
+        "related_concept": "Pet Care",
+        "description": "Cats have different needs and thus require different care practices compared to dogs."
+    }
+]
+
+Model Answer: {
+    "answer": "Are cats more active at night than during the day?.",
+    "reasoning": "The question about whether cats are more active at night than during the day is testable through scientific investigation. This can be empirically tested by observing and recording the activity levels of cats during different times over a period. Unlike the other options, which involve subjective judgments or cannot be directly measured, the activity patterns of cats can be objectively measured, making it a suitable question for scientific investigation."
+}

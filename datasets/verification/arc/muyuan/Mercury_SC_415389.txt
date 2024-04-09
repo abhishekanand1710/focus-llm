@@ -1,0 +1,57 @@
+Key: Mercury_SC_415389
+
+Question: Which is true about the Sun and Earth?
+Options: ['Earth gives light and heat energy to the Sun.', 'Earth gives only heat energy to the Sun.', 'The Sun gives light and heat energy to Earth.', 'The Sun gives only light energy to Earth.']
+Answer: The Sun gives light and heat energy to Earth.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sun",
+        "description": "A star at the center of the Solar System that provides light and heat to the planets orbiting it."
+    },
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun, hosting diverse ecosystems and life, including humans."
+    },
+    {
+        "name": "Light Energy",
+        "description": "A form of energy visible to the human eye emanating from the Sun, illuminating the Earth."
+    },
+    {
+        "name": "Heat Energy",
+        "description": "Energy transferred from a warmer object to a cooler one, in this context, from the Sun to the Earth."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sun",
+        "relationship": "provides",
+        "related_concept": "Light Energy",
+        "description": "The Sun emits light energy that reaches the Earth, enabling visibility and photosynthesis."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "provides",
+        "related_concept": "Heat Energy",
+        "description": "The Sun releases heat energy, warming the Earth's surface and atmosphere."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "receives",
+        "related_concept": "Light Energy",
+        "description": "The Earth receives light energy from the Sun, which is crucial for life and climate."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "receives",
+        "related_concept": "Heat Energy",
+        "description": "The Earth absorbs heat energy from the Sun, influencing its climate and weather patterns."
+    }
+]
+
+Model Answer: {
+    "answer": "The Sun gives light and heat energy to Earth.",
+    "reasoning": "The Sun serves as the primary source of both light and heat energy for the Solar System, including the Earth. This solar energy supports life on Earth, drives the planet's weather and climate systems, and is fundamental to the Earth's natural processes. The Earth does not supply the Sun with either light or heat energy; instead, it receives these forms of energy from the Sun."
+}

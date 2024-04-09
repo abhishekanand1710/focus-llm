@@ -1,0 +1,71 @@
+Key: Mercury_7094010
+
+Question: Robots can perform tasks that are dangerous for humans. What is the MAJOR limitation to the use of robots?
+Options: ['The assembly pieces must be very small.', 'The assembly process must remain exactly the same.', 'Robots require regular maintenance.', 'Robots must be provided with electricity.']
+Answer: The assembly process must remain exactly the same.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Robotics",
+        "description": "The field concerned with the creation and use of robots."
+    },
+    {
+        "name": "Dangerous Tasks",
+        "description": "Tasks that pose a risk to human health or life."
+    },
+    {
+        "name": "Regular Maintenance",
+        "description": "The routine check-ups and repairs necessary to keep machines operating efficiently."
+    },
+    {
+        "name": "Electricity Requirement",
+        "description": "The need for an electrical power source to operate machinery."
+    },
+    {
+        "name": "Assembly Process",
+        "description": "The method or procedure for constructing products from individual parts."
+    },
+    {
+        "name": "Assembly Pieces Size",
+        "description": "Refers to the dimensions of the parts required for assembly."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Robotics",
+        "relationship": "used_for",
+        "related_concept": "Dangerous Tasks",
+        "description": "Robots are used to perform tasks that are dangerous for humans."
+    },
+    {
+        "concept": "Robotics",
+        "relationship": "requires",
+        "related_concept": "Regular Maintenance",
+        "description": "Robots need regular maintenance to function properly."
+    },
+    {
+        "concept": "Robotics",
+        "relationship": "requires",
+        "related_concept": "Electricity Requirement",
+        "description": "Robots require electricity to operate."
+    },
+    {
+        "concept": "Assembly Process",
+        "relationship": "involves",
+        "related_concept": "Assembly Pieces Size",
+        "description": "The assembly process concerns itself with how parts, regardless of their size, are put together."
+    },
+    {
+        "concept": "Robotics",
+        "relationship": "performs",
+        "related_concept": "Assembly Process",
+        "description": "Robots can be used to perform the assembly process."
+    }
+]
+
+Model Answer: {
+    "answer": "Robots require regular maintenance.",
+    "reasoning": "Among the listed options, the major limitation for the use of robots is that they require regular maintenance. This is because, despite the capability to perform hazardous tasks and the necessity for electricity, the ongoing need for maintenance impacts both the operational readiness and the lifetime cost of employing robots. This entails consistent checkups and potentially costly repairs to ensure functionality, efficiency, and safety, which significantly affects the practical and financial feasibility of using robots broadly. The assembly pieces size and whether the assembly process must remain the same, while relevant, are not as broadly limiting because robots can be designed or programmed for different sizes and adaptable to varying processes; however, overcoming or minimizing the maintenance requirement poses a more complex challenge."
+}

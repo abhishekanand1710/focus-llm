@@ -1,0 +1,73 @@
+Key: Mercury_7263148
+
+Question: Inside cells, special molecules carry messages from the membrane to the nucleus. Which body system uses a similar process?
+Options: ['endocrine system', 'lymphatic system', 'excretory system', 'integumentary system']
+Answer: endocrine system
+
+Model Response:
+Concepts: [
+    {
+        "name": "cells",
+        "description": "Basic building blocks of living organisms responsible for vital functions."
+    },
+    {
+        "name": "special molecules",
+        "description": "Molecules within cells that have specific functions, including signal transduction."
+    },
+    {
+        "name": "membrane",
+        "description": "The outer layer of a cell that controls the movement of substances in and out."
+    },
+    {
+        "name": "nucleus",
+        "description": "A membrane-bound organelle within a cell that contains DNA and controls cellular activities."
+    },
+    {
+        "name": "endocrine system",
+        "description": "A network of glands that produce and release hormones into the bloodstream to control bodily functions."
+    },
+    {
+        "name": "lymphatic system",
+        "description": "A network of tissues and organs that help rid the body of toxins and waste, providing immune support."
+    },
+    {
+        "name": "excretory system",
+        "description": "The system responsible for the removal of waste products from the body."
+    },
+    {
+        "name": "integumentary system",
+        "description": "The system comprising the skin and its appendages, acting primarily as a barrier to the external environment."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "cells",
+        "relationship": "contain",
+        "related_concept": "special molecules",
+        "description": "Cells contain special molecules that perform various functions, including communication."
+    },
+    {
+        "concept": "special molecules",
+        "relationship": "transmit signals",
+        "related_concept": "nucleus",
+        "description": "Special molecules inside cells carry messages from the membrane to the nucleus."
+    },
+    {
+        "concept": "endocrine system",
+        "relationship": "uses",
+        "related_concept": "special molecules",
+        "description": "The endocrine system uses hormones, a type of special molecule, to transmit messages throughout the body."
+    },
+    {
+        "concept": "membrane to nucleus messaging",
+        "relationship": "analogous to",
+        "related_concept": "endocrine signaling",
+        "description": "The process of messaging from the cell membrane to the nucleus is analogous to how the endocrine system uses hormones to signal across the body."
+    }
+]
+
+Model Answer: {
+    "answer": "endocrine system",
+    "reasoning": "The endocrine system mirrors the cellular process of signal transmission from the cell membrane to the nucleus through its use of hormones. Hormones act as special molecules that carry messages through the bloodstream to various parts of the body, including targeting specific genes within the nucleus of cells, to control and regulate bodily functions. This is analogous to the described intracellular signaling process, making the endocrine system the correct answer."
+}

@@ -1,0 +1,73 @@
+Key: ACTAAP_2014_7_14
+
+Question: Which process in plants is most similar to sexual reproduction in vertebrates?
+Options: ['cell division', 'self-pollination', 'cross-pollination', 'seed development']
+Answer: cross-pollination
+
+Model Response:
+Concepts: [
+    {
+        "name": "cell division",
+        "description": "A biological process where a cell divides into two or more cells."
+    },
+    {
+        "name": "self-pollination",
+        "description": "A process in plants where pollen from one flower pollinates the same flower or other flowers of the same plant."
+    },
+    {
+        "name": "cross-pollination",
+        "description": "The transfer of pollen from the flower of one plant to the flower of another plant of the same species."
+    },
+    {
+        "name": "seed development",
+        "description": "The process by which a plant produces seeds, following fertilization in flowering plants."
+    },
+    {
+        "name": "sexual reproduction in vertebrates",
+        "description": "A biological process involving the combination of genetic material from two parents to produce offspring."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "cell division",
+        "relationship": "is part of",
+        "related_concept": "sexual reproduction in vertebrates",
+        "description": "Cell division is a key process within the broader mechanism of sexual reproduction in vertebrates."
+    },
+    {
+        "concept": "self-pollination",
+        "relationship": "is a type of",
+        "related_concept": "seed development",
+        "description": "Self-pollination is one way to initiate seed development in plants."
+    },
+    {
+        "concept": "cross-pollination",
+        "relationship": "is a type of",
+        "related_concept": "seed development",
+        "description": "Cross-pollination is another method to begin the process of seed development, involving two different plants."
+    },
+    {
+        "concept": "seed development",
+        "relationship": "results from",
+        "related_concept": "cross-pollination",
+        "description": "Seed development in many plants occurs as a result of cross-pollination."
+    },
+    {
+        "concept": "seed development",
+        "relationship": "is part of",
+        "related_concept": "sexual reproduction in vertebrates",
+        "description": "Seed development in plants can be analogously related to sexual reproduction in vertebrates due to the genetic diversity it introduces."
+    },
+    {
+        "concept": "cross-pollination",
+        "relationship": "is analogous to",
+        "related_concept": "sexual reproduction in vertebrates",
+        "description": "Cross-pollination in plants is most similar to sexual reproduction in vertebrates because it involves the exchange of genetic material between two individuals."
+    }
+]
+
+Model Answer: {
+    "answer": "cross-pollination",
+    "reasoning": "Cross-pollination is the process in plants that is most similar to sexual reproduction in vertebrates because it involves the transfer of genetic material between two different individuals, leading to offspring (in this case, seeds) that have genetic contributions from two parents. This is analogous to sexual reproduction in vertebrates, where genetic material from two parents is combined to produce genetically unique offspring."
+}

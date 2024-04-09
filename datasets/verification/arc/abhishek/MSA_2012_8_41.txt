@@ -1,0 +1,63 @@
+Key: MSA_2012_8_41
+
+Question: The Periodic Table of the Elements is arranged so that elements with similar characteristics are in the same column. Which element is a highly reactive metal?
+Options: ['chlorine (Cl)', 'helium (He)', 'magnesium (Mg)', 'silver (Ag)']
+Answer: magnesium (Mg)
+
+Model Response:
+Concepts: [
+    {
+        "name": "Periodic Table of the Elements",
+        "description": "A table that organizes chemical elements based on their atomic number, electron configurations, and recurring chemical properties."
+    },
+    {
+        "name": "Reactivity",
+        "description": "A measure of how readily a substance undergoes a chemical reaction with other materials."
+    },
+    {
+        "name": "Metal",
+        "description": "A class of elements that are typically shiny, malleable, and good conductors of electricity and heat."
+    },
+    {
+        "name": "Chlorine (Cl)",
+        "description": "A highly reactive, yellow-green gas at room temperature, belonging to the halogen group on the Periodic Table."
+    },
+    {
+        "name": "Helium (He)",
+        "description": "A colorless, odorless, tasteless, non-toxic, inert, monatomic gas that heads the noble gas series in the periodic table."
+    },
+    {
+        "name": "Magnesium (Mg)",
+        "description": "A shiny gray solid, known for its lightness and high reactivity; it belongs to the alkali earth metals in the periodic table."
+    },
+    {
+        "name": "Silver (Ag)",
+        "description": "A soft, white, lustrous transition metal, it exhibits the highest electrical conductivity, thermal conductivity, and reflectivity of any metal."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Periodic Table of the Elements",
+        "relationship": "organizes",
+        "related_concept": "Metal",
+        "description": "Metals are organized in specific columns/groups in the Periodic Table based on their properties."
+    },
+    {
+        "concept": "Metal",
+        "relationship": "includes",
+        "related_concept": "Magnesium (Mg)",
+        "description": "Magnesium is classified as a metal within the Periodic Table."
+    },
+    {
+        "concept": "Reactivity",
+        "relationship": "characteristic_of",
+        "related_concept": "Magnesium (Mg)",
+        "description": "Magnesium is known for its high reactivity, especially among the metals."
+    }
+]
+
+Model Answer: {
+    "answer": "magnesium (Mg)",
+    "reasoning": "Among the options provided, magnesium (Mg) is the only element that fits the description of being a 'highly reactive metal.' Chlorine is a highly reactive nonmetal; helium is a noble gas with very low reactivity; and silver, while a metal, is not highly reactive. Therefore, based on its classification in the Periodic Table and its known high reactivity, magnesium (Mg) is the correct answer."
+}

@@ -1,0 +1,51 @@
+Key: Mercury_7124180
+
+Question: Which is the most reliable way to get unbiased results when conducting a controlled experiment?
+Options: ['Use more than one control group.', 'Try a different experimental group.', 'Change the hypothesis if it is incorrect.', 'Repeat the procedure exactly the same each time.']
+Answer: Repeat the procedure exactly the same each time.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Control Group",
+        "description": "A group in an experiment that does not receive the treatment and is used as a benchmark to measure how the other tested subjects do."
+    },
+    {
+        "name": "Experimental Group",
+        "description": "A group in an experiment that receives the treatment that is being tested."
+    },
+    {
+        "name": "Hypothesis",
+        "description": "A proposed explanation made on the basis of limited evidence as a starting point for further investigation."
+    },
+    {
+        "name": "Repeated Measures",
+        "description": "A methodological technique where the same elements are measured multiple times under different conditions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Control Group",
+        "relationship": "compared_to",
+        "related_concept": "Experimental Group",
+        "description": "The control group's results are compared to the experimental group's to measure the effect of the treatment."
+    },
+    {
+        "concept": "Hypothesis",
+        "relationship": "guides",
+        "related_concept": "Experimental Design",
+        "description": "The hypothesis guides the design of the experiment, including the selection of control and experimental groups."
+    },
+    {
+        "concept": "Repeated Measures",
+        "relationship": "increase_reliability",
+        "related_concept": "Experimental Results",
+        "description": "Repeating the procedure exactly the same each time increases the reliability of the experimental results."
+    }
+]
+
+Model Answer: {
+    "answer": "Repeat the procedure exactly the same each time.",
+    "reasoning": "Repeating an experiment in exactly the same way each time is the most reliable method to ensure unbiased results. It increases the validity and reliability of the results. By performing the experiment multiple times under the same conditions, researchers can minimize variability and confirm the accuracy of their results. This method is supported by the relationship between 'Repeated Measures' and 'Experimental Results', highlighting how repetition increases the reliability of results as discrepancies can be identified and addressed, ensuring the results are due to the variables being tested and not external factors."
+}

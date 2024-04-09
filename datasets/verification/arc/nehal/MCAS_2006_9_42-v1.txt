@@ -1,0 +1,77 @@
+Key: MCAS_2006_9_42-v1
+
+Question: In which of the following ways are photosynthesis and cellular respiration alike?
+Options: ['Both processes produce glucose.', 'Both processes consume carbon dioxide.', 'Both processes take place in chloroplasts.', 'Both processes involve energy transformations.']
+Answer: Both processes involve energy transformations.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Photosynthesis",
+        "description": "A process used by plants and other organisms to convert light energy into chemical energy."
+    },
+    {
+        "name": "Cellular Respiration",
+        "description": "A set of metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP)."
+    },
+    {
+        "name": "Glucose",
+        "description": "A simple sugar that is an important energy source in living organisms and is a component of many carbohydrates."
+    },
+    {
+        "name": "Carbon Dioxide",
+        "description": "A colorless gas with a density about 53% higher than that of dry air, used by plants in photosynthesis."
+    },
+    {
+        "name": "Chloroplasts",
+        "description": "Organelles found in plant cells and eukaryotic algae that conduct photosynthesis."
+    },
+    {
+        "name": "Energy Transformations",
+        "description": "A process of converting one form of energy to another."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Photosynthesis",
+        "relationship": "uses",
+        "related_concept": "Carbon Dioxide",
+        "description": "Photosynthesis uses carbon dioxide to produce glucose."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "occurs_in",
+        "related_concept": "Chloroplasts",
+        "description": "Photosynthesis occurs in chloroplasts."
+    },
+    {
+        "concept": "Cellular Respiration",
+        "relationship": "produces",
+        "related_concept": "Carbon Dioxide",
+        "description": "Cellular respiration converts glucose and oxygen into energy, producing carbon dioxide as a byproduct."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "produces",
+        "related_concept": "Glucose",
+        "description": "Photosynthesis produces glucose and oxygen as final products."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "involves",
+        "related_concept": "Energy Transformations",
+        "description": "Photosynthesis involves the transformation of solar energy into chemical energy."
+    },
+    {
+        "concept": "Cellular Respiration",
+        "relationship": "involves",
+        "related_concept": "Energy Transformations",
+        "description": "Cellular respiration involves the transformation of chemical energy in food into ATP."
+    }
+]
+
+Model Answer: {
+    "answer": "Both processes involve energy transformations.",
+    "reasoning": "Both photosynthesis and cellular respiration are processes that involve the transformation of energy. Photosynthesis converts solar energy into chemical energy stored in glucose, while cellular respiration converts the chemical energy in glucose into ATP, a form of energy usable by cells. This makes energy transformation a fundamental characteristic shared between the two processes, unlike the other options which are either unique to one process or incorrectly associated with both."
+}

@@ -1,0 +1,65 @@
+Key: Mercury_7085908
+
+Question: Which statement accurately describes the neutrons in any element?
+Options: ['The number of neutrons equals the number of electrons.', 'Neutrons are found in a cloud around the nucleus.', 'The charge of a neutron is always negative.', 'Neutrons are more massive than electrons.']
+Answer: Neutrons are more massive than electrons.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Neutrons",
+        "description": "Subatomic particles with no charge, located in the nucleus of an atom."
+    },
+    {
+        "name": "Electrons",
+        "description": "Negatively charged subatomic particles found in a cloud around the nucleus."
+    },
+    {
+        "name": "Nucleus",
+        "description": "The central part of an atom, containing protons and neutrons."
+    },
+    {
+        "name": "Atomic mass",
+        "description": "The mass of an atom, which is primarily contributed by protons and neutrons."
+    },
+    {
+        "name": "Subatomic particles",
+        "description": "Particles smaller than an atom, including neutrons, protons, and electrons."
+    },
+    {
+        "name": "Charge",
+        "description": "A property of matter that causes it to experience a force when near other electrically charged matter."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Neutrons",
+        "relationship": "part of",
+        "related_concept": "Nucleus",
+        "description": "Neutrons are located in the nucleus of an atom."
+    },
+    {
+        "concept": "Electrons",
+        "relationship": "surround",
+        "related_concept": "Nucleus",
+        "description": "Electrons are found in a cloud surrounding the nucleus."
+    },
+    {
+        "concept": "Neutrons",
+        "relationship": "compared to",
+        "related_concept": "Electrons",
+        "description": "Neutrons are more massive than electrons."
+    },
+    {
+        "concept": "Charge",
+        "relationship": "attribute of",
+        "related_concept": "Subatomic particles",
+        "description": "Subatomic particles, such as electrons, can have a charge."
+    }
+]
+
+Model Answer: {
+    "answer": "Neutrons are more massive than electrons.",
+    "reasoning": "Among the options, the only accurate statement regarding neutrons within the context of atomic structure is that they are more massive than electrons. This is based on the understood relationships and properties of subatomic particles. Neutrons, located in the nucleus, have a significant mass compared to electrons, which are much lighter and found in a cloud around the nucleus. The other options contain inaccuracies about neutrons: they do not necessarily equal the number of electrons in an element, they are not found in a cloud around the nucleus, and they do not have a negative charge."
+}

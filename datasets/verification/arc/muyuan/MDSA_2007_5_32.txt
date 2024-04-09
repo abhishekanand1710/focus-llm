@@ -1,0 +1,67 @@
+Key: MDSA_2007_5_32
+
+Question: A container is filled with 250 milliliters of water. The total mass of the container and the water is 300 grams. What is the total mass of the container and the water after being in a freezer for 2 hours?
+Options: ['50 grams', '250 grams', '300 grams', '550 grams']
+Answer: 300 grams
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water",
+        "description": "A liquid substance that freezes at 0\u00b0C, turning into ice."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process of a liquid turning into a solid when cold enough."
+    },
+    {
+        "name": "Container",
+        "description": "An object used to hold other objects or substances."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, usually in grams or kilograms."
+    },
+    {
+        "name": "Conservation of Mass",
+        "description": "A principle stating that mass cannot be created or destroyed in a closed system."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "undergoes",
+        "related_concept": "Freezing",
+        "description": "Water turns into ice when it's cold enough, a process known as freezing."
+    },
+    {
+        "concept": "Freezing",
+        "relationship": "results in",
+        "related_concept": "Conservation of Mass",
+        "description": "The freezing process does not change the mass of water; hence it exemplifies the conservation of mass."
+    },
+    {
+        "concept": "Container",
+        "relationship": "holds",
+        "related_concept": "Water",
+        "description": "The container is used to hold the water."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "measures",
+        "related_concept": "Water and Container",
+        "description": "Mass is used to measure the combined amount of matter in the water and the container."
+    },
+    {
+        "concept": "Conservation of Mass",
+        "relationship": "applies to",
+        "related_concept": "Mass",
+        "description": "The principle of conservation of mass states that the total mass before and after freezing remains the same in a closed system."
+    }
+]
+
+Model Answer: {
+    "answer": "300 grams",
+    "reasoning": "Based on the principle of the conservation of mass, the total mass of the container and water does not change when water freezes to form ice. Initially, the total mass of the container and the water is 300 grams. Since freezing water into ice does not add or remove mass, the total mass of the container and water remains 300 grams after being in the freezer for 2 hours."
+}

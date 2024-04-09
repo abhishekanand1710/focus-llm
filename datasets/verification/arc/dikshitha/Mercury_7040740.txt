@@ -1,0 +1,65 @@
+Key: Mercury_7040740
+
+Question: What MAJOR advantage does nekton have over plankton in locating food?
+Options: ['Nekton can actively swim.', 'Nekton can see in the dark.', 'Nekton do not eat much food.', 'Nekton can eat anything in the ocean.']
+Answer: Nekton can actively swim.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Nekton",
+        "description": "Aquatic animals that can swim and move independently of water currents."
+    },
+    {
+        "name": "Plankton",
+        "description": "Small organisms that drift or float in the water, unable to swim against currents."
+    },
+    {
+        "name": "Actively swim",
+        "description": "The ability to move through water using one's own power."
+    },
+    {
+        "name": "See in the dark",
+        "description": "The ability to visualize one's environment without light."
+    },
+    {
+        "name": "Food consumption",
+        "description": "The process of eating food for energy."
+    },
+    {
+        "name": "Dietary range",
+        "description": "The variety of food an organism is capable of consuming."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Nekton",
+        "relationship": "has_ability",
+        "related_concept": "Actively swim",
+        "description": "Nekton can swim actively and move independently."
+    },
+    {
+        "concept": "Plankton",
+        "relationship": "lacks_ability",
+        "related_concept": "Actively swim",
+        "description": "Plankton cannot swim against water currents."
+    },
+    {
+        "concept": "Nekton",
+        "relationship": "uses_ability",
+        "related_concept": "Food consumption",
+        "description": "Nekton use their ability to swim to locate and consume food."
+    },
+    {
+        "concept": "Actively swim",
+        "relationship": "enables",
+        "related_concept": "Food consumption",
+        "description": "Being able to actively swim enables nekton to find and consume food more effectively."
+    }
+]
+
+Model Answer: {
+    "answer": "Nekton can actively swim.",
+    "reasoning": "The major advantage of nekton over plankton in locating food is their ability to actively swim. This ability allows nekton to move independently of water currents to seek out food sources, unlike plankton, which are mostly at the mercy of water currents for movement. The capability of active movement is directly linked to their effectiveness in locating and consuming food, thus providing a substantial advantage in their search for nourishment."
+}

@@ -1,0 +1,77 @@
+Key: Mercury_SC_409675
+
+Question: A scientist put several different plants in a sealed container. Every hour, she checked the oxygen in the container to see if it changed. How did the oxygen in the container most likely change?
+Options: ['The amount of oxygen increased.', 'The amount of oxygen decreased.', 'The oxygen was transformed into water.', 'The oxygen was transformed into carbon dioxide.']
+Answer: The amount of oxygen increased.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Photosynthesis",
+        "description": "The process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A gas that is produced by photosynthesis and is necessary for most forms of life."
+    },
+    {
+        "name": "Carbon Dioxide",
+        "description": "A gas that is consumed by plants during photosynthesis and emitted by organisms during respiration."
+    },
+    {
+        "name": "Respiration",
+        "description": "The process of inhaling oxygen and exhaling carbon dioxide from the blood."
+    },
+    {
+        "name": "Sealed Container",
+        "description": "A closed environment where exchange of gases with the outside atmosphere is restricted."
+    },
+    {
+        "name": "Light",
+        "description": "Natural agent that stimulates sight and makes things visible, essential for photosynthesis."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Photosynthesis",
+        "relationship": "produces",
+        "related_concept": "Oxygen",
+        "description": "Photosynthesis results in the production of oxygen as a byproduct."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "consumes",
+        "related_concept": "Carbon Dioxide",
+        "description": "Photosynthesis requires carbon dioxide to produce glucose and oxygen."
+    },
+    {
+        "concept": "Respiration",
+        "relationship": "produces",
+        "related_concept": "Carbon Dioxide",
+        "description": "Respiration in plants and other organisms produces carbon dioxide."
+    },
+    {
+        "concept": "Respiration",
+        "relationship": "consumes",
+        "related_concept": "Oxygen",
+        "description": "Oxygen is consumed by organisms during the respiration process."
+    },
+    {
+        "concept": "Sealed Container",
+        "relationship": "contains",
+        "related_concept": "Plants",
+        "description": "The sealed container is used to create a controlled environment for the plants."
+    },
+    {
+        "concept": "Light",
+        "relationship": "facilitates",
+        "related_concept": "Photosynthesis",
+        "description": "Light is necessary for photosynthesis to occur."
+    }
+]
+
+Model Answer: {
+    "answer": "The amount of oxygen increased.",
+    "reasoning": "Given the setup described in the question, it is likely that the plants inside the sealed container were exposed to light, thus undergoing photosynthesis. During this process, plants consume carbon dioxide and, with the aid of light, convert it into glucose for food and release oxygen as a by-product. Even though plants also respire, consuming oxygen and releasing carbon dioxide, the net effect during the daylight hours (or when light is present) tends to be an increase in oxygen due to the predominance of photosynthesis over respiration. Therefore, it is most plausible that the amount of oxygen inside the sealed container increased over time."
+}

@@ -1,0 +1,61 @@
+Key: Mercury_LBS10257
+
+Question: Which of the following represents the process of photosynthesis?
+Options: ['C_{6}H_{12}O_{6} -> 6CO_{2} + 6H_{2}O', '6CO_{2} + 6H_{2}O -> C_{6}H_{12}O_{6} +6O_{2}', '2H_{2}O -> 2H_{2} + O_{2}', '2H_{2} + O_{2} -> 2H_{2}O']
+Answer: 6CO_{2} + 6H_{2}O -> C_{6}H_{12}O_{6} +6O_{2}
+
+Model Response:
+Concepts: [
+    {
+        "name": "photosynthesis",
+        "description": "A process used by plants and other organisms to convert light energy into chemical energy"
+    },
+    {
+        "name": "glucose",
+        "description": "A simple sugar that is an important energy source in living organisms"
+    },
+    {
+        "name": "carbon dioxide",
+        "description": "A colorless, odorless gas produced by burning carbon and organic compounds and by respiration"
+    },
+    {
+        "name": "water",
+        "description": "A colorless, transparent, odorless, liquid that forms the seas, lakes, rivers, and rain"
+    },
+    {
+        "name": "oxygen",
+        "description": "A chemical element with symbol O and atomic number 8, essential for respiration"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "photosynthesis",
+        "relationship": "utilizes",
+        "related_concept": "carbon dioxide",
+        "description": "Photosynthesis uses carbon dioxide as one of the inputs"
+    },
+    {
+        "concept": "photosynthesis",
+        "relationship": "utilizes",
+        "related_concept": "water",
+        "description": "Photosynthesis uses water as one of the inputs"
+    },
+    {
+        "concept": "photosynthesis",
+        "relationship": "produces",
+        "related_concept": "glucose",
+        "description": "Photosynthesis results in the production of glucose"
+    },
+    {
+        "concept": "photosynthesis",
+        "relationship": "produces",
+        "related_concept": "oxygen",
+        "description": "Photosynthesis releases oxygen as a byproduct"
+    }
+]
+
+Model Answer: {
+    "answer": "6CO_{2} + 6H_{2}O -> C_{6}H_{12}O_{6} +6O_{2}",
+    "reasoning": "This equation accurately represents the process of photosynthesis, where carbon dioxide (CO2) and water (H2O) are utilized in the presence of light energy to produce glucose (C6H12O6) and oxygen (O2). The described relationship between the inputs (carbon dioxide and water) and the outputs (glucose and oxygen) through photosynthesis supports this as the correct answer."
+}

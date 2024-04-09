@@ -1,0 +1,61 @@
+Key: Mercury_412642
+
+Question: Which of following is a property shared by the elements in the carbon family?
+Options: ['an atomic number of 6', 'an atomic mass of 12', 'the same electron configuration', 'the number of valence electrons']
+Answer: the number of valence electrons
+
+Model Response:
+Concepts: [
+    {
+        "name": "Atomic number",
+        "description": "The number of protons in the nucleus of an atom, which determines the chemical properties of an element and its place in the periodic table."
+    },
+    {
+        "name": "Atomic mass",
+        "description": "The mass of an atom, typically expressed in atomic mass units (amu), it reflects the number of protons and neutrons in the nucleus."
+    },
+    {
+        "name": "Electron configuration",
+        "description": "The distribution of electrons of an atom or molecule in atomic or molecular orbitals."
+    },
+    {
+        "name": "Valence electrons",
+        "description": "The electrons in the outermost shell of an atom that are involved in forming bonds to other atoms."
+    },
+    {
+        "name": "Carbon family",
+        "description": "A group of elements in the periodic table that includes carbon (C) and the elements that have similar properties to carbon."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Carbon family",
+        "relationship": "does not share",
+        "related_concept": "Atomic number",
+        "description": "Members of the carbon family have different atomic numbers, unique to each element."
+    },
+    {
+        "concept": "Carbon family",
+        "relationship": "does not share",
+        "related_concept": "Atomic mass",
+        "description": "Each element in the carbon family has a unique atomic mass."
+    },
+    {
+        "concept": "Carbon family",
+        "relationship": "does not share",
+        "related_concept": "Electron configuration",
+        "description": "While there might be similarities, each element of the carbon family has a distinct electron configuration."
+    },
+    {
+        "concept": "Carbon family",
+        "relationship": "shares",
+        "related_concept": "Valence electrons",
+        "description": "All elements in the carbon family have the same number of valence electrons, which defines their chemical behavior."
+    }
+]
+
+Model Answer: {
+    "answer": "the number of valence electrons",
+    "reasoning": "All elements in the Carbon family, despite having different atomic numbers, atomic masses, and electron configurations, share the characteristic of having the same number of valence electrons. This is a defining trait of elements within the same group in the periodic table, dictating similar chemical properties and reactivities among the group's members."
+}

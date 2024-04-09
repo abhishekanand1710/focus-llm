@@ -1,0 +1,61 @@
+Key: Mercury_7216878
+
+Question: Some health care professionals recommend that children use insect repellent before going outside. Using insect repellent is a good way to keep the insects from
+Options: ['reproducing.', 'laying eggs.', 'spreading disease.', 'dying.']
+Answer: spreading disease.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Insect repellent",
+        "description": "A substance applied to skin, clothing, or other surfaces which discourages insects from landing or climbing on that surface."
+    },
+    {
+        "name": "Health care professionals",
+        "description": "Individuals who provide preventive, curative, promotional, or rehabilitative health care services in a systematic way to individuals, families or communities."
+    },
+    {
+        "name": "Children",
+        "description": "Young human beings below the age of puberty or below the legal age of majority."
+    },
+    {
+        "name": "Insects",
+        "description": "A class of invertebrate animals characterized by three pairs of legs, a segmented body, and one pair of antennae."
+    },
+    {
+        "name": "Spreading disease",
+        "description": "The process by which disease is transmitted from one individual to another, through direct or indirect contact, or through vectors such as insects."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Health care professionals",
+        "relationship": "recommend",
+        "related_concept": "Insect repellent",
+        "description": "Health care professionals suggest the use of insect repellent."
+    },
+    {
+        "concept": "Insect repellent",
+        "relationship": "used by",
+        "related_concept": "Children",
+        "description": "Children are advised to use insect repellent before going outside."
+    },
+    {
+        "concept": "Insect repellent",
+        "relationship": "prevents",
+        "related_concept": "Insects",
+        "description": "Insect repellent deters insects from coming into contact with skin or clothing."
+    },
+    {
+        "concept": "Insects",
+        "relationship": "responsible for",
+        "related_concept": "Spreading disease",
+        "description": "Some insects can carry and spread diseases to humans."
+    }
+]
+
+Model Answer: {
+    "answer": "spreading disease.",
+    "reasoning": "Health care professionals recommend the use of insect repellent for children to prevent insects, which can carry and spread diseases, from coming into contact with their skin or clothing. The primary purpose of insect repellent is not to stop insects from reproducing, laying eggs, or dying directly, but rather to prevent them from biting or attaching to humans, thereby reducing the risk of disease transmission."
+}

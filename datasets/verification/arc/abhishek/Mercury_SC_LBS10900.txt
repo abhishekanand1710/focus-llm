@@ -1,0 +1,57 @@
+Key: Mercury_SC_LBS10900
+
+Question: Which is not an example of animal instinct?
+Options: ['migrating', 'hibernating', 'hunting skills', 'building nests']
+Answer: hunting skills
+
+Model Response:
+Concepts: [
+    {
+        "name": "migrating",
+        "description": "The instinctual seasonal movement of animals from one region to another."
+    },
+    {
+        "name": "hibernating",
+        "description": "A state of inactivity and metabolic depression in animals during winter."
+    },
+    {
+        "name": "hunting skills",
+        "description": "The innate ability of animals to chase and catch prey."
+    },
+    {
+        "name": "building nests",
+        "description": "The instinctual behavior of animals to construct a place for living or for laying eggs."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "migrating",
+        "relationship": "is a type of",
+        "related_concept": "animal instinct",
+        "description": "Migrating is a natural, instinctual action animals undertake, often linked to survival needs."
+    },
+    {
+        "concept": "hibernating",
+        "relationship": "is a type of",
+        "related_concept": "animal instinct",
+        "description": "Hibernating is an instinctual behavior for survival during cold months."
+    },
+    {
+        "concept": "hunting skills",
+        "relationship": "is a type of",
+        "related_concept": "animal instinct",
+        "description": "Hunting skills are innate abilities that animals possess for capturing food."
+    },
+    {
+        "concept": "building nests",
+        "relationship": "is a type of",
+        "related_concept": "animal instinct",
+        "description": "Building nests is an instinctive behavior for providing shelter and safety for offspring."
+    }
+]
+
+Model Answer: {
+    "answer": "None",
+    "reasoning": "All options listed - migrating, hibernating, hunting skills, and building nests - are examples of animal instincts. Each one represents an innate behavior aimed at fulfilling necessities such as shelter, food, survival through seasonal changes, and reproduction."
+}

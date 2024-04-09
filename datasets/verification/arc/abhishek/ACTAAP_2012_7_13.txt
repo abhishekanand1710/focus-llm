@@ -1,0 +1,63 @@
+Key: ACTAAP_2012_7_13
+
+Question: Which substance is a compound?
+Options: ['sodium', 'chlorine', 'table salt', 'salt water']
+Answer: table salt
+
+Model Response:
+Concepts: [
+    {
+        "name": "sodium",
+        "description": "A reactive metallic element that is a member of the alkali metal group with symbol Na."
+    },
+    {
+        "name": "chlorine",
+        "description": "A toxic, greenish-yellow gas that is a halogen element with symbol Cl, used in water purification."
+    },
+    {
+        "name": "table salt",
+        "description": "A compound formed from sodium and chlorine, known chemically as sodium chloride (NaCl)."
+    },
+    {
+        "name": "salt water",
+        "description": "Water that contains a significant concentration of dissolved salts, primarily sodium chloride."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "sodium",
+        "relationship": "combines_with",
+        "related_concept": "chlorine",
+        "description": "Sodium combines with chlorine to form table salt."
+    },
+    {
+        "concept": "chlorine",
+        "relationship": "combines_with",
+        "related_concept": "sodium",
+        "description": "Chlorine combines with sodium to form table salt."
+    },
+    {
+        "concept": "table salt",
+        "relationship": "composed_of",
+        "related_concept": "sodium",
+        "description": "Table salt is composed of sodium."
+    },
+    {
+        "concept": "table salt",
+        "relationship": "composed_of",
+        "related_concept": "chlorine",
+        "description": "Table salt is composed of chlorine."
+    },
+    {
+        "concept": "salt water",
+        "relationship": "contains",
+        "related_concept": "table salt",
+        "description": "Salt water contains table salt dissolved in it."
+    }
+]
+
+Model Answer: {
+    "answer": "table salt",
+    "reasoning": "Table salt is identified as a compound because it is composed of sodium and chlorine, which combines to form sodium chloride (NaCl). This makes it the only option listed that is a combination of two or more elements chemically combined in a fixed ratio, satisfying the criteria of a compound."
+}

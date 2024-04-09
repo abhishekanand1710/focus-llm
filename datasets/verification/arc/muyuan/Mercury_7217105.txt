@@ -1,0 +1,87 @@
+Key: Mercury_7217105
+
+Question: How does a parachute sufficiently increase air resistance to allow the parachutist to land safely?
+Options: ['by decreasing the force of gravity acting on the parachutist', 'by decreasing the total mass of the parachutist', 'by increasing the surrounding air pressure around the parachute', 'by increasing the total surface area of the parachute']
+Answer: by increasing the total surface area of the parachute
+
+Model Response:
+Concepts: [
+    {
+        "name": "Air Resistance",
+        "description": "The force air exerts against a moving object"
+    },
+    {
+        "name": "Parachutist",
+        "description": "A person who jumps from an aircraft and uses a parachute to land"
+    },
+    {
+        "name": "Gravity",
+        "description": "A force that attracts two bodies towards each other"
+    },
+    {
+        "name": "Mass",
+        "description": "The amount of matter in an object"
+    },
+    {
+        "name": "Air Pressure",
+        "description": "The force exerted onto a surface by the weight of the air"
+    },
+    {
+        "name": "Surface Area",
+        "description": "The measurement of the outer covering of an object"
+    },
+    {
+        "name": "Parachute",
+        "description": "A device used to slow the motion of an object through an atmosphere by creating drag"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Parachute",
+        "relationship": "increases",
+        "related_concept": "Air Resistance",
+        "description": "The parachute increases air resistance by spreading out and creating a large surface area"
+    },
+    {
+        "concept": "Air Resistance",
+        "relationship": "opposes",
+        "related_concept": "Gravity",
+        "description": "Air resistance acts in the opposite direction to gravity, slowing the parachutist's fall"
+    },
+    {
+        "concept": "Parachute",
+        "relationship": "relates to",
+        "related_concept": "Parachutist",
+        "description": "The parachutist uses the parachute to safely land by increasing air resistance"
+    },
+    {
+        "concept": "Surface Area",
+        "relationship": "is increased by",
+        "related_concept": "Parachute",
+        "description": "The total surface area available to catch air is increased by the parachute"
+    },
+    {
+        "concept": "Gravity",
+        "relationship": "acts on",
+        "related_concept": "Parachutist",
+        "description": "Gravity acts on the parachutist, pulling them towards Earth"
+    },
+    {
+        "concept": "Mass",
+        "relationship": "attribute of",
+        "related_concept": "Parachutist",
+        "description": "The mass of the parachutist is a factor in how gravity acts on them"
+    },
+    {
+        "concept": "Air Pressure",
+        "relationship": "is encountered by",
+        "related_concept": "Parachute",
+        "description": "The parachute encounters air pressure as it travels through the atmosphere, contributing to the force of air resistance"
+    }
+]
+
+Model Answer: {
+    "answer": "by increasing the total surface area of the parachute",
+    "reasoning": "The principle behind how a parachute works to safely lower a parachutist to the ground involves increasing the total surface area of the parachute. This increase in surface area boosts the air resistance encountered by the parachute as it descends through the atmosphere. The heightened air resistance opposes the force of gravity acting on the parachutist, decelerating their fall and enabling a safe landing. The concepts and relationships described show that changing the total mass of the parachutist, decreasing the force of gravity, or altering air pressure around the parachute are not directly responsible for the parachute's ability to slow descent. Instead, it is the expanded surface area of the parachute that plays a critical role, making the increase in surface area the correct answer."
+}

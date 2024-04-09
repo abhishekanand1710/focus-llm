@@ -1,0 +1,97 @@
+Key: Mercury_7132195
+
+Question: Which simple machine increases the distance over which a load travels and reduces the needed force?
+Options: ['wheel and axle', 'wedge', 'pulley', 'inclined plane']
+Answer: inclined plane
+
+Model Response:
+Concepts: [
+    {
+        "name": "simple machine",
+        "description": "a mechanical device that changes the direction or magnitude of a force"
+    },
+    {
+        "name": "wheel and axle",
+        "description": "a simple lifting machine consisting of a round wheel and a connected central rod"
+    },
+    {
+        "name": "wedge",
+        "description": "a simple machine that converts force applied to its blunt end into forces perpendicular to its inclined surfaces"
+    },
+    {
+        "name": "pulley",
+        "description": "a simple machine consisting of a wheel over which a rope or belt is pulled to lift heavy objects"
+    },
+    {
+        "name": "inclined plane",
+        "description": "a flat surface tilted at an angle used to facilitate raising or lowering a load with less effort"
+    },
+    {
+        "name": "force",
+        "description": "an interaction that, when unopposed, changes the motion of an object"
+    },
+    {
+        "name": "load",
+        "description": "the weight or resistance that a simple machine is designed to move"
+    },
+    {
+        "name": "distance",
+        "description": "the amount of space between two points"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "simple machine",
+        "relationship": "includes",
+        "related_concept": "wheel and axle",
+        "description": "Wheel and axle is a type of simple machine"
+    },
+    {
+        "concept": "simple machine",
+        "relationship": "includes",
+        "related_concept": "wedge",
+        "description": "Wedge is a type of simple machine"
+    },
+    {
+        "concept": "simple machine",
+        "relationship": "includes",
+        "related_concept": "pulley",
+        "description": "Pulley is a type of simple machine"
+    },
+    {
+        "concept": "simple machine",
+        "relationship": "includes",
+        "related_concept": "inclined plane",
+        "description": "Inclined plane is a type of simple machine"
+    },
+    {
+        "concept": "pulley",
+        "relationship": "increases",
+        "related_concept": "distance",
+        "description": "A pulley increases the distance over which a load is moved"
+    },
+    {
+        "concept": "pulley",
+        "relationship": "reduces",
+        "related_concept": "force",
+        "description": "A pulley reduces the force needed to move a load"
+    },
+    {
+        "concept": "inclined plane",
+        "relationship": "increases",
+        "related_concept": "distance",
+        "description": "An inclined plane increases the distance over which a load is moved"
+    },
+    {
+        "concept": "inclined plane",
+        "relationship": "reduces",
+        "related_concept": "force",
+        "description": "An inclined plane reduces the force needed to move a load"
+    }
+]
+
+Model Answer: {
+    "answer": "pulley",
+    "reasoning": "Among the options, the pulley is a simple machine that specifically increases the distance over which a load travels and reduces the needed force to lift or move that load. It uses a wheel and a rope or belt to change the direction of the applied force, making it easier to lift heavy objects."
+}

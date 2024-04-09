@@ -1,0 +1,71 @@
+Key: AKDE&ED_2008_8_12
+
+Question: How does the tilt of Earth’s axis and its rotation affect the weather?
+Options: ['The tilt of Earth allows Earth to absorb all of the Sun’s radiation as it rotates.', 'The tilt allows certain latitudes of Earth to be heated at a greater rate while Earth rotates.', 'The tilt of Earth allows Earth to rotate fast enough to allow surface cooling to occur at night.', 'The tilt allows energy to be evenly distributed throughout the atmosphere while Earth rotates.']
+Answer: The tilt allows certain latitudes of Earth to be heated at a greater rate while Earth rotates.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's axis tilt",
+        "description": "The angle between Earth's rotational axis and its orbital plane around the Sun."
+    },
+    {
+        "name": "Earth's rotation",
+        "description": "The spinning of Earth around its axis, leading to day and night cycles."
+    },
+    {
+        "name": "Sun's radiation",
+        "description": "Energy from the Sun that heats the Earth's surface."
+    },
+    {
+        "name": "Latitude",
+        "description": "A geographical coordinate that specifies the north-south position of a point on Earth's surface."
+    },
+    {
+        "name": "Surface cooling",
+        "description": "Reduction in temperature of the Earth's surface, typically occurring at night."
+    },
+    {
+        "name": "Atmospheric energy distribution",
+        "description": "The spread of heating energy through Earth's atmosphere."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's axis tilt",
+        "relationship": "causes",
+        "related_concept": "Latitude heating disparity",
+        "description": "The tilt of Earth's axis causes variations in sunlight intensity, affecting how different latitudes are heated."
+    },
+    {
+        "concept": "Earth's rotation",
+        "relationship": "enables",
+        "related_concept": "Day and night cycle",
+        "description": "The rotation of Earth around its axis leads to the alternation between day and night."
+    },
+    {
+        "concept": "Latitude",
+        "relationship": "influences",
+        "related_concept": "Sun's radiation absorption",
+        "description": "The position of a latitude influences how much solar radiation a specific area on Earth can absorb."
+    },
+    {
+        "concept": "Surface cooling",
+        "relationship": "results from",
+        "related_concept": "Night cycle",
+        "description": "Surface cooling mainly occurs at night when there is no sunlight."
+    },
+    {
+        "concept": "Atmospheric energy distribution",
+        "relationship": "affected by",
+        "related_concept": "Earth's rotation and tilt",
+        "description": "The way energy is distributed through the atmosphere is affected by how Earth rotates and its axial tilt."
+    }
+]
+
+Model Answer: {
+    "answer": "The tilt allows certain latitudes of Earth to be heated at a greater rate while Earth rotates.",
+    "reasoning": "The tilt of Earth's axis results in different latitudes receiving varying amounts of solar radiation at different times of the year. This variance in solar intensity, combined with Earth's rotation, means that some latitudes are warmed more significantly than others, directly influencing weather patterns by creating zones of varying temperature and atmospheric pressure. This option most accurately reflects the conceptual relationship between Earth's axial tilt, rotation, and the differential heating of the planet's surface, which is fundamental to the development of weather patterns."
+}

@@ -1,0 +1,59 @@
+Key: Mercury_SC_400607
+
+Question: Young robins build the same kinds of nests their parents build even if the young birds have never seen their parents build a nest. This is an example of
+Options: ['a learned behavior.', 'an inherited behavior.', 'a physical characteristic.', 'acquired characteristic.']
+Answer: an inherited behavior.
+
+Model Response:
+Concepts: [
+    {
+        "name": "learned behavior",
+        "description": "behavior an organism acquires through interaction with the environment"
+    },
+    {
+        "name": "inherited behavior",
+        "description": "behavior that is passed down from parents to offspring, not learned but genetically programmed"
+    },
+    {
+        "name": "physical characteristic",
+        "description": "a defining trait or feature about an organism's body"
+    },
+    {
+        "name": "acquired characteristic",
+        "description": "a trait or feature that is gained by an organism after birth as a result of its experience or behavior"
+    },
+    {
+        "name": "nest building",
+        "description": "the activity of constructing a place for a living, often seen in birds"
+    },
+    {
+        "name": "young robins",
+        "description": "juvenile stage of a bird species known as robins"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "young robins",
+        "relationship": "exhibit",
+        "related_concept": "inherited behavior",
+        "description": "Young robins display behaviors such as nest building without prior observation, indicating these behaviors are inherited"
+    },
+    {
+        "concept": "inherited behavior",
+        "relationship": "is not",
+        "related_concept": "learned behavior",
+        "description": "Inherited behavior is inherently present and does not require learning from the environment"
+    },
+    {
+        "concept": "nest building",
+        "relationship": "example of",
+        "related_concept": "inherited behavior",
+        "description": "Nest building by young robins without seeing their parents do so is an instance of inherited behavior"
+    }
+]
+
+Model Answer: {
+    "answer": "an inherited behavior.",
+    "reasoning": "Young robins are able to build nests similar to those of their parents even without observing them do so. This demonstrates that the knowledge or ability to construct these nests is not acquired through learning or imitation but is rather an inherent trait passed genetically from parents to offspring. Therefore, it is categorized as an inherited behavior."
+}

@@ -1,0 +1,75 @@
+Key: ACTAAP_2013_5_14
+
+Question: Mr. Pratt does a science demonstration. He inflates a balloon, places it in a freezer, and then removes it after 10 minutes. Which best describes the balloon's volume when in the freezer and then after being removed and allowed to warm up?
+Options: ['expands in the freezer and then contracts as it gets warmer again', 'contracts in the freezer and then expands as it gets warmer again', 'expands in the freezer and then keeps that volume when warmed up', 'contracts in the freezer and then keeps that volume when warmed up']
+Answer: contracts in the freezer and then expands as it gets warmer again
+
+Model Response:
+Concepts: [
+    {
+        "name": "Volume",
+        "description": "Space that an object or substance occupies"
+    },
+    {
+        "name": "Temperature",
+        "description": "The measure of the warmth or coldness of an object or environment"
+    },
+    {
+        "name": "Gas Laws",
+        "description": "Scientific laws that describe the behavior of gases, including pressure, volume, and temperature relationships"
+    },
+    {
+        "name": "Expansion",
+        "description": "Increase in volume"
+    },
+    {
+        "name": "Contraction",
+        "description": "Decrease in volume"
+    },
+    {
+        "name": "Balloon",
+        "description": "A flexible bag that can be inflated with a gas, such as helium, hydrogen, air, etc."
+    },
+    {
+        "name": "Freezer",
+        "description": "A device or room for freezing food or other substances"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Temperature",
+        "relationship": "affects",
+        "related_concept": "Volume",
+        "description": "Changes in temperature can lead to changes in volume"
+    },
+    {
+        "concept": "Gas Laws",
+        "relationship": "describe",
+        "related_concept": "Temperature and Volume relationship",
+        "description": "Gas laws govern the relationship between the temperature and volume of gases"
+    },
+    {
+        "concept": "Volume",
+        "relationship": "is affected by",
+        "related_concept": "Expansion and Contraction",
+        "description": "Volume increases with expansion and decreases with contraction"
+    },
+    {
+        "concept": "Balloon",
+        "relationship": "experiences",
+        "related_concept": "Expansion and Contraction",
+        "description": "A balloon's volume changes due to expansion or contraction"
+    },
+    {
+        "concept": "Freezer",
+        "relationship": "lowers",
+        "related_concept": "Temperature",
+        "description": "A freezer lowers the temperature of its contents"
+    }
+]
+
+Model Answer: {
+    "answer": "contracts in the freezer and then expands as it gets warmer again",
+    "reasoning": "According to the relationship between temperature and volume as described by gas laws, when the temperature decreases (as it does in a freezer), the volume of a gas decreases, leading to contraction. When the balloon is removed from the freezer and allowed to warm up, the temperature increases, causing the volume of the gas inside the balloon to expand. Therefore, the volume of the balloon contracts in the freezer and then expands as it gets warmer again."
+}

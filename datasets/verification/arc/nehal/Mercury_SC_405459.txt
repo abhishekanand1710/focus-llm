@@ -1,0 +1,65 @@
+Key: Mercury_SC_405459
+
+Question: Corn can be used to make ethanol, which is a fuel for some cars. What problem could be caused by the increased use of ethanol?
+Options: ['increase in fossil fuel production', 'decrease in corn production', 'increase in severe weather', 'decrease in nutrients in soil']
+Answer: decrease in nutrients in soil
+
+Model Response:
+Concepts: [
+    {
+        "name": "Corn",
+        "description": "A cereal plant used as food for humans and livestock and as a biofuel."
+    },
+    {
+        "name": "Ethanol",
+        "description": "A renewable fuel made from various plant materials, often including corn."
+    },
+    {
+        "name": "Fossil Fuel Production",
+        "description": "The process of extracting and refining oil and gas for use as fuel."
+    },
+    {
+        "name": "Nutrients in Soil",
+        "description": "Essential chemicals needed by plants for growth, which can be depleted over time through farming."
+    },
+    {
+        "name": "Severe Weather",
+        "description": "Extreme weather conditions, which are not directly influenced by corn or ethanol production."
+    },
+    {
+        "name": "Decrease in Corn Production",
+        "description": "Reduced output of corn due to various factors such as allocation to ethanol production."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Corn",
+        "relationship": "used to make",
+        "related_concept": "Ethanol",
+        "description": "Corn is a primary feedstock for ethanol production."
+    },
+    {
+        "concept": "Ethanol",
+        "relationship": "replaces",
+        "related_concept": "Fossil Fuel Production",
+        "description": "Ethanol can substitute for fossil fuels in some applications, potentially reducing fossil fuel dependence."
+    },
+    {
+        "concept": "Corn",
+        "relationship": "consumes",
+        "related_concept": "Nutrients in Soil",
+        "description": "Growing corn absorbs nutrients from the soil, which can deplete soil fertility over time."
+    },
+    {
+        "concept": "Corn",
+        "relationship": "allocation to",
+        "related_concept": "Decrease in Corn Production",
+        "description": "Diverting corn to ethanol production can decrease its availability for food and feed."
+    }
+]
+
+Model Answer: {
+    "answer": "decrease in nutrients in soil",
+    "reasoning": "Relying on corn for ethanol production can lead to intensive agriculture practices that often increase the depletion of key nutrients in the soil. This occurs because corn farming, especially when done continuously on the same land for biofuel production, requires significant amounts of nutrients, which are removed from the soil and can result in decreased soil fertility over time. This is directly related to the increased use of ethanol made from corn."
+}

@@ -1,0 +1,81 @@
+Key: Mercury_7086153
+
+Question: Coal is solid rock that began as organic material that was deposited in a swamp. The formation of coal suggests that
+Options: ['coal is made mostly of skeletal remains of animals.', 'coal is formed from magma that has solidified over time.', 'it quickly becomes petrified when water is removed.', 'geologic processes continue over millions of years.']
+Answer: geologic processes continue over millions of years.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Coal",
+        "description": "A solid fossil fuel derived from ancient organic matter."
+    },
+    {
+        "name": "Organic material",
+        "description": "Material that comes from or is made up of once-living organisms."
+    },
+    {
+        "name": "Swamp",
+        "description": "Wetland ecosystem characterized by waterlogged conditions suitable for the accumulation of organic matter."
+    },
+    {
+        "name": "Geologic processes",
+        "description": "Natural processes that occur on Earth over millions of years, including sedimentation, burial, and compression."
+    },
+    {
+        "name": "Petrification",
+        "description": "A process where organic material is turned into stone."
+    },
+    {
+        "name": "Magma",
+        "description": "Molten or partially molten rock beneath the Earth's surface."
+    },
+    {
+        "name": "Skeletal remains",
+        "description": "The framework of bones that supported the body of an animal."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Coal",
+        "relationship": "originates_from",
+        "related_concept": "Organic material",
+        "description": "Coal is formed from the accumulation and transformation of organic material."
+    },
+    {
+        "concept": "Organic material",
+        "relationship": "deposited_in",
+        "related_concept": "Swamp",
+        "description": "The initial organic material that forms coal is often deposited in swampy environments."
+    },
+    {
+        "concept": "Geologic processes",
+        "relationship": "transform",
+        "related_concept": "Coal",
+        "description": "Coal is formed as a result of geologic processes acting on organic material over millions of years."
+    },
+    {
+        "concept": "Coal",
+        "relationship": "is_not_formed_by",
+        "related_concept": "Petrification",
+        "description": "Unlike petrified wood, coal formation is not a result of the petrification process."
+    },
+    {
+        "concept": "Coal",
+        "relationship": "is_not_composed_of",
+        "related_concept": "Skeletal remains",
+        "description": "Coal is primarily derived from plant matter, not the skeletal remains of animals."
+    },
+    {
+        "concept": "Coal",
+        "relationship": "has_no_relation_to",
+        "related_concept": "Magma",
+        "description": "Coal formation is unrelated to the solidification of magma."
+    }
+]
+
+Model Answer: {
+    "answer": "geologic processes continue over millions of years.",
+    "reasoning": "Coal originates from organic material that was deposited in swamps. Over millions of years, geologic processes such as sedimentation, burial, and compression transform this organic material into coal. This conclusion is supported by the relationships between coal, organic materials, geologic processes, and the environment in which the initial organic matter is deposited (swamps). Unlike coal formation, petrification, the solidification of magma, and the composition of skeletal remains do not directly contribute to the process of coal formation."
+}

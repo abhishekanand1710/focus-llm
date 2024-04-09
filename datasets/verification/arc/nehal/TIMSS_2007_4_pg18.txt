@@ -1,0 +1,67 @@
+Key: TIMSS_2007_4_pg18
+
+Question: Which of these animals has teeth that are most like the teeth of humans?
+Options: ['deer', 'lion', 'monkey', 'dog']
+Answer: monkey
+
+Model Response:
+Concepts: [
+    {
+        "name": "deer",
+        "description": "A hoofed grazing or browsing animal, with branches or points on their antlers."
+    },
+    {
+        "name": "lion",
+        "description": "A large carnivorous feline mammal, known for its strength and mane."
+    },
+    {
+        "name": "monkey",
+        "description": "A primate generally possessing a tail and advanced degree of intelligence."
+    },
+    {
+        "name": "dog",
+        "description": "A domesticated carnivorous mammal, often kept as a pet or used for hunting or guarding."
+    },
+    {
+        "name": "human teeth",
+        "description": "Teeth found in humans, characterized by a variety including incisors, canines, premolars, and molars."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "deer",
+        "relationship": "have",
+        "related_concept": "herbivorous teeth",
+        "description": "Deer have teeth adapted for grinding plant material."
+    },
+    {
+        "concept": "lion",
+        "relationship": "have",
+        "related_concept": "carnivorous teeth",
+        "description": "Lions have sharp teeth suited for tearing meat."
+    },
+    {
+        "concept": "monkey",
+        "relationship": "have",
+        "related_concept": "omnivorous teeth",
+        "description": "Monkeys have teeth that can handle both plant and animal matter."
+    },
+    {
+        "concept": "dog",
+        "relationship": "have",
+        "related_concept": "carnivorous teeth",
+        "description": "Dogs have teeth designed for eating meat, with sharp canines and cutting molars."
+    },
+    {
+        "concept": "monkey",
+        "relationship": "most similar to",
+        "related_concept": "human teeth",
+        "description": "Monkeys, being primates, have teeth structure most similar to humans, accommodating a varied diet."
+    }
+]
+
+Model Answer: {
+    "answer": "monkey",
+    "reasoning": "Among the given options, the teeth of monkeys are most like those of humans. This is because both humans and monkeys are primates, thus sharing similar dental structures adaptive to an omnivorous diet, with a mix of incisors, canines, premolars, and molars suited for processing a variety of foods."
+}

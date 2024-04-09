@@ -1,0 +1,57 @@
+Key: ACTAAP_2007_7_23
+
+Question: What is a worldwide increase in temperature called?
+Options: ['greenhouse effect', 'global warming', 'ozone depletion', 'solar heating']
+Answer: global warming
+
+Model Response:
+Concepts: [
+    {
+        "name": "greenhouse effect",
+        "description": "A natural process that warms the Earth's surface."
+    },
+    {
+        "name": "global warming",
+        "description": "A long-term rise in the average temperature of the Earth's climate system."
+    },
+    {
+        "name": "ozone depletion",
+        "description": "A decrease in the ozone layer of the Earth's atmosphere."
+    },
+    {
+        "name": "solar heating",
+        "description": "The increase in temperature that results when solar radiation is trapped by the atmosphere."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "greenhouse effect",
+        "relationship": "contributes to",
+        "related_concept": "global warming",
+        "description": "The greenhouse effect causes global warming by trapping heat in the Earth's atmosphere."
+    },
+    {
+        "concept": "global warming",
+        "relationship": "result of",
+        "related_concept": "greenhouse effect",
+        "description": "Global warming is primarily a result of the greenhouse effect."
+    },
+    {
+        "concept": "ozone depletion",
+        "relationship": "distinct from",
+        "related_concept": "global warming",
+        "description": "Ozone depletion is a different process affecting the atmosphere than global warming."
+    },
+    {
+        "concept": "solar heating",
+        "relationship": "contributes to",
+        "related_concept": "greenhouse effect",
+        "description": "Solar heating is absorbed by the Earth's surface and can exacerbate the greenhouse effect."
+    }
+]
+
+Model Answer: {
+    "answer": "global warming",
+    "reasoning": "Global warming refers to the long-term rise in the average temperature of the Earth's climate system, which is directly related to the provided context of a 'worldwide increase in temperature'. It is primarily a result of the greenhouse effect, where gases in the Earth's atmosphere trap heat, leading to an increase in global temperatures. The other options do not directly define a worldwide increase in temperature: the greenhouse effect is a process that contributes to global warming, ozone depletion is a distinct atmospheric issue that affects ultraviolet radiation absorption, and solar heating is a component of the natural heating of the Earth's surface and atmosphere."
+}

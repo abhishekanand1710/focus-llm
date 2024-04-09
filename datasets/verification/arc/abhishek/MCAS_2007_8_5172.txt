@@ -1,0 +1,69 @@
+Key: MCAS_2007_8_5172
+
+Question: Which of the following substances can be separated into several elements?
+Options: ['nitrogen', 'zinc', 'air', 'aluminum']
+Answer: air
+
+Model Response:
+Concepts: [
+    {
+        "name": "nitrogen",
+        "description": "A chemical element, a gas that constitutes 78% of the Earth's atmosphere."
+    },
+    {
+        "name": "zinc",
+        "description": "A chemical element, a metal used in alloys and for galvanizing iron and steel."
+    },
+    {
+        "name": "air",
+        "description": "A mixture of gases primarily nitrogen, oxygen, and small amounts of other gases, surrounding Earth."
+    },
+    {
+        "name": "aluminum",
+        "description": "A chemical element, a lightweight, silvery-white metal used in many applications."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "nitrogen",
+        "relationship": "is a",
+        "related_concept": "element",
+        "description": "Nitrogen is a single element."
+    },
+    {
+        "concept": "zinc",
+        "relationship": "is a",
+        "related_concept": "element",
+        "description": "Zinc is a single element."
+    },
+    {
+        "concept": "air",
+        "relationship": "is a",
+        "related_concept": "mixture",
+        "description": "Air is a mixture of several gases, not a single element."
+    },
+    {
+        "concept": "aluminum",
+        "relationship": "is a",
+        "related_concept": "element",
+        "description": "Aluminum is a single element."
+    },
+    {
+        "concept": "air",
+        "relationship": "contains",
+        "related_concept": "nitrogen",
+        "description": "Air contains nitrogen as one of its major components."
+    },
+    {
+        "concept": "air",
+        "relationship": "contains",
+        "related_concept": "oxygen",
+        "description": "Air contains oxygen as one of its major components."
+    }
+]
+
+Model Answer: {
+    "answer": "air",
+    "reasoning": "Air is the only option listed that is a mixture and can be separated into several elements such as nitrogen, oxygen, and other gases. Nitrogen, zinc, and aluminum are all single elements and cannot be broken down into simpler substances by chemical means."
+}

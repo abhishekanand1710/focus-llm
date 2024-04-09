@@ -1,0 +1,65 @@
+Key: MCAS_2006_8_35
+
+Question: The Moon orbits Earth at a speed of approximately one kilometer per second. The Moon is kept in orbit by which of the following?
+Options: ['gravity', 'lunar phases', 'magnetism', 'ocean tides']
+Answer: gravity
+
+Model Response:
+Concepts: [
+    {
+        "name": "gravity",
+        "description": "A force that attracts two bodies towards each other"
+    },
+    {
+        "name": "lunar phases",
+        "description": "The shape of the illuminated portion of the Moon as seen from Earth, which changes in a cycle"
+    },
+    {
+        "name": "magnetism",
+        "description": "A force that causes magnetic materials to be attracted to each other"
+    },
+    {
+        "name": "ocean tides",
+        "description": "The rise and fall of sea levels caused by the combined effects of the gravitational forces exerted by the Moon, Sun, and rotation of the Earth"
+    },
+    {
+        "name": "Moon",
+        "description": "Earth's only natural satellite and the fifth largest moon in the Solar System"
+    },
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun and the only astronomical object known to harbor life"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "gravity",
+        "relationship": "keeps_in_orbit",
+        "related_concept": "Moon",
+        "description": "Gravity is the force that keeps the Moon in orbit around the Earth"
+    },
+    {
+        "concept": "Moon",
+        "relationship": "experiences",
+        "related_concept": "lunar phases",
+        "description": "The Moon goes through a cycle of phases as its orientation to Earth changes"
+    },
+    {
+        "concept": "Moon",
+        "relationship": "causes",
+        "related_concept": "ocean tides",
+        "description": "The gravitational pull of the Moon on the Earth's oceans causes tides"
+    },
+    {
+        "concept": "Moon",
+        "relationship": "orbits",
+        "related_concept": "Earth",
+        "description": "The Moon orbits the Earth due to the gravitational attraction between them"
+    }
+]
+
+Model Answer: {
+    "answer": "gravity",
+    "reasoning": "Among the given options, gravity is the only force that acts between all masses in the universe to attract them toward each other. The Moon orbits the Earth due to the Earth's gravitational pull on the Moon. The concept of gravity accurately explains how bodies like the Earth and the Moon are kept in their orbits, while lunar phases, magnetism, and ocean tides are consequences of this gravitational relationship but do not themselves keep the Moon in orbit."
+}

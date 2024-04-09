@@ -1,0 +1,67 @@
+Key: VASoL_2008_3_22
+
+Question: A sign that an apple tree is going to start growing apples is when the tree has ___.
+Options: ['roots', 'seeds', 'leaves', 'flowers']
+Answer: flowers
+
+Model Response:
+Concepts: [
+    {
+        "name": "Apple Tree",
+        "description": "A fruit tree that, when mature, produces apples."
+    },
+    {
+        "name": "Roots",
+        "description": "The part of the tree that grows downward and anchors the tree to the ground while absorbing nutrients and water."
+    },
+    {
+        "name": "Seeds",
+        "description": "The reproductive unit of a tree, capable of growing into a new plant."
+    },
+    {
+        "name": "Leaves",
+        "description": "The green parts that grow from the branches of trees and are responsible for photosynthesis."
+    },
+    {
+        "name": "Flowers",
+        "description": "The reproductive structure in trees that, once pollinated, can lead to fruit production."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Apple Tree",
+        "relationship": "has",
+        "related_concept": "Roots",
+        "description": "An apple tree has roots that support its growth and nutrition intake."
+    },
+    {
+        "concept": "Apple Tree",
+        "relationship": "produces",
+        "related_concept": "Seeds",
+        "description": "An apple tree produces seeds through the fruits it bears."
+    },
+    {
+        "concept": "Apple Tree",
+        "relationship": "has",
+        "related_concept": "Leaves",
+        "description": "An apple tree has leaves that are crucial for photosynthesis."
+    },
+    {
+        "concept": "Apple Tree",
+        "relationship": "produces",
+        "related_concept": "Flowers",
+        "description": "An apple tree produces flowers which are the predecessors to apple fruits."
+    },
+    {
+        "concept": "Flowers",
+        "relationship": "precede",
+        "related_concept": "Seeds",
+        "description": "Flowers precede the formation of seeds, as seeds are contained within the fruit that develops from pollinated flowers."
+    }
+]
+
+Model Answer: {
+    "answer": "flowers",
+    "reasoning": "An apple tree starts to grow apples after it has produced flowers. These flowers, once pollinated, will develop into fruits (apples), which contain the seeds. Therefore, the presence of flowers on an apple tree is a sign that the tree is going to start growing apples."
+}

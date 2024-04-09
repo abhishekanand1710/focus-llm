@@ -1,0 +1,51 @@
+Key: Mercury_7141995
+
+Question: Decomposers are important to the flow of energy in an ecosystem because they
+Options: ['are at the top of every food chain.', 'eat things other organisms do not eat.', 'make up a large portion of the top layer of the soil.', 'break organic material into parts that can be reused.']
+Answer: break organic material into parts that can be reused.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Decomposers",
+        "description": "Organisms that break down dead or decaying organisms, and in doing so, carry out the natural process of decomposition."
+    },
+    {
+        "name": "Flow of Energy in an Ecosystem",
+        "description": "Describes how energy is transferred from one organism to another through the food chain or food web."
+    },
+    {
+        "name": "Organic Material",
+        "description": "Material that comes from or is derived from living organisms."
+    },
+    {
+        "name": "Reuse",
+        "description": "The process of using something again, either in its original form or by converting it into something new."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Decomposers",
+        "relationship": "facilitate",
+        "related_concept": "Flow of Energy in an Ecosystem",
+        "description": "Decomposers facilitate the flow of energy in an ecosystem by breaking down dead organisms and waste."
+    },
+    {
+        "concept": "Decomposers",
+        "relationship": "break down",
+        "related_concept": "Organic Material",
+        "description": "Decomposers break down organic material into simpler substances."
+    },
+    {
+        "concept": "Organic Material",
+        "relationship": "transformed into",
+        "related_concept": "Reuse",
+        "description": "The breakdown of organic material by decomposers allows it to be transformed for reuse in the ecosystem."
+    }
+]
+
+Model Answer: {
+    "answer": "break organic material into parts that can be reused.",
+    "reasoning": "Decomposers play a crucial role in ecosystems by breaking down dead or decaying organic material. This process facilitates the flow of energy in an ecosystem by converting the material into simpler forms that can be reused by other organisms, thus maintaining the cycle of nutrients and energy."
+}

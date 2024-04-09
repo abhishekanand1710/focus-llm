@@ -1,0 +1,57 @@
+Key: Mercury_SC_416515
+
+Question: Which body of water has the fewest plants and animals living in it?
+Options: ['ocean', 'stream', 'glacier', 'estuary']
+Answer: glacier
+
+Model Response:
+Concepts: [
+    {
+        "name": "ocean",
+        "description": "A large body of salt water that covers about 71% of Earth's surface."
+    },
+    {
+        "name": "stream",
+        "description": "A small, narrow river."
+    },
+    {
+        "name": "glacier",
+        "description": "A slowly moving mass or river of ice formed by the accumulation and compaction of snow on mountains or near the poles."
+    },
+    {
+        "name": "estuary",
+        "description": "The tidal mouth of a large river, where the tide meets the stream."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "ocean",
+        "relationship": "contains",
+        "related_concept": "plants and animals",
+        "description": "Oceans contain a wide variety of marine life and ecosystems."
+    },
+    {
+        "concept": "stream",
+        "relationship": "contains",
+        "related_concept": "plants and animals",
+        "description": "Streams support diverse communities of plants and animals adapted to flowing water."
+    },
+    {
+        "concept": "glacier",
+        "relationship": "contains",
+        "related_concept": "fewest plants and animals",
+        "description": "Glaciers are primarily ice and have minimal life forms compared to other bodies of water."
+    },
+    {
+        "concept": "estuary",
+        "relationship": "contains",
+        "related_concept": "plants and animals",
+        "description": "Estuaries are biologically productive and support high biodiversity."
+    }
+]
+
+Model Answer: {
+    "answer": "glacier",
+    "reasoning": "Among the options, glaciers have the fewest plants and animals living in it due to their cold, moving ice environment, which is not conducive to sustaining diverse or large communities of life. Unlike oceans, streams, and estuaries that support a variety of life due to water present in liquid form that allows for a greater range of habitats and nutrient cycling, glaciers are mostly solid ice with very limited life forms."
+}

@@ -1,0 +1,83 @@
+Key: MDSA_2008_8_26
+
+Question: Use the information to answer the question. Over the last 150 years, the use of fossil fuels has increased, resulting in more carbon dioxide and other greenhouse gases in the atmosphere. Some scientists think that these atmospheric gases will result in global warming. Scientists have recorded data on global temperature changes and have predicted possible changes in sea level that may affect Maryland residents. Which result of global warming will most negatively affect coastal residents in Maryland?
+Options: ['loss of shore land', 'erosion of mountains', 'decrease in average temperature', 'increase in the size of the polar ice caps']
+Answer: loss of shore land
+
+Model Response:
+Concepts: [
+    {
+        "name": "fossil fuels",
+        "description": "energy sources formed from the remains of ancient plants and animals"
+    },
+    {
+        "name": "carbon dioxide",
+        "description": "a colorless, odorless gas produced by burning carbon and organic compounds and by respiration"
+    },
+    {
+        "name": "greenhouse gases",
+        "description": "gases in Earth's atmosphere that trap heat"
+    },
+    {
+        "name": "global warming",
+        "description": "the long-term rise in Earth's average temperature"
+    },
+    {
+        "name": "sea level rise",
+        "description": "an increase in the level of the world's oceans due to the effects of global warming"
+    },
+    {
+        "name": "loss of shore land",
+        "description": "the reduction in area of land adjacent to bodies of water as a result of erosion and sea level rise"
+    },
+    {
+        "name": "erosion of mountains",
+        "description": "the gradual wearing away of mountains by natural forces such as water, wind, and ice"
+    },
+    {
+        "name": "decrease in average temperature",
+        "description": "a drop in the overall temperature averages of a specific area or globally"
+    },
+    {
+        "name": "increase in the size of the polar ice caps",
+        "description": "an expansion in the area covered by ice at the Earth's poles"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "fossil fuels",
+        "relationship": "cause",
+        "related_concept": "carbon dioxide",
+        "description": "Burning fossil fuels releases carbon dioxide into the atmosphere"
+    },
+    {
+        "concept": "carbon dioxide",
+        "relationship": "is a",
+        "related_concept": "greenhouse gases",
+        "description": "Carbon dioxide is one type of greenhouse gas"
+    },
+    {
+        "concept": "greenhouse gases",
+        "relationship": "contribute to",
+        "related_concept": "global warming",
+        "description": "Greenhouse gases trap heat in the atmosphere and contribute to global warming"
+    },
+    {
+        "concept": "global warming",
+        "relationship": "causes",
+        "related_concept": "sea level rise",
+        "description": "Global warming leads to the melting of ice caps and thermal expansion of seawater, causing sea levels to rise"
+    },
+    {
+        "concept": "sea level rise",
+        "relationship": "results in",
+        "related_concept": "loss of shore land",
+        "description": "As sea levels rise, shore land is submerged or eroded away"
+    }
+]
+
+Model Answer: {
+    "answer": "loss of shore land",
+    "reasoning": "Based on the concepts and their relationships, the most direct impact of global warming on coastal residents in Maryland would be the loss of shore land. This is because the burning of fossil fuels increases the amount of greenhouse gases in the atmosphere, which contributes to global warming. Global warming, in turn, causes the sea level to rise. The rise in sea level directly results in the loss of shore land, affecting coastal residents in Maryland by potentially reducing the amount of land available and threatening infrastructure and homes."
+}

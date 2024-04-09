@@ -1,0 +1,61 @@
+Key: Mercury_7077700
+
+Question: If a book sitting on a flat table starts to move horizontally, it is most likely moving because
+Options: ['a balanced force is being applied.', 'a frictional force is being exerted.', 'an unbalanced force is being applied.', 'a gravitational force is being exerted.']
+Answer: an unbalanced force is being applied.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Balanced Force",
+        "description": "Force that does not cause a change in the object's motion when equal in magnitude and opposite in direction to other forces acting on the object."
+    },
+    {
+        "name": "Frictional Force",
+        "description": "The force exerted by a surface as an object moves across it or makes an effort to move across it."
+    },
+    {
+        "name": "Unbalanced Force",
+        "description": "Force that causes a change in an object's motion because it is not equal in magnitude and opposite in direction to other forces acting on the object."
+    },
+    {
+        "name": "Gravitational Force",
+        "description": "A force that attracts any objects with mass towards each other."
+    },
+    {
+        "name": "Horizontal Movement",
+        "description": "Movement in a direction parallel to the plane of the horizon."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Balanced Force",
+        "relationship": "does not lead to",
+        "related_concept": "Horizontal Movement",
+        "description": "Balanced forces do not cause any change in motion."
+    },
+    {
+        "concept": "Frictional Force",
+        "relationship": "opposes",
+        "related_concept": "Horizontal Movement",
+        "description": "Frictional force often opposes the motion of objects across surfaces."
+    },
+    {
+        "concept": "Unbalanced Force",
+        "relationship": "causes",
+        "related_concept": "Horizontal Movement",
+        "description": "An unbalanced force causes an object to start moving, stop moving, or change direction."
+    },
+    {
+        "concept": "Gravitational Force",
+        "relationship": "causes",
+        "related_concept": "Vertical Movement",
+        "description": "Gravitational force causes vertical movement or vertical forces acting on objects."
+    }
+]
+
+Model Answer: {
+    "answer": "an unbalanced force is being applied.",
+    "reasoning": "An unbalanced force is necessary to change an object's state of motion. Since the book is starting to move horizontally and there's a change in motion, this indicates that an unbalanced force is being applied. Balanced forces cannot cause such a change, frictional forces oppose movement (though they don't initiate motion), and gravitational forces act vertically, not horizontally."
+}

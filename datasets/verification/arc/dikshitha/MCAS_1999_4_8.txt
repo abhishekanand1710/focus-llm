@@ -1,0 +1,83 @@
+Key: MCAS_1999_4_8
+
+Question: Which item below is NOT made from a material grown in nature?
+Options: ['a cotton shirt', 'a wooden chair', 'a plastic spoon', 'a grass basket']
+Answer: a plastic spoon
+
+Model Response:
+Concepts: [
+    {
+        "name": "cotton shirt",
+        "description": "A garment made from the fibers of the cotton plant."
+    },
+    {
+        "name": "wooden chair",
+        "description": "A piece of furniture made out of wood."
+    },
+    {
+        "name": "plastic spoon",
+        "description": "A utensil made from plastic, a synthetic material derived from petroleum."
+    },
+    {
+        "name": "grass basket",
+        "description": "A container woven from grass."
+    },
+    {
+        "name": "cotton",
+        "description": "A natural fiber that grows around the seeds of the cotton plant."
+    },
+    {
+        "name": "wood",
+        "description": "The hard, fibrous substance composing the trunk and branches of trees."
+    },
+    {
+        "name": "plastic",
+        "description": "A wide range of synthetic or semi-synthetic materials that are malleable."
+    },
+    {
+        "name": "grass",
+        "description": "Plants with narrow leaves growing from the base."
+    },
+    {
+        "name": "petroleum",
+        "description": "A liquid mixture of hydrocarbons which is present in certain rock strata and can be extracted to produce energy."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "cotton shirt",
+        "relationship": "made_of",
+        "related_concept": "cotton",
+        "description": "A cotton shirt is made from the fibers of the cotton plant."
+    },
+    {
+        "concept": "wooden chair",
+        "relationship": "made_of",
+        "related_concept": "wood",
+        "description": "A wooden chair is made out of wood."
+    },
+    {
+        "concept": "plastic spoon",
+        "relationship": "made_of",
+        "related_concept": "plastic",
+        "description": "A plastic spoon is made from plastic."
+    },
+    {
+        "concept": "grass basket",
+        "relationship": "made_of",
+        "related_concept": "grass",
+        "description": "A grass basket is woven from grass."
+    },
+    {
+        "concept": "plastic",
+        "relationship": "derived_from",
+        "related_concept": "petroleum",
+        "description": "Plastic is derived from petroleum, a non-renewable resource unlike natural fibers or wood."
+    }
+]
+
+Model Answer: {
+    "answer": "a plastic spoon",
+    "reasoning": "Among the options provided, the items made from materials grown in nature include a cotton shirt (made from cotton), a wooden chair (made from wood), and a grass basket (made from grass). However, a plastic spoon is made from plastic, which is derived from petroleum and not grown in nature. This makes the plastic spoon the correct answer as it is not made from a material that is naturally grown."
+}

@@ -1,0 +1,53 @@
+Key: NYSEDREGENTS_2005_4_28
+
+Question: When a baby shakes a rattle, it makes a noise. Which form of energy was changed to sound energy?
+Options: ['electrical', 'light', 'mechanical', 'heat']
+Answer: mechanical
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sound Energy",
+        "description": "Energy produced by vibrating objects."
+    },
+    {
+        "name": "Mechanical Energy",
+        "description": "The energy of objects in motion or in a position to move."
+    },
+    {
+        "name": "Heat Energy",
+        "description": "Energy in the form of heat released or absorbed during a chemical or physical change."
+    },
+    {
+        "name": "Light Energy",
+        "description": "Energy that is made visible in the form of light."
+    },
+    {
+        "name": "Electrical Energy",
+        "description": "Energy caused by the movement of electrons."
+    },
+    {
+        "name": "Baby Shaking a Rattle",
+        "description": "Physical action of moving a rattle back and forth."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Baby Shaking a Rattle",
+        "relationship": "converts",
+        "related_concept": "Mechanical Energy",
+        "description": "The action of shaking the rattle converts physical effort into mechanical energy."
+    },
+    {
+        "concept": "Mechanical Energy",
+        "relationship": "transformed to",
+        "related_concept": "Sound Energy",
+        "description": "The mechanical energy from the rattle is transformed into sound energy."
+    }
+]
+
+Model Answer: {
+    "answer": "mechanical",
+    "reasoning": "When a baby shakes a rattle, the physical action or effort put into the shaking is an example of mechanical energy being used. This mechanical energy is then converted into sound energy as the rattle makes noise. This transformation is a process where the movement and energy involved in the act of shaking are directly responsible for the generation of sound."
+}

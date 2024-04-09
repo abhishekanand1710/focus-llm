@@ -1,0 +1,71 @@
+Key: Mercury_LBS10252
+
+Question: All of the following contain metric units of measurement except
+Options: ['g, kg, cg', 'dL, L, mL', 'ft, yd, mi', 'N, J, W']
+Answer: ft, yd, mi
+
+Model Response:
+Concepts: [
+    {
+        "name": "g, kg, cg",
+        "description": "Units for measuring mass in the metric system."
+    },
+    {
+        "name": "dL, L, mL",
+        "description": "Units for measuring volume or capacity in the metric system."
+    },
+    {
+        "name": "ft, yd, mi",
+        "description": "Units for measuring length or distance in the imperial system."
+    },
+    {
+        "name": "N, J, W",
+        "description": "Units for measuring force (Newton), energy (Joule), and power (Watt) in the metric system."
+    },
+    {
+        "name": "Metric System",
+        "description": "A decimal system of weights and measures based on the meter, liter, and gram."
+    },
+    {
+        "name": "Imperial System",
+        "description": "A system of weights and measures used in the UK and the US, based on units like feet, yards, and miles."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "g, kg, cg",
+        "relationship": "part_of",
+        "related_concept": "Metric System",
+        "description": "Grams, kilograms, and centigrams are part of the metric system."
+    },
+    {
+        "concept": "dL, L, mL",
+        "relationship": "part_of",
+        "related_concept": "Metric System",
+        "description": "Deciliters, liters, and milliliters are part of the metric system."
+    },
+    {
+        "concept": "ft, yd, mi",
+        "relationship": "part_of",
+        "related_concept": "Imperial System",
+        "description": "Feet, yards, and miles are part of the imperial system."
+    },
+    {
+        "concept": "N, J, W",
+        "relationship": "part_of",
+        "related_concept": "Metric System",
+        "description": "Newtons, Joules, and Watts are part of the metric system."
+    },
+    {
+        "concept": "Metric System",
+        "relationship": "opposite_of",
+        "related_concept": "Imperial System",
+        "description": "The Metric System is fundamentally different and separate from the Imperial System."
+    }
+]
+
+Model Answer: {
+    "answer": "ft, yd, mi",
+    "reasoning": "All options except 'ft, yd, mi' are units used in the metric system. 'ft (feet), yd (yards), mi (miles)' are units of measurement used in the imperial system, which measures length or distance. Hence, 'ft, yd, mi' does not contain metric units of measurement."
+}

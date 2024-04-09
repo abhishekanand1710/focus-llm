@@ -1,0 +1,75 @@
+Key: Mercury_7263165
+
+Question: The cellular membrane surrounds every human cell. The membrane protects the cell and transmits information about the cell's surroundings to organelles inside the cell. What organ system provides a similar function in the human body?
+Options: ['endocrine system', 'skeletal system', 'integumentary system', 'lymphatic system']
+Answer: integumentary system
+
+Model Response:
+Concepts: [
+    {
+        "name": "cellular membrane",
+        "description": "A lipid bilayer that surrounds a cell, protecting it and managing the entry and exit of substances."
+    },
+    {
+        "name": "human cell",
+        "description": "The basic structural, functional, and biological unit of all living organisms."
+    },
+    {
+        "name": "organelles",
+        "description": "Specialized structures within a cell that perform specific functions."
+    },
+    {
+        "name": "endocrine system",
+        "description": "A collection of glands that produce hormones to regulate metabolism, growth, and tissue function."
+    },
+    {
+        "name": "skeletal system",
+        "description": "The framework of bones and other tissues that support the body's muscles and organs."
+    },
+    {
+        "name": "integumentary system",
+        "description": "The organ system that includes the skin and its associated structures, protecting the body and receiving sensory stimuli."
+    },
+    {
+        "name": "lymphatic system",
+        "description": "The network of vessels through which lymph drains from the tissues into the blood."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "cellular membrane",
+        "relationship": "surrounds",
+        "related_concept": "human cell",
+        "description": "The cellular membrane encloses the contents of human cells, providing structure and protection."
+    },
+    {
+        "concept": "cellular membrane",
+        "relationship": "transmits information",
+        "related_concept": "organelles",
+        "description": "The membrane communicates changes from the cell's environment to its internal organelles."
+    },
+    {
+        "concept": "integumentary system",
+        "relationship": "protects",
+        "related_concept": "human body",
+        "description": "The integumentary system, mainly the skin, serves as a barrier protecting the body from external harm."
+    },
+    {
+        "concept": "integumentary system",
+        "relationship": "receives sensory stimuli",
+        "related_concept": "environment",
+        "description": "It collects information about the environment through sensory receptors."
+    },
+    {
+        "concept": "integumentary system",
+        "relationship": "similar function",
+        "related_concept": "cellular membrane",
+        "description": "Both structures protect and relay information about their respective environments."
+    }
+]
+
+Model Answer: {
+    "answer": "integumentary system",
+    "reasoning": "The integumentary system is analogous to the cellular membrane in its functions of protection and information transmission regarding the surroundings. This system, comprising primarily the skin, acts as a protective barrier for the body, much like the cellular membrane does for the cell, and it also gathers sensory inputs from the environment, which is comparable to the membrane's role in signaling conditions to the cell's interior."
+}

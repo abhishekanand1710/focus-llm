@@ -1,0 +1,81 @@
+Key: MCAS_1998_4_3
+
+Question: Which of the following is a trait that a dog does NOT inherit from its parents?
+Options: ['the length of its fur', 'the shape of its nose', 'the size of its appetite', 'the color of its fur']
+Answer: the size of its appetite
+
+Model Response:
+Concepts: [
+    {
+        "name": "Length of fur",
+        "description": "The measure of how long a dog's fur is"
+    },
+    {
+        "name": "Shape of nose",
+        "description": "The physical form or contour of a dog's nose"
+    },
+    {
+        "name": "Size of its appetite",
+        "description": "The amount of food a dog desires or consumes"
+    },
+    {
+        "name": "Color of fur",
+        "description": "The pigmentation of a dog's fur"
+    },
+    {
+        "name": "Genetics",
+        "description": "The study of heredity and the variation of inherited characteristics"
+    },
+    {
+        "name": "Inherited traits",
+        "description": "Traits or characteristics that are passed down from parents to their offspring through genes"
+    },
+    {
+        "name": "Non-inherited traits",
+        "description": "Traits that are not directly passed down from parents to their offspring through genes"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Length of fur",
+        "relationship": "is an attribute of",
+        "related_concept": "Inherited traits",
+        "description": "The length of a dog's fur is an inherited trait from its parents"
+    },
+    {
+        "concept": "Shape of nose",
+        "relationship": "is an attribute of",
+        "related_concept": "Inherited traits",
+        "description": "The shape of a dog's nose is determined genetically and is an inherited trait"
+    },
+    {
+        "concept": "Color of fur",
+        "relationship": "is an attribute of",
+        "related_concept": "Inherited traits",
+        "description": "The color of a dog's fur is determined by genetics, making it an inherited trait"
+    },
+    {
+        "concept": "Size of its appetite",
+        "relationship": "is an attribute of",
+        "related_concept": "Non-inherited traits",
+        "description": "The size of a dog's appetite can be influenced by factors other than genetics, making it a non-inherited trait"
+    },
+    {
+        "concept": "Inherited traits",
+        "relationship": "is studied under",
+        "related_concept": "Genetics",
+        "description": "Inherited traits are studied under the field of genetics to understand heredity"
+    },
+    {
+        "concept": "Non-inherited traits",
+        "relationship": "is contrasted with",
+        "related_concept": "Inherited traits",
+        "description": "Non-inherited traits are those traits that do not come directly from parental genetics"
+    }
+]
+
+Model Answer: {
+    "answer": "the size of its appetite",
+    "reasoning": "Among the options provided, 'the size of its appetite' is not a trait that a dog inherently inherits from its parents through genetics. While genetics can influence aspects of metabolism and general health that might indirectly affect appetite, the size of a dog's appetite is more directly influenced by external factors such as diet, exercise, and environmental conditions, making it a non-inherited trait. In contrast, the length and color of a dog's fur, and the shape of its nose, are direct results of genetic inheritance."
+}

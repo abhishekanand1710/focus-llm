@@ -1,0 +1,57 @@
+Key: Mercury_7228288
+
+Question: At what level of organization does damage compromise the function of the whole system?
+Options: ['a cell', 'an organ', 'a tissue', 'an organelle']
+Answer: an organ
+
+Model Response:
+Concepts: [
+    {
+        "name": "a cell",
+        "description": "The basic structural, functional, and biological unit of all living organisms."
+    },
+    {
+        "name": "an organ",
+        "description": "A part of an organism that is typically self-contained and has a specific vital function."
+    },
+    {
+        "name": "a tissue",
+        "description": "An ensemble of similar cells and their extracellular matrix from the same origin that together carry out a specific function."
+    },
+    {
+        "name": "an organelle",
+        "description": "A specialized subunit within a cell that has a specific function."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "an organelle",
+        "relationship": "is part of",
+        "related_concept": "a cell",
+        "description": "Organelles are components that make up cells, contributing to their function."
+    },
+    {
+        "concept": "a cell",
+        "relationship": "is part of",
+        "related_concept": "a tissue",
+        "description": "Cells combine to form tissues, which perform specific functions in organisms."
+    },
+    {
+        "concept": "a tissue",
+        "relationship": "is part of",
+        "related_concept": "an organ",
+        "description": "Different tissues come together to form an organ, enabling the complex functions it performs."
+    },
+    {
+        "concept": "an organ",
+        "relationship": "is part of",
+        "related_concept": "the whole system",
+        "description": "Organs are components that work together within systems of the body to perform vital functions."
+    }
+]
+
+Model Answer: {
+    "answer": "an organ",
+    "reasoning": "An organ is comprised of different tissues working together to perform specific, complex functions vital for the organism's survival. Damage to an organ compromises its ability to function properly, which can impair the whole system it belongs to. For instance, damage to the heart affects the circulatory system's ability to pump blood, impacting the entire organism. While cells and organelles are crucial for life, their damage doesn't always compromise the function of the whole system to the same extent as organ damage can."
+}

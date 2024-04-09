@@ -1,0 +1,65 @@
+Key: ACTAAP_2008_5_6
+
+Question: A student is asked to make soil using the following substances: water, ore, humus, crystal, weathered rock, and metamorphic rock. Which combination of these substances should the student choose?
+Options: ['humus, crystal, and ore', 'water, weathered rock, and humus', 'water, metamorphic rock, and crystal', 'metamorphic rock, ore, and weathered rock']
+Answer: water, weathered rock, and humus
+
+Model Response:
+Concepts: [
+    {
+        "name": "water",
+        "description": "a vital component in soil creation, aiding in mineral dissolution and organic matter decomposition"
+    },
+    {
+        "name": "ore",
+        "description": "a naturally occurring solid material from which a metal or valuable mineral can be extracted"
+    },
+    {
+        "name": "humus",
+        "description": "organic component of soil, formed by the decomposition of leaves and other plant material"
+    },
+    {
+        "name": "crystal",
+        "description": "a solid material whose constituents, such as atoms, molecules, or ions, are arranged in a highly ordered microscopic structure"
+    },
+    {
+        "name": "weathered rock",
+        "description": "rocks that have been broken down over time by the effects of weathering and erosion"
+    },
+    {
+        "name": "metamorphic rock",
+        "description": "rock that was once one form of rock but has changed to another under the influence of heat, pressure, or some other agent without passing through a liquid phase"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "water",
+        "relationship": "facilitates",
+        "related_concept": "weathered rock",
+        "description": "Water aids in the weathering process of rock, breaking it down into smaller particles"
+    },
+    {
+        "concept": "humus",
+        "relationship": "contributes",
+        "related_concept": "soil",
+        "description": "Humus is a key organic component that enriches the soil"
+    },
+    {
+        "concept": "weathered rock",
+        "relationship": "forms base",
+        "related_concept": "soil",
+        "description": "Weathered rock particles are primary inorganic components of soil"
+    },
+    {
+        "concept": "water",
+        "relationship": "mixes with",
+        "related_concept": "humus and weathered rock",
+        "description": "Water combines with humus and weathered rock to create a hospitable environment for soil formation"
+    }
+]
+
+Model Answer: {
+    "answer": "'water, weathered rock, and humus'",
+    "reasoning": "The combination of water, weathered rock, and humus creates an ideal mix for soil formation. Water facilitates the breakdown of rocks (weathering) and aids in the decomposition of organic matter, forming humus. Weathered rock provides mineral content necessary for soil structure, while humus enriches the soil with organic matter. This mixture of mineral and organic components is essential for fertile soil. The other options contain elements like ore, crystal, and metamorphic rock, which are not typically involved in the basic composition of soil."
+}

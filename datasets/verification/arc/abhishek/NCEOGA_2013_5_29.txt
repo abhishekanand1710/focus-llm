@@ -1,0 +1,61 @@
+Key: NCEOGA_2013_5_29
+
+Question: Andy lives in the southern hemisphere. What season does he most likely experience in August?
+Options: ['spring', 'summer', 'winter', 'autumn']
+Answer: winter
+
+Model Response:
+Concepts: [
+    {
+        "name": "Southern Hemisphere",
+        "description": "The half of the Earth that is south of the equator"
+    },
+    {
+        "name": "August",
+        "description": "The eighth month of the year"
+    },
+    {
+        "name": "Winter",
+        "description": "The coldest season of the year, occurring between autumn and spring"
+    },
+    {
+        "name": "Seasons",
+        "description": "Periods of the year characterized by specific weather conditions, temperatures, and length of day"
+    },
+    {
+        "name": "Equator",
+        "description": "An imaginary line around the middle of the Earth, equidistant from the North Pole and South Pole"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Southern Hemisphere",
+        "relationship": "experiences",
+        "related_concept": "Winter",
+        "description": "The Southern Hemisphere experiences winter when the Northern Hemisphere experiences summer"
+    },
+    {
+        "concept": "August",
+        "relationship": "is within",
+        "related_concept": "Winter",
+        "description": "August falls within the winter months in the Southern Hemisphere"
+    },
+    {
+        "concept": "Equator",
+        "relationship": "divides",
+        "related_concept": "Southern Hemisphere",
+        "description": "The Equator divides the Earth into the Southern and Northern Hemispheres"
+    },
+    {
+        "concept": "Seasons",
+        "relationship": "are determined by",
+        "related_concept": "Equator",
+        "description": "Seasons are determined by a region's distance from the Equator and its tilt relative to the Sun"
+    }
+]
+
+Model Answer: {
+    "answer": "winter",
+    "reasoning": "Since Andy lives in the Southern Hemisphere and August is mentioned, and considering that in the Southern Hemisphere, the months of June to August are typically considered winter months, Andy most likely experiences winter in August."
+}

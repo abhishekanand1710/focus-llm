@@ -1,0 +1,75 @@
+Key: MDSA_2007_5_50
+
+Question: Coal and trees are resources found in Maryland. Both resources are used for
+Options: ['making paper', 'making pencils', 'building houses', 'producing heat']
+Answer: producing heat
+
+Model Response:
+Concepts: [
+    {
+        "name": "Coal",
+        "description": "A fossil fuel used primarily for energy and heat production"
+    },
+    {
+        "name": "Trees",
+        "description": "Plants with an elongated stem, or trunk, supporting branches and leaves, used for various purposes including lumber and paper"
+    },
+    {
+        "name": "Maryland",
+        "description": "A state in the United States known for its varied landscapes and natural resources"
+    },
+    {
+        "name": "Making paper",
+        "description": "The process of converting raw materials such as wood pulp into paper products"
+    },
+    {
+        "name": "Making pencils",
+        "description": "The manufacturing process of producing pencils, often using wood and graphite"
+    },
+    {
+        "name": "Building houses",
+        "description": "The construction of dwellings using various materials, including wood from trees"
+    },
+    {
+        "name": "Producing heat",
+        "description": "The generation of thermal energy for various applications, such as heating buildings"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Coal",
+        "relationship": "used for",
+        "related_concept": "Producing heat",
+        "description": "Coal is a dense energy source primarily used to produce heat through combustion"
+    },
+    {
+        "concept": "Trees",
+        "relationship": "source of material for",
+        "related_concept": "Making paper",
+        "description": "Trees are processed into pulp which is then used to manufacture paper"
+    },
+    {
+        "concept": "Trees",
+        "relationship": "source of material for",
+        "related_concept": "Building houses",
+        "description": "Wood from trees is a primary material used in the construction of houses"
+    },
+    {
+        "concept": "Maryland",
+        "relationship": "location of resource",
+        "related_concept": "Coal",
+        "description": "Maryland has deposits of coal, making it a location where coal is found"
+    },
+    {
+        "concept": "Maryland",
+        "relationship": "location of resource",
+        "related_concept": "Trees",
+        "description": "Maryland's varied landscapes include forests that provide a source of trees"
+    }
+]
+
+Model Answer: {
+    "answer": "producing heat",
+    "reasoning": "Among the provided options, coal is predominantly used for producing heat through combustion, which fits its primary use in energy production. Trees, while versatile, are listed here in the context of being used for paper, pencils, building houses, and indirectly related to producing heat as wood can also be used for heating. However, 'producing heat' directly correlates with coal's primary function and is an application both coal and trees can fulfill (with trees being used for firewood), making it the most accurate answer from the given options."
+}

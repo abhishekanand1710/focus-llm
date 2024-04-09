@@ -1,0 +1,61 @@
+Key: MCAS_1999_8_6
+
+Question: Which are produced during photosynthesis?
+Options: ['carbon dioxide and minerals', 'carbon dioxide and sugar', 'oxygen and minerals', 'oxygen and sugar']
+Answer: oxygen and sugar
+
+Model Response:
+Concepts: [
+    {
+        "name": "Photosynthesis",
+        "description": "A process used by plants and other organisms to convert light energy into chemical energy that can later be released to fuel the organism's activities."
+    },
+    {
+        "name": "Carbon dioxide",
+        "description": "A colorless gas with a density about 53% higher than that of dry air. Plants absorb carbon dioxide during photosynthesis."
+    },
+    {
+        "name": "Minerals",
+        "description": "Inorganic substances required by the body for various functions, and absorbed by plants from the soil."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A chemical element with symbol O and atomic number 8; it is a byproduct of photosynthesis."
+    },
+    {
+        "name": "Sugar",
+        "description": "Organic compounds that plants produce during photosynthesis; primarily glucose."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Photosynthesis",
+        "relationship": "consumes",
+        "related_concept": "Carbon dioxide",
+        "description": "Photosynthesis uses carbon dioxide as a raw material."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "produces",
+        "related_concept": "Oxygen",
+        "description": "Photosynthesis releases oxygen as a byproduct."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "produces",
+        "related_concept": "Sugar",
+        "description": "Photosynthesis synthesizes sugars as an end product."
+    },
+    {
+        "concept": "Minerals",
+        "relationship": "used_by",
+        "related_concept": "Plants",
+        "description": "Plants absorb minerals from the soil for various functions, not directly related to photosynthesis."
+    }
+]
+
+Model Answer: {
+    "answer": "oxygen and sugar",
+    "reasoning": "During photosynthesis, plants absorb carbon dioxide (CO2) and water (H2O) and convert them into sugar (glucose) for energy and growth, releasing oxygen (O2) as a byproduct. Therefore, 'oxygen and sugar' are the two main products of photosynthesis, making it the correct answer."
+}

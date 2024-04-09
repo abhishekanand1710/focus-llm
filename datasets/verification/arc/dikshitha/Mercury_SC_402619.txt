@@ -1,0 +1,65 @@
+Key: Mercury_SC_402619
+
+Question: What part of the water cycle takes place when water from clouds falls back to Earth?
+Options: ['transpiration', 'evaporation', 'condensation', 'precipitation']
+Answer: precipitation
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water Cycle",
+        "description": "The journey water takes as it circulates from the land to the sky and back again"
+    },
+    {
+        "name": "Clouds",
+        "description": "A visible mass of condensed water vapor floating in the atmosphere"
+    },
+    {
+        "name": "Transpiration",
+        "description": "The process by which moisture is carried through plants from roots to small pores on the underside of leaves, where it changes to vapor and is released to the atmosphere"
+    },
+    {
+        "name": "Evaporation",
+        "description": "The process by which water changes from a liquid to a gas or vapor"
+    },
+    {
+        "name": "Condensation",
+        "description": "The process by which water vapor in the air is changed into liquid water"
+    },
+    {
+        "name": "Precipitation",
+        "description": "Any form of water - liquid or solid - falling from clouds and reaching the ground"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Evaporation",
+        "relationship": "leads to",
+        "related_concept": "Condensation",
+        "description": "Evaporation of water leads to its condensation as it cools in the atmosphere, forming clouds"
+    },
+    {
+        "concept": "Condensation",
+        "relationship": "results in",
+        "related_concept": "Clouds",
+        "description": "Condensation of water vapor leads to the formation of clouds in the atmosphere"
+    },
+    {
+        "concept": "Clouds",
+        "relationship": "lead to",
+        "related_concept": "Precipitation",
+        "description": "Clouds are a key component in the process that leads to precipitation"
+    },
+    {
+        "concept": "Transpiration",
+        "relationship": "contributes to",
+        "related_concept": "Evaporation",
+        "description": "Transpiration from plants contributes to the overall evaporation of water into the atmosphere"
+    }
+]
+
+Model Answer: {
+    "answer": "precipitation",
+    "reasoning": "Precipitation is the part of the water cycle where water in its various forms falls back to Earth from clouds. This is the direct process that relates to water coming from the clouds and reaching the ground, as described in the question."
+}

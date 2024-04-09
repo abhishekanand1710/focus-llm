@@ -1,0 +1,65 @@
+Key: MCAS_2007_8_5166
+
+Question: The ocean water near the equator absorbs more heat throughout the year than ocean water near the North Pole. Which of the following best explains this difference?
+Options: ['The equator is closer to the Sun.', 'The equator has higher sea levels.', 'The equator receives more direct sunlight.', "The equator rotates more quickly on Earth's axis."]
+Answer: The equator receives more direct sunlight.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Equator",
+        "description": "An imaginary line around the middle of the Earth, equidistant from the North and South Poles."
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of our solar system, which provides the Earth with light and heat."
+    },
+    {
+        "name": "Sea Levels",
+        "description": "The average level of the surface of the ocean measured along a shoreline."
+    },
+    {
+        "name": "Direct Sunlight",
+        "description": "Sunlight that travels along a straight path from the Sun to the Earth without being scattered or reflected."
+    },
+    {
+        "name": "Earth's Axis",
+        "description": "An imaginary line around which Earth rotates, extending between the North Pole and the South Pole."
+    },
+    {
+        "name": "Heat Absorption",
+        "description": "The process by which an object takes in heat energy from its surroundings."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Equator",
+        "relationship": "receives",
+        "related_concept": "Direct Sunlight",
+        "description": "The Equator receives more direct sunlight because of the Earth's curvature, leading to more heat absorption."
+    },
+    {
+        "concept": "Direct Sunlight",
+        "relationship": "causes",
+        "related_concept": "Heat Absorption",
+        "description": "More direct sunlight causes greater heat absorption in ocean waters."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "provides",
+        "related_concept": "Direct Sunlight",
+        "description": "The Sun provides direct sunlight that reaches the Earth."
+    },
+    {
+        "concept": "Earth's Axis",
+        "relationship": "affects",
+        "related_concept": "Direct Sunlight",
+        "description": "The tilt of Earth's axis affects the angle of sunlight, influencing how directly sunlight strikes different parts of the Earth."
+    }
+]
+
+Model Answer: {
+    "answer": "The equator receives more direct sunlight.",
+    "reasoning": "The reason why ocean water near the Equator absorbs more heat throughout the year than ocean water near the North Pole is because it receives more direct sunlight. This is a result of the Earth's curvature and its axial tilt, ensuring the Equator is consistently exposed to direct and intense solar rays compared to the poles. Direct sunlight carries more energy, leading to greater heat absorption in the regions it strikes more directly, which in this case is the Equatorial regions."
+}

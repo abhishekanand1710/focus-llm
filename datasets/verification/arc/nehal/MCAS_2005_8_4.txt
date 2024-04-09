@@ -1,0 +1,67 @@
+Key: MCAS_2005_8_4
+
+Question: Which of the following is an example of a physical change?
+Options: ['lighting a match', 'breaking a glass', 'burning of gasoline', 'rusting of iron']
+Answer: breaking a glass
+
+Model Response:
+Concepts: [
+    {
+        "name": "physical change",
+        "description": "A change in which the form or appearance of matter changes but not its composition"
+    },
+    {
+        "name": "lighting a match",
+        "description": "A chemical process where the match head ignites due to friction"
+    },
+    {
+        "name": "breaking a glass",
+        "description": "A physical change where glass is fractured into pieces without altering its chemical composition"
+    },
+    {
+        "name": "burning of gasoline",
+        "description": "A chemical reaction where gasoline combusts with oxygen releasing energy, CO2, and water"
+    },
+    {
+        "name": "rusting of iron",
+        "description": "A chemical change where iron reacts with oxygen and water to form rust"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "lighting a match",
+        "relationship": "is a",
+        "related_concept": "chemical change",
+        "description": "Lighting a match involves chemical reactions, making it a chemical change"
+    },
+    {
+        "concept": "breaking a glass",
+        "relationship": "is a",
+        "related_concept": "physical change",
+        "description": "Breaking a glass changes its form but not its chemical composition, defining a physical change"
+    },
+    {
+        "concept": "burning of gasoline",
+        "relationship": "is a",
+        "related_concept": "chemical change",
+        "description": "Burning of gasoline involves a chemical reaction, categorizing it as a chemical change"
+    },
+    {
+        "concept": "rusting of iron",
+        "relationship": "is a",
+        "related_concept": "chemical change",
+        "description": "Rusting of iron is a reaction with oxygen and water, marking it as a chemical change"
+    },
+    {
+        "concept": "physical change",
+        "relationship": "includes",
+        "related_concept": "breaking a glass",
+        "description": "Physical changes include changes in the state or form of matter without altering chemical composition"
+    }
+]
+
+Model Answer: {
+    "answer": "breaking a glass",
+    "reasoning": "Breaking a glass represents a physical change because it results in a change of form or appearance without altering the substance's chemical composition. The other options represent chemical changes, where the chemical composition of the starting material changes."
+}

@@ -1,0 +1,57 @@
+Key: Mercury_SC_409578
+
+Question: Drew knows that Earth is tilted on its axis. He also knows this tilt is responsible for the season that a region on Earth will experience. When the South Pole is tilted toward the Sun, what season will it be in Florida?
+Options: ['fall', 'spring', 'summer', 'winter']
+Answer: winter
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's axial tilt",
+        "description": "The angle at which Earth's axis is tilted relative to its orbital plane around the Sun"
+    },
+    {
+        "name": "Seasons",
+        "description": "Periods of the year characterized by specific weather conditions, temperatures, and length of day"
+    },
+    {
+        "name": "South Pole's tilt toward the Sun",
+        "description": "Occurs when the Southern Hemisphere of Earth is tilted towards the Sun, receiving more direct sunlight"
+    },
+    {
+        "name": "Florida",
+        "description": "A state located in the southeastern region of the United States, part of the Northern Hemisphere"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's axial tilt",
+        "relationship": "causes",
+        "related_concept": "Seasons",
+        "description": "The tilt of Earth's axis is responsible for the changing seasons"
+    },
+    {
+        "concept": "South Pole's tilt toward the Sun",
+        "relationship": "indicates",
+        "related_concept": "Seasons in Southern Hemisphere",
+        "description": "When the South Pole tilts toward the Sun, it indicates summer in the Southern Hemisphere"
+    },
+    {
+        "concept": "Florida",
+        "relationship": "located_in",
+        "related_concept": "Northern Hemisphere",
+        "description": "Florida is located in the Northern Hemisphere, opposite to the hemisphere of the South Pole"
+    },
+    {
+        "concept": "Seasons in Southern Hemisphere",
+        "relationship": "opposite_of",
+        "related_concept": "Seasons in Northern Hemisphere",
+        "description": "Seasons in the Southern Hemisphere are opposite to those in the Northern Hemisphere"
+    }
+]
+
+Model Answer: {
+    "answer": "winter",
+    "reasoning": "When the South Pole is tilted towards the Sun, it indicates that the Southern Hemisphere is experiencing its summer season due to receiving more direct sunlight. Given that the seasons in the Southern Hemisphere are opposite to those in the Northern Hemisphere, and since Florida is located in the Northern Hemisphere, it will be experiencing winter at this time."
+}

@@ -1,0 +1,77 @@
+Key: Mercury_7164798
+
+Question: The students observed a large crack found in a boulder with a tree growing out of it. Which process were the students observing?
+Options: ['oxidizing', 'deposition', 'weathering', 'decomposition']
+Answer: weathering
+
+Model Response:
+Concepts: [
+    {
+        "name": "oxidizing",
+        "description": "a chemical reaction of a substance combining with oxygen"
+    },
+    {
+        "name": "deposition",
+        "description": "the geological process by which sediments, soil, and rocks are added to a landform or land mass"
+    },
+    {
+        "name": "weathering",
+        "description": "the process of breaking down rocks, soil, and minerals through natural, chemical, or biological processes"
+    },
+    {
+        "name": "decomposition",
+        "description": "the process by which organic substances are broken down into simpler organic or inorganic matter"
+    },
+    {
+        "name": "boulder",
+        "description": "a large rock, typically one that has been transported from its original site by geological processes"
+    },
+    {
+        "name": "tree",
+        "description": "a perennial plant with an elongated stem, or trunk, supporting branches and leaves"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "weathering",
+        "relationship": "causes",
+        "related_concept": "crack in boulder",
+        "description": "Weathering leads to the formation of cracks in rocks and boulders."
+    },
+    {
+        "concept": "crack in boulder",
+        "relationship": "provides space for",
+        "related_concept": "tree growth",
+        "description": "The crack in the boulder creates space for soil accumulation and tree roots to grow."
+    },
+    {
+        "concept": "tree",
+        "relationship": "grows from",
+        "related_concept": "crack in boulder",
+        "description": "A tree can grow from the accumulated soil and moisture in a crack within a boulder."
+    },
+    {
+        "concept": "decomposition",
+        "relationship": "contributes to",
+        "related_concept": "soil formation",
+        "description": "Decomposition of organic matter contributes to the formation of soil, which may collect in cracks."
+    },
+    {
+        "concept": "oxidizing",
+        "relationship": "a form of",
+        "related_concept": "weathering",
+        "description": "Oxidizing is a chemical process that can contribute to the weathering of rocks and minerals."
+    },
+    {
+        "concept": "deposition",
+        "relationship": "is opposite of",
+        "related_concept": "weathering",
+        "description": "Deposition involves the accumulation of materials, whereas weathering involves the breaking down of materials."
+    }
+]
+
+Model Answer: {
+    "answer": "weathering",
+    "reasoning": "The process observed by the students is weathering, as it describes the natural breaking down of rocks and minerals, leading to the formation of cracks in which trees can grow. The presence of a tree growing out of a crack in a boulder is a clear example of how weathering can create spaces for biological organisms to inhabit, further supporting the concept that weathering was the process being observed."
+}

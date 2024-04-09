@@ -1,0 +1,81 @@
+Key: MCAS_2004_5_13
+
+Question: If enough heat is taken away from a container of water, what will happen to the water?
+Options: ['It will begin to boil.', 'It will become a solid.', 'It will turn into a gas.', 'It will increase in weight.']
+Answer: It will become a solid.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Heat Energy",
+        "description": "Energy that is transferred from one body to another as the result of a difference in temperature."
+    },
+    {
+        "name": "Water",
+        "description": "A liquid at room temperature and normal atmospheric pressure."
+    },
+    {
+        "name": "Boiling",
+        "description": "The rapid vaporization of a liquid, which occurs when a liquid is heated to its boiling point."
+    },
+    {
+        "name": "Solid",
+        "description": "One of the states of matter characterized by rigidity and fixed volume and shape."
+    },
+    {
+        "name": "Gas",
+        "description": "A state of matter consisting of particles that have neither a defined volume nor defined shape."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process of a liquid turning into a solid when its temperature is lowered below its freezing point."
+    },
+    {
+        "name": "Weight",
+        "description": "A measure of the force exerted on an object due to gravity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Heat Energy",
+        "relationship": "removal_of",
+        "related_concept": "Water",
+        "description": "Removing heat energy from water can change its state."
+    },
+    {
+        "concept": "Water",
+        "relationship": "transitions_to",
+        "related_concept": "Solid",
+        "description": "Water turns into a solid (ice) when cooled below its freezing point."
+    },
+    {
+        "concept": "Water",
+        "relationship": "transitions_to",
+        "related_concept": "Gas",
+        "description": "Water turns into a gas (steam/vapor) when heated above its boiling point."
+    },
+    {
+        "concept": "Freezing",
+        "relationship": "results_in",
+        "related_concept": "Solid",
+        "description": "The process of freezing results in a liquid becoming a solid."
+    },
+    {
+        "concept": "Boiling",
+        "relationship": "inapplicable",
+        "related_concept": "removal_of Heat Energy",
+        "description": "Boiling does not occur when heat is removed."
+    },
+    {
+        "concept": "Weight",
+        "relationship": "unaffected_by",
+        "related_concept": "removal_of Heat Energy",
+        "description": "The weight of water is unaffected by changes in its heat energy in the context of physical state change."
+    }
+]
+
+Model Answer: {
+    "answer": "It will become a solid.",
+    "reasoning": "When heat energy is removed from water, its temperature decreases. If enough heat is removed to lower the temperature of the water below its freezing point, the water transitions from a liquid to a solid state, commonly referred to as freezing. This process is described by the transition described in the relationships, where the concept of 'Heat Energy' removal is directly linked to water transitioning to a 'Solid' through the process of 'Freezing'. All other options are unrelated to the removal of heat energy, as boiling and gasification require the addition of heat, and changes in weight are not directly caused by temperature changes."
+}

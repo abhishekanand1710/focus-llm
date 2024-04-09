@@ -1,0 +1,83 @@
+Key: MEA_2016_8_14
+
+Question: Which statement best compares single-celled and multi-celled organisms?
+Options: ['Tissues in a single-celled organism are like the cells in a multi-celled organism.', 'The nucleus in a single-celled organism is like the skin of a multi-celled organism.', 'Organelles in a single-celled organism are like the organs in a multi-celled organism.', 'The cytoplasm in a single-celled organism is like the nervous system in a multi-celled organism.']
+Answer: Organelles in a single-celled organism are like the organs in a multi-celled organism.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Single-celled organism",
+        "description": "An organism consisting of only one cell."
+    },
+    {
+        "name": "Multi-celled organism",
+        "description": "An organism made up of more than one cell, often with specialized cells forming tissues and organs."
+    },
+    {
+        "name": "Tissues",
+        "description": "Groups of similar cells that perform a specific function in multi-celled organisms."
+    },
+    {
+        "name": "Nucleus",
+        "description": "The organelle in a cell that contains the genetic material."
+    },
+    {
+        "name": "Skin",
+        "description": "The outer covering of a multi-celled organism, particularly animals, protecting their bodies."
+    },
+    {
+        "name": "Organelles",
+        "description": "Specialized structures within cells that perform specific functions."
+    },
+    {
+        "name": "Organs",
+        "description": "Structures made up of different tissues that perform specific functions in multi-celled organisms."
+    },
+    {
+        "name": "Cytoplasm",
+        "description": "The gel-like substance inside the cell membrane, excluding the nucleus, containing organelles."
+    },
+    {
+        "name": "Nervous system",
+        "description": "The network of nerve cells and fibers that transmits nerve impulses between parts of the body in multi-celled organisms."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Single-celled organism",
+        "relationship": "contain",
+        "related_concept": "Organelles",
+        "description": "Single-celled organisms contain organelles to perform vital functions."
+    },
+    {
+        "concept": "Multi-celled organism",
+        "relationship": "composed of",
+        "related_concept": "Cells",
+        "description": "Multi-celled organisms are composed of multiple cells."
+    },
+    {
+        "concept": "Multi-celled organism",
+        "relationship": "contain",
+        "related_concept": "Tissues",
+        "description": "Multi-celled organisms contain tissues which are groups of similar cells."
+    },
+    {
+        "concept": "Multi-celled organism",
+        "relationship": "contain",
+        "related_concept": "Organs",
+        "description": "Multi-celled organisms contain organs which are structures made up of different tissues."
+    },
+    {
+        "concept": "Organelles",
+        "relationship": "analogous to",
+        "related_concept": "Organs",
+        "description": "Organelles in single-celled organisms perform functions similar to organs in multi-celled organisms."
+    }
+]
+
+Model Answer: {
+    "answer": "Organelles in a single-celled organism are like the organs in a multi-celled organism.",
+    "reasoning": "This comparison is appropriate because both organelles in single-celled organisms and organs in multi-celled organisms perform specific functions vital for the life of the organism. Organelles are to single-celled organisms what organs are to multi-celled organisms in terms of functional specialization and necessity for survival."
+}

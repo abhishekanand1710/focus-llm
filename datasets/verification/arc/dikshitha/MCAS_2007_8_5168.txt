@@ -1,0 +1,67 @@
+Key: MCAS_2007_8_5168
+
+Question: Which of the following Earth layers has the greatest density?
+Options: ['crust', 'mantle', 'inner core', 'outer core']
+Answer: inner core
+
+Model Response:
+Concepts: [
+    {
+        "name": "crust",
+        "description": "The outermost layer of the Earth, consisting of the continents and ocean basins."
+    },
+    {
+        "name": "mantle",
+        "description": "The middle layer of the Earth located between the crust above and the outer core below, made of silicate rocks that are rich in iron and magnesium."
+    },
+    {
+        "name": "inner core",
+        "description": "The innermost part of the Earth, consisting of solid iron and nickel."
+    },
+    {
+        "name": "outer core",
+        "description": "A layer of molten iron and nickel that surrounds the inner core of the Earth."
+    },
+    {
+        "name": "density",
+        "description": "A physical property that describes the amount of mass per unit volume of a substance."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "crust",
+        "relationship": "has lower density than",
+        "related_concept": "mantle",
+        "description": "The crust is denser than air but less dense than the mantle."
+    },
+    {
+        "concept": "mantle",
+        "relationship": "has lower density than",
+        "related_concept": "outer core",
+        "description": "The mantle is more dense than the crust but less dense than the outer core."
+    },
+    {
+        "concept": "outer core",
+        "relationship": "has lower density than",
+        "related_concept": "inner core",
+        "description": "The outer core, being liquid, is less dense than the solid inner core."
+    },
+    {
+        "concept": "inner core",
+        "relationship": "is composed of",
+        "related_concept": "iron and nickel",
+        "description": "The inner core's composition of solid iron and nickel contributes to its high density."
+    },
+    {
+        "concept": "density",
+        "relationship": "is a measure of",
+        "related_concept": "mass per unit volume",
+        "description": "Density quantifies the compactness of a substance."
+    }
+]
+
+Model Answer: {
+    "answer": "inner core",
+    "reasoning": "Based on the concepts and relationships defined, the inner core has the greatest density. This conclusion is drawn from understanding that the density of Earth's layers increases with depth, and the inner core, made of solid iron and nickel, is denser than the outer core, mantle, and crust."
+}

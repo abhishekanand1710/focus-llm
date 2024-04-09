@@ -1,0 +1,81 @@
+Key: Mercury_SC_406042
+
+Question: A tropical rain forest contains many tall trees. Smaller plants with large leaves grow at the base of the tall trees. The large leaves are most likely an adaptation of the plant due to which condition?
+Options: ['lack of sunlight', 'lack of oxygen', 'lack of water', 'lack of food']
+Answer: lack of sunlight
+
+Model Response:
+Concepts: [
+    {
+        "name": "Tropical Rain Forest",
+        "description": "A hot, moist biome found near Earth's equator where many trees and plants grow"
+    },
+    {
+        "name": "Tall Trees",
+        "description": "Large trees that form the upper layer of the forest, often creating a canopy"
+    },
+    {
+        "name": "Smaller Plants with Large Leaves",
+        "description": "Plants that grow under the canopy of tall trees, adapted to their environment"
+    },
+    {
+        "name": "Lack of Sunlight",
+        "description": "A condition where there is limited light available, often due to shading by larger plants or trees"
+    },
+    {
+        "name": "Lack of Oxygen",
+        "description": "A condition where there is insufficient oxygen in the environment"
+    },
+    {
+        "name": "Lack of Water",
+        "description": "A condition where there is not enough water available for plants and trees"
+    },
+    {
+        "name": "Lack of Food",
+        "description": "A condition where there is a scarcity of nutrients necessary for plant growth"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Tropical Rain Forest",
+        "relationship": "contains",
+        "related_concept": "Tall Trees",
+        "description": "Tropical rain forests contain many tall trees"
+    },
+    {
+        "concept": "Tall Trees",
+        "relationship": "create shade",
+        "related_concept": "Smaller Plants with Large Leaves",
+        "description": "The tall trees shade the smaller plants below, affecting their light exposure"
+    },
+    {
+        "concept": "Smaller Plants with Large Leaves",
+        "relationship": "adaptation to",
+        "related_concept": "Lack of Sunlight",
+        "description": "The large leaves of smaller plants are an adaptation to the lack of sunlight"
+    },
+    {
+        "concept": "Tropical Rain Forest",
+        "relationship": "typically not characterized by",
+        "related_concept": "Lack of Oxygen",
+        "description": "Tropical rain forests are rich in oxygen due to photosynthesis"
+    },
+    {
+        "concept": "Tropical Rain Forest",
+        "relationship": "typically not characterized by",
+        "related_concept": "Lack of Water",
+        "description": "Tropical rain forests receive a high amount of rainfall annually"
+    },
+    {
+        "concept": "Tropical Rain Forest",
+        "relationship": "typically not characterized by",
+        "related_concept": "Lack of Food",
+        "description": "The soil in tropical rain forests is often rich in nutrients from decomposing plant matter"
+    }
+]
+
+Model Answer: {
+    "answer": "lack of sunlight",
+    "reasoning": "Smaller plants with large leaves at the base of the tall trees in a tropical rain forest primarily adapt to the condition of lack of sunlight. The taller trees create a canopy that shades the forest floor, resulting in reduced sunlight reaching the smaller plants. To maximize the capture of limited sunlight, these plants have evolved large leaves. This adaptation is not directly related to lack of oxygen, water, or food, as tropical rain forests are rich in these resources."
+}

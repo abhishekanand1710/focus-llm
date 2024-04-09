@@ -1,0 +1,61 @@
+Key: NYSEDREGENTS_2005_8_26
+
+Question: Several tomato plants are grown indoors next to a sunny window. The plants receive water and fertilizer and remain on the windowsill. What will most likely happen?
+Options: ['Most of the leaves on the window side will wilt and die.', 'The roots of the plants will grow upward from the soil.', 'Water droplets will collect on the leaves facing away from the window.', 'The stem will bend toward the window.']
+Answer: The stem will bend toward the window.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Phototropism",
+        "description": "The orientation of a plant or other organism in response to light, either toward the source of light (positive phototropism) or away from it (negative phototropism)."
+    },
+    {
+        "name": "Sunlight",
+        "description": "The light from the sun."
+    },
+    {
+        "name": "Stem",
+        "description": "The main body or stalk of a plant or shrub, typically rising above ground but occasionally subterranean."
+    },
+    {
+        "name": "Fertilizer",
+        "description": "A chemical or natural substance added to soil or land to increase its fertility."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent, odorless, tasteless liquid, a compound of hydrogen and oxygen, H2O, freezing at 0\u00b0C and boiling at 100\u00b0C, which is present in rivers, lakes, and oceans and is the basis of the fluids of living organisms."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Phototropism",
+        "relationship": "is caused by",
+        "related_concept": "Sunlight",
+        "description": "Phototropism in plants is caused by their exposure to sunlight."
+    },
+    {
+        "concept": "Stem",
+        "relationship": "responds to",
+        "related_concept": "Phototropism",
+        "description": "The stem of a plant responds to the phenomenon of phototropism by bending towards the light source."
+    },
+    {
+        "concept": "Water",
+        "relationship": "is necessary for",
+        "related_concept": "Plant growth",
+        "description": "Water is crucial for the growth and survival of plants."
+    },
+    {
+        "concept": "Fertilizer",
+        "relationship": "enhances",
+        "related_concept": "Plant growth",
+        "description": "Fertilizer adds nutrients to the soil, which enhances plant growth."
+    }
+]
+
+Model Answer: {
+    "answer": "The stem will bend toward the window.",
+    "reasoning": "Given that the tomato plants are placed next to a sunny window and are receiving adequate water and fertilizer, they will demonstrate positive phototropism, where the stems grow towards the source of light for photosynthesis. This is because plants have a natural tendency to grow towards light, which helps them maximize the energy they can capture for photosynthesis. Therefore, 'The stem will bend toward the window' is the most likely outcome as it aligns with the natural response of plants to light."
+}

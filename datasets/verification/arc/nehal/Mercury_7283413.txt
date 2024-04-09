@@ -1,0 +1,61 @@
+Key: Mercury_7283413
+
+Question: In living things, smaller substances are linked to make up larger substances. Which of the following correctly describes a larger substance made by linking smaller substances?
+Options: ['Nucleotides are linked to make up DNA.', 'Amino acids are linked to make up DNA.', 'Proteins are linked to make up nucleotides.', 'Nucleic acids are linked to make up proteins.']
+Answer: Nucleotides are linked to make up DNA.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Nucleotides",
+        "description": "The basic building blocks of DNA and RNA."
+    },
+    {
+        "name": "DNA",
+        "description": "A molecule that carries the genetic instructions used in growth, development, functioning, and reproduction."
+    },
+    {
+        "name": "Amino acids",
+        "description": "Organic compounds that combine to form proteins."
+    },
+    {
+        "name": "Proteins",
+        "description": "Large, complex molecules that play many critical roles in the body."
+    },
+    {
+        "name": "Nucleic acids",
+        "description": "Biopolymers essential for all known forms of life, includes DNA and RNA."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Nucleotides",
+        "relationship": "make up",
+        "related_concept": "DNA",
+        "description": "Nucleotides are linked together to form DNA."
+    },
+    {
+        "concept": "Amino acids",
+        "relationship": "make up",
+        "related_concept": "Proteins",
+        "description": "Amino acids are linked together to form proteins."
+    },
+    {
+        "concept": "Proteins",
+        "relationship": "are not linked to make up",
+        "related_concept": "Nucleotides",
+        "description": "Proteins do not form nucleotides; instead, nucleotides are the building blocks of nucleic acids like DNA and RNA."
+    },
+    {
+        "concept": "Nucleic acids",
+        "relationship": "do not make up",
+        "related_concept": "Proteins",
+        "description": "Nucleic acids, such as DNA and RNA, do not make up proteins; they are separate types of molecules."
+    }
+]
+
+Model Answer: {
+    "answer": "Nucleotides are linked to make up DNA.",
+    "reasoning": "Based on the provided relationships and definitions, nucleotides are the small building blocks that link together to form DNA, which is a larger molecule responsible for carrying genetic information. This matches the description and correct option provided, aligning with the fundamental concepts of molecular biology."
+}

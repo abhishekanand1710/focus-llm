@@ -1,0 +1,61 @@
+Key: MCAS_2001_8_13
+
+Question: Scientists claim that the continents of South America and Africa were once a single landmass. All of the following observations support this claim except
+Options: ['the mountains on these continents have similar rocks of the same age.', 'these continents appear to fit together like the pieces of a puzzle.', 'similar fish live in the ocean off the coasts of these continents.', 'the same kinds of fossils have been found on these continents.']
+Answer: similar fish live in the ocean off the coasts of these continents.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Continental Drift Theory",
+        "description": "A theory suggesting that the Earth's continents have moved over geological time relative to each other"
+    },
+    {
+        "name": "Similar Rocks",
+        "description": "Rocks on different continents that are of similar type and age, suggesting common geological origins"
+    },
+    {
+        "name": "Puzzle-like Fit",
+        "description": "The complementing coastlines of South America and Africa that appear to fit together like puzzle pieces"
+    },
+    {
+        "name": "Similar Fossils",
+        "description": "Fossils of the same species found on different continents, indicating they were once connected"
+    },
+    {
+        "name": "Marine Life Distribution",
+        "description": "The distribution and similarity of marine life in oceans off the coasts of different continents"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Continental Drift Theory",
+        "relationship": "supports",
+        "related_concept": "Similar Rocks",
+        "description": "Similar rocks support the theory by showing shared geological history"
+    },
+    {
+        "concept": "Continental Drift Theory",
+        "relationship": "supports",
+        "related_concept": "Puzzle-like Fit",
+        "description": "The fitting coastlines of South America and Africa support the theory of them being once connected"
+    },
+    {
+        "concept": "Continental Drift Theory",
+        "relationship": "supports",
+        "related_concept": "Similar Fossils",
+        "description": "Discovery of similar fossils on different continents supports the shared landmass theory"
+    },
+    {
+        "concept": "Continental Drift Theory",
+        "relationship": "is not directly supported by",
+        "related_concept": "Marine Life Distribution",
+        "description": "The similarity of marine species is less directly related to landmass connections as they can spread via ocean currents"
+    }
+]
+
+Model Answer: {
+    "answer": "similar fish live in the ocean off the coasts of these continents.",
+    "reasoning": "The theory of Continental Drift and the once singular landmass of South America and Africa is supported by geological evidence such as similar rocks and fossil records, as well as the physical geography of their coastlines. The presence of similar fish species in the oceans adjacent to these continents, however, is less a product of the continents' historical connection and more attributable to the marine life's ability to disperse and evolve independently in the ocean. Thus, marine life distribution does not directly support the claim of the continents being a single landmass, as ocean currents and similar environmental conditions can lead to similar species developing independently."
+}

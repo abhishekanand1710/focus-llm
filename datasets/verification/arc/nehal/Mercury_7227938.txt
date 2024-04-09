@@ -1,0 +1,71 @@
+Key: Mercury_7227938
+
+Question: What characteristic of DNA results in cell differentiation in developing embryos?
+Options: ['which genes are present', 'how many copies of each gene are present', 'which genes are active', 'what protein is produced by a gene']
+Answer: which genes are active
+
+Model Response:
+Concepts: [
+    {
+        "name": "DNA",
+        "description": "The molecule that carries genetic instructions for the development, functioning, growth, and reproduction of all known organisms."
+    },
+    {
+        "name": "Cell Differentiation",
+        "description": "The process by which a cell becomes specialized to perform a specific function."
+    },
+    {
+        "name": "Gene Activation",
+        "description": "The process by which specific genes are turned on or off in a cell, influencing the cell's function and development."
+    },
+    {
+        "name": "Gene",
+        "description": "A unit of heredity that is transferred from a parent to offspring and is held to determine some characteristic of the offspring."
+    },
+    {
+        "name": "Protein",
+        "description": "Molecules made up of amino acids that perform a variety of functions in the body."
+    },
+    {
+        "name": "Embryo Development",
+        "description": "The process by which an embryo forms and develops, from fertilization to birth in organisms that reproduce sexually."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "DNA",
+        "relationship": "contains",
+        "related_concept": "Gene",
+        "description": "DNA contains genes, which are units of heredity."
+    },
+    {
+        "concept": "Gene",
+        "relationship": "influences",
+        "related_concept": "Cell Differentiation",
+        "description": "The activity of specific genes influences the process of cell differentiation."
+    },
+    {
+        "concept": "Gene Activation",
+        "relationship": "is a process affecting",
+        "related_concept": "Gene",
+        "description": "Gene activation refers to the turning on or off of genes."
+    },
+    {
+        "concept": "Cell Differentiation",
+        "relationship": "is a part of",
+        "related_concept": "Embryo Development",
+        "description": "Cell differentiation is a crucial process during the development of an embryo."
+    },
+    {
+        "concept": "Gene",
+        "relationship": "codes for",
+        "related_concept": "Protein",
+        "description": "Genes contain the instructions for the synthesis of proteins."
+    }
+]
+
+Model Answer: {
+    "answer": "which genes are active",
+    "reasoning": "During embryo development, cell differentiation is influenced by which genes are activated in a particular cell. Gene activation determines the function and specialization of the cell by influencing the types of proteins produced, thus guiding the development of the embryo into a complex multicellular organism. The presence, number, and types of proteins produced are subsequent effects of which genes are active in the cells."
+}

@@ -1,0 +1,65 @@
+Key: Mercury_7058030
+
+Question: In plants, the xylem and phloem move water and nutrients through the plant for use and storage. In humans, an organ system with a similar function is the
+Options: ['nervous system.', 'respiratory system.', 'cardiovascular system.', 'integumentary system.']
+Answer: cardiovascular system.
+
+Model Response:
+Concepts: [
+    {
+        "name": "xylem",
+        "description": "A tissue in plants responsible for transporting water from roots to the rest of the plant."
+    },
+    {
+        "name": "phloem",
+        "description": "A tissue in plants responsible for transporting sugars and other metabolic products downwards from the leaves."
+    },
+    {
+        "name": "nervous system",
+        "description": "A network of nerve cells and fibers which transmits nerve impulses between parts of the body."
+    },
+    {
+        "name": "respiratory system",
+        "description": "A series of organs responsible for taking in oxygen and expelling carbon dioxide."
+    },
+    {
+        "name": "cardiovascular system",
+        "description": "The system in humans that includes the heart and blood vessels, responsible for circulating blood and lymph through the body."
+    },
+    {
+        "name": "integumentary system",
+        "description": "Consists of the skin, hair, nails, glands, and nerves, primarily for protecting the body from the external environment."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "xylem and phloem",
+        "relationship": "similar function to",
+        "related_concept": "cardiovascular system",
+        "description": "Xylem and phloem move water and nutrients in plants, similar to how the cardiovascular system moves blood and nutrients in humans."
+    },
+    {
+        "concept": "nervous system",
+        "relationship": "does not relate functionally to",
+        "related_concept": "xylem and phloem",
+        "description": "The nervous system transmits signals between parts of the body, not related to the transport of nutrients and water."
+    },
+    {
+        "concept": "respiratory system",
+        "relationship": "does not relate functionally to",
+        "related_concept": "xylem and phloem",
+        "description": "The respiratory system is involved in gas exchange, not directly in the transport of nutrients and water."
+    },
+    {
+        "concept": "integumentary system",
+        "relationship": "does not relate functionally to",
+        "related_concept": "xylem and phloem",
+        "description": "The integumentary system protects the body, not involved in the internal transport of substances like the xylem and phloem."
+    }
+]
+
+Model Answer: {
+    "answer": "cardiovascular system.",
+    "reasoning": "The xylem and phloem in plants function to transport water and nutrients throughout the plant, a role similar to that of the cardiovascular system in humans, which circulates blood and lymph to transport oxygen, nutrients, and other substances to various tissues."
+}

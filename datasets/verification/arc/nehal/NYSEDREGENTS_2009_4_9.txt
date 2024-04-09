@@ -1,0 +1,69 @@
+Key: NYSEDREGENTS_2009_4_9
+
+Question: How long does it take for Earth to rotate on its axis seven times?
+Options: ['one day', 'one week', 'one month', 'one year']
+Answer: one week
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun in our solar system."
+    },
+    {
+        "name": "Axis",
+        "description": "An imaginary line about which a body rotates."
+    },
+    {
+        "name": "Rotate",
+        "description": "The act of turning around a center or an axis."
+    },
+    {
+        "name": "One day",
+        "description": "A period of time it takes for Earth to complete one full rotation on its axis, roughly 24 hours."
+    },
+    {
+        "name": "One week",
+        "description": "A period of time equal to seven days."
+    },
+    {
+        "name": "One month",
+        "description": "A period of time roughly equal to 30 days or the period from one new moon to the next."
+    },
+    {
+        "name": "One year",
+        "description": "A period of time it takes for Earth to complete one orbit around the Sun, roughly 365 days."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "rotates on",
+        "related_concept": "Axis",
+        "description": "Earth rotates once around its axis approximately every 24 hours."
+    },
+    {
+        "concept": "Rotate",
+        "relationship": "results in",
+        "related_concept": "One day",
+        "description": "One complete rotation of Earth on its axis results in one day."
+    },
+    {
+        "concept": "One day",
+        "relationship": "multiplied by seven equals",
+        "related_concept": "One week",
+        "description": "Seven days make up one week."
+    },
+    {
+        "concept": "One week",
+        "relationship": "is the time for",
+        "related_concept": "Seven rotations",
+        "description": "It takes one week for Earth to rotate on its axis seven times."
+    }
+]
+
+Model Answer: {
+    "answer": "one week",
+    "reasoning": "Since Earth completes one rotation on its axis approximately every 24 hours, resulting in one day, it takes seven of these rotations to complete a week. Therefore, Earth rotating on its axis seven times equates to one week."
+}

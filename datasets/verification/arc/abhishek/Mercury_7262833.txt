@@ -1,0 +1,83 @@
+Key: Mercury_7262833
+
+Question: A new organism is discovered. It is multicellular, autotrophic, and does not move on its own. In which kingdoms could the organism belong?
+Options: ['Fungi and Plants', 'Protists and Plants', 'Animals and Fungi', 'Protists and Animals']
+Answer: Protists and Plants
+
+Model Response:
+Concepts: [
+    {
+        "name": "Multicellular",
+        "description": "Organisms that consist of more than one cell."
+    },
+    {
+        "name": "Autotrophic",
+        "description": "Organisms that produce their own food through photosynthesis or chemosynthesis."
+    },
+    {
+        "name": "Fungi",
+        "description": "A kingdom of spore-producing organisms feeding on organic matter, including molds, yeast, mushrooms, and toadstools."
+    },
+    {
+        "name": "Plants",
+        "description": "A large group of living organisms that use photosynthesis to make their food, which typically have a green color due to chlorophyll, and are found in terrestrial environments."
+    },
+    {
+        "name": "Protists",
+        "description": "Any eukaryotic organism that is not an animal, plant, or fungus, often unicellular but can be multicellular and can be autotrophic or heterotrophic."
+    },
+    {
+        "name": "Animals",
+        "description": "A kingdom of complex multicellular organisms that are typically mobile and heterotrophic, feeding on other organisms."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Multicellular",
+        "relationship": "characteristic of",
+        "related_concept": "Plants",
+        "description": "Plants are an example of multicellular organisms."
+    },
+    {
+        "concept": "Autotrophic",
+        "relationship": "characteristic of",
+        "related_concept": "Plants",
+        "description": "Plants are capable of producing their own food through photosynthesis."
+    },
+    {
+        "concept": "Multicellular",
+        "relationship": "characteristic of",
+        "related_concept": "Fungi",
+        "description": "Fungi can be multicellular, like mushrooms."
+    },
+    {
+        "concept": "Multicellular",
+        "relationship": "characteristic of",
+        "related_concept": "Protists",
+        "description": "Some protists are multicellular."
+    },
+    {
+        "concept": "Autotrophic",
+        "relationship": "characteristic of",
+        "related_concept": "Protists",
+        "description": "Some protists produce their own food through photosynthesis."
+    },
+    {
+        "concept": "Autotrophic",
+        "relationship": "not a characteristic of",
+        "related_concept": "Fungi",
+        "description": "Fungi are not autotrophic, they are heterotrophs."
+    },
+    {
+        "concept": "Autotrophic",
+        "relationship": "not a characteristic of",
+        "related_concept": "Animals",
+        "description": "Animals are not autotrophic, they are heterotrophs."
+    }
+]
+
+Model Answer: {
+    "answer": "Protists and Plants",
+    "reasoning": "The organism in question is multicellular, autotrophic, and does not move on its own. This description fits organisms in the Plant kingdom, which are known for being multicellular, autotrophic (capable of photosynthesis), and stationary. Some Protists also fit this description since the Protist kingdom includes organisms that are both multicellular and autotrophic, though they often vary significantly in other characteristics. Fungi and Animals are not primarily autotrophic; fungi are heterotrophic organisms that absorb nutrients from their environment, and animals consume other organisms for energy."
+}

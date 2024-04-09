@@ -1,0 +1,67 @@
+Key: MCAS_2006_9_35-v1
+
+Question: What is the frequency of ocean waves that have a speed of 18 m/s and a wavelength of 50 m?
+Options: ['0.18 Hz', '0.36 Hz', '2.8 Hz', '9.0 Hz']
+Answer: 0.36 Hz
+
+Model Response:
+Concepts: [
+    {
+        "name": "Ocean Waves",
+        "description": "Waves found on the surface of the ocean, generally caused by wind"
+    },
+    {
+        "name": "Frequency",
+        "description": "The number of occurrences of a repeating event per unit of time, measured in Hertz (Hz)"
+    },
+    {
+        "name": "Speed",
+        "description": "The distance an object travels per unit of time, in this context, how fast the wave travels, measured in meters per second (m/s)"
+    },
+    {
+        "name": "Wavelength",
+        "description": "The distance between successive crests of a wave, measured in meters (m)"
+    },
+    {
+        "name": "Formula for wave speed",
+        "description": "The relationship between wave speed, frequency, and wavelength is given by the equation speed = frequency * wavelength"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Ocean Waves",
+        "relationship": "have",
+        "related_concept": "Frequency",
+        "description": "Ocean waves possess a characteristic frequency, the number of waves passing a point per second"
+    },
+    {
+        "concept": "Ocean Waves",
+        "relationship": "have",
+        "related_concept": "Speed",
+        "description": "Ocean waves have a speed, which is how fast the wavefront is moving through the water"
+    },
+    {
+        "concept": "Ocean Waves",
+        "relationship": "have",
+        "related_concept": "Wavelength",
+        "description": "Ocean waves exhibit a wavelength, which is the distance between two identical points on consecutive waves"
+    },
+    {
+        "concept": "Speed",
+        "relationship": "calculated_by",
+        "related_concept": "Formula for wave speed",
+        "description": "The speed of ocean waves is calculated using the formula speed = frequency * wavelength"
+    },
+    {
+        "concept": "Frequency",
+        "relationship": "derived_from",
+        "related_concept": "Speed",
+        "description": "The frequency of waves can be derived from their speed and wavelength using the formula frequency = speed / wavelength"
+    }
+]
+
+Model Answer: {
+    "answer": "0.36 Hz",
+    "reasoning": "Using the formula for wave speed, which is speed = frequency * wavelength, we can rearrange this formula to solve for frequency, giving us frequency = speed / wavelength. Plugging in the given speed of 18 m/s and a wavelength of 50 m, we get frequency = 18 / 50 = 0.36 Hz. Therefore, the correct answer from the options given is '0.36 Hz'. This calculation directly involves the concepts of speed, frequency, and wavelength as related to ocean waves, using their defined relationships to derive the frequency of the waves."
+}

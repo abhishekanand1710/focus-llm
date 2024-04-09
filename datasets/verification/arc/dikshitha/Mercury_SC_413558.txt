@@ -1,0 +1,61 @@
+Key: Mercury_SC_413558
+
+Question: Which element makes up most of the air we breathe.
+Options: ['carbon', 'nitrogen', 'oxygen', 'argon']
+Answer: nitrogen
+
+Model Response:
+Concepts: [
+    {
+        "name": "carbon",
+        "description": "A chemical element with symbol C and atomic number 6, essential to all known living systems."
+    },
+    {
+        "name": "nitrogen",
+        "description": "A chemical element with symbol N and atomic number 7, makes up the largest portion of the Earth's atmosphere."
+    },
+    {
+        "name": "oxygen",
+        "description": "A chemical element with symbol O and atomic number 8, essential for most forms of life on Earth."
+    },
+    {
+        "name": "argon",
+        "description": "A chemical element with symbol Ar and atomic number 18, a noble gas making up about 0.93% of the Earth's atmosphere."
+    },
+    {
+        "name": "Earth's atmosphere",
+        "description": "The layer of gases, commonly known as air, that surrounds the planet Earth and is retained by Earth's gravity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "nitrogen",
+        "relationship": "makes up",
+        "related_concept": "Earth's atmosphere",
+        "description": "Nitrogen is the primary component of the Earth's atmosphere."
+    },
+    {
+        "concept": "oxygen",
+        "relationship": "essential for",
+        "related_concept": "life",
+        "description": "Oxygen is necessary for the respiration processes of most living organisms."
+    },
+    {
+        "concept": "argon",
+        "relationship": "part of",
+        "related_concept": "Earth's atmosphere",
+        "description": "Argon is a minor but stable component of the Earth's atmosphere."
+    },
+    {
+        "concept": "carbon",
+        "relationship": "essential to",
+        "related_concept": "living systems",
+        "description": "Carbon is a fundamental component of all known life."
+    }
+]
+
+Model Answer: {
+    "answer": "nitrogen",
+    "reasoning": "Based on the identified concepts and their relationships, nitrogen is the element that makes up the largest portion of the Earth's atmosphere, more than any of the other options listed."
+}

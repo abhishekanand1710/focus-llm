@@ -1,0 +1,61 @@
+Key: Mercury_SC_LBS10389
+
+Question: A group of students are studying bean plants. All of the following traits are affected by changes in the environment except
+Options: ['leaf color.', 'seed type.', 'bean production.', 'plant height.']
+Answer: seed type.
+
+Model Response:
+Concepts: [
+    {
+        "name": "leaf color",
+        "description": "The color of a plant's leaves, which can change due to environmental factors such as light."
+    },
+    {
+        "name": "seed type",
+        "description": "The genetic makeup or variety of the seed that affects plant characteristics."
+    },
+    {
+        "name": "bean production",
+        "description": "The quantity of beans produced by a plant, influenced by environmental conditions."
+    },
+    {
+        "name": "plant height",
+        "description": "The vertical growth of a plant, which varies with nutrition, water, and light conditions."
+    },
+    {
+        "name": "environmental changes",
+        "description": "Variations in the surroundings that can affect plant growth and characteristics."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "leaf color",
+        "relationship": "is affected by",
+        "related_concept": "environmental changes",
+        "description": "Leaf color can change due to environmental factors like the amount of sunlight and water."
+    },
+    {
+        "concept": "bean production",
+        "relationship": "is affected by",
+        "related_concept": "environmental changes",
+        "description": "The amount of beans a plant produces can vary with changes in the environment, such as soil fertility and water supply."
+    },
+    {
+        "concept": "plant height",
+        "relationship": "is affected by",
+        "related_concept": "environmental changes",
+        "description": "Plant height can be influenced by environmental factors like light availability and nutrient supply."
+    },
+    {
+        "concept": "seed type",
+        "relationship": "is not typically affected by",
+        "related_concept": "environmental changes",
+        "description": "The genetic type of seed primarily determines its characteristics, not the environment."
+    }
+]
+
+Model Answer: {
+    "answer": "seed type.",
+    "reasoning": "Among the options provided, 'seed type' is the trait least affected by environmental changes. Leaf color, bean production, and plant height are all traits that can vary significantly with changes in the environment such as light, water availability, and nutrient levels. In contrast, the genetic makeup of a seed, which determines its 'type,' remains constant regardless of environmental conditions."
+}

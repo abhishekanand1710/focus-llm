@@ -1,0 +1,85 @@
+Key: Mercury_7086293
+
+Question: What particle always has a mass of one atomic mass unit (amu) and no charge?
+Options: ['a neutron', 'a proton', 'an electron', 'an atom']
+Answer: a neutron
+
+Model Response:
+Concepts: [
+    {
+        "name": "neutron",
+        "description": "A subatomic particle found in the nucleus of an atom, it has no electric charge and a mass close to 1 amu."
+    },
+    {
+        "name": "proton",
+        "description": "A positively charged subatomic particle found in the nucleus of an atom with a mass close to 1 amu."
+    },
+    {
+        "name": "electron",
+        "description": "A negatively charged subatomic particle found orbiting the nucleus of an atom, much lighter than protons or neutrons."
+    },
+    {
+        "name": "atom",
+        "description": "The smallest unit of a chemical element, made up of a nucleus surrounded by electrons."
+    },
+    {
+        "name": "atomic mass unit (amu)",
+        "description": "A unit of mass used to express atomic and molecular weights, roughly equal to the mass of a single proton or neutron."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "neutron",
+        "relationship": "has_mass_of",
+        "related_concept": "atomic mass unit (amu)",
+        "description": "A neutron has a mass close to 1 amu."
+    },
+    {
+        "concept": "proton",
+        "relationship": "has_mass_of",
+        "related_concept": "atomic mass unit (amu)",
+        "description": "A proton has a mass close to 1 amu."
+    },
+    {
+        "concept": "electron",
+        "relationship": "is_part_of",
+        "related_concept": "atom",
+        "description": "Electrons orbit the nucleus of an atom."
+    },
+    {
+        "concept": "proton",
+        "relationship": "is_part_of",
+        "related_concept": "atom",
+        "description": "Protons are found in the nucleus of an atom."
+    },
+    {
+        "concept": "neutron",
+        "relationship": "is_part_of",
+        "related_concept": "atom",
+        "description": "Neutrons are found in the nucleus of an atom."
+    },
+    {
+        "concept": "atom",
+        "relationship": "contains",
+        "related_concept": "electron",
+        "description": "Atoms contain electrons."
+    },
+    {
+        "concept": "atom",
+        "relationship": "contains",
+        "related_concept": "proton",
+        "description": "Atoms contain protons."
+    },
+    {
+        "concept": "atom",
+        "relationship": "contains",
+        "related_concept": "neutron",
+        "description": "Atoms, typically, contain neutrons."
+    }
+]
+
+Model Answer: {
+    "answer": "a proton",
+    "reasoning": "Among the options given, only a proton consistently has a mass of approximately 1 atomic mass unit (amu) and also carries a positive electric charge. Neutrons also have a mass close to 1 amu, but they do not have any charge, making 'a proton' the correct answer due to the question's inaccurate framing. Thus, 'a neutron' would be the correct answer as it specifically matches the criteria of having a mass of 1 amu and no charge, despite the question's aim likely being to identify 'a proton' based on a common misconception about atomic mass and charge."
+}

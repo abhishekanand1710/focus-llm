@@ -1,0 +1,71 @@
+Key: Mercury_SC_414079
+
+Question: A student has a pink eraser on her desk. Which property shows that the eraser is a solid?
+Options: ['Its color stays the same when it is broken in half.', 'Its temperature goes up when it is rubbed on paper.', 'Its shape is definite when it is placed in a new spot.', 'Its size changes when it is used to remove pencil marks.']
+Answer: Its shape is definite when it is placed in a new spot.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Solid",
+        "description": "A state of matter characterized by particles arranged such that their shape and volume are relatively stable."
+    },
+    {
+        "name": "Definite shape",
+        "description": "A property of solids where they maintain a fixed shape irrespective of the container they are placed in."
+    },
+    {
+        "name": "Color",
+        "description": "A property of an object that is perceived by the sense of sight, often determined by its material and surface properties."
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the average kinetic energy of the particles in a system, related to how hot or cold the system is."
+    },
+    {
+        "name": "Friction",
+        "description": "The resistance that one surface or object encounters when moving over another."
+    },
+    {
+        "name": "Size change",
+        "description": "Alteration in dimensions, typically a reduction for an eraser when used to remove pencil marks."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Solid",
+        "relationship": "has_property",
+        "related_concept": "Definite shape",
+        "description": "Solids maintain a definite shape and volume, unlike liquids or gases."
+    },
+    {
+        "concept": "Eraser",
+        "relationship": "exhibits",
+        "related_concept": "Color",
+        "description": "An eraser's color is a visible attribute but does not indicate its state of matter."
+    },
+    {
+        "concept": "Eraser",
+        "relationship": "undergoes_increase",
+        "related_concept": "Temperature",
+        "description": "Rubbing an eraser on paper generates friction, increasing its temperature."
+    },
+    {
+        "concept": "Eraser",
+        "relationship": "experiences",
+        "related_concept": "Size change",
+        "description": "An eraser reduces in size when used to remove pencil marks due to the material being shed."
+    },
+    {
+        "concept": "Solid",
+        "relationship": "does_not_depend_on",
+        "related_concept": "Color",
+        "description": "The state of being a solid is independent of the color of the object."
+    }
+]
+
+Model Answer: {
+    "answer": "'Its shape is definite when it is placed in a new spot.'",
+    "reasoning": "The property that indicates the eraser is a solid is 'Its shape is definite when it is placed in a new spot.' This is because solids maintain a definite shape regardless of where they are placed, which directly relates to the characteristic property of solids having a fixed volume and shape. Color change upon breaking, temperature change from friction, and size reduction from use do not specifically indicate that an object is a solid, as those properties can be observed in objects in various states of matter under certain conditions."
+}

@@ -1,0 +1,71 @@
+Key: Mercury_SC_415702
+
+Question: George wants to warm his hands quickly by rubbing them. Which skin surface will produce the most heat?
+Options: ['dry palms', 'wet palms', 'palms covered with oil', 'palms covered with lotion']
+Answer: dry palms
+
+Model Response:
+Concepts: [
+    {
+        "name": "Friction",
+        "description": "The resistance that one surface or object encounters when moving over another."
+    },
+    {
+        "name": "Heat Generation",
+        "description": "The production of heat energy resulting from processes like friction."
+    },
+    {
+        "name": "Dry Palms",
+        "description": "Skin surfaces of the palms without any moisture or lubrication."
+    },
+    {
+        "name": "Wet Palms",
+        "description": "Skin surfaces of the palms with moisture such as water."
+    },
+    {
+        "name": "Palms covered with Oil",
+        "description": "Skin surfaces of the palms coated with a thin layer of oil."
+    },
+    {
+        "name": "Palms covered with Lotion",
+        "description": "Skin surfaces of the palms coated with a layer of lotion."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dry Palms",
+        "relationship": "increase",
+        "related_concept": "Friction",
+        "description": "Dry palms increase the friction when rubbed together compared to lubricated surfaces."
+    },
+    {
+        "concept": "Friction",
+        "relationship": "produces",
+        "related_concept": "Heat Generation",
+        "description": "Increased friction produces more heat due to the resistance of surfaces moving over each other."
+    },
+    {
+        "concept": "Wet Palms",
+        "relationship": "decrease",
+        "related_concept": "Friction",
+        "description": "Wet surfaces introduce slippage, thus decreasing friction compared to dry surfaces."
+    },
+    {
+        "concept": "Palms covered with Oil",
+        "relationship": "decrease",
+        "related_concept": "Friction",
+        "description": "Oil reduces the friction by providing a lubricating layer."
+    },
+    {
+        "concept": "Palms covered with Lotion",
+        "relationship": "decrease",
+        "related_concept": "Friction",
+        "description": "Lotion acts as a lubricant, reducing friction between the palms."
+    }
+]
+
+Model Answer: {
+    "answer": "dry palms",
+    "reasoning": "Based on the concepts and relationships identified, dry palms would produce the most heat when rubbed together. This is because dry surfaces increase friction compared to wet or lubricated surfaces, such as those covered with oil or lotion. Higher friction leads to greater heat generation, making dry palms the option that would produce the most heat."
+}

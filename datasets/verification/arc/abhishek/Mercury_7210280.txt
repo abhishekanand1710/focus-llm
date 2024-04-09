@@ -1,0 +1,63 @@
+Key: Mercury_7210280
+
+Question: Because water can hold a large amount of heat, which effect do oceans have on nearby land areas?
+Options: ['They prevent rapid extreme temperature changes.', 'They form high-pressure areas that cause magma currents.', 'They provide the energy that triggers volcanic events.', 'They lower the freezing point of fresh water.']
+Answer: They prevent rapid extreme temperature changes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Specific Heat Capacity",
+        "description": "The amount of heat per unit mass required to raise the temperature by one degree Celsius."
+    },
+    {
+        "name": "Oceans",
+        "description": "Large bodies of salt water that cover about 71% of Earth's surface and hold 97% of its water."
+    },
+    {
+        "name": "Temperature Regulation",
+        "description": "The process by which an organism or environment maintains thermal stability."
+    },
+    {
+        "name": "High-Pressure Areas",
+        "description": "Regions where the atmospheric pressure at the surface of the planet is greater than its surrounding environment."
+    },
+    {
+        "name": "Magma",
+        "description": "Molten rock stored beneath the Earth's surface."
+    },
+    {
+        "name": "Volcanic Events",
+        "description": "Geological occurrences that involve the eruption of magma onto the Earth's surface."
+    },
+    {
+        "name": "Freezing Point",
+        "description": "The temperature at which a liquid turns into a solid."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Specific Heat Capacity",
+        "relationship": "enables",
+        "related_concept": "Temperature Regulation",
+        "description": "High specific heat capacity of water helps in temperature regulation."
+    },
+    {
+        "concept": "Oceans",
+        "relationship": "have",
+        "related_concept": "Specific Heat Capacity",
+        "description": "Oceans have a high specific heat capacity."
+    },
+    {
+        "concept": "Temperature Regulation",
+        "relationship": "mitigates",
+        "related_concept": "Extreme Temperature Changes",
+        "description": "Temperature regulation helps in mitigating extreme temperature changes."
+    }
+]
+
+Model Answer: {
+    "answer": "They prevent rapid extreme temperature changes.",
+    "reasoning": "Oceans have a high specific heat capacity, which allows them to absorb large amounts of heat without a significant change in temperature. This property enables oceans to regulate the temperature of nearby land areas by moderating temperature extremes. Therefore, oceans prevent rapid extreme temperature changes in surrounding areas."
+}

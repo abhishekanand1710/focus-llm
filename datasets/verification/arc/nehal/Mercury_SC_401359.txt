@@ -1,0 +1,107 @@
+Key: Mercury_SC_401359
+
+Question: A snack consists of peanuts, sunflower seeds, raisins, almonds, and chocolate pieces. Which statement describes why this is a mixture?
+Options: ['It is made up of more than one substance.', 'It is impossible to separate the substances.', 'The components retain their original properties.', 'The components chemically combine with each other.']
+Answer: The components retain their original properties.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mixture",
+        "description": "A material composed of two or more different substances which are not chemically combined."
+    },
+    {
+        "name": "Peanuts",
+        "description": "A type of legume or nut."
+    },
+    {
+        "name": "Sunflower Seeds",
+        "description": "Seeds from the sunflower plant."
+    },
+    {
+        "name": "Raisins",
+        "description": "Dried grapes."
+    },
+    {
+        "name": "Almonds",
+        "description": "A type of tree nut."
+    },
+    {
+        "name": "Chocolate Pieces",
+        "description": "Small chunks or chips of chocolate."
+    },
+    {
+        "name": "Physical Properties",
+        "description": "Characteristics of a material that can be observed without changing its identity."
+    },
+    {
+        "name": "Chemical Combination",
+        "description": "A process where two or more substances combine to form a new substance with different properties."
+    },
+    {
+        "name": "Separation",
+        "description": "The process of dividing a material into its component parts."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mixture",
+        "relationship": "contains",
+        "related_concept": "Peanuts",
+        "description": "Peanuts are a component of the mixture."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "contains",
+        "related_concept": "Sunflower Seeds",
+        "description": "Sunflower Seeds are a component of the mixture."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "contains",
+        "related_concept": "Raisins",
+        "description": "Raisins are a component of the mixture."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "contains",
+        "related_concept": "Almonds",
+        "description": "Almonds are a component of the mixture."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "contains",
+        "related_concept": "Chocolate Pieces",
+        "description": "Chocolate Pieces are a component of the mixture."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "exhibits",
+        "related_concept": "Physical Properties",
+        "description": "The mixture has physical properties from its components."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "allows",
+        "related_concept": "Separation",
+        "description": "Components of the mixture can be separated."
+    },
+    {
+        "concept": "Peanuts",
+        "relationship": "retain",
+        "related_concept": "Physical Properties",
+        "description": "Peanuts retain their physical properties in the mixture."
+    },
+    {
+        "concept": "Components",
+        "relationship": "do not",
+        "related_concept": "Chemical Combination",
+        "description": "Components do not chemically combine in a mixture."
+    }
+]
+
+Model Answer: {
+    "answer": "The components retain their original properties.",
+    "reasoning": "The snack described is a mixture because its components, such as peanuts, sunflower seeds, raisins, almonds, and chocolate pieces, retain their original physical properties even when combined. This means each ingredient remains distinct and does not chemically combine with the others, which is a key characteristic of mixtures."
+}

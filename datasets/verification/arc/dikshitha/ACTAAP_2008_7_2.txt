@@ -1,0 +1,67 @@
+Key: ACTAAP_2008_7_2
+
+Question: How many chromosomes are in a human sperm cell?
+Options: ['12', '23', '46', '58']
+Answer: 23
+
+Model Response:
+Concepts: [
+    {
+        "name": "Human sperm cell",
+        "description": "A male reproductive cell involved in sexual reproduction."
+    },
+    {
+        "name": "Chromosome",
+        "description": "A structure of nucleic acids and protein found in the nucleus of most living cells, carrying genetic information in the form of genes."
+    },
+    {
+        "name": "Meiosis",
+        "description": "A type of cell division that reduces the chromosome number by half, resulting in the production of four gamete cells."
+    },
+    {
+        "name": "Diploid",
+        "description": "A cell or organism that has paired chromosomes, one from each parent."
+    },
+    {
+        "name": "Haploid",
+        "description": "A cell or nucleus having a single set of unpaired chromosomes."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Human sperm cell",
+        "relationship": "results from",
+        "related_concept": "Meiosis",
+        "description": "Sperm cells are produced from the process of meiosis in males."
+    },
+    {
+        "concept": "Meiosis",
+        "relationship": "reduces",
+        "related_concept": "Chromosome number by half",
+        "description": "Meiosis cuts the chromosome number in half to form gametes."
+    },
+    {
+        "concept": "Diploid",
+        "relationship": "halved to",
+        "related_concept": "Haploid",
+        "description": "Diploid cells undergo meiosis to become haploid."
+    },
+    {
+        "concept": "Human sperm cell",
+        "relationship": "is",
+        "related_concept": "Haploid",
+        "description": "A sperm cell carries a single set of chromosomes, making it haploid."
+    },
+    {
+        "concept": "Chromosome",
+        "relationship": "in Human diploid number",
+        "related_concept": "46",
+        "description": "Humans have 46 chromosomes in diploid cells, including most body cells."
+    }
+]
+
+Model Answer: {
+    "answer": "23",
+    "reasoning": "A human sperm cell is a haploid cell resulting from the meiosis process, which halves the diploid number of chromosomes. Since humans have 46 chromosomes in their diploid cells, this number is divided by two during the formation of sperm, resulting in 23 chromosomes in a sperm cell."
+}

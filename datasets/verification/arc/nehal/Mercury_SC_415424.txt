@@ -1,0 +1,83 @@
+Key: Mercury_SC_415424
+
+Question: A goat gets energy from the grass it eats. Where does the grass get its energy?
+Options: ['soil', 'sunlight', 'water', 'air']
+Answer: sunlight
+
+Model Response:
+Concepts: [
+    {
+        "name": "goat",
+        "description": "A herbivorous animal that gets its energy from eating plants."
+    },
+    {
+        "name": "grass",
+        "description": "A type of plant that undergoes photosynthesis to produce energy."
+    },
+    {
+        "name": "soil",
+        "description": "The top layer of the earth's surface in which plants grow, a source of nutrients."
+    },
+    {
+        "name": "sunlight",
+        "description": "The natural light from the sun, essential for photosynthesis in plants."
+    },
+    {
+        "name": "water",
+        "description": "H2O, necessary for photosynthesis and sustaining life."
+    },
+    {
+        "name": "air",
+        "description": "The mixture of gases surrounding Earth, important for respiration and photosynthesis."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "goat",
+        "relationship": "eats",
+        "related_concept": "grass",
+        "description": "Goats gain energy by eating grass."
+    },
+    {
+        "concept": "grass",
+        "relationship": "undergoes",
+        "related_concept": "photosynthesis",
+        "description": "Grass undergoes photosynthesis to produce its own food."
+    },
+    {
+        "concept": "photosynthesis",
+        "relationship": "requires",
+        "related_concept": "sunlight",
+        "description": "Photosynthesis requires sunlight to convert carbon dioxide and water into glucose and oxygen."
+    },
+    {
+        "concept": "photosynthesis",
+        "relationship": "requires",
+        "related_concept": "water",
+        "description": "Water is a raw material for photosynthesis."
+    },
+    {
+        "concept": "photosynthesis",
+        "relationship": "produces",
+        "related_concept": "oxygen",
+        "description": "Photosynthesis produces oxygen as a byproduct."
+    },
+    {
+        "concept": "grass",
+        "relationship": "absorbs",
+        "related_concept": "nutrients",
+        "description": "Grass absorbs nutrients from the soil."
+    },
+    {
+        "concept": "nutrients",
+        "relationship": "come_from",
+        "related_concept": "soil",
+        "description": "Nutrients essential for plant growth come from the soil."
+    }
+]
+
+Model Answer: {
+    "answer": "sunlight",
+    "reasoning": "Grass gets its energy from the sunlight through the process of photosynthesis, where it converts sunlight, carbon dioxide, and water into glucose and oxygen, providing the energy it needs to grow and sustain itself. Other options like soil, water, and air are involved in the process, but the primary source of energy is sunlight, making 'sunlight' the correct answer."
+}

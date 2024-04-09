@@ -1,0 +1,57 @@
+Key: MCAS_2008_8_5719
+
+Question: Which of the following structures is not present in animal cells?
+Options: ['cell membrane', 'cell wall', 'mitochondrion', 'nucleus']
+Answer: cell wall
+
+Model Response:
+Concepts: [
+    {
+        "name": "cell membrane",
+        "description": "A semipermeable membrane surrounding the cytoplasm of a cell"
+    },
+    {
+        "name": "cell wall",
+        "description": "A rigid layer lying outside the plasma membrane of the cells of plants, fungi, and bacteria"
+    },
+    {
+        "name": "mitochondrion",
+        "description": "An organelle found in large numbers in most cells, in which the biochemical processes of respiration and energy production occur"
+    },
+    {
+        "name": "nucleus",
+        "description": "A membrane-bound organelle that contains the cell's chromosomes"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "cell membrane",
+        "relationship": "present_in",
+        "related_concept": "animal cells",
+        "description": "Animal cells have a cell membrane that encloses their cytoplasm"
+    },
+    {
+        "concept": "cell wall",
+        "relationship": "not_present_in",
+        "related_concept": "animal cells",
+        "description": "Animal cells do not have a cell wall, unlike plant and fungal cells"
+    },
+    {
+        "concept": "mitochondrion",
+        "relationship": "present_in",
+        "related_concept": "animal cells",
+        "description": "Mitochondria are present in animal cells, aiding in energy production"
+    },
+    {
+        "concept": "nucleus",
+        "relationship": "present_in",
+        "related_concept": "animal cells",
+        "description": "The nucleus, containing genetic material, is found in animal cells"
+    }
+]
+
+Model Answer: {
+    "answer": "cell wall",
+    "reasoning": "Animal cells lack a cell wall, which is a structure present in plant, fungi, and bacterial cells for support and protection. This distinguishes the cell wall as the correct answer from the provided options, as the other options (cell membrane, mitochondrion, nucleus) are indeed present in animal cells."
+}

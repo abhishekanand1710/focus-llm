@@ -1,0 +1,77 @@
+Key: Mercury_7120785
+
+Question: Margaret is running a full lap around a circular track. She is facing north when she starts. What direction will she be facing after she has completed half of a lap?
+Options: ['north', 'south', 'east', 'west']
+Answer: south
+
+Model Response:
+Concepts: [
+    {
+        "name": "circular track",
+        "description": "A path or area with a circular shape where races or physical exercises take place."
+    },
+    {
+        "name": "lap",
+        "description": "One complete traversal around a track or path."
+    },
+    {
+        "name": "direction",
+        "description": "The course along which someone or something moves."
+    },
+    {
+        "name": "north",
+        "description": "A cardinal direction, opposite of south, used in navigation."
+    },
+    {
+        "name": "south",
+        "description": "A cardinal direction, opposite of north, used in navigation."
+    },
+    {
+        "name": "half of a lap",
+        "description": "Completing 50% of the distance around a circular track."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "circular track",
+        "relationship": "is the path for",
+        "related_concept": "lap",
+        "description": "A lap is completed by following the circular track."
+    },
+    {
+        "concept": "lap",
+        "relationship": "divided into",
+        "related_concept": "half of a lap",
+        "description": "A lap can be divided into two equal parts, each constituting half of a lap."
+    },
+    {
+        "concept": "north",
+        "relationship": "opposite to",
+        "related_concept": "south",
+        "description": "North is the opposite direction of south."
+    },
+    {
+        "concept": "direction",
+        "relationship": "includes",
+        "related_concept": "north",
+        "description": "Direction includes north among other cardinal directions."
+    },
+    {
+        "concept": "direction",
+        "relationship": "includes",
+        "related_concept": "south",
+        "description": "Direction includes south among other cardinal directions."
+    },
+    {
+        "concept": "half of a lap",
+        "relationship": "changes direction to",
+        "related_concept": "south",
+        "description": "Completing half of a lap on a circular track starting from north changes the direction to south."
+    }
+]
+
+Model Answer: {
+    "answer": "south",
+    "reasoning": "Margaret starts running facing north. After completing half of a lap around a circular track, she will have reversed her direction to the opposite side, which is south."
+}

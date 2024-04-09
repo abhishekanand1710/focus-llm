@@ -1,0 +1,81 @@
+Key: MCAS_2016_8_10
+
+Question: A crop of corn plants is genetically modified so that the plants produce a natural pesticide. People are concerned that these corn plants might transfer modified genetic material to other plants. Which of the following is the best way to further modify the plants to prevent them from transferring their genetic materials to other plants?
+Options: ['changing the plants so they do not make pollen', 'changing the plants so they do not harm insects', 'changing the plants so they cannot produce nutrients', 'changing the plants so they cannot be easily identified']
+Answer: changing the plants so they do not make pollen
+
+Model Response:
+Concepts: [
+    {
+        "name": "Genetic Modification",
+        "description": "The process of altering the genetic material of an organism to exhibit specific traits."
+    },
+    {
+        "name": "Natural Pesticide",
+        "description": "A substance produced by plants that protects them from pests, without synthetic additives."
+    },
+    {
+        "name": "Pollen",
+        "description": "Fine to coarse powdery substances comprising microscopic grains discharged from the male part of a flower or from a male cone."
+    },
+    {
+        "name": "Gene Transfer",
+        "description": "The movement of genetic material between organisms either through horizontal gene transfer or vertical transmission."
+    },
+    {
+        "name": "Insects",
+        "description": "A class of invertebrates within the arthropod phylum that have a chitinous exoskeleton, a three-part body, three pairs of jointed legs, compound eyes, and two antennae."
+    },
+    {
+        "name": "Nutrients",
+        "description": "Substances that provide nourishment essential for the growth and maintenance of life."
+    },
+    {
+        "name": "Plant Identification",
+        "description": "The process of recognizing and categorizing plants based on their physical characteristics."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Genetic Modification",
+        "relationship": "enables",
+        "related_concept": "Natural Pesticide Production",
+        "description": "Genetic modification enables the corn plants to produce natural pesticides."
+    },
+    {
+        "concept": "Pollen",
+        "relationship": "is a vehicle for",
+        "related_concept": "Gene Transfer",
+        "description": "Pollen is a key vehicle for the transfer of genetic material between plants."
+    },
+    {
+        "concept": "Gene Transfer",
+        "relationship": "can be limited by",
+        "related_concept": "Preventing Pollen Production",
+        "description": "Preventing the production of pollen can limit the gene transfer between plants."
+    },
+    {
+        "concept": "Insects",
+        "relationship": "are affected by",
+        "related_concept": "Natural Pesticide",
+        "description": "The natural pesticide produced by the genetically modified plants affects insects."
+    },
+    {
+        "concept": "Nutrients",
+        "relationship": "are essential for",
+        "related_concept": "Plant Growth",
+        "description": "Nutrients are essential for the growth and health of plants."
+    },
+    {
+        "concept": "Plant Identification",
+        "relationship": "relies on",
+        "related_concept": "Physical Characteristics",
+        "description": "Plant identification relies on recognizing physical characteristics of plants."
+    }
+]
+
+Model Answer: {
+    "answer": "changing the plants so they do not make pollen",
+    "reasoning": "Since pollen is identified as a vehicle for the transfer of genetic material between plants, changing the genetically modified corn plants so they do not produce pollen would be the best way to prevent them from transferring modified genetic material to other plants. This approach directly addresses the medium (pollen) through which gene transfer occurs, effectively hindering the possibility of horizontal gene transfer to non-target plants."
+}

@@ -1,0 +1,67 @@
+Key: NYSEDREGENTS_2004_8_3
+
+Question: What is the main function of the circulatory system?
+Options: ['secrete enzymes', 'digest proteins', 'produce hormones', 'transport materials']
+Answer: transport materials
+
+Model Response:
+Concepts: [
+    {
+        "name": "Circulatory System",
+        "description": "A system in the body responsible for transporting materials such as oxygen, nutrients, and hormones to cells and removing waste products like carbon dioxide."
+    },
+    {
+        "name": "Secrete Enzymes",
+        "description": "The process of producing and releasing chemicals, typically by glands, that catalyze biochemical reactions."
+    },
+    {
+        "name": "Digest Proteins",
+        "description": "The breakdown of proteins into amino acids by the action of enzymes during digestion."
+    },
+    {
+        "name": "Produce Hormones",
+        "description": "The biological process in which glands produce hormones, chemical substances that regulate various functions in the body."
+    },
+    {
+        "name": "Transport Materials",
+        "description": "The movement of substances such as oxygen, nutrients, hormones, and waste products throughout an organism."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Circulatory System",
+        "relationship": "has function",
+        "related_concept": "Transport Materials",
+        "description": "The circulatory system's main function is to transport materials across the body."
+    },
+    {
+        "concept": "Secrete Enzymes",
+        "relationship": "is function of",
+        "related_concept": "Digestive System",
+        "description": "Secreting enzymes is primarily a function of the digestive system, not the circulatory system."
+    },
+    {
+        "concept": "Digest Proteins",
+        "relationship": "is function of",
+        "related_concept": "Digestive System",
+        "description": "Digesting proteins is a process that takes place in the digestive system."
+    },
+    {
+        "concept": "Produce Hormones",
+        "relationship": "is function of",
+        "related_concept": "Endocrine System",
+        "description": "Producing hormones is primarily a function of the endocrine system."
+    },
+    {
+        "concept": "Transport Materials",
+        "relationship": "is function of",
+        "related_concept": "Circulatory System",
+        "description": "Transporting materials such as oxygen, nutrients, and hormones is a key function of the circulatory system."
+    }
+]
+
+Model Answer: {
+    "answer": "transport materials",
+    "reasoning": "The main function of the circulatory system is to transport materials throughout the body, including oxygen, nutrients, hormones, and waste products. This is fundamental for maintaining homeostasis and enabling various bodily functions to occur. While secreting enzymes and producing hormones are important biological functions, they are primarily associated with the digestive and endocrine systems, respectively, rather than the circulatory system."
+}

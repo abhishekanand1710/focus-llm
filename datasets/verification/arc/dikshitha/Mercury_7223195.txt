@@ -1,0 +1,65 @@
+Key: Mercury_7223195
+
+Question: Which statement best describes a liquid sample?
+Options: ['It will retain its volume if transferred to a larger container.', 'It keeps its shape when transferred to a larger container.', 'Its volume can be greatly reduced by adding pressure.', 'Its shape can be changed by increasing its temperature.']
+Answer: It will retain its volume if transferred to a larger container.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Liquid",
+        "description": "A state of matter that has a definite volume but takes the shape of its container."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that a substance or object occupies."
+    },
+    {
+        "name": "Container",
+        "description": "An object that can hold or contain something, especially liquids."
+    },
+    {
+        "name": "Pressure",
+        "description": "The physical force exerted on or against an object by something in contact with it."
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the warmth or coldness of an object or substance with reference to some standard value."
+    },
+    {
+        "name": "Shape",
+        "description": "The external form or appearance characteristic of someone or something; the outline of an area or figure."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Liquid",
+        "relationship": "retains",
+        "related_concept": "Volume",
+        "description": "Liquids retain their volume when transferred between containers."
+    },
+    {
+        "concept": "Liquid",
+        "relationship": "adopts",
+        "related_concept": "Shape",
+        "description": "Liquid takes the shape of its container."
+    },
+    {
+        "concept": "Pressure",
+        "relationship": "modifies",
+        "related_concept": "Volume",
+        "description": "Applying pressure can change the volume of gases significantly but has less effect on liquids and solids."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "affects",
+        "related_concept": "Shape",
+        "description": "Changing the temperature of a substance can change its state, thereby affecting its shape."
+    }
+]
+
+Model Answer: {
+    "answer": "It will retain its volume if transferred to a larger container.",
+    "reasoning": "The defining characteristic of a liquid is that it retains its volume regardless of the container it is in but takes the shape of that container. This implies that while liquids can change shape, their volume remains constant when transferred from one container to another, making the statement 'It will retain its volume if transferred to a larger container.' the best description of a liquid sample."
+}

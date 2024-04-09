@@ -1,0 +1,51 @@
+Key: MCAS_2002_8_13
+
+Question: Why do areas in the middle of a large continent generally have more extreme differences in temperature than areas near the coastline?
+Options: ['There are generally more clouds near the oceans.', 'Landlocked areas are usually at a lower altitude than coastline areas.', 'Coastlines are usually surrounded by mountains that block air masses.', 'Oceans change temperature slowly and regulate the temperature of nearby land.']
+Answer: Oceans change temperature slowly and regulate the temperature of nearby land.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Temperature Extremes",
+        "description": "Variations in temperature from very high to very low."
+    },
+    {
+        "name": "Large Continent",
+        "description": "A vast expanse of land that can span thousands of kilometers."
+    },
+    {
+        "name": "Coastline",
+        "description": "The area where the land meets the ocean."
+    },
+    {
+        "name": "Ocean Temperature Regulation",
+        "description": "The slow change in ocean temperatures that influence nearby land temperatures."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Large Continent",
+        "relationship": "experiences",
+        "related_concept": "Temperature Extremes",
+        "description": "Areas in the middle of a large continent are subject to more extreme temperature variations."
+    },
+    {
+        "concept": "Coastline",
+        "relationship": "influenced_by",
+        "related_concept": "Ocean Temperature Regulation",
+        "description": "The temperature of areas near the coastline is regulated by the slow-changing temperatures of the ocean."
+    },
+    {
+        "concept": "Ocean Temperature Regulation",
+        "relationship": "moderates",
+        "related_concept": "Temperature Extremes",
+        "description": "The slow change in ocean temperatures helps moderate temperature extremes on nearby land."
+    }
+]
+
+Model Answer: {
+    "answer": "Oceans change temperature slowly and regulate the temperature of nearby land.",
+    "reasoning": "The concepts and their relationships highlight that areas near coastlines benefit from the ocean's slow-changing temperatures, which help regulate and moderate the land's temperature, preventing extreme variations. In contrast, areas in the middle of large continents do not have this moderating influence, leading to more extreme temperatures."
+}

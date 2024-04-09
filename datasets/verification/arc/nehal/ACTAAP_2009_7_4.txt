@@ -1,0 +1,61 @@
+Key: ACTAAP_2009_7_4
+
+Question: Which planet has the longest planetary year?
+Options: ['Earth', 'Venus', 'Jupiter', 'Neptune']
+Answer: Neptune
+
+Model Response:
+Concepts: [
+    {
+        "name": "Planetary year",
+        "description": "The time it takes for a planet to complete one orbit around the Sun"
+    },
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun and the only astronomical object known to harbor life"
+    },
+    {
+        "name": "Venus",
+        "description": "The second planet from the Sun, orbiting it every 224.7 Earth days"
+    },
+    {
+        "name": "Jupiter",
+        "description": "The largest planet in the Solar System, taking about 11.86 Earth years to complete one orbit of the Sun"
+    },
+    {
+        "name": "Neptune",
+        "description": "The eighth planet from the Sun, taking about 164.8 Earth years to complete one orbit"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Planetary year",
+        "relationship": "is measured by",
+        "related_concept": "Earth",
+        "description": "Earth's planetary year is about 365.25 days"
+    },
+    {
+        "concept": "Planetary year",
+        "relationship": "is measured by",
+        "related_concept": "Venus",
+        "description": "Venus's planetary year is about 224.7 Earth days"
+    },
+    {
+        "concept": "Planetary year",
+        "relationship": "is measured by",
+        "related_concept": "Jupiter",
+        "description": "Jupiter's planetary year is about 11.86 Earth years"
+    },
+    {
+        "concept": "Planetary year",
+        "relationship": "is measured by",
+        "related_concept": "Neptune",
+        "description": "Neptune's planetary year is the longest of the options given, taking about 164.8 Earth years"
+    }
+]
+
+Model Answer: {
+    "answer": "Neptune",
+    "reasoning": "Based on the concept of what constitutes a planetary year, which is the time a planet takes to complete one orbit around the Sun, Neptune has the longest planetary year among the options provided. It takes about 164.8 Earth years for Neptune to complete one orbit around the Sun, making it the planet with the longest year compared to Earth's, Venus's, and Jupiter's years."
+}

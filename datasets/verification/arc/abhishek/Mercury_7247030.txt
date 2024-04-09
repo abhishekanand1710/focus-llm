@@ -1,0 +1,75 @@
+Key: Mercury_7247030
+
+Question: A certain species of endangered parrots lives on an island that can be seriously affected by large floods. Which of these is considered a negative impact to the parrot population from flooding?
+Options: ['a decrease in the availability of food', 'a decrease in populations of predators', 'an increase in suitable nesting locations', 'an increase in places to hide from danger']
+Answer: a decrease in the availability of food
+
+Model Response:
+Concepts: [
+    {
+        "name": "Endangered Parrots",
+        "description": "A species of parrots at risk of extinction"
+    },
+    {
+        "name": "Island Habitat",
+        "description": "The natural environment where the endangered parrots live"
+    },
+    {
+        "name": "Large Floods",
+        "description": "Significant influx of water that can cover land not usually submerged"
+    },
+    {
+        "name": "Availability of Food",
+        "description": "The presence of necessary sustenance for the parrots"
+    },
+    {
+        "name": "Populations of Predators",
+        "description": "The number of predatory animals that can threaten parrots"
+    },
+    {
+        "name": "Suitable Nesting Locations",
+        "description": "Areas where parrots can safely build nests and reproduce"
+    },
+    {
+        "name": "Places to Hide from Danger",
+        "description": "Locations where parrots can take refuge from threats"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Large Floods",
+        "relationship": "negatively impacts",
+        "related_concept": "Island Habitat",
+        "description": "Floods can drastically change the natural environment of the island"
+    },
+    {
+        "concept": "Island Habitat",
+        "relationship": "supports",
+        "related_concept": "Endangered Parrots",
+        "description": "The habitat provides the necessities for the parrots to thrive"
+    },
+    {
+        "concept": "Large Floods",
+        "relationship": "reduces",
+        "related_concept": "Availability of Food",
+        "description": "Flooding can destroy sources of food vital for the parrots"
+    },
+    {
+        "concept": "Island Habitat",
+        "relationship": "offers",
+        "related_concept": "Suitable Nesting Locations",
+        "description": "The natural environment of the island provides areas for nesting"
+    },
+    {
+        "concept": "Large Floods",
+        "relationship": "alters/disrupts",
+        "related_concept": "Suitable Nesting Locations",
+        "description": "Floods can destroy existing nesting areas"
+    }
+]
+
+Model Answer: {
+    "answer": "a decrease in the availability of food",
+    "reasoning": "When large floods occur, they can significantly disrupt the island habitat where endangered parrots live. This includes destroying the vegetation and insects that serve as food sources for these parrots. Without access to their necessary sustenance, the parrot population could face a negative impact due to starvation or forced migration in search of food."
+}

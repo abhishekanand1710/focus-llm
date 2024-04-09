@@ -1,0 +1,67 @@
+Key: Mercury_7093310
+
+Question: Constructive forces build a new mountain range. How will weathering and erosion change the features of the mountain range over time?
+Options: ['layering the rocks', 'crystallizing the rocks', 'folding the layers of the rocks', 'rounding the shapes of the rocks']
+Answer: rounding the shapes of the rocks
+
+Model Response:
+Concepts: [
+    {
+        "name": "Constructive Forces",
+        "description": "Processes that build up the Earth's surface, including mountain formation."
+    },
+    {
+        "name": "Weathering",
+        "description": "The breaking down of rocks, soil, and minerals through contact with Earth's atmosphere, water, and biological organisms."
+    },
+    {
+        "name": "Erosion",
+        "description": "The process by which soil and rock are removed from the Earth's surface by natural processes such as wind or water flow, and then transported and deposited in other locations."
+    },
+    {
+        "name": "Mountain Range",
+        "description": "A series of mountains connected by high ground."
+    },
+    {
+        "name": "Rounding the Shapes of the Rocks",
+        "description": "A physical alteration where edges of rocks become smoother over time."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Constructive Forces",
+        "relationship": "create",
+        "related_concept": "Mountain Range",
+        "description": "Constructive forces lead to the creation of new mountain ranges."
+    },
+    {
+        "concept": "Weathering",
+        "relationship": "occurs_on",
+        "related_concept": "Mountain Range",
+        "description": "Weathering acts on the surfaces of mountain ranges, breaking down rocks."
+    },
+    {
+        "concept": "Erosion",
+        "relationship": "removes_material_from",
+        "related_concept": "Mountain Range",
+        "description": "Erosion transports material away from mountain ranges, altering their features."
+    },
+    {
+        "concept": "Weathering",
+        "relationship": "leads_to",
+        "related_concept": "Rounding the Shapes of the Rocks",
+        "description": "Weathering processes contribute to the rounding of rock shapes."
+    },
+    {
+        "concept": "Erosion",
+        "relationship": "facilitates",
+        "related_concept": "Rounding the Shapes of the Rocks",
+        "description": "Erosion by water and wind helps in rounding the shapes of rocks."
+    }
+]
+
+Model Answer: {
+    "answer": "rounding the shapes of the rocks",
+    "reasoning": "Over time, weathering and erosion break down the materials that make up mountain ranges. Weathering physically and chemically breaks down the rocks, while erosion transports these materials away. This process naturally leads to the rounding of the shapes of the rocks in the mountain range, as the sharp edges are worn down and smoothed over time. Therefore, 'rounding the shapes of the rocks' is the correct answer based on the described effects of weathering and erosion on mountain ranges."
+}

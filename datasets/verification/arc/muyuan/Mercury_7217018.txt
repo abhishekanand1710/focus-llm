@@ -1,0 +1,75 @@
+Key: Mercury_7217018
+
+Question: A scientist cross-pollinates a tomato plant that is resistant to viruses with a tomato plant that produces large tomatoes. This is an example of
+Options: ['natural selection.', 'asexual reproduction.', 'selective breeding.', 'genetic engineering.']
+Answer: selective breeding.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Natural Selection",
+        "description": "A process by which organisms better adapted to their environment tend to survive and produce more offspring."
+    },
+    {
+        "name": "Asexual Reproduction",
+        "description": "A mode of reproduction by which offspring arise from a single organism, and inherit the genes of that parent only."
+    },
+    {
+        "name": "Selective Breeding",
+        "description": "The process by which humans use animal and plant breeding to selectively develop particular phenotypic traits."
+    },
+    {
+        "name": "Genetic Engineering",
+        "description": "The direct manipulation of an organism's genes using biotechnology."
+    },
+    {
+        "name": "Cross-Pollination",
+        "description": "The transfer of pollen from the flower of one plant to the flower of a plant having a different genetic constitution."
+    },
+    {
+        "name": "Virus Resistance",
+        "description": "The ability of a plant to prevent or overcome virus infection."
+    },
+    {
+        "name": "Large Tomatoes",
+        "description": "A characteristic of tomato plants that produce bigger fruit."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cross-Pollination",
+        "relationship": "is a method of",
+        "related_concept": "Selective Breeding",
+        "description": "Cross-pollination is used in selective breeding to combine desirable traits."
+    },
+    {
+        "concept": "Virus Resistance",
+        "relationship": "combined with",
+        "related_concept": "Large Tomatoes",
+        "description": "Traits of virus resistance and large tomatoes are combined through cross-pollination."
+    },
+    {
+        "concept": "Selective Breeding",
+        "relationship": "is different from",
+        "related_concept": "Genetic Engineering",
+        "description": "Selective breeding involves choosing which individuals to breed, whereas genetic engineering directly modifies genes."
+    },
+    {
+        "concept": "Selective Breeding",
+        "relationship": "is different from",
+        "related_concept": "Natural Selection",
+        "description": "Selective breeding is an artificial process initiated by humans, while natural selection is a natural process."
+    },
+    {
+        "concept": "Selective Breeding",
+        "relationship": "is different from",
+        "related_concept": "Asexual Reproduction",
+        "description": "Selective breeding typically involves sexual reproduction to combine traits, whereas asexual reproduction does not."
+    }
+]
+
+Model Answer: {
+    "answer": "selective breeding.",
+    "reasoning": "The process described involves intentionally cross-pollinating two tomato plants with desirable traits (virus resistance and large tomato production), which is a characteristic example of selective breeding. This is different from natural selection, which is an unguided, natural process; genetic engineering, which involves direct manipulation of DNA; and asexual reproduction, which involves only one parent and does not involve combining traits from two different plants."
+}

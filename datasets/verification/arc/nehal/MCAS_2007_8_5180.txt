@@ -1,0 +1,81 @@
+Key: MCAS_2007_8_5180
+
+Question: Which of the following areas is most likely to form metamorphic rocks such as gneiss and schist?
+Options: ['a sea floor', 'a windblown desert', 'a site deep underground', 'a site covered by a glacier']
+Answer: a site deep underground
+
+Model Response:
+Concepts: [
+    {
+        "name": "Metamorphic Rocks",
+        "description": "Rocks that have undergone transformation due to intense heat and pressure."
+    },
+    {
+        "name": "Gneiss",
+        "description": "A high-grade metamorphic rock with a banded appearance."
+    },
+    {
+        "name": "Schist",
+        "description": "A medium-grade metamorphic rock with sheet-like grains."
+    },
+    {
+        "name": "Sea Floor",
+        "description": "The bottom of a sea or ocean."
+    },
+    {
+        "name": "Windblown Desert",
+        "description": "A desert shaped and affected by the flow of wind."
+    },
+    {
+        "name": "Site Deep Underground",
+        "description": "A location below the earth's surface where pressure and temperature conditions are suitable for metamorphism."
+    },
+    {
+        "name": "Site Covered by a Glacier",
+        "description": "A location covered by a large body of ice which moves over land."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Metamorphic Rocks",
+        "relationship": "includes",
+        "related_concept": "Gneiss",
+        "description": "Gneiss is a type of metamorphic rock."
+    },
+    {
+        "concept": "Metamorphic Rocks",
+        "relationship": "includes",
+        "related_concept": "Schist",
+        "description": "Schist is a type of metamorphic rock."
+    },
+    {
+        "concept": "Site Deep Underground",
+        "relationship": "facilitates",
+        "related_concept": "Metamorphic Rocks",
+        "description": "Deep underground conditions facilitate the transformation into metamorphic rocks."
+    },
+    {
+        "concept": "Sea Floor",
+        "relationship": "unlikely_to_facilitate",
+        "related_concept": "Metamorphic Rocks",
+        "description": "The sea floor, by itself, does not provide the conditions for the formation of metamorphic rocks."
+    },
+    {
+        "concept": "Windblown Desert",
+        "relationship": "unlikely_to_facilitate",
+        "related_concept": "Metamorphic Rocks",
+        "description": "Windblown deserts, by themselves, do not provide the conditions for the formation of metamorphic rocks."
+    },
+    {
+        "concept": "Site Covered by a Glacier",
+        "relationship": "unlikely_to_facilitate",
+        "related_concept": "Metamorphic Rocks",
+        "description": "Glacial sites, by themselves, do not typically provide the conditions for the formation of metamorphic rocks."
+    }
+]
+
+Model Answer: {
+    "answer": "a site deep underground",
+    "reasoning": "Metamorphic rocks such as gneiss and schist form under conditions of intense heat and pressure, which are most likely to be found deep underground. This environment facilitates the transformation of original rock into metamorphic rock. In contrast, sea floors, windblown deserts, and sites covered by glaciers do not typically provide the necessary conditions of heat and pressure for the formation of metamorphic rocks like gneiss and schist."
+}

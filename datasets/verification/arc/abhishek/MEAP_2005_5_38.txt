@@ -1,0 +1,51 @@
+Key: MEAP_2005_5_38
+
+Question: As an airplane climbs in the sky, the pilot notices ice crystals forming on the windshield. This happens because
+Options: ['blizzards occur more often at higher altitudes.', 'friction with the atmosphere causes ice to develop.', 'water evaporates faster at higher altitudes, resulting in ice crystals.', 'moisture on the outside of the plane freezes due to colder air at higher altitudes.']
+Answer: moisture on the outside of the plane freezes due to colder air at higher altitudes.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Atmospheric temperature",
+        "description": "Temperature decreases with altitude in the troposphere."
+    },
+    {
+        "name": "Moisture in the air",
+        "description": "Water present in the air in the form of vapor, droplets, or ice crystals."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process of a liquid turning into a solid, in this context, referring to water becoming ice."
+    },
+    {
+        "name": "Altitude",
+        "description": "The height of an object or point in relation to sea level or ground level."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Altitude",
+        "relationship": "increases",
+        "related_concept": "Atmospheric temperature",
+        "description": "As altitude increases, atmospheric temperature generally decreases."
+    },
+    {
+        "concept": "Atmospheric temperature",
+        "relationship": "affects",
+        "related_concept": "Freezing",
+        "description": "Lower atmospheric temperatures can lead to freezing of moisture in the air."
+    },
+    {
+        "concept": "Moisture in the air",
+        "relationship": "subject to",
+        "related_concept": "Freezing",
+        "description": "Moisture present around the airplane can freeze when exposed to colder temperatures."
+    }
+]
+
+Model Answer: {
+    "answer": "moisture on the outside of the plane freezes due to colder air at higher altitudes.",
+    "reasoning": "As an airplane climbs, it reaches higher altitudes where the air is colder. This decrease in temperature causes the moisture present in the air around the airplane to freeze, leading to ice crystals forming on surfaces such as the windshield. The other options do not accurately describe the mechanism by which ice forms in this scenario."
+}

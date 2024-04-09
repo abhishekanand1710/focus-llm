@@ -1,0 +1,67 @@
+Key: Mercury_7009538
+
+Question: Which statement best explains why a car that is rolling on a level surface will eventually come to a stop?
+Options: ['Frictional forces oppose the motion of the car.', 'Forward motion slowly runs out as energy is expended.', 'The natural state of an object is to be at rest.', 'Inertia acting on an object will dissipate.']
+Answer: Frictional forces oppose the motion of the car.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Friction",
+        "description": "A force that opposes motion between two surfaces that are in contact."
+    },
+    {
+        "name": "Motion",
+        "description": "The action or process of moving or being moved."
+    },
+    {
+        "name": "Energy",
+        "description": "The capacity to do work."
+    },
+    {
+        "name": "Rest",
+        "description": "The state of an object being stationary or not in motion."
+    },
+    {
+        "name": "Inertia",
+        "description": "The resistance of any physical object to any change in its velocity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Friction",
+        "relationship": "opposes",
+        "related_concept": "Motion",
+        "description": "Frictional forces act against the direction of motion, slowing things down."
+    },
+    {
+        "concept": "Motion",
+        "relationship": "consumes",
+        "related_concept": "Energy",
+        "description": "Motion of an object continues until the energy propelling it is consumed."
+    },
+    {
+        "concept": "Rest",
+        "relationship": "opposite of",
+        "related_concept": "Motion",
+        "description": "Rest is the absence of motion."
+    },
+    {
+        "concept": "Inertia",
+        "relationship": "maintains",
+        "related_concept": "Motion",
+        "description": "Inertia is the property that helps an object maintain its state of motion."
+    },
+    {
+        "concept": "Friction",
+        "relationship": "causes",
+        "related_concept": "Energy",
+        "description": "The force of friction converts kinetic energy into other forms, such as heat."
+    }
+]
+
+Model Answer: {
+    "answer": "Frictional forces oppose the motion of the car.",
+    "reasoning": "The most direct explanation for a car coming to a stop on a level surface is that frictional forces, specifically between the car's tires and the ground, act in the opposite direction of the car's motion. This opposition gradually reduces the car's kinetic energy until it comes to rest. While the other options might seem related or plausible, they are not directly responsible for stopping the car in the manner described. Friction, as a concept, directly links to the motion of the car, the energy involved in its movement, and its eventual halt."
+}

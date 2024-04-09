@@ -1,0 +1,69 @@
+Key: Mercury_7269168
+
+Question: When is wood a nonrenewable resource?
+Options: ['When more trees are harvested than are replanted.', 'When trees are harvested and replanted at the same rate.', 'When trees are used as an energy resource.', 'When trees are used as a material resource.']
+Answer: When more trees are harvested than are replanted.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Renewable Resource",
+        "description": "A resource that can be replenished naturally with the passage of time."
+    },
+    {
+        "name": "Nonrenewable Resource",
+        "description": "A resource that cannot be readily replaced by natural means on a level equal to its consumption."
+    },
+    {
+        "name": "Harvesting",
+        "description": "The process of gathering mature crops or trees from the land."
+    },
+    {
+        "name": "Replanting",
+        "description": "The act of planting trees or crops again or anew."
+    },
+    {
+        "name": "Sustainable Management",
+        "description": "Practices that allow for the ongoing use of a resource without causing long-term depletion or damage."
+    },
+    {
+        "name": "Energy Resource",
+        "description": "A resource that can be used to produce energy."
+    },
+    {
+        "name": "Material Resource",
+        "description": "A resource that can be used to make products or provide structural functions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Renewable Resource",
+        "relationship": "becomes",
+        "related_concept": "Nonrenewable Resource",
+        "description": "A renewable resource can become nonrenewable if used faster than it can regenerate."
+    },
+    {
+        "concept": "Harvesting",
+        "relationship": "greater than",
+        "related_concept": "Replanting",
+        "description": "When harvesting exceeds replanting, it leads towards depletion of the resource."
+    },
+    {
+        "concept": "Sustainable Management",
+        "relationship": "requires",
+        "related_concept": "Replanting",
+        "description": "Sustainable management requires replanting to match or exceed harvesting."
+    },
+    {
+        "concept": "Energy Resource",
+        "relationship": "is a use of",
+        "related_concept": "Material Resource",
+        "description": "Material resources can be used as energy resources, among other uses."
+    }
+]
+
+Model Answer: {
+    "answer": "When more trees are harvested than are replanted.",
+    "reasoning": "Wood becomes a nonrenewable resource when the rate of tree harvesting exceeds the rate of replanting. This is because the resource (wood in this case) is being consumed faster than it can naturally replenish, moving away from sustainable management practices and towards depletion, thus losing its renewable resource status."
+}

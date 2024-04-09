@@ -1,0 +1,67 @@
+Key: ACTAAP_2015_7_2
+
+Question: A reflex can protect the body from harm. Which organ systems work together to produce a reflex?
+Options: ['nervous and immune systems', 'nervous and muscular systems', 'circulatory and immune systems', 'circulatory and muscular systems']
+Answer: nervous and muscular systems
+
+Model Response:
+Concepts: [
+    {
+        "name": "Reflex",
+        "description": "An involuntary and nearly instantaneous movement in response to a stimulus"
+    },
+    {
+        "name": "Nervous system",
+        "description": "A network of nerve cells and fibers that transmits nerve impulses between parts of the body"
+    },
+    {
+        "name": "Muscular system",
+        "description": "Comprises all the muscles in the body and enables movement of the body and internal organs"
+    },
+    {
+        "name": "Immune system",
+        "description": "A complex network of cells and proteins that defends the body against infection"
+    },
+    {
+        "name": "Circulatory system",
+        "description": "The system that circulates blood and lymph through the body, consisting of the heart, blood vessels, blood, lymph, and the lymphatic vessels and glands"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Reflex",
+        "relationship": "is effected by",
+        "related_concept": "Nervous system",
+        "description": "Reflexes are initiated by the nervous system in response to external stimuli"
+    },
+    {
+        "concept": "Nervous system",
+        "relationship": "controls",
+        "related_concept": "Muscular system",
+        "description": "The nervous system sends signals to the muscular system to initiate movement"
+    },
+    {
+        "concept": "Muscular system",
+        "relationship": "responds to",
+        "related_concept": "Nervous system",
+        "description": "The muscular system contracts or relaxes in response to signals from the nervous system"
+    },
+    {
+        "concept": "Nervous system",
+        "relationship": "does not directly interact with",
+        "related_concept": "Immune system",
+        "description": "The primary function of the nervous system is not to directly engage or manage the immune system under normal circumstances"
+    },
+    {
+        "concept": "Nervous system",
+        "relationship": "does not directly interact with",
+        "related_concept": "Circulatory system",
+        "description": "The primary function of the nervous system is signal transmission, not circulation of blood"
+    }
+]
+
+Model Answer: {
+    "answer": "nervous and muscular systems",
+    "reasoning": "A reflex is an automatic response to a stimulus that involves the nervous and muscular systems. The nervous system detects the stimulus and sends a signal to the muscular system, causing it to react and protect the body from harm. The immune and circulatory systems do not play a direct role in the reflex action."
+}

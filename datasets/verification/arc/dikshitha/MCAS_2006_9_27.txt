@@ -1,0 +1,101 @@
+Key: MCAS_2006_9_27
+
+Question: Visible light passes through glass. Other types of electromagnetic radiation are able to pass through other materials in a similar way. Which of the following are used in medical technology because they can pass through some parts of the human body?
+Options: ['x-rays', 'infrared waves', 'microwaves', 'ultraviolet rays']
+Answer: x-rays
+
+Model Response:
+Concepts: [
+    {
+        "name": "Visible Light",
+        "description": "A type of electromagnetic radiation that is visible to the human eye."
+    },
+    {
+        "name": "Electromagnetic Radiation",
+        "description": "Waves of electric and magnetic fields that travel at the speed of light."
+    },
+    {
+        "name": "X-rays",
+        "description": "A form of electromagnetic radiation with very short wavelengths that can pass through most objects, including the body."
+    },
+    {
+        "name": "Infrared Waves",
+        "description": "Electromagnetic waves with longer wavelengths than visible light, used in heating and in remote controls."
+    },
+    {
+        "name": "Microwaves",
+        "description": "Electromagnetic waves with wavelengths shorter than radio waves, used in microwave ovens and radar technology."
+    },
+    {
+        "name": "Ultraviolet Rays",
+        "description": "Electromagnetic waves with shorter wavelengths than visible light, known for causing sunburns."
+    },
+    {
+        "name": "Glass",
+        "description": "A hard, brittle substance, typically transparent, made by fusing sand with soda, lime, and sometimes other additives."
+    },
+    {
+        "name": "Medical Technology",
+        "description": "The application of scientific knowledge or technology to diagnose, treat, or prevent diseases and conditions."
+    },
+    {
+        "name": "Human Body",
+        "description": "The physical structure of a human being, consisting of a head, torso, two arms, and two legs."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Electromagnetic Radiation",
+        "relationship": "includes",
+        "related_concept": "Visible Light",
+        "description": "Visible light is a type of electromagnetic radiation."
+    },
+    {
+        "concept": "Electromagnetic Radiation",
+        "relationship": "includes",
+        "related_concept": "X-rays",
+        "description": "X-rays are a form of electromagnetic radiation."
+    },
+    {
+        "concept": "Electromagnetic Radiation",
+        "relationship": "includes",
+        "related_concept": "Infrared Waves",
+        "description": "Infrared waves are a type of electromagnetic radiation."
+    },
+    {
+        "concept": "Electromagnetic Radiation",
+        "relationship": "includes",
+        "related_concept": "Microwaves",
+        "description": "Microwaves are a form of electromagnetic radiation."
+    },
+    {
+        "concept": "Electromagnetic Radiation",
+        "relationship": "includes",
+        "related_concept": "Ultraviolet Rays",
+        "description": "Ultraviolet rays are a type of electromagnetic radiation."
+    },
+    {
+        "concept": "X-rays",
+        "relationship": "used_in",
+        "related_concept": "Medical Technology",
+        "description": "X-rays can pass through the human body, making them useful in medical technology for imaging."
+    },
+    {
+        "concept": "Human Body",
+        "relationship": "can_be_transparent_to",
+        "related_concept": "X-rays",
+        "description": "Some parts of the human body can be transparent to X-rays, allowing for internal imaging."
+    },
+    {
+        "concept": "Glass",
+        "relationship": "transparent_to",
+        "related_concept": "Visible Light",
+        "description": "Glass allows visible light to pass through it."
+    }
+]
+
+Model Answer: {
+    "answer": "x-rays",
+    "reasoning": "X-rays are used in medical technology because they can pass through some parts of the human body, allowing for internal imaging. This is crucial for diagnosing and treating various medical conditions by providing clear images of bones, organs, and other internal structures."
+}

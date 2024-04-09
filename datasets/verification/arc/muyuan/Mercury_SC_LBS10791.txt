@@ -1,0 +1,55 @@
+Key: Mercury_SC_LBS10791
+
+Question: Why are different stars seen during different seasons?
+Options: ['Some stars shine brighter during different seasons.', 'The Sun shines on different stars during different seasons.', 'Earth changes position in its orbit during different seasons.', 'The Moon changes position in its orbit during different seasons.']
+Answer: Earth changes position in its orbit during different seasons.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Stars",
+        "description": "Giant luminous spheres of plasma held together by their own gravity."
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of the Solar System."
+    },
+    {
+        "name": "Earth's Orbit",
+        "description": "The path Earth follows as it revolves around the Sun."
+    },
+    {
+        "name": "Seasons",
+        "description": "Periods of the year characterized by specific weather conditions, temperatures, and length of day."
+    },
+    {
+        "name": "Moon's Orbit",
+        "description": "The path the Moon follows as it revolves around Earth."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's Orbit",
+        "relationship": "causes",
+        "related_concept": "Seasons",
+        "description": "The tilt of Earth's axis and its orbit around the Sun cause the seasons."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "illuminates",
+        "related_concept": "Stars",
+        "description": "The Sun's light can outshine stars, making them invisible during the day."
+    },
+    {
+        "concept": "Earth's Orbit",
+        "relationship": "changes perspective",
+        "related_concept": "Stars",
+        "description": "As Earth revolves around the Sun, our night-time view of the stars changes."
+    }
+]
+
+Model Answer: {
+    "answer": "Earth changes position in its orbit during different seasons.",
+    "reasoning": "The primary reason different stars are seen during different seasons is due to Earth's orbit around the Sun. As Earth revolves, our perspective changes, presenting different sections of the night sky throughout the year. This movement allows us to see stars and constellations that are not visible at other times of the year, while some stars become obscured by the Sun's light or the daytime sky."
+}

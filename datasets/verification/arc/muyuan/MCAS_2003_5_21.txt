@@ -1,0 +1,81 @@
+Key: MCAS_2003_5_21
+
+Question: Which of the following is least likely to change from a solid state to a liquid state when heat is applied?
+Options: ['butter', 'paper', 'ice', 'candle wax']
+Answer: paper
+
+Model Response:
+Concepts: [
+    {
+        "name": "butter",
+        "description": "A dairy product that melts from solid to liquid at low temperatures."
+    },
+    {
+        "name": "paper",
+        "description": "A thin material produced by pressing together moist fibers, typically cellulose pulp derived from wood, rags, or grasses, and drying them into flexible sheets."
+    },
+    {
+        "name": "ice",
+        "description": "Frozen water, a crystalline solid that melts into liquid water at 0\u00b0C (32\u00b0F)."
+    },
+    {
+        "name": "candle wax",
+        "description": "A solid material consisting of a mixture of lipophilic compounds such as paraffin, used to provide fuel for candles."
+    },
+    {
+        "name": "heat application",
+        "description": "The process of applying thermal energy to substances, causing changes in their physical state among other properties."
+    },
+    {
+        "name": "solid state",
+        "description": "The state of matter characterized by structural rigidity and resistance to changes shape or volume."
+    },
+    {
+        "name": "liquid state",
+        "description": "The state of matter with a definite volume but no fixed shape, that flows freely."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "butter",
+        "relationship": "transforms into",
+        "related_concept": "liquid state",
+        "description": "Butter melts into a liquid form when heated."
+    },
+    {
+        "concept": "paper",
+        "relationship": "burns instead of melting",
+        "related_concept": "solid state",
+        "description": "Paper combusts and decomposes instead of melting when heated."
+    },
+    {
+        "concept": "ice",
+        "relationship": "transforms into",
+        "related_concept": "liquid state",
+        "description": "Ice melts into water, a liquid state, when heated above 0\u00b0C."
+    },
+    {
+        "concept": "candle wax",
+        "relationship": "transforms into",
+        "related_concept": "liquid state",
+        "description": "Candle wax melts from a solid to a liquid when heated."
+    },
+    {
+        "concept": "heat application",
+        "relationship": "causes",
+        "related_concept": "solid state",
+        "description": "Applying heat to solid substances causes them to change state, often into liquids."
+    },
+    {
+        "concept": "liquid state",
+        "relationship": "result of",
+        "related_concept": "heat application",
+        "description": "The process of heating solids can result in their transformation into a liquid state."
+    }
+]
+
+Model Answer: {
+    "answer": "paper",
+    "reasoning": "Among the given options, 'paper' is least likely to change from a solid to a liquid state when heat is applied because it does not melt but instead burns, undergoing combustion and decomposing rather than transitioning to a liquid state. This behaviour is unlike butter, ice, and candle wax, which all melt into a liquid form upon heating."
+}

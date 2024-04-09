@@ -1,0 +1,61 @@
+Key: Mercury_7221743
+
+Question: Which of the following elements is the least electrically conductive?
+Options: ['sodium', 'tungsten', 'zinc', 'argon']
+Answer: argon
+
+Model Response:
+Concepts: [
+    {
+        "name": "Electrical Conductivity",
+        "description": "A measure of how well a material accommodates the movement of an electric charge"
+    },
+    {
+        "name": "Sodium",
+        "description": "A soft, silvery-white, highly reactive metal and a good conductor of electricity"
+    },
+    {
+        "name": "Tungsten",
+        "description": "A metal with the highest melting point, known for good conductivity and high density"
+    },
+    {
+        "name": "Zinc",
+        "description": "A slightly brittle metal at room temperature and a good conductor of electricity"
+    },
+    {
+        "name": "Argon",
+        "description": "A noble gas that is colorless, odorless, and almost completely non-reactive"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sodium",
+        "relationship": "is a",
+        "related_concept": "Electrical Conductivity",
+        "description": "Sodium is known to be a good conductor of electricity due to its metallic properties"
+    },
+    {
+        "concept": "Tungsten",
+        "relationship": "is a",
+        "related_concept": "Electrical Conductivity",
+        "description": "Tungsten conducts electricity well, mostly used in applications requiring its high melting point and conductivity"
+    },
+    {
+        "concept": "Zinc",
+        "relationship": "is a",
+        "related_concept": "Electrical Conductivity",
+        "description": "Zinc is a conductor of electricity, utilized in various alloys and applications"
+    },
+    {
+        "concept": "Argon",
+        "relationship": "is not a",
+        "related_concept": "Electrical Conductivity",
+        "description": "Argon, being a noble gas, is a poor conductor of electricity due to its non-reactive nature"
+    }
+]
+
+Model Answer: {
+    "answer": "argon",
+    "reasoning": "Among the options given, argon is the least electrically conductive because it is a noble gas characterized by its lack of reactivity and inability to easily form ions or conduct electricity. In contrast, sodium, tungsten, and zinc are metals known for their ability to conduct electricity."
+}

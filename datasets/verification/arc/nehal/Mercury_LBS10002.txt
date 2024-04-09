@@ -1,0 +1,51 @@
+Key: Mercury_LBS10002
+
+Question: The following mathematical expressions represent four different concentrations of a chemical solution to be used in a science experiment. Which one is equal in magnitude to 1/1000?
+Options: ['1.0 x 10^3', '1.0 x 10^4', '1.0 x 10^-3', '1.0 x 10^-4']
+Answer: 1.0 x 10^-3
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical Solution Concentration",
+        "description": "A measure of the amount of solute that is dissolved in a given quantity of solvent."
+    },
+    {
+        "name": "Scientific Notation",
+        "description": "A way of expressing numbers that are too big or too small to be conveniently written in decimal form."
+    },
+    {
+        "name": "Magnitude",
+        "description": "The size or extent of something, often expressed in terms of order of magnitude."
+    },
+    {
+        "name": "Fraction",
+        "description": "A numerical quantity that is not a whole number, representing a part of a whole."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical Solution Concentration",
+        "relationship": "is quantified by",
+        "related_concept": "Magnitude",
+        "description": "The magnitude of a chemical solution concentration quantifies its strength."
+    },
+    {
+        "concept": "Magnitude",
+        "relationship": "expressed using",
+        "related_concept": "Scientific Notation",
+        "description": "The magnitude of values, especially small or large, can be expressed using scientific notation for clarity and simplicity."
+    },
+    {
+        "concept": "Fraction",
+        "relationship": "equivalent expression",
+        "related_concept": "Scientific Notation",
+        "description": "Fractions can be equivalently expressed in scientific notation to represent small or large numbers in a simplified manner."
+    }
+]
+
+Model Answer: {
+    "answer": "1.0 x 10^-3",
+    "reasoning": "The fraction 1/1000 equals 0.001 in decimal form. This is equivalent to 1.0 x 10^-3 in scientific notation, which represents the same magnitude as the fraction. None of the other options, 1.0 x 10^3, 1.0 x 10^4, or 1.0 x 10^-4, represent the same magnitude. 1.0 x 10^-3 is the correct answer because it directly translates to 1/1000 in terms of magnitude, making use of the concepts of scientific notation and magnitude representation."
+}

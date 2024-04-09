@@ -1,0 +1,75 @@
+Key: Mercury_412649
+
+Question: The equation for the synthesis of water is given below. 2H_{2} + O_{2} -> 2H_{2}O How many grams of oxygen gas are needed to produce 36.0 grams of water?
+Options: ['9.00 grams', '16.0 grams', '32.0 grams', '40.0 grams']
+Answer: 32.0 grams
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical equation",
+        "description": "A representation of a chemical reaction using symbols of the elements or compounds involved"
+    },
+    {
+        "name": "Stoichiometry",
+        "description": "The calculation of reactants and products in chemical reactions"
+    },
+    {
+        "name": "Molar mass",
+        "description": "The mass of one mole of a substance, typically expressed in grams per mole (g/mol)"
+    },
+    {
+        "name": "Water (H2O)",
+        "description": "A compound made of two hydrogen atoms bonded to one oxygen atom"
+    },
+    {
+        "name": "Oxygen gas (O2)",
+        "description": "A diatomic molecule consisting of two oxygen atoms"
+    },
+    {
+        "name": "Hydrogen gas (H2)",
+        "description": "A diatomic molecule consisting of two hydrogen atoms"
+    },
+    {
+        "name": "Grams",
+        "description": "A unit of mass in the metric system"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical equation",
+        "relationship": "represents",
+        "related_concept": "Stoichiometry",
+        "description": "The chemical equation represents the stoichiometry of a reaction"
+    },
+    {
+        "concept": "Stoichiometry",
+        "relationship": "uses",
+        "related_concept": "Molar mass",
+        "description": "Stoichiometry uses the molar mass of reactants and products to calculate the amounts needed or produced"
+    },
+    {
+        "concept": "Water (H2O)",
+        "relationship": "produced from",
+        "related_concept": "Oxygen gas (O2)",
+        "description": "Water is produced from oxygen gas in the reaction"
+    },
+    {
+        "concept": "Oxygen gas (O2)",
+        "relationship": "reacts with",
+        "related_concept": "Hydrogen gas (H2)",
+        "description": "Oxygen gas reacts with hydrogen gas to produce water"
+    },
+    {
+        "concept": "Grams",
+        "relationship": "measures",
+        "related_concept": "Molar mass",
+        "description": "Grams is a unit that measures the molar mass of substances"
+    }
+]
+
+Model Answer: {
+    "answer": "32.0 grams",
+    "reasoning": "The molar mass of water (H2O) is approximately 18 g/mol (2 for hydrogen and 16 for oxygen). To produce 36.0 grams of water, 36.0 g / 18 g/mol = 2 moles of water are needed. According to the stoichiometry of the reaction, it takes 1 mole of O2 to produce 2 moles of H2O. Therefore, we need 1 mole of O2. The molar mass of O2 is approximately 32 g/mol (16*2). As such, to produce 36.0 grams of water, 32.0 grams of oxygen gas are needed."
+}

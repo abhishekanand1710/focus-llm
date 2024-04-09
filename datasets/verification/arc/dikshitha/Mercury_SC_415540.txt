@@ -1,0 +1,61 @@
+Key: Mercury_SC_415540
+
+Question: Four different students take turns pushing a large, heavy ball on the school parking lot. What is the best way to determine which student used the most force to push the ball?
+Options: ['compare the sizes of the students', 'compare the ages of the students', 'compare the distances that the ball rolled', 'compare the number of times the ball was rolled']
+Answer: compare the distances that the ball rolled
+
+Model Response:
+Concepts: [
+    {
+        "name": "Force",
+        "description": "A push or pull on an object that causes it to move, stop, or change direction."
+    },
+    {
+        "name": "Distance",
+        "description": "How far an object moves."
+    },
+    {
+        "name": "Student's Size",
+        "description": "Physical dimensions of a student."
+    },
+    {
+        "name": "Student's Age",
+        "description": "The length of time that a student has lived."
+    },
+    {
+        "name": "Number of times the ball was rolled",
+        "description": "How many attempts a student makes to roll the ball."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Force",
+        "relationship": "causes",
+        "related_concept": "Distance",
+        "description": "The amount of force applied to the ball influences the distance it travels."
+    },
+    {
+        "concept": "Student's Size",
+        "relationship": "does not directly relate to",
+        "related_concept": "Force",
+        "description": "A student's physical size does not directly determine the force they can apply."
+    },
+    {
+        "concept": "Student's Age",
+        "relationship": "does not directly relate to",
+        "related_concept": "Force",
+        "description": "A student's age does not directly determine the force they can apply."
+    },
+    {
+        "concept": "Number of times the ball was rolled",
+        "relationship": "does not determine",
+        "related_concept": "Force",
+        "description": "How many times a ball is rolled does not measure the force applied in a single push."
+    }
+]
+
+Model Answer: {
+    "answer": "compare the distances that the ball rolled",
+    "reasoning": "The distance the ball travels is directly influenced by the amount of force applied to it. The other options, such as the size and age of the students or the number of times the ball was rolled, do not provide a direct measure of the force applied to the ball. Therefore, comparing the distances that the ball rolled is the most effective way to determine which student applied the most force."
+}

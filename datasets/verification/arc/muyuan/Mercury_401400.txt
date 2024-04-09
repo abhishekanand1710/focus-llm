@@ -1,0 +1,71 @@
+Key: Mercury_401400
+
+Question: In certain species of plants, purple flowers (P) are dominant to white flowers (p). If two heterozygous plants are crossed, what will be the phenotype of the offspring?
+Options: ['100% purple flowers', '100% white flowers', '75% white flowers, 25% purple flowers', '25% white flowers, 75% purple flowers']
+Answer: 25% white flowers, 75% purple flowers
+
+Model Response:
+Concepts: [
+    {
+        "name": "Dominance",
+        "description": "A dominant allele masks the effect of a recessive allele for the same trait."
+    },
+    {
+        "name": "Recessive",
+        "description": "A recessive allele's effects are masked by a dominant allele for the same trait."
+    },
+    {
+        "name": "Phenotype",
+        "description": "The observable characteristics or traits of an organism."
+    },
+    {
+        "name": "Heterozygous",
+        "description": "Having two different alleles for a particular gene."
+    },
+    {
+        "name": "Genotype",
+        "description": "The genetic makeup of an organism in terms of the alleles present."
+    },
+    {
+        "name": "Crossing",
+        "description": "The mating of two organisms in the context of genetics."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dominance",
+        "relationship": "determines",
+        "related_concept": "Phenotype",
+        "description": "The dominant allele determines the phenotype when it is present."
+    },
+    {
+        "concept": "Heterozygous",
+        "relationship": "contains",
+        "related_concept": "Dominant and Recessive alleles",
+        "description": "Heterozygous individuals have one dominant and one recessive allele for a trait."
+    },
+    {
+        "concept": "Heterozygous",
+        "relationship": "results in",
+        "related_concept": "Genotype",
+        "description": "The combination of alleles in heterozygous individuals determines their genotype."
+    },
+    {
+        "concept": "Crossing",
+        "relationship": "combines",
+        "related_concept": "Genotypes",
+        "description": "Crossing involves combining the genotypes of two parents to determine the genotypes and phenotypes of the offspring."
+    },
+    {
+        "concept": "Genotype",
+        "relationship": "defines",
+        "related_concept": "Phenotype",
+        "description": "The genotype of an organism defines its phenotype, considering which alleles are dominant and which are recessive."
+    }
+]
+
+Model Answer: {
+    "answer": "25% white flowers, 75% purple flowers",
+    "reasoning": "When two heterozygous plants are crossed, the genotypes combine in a way that produces offspring with a 3:1 phenotype ratio for dominant to recessive traits, due to Mendelian genetics. Since purple flowers are dominant (P) over white flowers (p), and both parents are heterozygous (Pp), the offspring are expected to have a 75% chance of being purple (PP or Pp) and a 25% chance of being white (pp)."
+}

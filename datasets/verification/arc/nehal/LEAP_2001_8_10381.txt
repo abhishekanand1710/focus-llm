@@ -1,0 +1,85 @@
+Key: LEAP_2001_8_10381
+
+Question: Which statement is the best description of what happens in the rock cycle?
+Options: ['Rocks on old mountains are gradually weathered away while mountain building and volcanism form new mountains.', 'Once formed, rocks stay in place until rocks above them are weathered away, and they reach the surface.', 'As sedimentary rocks are buried deep below other rocks, they are changed by heat and pressure, eventually return to the surface, and are weathered again.', 'Younger sedimentary rocks are always deposited on top of older metamorphic or igneous rocks.']
+Answer: As sedimentary rocks are buried deep below other rocks, they are changed by heat and pressure, eventually return to the surface, and are weathered again.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rock Cycle",
+        "description": "A continuous process by which rocks are created, altered, destroyed, and reformed by geological processes."
+    },
+    {
+        "name": "Weathering",
+        "description": "The breaking down of rocks, soil, and minerals as well as artificial materials through contact with the Earth's atmosphere, water, and biological organisms."
+    },
+    {
+        "name": "Mountain Building",
+        "description": "The geological processes, such as tectonic plate movement and volcanic activity, that construct mountains."
+    },
+    {
+        "name": "Volcanism",
+        "description": "The eruption of molten rock (magma) onto the surface of the Earth, where it solidifies as volcanic rock."
+    },
+    {
+        "name": "Sedimentary Rocks",
+        "description": "Rocks formed by the accumulation and consolidation of sediments, which can include fragments of other rocks and organic material."
+    },
+    {
+        "name": "Metamorphic Rocks",
+        "description": "Rocks that have been substantially changed from their original form due to high heat, pressure, and chemical processes within the Earth."
+    },
+    {
+        "name": "Igneous Rocks",
+        "description": "Rocks formed through the cooling and solidification of magma or lava."
+    },
+    {
+        "name": "Heat and Pressure",
+        "description": "Forces that contribute to the metamorphosis of rocks deep within the Earth."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rock Cycle",
+        "relationship": "includes",
+        "related_concept": "Weathering",
+        "description": "Weathering is a part of the rock cycle that breaks down rocks."
+    },
+    {
+        "concept": "Rock Cycle",
+        "relationship": "includes",
+        "related_concept": "Mountain Building",
+        "description": "Mountain building is a part of the rock cycle that forms mountains."
+    },
+    {
+        "concept": "Rock Cycle",
+        "relationship": "includes",
+        "related_concept": "Volcanism",
+        "description": "Volcanism contributes to the creation of new rocks within the rock cycle."
+    },
+    {
+        "concept": "Sedimentary Rocks",
+        "relationship": "transform into",
+        "related_concept": "Metamorphic Rocks",
+        "description": "Sedimentary rocks can become metamorphic rocks under heat and pressure."
+    },
+    {
+        "concept": "Metamorphic Rocks",
+        "relationship": "origin",
+        "related_concept": "Heat and Pressure",
+        "description": "Heat and pressure are the driving forces behind the transformation into metamorphic rocks."
+    },
+    {
+        "concept": "Volcanism",
+        "relationship": "produces",
+        "related_concept": "Igneous Rocks",
+        "description": "Volcanism leads to the formation of igneous rocks."
+    }
+]
+
+Model Answer: {
+    "answer": "As sedimentary rocks are buried deep below other rocks, they are changed by heat and pressure, eventually return to the surface, and are weathered again.",
+    "reasoning": "This option accurately describes a crucial and continuous part of the rock cycle involving the transformation of sedimentary rocks into metamorphic rocks due to heat and pressure, and their eventual emergence back at the surface where they are subjected to weathering, thereby continuing the cycle. It encompasses the concepts of sedimentary and metamorphic rocks, the role of heat and pressure in their transformation, and the overarching cycle of rock creation, alteration, and renewal that characterizes the rock cycle."
+}

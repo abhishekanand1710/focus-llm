@@ -1,0 +1,81 @@
+Key: Mercury_SC_413300
+
+Question: The temperature of water in a glass changes from 5°C to -1°C. How will the water most likely change?
+Options: ['It will boil.', 'It will melt.', 'It will freeze.', 'It will condense.']
+Answer: It will freeze.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Temperature",
+        "description": "A measure of the average kinetic energy of the particles in a system."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent fluid which forms the world's streams, lakes, oceans and rain."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process of a liquid turning into a solid when cold enough."
+    },
+    {
+        "name": "Boiling",
+        "description": "The rapid vaporization of a liquid, which occurs when a liquid is heated to its boiling point."
+    },
+    {
+        "name": "Melting",
+        "description": "The process of turning solid into liquid due to an increase in temperature and/or pressure."
+    },
+    {
+        "name": "Condensation",
+        "description": "The change of the physical state of matter from the gas phase into the liquid phase."
+    },
+    {
+        "name": "Freezing point of water",
+        "description": "The temperature at which liquid water turns into ice, which is 0\u00b0C under standard atmospheric conditions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "undergoes",
+        "related_concept": "Freezing",
+        "description": "Water turns into ice when the temperature drops below its freezing point."
+    },
+    {
+        "concept": "Water",
+        "relationship": "reaches",
+        "related_concept": "Freezing point of water",
+        "description": "When water's temperature lowers to 0\u00b0C, it starts to freeze under standard conditions."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "decreases from",
+        "related_concept": "Water",
+        "description": "The temperature of water is lowered from a higher degree to a lower one."
+    },
+    {
+        "concept": "Water",
+        "relationship": "does not undergo",
+        "related_concept": "Boiling",
+        "description": "Water does not boil when the temperature decreases."
+    },
+    {
+        "concept": "Water",
+        "relationship": "does not undergo",
+        "related_concept": "Melting",
+        "description": "Water does not melt as it is already in liquid form and the temperature is decreasing."
+    },
+    {
+        "concept": "Water",
+        "relationship": "does not undergo",
+        "related_concept": "Condensation",
+        "description": "Condensation involves the change from gas to liquid, not applicable when the water temperature is decreasing from 5\u00b0C to -1\u00b0C."
+    }
+]
+
+Model Answer: {
+    "answer": "It will freeze.",
+    "reasoning": "Given the temperature of water changes from 5\u00b0C to -1\u00b0C, it crosses the freezing point of water (0\u00b0C). As the temperature drops below 0\u00b0C, water transitions from its liquid state to a solid state, indicating it freezes. This is in line with the concepts of temperature, water, and the freezing point of water, along with their interconnected relationships."
+}

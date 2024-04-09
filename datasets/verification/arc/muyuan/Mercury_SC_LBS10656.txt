@@ -1,0 +1,75 @@
+Key: Mercury_SC_LBS10656
+
+Question: Which results in a chemical change?
+Options: ['A student smells a flower.', 'A teacher lights a candle.', 'A student colors a paper blue.', 'A teacher feels a rough cloth.']
+Answer: A teacher lights a candle.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical change",
+        "description": "A process where one or more substances are altered into one or more new and different substances."
+    },
+    {
+        "name": "Physical change",
+        "description": "A process that affects the form of a chemical substance, but not its chemical composition."
+    },
+    {
+        "name": "Smelling",
+        "description": "The act of perceiving or detecting odors or scents."
+    },
+    {
+        "name": "Lighting a candle",
+        "description": "The process of igniting a candle's wick, resulting in a flame."
+    },
+    {
+        "name": "Coloring",
+        "description": "The act of applying color to a surface."
+    },
+    {
+        "name": "Feeling",
+        "description": "The act of perceiving through touch."
+    },
+    {
+        "name": "Combustion",
+        "description": "A chemical reaction that occurs between a fuel and an oxidant, producing heat and light."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Smelling",
+        "relationship": "does not result in",
+        "related_concept": "Chemical change",
+        "description": "Smelling does not alter the chemical composition of the object being smelled."
+    },
+    {
+        "concept": "Lighting a candle",
+        "relationship": "results in",
+        "related_concept": "Combustion",
+        "description": "Lighting a candle initiates combustion, which is a chemical change."
+    },
+    {
+        "concept": "Coloring",
+        "relationship": "is a type of",
+        "related_concept": "Physical change",
+        "description": "Coloring alters the appearance but not the chemical structure of the paper."
+    },
+    {
+        "concept": "Feeling",
+        "relationship": "does not result in",
+        "related_concept": "Chemical change",
+        "description": "Feeling an object doesn't change its chemical composition."
+    },
+    {
+        "concept": "Combustion",
+        "relationship": "is a type of",
+        "related_concept": "Chemical change",
+        "description": "Combustion represents a chemical reaction resulting in new substances."
+    }
+]
+
+Model Answer: {
+    "answer": "A teacher lights a candle.",
+    "reasoning": "Lighting a candle involves combustion, which is a chemical change. This process alters the chemical substances involved, burning the wax and producing new substances such as carbon dioxide and water vapor, unlike the other actions which do not result in the creation of new substances."
+}

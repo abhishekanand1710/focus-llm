@@ -1,0 +1,61 @@
+Key: Mercury_415753
+
+Question: Which of these factors affects how fast a sound wave moves?
+Options: ['the kind of material it is moving through', "the amplitude of the sound wave's vibrations", 'the wavelength of the disturbance in the medium', 'the type of motion that caused the sound wave to form']
+Answer: the kind of material it is moving through
+
+Model Response:
+Concepts: [
+    {
+        "name": "sound wave",
+        "description": "a wave of compression and rarefaction, by which sound is propagated in an elastic medium such as air"
+    },
+    {
+        "name": "material",
+        "description": "substance or matter from which something is or can be made"
+    },
+    {
+        "name": "amplitude",
+        "description": "the maximum extent of a vibration or displacement of a sinusoidal function, measured from the position of equilibrium"
+    },
+    {
+        "name": "wavelength",
+        "description": "the distance between successive crests of a wave, especially points in a sound wave or electromagnetic wave"
+    },
+    {
+        "name": "type of motion",
+        "description": "the nature of movement through which a body or object transitions from one point to another"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "sound wave",
+        "relationship": "propagates through",
+        "related_concept": "material",
+        "description": "Sound waves travel through different materials at varying speeds"
+    },
+    {
+        "concept": "sound wave",
+        "relationship": "has characteristics",
+        "related_concept": "amplitude",
+        "description": "The amplitude of a sound wave relates to its loudness, not its speed"
+    },
+    {
+        "concept": "sound wave",
+        "relationship": "has characteristics",
+        "related_concept": "wavelength",
+        "description": "The wavelength is a measure of distance within the wave, not a direct influence on its speed"
+    },
+    {
+        "concept": "sound wave",
+        "relationship": "caused by",
+        "related_concept": "type of motion",
+        "description": "The manner in which sound waves are generated through motion, but not what affects their speed"
+    }
+]
+
+Model Answer: {
+    "answer": "the kind of material it is moving through",
+    "reasoning": "Out of the provided options, the speed of a sound wave is directly affected by the kind of material it is moving through. Sound waves travel at different speeds in different materials due to the material's density and elasticity, which affect how the particles of the material transfer the vibration of the sound wave. The other options, such as the amplitude, wavelength, and the type of motion that caused the sound wave, influence other characteristics of the sound but not its speed."
+}

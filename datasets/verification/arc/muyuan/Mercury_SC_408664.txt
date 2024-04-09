@@ -1,0 +1,69 @@
+Key: Mercury_SC_408664
+
+Question: Ellie is growing a vegetable garden. In which season do the plants in Ellie's garden receive the most energy from the Sun for growing?
+Options: ['fall', 'spring', 'summer', 'winter']
+Answer: summer
+
+Model Response:
+Concepts: [
+    {
+        "name": "Vegetable garden",
+        "description": "A garden where vegetables are cultivated."
+    },
+    {
+        "name": "Energy from the Sun",
+        "description": "The sunlight that plants use for photosynthesis."
+    },
+    {
+        "name": "Growing season",
+        "description": "The part of the year during which local weather conditions (temperature, rainfall) permit plant growth."
+    },
+    {
+        "name": "Summer",
+        "description": "The warmest season of the year, receiving the most sunlight."
+    },
+    {
+        "name": "Spring",
+        "description": "The season following winter and preceding summer, often with considerable growth."
+    },
+    {
+        "name": "Fall",
+        "description": "The season when temperatures begin to cool and plants start to dormant."
+    },
+    {
+        "name": "Winter",
+        "description": "The coldest season of the year, often with minimal sunlight and plant growth."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Vegetable garden",
+        "relationship": "relies on",
+        "related_concept": "Energy from the Sun",
+        "description": "Vegetable gardens require sunlight for plants to grow."
+    },
+    {
+        "concept": "Energy from the Sun",
+        "relationship": "varies by",
+        "related_concept": "Season",
+        "description": "The amount of sunlight varies across different seasons."
+    },
+    {
+        "concept": "Summer",
+        "relationship": "has the most",
+        "related_concept": "Energy from the Sun",
+        "description": "Summer has the most sunlight compared to other seasons."
+    },
+    {
+        "concept": "Growing season",
+        "relationship": "is longest during",
+        "related_concept": "Summer",
+        "description": "The growing season is longest in summer due to the most available sunlight."
+    }
+]
+
+Model Answer: {
+    "answer": "summer",
+    "reasoning": "The plants in Ellie's garden would receive the most energy from the Sun for growing in summer. This is because summer is the warmest season of the year and receives the most sunlight, making it the most conducive period for photosynthesis and plant growth."
+}

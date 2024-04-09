@@ -1,0 +1,61 @@
+Key: MEAP_2005_8_8
+
+Question: Which of the following is an example of an escape strategy that is used to avoid being killed and eaten by predators?
+Options: ['Deer shed their antlers in the fall.', 'Newts drop their tails when threatened.', 'Anglerfish produce light to attract other fish.', 'Otters produce oil to coat their fur and make it waterproof.']
+Answer: Newts drop their tails when threatened.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Deer shedding antlers",
+        "description": "A process where deer naturally lose their antlers annually"
+    },
+    {
+        "name": "Newt tail dropping",
+        "description": "A defense mechanism where newts detach their tail to escape predators"
+    },
+    {
+        "name": "Anglerfish light production",
+        "description": "A method anglerfish use to lure prey by producing light"
+    },
+    {
+        "name": "Otter fur oiling",
+        "description": "An action where otters apply oil to their fur for waterproofing"
+    },
+    {
+        "name": "Escape strategy",
+        "description": "A method used by animals to avoid predation"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Newt tail dropping",
+        "relationship": "is an example of",
+        "related_concept": "Escape strategy",
+        "description": "Detaching their tail allows newts to evade predators, serving as an escape mechanism"
+    },
+    {
+        "concept": "Deer shedding antlers",
+        "relationship": "is not an example of",
+        "related_concept": "Escape strategy",
+        "description": "Deer shed their antlers for reproductive purposes, not primarily for escaping predators"
+    },
+    {
+        "concept": "Anglerfish light production",
+        "relationship": "is not an example of",
+        "related_concept": "Escape strategy",
+        "description": "Anglerfish produce light to attract prey, not to escape predators"
+    },
+    {
+        "concept": "Otter fur oiling",
+        "relationship": "is not an example of",
+        "related_concept": "Escape strategy",
+        "description": "Otters oil their fur for insulation and buoyancy, not to escape from predators"
+    }
+]
+
+Model Answer: {
+    "answer": "'Newts drop their tails when threatened.'",
+    "reasoning": "Newt tail dropping is directly identified as an escape strategy, where newts can actively detach their tail to distract or evade a predator, allowing them to escape. This mechanism is specifically employed to avoid predation, in contrast to the other options which serve different primary functions not directly related to escaping predators."
+}

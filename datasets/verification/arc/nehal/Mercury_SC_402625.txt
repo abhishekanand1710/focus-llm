@@ -1,0 +1,59 @@
+Key: Mercury_SC_402625
+
+Question: When a mirror is placed by a fish bowl with a beta fish swimming inside, the beta fish sees what appears to be another fish. This occurs because of
+Options: ['absorption.', 'refraction.', 'reflection.', 'diffraction.']
+Answer: reflection.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Mirror",
+        "description": "A surface, typically of glass coated with a metal amalgam, which reflects a clear image."
+    },
+    {
+        "name": "Beta Fish",
+        "description": "A type of freshwater fish known for their aggressive behavior and vibrant colors."
+    },
+    {
+        "name": "Reflection",
+        "description": "The throwing back by a body or surface of light, heat, or sound without absorbing it."
+    },
+    {
+        "name": "Absorption",
+        "description": "The process by which one substance takes in or absorbs another."
+    },
+    {
+        "name": "Refraction",
+        "description": "The bending of light as it passes from one substance to another."
+    },
+    {
+        "name": "Diffraction",
+        "description": "The spreading of waves around obstacles."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mirror",
+        "relationship": "causes",
+        "related_concept": "Reflection",
+        "description": "Mirrors cause reflection by throwing back light without absorbing it, creating an image."
+    },
+    {
+        "concept": "Beta Fish",
+        "relationship": "observes",
+        "related_concept": "Mirror",
+        "description": "When placed by a mirror, the beta fish can observe itself as if another fish is present."
+    },
+    {
+        "concept": "Reflection",
+        "relationship": "results in",
+        "related_concept": "Beta Fish perceives another fish",
+        "description": "Through reflection, the beta fish perceives what appears to be another fish inside the bowl."
+    }
+]
+
+Model Answer: {
+    "answer": "reflection.",
+    "reasoning": "When a mirror is placed by a fish bowl with a beta fish swimming inside, the beta fish sees what appears to be another fish due to the phenomenon of reflection. This occurs because mirrors reflect light and images without absorbing them, creating a clear image of whatever is in front of them. In this scenario, the mirror reflects the image of the beta fish, making it appear as though another fish is present."
+}

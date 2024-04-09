@@ -1,0 +1,77 @@
+Key: Mercury_SC_416456
+
+Question: A single-cell organism can do everything a cell from a multicellular organism can do except
+Options: ['specialize.', 'reproduce.', 'use energy.', 'make protein.']
+Answer: specialize.
+
+Model Response:
+Concepts: [
+    {
+        "name": "single-cell organism",
+        "description": "An organism that consists of only one cell, capable of performing all necessary life functions."
+    },
+    {
+        "name": "multicellular organism",
+        "description": "An organism made up of many cells, which may be specialized to perform specific functions."
+    },
+    {
+        "name": "specialize",
+        "description": "The process by which cells develop specific functions different from others, often seen in multicellular organisms."
+    },
+    {
+        "name": "reproduce",
+        "description": "The biological process by which new organisms are produced from their parents."
+    },
+    {
+        "name": "use energy",
+        "description": "The process of converting food or sunlight into usable chemical energy to power cellular processes."
+    },
+    {
+        "name": "make protein",
+        "description": "The biological process cells use to produce proteins, which are essential for many cellular functions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "single-cell organism",
+        "relationship": "can",
+        "related_concept": "reproduce",
+        "description": "Single-cell organisms can reproduce, often by processes like binary fission."
+    },
+    {
+        "concept": "single-cell organism",
+        "relationship": "can",
+        "related_concept": "use energy",
+        "description": "Single-cell organisms can use energy, typically from chemical sources or photosynthesis."
+    },
+    {
+        "concept": "single-cell organism",
+        "relationship": "can",
+        "related_concept": "make protein",
+        "description": "Single-cell organisms can make proteins necessary for their functions."
+    },
+    {
+        "concept": "multicellular organism",
+        "relationship": "has",
+        "related_concept": "specialize",
+        "description": "Cells within multicellular organisms can specialize to perform specific functions."
+    },
+    {
+        "concept": "multicellular organism",
+        "relationship": "includes",
+        "related_concept": "single-cell organism capabilities",
+        "description": "Single-cell organism capabilities like reproduction, energy usage, and protein synthesis are fundamental to cells in multicellular organisms as well."
+    },
+    {
+        "concept": "single-cell organism",
+        "relationship": "cannot",
+        "related_concept": "specialize",
+        "description": "Single-cell organisms do not specialize because each cell must carry out all functions necessary for life."
+    }
+]
+
+Model Answer: {
+    "answer": "specialize.",
+    "reasoning": "Single-cell organisms are capable of reproduction, using energy, and making protein as these are basic life processes necessary for survival. However, they cannot specialize in the way cells within multicellular organisms can because each single-cell organism must be capable of carrying out all life functions by itself, lacking the division of labor seen in multicellular life forms."
+}

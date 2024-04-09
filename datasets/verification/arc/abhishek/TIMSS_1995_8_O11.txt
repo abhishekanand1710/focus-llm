@@ -1,0 +1,65 @@
+Key: TIMSS_1995_8_O11
+
+Question: Which is a chemical change?
+Options: ['Element 1 is hammered into a thin sheet.', 'Element 2 is heated and turns into a liquid.', 'Element 3 turns a greenish color as it sits in air.', 'Element 4 is ground up into a fine, slippery powder.']
+Answer: Element 3 turns a greenish color as it sits in air.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical Change",
+        "description": "A change where a substance combines with another to form a new substance."
+    },
+    {
+        "name": "Physical Change",
+        "description": "A change in which the form of matter is altered but one substance is not transformed into another."
+    },
+    {
+        "name": "Oxidation",
+        "description": "A chemical reaction in which a material combines with oxygen to change its properties."
+    },
+    {
+        "name": "Melting",
+        "description": "Physical process that results in the phase transition of a substance from a solid to a liquid."
+    },
+    {
+        "name": "Malleability",
+        "description": "The physical property of a material's ability to be hammered or pressed permanently out of shape without breaking or cracking."
+    },
+    {
+        "name": "Grinding",
+        "description": "A physical process of breaking a substance into smaller pieces without changing its chemical composition."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical Change",
+        "relationship": "is exemplified by",
+        "related_concept": "Oxidation",
+        "description": "Oxidation is a type of chemical change where a material combines with oxygen."
+    },
+    {
+        "concept": "Physical Change",
+        "relationship": "includes",
+        "related_concept": "Melting",
+        "description": "Melting is a type of physical change from solid to liquid."
+    },
+    {
+        "concept": "Physical Change",
+        "relationship": "includes",
+        "related_concept": "Malleability",
+        "description": "Malleability describes a physical change where a material's shape changes."
+    },
+    {
+        "concept": "Physical Change",
+        "relationship": "includes",
+        "related_concept": "Grinding",
+        "description": "Grinding is a physical process that involves breaking down a substance physically."
+    }
+]
+
+Model Answer: {
+    "answer": "Element 3 turns a greenish color as it sits in air.",
+    "reasoning": "This option describes oxidation, where the element reacts with oxygen in the air, changing its color due to a chemical change. Unlike hammering into a thin sheet (malleability), heating into a liquid (melting), or grinding into a powder (physical change), this process results in a new substance due to the chemical reaction with the air, making it a chemical change."
+}

@@ -1,0 +1,67 @@
+Key: Mercury_7017168
+
+Question: Which is the best example a chemical change has occurred?
+Options: ['change of state', 'release of energy', 'temperature change', 'formation of a new substance']
+Answer: formation of a new substance
+
+Model Response:
+Concepts: [
+    {
+        "name": "chemical change",
+        "description": "A change that results in the formation of one or more new substances"
+    },
+    {
+        "name": "change of state",
+        "description": "A physical change in which a substance transitions between solid, liquid, and gas phases"
+    },
+    {
+        "name": "release of energy",
+        "description": "Energy emitted during a physical or chemical process"
+    },
+    {
+        "name": "temperature change",
+        "description": "A variance in the degree of hotness or coldness in an environment or object, which can occur in both chemical and physical changes"
+    },
+    {
+        "name": "formation of a new substance",
+        "description": "The creation of a different chemical entity as a result of a chemical reaction"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "chemical change",
+        "relationship": "is indicated by",
+        "related_concept": "formation of a new substance",
+        "description": "The occurrence of a chemical change is directly indicated by the formation of a new substance"
+    },
+    {
+        "concept": "change of state",
+        "relationship": "does not necessarily indicate",
+        "related_concept": "chemical change",
+        "description": "A change of state is primarily a physical change and does not necessarily indicate that a chemical change has occurred"
+    },
+    {
+        "concept": "release of energy",
+        "relationship": "can be part of",
+        "related_concept": "chemical change",
+        "description": "While release of energy can occur during chemical changes, it can also happen in physical changes and is not exclusively indicative of a chemical change"
+    },
+    {
+        "concept": "temperature change",
+        "relationship": "can occur in",
+        "related_concept": "chemical change",
+        "description": "Temperature changes can occur in both chemical and physical changes and are not solely indicative of chemical changes"
+    },
+    {
+        "concept": "formation of a new substance",
+        "relationship": "is a result of",
+        "related_concept": "chemical change",
+        "description": "The formation of a new substance is a result and a definitive indication of a chemical change"
+    }
+]
+
+Model Answer: {
+    "answer": "formation of a new substance",
+    "reasoning": "Among the options provided, the formation of a new substance is the best indicator that a chemical change has occurred. This is because a chemical change is characterized by the creation of one or more new substances, which is unlike merely physical changes such as change of state, temperature changes, or even the release of energy, which can occur without altering the chemical identity of the substances involved."
+}

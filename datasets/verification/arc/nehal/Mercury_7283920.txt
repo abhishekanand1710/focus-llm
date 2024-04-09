@@ -1,0 +1,51 @@
+Key: Mercury_7283920
+
+Question: Millions of people living all over the world have cancer. Is cancer a pandemic?
+Options: ['No, because cancer is not contagious.', 'No, because cancer is not always fatal.', 'Yes, because millions of people have cancer.', 'Yes, because people all over the world have cancer.']
+Answer: No, because cancer is not contagious.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Cancer",
+        "description": "A group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body."
+    },
+    {
+        "name": "Pandemic",
+        "description": "An epidemic of an infectious disease that has spread across a large region, for instance multiple continents or worldwide."
+    },
+    {
+        "name": "Contagious",
+        "description": "Able to be transmitted from one individual to another through direct or indirect contact."
+    },
+    {
+        "name": "Fatal",
+        "description": "Resulting in death."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Cancer",
+        "relationship": "is not",
+        "related_concept": "Contagious",
+        "description": "Cancer cannot be transmitted from one person to another through any form of direct or indirect contact."
+    },
+    {
+        "concept": "Pandemic",
+        "relationship": "requires",
+        "related_concept": "Contagious",
+        "description": "For a disease to be classified as a pandemic, it needs to be infectious and spread across a large region."
+    },
+    {
+        "concept": "Cancer",
+        "relationship": "can be",
+        "related_concept": "Fatal",
+        "description": "Cancer has the potential to be fatal, but outcomes can vary greatly depending on the type and stage of cancer."
+    }
+]
+
+Model Answer: {
+    "answer": "No, because cancer is not contagious.",
+    "reasoning": "Based on the concepts and relationships identified, cancer is a group of diseases characterized by abnormal cell growth, and for a disease to be classified as a pandemic, it must be infectious and capable of spreading across a wide geographical area through human-to-human transmission. Since cancer is not contagious and cannot be transmitted from person to person, it cannot be considered a pandemic."
+}

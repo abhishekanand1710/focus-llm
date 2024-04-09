@@ -1,0 +1,65 @@
+Key: Mercury_SC_402105
+
+Question: Which is a nonrenewable resource?
+Options: ['oil', 'trees', 'solar energy', 'food crops']
+Answer: oil
+
+Model Response:
+Concepts: [
+    {
+        "name": "oil",
+        "description": "A fossil fuel formed from the remains of ancient organisms, used primarily for energy and manufacturing."
+    },
+    {
+        "name": "trees",
+        "description": "Perennial plants with an elongated stem, or trunk, supporting branches and leaves."
+    },
+    {
+        "name": "solar energy",
+        "description": "Energy from the sun that is converted into thermal or electrical energy."
+    },
+    {
+        "name": "food crops",
+        "description": "Plants grown for consumption by humans or animals."
+    },
+    {
+        "name": "nonrenewable resource",
+        "description": "A natural resource that cannot be readily replaced by natural means at a quick enough pace to keep up with consumption."
+    },
+    {
+        "name": "renewable resource",
+        "description": "A resource which can be used repeatedly because it is replaced naturally or can be easily reproduced."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "oil",
+        "relationship": "is a type of",
+        "related_concept": "nonrenewable resource",
+        "description": "Oil is a nonrenewable resource because it takes millions of years to form."
+    },
+    {
+        "concept": "trees",
+        "relationship": "can be",
+        "related_concept": "renewable resource",
+        "description": "Trees are considered renewable because they can be replanted and regrown over time."
+    },
+    {
+        "concept": "solar energy",
+        "relationship": "is a type of",
+        "related_concept": "renewable resource",
+        "description": "Solar energy is renewable because it is abundant and can be harnessed continuously."
+    },
+    {
+        "concept": "food crops",
+        "relationship": "are considered",
+        "related_concept": "renewable resource",
+        "description": "Food crops are renewable as they can be replanted and harvested repeatedly."
+    }
+]
+
+Model Answer: {
+    "answer": "oil",
+    "reasoning": "Among the given options, oil is the only nonrenewable resource. It is a fossil fuel that takes millions of years to form, and once used, it cannot be replenished on a human timescale. Trees, solar energy, and food crops are considered renewable resources because they can either be replanted, regrown, or continuously harnessed without depleting the Earth's supply."
+}

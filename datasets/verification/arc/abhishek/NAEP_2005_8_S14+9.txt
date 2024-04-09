@@ -1,0 +1,85 @@
+Key: NAEP_2005_8_S14+9
+
+Question: All of the following are examples of erosion EXCEPT:
+Options: ['The wind in the desert blows sand against a rock.', 'A glacier picks up boulders as it moves.', 'A flood washes over a riverbank, and the water carries small soil particles downstream.', 'An icy winter causes the pavement in a road to crack.']
+Answer: An icy winter causes the pavement in a road to crack.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Erosion",
+        "description": "The process by which natural forces move weathered rock and soil from one place to another."
+    },
+    {
+        "name": "Wind Erosion",
+        "description": "Erosion caused by the wind blowing particles "
+    },
+    {
+        "name": "Glacial Erosion",
+        "description": "The process of rocks and earth being worn away by glaciers."
+    },
+    {
+        "name": "Flood Erosion",
+        "description": "Erosion that occurs when floodwaters remove a significant amount of soil."
+    },
+    {
+        "name": "Thermal Expansion",
+        "description": "The tendency of matter to change in shape, area, and volume in response to a change in temperature."
+    },
+    {
+        "name": "Glacier",
+        "description": "A large mass of ice that moves slowly over land."
+    },
+    {
+        "name": "Riverbank",
+        "description": "The sides of a river, often consisting of soil and rock."
+    },
+    {
+        "name": "Pavement",
+        "description": "A hard surface covering on roads or pathways."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Erosion",
+        "relationship": "is a broader term for",
+        "related_concept": "Wind Erosion",
+        "description": "Erosion includes wind erosion as a type."
+    },
+    {
+        "concept": "Erosion",
+        "relationship": "is a broader term for",
+        "related_concept": "Glacial Erosion",
+        "description": "Erosion encompasses glacial erosion as a subtype."
+    },
+    {
+        "concept": "Erosion",
+        "relationship": "is a broader term for",
+        "related_concept": "Flood Erosion",
+        "description": "Erosion includes flood erosion as a kind."
+    },
+    {
+        "concept": "Glacier",
+        "relationship": "causes",
+        "related_concept": "Glacial Erosion",
+        "description": "Glaciers are the primary agents of glacial erosion."
+    },
+    {
+        "concept": "Riverbank",
+        "relationship": "is affected by",
+        "related_concept": "Flood Erosion",
+        "description": "Riverbanks can be eroded by floodwaters."
+    },
+    {
+        "concept": "Pavement",
+        "relationship": "is not affected by",
+        "related_concept": "Erosion",
+        "description": "Pavement cracking is not a result of erosion but of thermal expansion."
+    }
+]
+
+Model Answer: {
+    "answer": "An icy winter causes the pavement in a road to crack.",
+    "reasoning": "The cracking of pavement in a road due to an icy winter is a result of thermal expansion, not erosion. While the other options describe processes directly involving the movement or displacement of natural materials (i.e., soil, rock, sand) by natural forces such as wind, glacial movement, or water flow, thermal expansion involves a change in material volume in response to temperature changes. Cracking pavement does not fit the definition of erosion, making it the correct answer."
+}

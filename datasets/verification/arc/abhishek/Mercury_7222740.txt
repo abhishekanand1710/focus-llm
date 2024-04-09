@@ -1,0 +1,69 @@
+Key: Mercury_7222740
+
+Question: Which layers of Earth are mostly made of solid material?
+Options: ['inner core and outer core', 'crust and inner core', 'crust and mantle', 'mantle and outer core']
+Answer: crust and inner core
+
+Model Response:
+Concepts: [
+    {
+        "name": "Crust",
+        "description": "The outermost layer of the Earth, composed of solid rock."
+    },
+    {
+        "name": "Mantle",
+        "description": "The layer of the Earth between the crust and the outer core, composed of solid and partially melted rock."
+    },
+    {
+        "name": "Outer Core",
+        "description": "A layer of molten metal, mainly iron and nickel, surrounding the inner core of the Earth."
+    },
+    {
+        "name": "Inner Core",
+        "description": "The innermost part of the Earth, composed primarily of solid iron and nickel."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Crust",
+        "relationship": "is_above",
+        "related_concept": "Mantle",
+        "description": "The crust is the topmost layer, sitting directly above the mantle."
+    },
+    {
+        "concept": "Mantle",
+        "relationship": "surrounds",
+        "related_concept": "Outer Core",
+        "description": "The mantle encloses the Earth's outer core."
+    },
+    {
+        "concept": "Outer Core",
+        "relationship": "surrounds",
+        "related_concept": "Inner Core",
+        "description": "The outer core surrounds the inner core."
+    },
+    {
+        "concept": "Mantle",
+        "relationship": "composed_of",
+        "related_concept": "Solid and partially melted rock",
+        "description": "The mantle is made up of solid and partially melted rock."
+    },
+    {
+        "concept": "Inner Core",
+        "relationship": "composed_of",
+        "related_concept": "Solid material",
+        "description": "The inner core is primarily made of solid iron and nickel."
+    },
+    {
+        "concept": "Crust",
+        "relationship": "composed_of",
+        "related_concept": "Solid material",
+        "description": "The crust is made up of solid rock."
+    }
+]
+
+Model Answer: {
+    "answer": "crust and mantle",
+    "reasoning": "The crust is the outermost layer of the Earth and is composed of solid rock, while the mantle is the layer beneath the crust, made of solid and partially melted rock, indicating it also contains a significant amount of solid material. While the inner core is indeed mostly solid, the outer core is liquid, not solid. Therefore, the layers of Earth mostly composed of solid material are the crust and mantle."
+}

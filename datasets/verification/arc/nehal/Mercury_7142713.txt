@@ -1,0 +1,65 @@
+Key: Mercury_7142713
+
+Question: Elisa was classifying types of energy as either potential or kinetic. Which is a type of potential energy?
+Options: ['sound energy', 'radiant energy', 'thermal energy', 'chemical energy']
+Answer: chemical energy
+
+Model Response:
+Concepts: [
+    {
+        "name": "potential energy",
+        "description": "the energy stored in an object due to its position or arrangement"
+    },
+    {
+        "name": "kinetic energy",
+        "description": "the energy an object possesses due to its motion"
+    },
+    {
+        "name": "sound energy",
+        "description": "energy carried by sound waves"
+    },
+    {
+        "name": "radiant energy",
+        "description": "energy carried by light or electromagnetic waves"
+    },
+    {
+        "name": "thermal energy",
+        "description": "energy an object possesses due to the motion of its particles"
+    },
+    {
+        "name": "chemical energy",
+        "description": "energy stored in the bonds of chemical compounds"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "potential energy",
+        "relationship": "is not",
+        "related_concept": "sound energy",
+        "description": "Sound energy is a form of kinetic energy, not potential energy"
+    },
+    {
+        "concept": "potential energy",
+        "relationship": "is not",
+        "related_concept": "radiant energy",
+        "description": "Radiant energy, being carried by electromagnetic waves, is a form of kinetic energy"
+    },
+    {
+        "concept": "potential energy",
+        "relationship": "is not",
+        "related_concept": "thermal energy",
+        "description": "Thermal energy is related to the motion of particles, classifying it as kinetic energy"
+    },
+    {
+        "concept": "potential energy",
+        "relationship": "is exemplified by",
+        "related_concept": "chemical energy",
+        "description": "Chemical energy is a form of potential energy stored in chemical bonds"
+    }
+]
+
+Model Answer: {
+    "answer": "chemical energy",
+    "reasoning": "Out of the given options, chemical energy is the only type of energy that is stored and thus classified as potential energy, whereas sound, radiant, and thermal energies are forms of kinetic energy, derived from motion or wave propagation."
+}

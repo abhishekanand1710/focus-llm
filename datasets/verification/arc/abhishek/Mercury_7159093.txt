@@ -1,0 +1,71 @@
+Key: Mercury_7159093
+
+Question: A female opossum can give birth to 5-15 offspring. What increases with a larger litter?
+Options: ['the rate at which they mature', 'the number of reliable food sources', 'the amount of maternal care per offspring', 'the likelihood that some will survive and reproduce']
+Answer: the likelihood that some will survive and reproduce
+
+Model Response:
+Concepts: [
+    {
+        "name": "female opossum",
+        "description": "A marsupial capable of giving birth to multiple offspring at once."
+    },
+    {
+        "name": "litter size",
+        "description": "The number of offspring produced at one time by a mammal."
+    },
+    {
+        "name": "maternal care",
+        "description": "The amount of care and attention given by a mother to her offspring."
+    },
+    {
+        "name": "offspring survival",
+        "description": "The likelihood of the young living to adulthood and potentially reproducing."
+    },
+    {
+        "name": "rate of maturity",
+        "description": "The speed at which an organism reaches adulthood."
+    },
+    {
+        "name": "food sources",
+        "description": "Items or locations from which an organism obtains its nourishment."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "litter size",
+        "relationship": "affects",
+        "related_concept": "maternal care",
+        "description": "A larger litter size results in the division of, potentially decreasing, the amount of maternal care per offspring."
+    },
+    {
+        "concept": "litter size",
+        "relationship": "affects",
+        "related_concept": "offspring survival",
+        "description": "The larger the number of offspring, there's a statistical increase in the likelihood of some surviving and reproducing."
+    },
+    {
+        "concept": "maternal care",
+        "relationship": "influences",
+        "related_concept": "offspring survival",
+        "description": "Greater maternal care increases the chances of offspring survival."
+    },
+    {
+        "concept": "litter size",
+        "relationship": "independent",
+        "related_concept": "rate of maturity",
+        "description": "The size of the litter does not directly impact the rate at which individual offspring mature."
+    },
+    {
+        "concept": "litter size",
+        "relationship": "independent",
+        "related_concept": "food sources",
+        "description": "The number of offspring does not generate additional food sources."
+    }
+]
+
+Model Answer: {
+    "answer": "the likelihood that some will survive and reproduce",
+    "reasoning": "With a larger litter size, while the amount of maternal care per offspring may decrease, the statistical likelihood that at least some of the offspring will survive to adulthood and consequently reproduce increases. This is because with more offspring, the chances of at least a few managing to navigate the challenges of growth and survival improve, even if individual care from the mother may be less due to the need to divide attention among more offspring."
+}

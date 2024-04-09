@@ -1,0 +1,85 @@
+Key: NCEOGA_2013_5_25
+
+Question: If 10 grams of water are added to 5 grams of salt, how much salt water will be made?
+Options: ['2 grams', '5 grams', '10 grams', '15 grams']
+Answer: 15 grams
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water",
+        "description": "A liquid substance that makes up seas, lakes, rivers, and rain; used in mixing with other substances"
+    },
+    {
+        "name": "Salt",
+        "description": "A crystalline substance used for seasoning or preserving food; easily dissolves in water"
+    },
+    {
+        "name": "Salt Water",
+        "description": "The resulting solution when salt is dissolved in water"
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, often measured in grams"
+    },
+    {
+        "name": "Conservation of Mass",
+        "description": "A principle stating that mass in an isolated system is neither created nor destroyed"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "combined with",
+        "related_concept": "Salt",
+        "description": "Water and salt are mixed together to create salt water"
+    },
+    {
+        "concept": "Salt",
+        "relationship": "dissolves in",
+        "related_concept": "Water",
+        "description": "Salt dissolves in water to make a solution"
+    },
+    {
+        "concept": "Salt Water",
+        "relationship": "composed of",
+        "related_concept": "Water",
+        "description": "Salt water is composed of water and dissolved salt"
+    },
+    {
+        "concept": "Salt Water",
+        "relationship": "composed of",
+        "related_concept": "Salt",
+        "description": "Salt water is composed of water and dissolved salt"
+    },
+    {
+        "concept": "Mass",
+        "relationship": "measure of",
+        "related_concept": "Water",
+        "description": "Mass indicates how much water is present"
+    },
+    {
+        "concept": "Mass",
+        "relationship": "measure of",
+        "related_concept": "Salt",
+        "description": "Mass indicates how much salt is present"
+    },
+    {
+        "concept": "Mass",
+        "relationship": "measure of",
+        "related_concept": "Salt Water",
+        "description": "Mass indicates how much salt water is present"
+    },
+    {
+        "concept": "Conservation of Mass",
+        "relationship": "applies to",
+        "related_concept": "Salt Water creation",
+        "description": "When creating salt water, the total mass of the resulting solution equals the sum of the mass of water and salt"
+    }
+]
+
+Model Answer: {
+    "answer": "15 grams",
+    "reasoning": "The mass of the salt water will be the sum of the mass of water and the mass of salt due to the Conservation of Mass principle. Therefore, 10 grams of water plus 5 grams of salt equals 15 grams of salt water."
+}

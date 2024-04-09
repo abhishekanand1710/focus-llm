@@ -1,0 +1,47 @@
+Key: Mercury_7103233
+
+Question: Which question can be answered using an investigation done by a science class?
+Options: ['What is the climate on Jupiter?', 'Do plants grow differently with and without light?', 'Where is the warmest place on Earth that has life?', 'How far do monarch butterflies migrate?']
+Answer: Do plants grow differently with and without light?
+
+Model Response:
+Concepts: [
+    {
+        "name": "Photosynthesis",
+        "description": "Process by which plants use sunlight to synthesize foods from carbon dioxide and water."
+    },
+    {
+        "name": "Light",
+        "description": "The natural agent that stimulates sight and makes things visible."
+    },
+    {
+        "name": "Plant Growth",
+        "description": "The process by which plants increase in size and mass over time."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Photosynthesis",
+        "relationship": "requires",
+        "related_concept": "Light",
+        "description": "Photosynthesis requires light to produce organic energy molecules."
+    },
+    {
+        "concept": "Light",
+        "relationship": "affects",
+        "related_concept": "Plant Growth",
+        "description": "The presence or absence of light affects the rate and nature of plant growth."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "contributes to",
+        "related_concept": "Plant Growth",
+        "description": "Photosynthesis contributes by creating the necessary sugars for growth."
+    }
+]
+
+Model Answer: {
+    "answer": "Do plants grow differently with and without light?",
+    "reasoning": "This question can be directly investigated in a science class through experiments involving plants grown in different conditions related to light exposure. By observing and measuring the growth of plants kept in light vs. those kept in darkness, students can apply the concepts of photosynthesis and its impact on plant growth, making it a feasible and educational investigation."
+}

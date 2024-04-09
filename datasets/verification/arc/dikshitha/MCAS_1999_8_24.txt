@@ -1,0 +1,65 @@
+Key: MCAS_1999_8_24
+
+Question: Use the information below to answer the question. Each organism on Earth is a part of a complex relationship with other organisms. This relationship is called a food web. The following organisms are part of a food web typically located in and around a reservoir. algae fish rabbit eagle pine tree grass field mouse Which member of the food web is a carnivore?
+Options: ['field mouse', 'eagle', 'rabbit', 'algae']
+Answer: eagle
+
+Model Response:
+Concepts: [
+    {
+        "name": "food web",
+        "description": "A complex network of interrelated food chains in an ecological community"
+    },
+    {
+        "name": "carnivore",
+        "description": "An organism that primarily eats other animals"
+    },
+    {
+        "name": "eagle",
+        "description": "A bird of prey that is known for eating meat"
+    },
+    {
+        "name": "field mouse",
+        "description": "A small rodent typically eating grains, fruits, and occasionally insects"
+    },
+    {
+        "name": "rabbit",
+        "description": "A herbivorous mammal known for eating plants"
+    },
+    {
+        "name": "algae",
+        "description": "A simple nonflowering plant of a large group that includes the seaweeds and many single-celled forms"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "food web",
+        "relationship": "includes",
+        "related_concept": "eagle",
+        "description": "Eagle is a part of the food web, showcasing its ecological role"
+    },
+    {
+        "concept": "eagle",
+        "relationship": "is an example of",
+        "related_concept": "carnivore",
+        "description": "Eagle eats meat, classifying it as a carnivore"
+    },
+    {
+        "concept": "field mouse",
+        "relationship": "eats",
+        "related_concept": "algae",
+        "description": "Though primarily it might eat grains, the field mouse can occasionally consume insects but is not a carnivore"
+    },
+    {
+        "concept": "rabbit",
+        "relationship": "eats",
+        "related_concept": "algae",
+        "description": "Rabbit is an herbivore, focusing on eating plants and not animals"
+    }
+]
+
+Model Answer: {
+    "answer": "eagle",
+    "reasoning": "Among the provided options, the eagle is the only organism classified as a carnivore because it primarily eats other animals. In contrast, the field mouse and rabbit have diets that do not primarily focus on other animals, and algae is a plant, not an animal."
+}

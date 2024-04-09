@@ -1,0 +1,61 @@
+Key: NCEOGA_2013_8_14
+
+Question: Which best determines the number of wolves that can live in an area?
+Options: ['the amount of snow in the area each year', 'the number of birds that live in the area', 'the number of trees in the area', 'the amount of food available in the area']
+Answer: the amount of food available in the area
+
+Model Response:
+Concepts: [
+    {
+        "name": "amount of snow in the area each year",
+        "description": "Quantity of snowfall an area receives annually"
+    },
+    {
+        "name": "number of birds that live in the area",
+        "description": "The population of birds residing in a particular area"
+    },
+    {
+        "name": "number of trees in the area",
+        "description": "The count of trees present in a specific area"
+    },
+    {
+        "name": "amount of food available in the area",
+        "description": "The quantity and variety of nutrients accessible to animals in the area"
+    },
+    {
+        "name": "number of wolves that can live in an area",
+        "description": "The carrying capacity of an area for wolf population based on available resources"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "amount of food available in the area",
+        "relationship": "determines",
+        "related_concept": "number of wolves that can live in an area",
+        "description": "The availability and abundance of food directly impact the carrying capacity for wolves in an area"
+    },
+    {
+        "concept": "number of birds that live in the area",
+        "relationship": "indirectly influences",
+        "related_concept": "amount of food available in the area",
+        "description": "Bird populations can be both a component of the food web and competitors, affecting food availability"
+    },
+    {
+        "concept": "number of trees in the area",
+        "relationship": "influences",
+        "related_concept": "amount of food available in the area",
+        "description": "The presence of trees can affect the ecosystem's overall productivity, thereby influencing food availability"
+    },
+    {
+        "concept": "amount of snow in the area each year",
+        "relationship": "influences",
+        "related_concept": "amount of food available in the area",
+        "description": "Annual snowfall can affect habitat conditions, indirectly influencing food availability"
+    }
+]
+
+Model Answer: {
+    "answer": "the amount of food available in the area",
+    "reasoning": "The number of wolves that can live in an area is most directly determined by the amount of food available. This is because the primary limiting factor for a population size, especially for carnivores like wolves, is the availability of prey and other food resources. Other factors, like amount of snow, number of birds, and the number of trees, might affect food availability indirectly, but the direct determinant is the quantity and quality of food that can support the wolf population."
+}

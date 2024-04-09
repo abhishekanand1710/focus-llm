@@ -1,0 +1,57 @@
+Key: Mercury_7011358
+
+Question: Which unit is used to record distances between stars?
+Options: ['miles', 'kilometers', 'light years', 'astronomical units']
+Answer: light years
+
+Model Response:
+Concepts: [
+    {
+        "name": "miles",
+        "description": "A unit of distance used primarily in the United States, defined as 5,280 feet"
+    },
+    {
+        "name": "kilometers",
+        "description": "A unit of length in the metric system, equal to 1,000 meters"
+    },
+    {
+        "name": "light years",
+        "description": "A unit of astronomical distance equivalent to the distance that light travels in one year"
+    },
+    {
+        "name": "astronomical units",
+        "description": "A unit of length, roughly the distance from Earth to the Sun, used to measure distances within our solar system"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "miles",
+        "relationship": "is less suited than",
+        "related_concept": "light years",
+        "description": "Miles are significantly shorter in length and less suited for measuring vast distances between stars"
+    },
+    {
+        "concept": "kilometers",
+        "relationship": "is less suited than",
+        "related_concept": "light years",
+        "description": "Kilometers, while longer than miles, are still not adequate for the astronomical distances between stars"
+    },
+    {
+        "concept": "astronomical units",
+        "relationship": "is less suited than",
+        "related_concept": "light years",
+        "description": "Astronomical units are effective for distances within the solar system but not as practical for the much larger distances between stars"
+    },
+    {
+        "concept": "light years",
+        "relationship": "is used to",
+        "related_concept": "record distances between stars",
+        "description": "Light years are the most practical unit for expressing the vast distances between stars due to their immense magnitude"
+    }
+]
+
+Model Answer: {
+    "answer": "light years",
+    "reasoning": "Light years are specifically used for measuring the astronomical distances between stars because they represent the distance light travels in one year, making them exceedingly suitable for expressing the immense distances involved in space beyond our solar system."
+}

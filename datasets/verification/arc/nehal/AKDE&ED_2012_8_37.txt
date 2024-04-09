@@ -1,0 +1,57 @@
+Key: AKDE&ED_2012_8_37
+
+Question: An astronomer is studying two stars that are the same distance from Earth. Star X appears brighter than star Y. Which statement best explains this observation?
+Options: ['Star X is larger than star Y.', 'Star Y is larger than star X.', 'Star X reflects the Sun’s light better than star Y.', 'Star Y reflects the Sun’s light better than star X.']
+Answer: Star X is larger than star Y.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Brightness",
+        "description": "A measure of how much light is emitted or reflected by an astronomical object, making it appear more luminous to observers on Earth."
+    },
+    {
+        "name": "Star Size",
+        "description": "Refers to the physical dimensions or volume of a star, which can influence its brightness."
+    },
+    {
+        "name": "Reflection of the Sun\u2019s Light",
+        "description": "The process by which stars or other celestial bodies reflect the light coming from the Sun."
+    },
+    {
+        "name": "Distance from Earth",
+        "description": "The length of the path between Earth and any object in space, affecting how we perceive the object's brightness and size."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Brightness",
+        "relationship": "influenced_by",
+        "related_concept": "Star Size",
+        "description": "The size of a star can significantly influence its brightness, with larger stars potentially appearing brighter."
+    },
+    {
+        "concept": "Brightness",
+        "relationship": "influenced_by",
+        "related_concept": "Reflection of the Sun\u2019s Light",
+        "description": "The brightness of a body in space can also depend on how much of the Sun's light it reflects towards Earth."
+    },
+    {
+        "concept": "Brightness",
+        "relationship": "affected_by",
+        "related_concept": "Distance from Earth",
+        "description": "The distance of a celestial object from Earth affects how bright the object appears to observers."
+    },
+    {
+        "concept": "Star Size",
+        "relationship": "not_directly_related",
+        "related_concept": "Reflection of the Sun\u2019s Light",
+        "description": "Direct reflection of the Sun\u2019s light is not generally a significant factor in determining the apparent brightness of stars, as their own luminosity is the key factor."
+    }
+]
+
+Model Answer: {
+    "answer": "Star X is larger than star Y.",
+    "reasoning": "Given that both stars are the same distance from Earth, the main factor that would cause one star to appear brighter than the other is its size. Larger stars emit more light and therefore appear brighter when viewed from Earth. The options related to the reflection of the Sun\u2019s light do not apply to stars, as stars generate their own light rather than reflecting light from the Sun. Thus, 'Star X is larger than star Y.' is the best explanation for the observation."
+}

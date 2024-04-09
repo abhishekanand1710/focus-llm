@@ -1,0 +1,57 @@
+Key: Mercury_7267960
+
+Question: As humans travel in space, which gas is provided in the atmosphere of the spacecraft and which gas is removed from the atmosphere of the spacecraft?
+Options: ['Oxygen is provided. Carbon dioxide is removed.', 'Carbon dioxide is provided. Oxygen is removed.', 'Carbon dioxide is provided. Nitrogen is removed.', 'Oxygen is provided. Nitrogen is removed.']
+Answer: Oxygen is provided. Carbon dioxide is removed.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Oxygen",
+        "description": "A gas that is vital for human respiration."
+    },
+    {
+        "name": "Carbon Dioxide",
+        "description": "A waste product produced by respiration and removed from the atmosphere aboard spacecraft."
+    },
+    {
+        "name": "Nitrogen",
+        "description": "A gas that makes up a major part of the Earth's atmosphere, typically not harmful or beneficial in moderate amounts."
+    },
+    {
+        "name": "Spacecraft Atmosphere Management",
+        "description": "The process of monitoring and adjusting the atmospheric composition aboard a spacecraft."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Oxygen",
+        "relationship": "provided in",
+        "related_concept": "Spacecraft Atmosphere",
+        "description": "Oxygen is added to the spacecraft's atmosphere to support human life."
+    },
+    {
+        "concept": "Carbon Dioxide",
+        "relationship": "removed from",
+        "related_concept": "Spacecraft Atmosphere",
+        "description": "Carbon dioxide is removed from the spacecraft's atmosphere because it is a waste product of respiration."
+    },
+    {
+        "concept": "Spacecraft Atmosphere Management",
+        "relationship": "involves",
+        "related_concept": "Oxygen",
+        "description": "The process involves adding oxygen to the air within the spacecraft."
+    },
+    {
+        "concept": "Spacecraft Atmosphere Management",
+        "relationship": "involves",
+        "related_concept": "Carbon Dioxide",
+        "description": "The process also involves removing carbon dioxide from the air within the spacecraft."
+    }
+]
+
+Model Answer: {
+    "answer": "Oxygen is provided. Carbon dioxide is removed.",
+    "reasoning": "Based on the essential concepts of atmospheric management in a spacecraft, oxygen is vital for human respiration and thus is provided in the spacecraft's atmosphere. Carbon dioxide, being a waste product of respiration, is removed to prevent harmful accumulation. Nitrogen, while a major component of Earth's atmosphere, was not directly relevant to the options provided."
+}

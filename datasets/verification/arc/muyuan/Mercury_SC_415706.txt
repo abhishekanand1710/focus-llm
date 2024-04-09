@@ -1,0 +1,85 @@
+Key: Mercury_SC_415706
+
+Question: An engineer can choose from four different materials to make a heat-resistant handle for a stirring spoon. Which material is least likely to get hot when the spoon is placed in boiling water?
+Options: ['Ceramic', 'Wood', 'Glass', 'Iron']
+Answer: Wood
+
+Model Response:
+Concepts: [
+    {
+        "name": "Ceramic",
+        "description": "A non-metallic, inorganic material that is heat-resistant"
+    },
+    {
+        "name": "Wood",
+        "description": "An organic material that is a poor conductor of heat"
+    },
+    {
+        "name": "Glass",
+        "description": "A hard, brittle substance made from silica, often used for its transparency and resistance to heat, but can conduct heat"
+    },
+    {
+        "name": "Iron",
+        "description": "A metallic element that is a good conductor of heat and electricity"
+    },
+    {
+        "name": "Heat-resistant",
+        "description": "The ability to withstand high temperatures without degrading"
+    },
+    {
+        "name": "Stirring Spoon",
+        "description": "A utensil used for mixing ingredients"
+    },
+    {
+        "name": "Boiling Water",
+        "description": "Water that has reached its highest temperature at which it can remain liquid, typically 100\u00b0C (212\u00b0F) at sea level"
+    },
+    {
+        "name": "Conductivity",
+        "description": "The degree to which a specified material conducts electricity or heat"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Ceramic",
+        "relationship": "is",
+        "related_concept": "Heat-resistant",
+        "description": "Ceramic is heat-resistant, making it less likely to transfer heat quickly"
+    },
+    {
+        "concept": "Wood",
+        "relationship": "is",
+        "related_concept": "Heat-resistant",
+        "description": "Wood is a poor conductor of heat, making it naturally heat-resistant"
+    },
+    {
+        "concept": "Glass",
+        "relationship": "has property",
+        "related_concept": "Conductivity",
+        "description": "Glass can conduct heat, making it less heat-resistant compared to wood or ceramic"
+    },
+    {
+        "concept": "Iron",
+        "relationship": "has property",
+        "related_concept": "Conductivity",
+        "description": "Iron is a good conductor of heat, making it likely to get hot quickly"
+    },
+    {
+        "concept": "Stirring Spoon",
+        "relationship": "exposed to",
+        "related_concept": "Boiling Water",
+        "description": "A stirring spoon when placed in boiling water, its material properties determine how quickly it gets hot"
+    },
+    {
+        "concept": "Boiling Water",
+        "relationship": "tests",
+        "related_concept": "Heat-resistant",
+        "description": "Boiling water is a condition that tests the heat-resistance of materials"
+    }
+]
+
+Model Answer: {
+    "answer": "Wood",
+    "reasoning": "Among the given options, wood is the least likely to get hot when the spoon is placed in boiling water due to its poor conductivity and natural heat-resistance. Unlike metals like iron, which are good conductors of heat, wood does not conduct heat efficiently, making it the best choice for a heat-resistant handle. Ceramic, while also heat-resistant, may still transfer heat more than wood. Glass and iron, being more conductive, are not suitable choices for minimizing heat transfer in this context."
+}

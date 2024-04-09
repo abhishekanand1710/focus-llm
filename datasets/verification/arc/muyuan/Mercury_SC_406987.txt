@@ -1,0 +1,61 @@
+Key: Mercury_SC_406987
+
+Question: Which best explains how most soils are alike?
+Options: ['Most soils have many rocks.', 'Most soils are found in layers.', 'Most soils hold the same amounts of water.', 'Most soils have the same texture.']
+Answer: Most soils are found in layers.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Soil",
+        "description": "The top layer of the earth's surface, consisting of rock and mineral particles mixed with organic matter"
+    },
+    {
+        "name": "Rocks",
+        "description": "Solid mineral material forming part of the surface of the earth and other similar planets"
+    },
+    {
+        "name": "Soil Layers",
+        "description": "Distinct horizontal layers found within soil, resulting from various physical, chemical, and biological factors"
+    },
+    {
+        "name": "Water Retention in Soil",
+        "description": "The soil's ability to retain water, influenced by its texture and organic matter content"
+    },
+    {
+        "name": "Soil Texture",
+        "description": "The look and feel of the soil, determined by the size of the particles that make up the soil"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Soil",
+        "relationship": "contains",
+        "related_concept": "Rocks",
+        "description": "Soil contains rocks, but the amount and size can vary significantly"
+    },
+    {
+        "concept": "Soil",
+        "relationship": "is structured in",
+        "related_concept": "Soil Layers",
+        "description": "Soil is commonly structured in layers, each with different characteristics"
+    },
+    {
+        "concept": "Soil",
+        "relationship": "has capability",
+        "related_concept": "Water Retention in Soil",
+        "description": "The ability of soil to hold water varies greatly among different types of soil"
+    },
+    {
+        "concept": "Soil",
+        "relationship": "has",
+        "related_concept": "Soil Texture",
+        "description": "Soil has a texture that is one of its fundamental attributes, influencing its use and characteristics"
+    }
+]
+
+Model Answer: {
+    "answer": "Most soils are found in layers.",
+    "reasoning": "Among the provided options, the concept of 'Soil Layers' best explains how most soils are alike. Regardless of the location, type, or specific conditions surrounding the soil, it generally forms in distinct layers over time. These layers result from the deposition of materials, organic matter decomposition, and various soil-forming processes. This is a fundamental characteristic of soil that holds true across different types, making it the option that best captures a commonality among most soils."
+}

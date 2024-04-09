@@ -1,0 +1,71 @@
+Key: Mercury_7064278
+
+Question: Street maps are examples of two dimensional models. Which information cannot be determined using a basic map?
+Options: ['distance from place to place', 'directions such as north and south', 'names of highways and roads', 'elevations such as distance above sea level']
+Answer: elevations such as distance above sea level
+
+Model Response:
+Concepts: [
+    {
+        "name": "Street maps",
+        "description": "Two-dimensional representations of geographical locations."
+    },
+    {
+        "name": "Two dimensional models",
+        "description": "Models that have width and height but no depth, representing information on a flat surface."
+    },
+    {
+        "name": "Distance from place to place",
+        "description": "The length of a path between two points in geographical space."
+    },
+    {
+        "name": "Directions such as north and south",
+        "description": "Cardinal directions used for navigation and geographic orientation."
+    },
+    {
+        "name": "Names of highways and roads",
+        "description": "Labels assigned to roads and highways for identification and navigation purposes."
+    },
+    {
+        "name": "Elevations such as distance above sea level",
+        "description": "The height of a point relative to sea level."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Street maps",
+        "relationship": "represent",
+        "related_concept": "Two dimensional models",
+        "description": "Street maps are a form of two-dimensional models."
+    },
+    {
+        "concept": "Street maps",
+        "relationship": "can show",
+        "related_concept": "Distance from place to place",
+        "description": "Street maps can depict the distance between different locations."
+    },
+    {
+        "concept": "Street maps",
+        "relationship": "can indicate",
+        "related_concept": "Directions such as north and south",
+        "description": "Street maps can indicate cardinal directions for orientation."
+    },
+    {
+        "concept": "Street maps",
+        "relationship": "can display",
+        "related_concept": "Names of highways and roads",
+        "description": "Street maps can display the names of various highways and roads for navigation."
+    },
+    {
+        "concept": "Street maps",
+        "relationship": "cannot show",
+        "related_concept": "Elevations such as distance above sea level",
+        "description": "Basic street maps do not typically indicate the elevation of geographical locations."
+    }
+]
+
+Model Answer: {
+    "answer": "elevations such as distance above sea level",
+    "reasoning": "Based on the concepts and their relationships, street maps, as two-dimensional models, can depict distances, directions, and names of highways and roads efficiently. However, they are limited in representing three-dimensional data such as elevation above sea level. Since elevation requires a sense of depth or a third dimension that is not available on the two-dimensional surface of a basic street map, it cannot be determined directly from such maps."
+}

@@ -1,0 +1,75 @@
+Key: AKDE&ED_2012_8_9
+
+Question: Two pure substances combine to make a new substance. The new substance cannot be physically separated and has a different boiling point than each of the original substances. This new substance can best be classified as
+Options: ['an atom.', 'a mixture.', 'an element.', 'a compound.']
+Answer: a compound.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Pure Substance",
+        "description": "A material with a constant composition and consistent properties throughout the sample."
+    },
+    {
+        "name": "Compound",
+        "description": "A substance made up of two or more different types of atoms bonded together."
+    },
+    {
+        "name": "Physical Separation",
+        "description": "A process to separate substances without changing their chemical identities."
+    },
+    {
+        "name": "Boiling Point",
+        "description": "The temperature at which a substance changes from a liquid to a gas."
+    },
+    {
+        "name": "Element",
+        "description": "A pure substance consisting of only one type of atom."
+    },
+    {
+        "name": "Mixture",
+        "description": "A combination of two or more substances where each retains its chemical identity."
+    },
+    {
+        "name": "Atom",
+        "description": "The smallest unit of an element that maintains the properties of that element."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Pure Substance",
+        "relationship": "transforms into",
+        "related_concept": "Compound",
+        "description": "Two or more pure substances can chemically combine to form a compound."
+    },
+    {
+        "concept": "Compound",
+        "relationship": "cannot be achieved by",
+        "related_concept": "Physical Separation",
+        "description": "Compounds cannot be separated into their components by physical means."
+    },
+    {
+        "concept": "Boiling Point",
+        "relationship": "is distinct in",
+        "related_concept": "Compound",
+        "description": "A compound has a unique boiling point distinct from its constituent elements."
+    },
+    {
+        "concept": "Element",
+        "relationship": "combines to form",
+        "related_concept": "Compound",
+        "description": "Elements can chemically combine in specific ratios to form compounds."
+    },
+    {
+        "concept": "Mixture",
+        "relationship": "can be separated by",
+        "related_concept": "Physical Separation",
+        "description": "Mixtures can be separated into their components by physical means."
+    }
+]
+
+Model Answer: {
+    "answer": "a compound.",
+    "reasoning": "The described scenario involves two pure substances combining to form a new substance that cannot be physically separated and possesses a different boiling point than the original substances. This definition aligns with that of a compound, which is a substance formed when two or more chemical elements are chemically bonded together. Mixtures can be separated physically, elements are pure substances themselves and cannot be formed by combining other substances, and atoms are the basic units of matter and not formed by combination. Therefore, the correct classification is 'a compound.'"
+}

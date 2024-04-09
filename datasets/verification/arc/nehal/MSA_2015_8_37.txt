@@ -1,0 +1,71 @@
+Key: MSA_2015_8_37
+
+Question: Data in tables may also be presented in graphs. Which type of data would best be displayed on a circle graph?
+Options: ['the distance of the planets from the sun', 'the depths of the major oceans on Earth', 'the amount of rainfall each day for a month', 'the percent of various materials in solid waste']
+Answer: the percent of various materials in solid waste
+
+Model Response:
+Concepts: [
+    {
+        "name": "Circle Graph",
+        "description": "A graphical representation of data where the circle is divided into sectors that each represent a proportion of the whole."
+    },
+    {
+        "name": "Percentages",
+        "description": "A way of expressing a number as a fraction of 100."
+    },
+    {
+        "name": "Planets distance from the sun",
+        "description": "The measurement of how far each planet is from the Sun."
+    },
+    {
+        "name": "Depths of major oceans",
+        "description": "The measurement from the surface to the deepest part of each of the Earth's oceans."
+    },
+    {
+        "name": "Amount of rainfall",
+        "description": "The volume of rain that falls over a certain period, typically measured in millimeters or inches."
+    },
+    {
+        "name": "Solid waste materials",
+        "description": "Different types of materials found in solid waste, such as plastics, paper, metal, and food scraps."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Circle Graph",
+        "relationship": "is best utilized for",
+        "related_concept": "Percentages",
+        "description": "Circle graphs are most effective when displaying parts of a whole or percentages."
+    },
+    {
+        "concept": "Solid waste materials",
+        "relationship": "can be represented as",
+        "related_concept": "Percentages",
+        "description": "Different materials in solid waste can be quantified as a percentage of the total waste."
+    },
+    {
+        "concept": "Planets distance from the sun",
+        "relationship": "is not typically represented as",
+        "related_concept": "Percentages",
+        "description": "Planets' distances from the Sun are usually measured in units of distance, not as parts of a whole."
+    },
+    {
+        "concept": "Depths of major oceans",
+        "relationship": "is not typically represented as",
+        "related_concept": "Percentages",
+        "description": "Oceans' depths are typically measured in units of length, not as percentages."
+    },
+    {
+        "concept": "Amount of rainfall",
+        "relationship": "is not typically represented as",
+        "related_concept": "Percentages",
+        "description": "Rainfall is typically measured over time and not as a part of a whole."
+    }
+]
+
+Model Answer: {
+    "answer": "the percent of various materials in solid waste",
+    "reasoning": "Circle graphs are most effectively used for displaying data that represents parts of a whole or percentages, which fits the description of displaying the percent of various materials in solid waste. This is because each sector of the circle can represent the proportion of a specific material in the total waste, making it easier to visualize the distribution of different materials compared to other types of data like distances, depths, or daily measurements that do not inherently deal with proportions of a whole."
+}

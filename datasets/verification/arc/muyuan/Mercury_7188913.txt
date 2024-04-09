@@ -1,0 +1,67 @@
+Key: Mercury_7188913
+
+Question: While on a field trip to NASA, Felicia saw a short film on materials that make up nebulae. Which topic was most likely presented in the film?
+Options: ['asteroid development', 'stellar formation', 'planetary orbits', 'galaxy shapes']
+Answer: stellar formation
+
+Model Response:
+Concepts: [
+    {
+        "name": "Nebulae",
+        "description": "Massive clouds of dust and gas in space, often serving as the birthplace for stars"
+    },
+    {
+        "name": "Asteroid development",
+        "description": "The process by which asteroids are formed, typically in the asteroid belt between Mars and Jupiter"
+    },
+    {
+        "name": "Stellar formation",
+        "description": "The process by which new stars are formed from the gravitational collapse of gas and dust within nebulae"
+    },
+    {
+        "name": "Planetary orbits",
+        "description": "The path that planets follow around a star, determined by gravitational forces"
+    },
+    {
+        "name": "Galaxy shapes",
+        "description": "The various forms galaxies can take, such as spiral, elliptical, and irregular"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Nebulae",
+        "relationship": "is the birthplace of",
+        "related_concept": "Stellar formation",
+        "description": "Nebulae contain the gas and dust that collapse to form new stars, making them crucial to stellar formation."
+    },
+    {
+        "concept": "Stellar formation",
+        "relationship": "depends on",
+        "related_concept": "Nebulae",
+        "description": "The process of forming new stars heavily relies on the presence of nebulae for the necessary materials."
+    },
+    {
+        "concept": "Asteroid development",
+        "relationship": "is unrelated directly to",
+        "related_concept": "Nebulae",
+        "description": "While both involve space materials, asteroid development does not directly relate to the materials making up nebulae."
+    },
+    {
+        "concept": "Planetary orbits",
+        "relationship": "are influenced by",
+        "related_concept": "Stellar formation",
+        "description": "The formation of stars can affect the gravitational dynamics in a system, potentially influencing planetary orbits."
+    },
+    {
+        "concept": "Galaxy shapes",
+        "relationship": "are larger contexts for",
+        "related_concept": "Nebulae",
+        "description": "Nebulae exist within galaxies, which themselves have various shapes and structures."
+    }
+]
+
+Model Answer: {
+    "answer": "stellar formation",
+    "reasoning": "The film Felicia saw on the materials that make up nebulae is most likely about 'stellar formation,' as nebulae are massive clouds of gas and dust where new stars are born. This option directly relates to the aspects of nebulae involved in creating stars, aligning with the content of the film described."
+}

@@ -1,0 +1,71 @@
+Key: Mercury_7154648
+
+Question: Lactose intolerance is a condition of the digestive system in which an individual has an inability to digest lactose, the sugar found in milk. An individual affected with lactose intolerance does not produce enough of the enzyme lactase, which is needed to break down lactose. If more adults than children are diagnosed with lactose intolerance, what does this most likely suggest?
+Options: ['The production of lactase decreases over time.', 'The digestion of food breaks down lactase.', 'Lactose intolerance is an allergic reaction.', 'Lactose intolerance is contagious.']
+Answer: The production of lactase decreases over time.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Lactose intolerance",
+        "description": "A condition where the digestive system cannot break down lactose due to insufficient lactase enzyme"
+    },
+    {
+        "name": "Lactase",
+        "description": "An enzyme that breaks down lactose into glucose and galactose"
+    },
+    {
+        "name": "Lactose",
+        "description": "A sugar found in milk and dairy products"
+    },
+    {
+        "name": "Digestive System",
+        "description": "A group of organs responsible for the digestion and absorption of food"
+    },
+    {
+        "name": "Allergic Reaction",
+        "description": "An immune system reaction that occurs soon after exposure to a certain substance"
+    },
+    {
+        "name": "Contagious",
+        "description": "Able to be transmitted from one individual to another through direct or indirect contact"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Lactose intolerance",
+        "relationship": "caused by",
+        "related_concept": "Lactase",
+        "description": "Lactose intolerance is caused by the insufficient production of lactase"
+    },
+    {
+        "concept": "Lactase",
+        "relationship": "breaks down",
+        "related_concept": "Lactose",
+        "description": "Lactase enzyme breaks down lactose into glucose and galactose"
+    },
+    {
+        "concept": "Digestive System",
+        "relationship": "uses",
+        "related_concept": "Lactase",
+        "description": "The digestive system uses lactase to digest lactose"
+    },
+    {
+        "concept": "Lactose intolerance",
+        "relationship": "is not",
+        "related_concept": "Allergic Reaction",
+        "description": "Lactose intolerance is a digestive condition, not an immune response like an allergic reaction"
+    },
+    {
+        "concept": "Lactose intolerance",
+        "relationship": "is not",
+        "related_concept": "Contagious",
+        "description": "Lactose intolerance cannot be transmitted between individuals"
+    }
+]
+
+Model Answer: {
+    "answer": "The production of lactase decreases over time.",
+    "reasoning": "Given that more adults are diagnosed with lactose intolerance than children, it suggests that the condition develops over time due to a physiological change. Based on the identified concepts and their relationships, the most logical explanation is that the production of lactase decreases over time. This decrease in lactase makes it harder for the digestive system to break down lactose, leading to lactose intolerance. This is supported by the relationship between lactose intolerance and lactase, where insufficient production of lactase enzyme causes lactose intolerance."
+}

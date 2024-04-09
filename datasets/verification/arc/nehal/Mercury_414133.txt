@@ -1,0 +1,61 @@
+Key: Mercury_414133
+
+Question: Which of these is never found in prokaryotic cells?
+Options: ['cell membrane', 'ribosome', 'cell wall', 'nucleus']
+Answer: nucleus
+
+Model Response:
+Concepts: [
+    {
+        "name": "cell membrane",
+        "description": "A thin layer that surrounds the cell, controlling the movement of substances in and out."
+    },
+    {
+        "name": "ribosome",
+        "description": "A complex molecule that helps in the synthesis of proteins, found in both prokaryotic and eukaryotic cells."
+    },
+    {
+        "name": "cell wall",
+        "description": "A rigid layer that provides support and protection outside the cell membrane in various types of cells, including many prokaryotes."
+    },
+    {
+        "name": "nucleus",
+        "description": "A membrane-bound organelle found in eukaryotic cells that contains the genetic material."
+    },
+    {
+        "name": "prokaryotic cells",
+        "description": "A type of cell that lacks a nucleus and membrane-bound organelles."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "prokaryotic cells",
+        "relationship": "contains",
+        "related_concept": "cell membrane",
+        "description": "Prokaryotic cells have a cell membrane that encloses their internal components."
+    },
+    {
+        "concept": "prokaryotic cells",
+        "relationship": "contains",
+        "related_concept": "ribosome",
+        "description": "Prokaryotic cells contain ribosomes for protein synthesis."
+    },
+    {
+        "concept": "prokaryotic cells",
+        "relationship": "contains",
+        "related_concept": "cell wall",
+        "description": "Many prokaryotic cells have a cell wall providing structural support and shape."
+    },
+    {
+        "concept": "prokaryotic cells",
+        "relationship": "lacks",
+        "related_concept": "nucleus",
+        "description": "Prokaryotic cells do not have a nucleus; their genetic material is not enclosed in a membrane-bound nucleus."
+    }
+]
+
+Model Answer: {
+    "answer": "nucleus",
+    "reasoning": "Based on the identified concepts and their relationships, the nucleus is the only option listed that is never found in prokaryotic cells. Prokaryotic organisms, such as bacteria and archaea, are characterized by the absence of a nucleus and membrane-bound organelles, distinguishing them from eukaryotic cells."
+}

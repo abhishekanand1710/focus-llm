@@ -1,0 +1,67 @@
+Key: Mercury_SC_405647
+
+Question: The ice cubes in a freezer are melting. Which change most likely is causing the ice cubes to melt?
+Options: ['a decrease in the mass of the ice cubes', 'an increase in the mass of the ice cubes', 'a decrease in the temperature inside the freezer', 'an increase in the temperature inside the freezer']
+Answer: an increase in the temperature inside the freezer
+
+Model Response:
+Concepts: [
+    {
+        "name": "Ice Cubes",
+        "description": "Frozen water in the form of cubes"
+    },
+    {
+        "name": "Melting",
+        "description": "The process of turning from solid to liquid due to an increase in temperature and/or pressure"
+    },
+    {
+        "name": "Freezer",
+        "description": "An appliance that maintains temperatures below the freezing point of water"
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the warmth or coldness of an object or substance with reference to some standard value"
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Ice Cubes",
+        "relationship": "undergo",
+        "related_concept": "Melting",
+        "description": "Ice cubes turn to liquid when they melt"
+    },
+    {
+        "concept": "Melting",
+        "relationship": "caused_by",
+        "related_concept": "Temperature",
+        "description": "The melting process is initiated by an increase in temperature"
+    },
+    {
+        "concept": "Freezer",
+        "relationship": "maintains",
+        "related_concept": "Temperature",
+        "description": "A freezer's purpose is to keep its internal temperature below the freezing point of water"
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "affects",
+        "related_concept": "Ice Cubes",
+        "description": "The state of ice cubes, either solid or liquid, is dependent on the temperature"
+    },
+    {
+        "concept": "Mass",
+        "relationship": "attribute_of",
+        "related_concept": "Ice Cubes",
+        "description": "Ice cubes have a certain mass which decreases when they melt but is not directly affected by temperature"
+    }
+]
+
+Model Answer: {
+    "answer": "an increase in the temperature inside the freezer",
+    "reasoning": "The melting of ice cubes is directly caused by an increase in temperature. Since freezers are designed to maintain temperatures below the freezing point of water, any malfunction or adjustment resulting in the temperature rising above this point would lead to the melting of ice cubes. The mass of the ice cubes is a result of melting, not a cause, and a decrease in freezer temperature would further solidify ice, not melt it."
+}

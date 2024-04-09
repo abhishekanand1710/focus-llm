@@ -1,0 +1,71 @@
+Key: Mercury_SC_405927
+
+Question: Why are alternative fuels being used in some automobiles?
+Options: ['Alternative fuels are at every gas station.', 'Gasoline comes from a limited resource.', 'Alternative fuels cause pollution.', 'Gasoline engines are too expensive to make.']
+Answer: Gasoline comes from a limited resource.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Alternative fuels",
+        "description": "Fuels used as alternatives to traditional fossil fuels like gasoline and diesel."
+    },
+    {
+        "name": "Gasoline",
+        "description": "A petroleum-derived fuel used widely in internal combustion engines."
+    },
+    {
+        "name": "Limited resource",
+        "description": "Resources that are available in finite quantities or are replenished slower than they are consumed."
+    },
+    {
+        "name": "Pollution",
+        "description": "Contamination of the environment, often by chemicals or waste products."
+    },
+    {
+        "name": "Gasoline engines",
+        "description": "Engines that operate by burning gasoline to produce mechanical energy."
+    },
+    {
+        "name": "Gas stations",
+        "description": "Retail establishments that sell fuel and engine lubricants for motor vehicles."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Gasoline",
+        "relationship": "comes from",
+        "related_concept": "Limited resource",
+        "description": "Gasoline is derived from oil, which is a limited resource."
+    },
+    {
+        "concept": "Alternative fuels",
+        "relationship": "are used because",
+        "related_concept": "Gasoline comes from a limited resource",
+        "description": "Alternative fuels are explored as options due to the finite nature of gasoline's source."
+    },
+    {
+        "concept": "Gasoline engines",
+        "relationship": "burn",
+        "related_concept": "Gasoline",
+        "description": "Gasoline engines operate by burning gasoline to generate power."
+    },
+    {
+        "concept": "Alternative fuels",
+        "relationship": "cause less",
+        "related_concept": "Pollution",
+        "description": "Many alternative fuels are considered because they potentially cause less environmental pollution."
+    },
+    {
+        "concept": "Gasoline",
+        "relationship": "is sold at",
+        "related_concept": "Gas stations",
+        "description": "Gas stations are the main distribution points for gasoline."
+    }
+]
+
+Model Answer: {
+    "answer": "Gasoline comes from a limited resource.",
+    "reasoning": "The motivation for using alternative fuels in some automobiles is primarily due to the fact that gasoline, a traditional fuel source, is derived from oil, which is a finite or limited resource. This limitation encourages the exploration and adoption of alternative fuels to ensure sustainability and reduce dependence on a depleting resource."
+}

@@ -1,0 +1,51 @@
+Key: MCAS_1999_8_34
+
+Question: If a new moon occurred on June 2, when will the next new moon occur?
+Options: ['June 30', 'June 28', 'June 23', 'June 15']
+Answer: June 30
+
+Model Response:
+Concepts: [
+    {
+        "name": "New Moon",
+        "description": "The phase of the moon when it is in conjunction with the sun and invisible from earth."
+    },
+    {
+        "name": "Lunar Cycle",
+        "description": "The cycle of phases that the moon goes through, lasting approximately 29.5 days."
+    },
+    {
+        "name": "June 2",
+        "description": "The date of the occurrence of a New Moon."
+    },
+    {
+        "name": "Next New Moon",
+        "description": "The following new moon after the one on June 2."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "New Moon",
+        "relationship": "followed_by",
+        "related_concept": "Next New Moon",
+        "description": "The next New Moon follows the occurrence of a previous New Moon."
+    },
+    {
+        "concept": "June 2",
+        "relationship": "marks",
+        "related_concept": "New Moon",
+        "description": "June 2 is the date marking the occurrence of a New Moon."
+    },
+    {
+        "concept": "Lunar Cycle",
+        "relationship": "determines",
+        "related_concept": "Next New Moon",
+        "description": "The Lunar Cycle determines the timing of the next New Moon after any given New Moon."
+    }
+]
+
+Model Answer: {
+    "answer": "June 30",
+    "reasoning": "Given that a lunar cycle lasts approximately 29.5 days and a new moon occurred on June 2, the next new moon would occur approximately 29.5 days later. Looking at the options provided and considering the length of a lunar cycle, June 30 is the closest date that aligns with the ~29.5 days cycle from June 2, making it the most accurate prediction for the next new moon."
+}

@@ -1,0 +1,71 @@
+Key: ACTAAP_2008_7_3
+
+Question: Which question can most likely be determined through a scientific investigation?
+Options: ['Who will be the winner of the next lottery?', 'What football team will win the next game?', 'What is the amount of light needed to grow tomatoes?', 'Which four types of bird feathers have the prettiest colors?']
+Answer: What is the amount of light needed to grow tomatoes?
+
+Model Response:
+Concepts: [
+    {
+        "name": "Scientific investigation",
+        "description": "A methodological inquiry aimed at discovering new knowledge or understanding phenomena through systematic experimentation and observation."
+    },
+    {
+        "name": "Lottery winner prediction",
+        "description": "The act of forecasting the winner of a lottery, which is a game of chance."
+    },
+    {
+        "name": "Sports outcome prediction",
+        "description": "Predicting the result of a sports event, which depends on unpredictable variables such as player performance and strategy."
+    },
+    {
+        "name": "Plant growth factors",
+        "description": "Conditions necessary for the growth of plants, including light, water, temperature, and soil nutrients."
+    },
+    {
+        "name": "Aesthetic evaluation of bird feathers",
+        "description": "Subjective appraisal of the beauty of bird feathers based on human perception and cultural standards."
+    },
+    {
+        "name": "Light requirements for tomatoes",
+        "description": "The specific amount of light necessary for the optimal growth of tomato plants."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Scientific investigation",
+        "relationship": "is not applicable to",
+        "related_concept": "Lottery winner prediction",
+        "description": "Scientific methods can't reliably predict outcomes based entirely on chance like lotteries."
+    },
+    {
+        "concept": "Scientific investigation",
+        "relationship": "is not effectively applied to",
+        "related_concept": "Sports outcome prediction",
+        "description": "While there are statistical models, the unpredictable nature of sports makes scientific prediction difficult."
+    },
+    {
+        "concept": "Scientific investigation",
+        "relationship": "is applicable to",
+        "related_concept": "Plant growth factors",
+        "description": "Scientific methods can be used to study and determine the optimal conditions for plant growth."
+    },
+    {
+        "concept": "Scientific investigation",
+        "relationship": "is not suitable for",
+        "related_concept": "Aesthetic evaluation of bird feathers",
+        "description": "Aesthetics are subjective and differ among individuals, making it not ideal for scientific inquiry."
+    },
+    {
+        "concept": "Plant growth factors",
+        "relationship": "include",
+        "related_concept": "Light requirements for tomatoes",
+        "description": "Light is a crucial factor for the growth of plants, including tomatoes, and can be scientifically measured."
+    }
+]
+
+Model Answer: {
+    "answer": "What is the amount of light needed to grow tomatoes?",
+    "reasoning": "This question can be determined through scientific investigation because it involves understanding and quantifying the light requirements\u2014a measurable and observable factor\u2014for the optimal growth of tomato plants. Unlike the other options, which involve unpredictable events or subjective judgments, the study of plant growth factors like light can be systematically experimented and observed through scientific methods."
+}

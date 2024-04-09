@@ -1,0 +1,63 @@
+Key: Mercury_7217070
+
+Question: Which mass is undergoing the greatest amount of acceleration?
+Options: ['1 kg subjected to a force of 1 N', '1 kg subjected to a force of 100 N', '100 kg subjected to a force of 1 N', '100 kg subjected to a force of 100 N']
+Answer: 1 kg subjected to a force of 100 N
+
+Model Response:
+Concepts: [
+    {
+        "name": "Force",
+        "description": "A push or pull upon an object resulting from the object's interaction with another object."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, typically in kilograms."
+    },
+    {
+        "name": "Acceleration",
+        "description": "The rate at which an object changes its velocity, calculated as force divided by mass."
+    },
+    {
+        "name": "Newton's Second Law",
+        "description": "States that the acceleration of an object is dependent upon two variables - the net force acting upon the object and the mass of the object."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Force",
+        "relationship": "causes",
+        "related_concept": "Acceleration",
+        "description": "A force applied to an object causes it to accelerate."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "resists",
+        "related_concept": "Acceleration",
+        "description": "The more mass an object has, the more it resists being accelerated."
+    },
+    {
+        "concept": "Newton's Second Law",
+        "relationship": "explains",
+        "related_concept": "Force and Mass relationship to Acceleration",
+        "description": "This law explains how force and mass are related to the acceleration of an object."
+    },
+    {
+        "concept": "Acceleration",
+        "relationship": "inversely proportional",
+        "related_concept": "Mass",
+        "description": "Acceleration is inversely proportional to mass for a given force."
+    },
+    {
+        "concept": "Acceleration",
+        "relationship": "directly proportional",
+        "related_concept": "Force",
+        "description": "Acceleration is directly proportional to force for a given mass."
+    }
+]
+
+Model Answer: {
+    "answer": "'1 kg subjected to a force of 100 N'",
+    "reasoning": "Using Newton's Second Law (Force = Mass x Acceleration), the acceleration of an object can be calculated by dividing the force exerted on the object by its mass. Comparing the provided options, the 1 kg mass subjected to a force of 100 N will undergo the greatest amount of acceleration since the same force is applied to less mass compared to the 100 kg options, and a significantly greater force is applied compared to the 1 kg mass with only 1 N of force. The larger the force applied to a given mass, the greater the acceleration, making the 1 kg mass with 100 N of force experience the greatest acceleration."
+}

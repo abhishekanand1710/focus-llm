@@ -1,0 +1,73 @@
+Key: Mercury_180163
+
+Question: When moist air comes in contact with a cold surface in the winter, one result can be frost. What has happened to the water vapor in the air to cause frost?
+Options: ['It has melted.', 'It has sublimated.', 'It has evaporated.', 'It has condensed.']
+Answer: It has sublimated.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Moist air",
+        "description": "Air containing water vapor"
+    },
+    {
+        "name": "Cold surface",
+        "description": "A surface with a temperature lower than the surrounding air"
+    },
+    {
+        "name": "Frost",
+        "description": "A thin layer of ice formed on a surface when the temperature drops below freezing"
+    },
+    {
+        "name": "Water vapor",
+        "description": "Water in its gaseous state, present in the air"
+    },
+    {
+        "name": "Sublimation",
+        "description": "The process by which a substance transitions from a solid to a gas without passing through a liquid phase"
+    },
+    {
+        "name": "Evaporation",
+        "description": "The process by which water changes from a liquid to a gas or vapor"
+    },
+    {
+        "name": "Condensation",
+        "description": "The process by which water vapor in the air is changed into liquid water"
+    },
+    {
+        "name": "Melting",
+        "description": "The process by which a substance transitions from solid to liquid form"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Moist air",
+        "relationship": "carries",
+        "related_concept": "Water vapor",
+        "description": "Moist air contains water vapor"
+    },
+    {
+        "concept": "Cold surface",
+        "relationship": "causes",
+        "related_concept": "Condensation",
+        "description": "A cold surface can cause water vapor to condense"
+    },
+    {
+        "concept": "Water vapor",
+        "relationship": "undergoes",
+        "related_concept": "Condensation",
+        "description": "Water vapor condenses into liquid water upon cooling"
+    },
+    {
+        "concept": "Condensation",
+        "relationship": "leads to",
+        "related_concept": "Frost",
+        "description": "Condensed water vapor can freeze to form frost on a cold surface"
+    }
+]
+
+Model Answer: {
+    "answer": "It has condensed.",
+    "reasoning": "When moist air comes into contact with a cold surface, the water vapor in the air undergoes condensation, transforming from a gaseous state into liquid water. This condensation process on a cold surface during winter can lead to the formation of frost as the temperature drops below freezing, causing the condensed water to freeze."
+}

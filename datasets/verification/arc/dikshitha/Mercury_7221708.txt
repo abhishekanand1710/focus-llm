@@ -1,0 +1,61 @@
+Key: Mercury_7221708
+
+Question: A student observed a sample of water in three states of matter. The student should describe the liquid water as a state of matter that has
+Options: ['more kinetic energy than the solid state.', 'more mass than the solid state.', 'less kinetic energy than the solid state.', 'less volume than the solid state.']
+Answer: more kinetic energy than the solid state.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Liquid water",
+        "description": "Water in its liquid state, with molecules that are mobile but still close together."
+    },
+    {
+        "name": "Solid state (ice)",
+        "description": "Water in its solid form, with molecules arranged in a rigid structure."
+    },
+    {
+        "name": "Kinetic energy",
+        "description": "The energy that an object possesses due to its motion."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space an object or substance occupies."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Liquid water",
+        "relationship": "has more",
+        "related_concept": "Kinetic energy",
+        "description": "Liquid water has more kinetic energy than ice because its molecules move more freely."
+    },
+    {
+        "concept": "Solid state (ice)",
+        "relationship": "has less",
+        "related_concept": "Kinetic energy",
+        "description": "The solid state of water (ice) has less kinetic energy compared to liquid water due to more rigid molecular arrangement."
+    },
+    {
+        "concept": "Liquid water",
+        "relationship": "has same",
+        "related_concept": "Mass",
+        "description": "Liquid water and ice (solid state) have the same mass for a given amount of water molecules."
+    },
+    {
+        "concept": "Liquid water",
+        "relationship": "has potentially more",
+        "related_concept": "Volume",
+        "description": "Liquid water can have a different volume than ice due to density changes; generally, ice expands."
+    }
+]
+
+Model Answer: {
+    "answer": "more kinetic energy than the solid state.",
+    "reasoning": "This is because in the liquid state, water molecules are more mobile and able to move around more freely than in the solid state, where they are rigidly held in place. This increased mobility equates to higher kinetic energy in the liquid state compared to the solid state."
+}

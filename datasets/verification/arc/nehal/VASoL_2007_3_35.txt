@@ -1,0 +1,75 @@
+Key: VASoL_2007_3_35
+
+Question: When a tadpole grows, its gills change into lungs. What does it now need to survive?
+Options: ['Air', 'Water', 'Soil', 'Fins']
+Answer: Air
+
+Model Response:
+Concepts: [
+    {
+        "name": "Tadpole",
+        "description": "A juvenile stage in the life cycle of an amphibian, particularly that of a frog or toad."
+    },
+    {
+        "name": "Gills",
+        "description": "Respiratory organs found in many aquatic organisms, used to extract oxygen from water."
+    },
+    {
+        "name": "Lungs",
+        "description": "Respiratory organs used by various animals, including humans, for the exchange of oxygen and carbon dioxide with the atmosphere."
+    },
+    {
+        "name": "Air",
+        "description": "The invisible gaseous substance surrounding the earth, a mixture mainly of oxygen and nitrogen."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans."
+    },
+    {
+        "name": "Soil",
+        "description": "The top layer of the earth's surface, consisting of rock and mineral particles mixed with organic matter."
+    },
+    {
+        "name": "Fins",
+        "description": "Appendages used by fish and certain other aquatic animals to propel, steer, and balance themselves in the water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Tadpole",
+        "relationship": "transforms into",
+        "related_concept": "Frog/Toad",
+        "description": "Tadpoles grow and undergo metamorphosis, turning into frogs or toads with lungs."
+    },
+    {
+        "concept": "Gills",
+        "relationship": "change into",
+        "related_concept": "Lungs",
+        "description": "During metamorphosis, a tadpole's gills develop into lungs to adapt to a terrestrial environment."
+    },
+    {
+        "concept": "Lungs",
+        "relationship": "require",
+        "related_concept": "Air",
+        "description": "Lungs are respiratory organs that require air to facilitate the exchange of oxygen and carbon dioxide."
+    },
+    {
+        "concept": "Tadpole",
+        "relationship": "lives in",
+        "related_concept": "Water",
+        "description": "Tadpoles are aquatic and thus live in water during their early life stages."
+    },
+    {
+        "concept": "Frog/Toad",
+        "relationship": "emerges from",
+        "related_concept": "Tadpole",
+        "description": "Frogs or toads are the adult forms that emerge after a tadpole undergoes metamorphosis."
+    }
+]
+
+Model Answer: {
+    "answer": "Air",
+    "reasoning": "As a tadpole grows and its gills change into lungs, it transitions from an aquatic life to a more terrestrial one. Lungs are respiratory organs designed for the exchange of gases with the air, not water. Therefore, once the transformation from gills to lungs has occurred, the tadpole, now becoming a frog or toad, requires air to survive, making 'Air' the correct answer from the given options."
+}

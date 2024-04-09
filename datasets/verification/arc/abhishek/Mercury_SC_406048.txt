@@ -1,0 +1,81 @@
+Key: Mercury_SC_406048
+
+Question: A student plants rosebushes in her front yard. The student is frequently seen pulling weeds from the base of the rosebushes. What is the most likely reason that the weeds are pulled?
+Options: ['Weeds add fertilizer to the soil.', 'Weeds use nutrients the roses need to grow.', 'Weeds increase the bacteria in the soil.', 'Weeds consume most of the oxygen.']
+Answer: Weeds use nutrients the roses need to grow.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Weeds",
+        "description": "Unwanted plants that compete with cultivated plants for resources."
+    },
+    {
+        "name": "Nutrients",
+        "description": "Substances that provide nourishment essential for growth and the maintenance of life."
+    },
+    {
+        "name": "Rosebushes",
+        "description": "Cultivated shrubs that bear roses."
+    },
+    {
+        "name": "Soil",
+        "description": "The upper layer of earth in which plants grow, a black or dark brown material typically consisting of a mixture of organic remains, clay, and rock particles."
+    },
+    {
+        "name": "Fertilizer",
+        "description": "A chemical or natural substance added to soil or land to increase its fertility."
+    },
+    {
+        "name": "Bacteria",
+        "description": "Microscopic living organisms, usually one-celled, that can be found everywhere. They can be beneficial, such as those involved in fermentation, or harmful, such as those that cause disease."
+    },
+    {
+        "name": "Oxygen",
+        "description": "A chemical element that is a colorless, odorless reactive gas, and is necessary for the respiration of most living organisms."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Weeds",
+        "relationship": "compete with",
+        "related_concept": "Rosebushes",
+        "description": "Weeds compete with rosebushes for nutrients and other resources in the soil."
+    },
+    {
+        "concept": "Weeds",
+        "relationship": "consume",
+        "related_concept": "Nutrients",
+        "description": "Weeds consume the nutrients in the soil that are necessary for the growth of plants like rosebushes."
+    },
+    {
+        "concept": "Fertilizer",
+        "relationship": "adds to",
+        "related_concept": "Soil",
+        "description": "Fertilizer is added to soil to increase its fertility by supplying necessary nutrients."
+    },
+    {
+        "concept": "Weeds",
+        "relationship": "do not add",
+        "related_concept": "Fertilizer",
+        "description": "Contrary to one of the options, weeds do not contribute to the fertility of the soil by adding fertilizer."
+    },
+    {
+        "concept": "Bacteria",
+        "relationship": "exist in",
+        "related_concept": "Soil",
+        "description": "Bacteria are present in the soil, and their populations can be affected by soil conditions but are not directly increased by the presence of weeds."
+    },
+    {
+        "concept": "Oxygen",
+        "relationship": "is used by",
+        "related_concept": "Rosebushes",
+        "description": "Oxygen is used by rosebushes and other plants for respiration, but weeds do not consume most of the oxygen, making that option incorrect."
+    }
+]
+
+Model Answer: {
+    "answer": "Weeds use nutrients the roses need to grow.",
+    "reasoning": "The relationship between weeds and rosebushes as competitors for nutrients in the soil is the primary reason for pulling weeds. Weeds consume the nutrients from the soil that are essential for the growth and maintenance of life in cultivated plants like roses. Therefore, to ensure the roses have enough nutrients to grow, it's necessary to remove the weeds that are competing for those same nutrients."
+}

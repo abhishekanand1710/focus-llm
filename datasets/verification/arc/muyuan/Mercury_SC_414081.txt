@@ -1,0 +1,71 @@
+Key: Mercury_SC_414081
+
+Question: A student blew air into a beach ball and sealed it. She then pushed on the middle of the beach ball. What happened to the air inside the beach ball?
+Options: ['The air in the beach ball escaped.', 'The air in the beach ball became a liquid.', 'The type of air in the beach ball changed.', 'The shape of the air in the beach ball changed.']
+Answer: The shape of the air in the beach ball changed.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Beach Ball",
+        "description": "A flexible, inflatable object made of thin material that can be filled with air."
+    },
+    {
+        "name": "Air",
+        "description": "A mixture of gases that surrounds the Earth and is vital for human life."
+    },
+    {
+        "name": "Pressure",
+        "description": "The force exerted perpendicular to the surface of an object per unit area over which that force is distributed."
+    },
+    {
+        "name": "Shape",
+        "description": "The external form, contours, or outline of someone or something."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that a substance or object occupies."
+    },
+    {
+        "name": "State of Matter",
+        "description": "One of the distinct forms in which matter can exist. The main states of matter are solid, liquid, and gas."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Beach Ball",
+        "relationship": "is filled with",
+        "related_concept": "Air",
+        "description": "The air inside the beach ball occupies its volume."
+    },
+    {
+        "concept": "Air",
+        "relationship": "exerts",
+        "related_concept": "Pressure",
+        "description": "Air inside the beach ball exerts pressure on its inner surfaces."
+    },
+    {
+        "concept": "Pressure",
+        "relationship": "affects",
+        "related_concept": "Shape",
+        "description": "Changes in pressure can lead to changes in the shape of the beach ball."
+    },
+    {
+        "concept": "Volume",
+        "relationship": "contains",
+        "related_concept": "Air",
+        "description": "The volume of the beach ball is the space that the air occupies."
+    },
+    {
+        "concept": "Pressure",
+        "relationship": "does not change",
+        "related_concept": "State of Matter",
+        "description": "Normal manipulation of a beach ball does not change the state of matter of the air inside."
+    }
+]
+
+Model Answer: {
+    "answer": "The shape of the air in the beach ball changed.",
+    "reasoning": "When a student pushes on the middle of the beach ball, the pressure inside the ball is redistributed, but none of the air escapes, nor does it change state or significantly change in type. Instead, the shape that the air occupies within the ball changes to accommodate the reduced volume and altered distribution of space caused by the pushing action."
+}

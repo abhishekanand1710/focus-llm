@@ -1,0 +1,71 @@
+Key: Mercury_7187775
+
+Question: Franklin wants to know how fast he runs different distances. He uses a stopwatch to measure the time it takes him to complete a 50-meter, 100-meter, and 200-meter race. How can he calculate his speed for each race?
+Options: ['Add the distances and the times.', 'Divide the distances by the times.', 'Multiply the distances by the times.', 'Subtract the distances from the times.']
+Answer: Divide the distances by the times.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Speed",
+        "description": "Rate of change of distance with respect to time."
+    },
+    {
+        "name": "Distance",
+        "description": "The length of the path between two points."
+    },
+    {
+        "name": "Time",
+        "description": "Duration or interval over which an event occurs."
+    },
+    {
+        "name": "Stopwatch",
+        "description": "A tool used to measure time."
+    },
+    {
+        "name": "Race",
+        "description": "A competition of speed, against an opponent or the clock."
+    },
+    {
+        "name": "Calculation",
+        "description": "A mathematical process to determine an amount or number."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Speed",
+        "relationship": "calculated_by",
+        "related_concept": "Distance",
+        "description": "Speed is calculated using distance."
+    },
+    {
+        "concept": "Speed",
+        "relationship": "calculated_by",
+        "related_concept": "Time",
+        "description": "Speed is calculated using time."
+    },
+    {
+        "concept": "Distance",
+        "relationship": "measured_in",
+        "related_concept": "Race",
+        "description": "Distance is the measurable length a race covers."
+    },
+    {
+        "concept": "Time",
+        "relationship": "measured_by",
+        "related_concept": "Stopwatch",
+        "description": "Time is measured using a stopwatch."
+    },
+    {
+        "concept": "Calculation",
+        "relationship": "involves",
+        "related_concept": "Speed",
+        "description": "Calculation is a process that involves determining speed among other quantities."
+    }
+]
+
+Model Answer: {
+    "answer": "Divide the distances by the times.",
+    "reasoning": "To calculate Franklin's speed for each race, the distance of each race should be divided by the time it took to complete each race. Speed is defined as the distance traveled per unit of time. The correct formula for calculating speed is speed = distance / time, matching the option 'Divide the distances by the times.' This calculation respects the fundamental relationship between distance, time, and speed where the speed is the quotient of distance and time."
+}

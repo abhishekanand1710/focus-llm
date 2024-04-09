@@ -1,0 +1,71 @@
+Key: MSA_2013_5_44
+
+Question: A ship leaks a large amount of oil near a coastal area. Which statement describes how the oil most likely will affect the coastal habitat?
+Options: ['Fish reproduction rates will increase.', 'Water birds will be unable to use their wings.', 'Water plants will be exposed to more sunlight.', 'Coastal plants will have access to more nutrients.']
+Answer: Water birds will be unable to use their wings.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Oil Spill",
+        "description": "The release of a liquid petroleum hydrocarbon into the environment, especially marine areas, due to human activity."
+    },
+    {
+        "name": "Coastal Habitat",
+        "description": "Biologically rich environments that provide homes for diverse marine life near the shore."
+    },
+    {
+        "name": "Fish Reproduction",
+        "description": "The biological process by which fish produce offspring."
+    },
+    {
+        "name": "Water Birds",
+        "description": "Birds that live on or around water and depend on it for feeding and breeding."
+    },
+    {
+        "name": "Water Plants",
+        "description": "Plants that have adapted to living in aquatic environments (saltwater or freshwater)."
+    },
+    {
+        "name": "Coastal Plants",
+        "description": "Plants that are found along the seashore and have adapted to saltwater and sandy soil conditions."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Oil Spill",
+        "relationship": "negatively affects",
+        "related_concept": "Coastal Habitat",
+        "description": "Oil spills deposit large amounts of petroleum into coastal ecosystems, harming various forms of life."
+    },
+    {
+        "concept": "Oil Spill",
+        "relationship": "leads to",
+        "related_concept": "Water Birds",
+        "description": "Oil from spills coats the feathers of water birds, hindering their ability to fly or maintain body temperature."
+    },
+    {
+        "concept": "Oil Spill",
+        "relationship": "obstructs sunlight",
+        "related_concept": "Water Plants",
+        "description": "The thick layer of oil floating on the water's surface can block sunlight from reaching underwater plants."
+    },
+    {
+        "concept": "Oil Spill",
+        "relationship": "reduces",
+        "related_concept": "Fish Reproduction",
+        "description": "Toxic pollutants from oil spills can harm fish eggs and larvae, reducing reproductive success."
+    },
+    {
+        "concept": "Coastal Habitat",
+        "relationship": "supports",
+        "related_concept": "Coastal Plants",
+        "description": "Coastal habitats provide the necessary environment for coastal plants to thrive."
+    }
+]
+
+Model Answer: {
+    "answer": "Water birds will be unable to use their wings.",
+    "reasoning": "Among the provided options, the effect of an oil spill making water birds unable to use their wings is the most direct and scientifically supported consequence. Oil from spills adheres to the feathers of birds, hindering their ability to regulate their body temperature and fly. This not only affects their mobility but also can lead to hypothermia or overexposure to the sun, and ultimately, it affects their survival and reproductive capability. None of the other options are immediate or primary effects of oil on coastal environments."
+}

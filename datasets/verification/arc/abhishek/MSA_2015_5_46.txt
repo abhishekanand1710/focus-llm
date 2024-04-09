@@ -1,0 +1,71 @@
+Key: MSA_2015_5_46
+
+Question: A beaker containing 50 milliliters of ice is placed on a windowsill. After several hours, the ice melts. What property of the ice did not change when it melted?
+Options: ['the mass', 'the volume', 'the temperature', 'the state of matter']
+Answer: the mass
+
+Model Response:
+Concepts: [
+    {
+        "name": "mass",
+        "description": "a measure of the amount of matter in an object, typically in kilograms or grams"
+    },
+    {
+        "name": "volume",
+        "description": "the amount of space that a substance or object occupies, or that is enclosed within a container"
+    },
+    {
+        "name": "temperature",
+        "description": "a measure of the hotness or coldness of an object, typically measured in degrees Celsius or Fahrenheit"
+    },
+    {
+        "name": "state of matter",
+        "description": "a physical property that describes the distinct forms that different phases of matter take on"
+    },
+    {
+        "name": "ice",
+        "description": "water frozen into a solid state"
+    },
+    {
+        "name": "melting",
+        "description": "the process of changing from a solid to a liquid due to an increase in temperature and/or pressure"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "ice",
+        "relationship": "undergoes",
+        "related_concept": "melting",
+        "description": "Ice melts into water when its temperature rises above its melting point"
+    },
+    {
+        "concept": "melting",
+        "relationship": "results_in_change_of",
+        "related_concept": "state of matter",
+        "description": "Melting results in a change from the solid to the liquid state"
+    },
+    {
+        "concept": "mass",
+        "relationship": "remains_constant_during",
+        "related_concept": "melting",
+        "description": "The mass of a substance remains constant during melting"
+    },
+    {
+        "concept": "volume",
+        "relationship": "may_change_during",
+        "related_concept": "melting",
+        "description": "The volume of a substance may change during melting"
+    },
+    {
+        "concept": "temperature",
+        "relationship": "causes",
+        "related_concept": "melting",
+        "description": "An increase in temperature causes ice to melt"
+    }
+]
+
+Model Answer: {
+    "answer": "the mass",
+    "reasoning": "When ice melts into water, its state of matter changes from solid to liquid, the volume may change due to the density difference between solid ice and liquid water, and the temperature that initiates melting changes as the ice absorbs heat. However, the mass of the water remains the same before and after melting, as the matter (ice) simply changes form without any of it being lost or gained in the process. Thus, the property of the ice that does not change when it melted is the mass."
+}

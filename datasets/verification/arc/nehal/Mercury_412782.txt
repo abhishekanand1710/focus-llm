@@ -1,0 +1,75 @@
+Key: Mercury_412782
+
+Question: Which of the water samples described below has the greatest average kinetic energy per molecule?
+Options: ['1 liter of ice at a temperature of -50°C', '10 liters of ice at a temperature of -75°C', '1 liter of water at a temperature of 75°C', '10 liters of water at a temperature of 50°C']
+Answer: 1 liter of water at a temperature of 75°C
+
+Model Response:
+Concepts: [
+    {
+        "name": "Kinetic Energy",
+        "description": "Energy that a body possesses by virtue of being in motion"
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the average kinetic energy of the particles in a system"
+    },
+    {
+        "name": "State of Matter",
+        "description": "Distinct forms that different phases of matter take on"
+    },
+    {
+        "name": "Molecule",
+        "description": "Smallest particle in a chemical element or compound that has the chemical properties of that element or compound"
+    },
+    {
+        "name": "Liter",
+        "description": "Unit of volume"
+    },
+    {
+        "name": "Ice",
+        "description": "Solid state of water"
+    },
+    {
+        "name": "Water",
+        "description": "Liquid state of H2O"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Temperature",
+        "relationship": "determines",
+        "related_concept": "Kinetic Energy",
+        "description": "Higher temperatures correlate with higher average kinetic energy of molecules"
+    },
+    {
+        "concept": "State of Matter",
+        "relationship": "influenced_by",
+        "related_concept": "Temperature",
+        "description": "The state of matter (solid, liquid, gas) is determined by the temperature of the substance"
+    },
+    {
+        "concept": "Ice",
+        "relationship": "is_a",
+        "related_concept": "State of Matter",
+        "description": "Ice is the solid state of water"
+    },
+    {
+        "concept": "Water",
+        "relationship": "is_a",
+        "related_concept": "State of Matter",
+        "description": "Water is the liquid state of H2O"
+    },
+    {
+        "concept": "Liter",
+        "relationship": "measures",
+        "related_concept": "Water/Ice",
+        "description": "Liter is a unit of volume for measuring quantities of Water/Ice"
+    }
+]
+
+Model Answer: {
+    "answer": "1 liter of water at a temperature of 75\u00b0C",
+    "reasoning": "The average kinetic energy of molecules in a substance increases with temperature. Among the options provided, '1 liter of water at a temperature of 75\u00b0C' has the highest temperature and is in a liquid state, meaning its molecules have greater freedom to move compared to those in a solid state (ice). Therefore, this sample has the greatest average kinetic energy per molecule."
+}

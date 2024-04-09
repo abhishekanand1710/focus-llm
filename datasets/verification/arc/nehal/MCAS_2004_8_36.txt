@@ -1,0 +1,75 @@
+Key: MCAS_2004_8_36
+
+Question: A flowing stream contains water at 18°C. Cans of soft drinks at 28°C are lowered into the stream. Which of the following will most likely occur?
+Options: ["The soft drink cans will absorb cold energy from the stream's water.", "The cans will cool until their temperature is the same as the stream's.", 'The temperature of the soft drinks will not change since the cans are sealed.', 'The temperature of the cans will decrease to freezing as long as the stream is flowing.']
+Answer: The cans will cool until their temperature is the same as the stream's.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Heat Transfer",
+        "description": "The process of heat moving from a warmer object to a cooler one."
+    },
+    {
+        "name": "Equilibrium Temperature",
+        "description": "The temperature at which two objects in contact with each other stop exchanging heat."
+    },
+    {
+        "name": "Thermal Insulation",
+        "description": "Materials or methods used to reduce the rate of heat transfer."
+    },
+    {
+        "name": "Water Temperature",
+        "description": "The measure of how hot or cold water is."
+    },
+    {
+        "name": "Soft Drink Can Temperature",
+        "description": "The measure of how hot or cold the soft drink can is."
+    },
+    {
+        "name": "Conduction",
+        "description": "The process of heat transfer through direct contact."
+    },
+    {
+        "name": "Convection",
+        "description": "The process of heat transfer through a fluid (liquid or gas) movement."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Heat Transfer",
+        "relationship": "causes",
+        "related_concept": "Equilibrium Temperature",
+        "description": "Heat transfer between objects can lead them to reach an equilibrium temperature."
+    },
+    {
+        "concept": "Soft Drink Can Temperature",
+        "relationship": "decreases_due_to",
+        "related_concept": "Heat Transfer",
+        "description": "The temperature of the soft drink cans decreases due to heat transfer to the colder environment."
+    },
+    {
+        "concept": "Water Temperature",
+        "relationship": "influences",
+        "related_concept": "Convection",
+        "description": "The temperature of the water influences convection currents around the submerged cans."
+    },
+    {
+        "concept": "Conduction",
+        "relationship": "occurs_between",
+        "related_concept": "Soft Drink Can Temperature",
+        "description": "Conduction occurs between the soft drink can and the water, transferring heat."
+    },
+    {
+        "concept": "Convection",
+        "relationship": "assists",
+        "related_concept": "Heat Transfer",
+        "description": "Convection in the water around the cans assists in the heat transfer process."
+    }
+]
+
+Model Answer: {
+    "answer": "The cans will cool until their temperature is the same as the stream's.",
+    "reasoning": "When the cans of soft drinks at 28\u00b0C are lowered into the stream with water at 18\u00b0C, heat transfer occurs from the warmer cans to the cooler water. This process, primarily involving conduction and assisted by convection currents in the water, continues until the temperature of the soft drink cans and the water reach an equilibrium point. This means the cans will cool down to match the stream's temperature of 18\u00b0C, not absorb 'cold energy' (since cold is merely the absence of heat), change temperature despite being sealed (since the transfer is through the can material), or decrease to freezing just because the stream is flowing."
+}

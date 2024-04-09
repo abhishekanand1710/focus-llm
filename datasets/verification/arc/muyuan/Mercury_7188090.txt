@@ -1,0 +1,87 @@
+Key: Mercury_7188090
+
+Question: Agnes learned that the brain, spinal cord, and nerves work together. What do they combine to form?
+Options: ['a cell', 'a tissue', 'an organ', 'a system']
+Answer: a system
+
+Model Response:
+Concepts: [
+    {
+        "name": "brain",
+        "description": "An organ that serves as the center of the nervous system."
+    },
+    {
+        "name": "spinal cord",
+        "description": "A long, thin, tubular structure made up of nervous tissue, which extends from the brainstem."
+    },
+    {
+        "name": "nerves",
+        "description": "Bundles of fibers that transmit impulses of sensation to the brain or spinal cord, and impulses from these to the muscles and organs."
+    },
+    {
+        "name": "cell",
+        "description": "The basic structural, functional, and biological unit of all known living organisms."
+    },
+    {
+        "name": "tissue",
+        "description": "An ensemble of similar cells from the same origin that together carry out a specific function."
+    },
+    {
+        "name": "organ",
+        "description": "A group of tissues in a living organism that have been adapted to perform a specific function."
+    },
+    {
+        "name": "a system",
+        "description": "A group of interacting or interrelated entities that form an integrated whole."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "brain",
+        "relationship": "is part of",
+        "related_concept": "nervous system",
+        "description": "The brain functions as the control center of the nervous system."
+    },
+    {
+        "concept": "spinal cord",
+        "relationship": "is part of",
+        "related_concept": "nervous system",
+        "description": "The spinal cord is a major component of the nervous system, providing pathways for neural signals."
+    },
+    {
+        "concept": "nerves",
+        "relationship": "are part of",
+        "related_concept": "nervous system",
+        "description": "Nerves extend from the brain and spinal cord to relay information to the rest of the body."
+    },
+    {
+        "concept": "nervous system",
+        "relationship": "is classified as",
+        "related_concept": "a system",
+        "description": "The nervous system is a complex network of nerves and cells that carry messages to and from the brain and spinal cord to various parts of the body."
+    },
+    {
+        "concept": "cell",
+        "relationship": "forms",
+        "related_concept": "tissue",
+        "description": "Cells come together to form tissues."
+    },
+    {
+        "concept": "tissue",
+        "relationship": "organizes into",
+        "related_concept": "organ",
+        "description": "Tissues organize into organs to perform specific functions."
+    },
+    {
+        "concept": "organ",
+        "relationship": "part of",
+        "related_concept": "a system",
+        "description": "Organs work together within systems to perform complex functions."
+    }
+]
+
+Model Answer: {
+    "answer": "a system",
+    "reasoning": "The brain, spinal cord, and nerves are fundamental components of the nervous system. They work together to send, receive, and process information throughout the body, forming an integrated network that functions as a system, not as individual cells, tissues, or organs."
+}

@@ -1,0 +1,77 @@
+Key: NCEOGA_2013_5_33
+
+Question: Which characteristic do single-celled organisms and multicellular organisms have in common?
+Options: ['Both have cells with specialized functions for each life process.', 'Both perform all life processes within one cell.', 'Both have a way to get rid of waste materials.', 'Both are able to make food from sunlight.']
+Answer: Both have a way to get rid of waste materials.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Single-celled organisms",
+        "description": "Organisms that consist of only one cell and carry out all life processes within it."
+    },
+    {
+        "name": "Multicellular organisms",
+        "description": "Organisms made up of multiple cells, often with cells specialized for different functions."
+    },
+    {
+        "name": "Cells with specialized functions",
+        "description": "Cells that have specific roles in an organism, such as nerve cells or blood cells."
+    },
+    {
+        "name": "Life processes",
+        "description": "Basic functions necessary for living organisms to maintain their existence, such as respiration and waste elimination."
+    },
+    {
+        "name": "Waste materials",
+        "description": "Substances produced as byproducts of cellular processes that organisms need to excrete."
+    },
+    {
+        "name": "Photosynthesis",
+        "description": "The process by which green plants and some other organisms use sunlight to synthesize foods with carbon dioxide and water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Single-celled organisms",
+        "relationship": "perform",
+        "related_concept": "Life processes",
+        "description": "Single-celled organisms carry out all necessary life processes within one cell."
+    },
+    {
+        "concept": "Multicellular organisms",
+        "relationship": "have",
+        "related_concept": "Cells with specialized functions",
+        "description": "Multicellular organisms consist of multiple cells often specialized to perform specific functions."
+    },
+    {
+        "concept": "Multicellular organisms",
+        "relationship": "perform",
+        "related_concept": "Life processes",
+        "description": "Life processes in multicellular organisms are distributed among various specialized cells."
+    },
+    {
+        "concept": "Single-celled organisms",
+        "relationship": "excrete",
+        "related_concept": "Waste materials",
+        "description": "Single-celled organisms have mechanisms to get rid of waste materials."
+    },
+    {
+        "concept": "Multicellular organisms",
+        "relationship": "excrete",
+        "related_concept": "Waste materials",
+        "description": "Multicellular organisms have specialized systems or cells to eliminate waste materials."
+    },
+    {
+        "concept": "Photosynthesis",
+        "relationship": "is",
+        "related_concept": "Life process",
+        "description": "Photosynthesis is a life process for organisms that can make their own food from sunlight."
+    }
+]
+
+Model Answer: {
+    "answer": "Both have a way to get rid of waste materials.",
+    "reasoning": "Both single-celled and multicellular organisms generate waste products from their cellular activities and have mechanisms to eliminate these waste products from their system. This is necessary to avoid toxicity from accumulating byproducts of metabolism. The other options either apply specifically to only one type (i.e., 'Both have cells with specialized functions for each life process' is more applicable to multicellular organisms, and 'Both perform all life processes within one cell' applies only to single-celled organisms) or are not true for all organisms (i.e., 'Both are able to make food from sunlight' does not apply to organisms that do not perform photosynthesis, such as many types of animals and fungi)."
+}

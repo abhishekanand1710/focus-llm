@@ -1,0 +1,63 @@
+Key: Mercury_SC_402240
+
+Question: Which piece of lab equipment is necessary to determine the mass of 2 teaspoons of sand?
+Options: ['glass beaker', 'balance', 'eye dropper', 'graduated cylinder']
+Answer: balance
+
+Model Response:
+Concepts: [
+    {
+        "name": "glass beaker",
+        "description": "A container used for stirring, mixing, and heating liquids."
+    },
+    {
+        "name": "balance",
+        "description": "A device for weighing objects, typically consisting of a beam balanced on a fulcrum, with pans of equal weight on either end."
+    },
+    {
+        "name": "eye dropper",
+        "description": "A small tube with a thin tip and a rubber bulb used for adding or removing small amounts of liquid."
+    },
+    {
+        "name": "graduated cylinder",
+        "description": "A piece of laboratory equipment used to measure the volume of liquids."
+    },
+    {
+        "name": "mass",
+        "description": "A measure of the amount of matter in an object, typically in grams or kilograms."
+    },
+    {
+        "name": "teaspoons",
+        "description": "A unit of measure used primarily in cooking to quantify volume, not mass."
+    },
+    {
+        "name": "sand",
+        "description": "A granular material composed of finely divided rock and mineral particles."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "balance",
+        "relationship": "used_to_measure",
+        "related_concept": "mass",
+        "description": "A balance measures the mass of objects placed on it."
+    },
+    {
+        "concept": "teaspoons",
+        "relationship": "quantifies",
+        "related_concept": "sand",
+        "description": "Teaspoons can measure the volume of sand, but not its mass."
+    },
+    {
+        "concept": "sand",
+        "relationship": "measured_by",
+        "related_concept": "balance",
+        "description": "The mass of sand is measured using a balance."
+    }
+]
+
+Model Answer: {
+    "answer": "balance",
+    "reasoning": "A balance is a device specifically designed to measure the mass of objects. In the context of determining the mass of 2 teaspoons of sand, the balance is the necessary piece of laboratory equipment because the question explicitly asks for the mass of the sand, which is what balances measure. None of the other options (glass beaker, eye dropper, graduated cylinder) are designed to measure mass. Beakers and graduated cylinders measure volume, while an eye dropper is used for transferring small amounts of liquid, none of which are suitable for determining the mass of sand."
+}

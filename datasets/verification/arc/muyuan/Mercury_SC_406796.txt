@@ -1,0 +1,57 @@
+Key: Mercury_SC_406796
+
+Question: Students are performing an investigation to determine the types of bacteria that grow inside their school. Which activity should the students avoid while performing this investigation?
+Options: ['wearing gloves while handling the samples', 'cleaning all materials they have finished using', 'bringing food and drinks into the laboratory', 'washing hands before leaving the laboratory']
+Answer: bringing food and drinks into the laboratory
+
+Model Response:
+Concepts: [
+    {
+        "name": "wearing gloves while handling the samples",
+        "description": "Protective measure to avoid direct contact with potentially harmful specimens."
+    },
+    {
+        "name": "cleaning all materials after use",
+        "description": "Preventative action to reduce the risk of contamination and maintain a sterile environment."
+    },
+    {
+        "name": "bringing food and drinks into the laboratory",
+        "description": "Activity that increases the risk of contamination and accidental ingestion of harmful substances."
+    },
+    {
+        "name": "washing hands before leaving the laboratory",
+        "description": "Hygienic practice to remove any potentially harmful substances from the skin before exiting a lab environment."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "wearing gloves while handling the samples",
+        "relationship": "mitigates",
+        "related_concept": "risk of contamination",
+        "description": "Wearing gloves reduces the risk of direct contamination from samples."
+    },
+    {
+        "concept": "cleaning all materials after use",
+        "relationship": "prevents",
+        "related_concept": "future contamination",
+        "description": "Cleaning materials ensures that contamination does not carry over to future experiments."
+    },
+    {
+        "concept": "bringing food and drinks into the laboratory",
+        "relationship": "increases",
+        "related_concept": "risk of contamination",
+        "description": "Food and drinks can harbor bacteria that contaminate experiments and increase health risks."
+    },
+    {
+        "concept": "washing hands before leaving the laboratory",
+        "relationship": "reduces",
+        "related_concept": "risk of spreading contaminants",
+        "description": "Washing hands helps to remove any harmful substances acquired during the lab work, reducing the risk of spreading."
+    }
+]
+
+Model Answer: {
+    "answer": "bringing food and drinks into the laboratory",
+    "reasoning": "Among the options provided, bringing food and drinks into the laboratory is the activity students should avoid while performing an investigation into bacterial growth inside their school. This is because it significantly increases the risk of contamination, not just for the experiments being conducted but also poses a health risk through possible ingestion of harmful substances. Wearing gloves, cleaning materials after use, and washing hands before leaving the laboratory are all standard practices in a lab setting that help maintain a sterile environment and reduce the risk of contamination."
+}

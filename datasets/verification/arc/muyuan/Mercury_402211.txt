@@ -1,0 +1,73 @@
+Key: Mercury_402211
+
+Question: A potassium (K) atom has 20 neutrons, 19 protons and 19 electrons. What is the atomic mass of potassium?
+Options: ['19', '20', '38', '39']
+Answer: 39
+
+Model Response:
+Concepts: [
+    {
+        "name": "Potassium (K)",
+        "description": "A chemical element with atomic number 19."
+    },
+    {
+        "name": "Neutron",
+        "description": "A subatomic particle found in the nucleus of an atom, it has no electrical charge."
+    },
+    {
+        "name": "Proton",
+        "description": "A positively charged subatomic particle found in the nucleus of an atom."
+    },
+    {
+        "name": "Electron",
+        "description": "A negatively charged subatomic particle that orbits the nucleus of an atom."
+    },
+    {
+        "name": "Atomic mass",
+        "description": "The mass of an atom, approximately equivalent to the number of protons and neutrons in the atom."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Potassium (K)",
+        "relationship": "has_atomic_number",
+        "related_concept": "Proton",
+        "description": "The atomic number of potassium is determined by its number of protons."
+    },
+    {
+        "concept": "Proton",
+        "relationship": "contributes_to",
+        "related_concept": "Atomic mass",
+        "description": "Protons contribute to the atomic mass of an element."
+    },
+    {
+        "concept": "Neutron",
+        "relationship": "contributes_to",
+        "related_concept": "Atomic mass",
+        "description": "Neutrons contribute to the atomic mass of an element."
+    },
+    {
+        "concept": "Electron",
+        "relationship": "orbits",
+        "related_concept": "Potassium (K)",
+        "description": "Electrons orbit the nucleus of a potassium atom."
+    },
+    {
+        "concept": "Atomic mass",
+        "relationship": "calculated_from",
+        "related_concept": "Proton",
+        "description": "The atomic mass of an element is partially calculated from the number of protons."
+    },
+    {
+        "concept": "Atomic mass",
+        "relationship": "calculated_from",
+        "related_concept": "Neutron",
+        "description": "The atomic mass of an element is partially calculated from the number of neutrons."
+    }
+]
+
+Model Answer: {
+    "answer": "39",
+    "reasoning": "The atomic mass of potassium is calculated by adding the number of protons (19) to the number of neutrons (20), which equals 39. This total gives us the atomic mass unit of the potassium atom. Electrons have a negligible mass and do not significantly contribute to the atomic mass."
+}

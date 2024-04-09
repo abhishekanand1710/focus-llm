@@ -1,0 +1,75 @@
+Key: MDSA_2010_4_14
+
+Question: A star is a celestial object that produces its own heat and light. Which of these celestial objects is the closest star to Earth?
+Options: ['Mars', 'Venus', 'the sun', 'the moon']
+Answer: the sun
+
+Model Response:
+Concepts: [
+    {
+        "name": "Star",
+        "description": "A celestial body that produces its own heat and light through nuclear fusion."
+    },
+    {
+        "name": "Mars",
+        "description": "The fourth planet from the Sun in our solar system, known as the Red Planet."
+    },
+    {
+        "name": "Venus",
+        "description": "The second planet from the Sun in our solar system, often called Earth's sister planet."
+    },
+    {
+        "name": "The Sun",
+        "description": "The star at the center of our solar system, providing light and heat to Earth."
+    },
+    {
+        "name": "The Moon",
+        "description": "Earth's only natural satellite, orbiting around the Earth."
+    },
+    {
+        "name": "Celestial Object",
+        "description": "A natural physical entity, association, or structure that exists in the observable universe."
+    },
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun, home to all known life in the universe."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "The Sun",
+        "relationship": "is a",
+        "related_concept": "Star",
+        "description": "The Sun is classified as a star because it produces its own heat and light."
+    },
+    {
+        "concept": "Mars",
+        "relationship": "is not",
+        "related_concept": "Star",
+        "description": "Mars is a planet, not a star; it does not produce its own light and heat."
+    },
+    {
+        "concept": "Venus",
+        "relationship": "is not",
+        "related_concept": "Star",
+        "description": "Venus is a planet, not a star; it does not produce its own light and heat."
+    },
+    {
+        "concept": "The Moon",
+        "relationship": "is not",
+        "related_concept": "Star",
+        "description": "The Moon is a natural satellite, not a star; it does not produce its own light and heat."
+    },
+    {
+        "concept": "The Sun",
+        "relationship": "orbits",
+        "related_concept": "Earth",
+        "description": "The Sun does not orbit Earth; instead, Earth orbits around the Sun."
+    }
+]
+
+Model Answer: {
+    "answer": "the sun",
+    "reasoning": "Among the provided options, 'the sun' is the only celestial object that is classified as a star because it produces its own light and heat. Mars, Venus, and the Moon do not produce their own light and heat; instead, they reflect the Sun's light. Hence, being the star that is at the center of our solar system and the closest to Earth, the correct answer is 'the sun'."
+}

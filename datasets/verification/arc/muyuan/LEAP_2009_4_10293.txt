@@ -1,0 +1,61 @@
+Key: LEAP_2009_4_10293
+
+Question: Mrs. Tucker gives her class samples of different soil types. Which action best helps Tanisha identify each soil type?
+Options: ['smelling it', 'touching it', 'weighing it', 'measuring it']
+Answer: touching it
+
+Model Response:
+Concepts: [
+    {
+        "name": "soil types",
+        "description": "Different categories of soil based on texture, composition, and physical properties"
+    },
+    {
+        "name": "smelling it",
+        "description": "Using the sense of smell to identify differences"
+    },
+    {
+        "name": "touching it",
+        "description": "Using the sense of touch to feel texture, moistness, and temperature"
+    },
+    {
+        "name": "weighing it",
+        "description": "Measuring the mass of an object"
+    },
+    {
+        "name": "measuring it",
+        "description": "Determining the dimensions, quantity, or capacity of something"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "soil types",
+        "relationship": "identified by",
+        "related_concept": "touching it",
+        "description": "Soil types can be differentiated by texture, which can be felt by touching"
+    },
+    {
+        "concept": "smelling it",
+        "relationship": "less effective for",
+        "related_concept": "soil types",
+        "description": "Smelling soil provides less distinguishing information about soil types than other methods"
+    },
+    {
+        "concept": "weighing it",
+        "relationship": "not specific to",
+        "related_concept": "soil types",
+        "description": "The weight of soil isn't a primary characteristic for identifying soil types"
+    },
+    {
+        "concept": "measuring it",
+        "relationship": "ambiguous in context",
+        "related_concept": "soil types",
+        "description": "Measuring soil could refer to various aspects, not specifically aiding in identifying soil types based on significant characteristics like texture"
+    }
+]
+
+Model Answer: {
+    "answer": "touching it",
+    "reasoning": "Touching the soil allows Tanisha to feel the texture, which is a significant characteristic for identifying different soil types. The physical texture and qualities of soil (such as sand, silt, clay, loam) can be best discerned through touch, making it a more effective method over smelling, weighing, or measuring it in dimensions."
+}

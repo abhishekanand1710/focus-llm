@@ -1,0 +1,67 @@
+Key: NYSEDREGENTS_2016_4_20
+
+Question: One property of liquids is that they have a definite
+Options: ['flexibility', 'temperature', 'volume', 'shape']
+Answer: volume
+
+Model Response:
+Concepts: [
+    {
+        "name": "Liquids",
+        "description": "A state of matter characterized by a fixed volume but no fixed shape."
+    },
+    {
+        "name": "Flexibility",
+        "description": "The ability of a material to deform under stress and return to its original shape."
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the heat energy in a substance or object."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that a substance or object occupies."
+    },
+    {
+        "name": "Shape",
+        "description": "The external form or appearance of an object, defined by its outline."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Liquids",
+        "relationship": "have.fixed",
+        "related_concept": "Volume",
+        "description": "Liquids have a fixed volume that remains constant regardless of the container shape."
+    },
+    {
+        "concept": "Liquids",
+        "relationship": "have.no_fixed",
+        "related_concept": "Shape",
+        "description": "Liquids do not have a fixed shape; they take the shape of their container."
+    },
+    {
+        "concept": "Flexibility",
+        "relationship": "is_a_property_of",
+        "related_concept": "Objects/Materials",
+        "description": "Flexibility refers to the property of objects or materials, not typically used to describe states of matter like liquids."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "is_a_measure_of",
+        "related_concept": "Objects/Materials/Energy",
+        "description": "Temperature is a measure of the thermal energy of matter but is not exclusively a defining property of liquids."
+    },
+    {
+        "concept": "Volume",
+        "relationship": "is_a_physical_property",
+        "related_concept": "Liquids",
+        "description": "Volume is a cardinal physical property defining the space matter occupies, crucial for describing liquids."
+    }
+]
+
+Model Answer: {
+    "answer": "volume",
+    "reasoning": "Liquids have a definite volume, which is one of their core properties. While their shape can change based on the container they are in, the volume stays constant, distinguishing them from gases, which can expand to fill their container."
+}

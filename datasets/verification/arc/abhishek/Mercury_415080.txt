@@ -1,0 +1,47 @@
+Key: Mercury_415080
+
+Question: A bus traveled 280 kilometers between two cities. It left the first city at 3:00 p.m. and arrived at the second city at 7:00 p.m. What was the average speed of the bus during the trip?
+Options: ['4 km/h', '40 km/h', '70 km/h', '280 km/h']
+Answer: 70 km/h
+
+Model Response:
+Concepts: [
+    {
+        "name": "Distance",
+        "description": "The total length of the path traveled by the bus, measured in kilometers."
+    },
+    {
+        "name": "Time",
+        "description": "The duration taken for the journey, measured from departure to arrival."
+    },
+    {
+        "name": "Average Speed",
+        "description": "The total distance traveled divided by the total time taken for the journey."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Distance",
+        "relationship": "is used to calculate",
+        "related_concept": "Average Speed",
+        "description": "Distance is a key component in calculating average speed."
+    },
+    {
+        "concept": "Time",
+        "relationship": "is used to calculate",
+        "related_concept": "Average Speed",
+        "description": "Time is a key component in calculating average speed."
+    },
+    {
+        "concept": "Average Speed",
+        "relationship": "is determined by",
+        "related_concept": "Distance and Time",
+        "description": "Average speed is calculated by dividing the total distance by the total time."
+    }
+]
+
+Model Answer: {
+    "answer": "70 km/h",
+    "reasoning": "To find the average speed, we divide the total distance by the total time. The bus traveled 280 kilometers in 4 hours (from 3:00 p.m. to 7:00 p.m.), so the average speed is calculated as 280 kilometers / 4 hours = 70 kilometers per hour."
+}

@@ -1,0 +1,79 @@
+Key: Mercury_SC_409238
+
+Question: An owl hunts mice that live in a farmer's field. After the farmer gathers the crops, the mice have fewer places to hide. Which is most likely to happen after the crops are gathered?
+Options: ['The owl will catch more mice.', 'The owl will hunt in a different field.', 'The owl will have new material to build its nest.', 'The owl will have a hard time feeding its young.']
+Answer: The owl will catch more mice.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Owl",
+        "description": "A predatory bird that hunts small animals like mice."
+    },
+    {
+        "name": "Mice",
+        "description": "Small rodents often found in fields, which are prey for owls."
+    },
+    {
+        "name": "Farmer's field",
+        "description": "Agricultural land used for growing crops."
+    },
+    {
+        "name": "Crops",
+        "description": "Plants grown by farmers for food or other uses."
+    },
+    {
+        "name": "Places to hide",
+        "description": "Areas where mice can conceal themselves from predators."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Owl",
+        "relationship": "hunts",
+        "related_concept": "Mice",
+        "description": "Owls hunt mice for food."
+    },
+    {
+        "concept": "Mice",
+        "relationship": "live_in",
+        "related_concept": "Farmer's field",
+        "description": "Mice inhabit the fields where they find food and shelter."
+    },
+    {
+        "concept": "Crops",
+        "relationship": "provide",
+        "related_concept": "Places to hide",
+        "description": "Crops give mice areas to conceal themselves from predators."
+    },
+    {
+        "concept": "Farmer's field",
+        "relationship": "has",
+        "related_concept": "Crops",
+        "description": "The field is where crops are grown."
+    },
+    {
+        "concept": "Crops",
+        "relationship": "gathered_by",
+        "related_concept": "Farmer",
+        "description": "The farmer collects the crops from the field."
+    },
+    {
+        "concept": "Places to hide",
+        "relationship": "decrease_after",
+        "related_concept": "Crops gathered",
+        "description": "Once the crops are collected, there are fewer places for mice to hide."
+    },
+    {
+        "concept": "Owl",
+        "relationship": "catches_more",
+        "related_concept": "Mice",
+        "description": "With fewer hiding places for the mice, the owl can catch them more easily."
+    }
+]
+
+Model Answer: {
+    "answer": "The owl will catch more mice.",
+    "reasoning": "With the crops being gathered, there are fewer places for the mice to hide. This makes it easier for the owl to find and catch them, leading to the owl catching more mice."
+}

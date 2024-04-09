@@ -1,0 +1,91 @@
+Key: MCAS_2005_8_15
+
+Question: Sulfur (S), oxygen (O2), water (H2O), and sodium chloride (NaCl) are all examples of pure substances. Which of the following describes all pure substances?
+Options: ['A pure substance consists of only one type of element.', 'A pure substance has a definite chemical composition.', 'A pure substance cannot be broken down into simpler substances.', 'A pure substance is normally found as a solid at room temperature.']
+Answer: A pure substance has a definite chemical composition.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sulfur (S)",
+        "description": "A chemical element that is a pure substance consisting only of one type of atom."
+    },
+    {
+        "name": "Oxygen (O2)",
+        "description": "A diatomic molecule consisting of two oxygen atoms, a pure substance with definite chemical composition."
+    },
+    {
+        "name": "Water (H2O)",
+        "description": "A compound made up of hydrogen and oxygen, a pure substance with a specific ratio of hydrogen to oxygen."
+    },
+    {
+        "name": "Sodium chloride (NaCl)",
+        "description": "A compound known as table salt, made of sodium and chlorine atoms in a 1:1 ratio, a pure substance."
+    },
+    {
+        "name": "Pure substance",
+        "description": "A material with a constant composition and properties throughout."
+    },
+    {
+        "name": "Element",
+        "description": "A substance that cannot be broken down into simpler substances by chemical means."
+    },
+    {
+        "name": "Compound",
+        "description": "A substance formed when two or more chemical elements are chemically bonded together."
+    },
+    {
+        "name": "Chemical composition",
+        "description": "The arrangement, type, and ratio of atoms in molecules of chemical substances."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sulfur (S)",
+        "relationship": "is an example of",
+        "related_concept": "Element",
+        "description": "Sulfur is an element because it is composed of only one type of atom."
+    },
+    {
+        "concept": "Oxygen (O2)",
+        "relationship": "is made of",
+        "related_concept": "Element",
+        "description": "Oxygen as O2 is a molecule made entirely of one type of element, making it a pure substance."
+    },
+    {
+        "concept": "Water (H2O)",
+        "relationship": "is a compound of",
+        "related_concept": "Compound",
+        "description": "Water is a compound because it is made of hydrogen and oxygen atoms chemically bonded."
+    },
+    {
+        "concept": "Sodium chloride (NaCl)",
+        "relationship": "is a compound of",
+        "related_concept": "Compound",
+        "description": "Sodium chloride is a compound consisting of sodium and chlorine in a fixed ratio."
+    },
+    {
+        "concept": "Pure substance",
+        "relationship": "can be",
+        "related_concept": "Element",
+        "description": "An element is a type of pure substance with only one type of atom."
+    },
+    {
+        "concept": "Pure substance",
+        "relationship": "can be",
+        "related_concept": "Compound",
+        "description": "A compound is a type of pure substance made of atoms of different elements bonded together."
+    },
+    {
+        "concept": "Chemical composition",
+        "relationship": "defines",
+        "related_concept": "Pure substance",
+        "description": "The fixed chemical composition defines a pure substance through its uniform and definite arrangement of atoms."
+    }
+]
+
+Model Answer: {
+    "answer": "A pure substance has a definite chemical composition.",
+    "reasoning": "The definition that encapsulates all the provided examples of pure substances (Sulfur, Oxygen, Water, Sodium chloride) is that they all have a definite and constant chemical composition. Elements consist of one type of atom, and compounds are made up of atoms of different elements in definite proportions, emphasizing the core characteristic of pure substances having a specific and unvarying chemical composition."
+}

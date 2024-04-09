@@ -1,0 +1,71 @@
+Key: Mercury_7221673
+
+Question: A student is given a liquid compound in a beaker. Which of the following is the best way to describe this liquid compound?
+Options: ['definite shape, indefinite volume', 'indefinite shape, indefinite volume', 'definite shape, definite volume', 'indefinite shape, definite volume']
+Answer: indefinite shape, definite volume
+
+Model Response:
+Concepts: [
+    {
+        "name": "Liquid compound",
+        "description": "A state of matter with a fixed volume but no fixed shape, adapting to the shape of its container"
+    },
+    {
+        "name": "Definite shape",
+        "description": "An attribute where an object has a specific, unchanging shape"
+    },
+    {
+        "name": "Indefinite shape",
+        "description": "An attribute where an object does not have a specific shape and can change based on its container"
+    },
+    {
+        "name": "Definite volume",
+        "description": "An attribute where the amount of space an object occupies is specific and unchanging"
+    },
+    {
+        "name": "Indefinite volume",
+        "description": "An attribute where the amount of space an object occupies can change"
+    },
+    {
+        "name": "Beaker",
+        "description": "A cylindrical container with a flat bottom used in laboratories"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Liquid compound",
+        "relationship": "exhibits",
+        "related_concept": "Indefinite shape",
+        "description": "Liquid compound adapts its shape to the container it's in"
+    },
+    {
+        "concept": "Liquid compound",
+        "relationship": "has",
+        "related_concept": "Definite volume",
+        "description": "Liquid compound occupies a specific, unchanging volume in a closed system"
+    },
+    {
+        "concept": "Indefinite shape",
+        "relationship": "is characteristic of",
+        "related_concept": "Liquid compound",
+        "description": "Being able to change shape is a characteristic of liquids"
+    },
+    {
+        "concept": "Definite volume",
+        "relationship": "is characteristic of",
+        "related_concept": "Liquid compound",
+        "description": "Liquid compound retains a fixed volume in a closed system"
+    },
+    {
+        "concept": "Beaker",
+        "relationship": "contains",
+        "related_concept": "Liquid compound",
+        "description": "Beaker is the container holding the liquid compound"
+    }
+]
+
+Model Answer: {
+    "answer": "indefinite shape, definite volume",
+    "reasoning": "The liquid compound in a beaker takes the shape of its container, displaying an indefinite shape. However, the volume of the liquid compound is definite and does not change regardless of the container. This makes 'indefinite shape, definite volume' the best description of a liquid compound based on the provided concepts and their relationships."
+}

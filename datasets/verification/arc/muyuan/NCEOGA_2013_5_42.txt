@@ -1,0 +1,57 @@
+Key: NCEOGA_2013_5_42
+
+Question: A child rides a wagon down a hill. Eventually, the wagon comes to a stop. Which is most responsible for causing the wagon to stop?
+Options: ['gravity acting on the wagon', 'friction acting on the wagon', 'the mass of the wagon', 'the mass of the child']
+Answer: friction acting on the wagon
+
+Model Response:
+Concepts: [
+    {
+        "name": "gravity acting on the wagon",
+        "description": "A natural phenomenon by which all things with mass are brought toward (or 'gravitate' toward) one another."
+    },
+    {
+        "name": "friction acting on the wagon",
+        "description": "The force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other."
+    },
+    {
+        "name": "the mass of the wagon",
+        "description": "The quantity of matter which a body contains, as measured by its acceleration under a given force or by the force exerted on it by a gravitational field."
+    },
+    {
+        "name": "the mass of the child",
+        "description": "The quantity of matter contained in the child's body, impacting forces such as gravity."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "gravity acting on the wagon",
+        "relationship": "affects",
+        "related_concept": "the mass of the wagon",
+        "description": "Gravity's effect on the wagon is proportional to its mass."
+    },
+    {
+        "concept": "gravity acting on the wagon",
+        "relationship": "affects",
+        "related_concept": "the mass of the child",
+        "description": "Gravity's effect on the child is proportional to the child's mass."
+    },
+    {
+        "concept": "friction acting on the wagon",
+        "relationship": "opposes",
+        "related_concept": "the motion of the wagon",
+        "description": "Friction opposes the motion of the wagon, causing it to slow down and eventually stop."
+    },
+    {
+        "concept": "the mass of the child",
+        "relationship": "adds to",
+        "related_concept": "the mass of the wagon",
+        "description": "The child's mass adds to the overall mass of the wagon, affecting how forces like gravity and friction act on it."
+    }
+]
+
+Model Answer: {
+    "answer": "friction acting on the wagon",
+    "reasoning": "While gravity initiates the motion downhill, it's the friction between the wagon's wheels and the ground (as well as possible air resistance) that ultimately opposes this motion, causing the wagon to slow down and stop. The mass of the wagon and the child influence how gravity and friction affect them, but friction is the primary force directly responsible for halting the motion."
+}

@@ -1,0 +1,57 @@
+Key: MCAS_2011_5_17663
+
+Question: Chris left a glass of water on a windowsill. When he looked at the glass a few days later, some of the water had evaporated. Which of the following best describes what happened to the particles of water that evaporated?
+Options: ['They became larger in size.', 'They spread out into the air.', 'They were absorbed by the glass.', 'They passed through the glass into the air.']
+Answer: They spread out into the air.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Evaporation",
+        "description": "The process where liquid turns into vapor."
+    },
+    {
+        "name": "Water particles",
+        "description": "Tiny molecules that make up water."
+    },
+    {
+        "name": "Air",
+        "description": "The invisible gaseous substance surrounding the earth, a mixture mainly of oxygen and nitrogen."
+    },
+    {
+        "name": "Glass",
+        "description": "A hard, brittle substance, typically transparent or translucent, made by fusing sand with soda, lime, and sometimes other ingredients and cooling rapidly."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Evaporation",
+        "relationship": "causes",
+        "related_concept": "Water particles",
+        "description": "Evaporation causes water particles to change from a liquid to a vapor state."
+    },
+    {
+        "concept": "Water particles",
+        "relationship": "become vapor",
+        "related_concept": "Air",
+        "description": "When water particles evaporate, they mix with the air in the form of vapor."
+    },
+    {
+        "concept": "Water particles",
+        "relationship": "do not interact",
+        "related_concept": "Glass",
+        "description": "The water particles do not change the physical state of the glass through evaporation."
+    },
+    {
+        "concept": "Glass",
+        "relationship": "barrier",
+        "related_concept": "Air",
+        "description": "Glass acts as a barrier, but does not prevent the movement of vaporized water particles through air contact."
+    }
+]
+
+Model Answer: {
+    "answer": "They spread out into the air.",
+    "reasoning": "Based on the concepts identified and their relationships, when water evaporates, the process involves the water particles changing from a liquid state to a vapor state due to evaporation. These particles then mix with the air surrounding the glass of water. The particles do not become larger, are not absorbed by the glass, nor do they pass through the glass. Therefore, the best description of what happens to the particles of water that evaporated is that they spread out into the air."
+}

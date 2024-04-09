@@ -1,0 +1,63 @@
+Key: Mercury_SC_416518
+
+Question: A mountain with a melting glacier has a stream with a waterfall. The waterfall fills a lake at the base of the mountain. Where is the water coldest?
+Options: ['glacier', 'stream', 'waterfall', 'lake']
+Answer: glacier
+
+Model Response:
+Concepts: [
+    {
+        "name": "glacier",
+        "description": "A mass of ice that moves slowly over land, often found in mountains."
+    },
+    {
+        "name": "stream",
+        "description": "A small, natural flow of fresh water."
+    },
+    {
+        "name": "waterfall",
+        "description": "Where a stream or river flows over a precipice or steep incline."
+    },
+    {
+        "name": "lake",
+        "description": "A large body of water surrounded by land."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "glacier",
+        "relationship": "feeds",
+        "related_concept": "stream",
+        "description": "The glacier melts to provide water for the stream."
+    },
+    {
+        "concept": "stream",
+        "relationship": "flows into",
+        "related_concept": "waterfall",
+        "description": "The stream flows downhill, culminating in the waterfall."
+    },
+    {
+        "concept": "waterfall",
+        "relationship": "fills",
+        "related_concept": "lake",
+        "description": "The waterfall deposits water into the lake at its base."
+    },
+    {
+        "concept": "stream",
+        "relationship": "is colder at source",
+        "related_concept": "waterfall",
+        "description": "The stream's temperature may rise due to ambient temperature increase and exposure, being coldest at its source near or at the glacier."
+    },
+    {
+        "concept": "lake",
+        "relationship": "receives water from",
+        "related_concept": "waterfall",
+        "description": "The lake's level and water temperature are influenced by the waterfall feeding into it."
+    }
+]
+
+Model Answer: {
+    "answer": "glacier",
+    "reasoning": "The glacier, as the source of the melting ice, would have the coldest temperature because it is a mass of ice. As water flows away from the glacier (through the stream, over the waterfall, and into the lake), it would gradually warm up due to ambient temperatures, exposure to sunlight, and mixing with warmer air and water. Therefore, the water is coldest at its source, which is the glacier."
+}

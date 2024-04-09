@@ -1,0 +1,71 @@
+Key: Mercury_7008838
+
+Question: Which compound does not contain individual molecules?
+Options: ['salt', 'water', 'hydrogen gas', 'carbon monoxide']
+Answer: salt
+
+Model Response:
+Concepts: [
+    {
+        "name": "salt",
+        "description": "A crystalline compound formed from the reaction between an acid and a base."
+    },
+    {
+        "name": "water",
+        "description": "A liquid compound consisting of two hydrogen atoms bonded to one oxygen atom."
+    },
+    {
+        "name": "hydrogen gas",
+        "description": "A diatomic molecule consisting of two hydrogen atoms."
+    },
+    {
+        "name": "carbon monoxide",
+        "description": "A toxic compound of one carbon atom bonded to one oxygen atom."
+    },
+    {
+        "name": "individual molecules",
+        "description": "Distinct chemical entities typically consisting of two or more atoms bonded together."
+    },
+    {
+        "name": "crystalline structure",
+        "description": "A solid material whose constituents are arranged in a highly ordered microscopic structure."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "salt",
+        "relationship": "does not consist of",
+        "related_concept": "individual molecules",
+        "description": "Salt consists of ions arranged in a lattice, not discrete molecules."
+    },
+    {
+        "concept": "water",
+        "relationship": "consists of",
+        "related_concept": "individual molecules",
+        "description": "Water is made up of discrete H2O molecules."
+    },
+    {
+        "concept": "hydrogen gas",
+        "relationship": "consists of",
+        "related_concept": "individual molecules",
+        "description": "Hydrogen gas consists of discrete H2 molecules."
+    },
+    {
+        "concept": "carbon monoxide",
+        "relationship": "consists of",
+        "related_concept": "individual molecules",
+        "description": "Carbon monoxide consists of discrete CO molecules."
+    },
+    {
+        "concept": "salt",
+        "relationship": "has structure",
+        "related_concept": "crystalline structure",
+        "description": "Salt is characterized by a crystalline structure."
+    }
+]
+
+Model Answer: {
+    "answer": "salt",
+    "reasoning": "Unlike water, hydrogen gas, and carbon monoxide, which are composed of individual molecules, salt does not consist of individual molecules. Instead, it is made up of ions (anions and cations) that are arranged in a repeating pattern to form a crystalline structure. This ionic arrangement differs fundamentally from the discrete molecular structure seen in the other options."
+}

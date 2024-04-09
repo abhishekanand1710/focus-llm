@@ -1,0 +1,67 @@
+Key: MCAS_2004_9_20-v1
+
+Question: A bowling ball with a mass of 8.0 kg rolls down a bowling lane at 2.0 m/s. What is the momentum of the bowling ball?
+Options: ['4.0 kg x m/s', '6.0 kg x m/s', '10.0 kg x m/s', '16.0 kg x m/s']
+Answer: 16.0 kg x m/s
+
+Model Response:
+Concepts: [
+    {
+        "name": "Momentum",
+        "description": "A measure of mass in motion; the product of an object's mass and its velocity"
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, typically in kilograms"
+    },
+    {
+        "name": "Velocity",
+        "description": "The speed of an object in a particular direction, measured in meters per second (m/s)"
+    },
+    {
+        "name": "Bowling ball",
+        "description": "A hard spherical ball used in the sport of bowling to hit pins"
+    },
+    {
+        "name": "Bowling lane",
+        "description": "The surface on which the game of bowling is played"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Momentum",
+        "relationship": "is calculated by",
+        "related_concept": "Mass",
+        "description": "Momentum is the product of mass and velocity"
+    },
+    {
+        "concept": "Momentum",
+        "relationship": "is calculated by",
+        "related_concept": "Velocity",
+        "description": "Momentum is the product of mass and velocity"
+    },
+    {
+        "concept": "Bowling ball",
+        "relationship": "has",
+        "related_concept": "Mass",
+        "description": "The bowling ball has a specific mass, which contributes to its momentum"
+    },
+    {
+        "concept": "Bowling ball",
+        "relationship": "moves with",
+        "related_concept": "Velocity",
+        "description": "The bowling ball moves down the lane with a certain velocity"
+    },
+    {
+        "concept": "Bowling ball",
+        "relationship": "rolls on",
+        "related_concept": "Bowling lane",
+        "description": "The action of the bowling ball moving happens on the bowling lane"
+    }
+]
+
+Model Answer: {
+    "answer": "16.0 kg x m/s",
+    "reasoning": "The momentum of the bowling ball is calculated by multiplying its mass (8.0 kg) by its velocity (2.0 m/s), which results in 8.0 kg * 2.0 m/s = 16.0 kg x m/s. Therefore, among the given options, '16.0 kg x m/s' is the correct answer."
+}

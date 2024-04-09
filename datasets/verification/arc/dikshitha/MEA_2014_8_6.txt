@@ -1,0 +1,71 @@
+Key: MEA_2014_8_6
+
+Question: A ball is dropped from different heights. When the ball is dropped from the highest height, it makes the greatest noise or vibration when it lands on the ground. What is the best explanation for the ball making the greatest noise?
+Options: ['The air pushes down more and the ball goes faster.', 'Gravity pulls for a longer time and the ball goes faster.', 'The ball is gaining weight and going faster.', 'The ball is warming up and going faster.']
+Answer: Gravity pulls for a longer time and the ball goes faster.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Gravity",
+        "description": "A force that attracts a body towards the center of the earth, or towards any other physical body having mass."
+    },
+    {
+        "name": "Kinetic Energy",
+        "description": "The energy that a body possesses by virtue of being in motion."
+    },
+    {
+        "name": "Height",
+        "description": "The measurement of an object's distance from the ground vertically."
+    },
+    {
+        "name": "Sound",
+        "description": "A vibration that propagates as an audible wave of pressure, through a transmission medium such as a gas, liquid or solid."
+    },
+    {
+        "name": "Impact Force",
+        "description": "The force exerted by a moving object when it collides with a surface."
+    },
+    {
+        "name": "Velocity",
+        "description": "The speed of something in a given direction."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Height",
+        "relationship": "increases",
+        "related_concept": "Gravity's effect duration",
+        "description": "The higher the height, the longer gravity acts on the ball."
+    },
+    {
+        "concept": "Gravity's effect duration",
+        "relationship": "increases",
+        "related_concept": "Velocity",
+        "description": "The longer gravity acts on an object, the faster it moves."
+    },
+    {
+        "concept": "Velocity",
+        "relationship": "increases",
+        "related_concept": "Kinetic Energy",
+        "description": "Higher velocity increases an object's kinetic energy."
+    },
+    {
+        "concept": "Kinetic Energy",
+        "relationship": "increases",
+        "related_concept": "Impact Force",
+        "description": "An object with higher kinetic energy exerts a greater impact force upon collision."
+    },
+    {
+        "concept": "Impact Force",
+        "relationship": "increases",
+        "related_concept": "Sound",
+        "description": "Greater impact force results in louder sound upon collision."
+    }
+]
+
+Model Answer: {
+    "answer": "Gravity pulls for a longer time and the ball goes faster.",
+    "reasoning": "As the ball is dropped from a higher height, it allows gravity to act on it for a longer duration, thereby increasing its velocity as it falls. A faster-moving ball has more kinetic energy, which then translates into a greater impact force when it hits the ground, resulting in the production of louder noise or greater vibration. This chain of effects illustrates why the ball dropped from the highest height makes the greatest noise on impact."
+}

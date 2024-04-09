@@ -1,0 +1,61 @@
+Key: MCAS_1998_4_9
+
+Question: For his science project, Alan began a study of sugar maple trees. He noticed many differences among the sugar maple trees near his school. Which of the following three characteristics would vary the LEAST?
+Options: ['height', 'number of leaves', 'type of seeds', 'trunk width']
+Answer: type of seeds
+
+Model Response:
+Concepts: [
+    {
+        "name": "height",
+        "description": "The measurement from the base to the top of a sugar maple tree."
+    },
+    {
+        "name": "number of leaves",
+        "description": "The total count of leaves that a sugar maple tree has at any given time."
+    },
+    {
+        "name": "type of seeds",
+        "description": "Refers to the specific kind of seeds produced by a sugar maple tree, typically samaras."
+    },
+    {
+        "name": "trunk width",
+        "description": "The diameter of the trunk of a sugar maple tree, usually measured at breast height."
+    },
+    {
+        "name": "sugar maple trees",
+        "description": "A species of deciduous tree known for its sugar-rich sap, from which maple syrup is made."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "sugar maple trees",
+        "relationship": "has_property",
+        "related_concept": "height",
+        "description": "Sugar maple trees possess a property known as height, which can vary among individuals."
+    },
+    {
+        "concept": "sugar maple trees",
+        "relationship": "has_property",
+        "related_concept": "number of leaves",
+        "description": "Sugar maple trees have a varying number of leaves depending on factors like age, health, and environmental conditions."
+    },
+    {
+        "concept": "sugar maple trees",
+        "relationship": "produces",
+        "related_concept": "type of seeds",
+        "description": "Sugar maple trees produce a specific type of seeds, with minor variations among individual trees."
+    },
+    {
+        "concept": "sugar maple trees",
+        "relationship": "has_property",
+        "related_concept": "trunk width",
+        "description": "The trunk width of sugar maple trees can vary widely based on age and growth conditions."
+    }
+]
+
+Model Answer: {
+    "answer": "type of seeds",
+    "reasoning": "Among the characteristics listed, 'type of seeds' would vary the least because sugar maple trees, being of the same species, generally produce a very similar type of seed (samaras) with only minor variations, if any. Height, number of leaves, and trunk width are all characteristics subject to significant variability based on environmental factors, age, and individual health of the trees. Therefore, while the basic seed structure remains consistent across sugar maples, properties such as height, leaf count, and trunk width are more prone to variation."
+}

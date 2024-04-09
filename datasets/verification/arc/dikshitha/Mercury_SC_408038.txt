@@ -1,0 +1,61 @@
+Key: Mercury_SC_408038
+
+Question: In December, one side of Earth will receive less energy from the Sun than the other side. Which statement best explains this fact?
+Options: ['Earth rotates on its axis.', 'Earth is tilted on its axis.', 'Sunlight traveling to Earth reflects off the Moon.', 'Sunlight traveling to Earth is blocked by Moon.']
+Answer: Earth is tilted on its axis.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth's rotation",
+        "description": "The spinning of Earth around its axis, which occurs once every 24 hours."
+    },
+    {
+        "name": "Earth's axial tilt",
+        "description": "The angle between Earth's rotational axis and its orbital plane, approximately 23.5 degrees."
+    },
+    {
+        "name": "Sunlight",
+        "description": "The light and energy emitted by the Sun."
+    },
+    {
+        "name": "Moon reflection",
+        "description": "The reflection of sunlight by the Moon's surface."
+    },
+    {
+        "name": "Moon blocking sunlight",
+        "description": "Events where the Moon passes between the Sun and Earth, blocking sunlight."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth's axial tilt",
+        "relationship": "causes",
+        "related_concept": "unequal distribution of sunlight",
+        "description": "Earth's tilt causes different hemispheres to receive varying amounts of sunlight throughout the year."
+    },
+    {
+        "concept": "Sunlight",
+        "relationship": "illuminates",
+        "related_concept": "Earth",
+        "description": "Sunlight illuminates Earth, providing it with light and warmth."
+    },
+    {
+        "concept": "Moon reflection",
+        "relationship": "results from",
+        "related_concept": "Sunlight",
+        "description": "Reflection off the Moon is a result of sunlight hitting the Moon's surface."
+    },
+    {
+        "concept": "Moon blocking sunlight",
+        "relationship": "reduces",
+        "related_concept": "Sunlight reaching Earth",
+        "description": "When the Moon blocks sunlight, it temporarily reduces the amount of sunlight reaching the Earth's surface."
+    }
+]
+
+Model Answer: {
+    "answer": "Earth is tilted on its axis.",
+    "reasoning": "The unequal distribution of sunlight on Earth in December, leading to one side receiving less energy from the Sun than the other, is best explained by Earth's axial tilt. This tilt causes the Northern Hemisphere to lean away from the Sun during this time, receiving less direct sunlight and thus less energy compared to the Southern Hemisphere."
+}

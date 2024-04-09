@@ -1,0 +1,71 @@
+Key: Mercury_400639
+
+Question: Tall plants are dominant to short plants. What is the outcome if two short plants are crossed?
+Options: ['all tall plants', 'all short plants', 'half tall plants, half short plants', '1/4 tall plants, 1/3 short plants']
+Answer: all short plants
+
+Model Response:
+Concepts: [
+    {
+        "name": "Genetics",
+        "description": "The scientific study of heredity and the variation of inherited characteristics."
+    },
+    {
+        "name": "Dominant Trait",
+        "description": "A trait that will appear in the offspring if one of the parents contributes it."
+    },
+    {
+        "name": "Recessive Trait",
+        "description": "A trait that must be contributed by both parents in order to appear in the offspring."
+    },
+    {
+        "name": "Short Plant Trait",
+        "description": "An example of a recessive trait in the context of plant height."
+    },
+    {
+        "name": "Tall Plant Trait",
+        "description": "An example of a dominant trait in the context of plant height."
+    },
+    {
+        "name": "Crossing",
+        "description": "The process of breeding plants or animals together to produce offspring."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dominant Trait",
+        "relationship": "dominates",
+        "related_concept": "Recessive Trait",
+        "description": "A dominant trait will mask a recessive trait in the presence of both."
+    },
+    {
+        "concept": "Short Plant Trait",
+        "relationship": "is_an_example_of",
+        "related_concept": "Recessive Trait",
+        "description": "The trait for short plants is a specific example of a recessive genetic trait."
+    },
+    {
+        "concept": "Tall Plant Trait",
+        "relationship": "is_an_example_of",
+        "related_concept": "Dominant Trait",
+        "description": "The trait for tall plants is a specific example of a dominant genetic trait."
+    },
+    {
+        "concept": "Crossing",
+        "relationship": "results_in",
+        "related_concept": "Offspring",
+        "description": "Crossing two plants results in offspring that inherit traits from both parents."
+    },
+    {
+        "concept": "Recessive Trait",
+        "relationship": "requires_both_parents",
+        "related_concept": "Offspring Expression",
+        "description": "For a recessive trait to be expressed in the offspring, both parents must contribute the trait."
+    }
+]
+
+Model Answer: {
+    "answer": "all short plants",
+    "reasoning": "Since tall plants are dominant and short plants are recessive, two short plants can only pass on the recessive trait for being short. Given both parents must contribute the recessive trait for it to appear in the offspring, crossing two short plants (which can only contribute the recessive trait for height) will result in all offspring being short."
+}

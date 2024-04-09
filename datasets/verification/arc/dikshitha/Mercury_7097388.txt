@@ -1,0 +1,69 @@
+Key: Mercury_7097388
+
+Question: Uranus is one of the outer planets of the solar system. The average distance of Uranus from the Sun is 2.87 billion kilometers. Which best explains why Uranus revolves in its orbit instead of moving out into space?
+Options: ['The orbit of Neptune limits Uranus.', 'Gravity pulls Uranus toward the Sun.', 'Electromagnetic energy pulls on Uranus.', 'Other planets have the same mass as Uranus.']
+Answer: Gravity pulls Uranus toward the Sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Uranus",
+        "description": "A gas giant planet in the solar system, known for its blue-green color due to methane in its atmosphere."
+    },
+    {
+        "name": "Solar System",
+        "description": "The Sun and all the objects that orbit it, including planets, moons, asteroids, comets, and meteoroids."
+    },
+    {
+        "name": "Gravity",
+        "description": "A force that attracts two bodies towards each other, the strength of which depends on the mass of the bodies and the distance between them."
+    },
+    {
+        "name": "Orbit",
+        "description": "The curved path of a celestial object or spacecraft around a star, planet, or moon."
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of the Solar System, around which Earth and other planets revolve and receive heat and light."
+    },
+    {
+        "name": "Neptune",
+        "description": "The eighth planet from the Sun, known for its deep blue color and being one of the gas giants in the solar system."
+    },
+    {
+        "name": "Electromagnetic Energy",
+        "description": "A form of energy that is reflected or emitted from objects in the form of electrical and magnetic waves that can travel through space."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Uranus",
+        "relationship": "orbits",
+        "related_concept": "Sun",
+        "description": "Uranus revolves around the Sun, following a curved path defined by gravitational pull."
+    },
+    {
+        "concept": "Gravity",
+        "relationship": "attracts",
+        "related_concept": "Uranus",
+        "description": "The gravity of the Sun pulls Uranus toward it, keeping Uranus in its orbit."
+    },
+    {
+        "concept": "Uranus",
+        "relationship": "subject to",
+        "related_concept": "Gravity",
+        "description": "Uranus remains in orbit due to the gravitational attraction from the Sun."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "exerts",
+        "related_concept": "Gravity",
+        "description": "The Sun's mass exerts a gravitational pull on objects within the Solar System, including Uranus."
+    }
+]
+
+Model Answer: {
+    "answer": "Gravity pulls Uranus toward the Sun.",
+    "reasoning": "Uranus revolves in its orbit due to the gravitational pull exerted by the Sun. This gravitational force is what keeps Uranus from moving out into space, as it attracts Uranus towards the Sun, ensuring it stays within its orbital path."
+}

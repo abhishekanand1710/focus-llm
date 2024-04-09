@@ -1,0 +1,77 @@
+Key: Mercury_7207218
+
+Question: Which is the best evidence that rocks found deep underground were once exposed at the surface?
+Options: ['The rocks have been melted by a magma.', 'The rocks have been broken by faults.', 'The rocks have been weathered by water.', 'The rocks have been folded by pressure.']
+Answer: The rocks have been weathered by water.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Rocks found deep underground",
+        "description": "Rocks that are located beneath the Earth's surface."
+    },
+    {
+        "name": "Exposed at the surface",
+        "description": "Rocks that are or were accessible and visible on the Earth's surface."
+    },
+    {
+        "name": "Melted by magma",
+        "description": "The process where rocks become liquid due to intense heat from magma."
+    },
+    {
+        "name": "Broken by faults",
+        "description": "Rocks that have been fractured due to movements along a fault line."
+    },
+    {
+        "name": "Weathered by water",
+        "description": "Rocks that have been eroded or broken down by the action of water."
+    },
+    {
+        "name": "Folded by pressure",
+        "description": "Rocks that have been bent or deformed due to intense pressure."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Rocks found deep underground",
+        "relationship": "were once",
+        "related_concept": "Exposed at the surface",
+        "description": "Rocks deep underground may have been exposed at the Earth's surface before being buried."
+    },
+    {
+        "concept": "Exposed at the surface",
+        "relationship": "subjected to",
+        "related_concept": "Weathered by water",
+        "description": "Rocks exposed at the surface are subjected to weathering by water."
+    },
+    {
+        "concept": "Melted by magma",
+        "relationship": "indicates",
+        "related_concept": "Rocks found deep underground",
+        "description": "Melting by magma indicates a rock's presence deep underground rather than exposure at the surface."
+    },
+    {
+        "concept": "Broken by faults",
+        "relationship": "indicates",
+        "related_concept": "Rocks found deep underground",
+        "description": "Being broken by faults indicates geological activity but not necessarily exposure at the surface."
+    },
+    {
+        "concept": "Folded by pressure",
+        "relationship": "indicates",
+        "related_concept": "Rocks found deep underground",
+        "description": "Being folded by pressure indicates deep burial and deformation but not surface exposure."
+    },
+    {
+        "concept": "Weathered by water",
+        "relationship": "indicates",
+        "related_concept": "Exposed at the surface",
+        "description": "Weathering by water is a clear indicator of rocks that were once exposed at the Earth's surface."
+    }
+]
+
+Model Answer: {
+    "answer": "The rocks have been weathered by water.",
+    "reasoning": "Among the provided options, 'The rocks have been weathered by water.' is the best evidence that rocks found deep underground were once exposed at the surface. This conclusion is based on the understanding that weathering by water is a surface or near-surface process affecting rocks exposed to the Earth's atmosphere and hydrosphere. The relationships mapped out illustrate that while other processes indicate geological activity, only weathering by water directly implies prior exposure to surface conditions."
+}

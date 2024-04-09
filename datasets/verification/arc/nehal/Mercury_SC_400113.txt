@@ -1,0 +1,85 @@
+Key: Mercury_SC_400113
+
+Question: A teacher mixes a small amount of salt in a glass of warm water and asks the students to observe physical changes that occur as the salt dissolves. Which physical change will they most likely observe?
+Options: ['The solution will become clear.', 'The salt will form bubbles.', 'The solution will increase in temperature.', 'The water will evaporate.']
+Answer: The solution will become clear.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Solubility",
+        "description": "The ability of a substance to dissolve in another substance."
+    },
+    {
+        "name": "Physical Change",
+        "description": "A type of change where the form of matter is altered but one substance is not transformed into another."
+    },
+    {
+        "name": "Solution",
+        "description": "A homogeneous mixture composed of two or more substances."
+    },
+    {
+        "name": "Temperature",
+        "description": "A physical quantity expressing hot and cold."
+    },
+    {
+        "name": "Evaporation",
+        "description": "The process of turning from liquid into vapor."
+    },
+    {
+        "name": "Dissolution",
+        "description": "The process of dissolving a solute in a solvent to make a solution."
+    },
+    {
+        "name": "Bubbles",
+        "description": "Air or gas trapped within a liquid, forming a hollow sphere."
+    },
+    {
+        "name": "Transparency",
+        "description": "The physical property of allowing light to pass through the material without being scattered."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Solubility",
+        "relationship": "results in",
+        "related_concept": "Solution",
+        "description": "The process of solubility results in the formation of a solution."
+    },
+    {
+        "concept": "Dissolution",
+        "relationship": "is a type of",
+        "related_concept": "Physical Change",
+        "description": "The dissolution of a substance is a type of physical change."
+    },
+    {
+        "concept": "Solution",
+        "relationship": "demonstrates",
+        "related_concept": "Transparency",
+        "description": "A solution, after dissolving a solute completely, often demonstrates transparency."
+    },
+    {
+        "concept": "Salt",
+        "relationship": "undergoes",
+        "related_concept": "Dissolution",
+        "description": "Salt undergoes dissolution when mixed in water."
+    },
+    {
+        "concept": "Temperature",
+        "relationship": "influences",
+        "related_concept": "Solubility",
+        "description": "The temperature of the solvent can influence the solubility of a substance."
+    },
+    {
+        "concept": "Water",
+        "relationship": "acts as",
+        "related_concept": "Solvent",
+        "description": "In the context of dissolving salt, water acts as a solvent."
+    }
+]
+
+Model Answer: {
+    "answer": "The solution will become clear.",
+    "reasoning": "As salt dissolves in water, a physical change occurs where the salt (solute) disperses throughout the water (solvent) to form a homogeneous solution. This solution remains clear because dissolution is a process where the solute becomes completely integrated into the solvent without changing the chemical composition of either. Bubbles forming, temperature increase, or water evaporation are not typically observed as direct results of salt dissolving in water under normal circumstances."
+}

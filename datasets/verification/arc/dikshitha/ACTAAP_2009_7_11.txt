@@ -1,0 +1,71 @@
+Key: ACTAAP_2009_7_11
+
+Question: What is the best measure to use in determining the effect of solar energy on Earth's atmosphere?
+Options: ['the temperature of the air', 'the temperature of the ocean', 'the density of clouds in the sky', 'the amount of rainfall on a rainy day']
+Answer: the temperature of the air
+
+Model Response:
+Concepts: [
+    {
+        "name": "solar energy",
+        "description": "energy from the Sun that is converted into thermal or electrical energy"
+    },
+    {
+        "name": "Earth's atmosphere",
+        "description": "the layer of gases surrounding Earth, made up primarily of nitrogen and oxygen"
+    },
+    {
+        "name": "temperature of the air",
+        "description": "a measure of how hot or cold the air is"
+    },
+    {
+        "name": "temperature of the ocean",
+        "description": "a measure of how hot or cold the ocean water is"
+    },
+    {
+        "name": "density of clouds in the sky",
+        "description": "a measure of how many clouds are present in the sky, affecting sunlight penetration"
+    },
+    {
+        "name": "amount of rainfall on a rainy day",
+        "description": "a measure of how much rain falls within a specific timeframe, usually in millimeters or inches"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "solar energy",
+        "relationship": "affects",
+        "related_concept": "Earth's atmosphere",
+        "description": "Solar energy influences Earth's atmospheric conditions, including temperature and weather patterns."
+    },
+    {
+        "concept": "solar energy",
+        "relationship": "influences",
+        "related_concept": "temperature of the air",
+        "description": "Solar energy heats the atmosphere, contributing to air temperature."
+    },
+    {
+        "concept": "solar energy",
+        "relationship": "warms",
+        "related_concept": "temperature of the ocean",
+        "description": "Solar energy affects ocean temperatures by heating the surface water."
+    },
+    {
+        "concept": "solar energy",
+        "relationship": "modifies",
+        "related_concept": "density of clouds in the sky",
+        "description": "Solar energy can lead to evaporation and cloud formation, affecting their density."
+    },
+    {
+        "concept": "solar energy",
+        "relationship": "contributes to",
+        "related_concept": "amount of rainfall on a rainy day",
+        "description": "Solar energy drives the water cycle, influencing rainfall patterns."
+    }
+]
+
+Model Answer: {
+    "answer": "the temperature of the air",
+    "reasoning": "The temperature of the air directly reflects the amount of solar energy absorbed by Earth's atmosphere, making it an immediate and primary indicator of solar energy's effect."
+}

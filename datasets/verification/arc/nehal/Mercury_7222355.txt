@@ -1,0 +1,89 @@
+Key: Mercury_7222355
+
+Question: The visible colors listed from shortest to longest wavelength are violet, blue, green, yellow, orange, and red. Which of the following accurately compares the frequency of these colors using this information?
+Options: ['Blue has a higher frequency than violet.', 'Blue has a higher frequency than green.', 'Orange has a lower frequency than red.', 'Violet has a lower frequency than yellow.']
+Answer: Blue has a higher frequency than green.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Wavelength",
+        "description": "The distance between successive crests of a wave, especially points in a sound wave or electromagnetic wave."
+    },
+    {
+        "name": "Frequency",
+        "description": "The number of crests of a wave that move past a given point in a given unit of time."
+    },
+    {
+        "name": "Visible Spectrum",
+        "description": "The portion of the electromagnetic spectrum that is visible to the human eye."
+    },
+    {
+        "name": "Violet",
+        "description": "A color in the visible spectrum with a short wavelength and high frequency."
+    },
+    {
+        "name": "Blue",
+        "description": "A color in the visible spectrum with a shorter wavelength and higher frequency than green."
+    },
+    {
+        "name": "Green",
+        "description": "A color in the visible spectrum with a medium wavelength and frequency."
+    },
+    {
+        "name": "Yellow",
+        "description": "A color in the visible spectrum with a longer wavelength and lower frequency than green."
+    },
+    {
+        "name": "Orange",
+        "description": "A color in the visible spectrum with a longer wavelength and lower frequency than yellow."
+    },
+    {
+        "name": "Red",
+        "description": "A color in the visible spectrum with the longest wavelength and lowest frequency."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Wavelength",
+        "relationship": "is inversely related to",
+        "related_concept": "Frequency",
+        "description": "As the wavelength increases, the frequency decreases."
+    },
+    {
+        "concept": "Violet",
+        "relationship": "has shorter wavelength and higher frequency than",
+        "related_concept": "Blue",
+        "description": "Violet light has a shorter wavelength and therefore a higher frequency than blue light."
+    },
+    {
+        "concept": "Blue",
+        "relationship": "has shorter wavelength and higher frequency than",
+        "related_concept": "Green",
+        "description": "Blue light has a shorter wavelength and therefore a higher frequency than green light."
+    },
+    {
+        "concept": "Green",
+        "relationship": "has shorter wavelength and higher frequency than",
+        "related_concept": "Yellow",
+        "description": "Green light has a shorter wavelength and therefore a higher frequency than yellow light."
+    },
+    {
+        "concept": "Yellow",
+        "relationship": "has shorter wavelength and higher frequency than",
+        "related_concept": "Orange",
+        "description": "Yellow light has a shorter wavelength and therefore a higher frequency than orange light."
+    },
+    {
+        "concept": "Orange",
+        "relationship": "has shorter wavelength and higher frequency than",
+        "related_concept": "Red",
+        "description": "Orange light has a shorter wavelength and therefore a higher frequency than red light."
+    }
+]
+
+Model Answer: {
+    "answer": "Blue has a higher frequency than green.",
+    "reasoning": "Based on the inverse relationship between wavelength and frequency, as well as the order of colors in the visible spectrum from violet to red, blue light has a shorter wavelength and hence a higher frequency than green. This is corroborated by the established fact that as you move from violet to red in the spectrum, the wavelength increases while the frequency decreases."
+}

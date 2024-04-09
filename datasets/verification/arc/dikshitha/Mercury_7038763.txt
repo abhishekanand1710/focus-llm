@@ -1,0 +1,79 @@
+Key: Mercury_7038763
+
+Question: All elements found on the left side of the Periodic Table of the Elements have what properties in common?
+Options: ['They are solids at room temperature.', "They don't conduct electricity.", 'They are brittle and dull.', 'They are radioactive.']
+Answer: They are solids at room temperature.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Periodic Table of the Elements",
+        "description": "A tabular arrangement of the chemical elements, organized on the basis of their atomic numbers, electron configurations, and recurring chemical properties."
+    },
+    {
+        "name": "Elements",
+        "description": "Substances consisting of atoms which have the same number of protons in their atomic nuclei."
+    },
+    {
+        "name": "Left side of the Periodic Table",
+        "description": "The side of the Periodic Table that predominantly features metals."
+    },
+    {
+        "name": "Metals",
+        "description": "Materials that are typically hard, shiny, malleable, fusible, and ductile, with good electrical and thermal conductivity."
+    },
+    {
+        "name": "Room temperature",
+        "description": "The ambient temperature of the environment, typically considered to be around 20 to 25 degrees Celsius (68 to 77 degrees Fahrenheit)."
+    },
+    {
+        "name": "Electricity conductivity",
+        "description": "The ability of a material to allow the flow of electric charge."
+    },
+    {
+        "name": "Brittle and dull",
+        "description": "Qualities usually associated with non-metals, indicating that they break easily and lack a shiny appearance."
+    },
+    {
+        "name": "Radioactive",
+        "description": "Elements or substances that emit radiation."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Periodic Table of the Elements",
+        "relationship": "organizes",
+        "related_concept": "Elements",
+        "description": "The Periodic Table organizes Elements based on various properties."
+    },
+    {
+        "concept": "Left side of the Periodic Table",
+        "relationship": "features",
+        "related_concept": "Metals",
+        "description": "The left side of the Periodic Table predominantly features Metals."
+    },
+    {
+        "concept": "Metals",
+        "relationship": "are",
+        "related_concept": "solid at room temperature",
+        "description": "Metals are typically solid at room temperature."
+    },
+    {
+        "concept": "Metals",
+        "relationship": "conduct",
+        "related_concept": "Electricity conductivity",
+        "description": "Metals have a high capacity for electricity conductivity."
+    },
+    {
+        "concept": "Elements",
+        "relationship": "can be",
+        "related_concept": "Radioactive",
+        "description": "Elements can be Radioactive, but this is not exclusive to those on the left side of the Periodic Table."
+    }
+]
+
+Model Answer: {
+    "answer": "They are solids at room temperature.",
+    "reasoning": "The elements found on the left side of the Periodic Table are predominantly metals, which are typically known for being solid at room temperature, conducting electricity well, and not being universally radioactive or exclusively brittle and dull, qualities more associated with non-metals or other specific groups of elements. Among the provided options, 'They are solids at room temperature.' is the property that most accurately and universally applies to elements on the left side of the Periodic Table."
+}

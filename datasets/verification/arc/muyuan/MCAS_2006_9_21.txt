@@ -1,0 +1,71 @@
+Key: MCAS_2006_9_21
+
+Question: Mr. Jenkins constructed a circuit consisting of a variable source, wires, and a resistor. In order to triple the amount of current, how should he change the voltage of the source?
+Options: ['make the voltage three times larger', 'make the voltage one-third as great', 'make the voltage nine times larger', 'make the voltage one-ninth as great']
+Answer: make the voltage three times larger
+
+Model Response:
+Concepts: [
+    {
+        "name": "Ohm's Law",
+        "description": "A principle that states the current through a conductor between two points is directly proportional to the voltage across the two points."
+    },
+    {
+        "name": "Current (I)",
+        "description": "The flow of electric charge, measured in Amperes (A)."
+    },
+    {
+        "name": "Voltage (V)",
+        "description": "The electrical potential difference between two points, measured in Volts (V)."
+    },
+    {
+        "name": "Resistance (R)",
+        "description": "A measure of the degree to which an object opposes an electric current through it, measured in Ohms (\u03a9)."
+    },
+    {
+        "name": "Variable source",
+        "description": "An electrical source whose output (voltage in this case) can be adjusted."
+    },
+    {
+        "name": "Resistor",
+        "description": "A component that introduces resistance to the flow of electric current, used to control the current in a circuit."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Voltage (V)",
+        "relationship": "directly proportional to",
+        "related_concept": "Current (I)",
+        "description": "Increasing the voltage increases the current in a circuit, given that the resistance remains constant."
+    },
+    {
+        "concept": "Current (I)",
+        "relationship": "inversely proportional to",
+        "related_concept": "Resistance (R)",
+        "description": "Increasing resistance leads to a decrease in current flow, if the voltage remains constant."
+    },
+    {
+        "concept": "Variable source",
+        "relationship": "controls",
+        "related_concept": "Voltage (V)",
+        "description": "Adjustments made to the variable source directly impact the voltage in the circuit."
+    },
+    {
+        "concept": "Resistor",
+        "relationship": "provides",
+        "related_concept": "Resistance (R)",
+        "description": "The resistor is a component that directly contributes to the total resistance in a circuit."
+    },
+    {
+        "concept": "Ohm's Law",
+        "relationship": "defines relationship between",
+        "related_concept": "Voltage (V), Current (I), Resistance (R)",
+        "description": "Ohm's Law encapsulates the relationship between voltage, current, and resistance, illustrating how they affect each other."
+    }
+]
+
+Model Answer: {
+    "answer": "make the voltage three times larger",
+    "reasoning": "According to Ohm's Law (V=IR), the current (I) in a circuit is directly proportional to the voltage (V) across it when the resistance (R) remains constant. Therefore, to triple the current, the voltage must also be tripled, assuming the resistance does not change. This direct proportionality necessitates making the voltage three times larger to achieve a tripling of the current."
+}

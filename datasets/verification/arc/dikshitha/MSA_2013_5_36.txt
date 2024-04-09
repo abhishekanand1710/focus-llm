@@ -1,0 +1,61 @@
+Key: MSA_2013_5_36
+
+Question: Many types of motion occur in our solar system. Which type of motion describes one Earth year?
+Options: ['the revolution of the sun around Earth', 'the revolution of Earth around the sun', 'the rotation of the sun around Earth', 'the rotation of Earth around the sun']
+Answer: the revolution of Earth around the sun
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun in our solar system."
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of the solar system."
+    },
+    {
+        "name": "Revolution",
+        "description": "The movement of one object around a center or another object."
+    },
+    {
+        "name": "Rotation",
+        "description": "The action of rotating around an axis or center."
+    },
+    {
+        "name": "Earth year",
+        "description": "The time taken for Earth to complete one orbit around the Sun."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "orbits",
+        "related_concept": "Sun",
+        "description": "Earth moves around the Sun in an elliptical orbit."
+    },
+    {
+        "concept": "Revolution",
+        "relationship": "describes",
+        "related_concept": "Earth year",
+        "description": "The completion of one orbit around the Sun by Earth defines an Earth year."
+    },
+    {
+        "concept": "Rotation",
+        "relationship": "not relevant to",
+        "related_concept": "Earth year",
+        "description": "Rotation refers to Earth spinning on its axis, not to the duration of an Earth year."
+    },
+    {
+        "concept": "Sun",
+        "relationship": "center of",
+        "related_concept": "Revolution of Earth",
+        "description": "The Sun is the central point around which Earth revolves."
+    }
+]
+
+Model Answer: {
+    "answer": "the revolution of Earth around the sun",
+    "reasoning": "An Earth year is defined by the time it takes for Earth to complete one revolution around the Sun. This relationship and the concept of revolution directly relate to understanding what an Earth year entails, distinguishing it from Earth's rotation or any motion of the Sun around Earth."
+}

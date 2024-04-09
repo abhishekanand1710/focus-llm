@@ -1,0 +1,57 @@
+Key: MDSA_2010_4_1
+
+Question: A parent and a child share several characteristics. Both individuals are tall, have curly hair, are good cooks, and have freckles. Which of these characteristics is a learned behavior?
+Options: ['being tall', 'having curly hair', 'being a good cook', 'having freckles']
+Answer: being a good cook
+
+Model Response:
+Concepts: [
+    {
+        "name": "being tall",
+        "description": "A physical characteristic determined by genetics."
+    },
+    {
+        "name": "having curly hair",
+        "description": "A genetic trait that determines the texture of an individual's hair."
+    },
+    {
+        "name": "being a good cook",
+        "description": "A skill acquired through learning and practice."
+    },
+    {
+        "name": "having freckles",
+        "description": "A genetic characteristic that affects skin pigmentation."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "being tall",
+        "relationship": "determined by",
+        "related_concept": "genetics",
+        "description": "Height is influenced by genetic factors inherited from parents."
+    },
+    {
+        "concept": "having curly hair",
+        "relationship": "determined by",
+        "related_concept": "genetics",
+        "description": "The texture of hair (such as curly) is influenced by genetics."
+    },
+    {
+        "concept": "being a good cook",
+        "relationship": "result of",
+        "related_concept": "learning and practice",
+        "description": "Culinary skills are acquired through learning and practicing, not inherited."
+    },
+    {
+        "concept": "having freckles",
+        "relationship": "determined by",
+        "related_concept": "genetics",
+        "description": "The presence of freckles is a genetic trait."
+    }
+]
+
+Model Answer: {
+    "answer": "being a good cook",
+    "reasoning": "Being tall, having curly hair, and having freckles are all genetic traits inherited from parents, whereas being a good cook is a learned behavior that comes from acquiring culinary skills through practice and experience, not from genetics."
+}

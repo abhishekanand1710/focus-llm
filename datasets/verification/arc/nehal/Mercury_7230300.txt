@@ -1,0 +1,81 @@
+Key: Mercury_7230300
+
+Question: The Late Heavy Bombardment was a period of extensive comet impact on Earth about 3.8 billion years ago. Scientists believe this period provided much of the matter now found in which part of the Earth system?
+Options: ['core', 'mantle', 'atmosphere', 'hydrosphere']
+Answer: hydrosphere
+
+Model Response:
+Concepts: [
+    {
+        "name": "Late Heavy Bombardment",
+        "description": "A period about 3.8 billion years ago of intense comet and asteroid bombardment of the early Solar System planets."
+    },
+    {
+        "name": "Earth",
+        "description": "The planet on which humans live, third planet from the Sun in our solar system."
+    },
+    {
+        "name": "core",
+        "description": "The innermost part of the Earth, consisting of a solid inner core and a liquid outer core."
+    },
+    {
+        "name": "mantle",
+        "description": "The part of the Earth between the core and the crust, made of silicate rocks."
+    },
+    {
+        "name": "atmosphere",
+        "description": "The layer of gases surrounding Earth or another planet."
+    },
+    {
+        "name": "hydrosphere",
+        "description": "All the waters on the Earth's surface, such as lakes and seas."
+    },
+    {
+        "name": "comet",
+        "description": "An icy, small Solar System body that, when passing close to the Sun, warms and begins to release gases."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Late Heavy Bombardment",
+        "relationship": "impacted",
+        "related_concept": "Earth",
+        "description": "The Late Heavy Bombardment was a period of extensive comet impacts on Earth."
+    },
+    {
+        "concept": "comet",
+        "relationship": "provided matter",
+        "related_concept": "hydrosphere",
+        "description": "Comets impacting Earth during the Late Heavy Bombardment are believed to have contributed significantly to the Earth's hydrosphere."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "contains",
+        "related_concept": "core",
+        "description": "The core is the innermost layer of the Earth."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "contains",
+        "related_concept": "mantle",
+        "description": "The mantle is the layer of the Earth between the core and the crust."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "surrounded by",
+        "related_concept": "atmosphere",
+        "description": "The atmosphere is the layer of gases surrounding the Earth."
+    },
+    {
+        "concept": "Earth",
+        "relationship": "contains",
+        "related_concept": "hydrosphere",
+        "description": "The hydrosphere encompasses all water found on, under, and over the surface of a planet."
+    }
+]
+
+Model Answer: {
+    "answer": "hydrosphere",
+    "reasoning": "The Late Heavy Bombardment, characterized by extensive comet impacts on Earth about 3.8 billion years ago, is believed to have provided much of the matter now found in the Earth's hydrosphere. This is because comets are mainly composed of ice and organic compounds, which upon impact would have contributed significantly to the Earth's water and possibly to the emergence of life by adding water and organic materials to Earth's surface. None of the other listed components, such as the core, mantle, or atmosphere, directly correlate with the introduction of water and organic compounds from comets."
+}

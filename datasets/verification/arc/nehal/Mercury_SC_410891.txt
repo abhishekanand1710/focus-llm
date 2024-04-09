@@ -1,0 +1,65 @@
+Key: Mercury_SC_410891
+
+Question: A student is investigating a light bulb that saves energy and can last up to 10 times longer than other bulbs. Other than saving energy, which is another benefit of using these light bulbs?
+Options: ['Drinking water stays clean.', 'Less trash is put in landfills.', 'More nutrients are added to the soil.', 'Fewer chemicals get into the food supply.']
+Answer: Less trash is put in landfills.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Energy-saving light bulbs",
+        "description": "Light bulbs designed to use less electricity for the same light output."
+    },
+    {
+        "name": "Longevity of light bulbs",
+        "description": "Refers to the lifespan of a light bulb or how long it can last before needing to be replaced."
+    },
+    {
+        "name": "Drinking water",
+        "description": "Water that is safe for humans to drink."
+    },
+    {
+        "name": "Landfills",
+        "description": "Designated areas where waste is disposed of and buried."
+    },
+    {
+        "name": "Soil nutrients",
+        "description": "Essential minerals and compounds in the soil that plants need to grow."
+    },
+    {
+        "name": "Chemicals in food supply",
+        "description": "Refers to any synthetic or natural compounds found in food items."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Energy-saving light bulbs",
+        "relationship": "reduce",
+        "related_concept": "electricity consumption",
+        "description": "Energy-saving light bulbs consume less electricity, leading to less energy use."
+    },
+    {
+        "concept": "Longevity of light bulbs",
+        "relationship": "results in",
+        "related_concept": "less waste",
+        "description": "Long-lasting light bulbs need to be replaced less often, reducing the amount of waste generated."
+    },
+    {
+        "concept": "Less waste",
+        "relationship": "leads to",
+        "related_concept": "Landfills",
+        "description": "Generating less waste contributes to less trash being sent to landfills."
+    },
+    {
+        "concept": "Landfills",
+        "relationship": "are impacted by",
+        "related_concept": "less waste",
+        "description": "Reduced waste lowers the amount of trash in landfills."
+    }
+]
+
+Model Answer: {
+    "answer": "Less trash is put in landfills.",
+    "reasoning": "Energy-saving and long-lasting light bulbs contribute to less waste because they don't need to be replaced as often as standard bulbs. This in turn results in less trash being disposed of in landfills, as there is a direct relationship between the lifespan of these bulbs and the amount of waste generated. Since less frequent replacements are needed, fewer spent bulbs end up in landfills, making 'Less trash is put in landfills' the correct benefit, other than saving energy."
+}

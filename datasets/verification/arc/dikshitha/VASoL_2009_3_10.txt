@@ -1,0 +1,57 @@
+Key: VASoL_2009_3_10
+
+Question: Which of these most likely has the GREATEST mass?
+Options: ['Chicken', 'Puppy', 'Lizard', 'Horse']
+Answer: Horse
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chicken",
+        "description": "A type of domesticated bird kept as livestock by humans."
+    },
+    {
+        "name": "Puppy",
+        "description": "A young dog."
+    },
+    {
+        "name": "Lizard",
+        "description": "A widespread group of squamate reptiles, with over 6,000 species."
+    },
+    {
+        "name": "Horse",
+        "description": "A large domesticated mammal known for its strength and speed."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chicken",
+        "relationship": "less mass than",
+        "related_concept": "Horse",
+        "description": "A chicken is significantly smaller and lighter than a horse."
+    },
+    {
+        "concept": "Puppy",
+        "relationship": "less mass than",
+        "related_concept": "Horse",
+        "description": "Even larger breeds of puppies are lighter than horses."
+    },
+    {
+        "concept": "Lizard",
+        "relationship": "less mass than",
+        "related_concept": "Horse",
+        "description": "Lizards are generally much smaller than horses."
+    },
+    {
+        "concept": "Horse",
+        "relationship": "has greater mass than",
+        "related_concept": "Chicken, Puppy, Lizard",
+        "description": "A horse is one of the largest common domestic animals, heavier than chickens, puppies, and lizards."
+    }
+]
+
+Model Answer: {
+    "answer": "Horse",
+    "reasoning": "Based on the given options, a horse typically has the greatest mass. Horses are large domesticated mammals known for their significant size, strength, and speed, making them heavier than chickens, puppies, and lizards."
+}

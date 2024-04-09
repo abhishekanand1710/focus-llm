@@ -1,0 +1,71 @@
+Key: Mercury_SC_415079
+
+Question: How can you make liquid water become solid?
+Options: ['Put the water in a very cold place.', 'Heat the water on the stove.', 'Shake the water container very fast.', 'Add a lot of salt to the water.']
+Answer: Put the water in a very cold place.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Liquid water",
+        "description": "Water in its liquid state, typical at room temperature."
+    },
+    {
+        "name": "Solid water",
+        "description": "Water in its solid state, known as ice."
+    },
+    {
+        "name": "Cold place",
+        "description": "An environment where the temperature is low enough to freeze water."
+    },
+    {
+        "name": "Heating",
+        "description": "The process of making something warm or hot."
+    },
+    {
+        "name": "Shaking",
+        "description": "Rapidly moving an object back and forth or up and down."
+    },
+    {
+        "name": "Adding salt",
+        "description": "Introducing salt to a solution, which can lower the freezing point of water."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Liquid water",
+        "relationship": "transforms into",
+        "related_concept": "Solid water",
+        "description": "Liquid water becomes solid water (ice) when the temperature drops below 0\u00b0C (32\u00b0F)."
+    },
+    {
+        "concept": "Cold place",
+        "relationship": "causes",
+        "related_concept": "Liquid water",
+        "description": "Placing liquid water in a very cold place causes it to freeze and become solid."
+    },
+    {
+        "concept": "Heating",
+        "relationship": "opposite effect on",
+        "related_concept": "Solid water",
+        "description": "Heating liquid water increases its temperature, further from the point where it would freeze."
+    },
+    {
+        "concept": "Shaking",
+        "relationship": "does not change state of",
+        "related_concept": "Liquid water",
+        "description": "Shaking a container of water does not lower its temperature to freeze it."
+    },
+    {
+        "concept": "Adding salt",
+        "relationship": "lowers freezing point of",
+        "related_concept": "Liquid water",
+        "description": "Adding salt to liquid water lowers its freezing point, making it more challenging to freeze under normal conditions."
+    }
+]
+
+Model Answer: {
+    "answer": "Put the water in a very cold place.",
+    "reasoning": "Placing liquid water in a very cold place directly leads to a decrease in the water's temperature. When the temperature drops below the freezing point of 0\u00b0C (32\u00b0F), the water transitions from a liquid to a solid state, effectively freezing it into ice. This process is the fundamental principle behind freezing water, as opposed to the options of heating (which does the opposite), shaking (which does not affect temperature), or adding salt (which lowers the freezing point, thus requiring an even colder environment for water to freeze)."
+}

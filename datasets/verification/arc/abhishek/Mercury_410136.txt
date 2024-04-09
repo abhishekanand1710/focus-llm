@@ -1,0 +1,51 @@
+Key: Mercury_410136
+
+Question: Paul observes four different samples of water. He records the temperature and volume of each sample. Which of his samples contains the greatest amount of thermal energy?
+Options: ['100 mL of 10°C water', '100 mL of 25°C water', '5 liters of 10°C water', '5 liters of 25°C water']
+Answer: 5 liters of 25°C water
+
+Model Response:
+Concepts: [
+    {
+        "name": "Thermal Energy",
+        "description": "The total internal kinetic and potential energy of all the particles in a substance."
+    },
+    {
+        "name": "Temperature",
+        "description": "A measure of the average kinetic energy of the particles in a sample of matter."
+    },
+    {
+        "name": "Volume",
+        "description": "The amount of space that a substance or object occupies."
+    },
+    {
+        "name": "Water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Temperature",
+        "relationship": "indicates",
+        "related_concept": "Thermal Energy",
+        "description": "Higher temperature indicates a greater amount of thermal energy in a substance."
+    },
+    {
+        "concept": "Volume",
+        "relationship": "affects",
+        "related_concept": "Thermal Energy",
+        "description": "Greater volume at a given temperature contains more thermal energy, due to more particles having kinetic and potential energy."
+    },
+    {
+        "concept": "Water",
+        "relationship": "medium for",
+        "related_concept": "Thermal Energy",
+        "description": "Water acts as a medium that contains thermal energy."
+    }
+]
+
+Model Answer: {
+    "answer": "5 liters of 25\u00b0C water",
+    "reasoning": "Both the volume and temperature of the water influence its thermal energy. The 5 liters of 25\u00b0C water has both the highest volume and the highest temperature among the options, meaning it contains the most particles with the highest average kinetic energy, thereby possessing the greatest amount of thermal energy."
+}

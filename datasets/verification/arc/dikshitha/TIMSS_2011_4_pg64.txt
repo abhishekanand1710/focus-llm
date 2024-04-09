@@ -1,0 +1,61 @@
+Key: TIMSS_2011_4_pg64
+
+Question: Which of these is a mixture?
+Options: ['salt water', 'sugar', 'water vapor', 'salt']
+Answer: salt water
+
+Model Response:
+Concepts: [
+    {
+        "name": "salt water",
+        "description": "A solution made by dissolving salt in water."
+    },
+    {
+        "name": "sugar",
+        "description": "A sweet crystalline substance obtained from various plants."
+    },
+    {
+        "name": "water vapor",
+        "description": "Water in its gaseous state, invisible in the air."
+    },
+    {
+        "name": "salt",
+        "description": "A crystalline compound, primarily of sodium chloride, used for seasoning and preservation."
+    },
+    {
+        "name": "mixture",
+        "description": "A substance made by mixing other substances together."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "salt water",
+        "relationship": "is_a",
+        "related_concept": "mixture",
+        "description": "Salt water is a mixture because it is made by dissolving salt in water."
+    },
+    {
+        "concept": "sugar",
+        "relationship": "is_not_a",
+        "related_concept": "mixture",
+        "description": "Sugar is not a mixture but a pure substance, as it contains only one type of molecule."
+    },
+    {
+        "concept": "water vapor",
+        "relationship": "is_not_a",
+        "related_concept": "mixture",
+        "description": "Water vapor is a pure substance in the gaseous state, not a mixture."
+    },
+    {
+        "concept": "salt",
+        "relationship": "is_not_a",
+        "related_concept": "mixture",
+        "description": "Salt is not a mixture but a pure substance, consisting of sodium chloride compounds."
+    }
+]
+
+Model Answer: {
+    "answer": "salt water",
+    "reasoning": "Among the options provided, 'salt water' is identified as a mixture because it is created by combining salt and water, making it a substance composed of more than one type of molecule mixed together. The other options, 'sugar', 'water vapor', and 'salt', are considered pure substances rather than mixtures because they consist of only one type of molecule."
+}

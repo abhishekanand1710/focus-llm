@@ -1,0 +1,45 @@
+Key: MEA_2011_8_8
+
+Question: How many times does Earth rotate on its axis in one day?
+Options: ['once', 'twice', '24 times', '365 times']
+Answer: once
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the Sun in our solar system, home to living organisms, including humans."
+    },
+    {
+        "name": "Axis",
+        "description": "An imaginary line about which a body rotates."
+    },
+    {
+        "name": "Day",
+        "description": "A period of time equal to 24 hours, representing the time taken by the Earth to complete one rotation with respect to the Sun."
+    },
+    {
+        "name": "Rotation",
+        "description": "The action of rotating around an axis or center."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "rotates on",
+        "related_concept": "Axis",
+        "description": "The Earth rotates around its axis."
+    },
+    {
+        "concept": "Rotation",
+        "relationship": "defines",
+        "related_concept": "Day",
+        "description": "The complete rotation of Earth on its axis defines a day."
+    }
+]
+
+Model Answer: {
+    "answer": "once",
+    "reasoning": "Based on the provided concepts and their relationships, it is understood that the Earth completes one rotation on its axis in a period of time that we define as a day. Therefore, the answer is 'once,' as the Earth rotates once around its axis in a 24-hour period, equivalent to one day."
+}

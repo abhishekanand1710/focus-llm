@@ -1,0 +1,65 @@
+Key: Mercury_7084298
+
+Question: Two elements in the same group on the Periodic Table of the Elements are most similar in their
+Options: ['atomic mass.', 'number of protons.', 'atomic size.', 'chemical reactivity.']
+Answer: chemical reactivity.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Periodic Table of the Elements",
+        "description": "A table that displays all known chemical elements organized by increasing atomic number and grouped by their chemical properties."
+    },
+    {
+        "name": "Atomic mass",
+        "description": "The mass of an atom, typically expressed in atomic mass units (u), which includes the mass of protons, neutrons, and electrons."
+    },
+    {
+        "name": "Number of protons",
+        "description": "The number of protons in the nucleus of an atom, which defines the identity of the element and its position in the Periodic Table."
+    },
+    {
+        "name": "Atomic size",
+        "description": "The distance from the nucleus of an atom to the outermost electrons, varying across the Periodic Table."
+    },
+    {
+        "name": "Chemical reactivity",
+        "description": "The tendency of a substance to undergo chemical changes in a system."
+    },
+    {
+        "name": "Group",
+        "description": "Vertical columns in the Periodic Table where elements have similar chemical properties due to their valence electron configuration."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Group",
+        "relationship": "determines similarity in",
+        "related_concept": "Chemical reactivity",
+        "description": "Elements in the same group have similar valence electron configurations, leading to similar chemical reactivity."
+    },
+    {
+        "concept": "Number of protons",
+        "relationship": "defines",
+        "related_concept": "Element",
+        "description": "The number of protons in an atom's nucleus uniquely identifies the chemical element."
+    },
+    {
+        "concept": "Atomic mass",
+        "relationship": "varies significantly across",
+        "related_concept": "Group",
+        "description": "Atomic mass increases down a group but is not the main feature that elements in the same group share."
+    },
+    {
+        "concept": "Atomic size",
+        "relationship": "varies across",
+        "related_concept": "Periodic Table",
+        "description": "Atomic size generally increases down a group and decreases across a period, but is not the primary factor in determining similarity in a group."
+    }
+]
+
+Model Answer: {
+    "answer": "chemical reactivity.",
+    "reasoning": "Elements in the same group of the Periodic Table of the Elements share a similar valence electron configuration, which significantly influences their chemical reactivity. The chemical reactivity of elements is more alike among elements in the same group compared to their atomic mass, number of protons, or atomic size. This similarity in chemical reactivity is due to the similar ways these elements interact with other substances, which is rooted in the properties of their valence electrons."
+}

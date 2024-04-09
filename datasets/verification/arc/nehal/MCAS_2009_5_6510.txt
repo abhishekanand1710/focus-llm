@@ -1,0 +1,83 @@
+Key: MCAS_2009_5_6510
+
+Question: A tuna is an ocean fish that is well adapted to catching small, fast-moving prey. Which of the following adaptations most helps a tuna swim fast to catch its prey?
+Options: ['large fins', 'sharp teeth', 'small gills', 'tough scales']
+Answer: large fins
+
+Model Response:
+Concepts: [
+    {
+        "name": "Tuna",
+        "description": "A fast-swimming pelagic fish known for its ability to catch small, fast-moving prey."
+    },
+    {
+        "name": "Large fins",
+        "description": "Physical adaptations that can enhance a fish's swimming speed and maneuverability."
+    },
+    {
+        "name": "Sharp teeth",
+        "description": "Physical adaptations for catching and slicing prey, crucial for predatory fish."
+    },
+    {
+        "name": "Small gills",
+        "description": "Respiratory organs of fish, not directly related to swimming speed."
+    },
+    {
+        "name": "Tough scales",
+        "description": "Provide protection against predators and parasites, not directly related to enhancing speed."
+    },
+    {
+        "name": "Ocean",
+        "description": "A large body of salt water where tuna live and hunt."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Tuna",
+        "relationship": "lives_in",
+        "related_concept": "Ocean",
+        "description": "Tuna are pelagic fish that inhabit oceanic environments."
+    },
+    {
+        "concept": "Tuna",
+        "relationship": "has_adaptations",
+        "related_concept": "Large fins",
+        "description": "Tuna possess large fins which aid in their high-speed swimming."
+    },
+    {
+        "concept": "Tuna",
+        "relationship": "uses_for_hunting",
+        "related_concept": "Sharp teeth",
+        "description": "Tuna use sharp teeth to catch and process their prey."
+    },
+    {
+        "concept": "Large fins",
+        "relationship": "enhance",
+        "related_concept": "swimming speed",
+        "description": "Large fins on fish like tuna improve their swimming speed."
+    },
+    {
+        "concept": "Sharp teeth",
+        "relationship": "used_for",
+        "related_concept": "catching prey",
+        "description": "Sharp teeth are adaptations for the initial capture of prey."
+    },
+    {
+        "concept": "Small gills",
+        "relationship": "involved_in",
+        "related_concept": "respiration",
+        "description": "Gills are used for respiration; their size is not directly correlated with speed."
+    },
+    {
+        "concept": "Tough scales",
+        "relationship": "provide",
+        "related_concept": "protection",
+        "description": "Tough scales offer protection to fish like tuna."
+    }
+]
+
+Model Answer: {
+    "answer": "Large fins",
+    "reasoning": "Among the options, 'Large fins' are the most closely associated with enhanced swimming speed and maneuverability, which are essential for a tuna to swim fast and catch its small, fast-moving prey. Large fins contribute directly to a tuna's ability to accelerate quickly and change direction while pursuing prey, making it the adaptation that most helps a tuna swim fast to catch its prey. The other options do not as directly affect a fish's swimming speed in relation to hunting."
+}

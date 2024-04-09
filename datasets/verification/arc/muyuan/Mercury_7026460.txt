@@ -1,0 +1,75 @@
+Key: Mercury_7026460
+
+Question: In pea plants, the allele for smooth peas is dominant (S). If a heterozygous smooth pea plant (Ss) is crossed with a homozygous smooth pea plant (SS), which are the possible genotypes the offspring could have?
+Options: ['only SS', 'only Ss', 'Ss or SS', 'ss or SS']
+Answer: Ss or SS
+
+Model Response:
+Concepts: [
+    {
+        "name": "Pea plant",
+        "description": "A species of plant often used in genetics for studying inheritance."
+    },
+    {
+        "name": "Allele",
+        "description": "A version of a gene that determines specific traits in organisms."
+    },
+    {
+        "name": "Dominant allele",
+        "description": "An allele that expresses its phenotype even when only one copy is present."
+    },
+    {
+        "name": "Heterozygous",
+        "description": "Having two different alleles for a particular gene."
+    },
+    {
+        "name": "Homozygous",
+        "description": "Having two identical alleles for a particular gene."
+    },
+    {
+        "name": "Genotype",
+        "description": "The genetic makeup of an organism in terms of its alleles."
+    },
+    {
+        "name": "Phenotype",
+        "description": "The physical appearance of an organism as a result of its genotype."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Pea plant",
+        "relationship": "has_trait_determined_by",
+        "related_concept": "Allele",
+        "description": "Pea plants have traits such as pea texture determined by alleles."
+    },
+    {
+        "concept": "Dominant allele",
+        "relationship": "expresses_over",
+        "related_concept": "Allele",
+        "description": "A dominant allele expresses its trait even if only one copy is present."
+    },
+    {
+        "concept": "Heterozygous",
+        "relationship": "contains",
+        "related_concept": "Dominant allele and Recessive allele",
+        "description": "A heterozygous genotype contains one dominant and one recessive allele."
+    },
+    {
+        "concept": "Homozygous",
+        "relationship": "contains",
+        "related_concept": "Dominant allele or Recessive allele",
+        "description": "A homozygous genotype contains two copies of either a dominant or a recessive allele."
+    },
+    {
+        "concept": "Genotype",
+        "relationship": "determines",
+        "related_concept": "Phenotype",
+        "description": "The genotype of an organism determines its phenotype."
+    }
+]
+
+Model Answer: {
+    "answer": "Ss or SS",
+    "reasoning": "When a heterozygous smooth pea plant (Ss) is crossed with a homozygous smooth pea plant (SS), the possible genotypes for the offspring are either Ss or SS. This is because the offspring can inherit an S allele from the homozygous parent and either an S or s allele from the heterozygous parent, resulting in genotypes that are either SS or Ss. Both of these genotypes will result in the dominant smooth pea phenotype."
+}

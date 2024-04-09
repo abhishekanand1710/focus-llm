@@ -1,0 +1,77 @@
+Key: NYSEDREGENTS_2009_8_20
+
+Question: One important difference between living things and nonliving things is that only living things have
+Options: ['compounds', 'elements', 'molecules', 'cells']
+Answer: cells
+
+Model Response:
+Concepts: [
+    {
+        "name": "Living Things",
+        "description": "Organisms that exhibit the characteristics of life such as growth, reproduction, and metabolism"
+    },
+    {
+        "name": "Nonliving Things",
+        "description": "Objects or substances that do not exhibit the characteristics of life"
+    },
+    {
+        "name": "Compounds",
+        "description": "Substances formed from two or more elements chemically combined in fixed proportions"
+    },
+    {
+        "name": "Elements",
+        "description": "Simple substances that cannot be broken down into simpler substances by chemical means"
+    },
+    {
+        "name": "Molecules",
+        "description": "The smallest unit of a compound that retains the chemical properties of the compound"
+    },
+    {
+        "name": "Cells",
+        "description": "The basic structural, functional, and biological unit of all known living organisms"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Living Things",
+        "relationship": "composed of",
+        "related_concept": "Cells",
+        "description": "Living things are made up of cells, which are the basic units of life"
+    },
+    {
+        "concept": "Nonliving Things",
+        "relationship": "not composed of",
+        "related_concept": "Cells",
+        "description": "Nonliving things do not have cells, which are essential for life"
+    },
+    {
+        "concept": "Compounds",
+        "relationship": "found in",
+        "related_concept": "Living Things",
+        "description": "Living things contain compounds but are distinguished by cellular composition"
+    },
+    {
+        "concept": "Compounds",
+        "relationship": "found in",
+        "related_concept": "Nonliving Things",
+        "description": "Nonliving things can also contain compounds, showing it's not unique to life"
+    },
+    {
+        "concept": "Elements",
+        "relationship": "compose",
+        "related_concept": "Compounds",
+        "description": "Elements combine in fixed proportions to form compounds"
+    },
+    {
+        "concept": "Molecules",
+        "relationship": "form",
+        "related_concept": "Compounds",
+        "description": "Molecules are the smallest units of compounds, representing their chemical properties"
+    }
+]
+
+Model Answer: {
+    "answer": "cells",
+    "reasoning": "The fundamental difference between living and nonliving things mentioned in the options is that living things are comprised of cells. Cells serve as the basic unit of life, essential for the numerous characteristics that define living organisms, such as metabolism, growth, and the ability to reproduce, which nonliving things do not possess. While compounds, elements, and molecules can be found in both living and nonliving things, only living things have cells."
+}

@@ -1,0 +1,89 @@
+Key: Mercury_SC_LBS10782
+
+Question: Physical and chemical properties can be used to classify substances. Which of these shows a chemical property?
+Options: ['Silver melts.', 'Magnesium burns.', 'Sulfur is a yellow solid.', 'Aluminum conducts heat.']
+Answer: Magnesium burns.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Physical Properties",
+        "description": "Characteristics that can be observed or measured without changing the substance's composition."
+    },
+    {
+        "name": "Chemical Properties",
+        "description": "Properties that describe a substance's ability to form new substances."
+    },
+    {
+        "name": "Silver",
+        "description": "A metallic element known for its high thermal and electrical conductivity."
+    },
+    {
+        "name": "Magnesium",
+        "description": "A lightweight metal that is highly reactive, especially when powdered or thinly shaved."
+    },
+    {
+        "name": "Sulfur",
+        "description": "A nonmetallic element that is known for its yellow crystalline form and is an essential element for life."
+    },
+    {
+        "name": "Aluminum",
+        "description": "A lightweight, silvery-white metal known for its high conductivity of electricity and heat."
+    },
+    {
+        "name": "Melting",
+        "description": "The physical process of a substance transforming from a solid to a liquid."
+    },
+    {
+        "name": "Burning",
+        "description": "A chemical reaction that involves the rapid combination of a substance with oxygen to release heat and light."
+    },
+    {
+        "name": "Conducts Heat",
+        "description": "The capability of a substance to transfer heat through it."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Physical Properties",
+        "relationship": "includes",
+        "related_concept": "Melting",
+        "description": "Melting is a type of physical property."
+    },
+    {
+        "concept": "Chemical Properties",
+        "relationship": "includes",
+        "related_concept": "Burning",
+        "description": "Burning illustrates a substance's chemical property."
+    },
+    {
+        "concept": "Silver",
+        "relationship": "exhibits",
+        "related_concept": "Melting",
+        "description": "Silver melting is an example of a physical change."
+    },
+    {
+        "concept": "Magnesium",
+        "relationship": "exhibits",
+        "related_concept": "Burning",
+        "description": "Magnesium burning is a chemical change demonstrating a chemical property."
+    },
+    {
+        "concept": "Sulfur",
+        "relationship": "is",
+        "related_concept": "a yellow solid",
+        "description": "The color and state of sulfur describe its physical appearance."
+    },
+    {
+        "concept": "Aluminum",
+        "relationship": "exhibits",
+        "related_concept": "Conducts Heat",
+        "description": "The ability of aluminum to conduct heat represents a physical property."
+    }
+]
+
+Model Answer: {
+    "answer": "Magnesium burns.",
+    "reasoning": "Among the given options, 'Magnesium burns.' is the only one that illustrates a chemical property because it describes the ability of magnesium to undergo a chemical reaction with oxygen in the air, resulting in a new substance (magnesium oxide). The other options describe physical properties which do not change the chemical composition of the substance."
+}

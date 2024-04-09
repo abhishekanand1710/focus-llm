@@ -1,0 +1,77 @@
+Key: NYSEDREGENTS_2009_8_12
+
+Question: Limestone is a sedimentary rock and marble is a metamorphic rock. Even though limestone and marble have the same chemical makeup, they are classified as different rocks because they
+Options: ['were formed from different fossils', 'took different amounts of time to form', 'formed at different times', 'formed by different methods']
+Answer: formed by different methods
+
+Model Response:
+Concepts: [
+    {
+        "name": "Limestone",
+        "description": "A sedimentary rock primarily made of calcium carbonate."
+    },
+    {
+        "name": "Marble",
+        "description": "A metamorphic rock formed when limestone is subjected to high pressure or heat."
+    },
+    {
+        "name": "Sedimentary Rock",
+        "description": "Rocks formed through the deposition and solidification of sediment."
+    },
+    {
+        "name": "Metamorphic Rock",
+        "description": "Rocks that have undergone transformation by heat, pressure, or other natural agency."
+    },
+    {
+        "name": "Chemical Makeup",
+        "description": "The composition of a substance in terms of its chemical elements and how they are bonded."
+    },
+    {
+        "name": "Formation Method",
+        "description": "The process through which rocks are formed."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Limestone",
+        "relationship": "is_a",
+        "related_concept": "Sedimentary Rock",
+        "description": "Limestone is a type of sedimentary rock."
+    },
+    {
+        "concept": "Marble",
+        "relationship": "formed_from",
+        "related_concept": "Limestone",
+        "description": "Marble is formed from limestone under conditions of high pressure or heat."
+    },
+    {
+        "concept": "Marble",
+        "relationship": "is_a",
+        "related_concept": "Metamorphic Rock",
+        "description": "Marble is a type of metamorphic rock."
+    },
+    {
+        "concept": "Limestone",
+        "relationship": "has_same",
+        "related_concept": "Chemical Makeup",
+        "description": "Limestone and Marble have the same chemical makeup."
+    },
+    {
+        "concept": "Formation Method",
+        "relationship": "differentiates",
+        "related_concept": "Sedimentary Rock",
+        "description": "The formation method differentiates sedimentary rocks from metamorphic rocks."
+    },
+    {
+        "concept": "Formation Method",
+        "relationship": "differentiates",
+        "related_concept": "Metamorphic Rock",
+        "description": "The formation method differentiates metamorphic rocks from sedimentary rocks."
+    }
+]
+
+Model Answer: {
+    "answer": "formed by different methods",
+    "reasoning": "Even though Limestone and Marble have the same chemical makeup, they are classified as different types of rocks because their formation processes are fundamentally different. Limestone is formed through sedimentation - the accumulation and compaction of mineral and organic particles on the ocean floor or other bodies of water. Marble, on the other hand, is formed by the metamorphism of limestone, where under the influence of high pressure and temperature, limestone's structure and composition are changed to form marble. Thus, the distinguishing factor between them is the method by which they are formed."
+}

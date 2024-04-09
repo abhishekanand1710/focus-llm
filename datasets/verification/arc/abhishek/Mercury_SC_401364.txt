@@ -1,0 +1,57 @@
+Key: Mercury_SC_401364
+
+Question: A drop of red food coloring is added to a bowl of water. Several minutes later, all of the water is red. Which of these describes the change that took place?
+Options: ['erosion', 'osmosis', 'diffusion', 'transfusion']
+Answer: diffusion
+
+Model Response:
+Concepts: [
+    {
+        "name": "erosion",
+        "description": "the process by which natural forces move weathered rock and soil from one place to another"
+    },
+    {
+        "name": "osmosis",
+        "description": "the movement of water molecules through a semi-permeable membrane from an area of lower solute concentration to an area of higher solute concentration"
+    },
+    {
+        "name": "diffusion",
+        "description": "the movement of particles from an area of higher concentration to an area of lower concentration"
+    },
+    {
+        "name": "transfusion",
+        "description": "the process of transferring blood or a blood component from one person to another"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "diffusion",
+        "relationship": "is the process in",
+        "related_concept": "red food coloring in water",
+        "description": "Diffusion describes how the red food coloring spreads throughout the water"
+    },
+    {
+        "concept": "erosion",
+        "relationship": "is not involved in",
+        "related_concept": "red food coloring in water",
+        "description": "Erosion involves the physical movement of rock and soil, not applicable to the scenario"
+    },
+    {
+        "concept": "osmosis",
+        "relationship": "is not directly involved in",
+        "related_concept": "red food coloring in water",
+        "description": "Osmosis is specific to water molecules across membranes, not coloring distribution"
+    },
+    {
+        "concept": "transfusion",
+        "relationship": "is not related to",
+        "related_concept": "red food coloring in water",
+        "description": "Transfusion deals with the medical transfer of blood, unrelated to the scenario"
+    }
+]
+
+Model Answer: {
+    "answer": "diffusion",
+    "reasoning": "The process described is diffusion because it involves the movement of particles (red food coloring) from an area of higher concentration (initial drop location) to areas of lower concentration (rest of the water) until uniform distribution is achieved."
+}

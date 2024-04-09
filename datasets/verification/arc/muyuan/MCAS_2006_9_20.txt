@@ -1,0 +1,53 @@
+Key: MCAS_2006_9_20
+
+Question: Which of the following has the least momentum?
+Options: ['a 0.5 kg mass with a 1000 m/s velocity', 'a 1 kg mass with a 100 m/s velocity', 'a 10 kg mass with an 11 m/s velocity', 'a 100 kg mass with a 2 m/s velocity']
+Answer: a 1 kg mass with a 100 m/s velocity
+
+Model Response:
+Concepts: [
+    {
+        "name": "momentum",
+        "description": "the product of an object's mass and its velocity"
+    },
+    {
+        "name": "mass",
+        "description": "a measure of the amount of matter in an object"
+    },
+    {
+        "name": "velocity",
+        "description": "the speed of an object in a given direction"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "momentum",
+        "relationship": "is determined by",
+        "related_concept": "mass",
+        "description": "Momentum is directly proportional to the mass of an object"
+    },
+    {
+        "concept": "momentum",
+        "relationship": "is determined by",
+        "related_concept": "velocity",
+        "description": "Momentum is directly proportional to the velocity of an object"
+    },
+    {
+        "concept": "mass",
+        "relationship": "is a component of",
+        "related_concept": "momentum",
+        "description": "Mass is one of the two components that determine momentum"
+    },
+    {
+        "concept": "velocity",
+        "relationship": "is a component of",
+        "related_concept": "momentum",
+        "description": "Velocity is one of the two components that determine momentum"
+    }
+]
+
+Model Answer: {
+    "answer": "a 100 kg mass with a 2 m/s velocity",
+    "reasoning": "First, calculate the momentum for each option by multiplying the mass by its velocity. For a 0.5 kg mass with a 1000 m/s velocity, momentum = 0.5 * 1000 = 500 kg*m/s. For a 1 kg mass with a 100 m/s velocity, momentum = 1 * 100 = 100 kg*m/s. For a 10 kg mass with an 11 m/s velocity, momentum = 10 * 11 = 110 kg*m/s. For a 100 kg mass with a 2 m/s velocity, momentum = 100 * 2 = 200 kg*m/s. Comparing these values, the option 'a 100 kg mass with a 2 m/s velocity' has the least momentum among the given options."
+}

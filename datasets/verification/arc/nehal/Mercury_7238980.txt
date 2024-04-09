@@ -1,0 +1,71 @@
+Key: Mercury_7238980
+
+Question: A "widow's peak" hairline in humans is coded by the dominant allele W. A straight hairline is coded by the recessive allele w. A man with a homozygous dominant WW produces a zygote with a woman with a heterozygous dominant Ww for the trait. Which allele combinations could occur in the zygote?
+Options: ['WW or ww', 'WW or Ww', 'WW only', 'Ww only']
+Answer: WW or Ww
+
+Model Response:
+Concepts: [
+    {
+        "name": "Widow's peak",
+        "description": "A V-shaped point in the hairline in the center of the forehead."
+    },
+    {
+        "name": "Dominant allele",
+        "description": "An allele that expresses its phenotype even when only one copy is present in the genotype."
+    },
+    {
+        "name": "Recessive allele",
+        "description": "An allele that expresses its phenotype only when two copies are present."
+    },
+    {
+        "name": "Homozygous dominant",
+        "description": "An individual has two copies of the dominant allele."
+    },
+    {
+        "name": "Heterozygous dominant",
+        "description": "An individual has one copy of the dominant allele and one copy of the recessive allele."
+    },
+    {
+        "name": "Zygote",
+        "description": "A fertilized egg cell that results from the union of a female gamete (egg) with a male gamete (sperm)."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Dominant allele",
+        "relationship": "codes for",
+        "related_concept": "Widow's peak",
+        "description": "The dominant allele W is responsible for the expression of a Widow's peak hairline."
+    },
+    {
+        "concept": "Recessive allele",
+        "relationship": "codes for",
+        "related_concept": "Straight hairline",
+        "description": "The recessive allele w is responsible for the expression of a straight hairline."
+    },
+    {
+        "concept": "Homozygous dominant",
+        "relationship": "contains",
+        "related_concept": "Dominant allele",
+        "description": "An individual with the homozygous dominant genotype contains two copies of the dominant allele."
+    },
+    {
+        "concept": "Heterozygous dominant",
+        "relationship": "contains",
+        "related_concept": "Dominant allele and Recessive allele",
+        "description": "An individual with the heterozygous dominant genotype contains one copy of the dominant allele and one copy of the recessive allele."
+    },
+    {
+        "concept": "Zygote",
+        "relationship": "formed by",
+        "related_concept": "Homozygous dominant and Heterozygous dominant",
+        "description": "A zygote is formed by the fusion of gametes from a homozygous dominant individual and a heterozygous dominant individual."
+    }
+]
+
+Model Answer: {
+    "answer": "WW or Ww",
+    "reasoning": "Since the father is homozygous dominant (WW) and the mother is heterozygous dominant (Ww), the possible allele combinations for the zygote (child) could only be WW or Ww. This is derived from the fact that the father can only pass on a dominant allele (W), while the mother can pass on either a dominant (W) or a recessive allele (w). Thus, the combinations that result are either WW (if the W from both parents is passed on) or Ww (if the father passes on W and the mother passes on w)."
+}

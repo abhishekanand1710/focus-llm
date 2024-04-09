@@ -1,0 +1,57 @@
+Key: WASL_2005_8_11
+
+Question: Which of the following is an acquired human characteristic?
+Options: ['Eye color', 'Hair color', 'Height', 'Verbal accent']
+Answer: Verbal accent
+
+Model Response:
+Concepts: [
+    {
+        "name": "Eye color",
+        "description": "The color of the iris, determined by genetic factors."
+    },
+    {
+        "name": "Hair color",
+        "description": "The pigmentation of hair follicles due to two types of melanin, largely influenced by genetics."
+    },
+    {
+        "name": "Height",
+        "description": "The measure of how tall a person is, influenced by genetic and environmental factors."
+    },
+    {
+        "name": "Verbal accent",
+        "description": "The manner in which a person pronounces words, often influenced by regional or social factors."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Eye color",
+        "relationship": "is inherited from",
+        "related_concept": "genetic factors",
+        "description": "Eye color is determined by the genetics of an individual's parents."
+    },
+    {
+        "concept": "Hair color",
+        "relationship": "is determined by",
+        "related_concept": "melanin",
+        "description": "Hair color depends on the type and amount of melanin, which is genetically influenced."
+    },
+    {
+        "concept": "Height",
+        "relationship": "is influenced by",
+        "related_concept": "genetic and environmental factors",
+        "description": "Height is a result of both the genetic background and the environment in which an individual grows."
+    },
+    {
+        "concept": "Verbal accent",
+        "relationship": "is acquired through",
+        "related_concept": "regional or social factors",
+        "description": "The accent of a person is developed based on the region they grow up in or the social groups they interact with."
+    }
+]
+
+Model Answer: {
+    "answer": "Verbal accent",
+    "reasoning": "Verbal accent is the only option listed that is not directly determined by genetic factors but is acquired from the environment in which an individual is raised or resides. Unlike eye color, hair color, and height, which are primarily determined by genetics, verbal accent is influenced by regional or social factors, making it an acquired human characteristic."
+}

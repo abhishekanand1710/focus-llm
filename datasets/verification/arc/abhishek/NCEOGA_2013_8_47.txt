@@ -1,0 +1,85 @@
+Key: NCEOGA_2013_8_47
+
+Question: Which factors can have the greatest effect on the health of a river system?
+Options: ['type of soil and salinity', 'nitrate levels and turbidity', 'human consumption and pH', 'natural disasters and tidal changes']
+Answer: nitrate levels and turbidity
+
+Model Response:
+Concepts: [
+    {
+        "name": "Type of soil",
+        "description": "Influences the river's water quality by affecting erosion and filtration."
+    },
+    {
+        "name": "Salinity",
+        "description": "Refers to the salt content in the water, affecting its quality and biodiversity."
+    },
+    {
+        "name": "Nitrate levels",
+        "description": "High concentrations can cause eutrophication, lowering oxygen levels in water."
+    },
+    {
+        "name": "Turbidity",
+        "description": "Measures water clarity and can affect aquatic life and water quality."
+    },
+    {
+        "name": "Human consumption",
+        "description": "Refers to water usage by humans, which can reduce water levels and impact quality."
+    },
+    {
+        "name": "pH",
+        "description": "Measures the acidity or alkalinity of water, crucial for aquatic life health."
+    },
+    {
+        "name": "Natural disasters",
+        "description": "Such as floods or landslides, can drastically alter a river's ecosystem."
+    },
+    {
+        "name": "Tidal changes",
+        "description": "Affect the salinity and ecosystem of estuaries and river mouths."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Type of soil",
+        "relationship": "affects",
+        "related_concept": "Turbidity",
+        "description": "Soil type can influence water clarity through erosion processes."
+    },
+    {
+        "concept": "Nitrate levels",
+        "relationship": "leads to",
+        "related_concept": "eutrophication",
+        "description": "High nitrate levels can stimulate excessive plant growth, depleting oxygen in water."
+    },
+    {
+        "concept": "Human consumption",
+        "relationship": "reduces",
+        "related_concept": "water levels",
+        "description": "Water taken for human use can lead to lower river levels, affecting ecosystems."
+    },
+    {
+        "concept": "pH",
+        "relationship": "determines",
+        "related_concept": "aquatic life health",
+        "description": "The pH level of water is crucial for the survival of many aquatic organisms."
+    },
+    {
+        "concept": "Natural disasters",
+        "relationship": "alter",
+        "related_concept": "river ecosystem",
+        "description": "Events like floods can change the physical and biological character of rivers."
+    },
+    {
+        "concept": "Tidal changes",
+        "relationship": "influence",
+        "related_concept": "salinity",
+        "description": "Changes in tides can lead to variations in the salt content of estuarine waters."
+    }
+]
+
+Model Answer: {
+    "answer": "nitrate levels and turbidity",
+    "reasoning": "Nitrate levels and turbidity directly affect water quality and aquatic life, leading to significant ecological impacts. High nitrate levels can result in eutrophication, reducing oxygen levels crucial for aquatic organisms, while turbidity influences water clarity, affecting photosynthesis and habitat. These factors have a direct and often immediate impact on the health of river systems, more so than the other options provided."
+}

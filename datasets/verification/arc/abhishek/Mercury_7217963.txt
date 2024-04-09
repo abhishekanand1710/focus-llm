@@ -1,0 +1,79 @@
+Key: Mercury_7217963
+
+Question: Due to the increasing average temperature of the atmosphere, polar ice sheets melt at a greater rate than they form. Which of these will be an effect of the continued melting of polar ice?
+Options: ['A major reservoir of fresh water will decrease.', 'Plant life will increase due to higher sea levels.', 'Water runoff will cause an increase in ocean salinity.', 'Ocean temperature will decrease with the addition of cold water.']
+Answer: A major reservoir of fresh water will decrease.
+
+Model Response:
+Concepts: [
+    {
+        "name": "average temperature of the atmosphere",
+        "description": "The mean air temperature of the Earth's atmosphere near its surface"
+    },
+    {
+        "name": "polar ice sheets",
+        "description": "Large areas of ice covering the poles, made from layers of compacted snow and ice"
+    },
+    {
+        "name": "melting rate",
+        "description": "The speed at which ice turns into water"
+    },
+    {
+        "name": "fresh water reservoir",
+        "description": "Sources of water, such as glaciers and ice caps, that are sweet and drinkable"
+    },
+    {
+        "name": "sea levels",
+        "description": "The average level of the surface of the ocean measured along a shoreline"
+    },
+    {
+        "name": "water runoff",
+        "description": "Water, from rain, melting snow, or ice, that flows over the land surface"
+    },
+    {
+        "name": "ocean salinity",
+        "description": "The concentration of salt in oceans, typically measured in parts per thousand"
+    },
+    {
+        "name": "ocean temperature",
+        "description": "The heat content of the ocean, varies by location and depth"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "average temperature of the atmosphere",
+        "relationship": "increases",
+        "related_concept": "melting rate of polar ice sheets",
+        "description": "A higher average atmospheric temperature accelerates the melting of polar ice sheets"
+    },
+    {
+        "concept": "melting of polar ice sheets",
+        "relationship": "decreases",
+        "related_concept": "fresh water reservoir",
+        "description": "As polar ice sheets melt, the reservoirs of fresh water they represent decrease"
+    },
+    {
+        "concept": "melting of polar ice sheets",
+        "relationship": "increases",
+        "related_concept": "sea levels",
+        "description": "Melting polar ice adds water to the oceans, raising sea levels"
+    },
+    {
+        "concept": "water runoff",
+        "relationship": "alters",
+        "related_concept": "ocean salinity",
+        "description": "Increased runoff from melting ice can dilute ocean water, potentially affecting salinity"
+    },
+    {
+        "concept": "melting of polar ice sheets",
+        "relationship": "adds to",
+        "related_concept": "ocean temperature",
+        "description": "The addition of cold meltwater from ice sheets can affect local ocean temperatures"
+    }
+]
+
+Model Answer: {
+    "answer": "A major reservoir of fresh water will decrease.",
+    "reasoning": "As the polar ice sheets melt at a greater rate due to the increased average temperature of the atmosphere, these ice sheets, which are significant reservoirs of fresh water, decrease in size. This is a direct outcome of the accelerated melting rate decreasing the total amount of fresh water trapped in ice form at the poles. Other options do not directly relate to the primary effects of polar ice melting on global water systems as strongly as the decrease in fresh water reserves."
+}

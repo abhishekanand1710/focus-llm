@@ -1,0 +1,57 @@
+Key: Mercury_SC_401371
+
+Question: Which event occurs on a daily cycle?
+Options: ['The Sun rises and sets.', 'Earth tilts on its axis.', 'Earth revolves around the Sun.', 'The Moon revolves around Earth.']
+Answer: The Sun rises and sets.
+
+Model Response:
+Concepts: [
+    {
+        "name": "The Sun rises and sets",
+        "description": "A daily occurrence due to Earth's rotation."
+    },
+    {
+        "name": "Earth tilts on its axis",
+        "description": "A constant characteristic of Earth that affects seasons."
+    },
+    {
+        "name": "Earth revolves around the Sun",
+        "description": "An annual movement of Earth completing one orbit around the Sun in roughly 365 days."
+    },
+    {
+        "name": "The Moon revolves around Earth",
+        "description": "The Moon completes an orbit around Earth approximately every 27.3 days."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "The Sun rises and sets",
+        "relationship": "is caused by",
+        "related_concept": "Earth's rotation",
+        "description": "The Sun appears to rise and set because of Earth's rotation on its axis."
+    },
+    {
+        "concept": "Earth tilts on its axis",
+        "relationship": "influences",
+        "related_concept": "Seasons",
+        "description": "The tilt of Earth on its axis as it orbits the Sun causes the seasons."
+    },
+    {
+        "concept": "Earth revolves around the Sun",
+        "relationship": "defines",
+        "related_concept": "A year",
+        "description": "One complete orbit of Earth around the Sun roughly equals one year."
+    },
+    {
+        "concept": "The Moon revolves around Earth",
+        "relationship": "defines",
+        "related_concept": "A month",
+        "description": "The time it takes for the Moon to orbit Earth roughly defines a month."
+    }
+]
+
+Model Answer: {
+    "answer": "The Sun rises and sets.",
+    "reasoning": "The occurrence of the Sun rising and setting happens on a daily cycle due to Earth's rotation on its axis. This daily event is distinct from the other options as they describe processes with longer durations: Earth's tilt affects seasons but is a constant characteristic rather than a cyclical event, Earth's revolution around the Sun defines a year, and the Moon's orbit around Earth defines a month."
+}

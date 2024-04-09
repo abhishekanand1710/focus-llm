@@ -1,0 +1,95 @@
+Key: Mercury_177660
+
+Question: Geologists frequently use mass spectrometers in determining the relative age of rocks. A spectrometer can differentiate between the ratios of isotopes in rock samples and calculates the radioactive decay involving what two isotopes?
+Options: ['Uranium - Lead', 'Rubidium - Strontium', 'Potassium - Argon', 'Uranium - Strontium']
+Answer: Uranium - Lead
+
+Model Response:
+Concepts: [
+    {
+        "name": "Geologists",
+        "description": "Scientists who study the Earth and its processes including rocks and minerals."
+    },
+    {
+        "name": "Mass spectrometers",
+        "description": "Instruments used to identify the composition of a sample by measuring the mass of its ions."
+    },
+    {
+        "name": "Relative age of rocks",
+        "description": "A method to determine the age of rocks and geological features compared to other rocks and features."
+    },
+    {
+        "name": "Isotopes",
+        "description": "Variations of elements that have the same number of protons but different numbers of neutrons."
+    },
+    {
+        "name": "Radioactive decay",
+        "description": "The process by which an unstable atomic nucleus loses energy by emitting radiation."
+    },
+    {
+        "name": "Uranium-Lead",
+        "description": "A radiometric dating method that uses the decay of uranium into lead to determine age."
+    },
+    {
+        "name": "Rubidium-Strontium",
+        "description": "A dating technique that uses the decay of rubidium-87 into strontium-87 to estimate age."
+    },
+    {
+        "name": "Potassium-Argon",
+        "description": "A dating method based on the conversion of potassium into argon to find the age of a material."
+    },
+    {
+        "name": "Uranium-Strontium",
+        "description": "Incorrect combination for common radiometric dating, typically involves uranium-lead or rubidium-strontium."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Geologists",
+        "relationship": "use",
+        "related_concept": "Mass spectrometers",
+        "description": "Geologists use mass spectrometers to analyze rock samples."
+    },
+    {
+        "concept": "Mass spectrometers",
+        "relationship": "differentiate",
+        "related_concept": "Isotopes",
+        "description": "Mass spectrometers can distinguish between different isotopes in a sample."
+    },
+    {
+        "concept": "Isotopes",
+        "relationship": "involved_in",
+        "related_concept": "Radioactive decay",
+        "description": "The process of radioactive decay involves the change of one isotope into another."
+    },
+    {
+        "concept": "Radioactive decay",
+        "relationship": "used_to_determine",
+        "related_concept": "Relative age of rocks",
+        "description": "The rate of radioactive decay is used to determine the relative age of rocks."
+    },
+    {
+        "concept": "Uranium-Lead",
+        "relationship": "method_of",
+        "related_concept": "Radioactive decay",
+        "description": "Uranium-Lead dating is a method based on radioactive decay."
+    },
+    {
+        "concept": "Rubidium-Strontium",
+        "relationship": "method_of",
+        "related_concept": "Radioactive decay",
+        "description": "Rubidium-Strontium dating uses the principle of radioactive decay."
+    },
+    {
+        "concept": "Potassium-Argon",
+        "relationship": "method_of",
+        "related_concept": "Radioactive decay",
+        "description": "Potassium-Argon dating is another method that relies on radioactive decay."
+    }
+]
+
+Model Answer: {
+    "answer": "['Uranium - Lead', 'Rubidium - Strontium', 'Potassium - Argon']",
+    "reasoning": "The question asks for two isotopes involved in calculating radioactive decay to determine the relative age of rocks. 'Uranium-Lead', 'Rubidium-Strontium', and 'Potassium-Argon' are all valid pairs of isotopes used in different radiometric dating methods to estimate the ages of rocks through the process of radioactive decay. These methods are scientifically established and widely used in geology for dating. 'Uranium-Strontium' is not a commonly recognized pair for standard radiometric dating, hence it is not included in the correct answers."
+}

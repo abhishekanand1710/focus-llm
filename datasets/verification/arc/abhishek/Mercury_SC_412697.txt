@@ -1,0 +1,61 @@
+Key: Mercury_SC_412697
+
+Question: Which of the following is a chemical property of matter?
+Options: ['density', 'boiling point', 'flammability', 'shape']
+Answer: flammability
+
+Model Response:
+Concepts: [
+    {
+        "name": "Chemical Property",
+        "description": "A characteristic of a substance that is observable during a chemical reaction."
+    },
+    {
+        "name": "Density",
+        "description": "The mass per unit volume of a substance."
+    },
+    {
+        "name": "Boiling Point",
+        "description": "The temperature at which a substance turns from a liquid into a gas."
+    },
+    {
+        "name": "Flammability",
+        "description": "The ability of a substance to burn or ignite, causing fire or combustion."
+    },
+    {
+        "name": "Shape",
+        "description": "The external form or appearance of an object defined by its boundaries."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Chemical Property",
+        "relationship": "is a characteristic of",
+        "related_concept": "Flammability",
+        "description": "Flammability is an example of a chemical property."
+    },
+    {
+        "concept": "Density",
+        "relationship": "not a chemical property",
+        "related_concept": "Chemical Property",
+        "description": "Density is a physical property, not a chemical property."
+    },
+    {
+        "concept": "Boiling Point",
+        "relationship": "not a chemical property",
+        "related_concept": "Chemical Property",
+        "description": "Boiling point is a physical property, not a chemical property."
+    },
+    {
+        "concept": "Shape",
+        "relationship": "not a chemical property",
+        "related_concept": "Chemical Property",
+        "description": "Shape is a physical property, not a chemical property."
+    }
+]
+
+Model Answer: {
+    "answer": "flammability",
+    "reasoning": "Flammability is a chemical property of matter because it describes a substance's ability to burn or ignite, which can only be observed during a chemical reaction. Unlike density, boiling point, and shape, which are physical properties and describe the physical characteristics of a substance without altering its chemical composition, flammability directly relates to how a substance chemically reacts with oxygen (combustion)."
+}

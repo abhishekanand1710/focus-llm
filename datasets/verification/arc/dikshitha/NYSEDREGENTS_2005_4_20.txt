@@ -1,0 +1,85 @@
+Key: NYSEDREGENTS_2005_4_20
+
+Question: What is one way to change water from a liquid to a solid?
+Options: ['decrease the temperature', 'increase the temperature', 'decrease the mass', 'increase the mass']
+Answer: decrease the temperature
+
+Model Response:
+Concepts: [
+    {
+        "name": "decrease the temperature",
+        "description": "Lowering the temperature of a liquid below its freezing point to turn it into a solid."
+    },
+    {
+        "name": "increase the temperature",
+        "description": "Raising the temperature of a substance, typically increasing its kinetic energy."
+    },
+    {
+        "name": "decrease the mass",
+        "description": "Reducing the quantity of matter within an object, without necessarily altering its state."
+    },
+    {
+        "name": "increase the mass",
+        "description": "Adding more matter to an object, which does not directly affect its state of matter."
+    },
+    {
+        "name": "water",
+        "description": "A compound at room temperature that is typically liquid on Earth, composed of hydrogen and oxygen."
+    },
+    {
+        "name": "solid",
+        "description": "One of the states of matter characterized by rigidity and fixed shape and volume."
+    },
+    {
+        "name": "liquid",
+        "description": "A state of matter with a definite volume but no fixed shape."
+    },
+    {
+        "name": "freezing point",
+        "description": "The temperature at which a liquid turns into a solid."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "decrease the temperature",
+        "relationship": "leads to",
+        "related_concept": "solid",
+        "description": "Decreasing the temperature of water to its freezing point leads to it becoming a solid."
+    },
+    {
+        "concept": "water",
+        "relationship": "changes to",
+        "related_concept": "solid",
+        "description": "Water changes to solid when the temperature is decreased to the freezing point."
+    },
+    {
+        "concept": "liquid",
+        "relationship": "becomes",
+        "related_concept": "solid",
+        "description": "A liquid becomes solid through the process of freezing."
+    },
+    {
+        "concept": "increase the temperature",
+        "relationship": "does not lead to",
+        "related_concept": "solid",
+        "description": "Increasing the temperature of water moves it away from the solid state."
+    },
+    {
+        "concept": "decrease the mass",
+        "relationship": "not directly related to",
+        "related_concept": "solid",
+        "description": "Decreasing mass does not directly result in a liquid turning into a solid."
+    },
+    {
+        "concept": "increase the mass",
+        "relationship": "not directly related to",
+        "related_concept": "solid",
+        "description": "Increasing mass does not directly result in a liquid turning into a solid."
+    }
+]
+
+Model Answer: {
+    "answer": "decrease the temperature",
+    "reasoning": "Decreasing the temperature of water below its freezing point is a direct and effective method to change it from a liquid to a solid state. This process is known as freezing and is based on the physical principle that lowering temperature reduces the kinetic energy of water molecules, allowing them to form a rigid structure characteristic of a solid."
+}

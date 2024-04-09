@@ -1,0 +1,75 @@
+Key: Mercury_7001155
+
+Question: Before letting students use hammers to investigate how various minerals break, which question would the teacher most likely ask?
+Options: ['Is everyone wearing goggles?', 'Who will get the minerals from the shelf?', 'What is the purpose of this investigation?', 'Has someone volunteered to make drawings of the breaks?']
+Answer: Is everyone wearing goggles?
+
+Model Response:
+Concepts: [
+    {
+        "name": "Goggles",
+        "description": "Protective eyewear that guards the eye area against flying debris and chemical splashes."
+    },
+    {
+        "name": "Minerals",
+        "description": "Naturally occurring, solid substances with a definite chemical composition and crystal structure."
+    },
+    {
+        "name": "Investigation",
+        "description": "The action of thoroughly examining a subject in order to learn or discover information."
+    },
+    {
+        "name": "Hammers",
+        "description": "Tools typically used to deliver an impact to an object."
+    },
+    {
+        "name": "Safety",
+        "description": "The condition of being protected from or unlikely to cause danger, risk, or injury."
+    },
+    {
+        "name": "Purpose",
+        "description": "The reason for which something is done or created or for which something exists."
+    },
+    {
+        "name": "Drawings of the breaks",
+        "description": "Visual representations of how minerals break when struck with hammers."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Goggles",
+        "relationship": "mitigate",
+        "related_concept": "Safety",
+        "description": "Wearing goggles mitigates safety risks during activities that could injure the eyes."
+    },
+    {
+        "concept": "Hammers",
+        "relationship": "used for",
+        "related_concept": "Investigation",
+        "description": "Hammers are used to strike minerals during the investigation to observe how they break."
+    },
+    {
+        "concept": "Minerals",
+        "relationship": "subject of",
+        "related_concept": "Investigation",
+        "description": "Minerals are the subjects being investigated to see how they break under force."
+    },
+    {
+        "concept": "Investigation",
+        "relationship": "requires",
+        "related_concept": "Purpose",
+        "description": "The investigation requires a clear purpose to guide the process and outcomes."
+    },
+    {
+        "concept": "Investigation",
+        "relationship": "results in",
+        "related_concept": "Drawings of the breaks",
+        "description": "The investigation results in the creation of drawings that document how minerals break."
+    }
+]
+
+Model Answer: {
+    "answer": "Is everyone wearing goggles?",
+    "reasoning": "The most likely question a teacher would ask before starting an experiment involving hammers and minerals, focuses on safety. Given the potential for eye injury from flying debris or shards, ensuring that everyone is wearing goggles directly addresses the safety concern, mitigating risks associated with the investigation. This is based on the concept where goggles are directly related to maintaining safety in scenarios where eye injuries could occur. Safety is a prerequisite before engaging in practical investigations, particularly those involving tools that could lead to injury."
+}

@@ -1,0 +1,141 @@
+Key: ACTAAP_2009_7_14
+
+Question: Which nongaseous compound can be made from two elements that are gases at room temperature?
+Options: ['water', 'table salt', 'iron oxide', 'carbon dioxide']
+Answer: water
+
+Model Response:
+Concepts: [
+    {
+        "name": "water",
+        "description": "A liquid compound made from hydrogen and oxygen."
+    },
+    {
+        "name": "table salt",
+        "description": "A solid compound composed of sodium and chlorine."
+    },
+    {
+        "name": "iron oxide",
+        "description": "A solid compound formed from iron and oxygen."
+    },
+    {
+        "name": "carbon dioxide",
+        "description": "A gaseous compound made from carbon and oxygen."
+    },
+    {
+        "name": "hydrogen",
+        "description": "A gas that is a chemical element with symbol H."
+    },
+    {
+        "name": "oxygen",
+        "description": "A gas that is a chemical element with symbol O."
+    },
+    {
+        "name": "sodium",
+        "description": "A solid metal that is a chemical element with symbol Na."
+    },
+    {
+        "name": "chlorine",
+        "description": "A gas that is a chemical element with symbol Cl."
+    },
+    {
+        "name": "iron",
+        "description": "A solid metal that is a chemical element with symbol Fe."
+    },
+    {
+        "name": "carbon",
+        "description": "A solid nonmetal that is a chemical element with symbol C."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "water",
+        "relationship": "composed of",
+        "related_concept": "hydrogen",
+        "description": "Water is made of hydrogen and another element."
+    },
+    {
+        "concept": "water",
+        "relationship": "composed of",
+        "related_concept": "oxygen",
+        "description": "Water is made of oxygen and another element."
+    },
+    {
+        "concept": "table salt",
+        "relationship": "composed of",
+        "related_concept": "sodium",
+        "description": "Table salt is made of sodium and another element."
+    },
+    {
+        "concept": "table salt",
+        "relationship": "composed of",
+        "related_concept": "chlorine",
+        "description": "Table salt is made of chlorine and another element."
+    },
+    {
+        "concept": "iron oxide",
+        "relationship": "composed of",
+        "related_concept": "iron",
+        "description": "Iron oxide is made of iron and another element."
+    },
+    {
+        "concept": "iron oxide",
+        "relationship": "composed of",
+        "related_concept": "oxygen",
+        "description": "Iron oxide is made of oxygen and another element."
+    },
+    {
+        "concept": "carbon dioxide",
+        "relationship": "composed of",
+        "related_concept": "carbon",
+        "description": "Carbon dioxide is made of carbon and another element."
+    },
+    {
+        "concept": "carbon dioxide",
+        "relationship": "composed of",
+        "related_concept": "oxygen",
+        "description": "Carbon dioxide is made of oxygen and another element."
+    },
+    {
+        "concept": "hydrogen",
+        "relationship": "state at room temperature",
+        "related_concept": "gas",
+        "description": "Hydrogen is a gas at room temperature."
+    },
+    {
+        "concept": "oxygen",
+        "relationship": "state at room temperature",
+        "related_concept": "gas",
+        "description": "Oxygen is a gas at room temperature."
+    },
+    {
+        "concept": "chlorine",
+        "relationship": "state at room temperature",
+        "related_concept": "gas",
+        "description": "Chlorine is a gas at room temperature."
+    },
+    {
+        "concept": "sodium",
+        "relationship": "state at room temperature",
+        "related_concept": "solid",
+        "description": "Sodium is a solid at room temperature."
+    },
+    {
+        "concept": "iron",
+        "relationship": "state at room temperature",
+        "related_concept": "solid",
+        "description": "Iron is a solid at room temperature."
+    },
+    {
+        "concept": "carbon",
+        "relationship": "state at room temperature",
+        "related_concept": "solid",
+        "description": "Carbon is a solid at room temperature."
+    }
+]
+
+Model Answer: {
+    "answer": "water",
+    "reasoning": "Among the options, water is the only compound made from two elements, hydrogen and oxygen, which are gases at room temperature. This conclusion follows from understanding the components of each of the options and their individual states at room temperature."
+}

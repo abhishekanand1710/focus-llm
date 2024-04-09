@@ -1,0 +1,81 @@
+Key: Mercury_SC_407397
+
+Question: A farmer wants to know if adding fertilizer to his field will make his crops healthier. Which activity should the farmer do first?
+Options: ['Plant different crops in a nearby fertilized field.', 'Water the crops in the field before adding fertilizers.', 'Add many different fertilizers to the field at once.', 'Record the appearance of the crops before fertilizing.']
+Answer: Record the appearance of the crops before fertilizing.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Fertilizer",
+        "description": "Substances added to soil to enhance the growth of plants."
+    },
+    {
+        "name": "Crops",
+        "description": "Plants that are grown for food, fiber, or other uses."
+    },
+    {
+        "name": "Healthy Crops",
+        "description": "Crops that are growing well, free from disease and pests, and yielding high-quality produce."
+    },
+    {
+        "name": "Recording Appearance",
+        "description": "Documenting the initial state of something before making changes, to compare before and after effects."
+    },
+    {
+        "name": "Watering Crops",
+        "description": "Applying water to soil to meet the water needs of growing plants."
+    },
+    {
+        "name": "Different Fertilizers",
+        "description": "Various types of substances used to enrich soil and enhance plant growth."
+    },
+    {
+        "name": "Planting Different Crops",
+        "description": "Sowing various types of plants for experimentation or diversification."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Fertilizer",
+        "relationship": "improves growth of",
+        "related_concept": "Crops",
+        "description": "Fertilizers are applied to soil to enhance the growth and health of crops."
+    },
+    {
+        "concept": "Crops",
+        "relationship": "become",
+        "related_concept": "Healthy Crops",
+        "description": "The goal of fertilizing and proper care is to cultivate healthy crops."
+    },
+    {
+        "concept": "Recording Appearance",
+        "relationship": "enables comparison with",
+        "related_concept": "Healthy Crops",
+        "description": "Recording the initial appearance allows for comparing changes post-intervention."
+    },
+    {
+        "concept": "Watering Crops",
+        "relationship": "supports growth of",
+        "related_concept": "Crops",
+        "description": "Water is essential for the survival and growth of crops."
+    },
+    {
+        "concept": "Different Fertilizers",
+        "relationship": "offer varied nutrients to",
+        "related_concept": "Crops",
+        "description": "Different types of fertilizers can supply different nutrients to crops."
+    },
+    {
+        "concept": "Planting Different Crops",
+        "relationship": "increases diversity among",
+        "related_concept": "Crops",
+        "description": "Planting different crops increases agricultural diversity."
+    }
+]
+
+Model Answer: {
+    "answer": "Record the appearance of the crops before fertilizing.",
+    "reasoning": "Recording the appearance of the crops before any intervention provides a baseline for comparison. This method allows the farmer to assess the specific impact of adding fertilizer on the health and growth of his crops, by comparing their condition before and after fertilization. It is a crucial first step to scientifically evaluate the effectiveness of adding fertilizer."
+}

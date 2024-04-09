@@ -1,0 +1,77 @@
+Key: Mercury_SC_400123
+
+Question: Sea stars are consumers that live in a tide pool ecosystem that is alternately submerged and exposed by tides. This type of ecosystem contains poisonous anemones and many species of shellfish. The sea star's advantage in this ecosystem is that it can
+Options: ['pry open shells.', 'produce a tiny light.', 'move quickly along the sea bottom.', 'survive the pressurized atmosphere of deep water.']
+Answer: pry open shells.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Sea stars",
+        "description": "Marine invertebrates that are key predators in many undersea environments."
+    },
+    {
+        "name": "Tide pool ecosystem",
+        "description": "Rocky coastal pools of seawater that remain after the tide goes out, featuring diverse and adaptable organisms."
+    },
+    {
+        "name": "Submerged and exposed by tides",
+        "description": "Condition of being underwater at high tides and exposed to air at low tides."
+    },
+    {
+        "name": "Poisonous anemones",
+        "description": "Sea anemones that contain toxins, posing a threat to certain marine organisms."
+    },
+    {
+        "name": "Shellfish",
+        "description": "Aquatic shelled animals such as clams, oysters, and mussels that often inhabit tide pools."
+    },
+    {
+        "name": "Pry open shells",
+        "description": "The action of applying force to open the hard, protective outer shells of some sea animals."
+    },
+    {
+        "name": "Produce a tiny light",
+        "description": "Bioluminescence, a biological phenomenon in some marine organisms for a variety of purposes, including predation and mating."
+    },
+    {
+        "name": "Move quickly along the sea bottom",
+        "description": "A method of locomotion some sea creatures use to navigate the sea floor, either for hunting or escaping predators."
+    },
+    {
+        "name": "Survive the pressurized atmosphere of deep water",
+        "description": "Adaptation of certain marine animals allowing them to withstand the high pressure of deep-sea environments."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Sea stars",
+        "relationship": "live in",
+        "related_concept": "Tide pool ecosystem",
+        "description": "Sea stars are among the organisms found in tide pool ecosystems."
+    },
+    {
+        "concept": "Tide pool ecosystem",
+        "relationship": "contains",
+        "related_concept": "Poisonous anemones",
+        "description": "Tide pools can contain organisms like poisonous anemones."
+    },
+    {
+        "concept": "Tide pool ecosystem",
+        "relationship": "contains",
+        "related_concept": "Shellfish",
+        "description": "Tide pools commonly house shellfish among their inhabitants."
+    },
+    {
+        "concept": "Sea stars",
+        "relationship": "utilize ability to",
+        "related_concept": "Pry open shells",
+        "description": "Sea stars have the ability to pry open shells of prey like shellfish."
+    }
+]
+
+Model Answer: {
+    "answer": "pry open shells.",
+    "reasoning": "Sea stars in tide pool ecosystems, where they encounter shellfish as part of their natural habitat, possess the specialized ability to pry open the hard shells of these organisms to feed on them. This capability directly relates to their survival and predatory strategies within such ecosystems, setting apart 'pry open shells' as their distinct advantage among the options provided."
+}

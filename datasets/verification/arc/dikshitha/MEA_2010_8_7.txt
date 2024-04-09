@@ -1,0 +1,57 @@
+Key: MEA_2010_8_7
+
+Question: Which of the following is the farthest from Earth?
+Options: ["Halley's comet", 'the Andromeda galaxy', 'Neptune', 'the Sun']
+Answer: the Andromeda galaxy
+
+Model Response:
+Concepts: [
+    {
+        "name": "Halley's comet",
+        "description": "A short-period comet visible from Earth every 75-76 years."
+    },
+    {
+        "name": "the Andromeda galaxy",
+        "description": "A spiral galaxy approximately 2.537 million light-years from Earth."
+    },
+    {
+        "name": "Neptune",
+        "description": "The eighth planet from the Sun in our solar system."
+    },
+    {
+        "name": "the Sun",
+        "description": "The star at the center of the Solar System, around which Earth and other planets revolve."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Halley's comet",
+        "relationship": "is closer to Earth than",
+        "related_concept": "the Andromeda galaxy",
+        "description": "Halley's comet is within our solar system, making it much closer to Earth than the Andromeda galaxy."
+    },
+    {
+        "concept": "Neptune",
+        "relationship": "is closer to Earth than",
+        "related_concept": "the Andromeda galaxy",
+        "description": "Neptune, as a planet within our solar system, is far closer to Earth than the Andromeda galaxy."
+    },
+    {
+        "concept": "the Sun",
+        "relationship": "is closer to Earth than",
+        "related_concept": "the Andromeda galaxy",
+        "description": "The Sun, being the center of our solar system, is significantly closer to Earth than the Andromeda galaxy."
+    },
+    {
+        "concept": "the Andromeda galaxy",
+        "relationship": "is farther from Earth than",
+        "related_concept": "Halley's comet, Neptune, the Sun",
+        "description": "The Andromeda galaxy, being 2.537 million light-years away, is the farthest entity from Earth among the options."
+    }
+]
+
+Model Answer: {
+    "answer": "the Andromeda galaxy",
+    "reasoning": "The Andromeda galaxy is approximately 2.537 million light-years away from Earth, making it the farthest option when compared to Halley's comet, Neptune, and the Sun, each of which resides within our own solar system or in the case of Neptune and the Sun, are part of it."
+}

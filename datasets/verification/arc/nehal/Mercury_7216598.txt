@@ -1,0 +1,61 @@
+Key: Mercury_7216598
+
+Question: Which phrase does not describe asexual reproduction in organisms?
+Options: ['requires two parents', 'little variation in offspring', 'only one type of cell involved', 'duplicates its genetic material']
+Answer: requires two parents
+
+Model Response:
+Concepts: [
+    {
+        "name": "asexual reproduction",
+        "description": "A mode of reproduction in which offspring arise from a single organism, inheriting the genes of that parent only"
+    },
+    {
+        "name": "requires two parents",
+        "description": "A characteristic of sexual reproduction where two organisms contribute genetic material to produce offspring"
+    },
+    {
+        "name": "little variation in offspring",
+        "description": "Offspring closely resemble their parent due to identical genetic material being passed on"
+    },
+    {
+        "name": "only one type of cell involved",
+        "description": "Refers to the involvement of a single parent cell in reproductive processes"
+    },
+    {
+        "name": "duplicates its genetic material",
+        "description": "The process where an organism's genetic material is copied before cell division"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "asexual reproduction",
+        "relationship": "does not involve",
+        "related_concept": "requires two parents",
+        "description": "Asexual reproduction involves only one parent, contrasting with the need for two parents in sexual reproduction"
+    },
+    {
+        "concept": "asexual reproduction",
+        "relationship": "results in",
+        "related_concept": "little variation in offspring",
+        "description": "Offspring produced via asexual reproduction inherit identical genetic material from the single parent, leading to minimal genetic variation"
+    },
+    {
+        "concept": "asexual reproduction",
+        "relationship": "involves",
+        "related_concept": "only one type of cell involved",
+        "description": "A single cell from one parent is involved in asexual reproduction processes"
+    },
+    {
+        "concept": "asexual reproduction",
+        "relationship": "entails",
+        "related_concept": "duplicates its genetic material",
+        "description": "Asexual reproduction requires the parent's genetic material to be duplicated before being passed on to the offspring"
+    }
+]
+
+Model Answer: {
+    "answer": "requires two parents",
+    "reasoning": "The phrase 'requires two parents' does not describe asexual reproduction, as asexual reproduction is characterized by the involvement of only one parent and not the need for two parents contributing genetic material. The other options are characteristics inherent to asexual reproduction processes, such as minimal variation in offspring due to the exact duplication of genetic material from a single parent, the involvement of one type of cell, and the necessity for the organism to duplicate its genetic material before reproduction."
+}

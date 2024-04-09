@@ -1,0 +1,87 @@
+Key: Mercury_SC_408368
+
+Question: James put some water in a pan. He put the pan on a stove and turned the stove on low. What will happen to the water?
+Options: ['The water will melt.', 'The water will evaporate.', 'The water will form a solid.', 'The water will condense into tiny droplets.']
+Answer: The water will evaporate.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water",
+        "description": "A transparent, odorless, tasteless liquid, a compound of hydrogen and oxygen"
+    },
+    {
+        "name": "Pan",
+        "description": "A metal or plastic container used for cooking food in"
+    },
+    {
+        "name": "Stove",
+        "description": "An appliance used for cooking food by applying heat directly"
+    },
+    {
+        "name": "Heat",
+        "description": "A form of energy that is transferred by a difference in temperature"
+    },
+    {
+        "name": "Evaporation",
+        "description": "The process of turning from liquid into vapor"
+    },
+    {
+        "name": "Solid",
+        "description": "One of the states of matter characterized by particles arranged such that their shape and volume are relatively stable"
+    },
+    {
+        "name": "Condensation",
+        "description": "The conversion of a vapor or gas to a liquid"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Water",
+        "relationship": "contained in",
+        "related_concept": "Pan",
+        "description": "Water is put into the pan"
+    },
+    {
+        "concept": "Pan",
+        "relationship": "placed on",
+        "related_concept": "Stove",
+        "description": "The pan with water is placed on the stove"
+    },
+    {
+        "concept": "Stove",
+        "relationship": "heats",
+        "related_concept": "Pan",
+        "description": "The stove applies heat to the pan"
+    },
+    {
+        "concept": "Heat",
+        "relationship": "applied to",
+        "related_concept": "Water",
+        "description": "Heat from the stove causes changes to the water in the pan"
+    },
+    {
+        "concept": "Water",
+        "relationship": "undergoes",
+        "related_concept": "Evaporation",
+        "description": "When heated, water turns into vapor, a process called evaporation"
+    },
+    {
+        "concept": "Heat",
+        "relationship": "does not cause",
+        "related_concept": "Solid",
+        "description": "Heating water does not make it form a solid"
+    },
+    {
+        "concept": "Heat",
+        "relationship": "reduces",
+        "related_concept": "Condensation",
+        "description": "Applying heat to water will not cause it to condense into tiny droplets directly"
+    }
+]
+
+Model Answer: {
+    "answer": "The water will evaporate.",
+    "reasoning": "When James puts the pan on the stove and turns it on low, the heat from the stove heats the water in the pan. This heating process causes the water to undergo evaporation, gradually changing from a liquid state to vapor as it is heated."
+}

@@ -1,0 +1,61 @@
+Key: ACTAAP_2011_5_15
+
+Question: Which occurs as the kinetic energy of water molecules increases?
+Options: ['Water vapor becomes ice.', 'Liquid water becomes ice.', 'Water vapor becomes liquid water.', 'Liquid water becomes water vapor.']
+Answer: Liquid water becomes water vapor.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Kinetic Energy",
+        "description": "The energy an object possesses due to its motion"
+    },
+    {
+        "name": "Water Vapor",
+        "description": "Water in its gaseous state"
+    },
+    {
+        "name": "Ice",
+        "description": "Water in its solid state"
+    },
+    {
+        "name": "Liquid Water",
+        "description": "Water in its liquid state"
+    },
+    {
+        "name": "Phase Transition",
+        "description": "The transformation of a substance from one state of matter to another"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Kinetic Energy",
+        "relationship": "increase leads to",
+        "related_concept": "Phase Transition",
+        "description": "An increase in kinetic energy can induce a phase transition"
+    },
+    {
+        "concept": "Liquid Water",
+        "relationship": "becomes",
+        "related_concept": "Water Vapor",
+        "description": "Liquid water becomes water vapor during vaporization, which is induced by an increase in kinetic energy"
+    },
+    {
+        "concept": "Water Vapor",
+        "relationship": "result of",
+        "related_concept": "Kinetic Energy increase",
+        "description": "Water vapor is the result of an increase in kinetic energy causing liquid water to vaporize"
+    },
+    {
+        "concept": "Ice",
+        "relationship": "not directly related to",
+        "related_concept": "Kinetic Energy increase",
+        "description": "Transition directly from ice is not induced by an increase in the kinetic energy of water molecules in the context of heating"
+    }
+]
+
+Model Answer: {
+    "answer": "Liquid water becomes water vapor.",
+    "reasoning": "As the kinetic energy of water molecules increases, the molecules move faster, overcoming their intermolecular forces and transitioning from liquid to gaseous state. This process describes the phase change from liquid water to water vapor, which is supported by the relationship between kinetic energy increase and phase transition."
+}

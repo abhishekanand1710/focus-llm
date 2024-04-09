@@ -1,0 +1,61 @@
+Key: Mercury_LBS10444
+
+Question: The average distance between Earth and the Sun is 149,600,000 kilometers. Which of the following is the correct scientific notation for this distance?
+Options: ['1.496 x 10^3 km', '1496 x 10^5', '149.6 x 10^6 km', '1.496 x 10^8 km']
+Answer: 1.496 x 10^8 km
+
+Model Response:
+Concepts: [
+    {
+        "name": "Average distance between Earth and the Sun",
+        "description": "The mean or average distance from the center of Earth to the center of the Sun."
+    },
+    {
+        "name": "Kilometer",
+        "description": "Unit of length in the metric system, equal to one thousand meters."
+    },
+    {
+        "name": "Scientific notation",
+        "description": "A method of expressing numbers as a product of a coefficient and a power of 10."
+    },
+    {
+        "name": "Coefficient",
+        "description": "A numerical or constant quantity placed before and multiplying the variable in an algebraic expression (in scientific notation, this refers to the number like 1.496)."
+    },
+    {
+        "name": "Power of 10",
+        "description": "An expression for numbers in the form of 10 raised to the power of an exponent."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Average distance between Earth and the Sun",
+        "relationship": "is measured in",
+        "related_concept": "Kilometer",
+        "description": "The distance from Earth to the Sun is quantified using kilometers as the unit of measure."
+    },
+    {
+        "concept": "Scientific notation",
+        "relationship": "uses",
+        "related_concept": "Coefficient",
+        "description": "Scientific notation expresses numbers using a coefficient multiplied by a power of 10."
+    },
+    {
+        "concept": "Scientific notation",
+        "relationship": "uses",
+        "related_concept": "Power of 10",
+        "description": "Scientific notation also utilizes powers of 10 to represent large or small numbers efficiently."
+    },
+    {
+        "concept": "Kilometer",
+        "relationship": "can be expressed in",
+        "related_concept": "Scientific notation",
+        "description": "Distances, such as those measured in kilometers, can be represented using scientific notation for clarity and simplicity."
+    }
+]
+
+Model Answer: {
+    "answer": "1.496 x 10^8 km",
+    "reasoning": "The average distance between Earth and the Sun is 149,600,000 kilometers. To convert this number into scientific notation, we need to express it as a product of a number between 1 and 10 and a power of 10. The correct conversion moves the decimal point 8 places to the left, making the coefficient 1.496 and representing the large number as 10 raised to the power of 8. Therefore, the correct scientific notation for this distance is '1.496 x 10^8 km'. Other options either do not correctly adjust the decimal place or incorrectly use powers of 10."
+}

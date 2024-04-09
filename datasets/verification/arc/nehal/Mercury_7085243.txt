@@ -1,0 +1,85 @@
+Key: Mercury_7085243
+
+Question: Which property of a mineral can be determined just by looking at it?
+Options: ['luster', 'mass', 'weight', 'hardness']
+Answer: luster
+
+Model Response:
+Concepts: [
+    {
+        "name": "luster",
+        "description": "The way a mineral reflects light from its surface."
+    },
+    {
+        "name": "mass",
+        "description": "The amount of matter in an object, typically measured in grams or kilograms."
+    },
+    {
+        "name": "weight",
+        "description": "The force exerted by the mass of an object due to gravity."
+    },
+    {
+        "name": "hardness",
+        "description": "A measure of how resistant a mineral is to being scratched."
+    },
+    {
+        "name": "Mineral",
+        "description": "A naturally occurring, inorganic solid with a definite chemical composition and a crystalline structure."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Mineral",
+        "relationship": "has_property",
+        "related_concept": "luster",
+        "description": "Minerals possess luster as a characteristic property reflecting light."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "has_property",
+        "related_concept": "mass",
+        "description": "Minerals have mass as a physical property representing the amount of matter."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "subject_to",
+        "related_concept": "weight",
+        "description": "The weight of a mineral is influenced by gravity acting on its mass."
+    },
+    {
+        "concept": "Mineral",
+        "relationship": "has_property",
+        "related_concept": "hardness",
+        "description": "Minerals are characterized by their hardness, indicating resistance to scratching."
+    },
+    {
+        "concept": "luster",
+        "relationship": "observable_by",
+        "related_concept": "Human Observation",
+        "description": "Luster is a property of minerals that can be determined by visually observing how they reflect light."
+    },
+    {
+        "concept": "mass",
+        "relationship": "requires_measurement",
+        "related_concept": "Scale",
+        "description": "Determining the mass of a mineral requires using a scale or balance."
+    },
+    {
+        "concept": "weight",
+        "relationship": "requires_measurement",
+        "related_concept": "Scale",
+        "description": "Weight is determined by measuring the force due to gravity on a mineral, requiring a scale."
+    },
+    {
+        "concept": "hardness",
+        "relationship": "requires_testing",
+        "related_concept": "Scratch Test",
+        "description": "Hardness is assessed by scratching the mineral with reference materials or tools."
+    }
+]
+
+Model Answer: {
+    "answer": "luster",
+    "reasoning": "Luster is the property of a mineral that can be determined simply by looking at it, as it relates to how a mineral reflects light from its surface. This visual characteristic does not require any physical measurements or tools like scales or scratch tests, which are necessary to determine mass, weight, and hardness, respectively. Therefore, luster is the correct choice among the given options."
+}

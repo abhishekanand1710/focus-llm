@@ -1,0 +1,69 @@
+Key: MEA_2016_5_1
+
+Question: What is the main source of heat for Earth's surface?
+Options: ['fire', 'lightning', 'the Sun', 'the ocean']
+Answer: the Sun
+
+Model Response:
+Concepts: [
+    {
+        "name": "fire",
+        "description": "A process of combustion characterized by heat, light, and the presence of flame."
+    },
+    {
+        "name": "lightning",
+        "description": "A sudden electrostatic discharge during a thunderstorm between electrically charged regions of a cloud, between two clouds, or between a cloud and the ground."
+    },
+    {
+        "name": "the Sun",
+        "description": "The star at the center of the Solar System, which is the primary source of light and heat for the planets within it."
+    },
+    {
+        "name": "the ocean",
+        "description": "A vast body of saline water that covers approximately 70% of Earth's surface and plays a key role in the planet's climate and weather patterns."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "fire",
+        "relationship": "provides",
+        "related_concept": "heat",
+        "description": "Fire releases heat through combustion."
+    },
+    {
+        "concept": "lightning",
+        "relationship": "produces",
+        "related_concept": "heat",
+        "description": "Lightning produces intense heat when it occurs."
+    },
+    {
+        "concept": "the Sun",
+        "relationship": "emits",
+        "related_concept": "light and heat",
+        "description": "The Sun emits light and heat which is essential for life on Earth."
+    },
+    {
+        "concept": "the ocean",
+        "relationship": "absorbs",
+        "related_concept": "heat",
+        "description": "The ocean absorbs heat from the Sun, influencing global climate and weather patterns."
+    },
+    {
+        "concept": "heat",
+        "relationship": "warms",
+        "related_concept": "Earth's surface",
+        "description": "Heat from various sources warms Earth's surface."
+    },
+    {
+        "concept": "light",
+        "relationship": "is converted to",
+        "related_concept": "heat",
+        "description": "Light from the Sun can be converted into heat when it interacts with Earth's surface."
+    }
+]
+
+Model Answer: {
+    "answer": "the Sun",
+    "reasoning": "The Sun is the primary source of light and heat for Earth, essential for maintaining the planet's temperature and supporting life. While other options like fire, lightning, and the ocean do involve heat transfer, they are either localized phenomena or play a role in distributing rather than generating the planet's primary heat source. Thus, the Sun is the main source of heat for Earth's surface, as it emits light and heat that warms the planet."
+}

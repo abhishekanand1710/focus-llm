@@ -1,0 +1,61 @@
+Key: Mercury_7090773
+
+Question: Carbon dioxide emissions have increased due to large numbers of automobiles and increased industrialization. Which of the following has been most affected by the increase in carbon dioxide levels?
+Options: ['the ability of farmers to plant crops', 'the ability of scientists to study other planets', 'the ability of Earth to continue recycling rocks', 'the ability of Earth to maintain lower temperatures']
+Answer: the ability of Earth to maintain lower temperatures
+
+Model Response:
+Concepts: [
+    {
+        "name": "Carbon dioxide emissions",
+        "description": "Release of CO2 into the atmosphere, majorly from burning fossil fuels"
+    },
+    {
+        "name": "Automobiles",
+        "description": "Vehicles powered by internal combustion engines, significant contributors to CO2 emissions"
+    },
+    {
+        "name": "Industrialization",
+        "description": "The development of industries in a country or region on a wide scale"
+    },
+    {
+        "name": "Ability of Earth to maintain lower temperatures",
+        "description": "Earth's capacity to keep its surface and atmospheric temperatures within certain lower boundaries"
+    },
+    {
+        "name": "Global warming",
+        "description": "The long-term heating of Earth\u2019s climate system observed since the pre-industrial period due to human activities"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Carbon dioxide emissions",
+        "relationship": "increased by",
+        "related_concept": "Automobiles",
+        "description": "Usage of automobiles increases CO2 emissions"
+    },
+    {
+        "concept": "Carbon dioxide emissions",
+        "relationship": "increased by",
+        "related_concept": "Industrialization",
+        "description": "Industrial activities contribute to increased CO2 emissions"
+    },
+    {
+        "concept": "Carbon dioxide emissions",
+        "relationship": "leads to",
+        "related_concept": "Global warming",
+        "description": "Increased CO2 levels in the atmosphere contribute to global warming"
+    },
+    {
+        "concept": "Global warming",
+        "relationship": "reduces",
+        "related_concept": "Ability of Earth to maintain lower temperatures",
+        "description": "Global warming leads to higher average temperatures, impacting Earth's ability to maintain lower temperatures"
+    }
+]
+
+Model Answer: {
+    "answer": "the ability of Earth to maintain lower temperatures",
+    "reasoning": "The increase in carbon dioxide levels, primarily due to automobiles and industrialization, contributes directly to global warming, which in turn reduces the ability of Earth to maintain lower temperatures. This is because higher levels of CO2 in the atmosphere trap more heat, leading to an increase in Earth's average temperature."
+}

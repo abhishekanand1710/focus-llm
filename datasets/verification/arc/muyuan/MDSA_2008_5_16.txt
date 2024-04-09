@@ -1,0 +1,81 @@
+Key: MDSA_2008_5_16
+
+Question: A student leaves a bucket of water outside on a warm, sunny day. Which process most likely happens to the water in the bucket?
+Options: ['melting', 'freezing', 'evaporation', 'condensation']
+Answer: evaporation
+
+Model Response:
+Concepts: [
+    {
+        "name": "Water",
+        "description": "A clear, transparent, odorless, and tasteless liquid essential for life."
+    },
+    {
+        "name": "Evaporation",
+        "description": "The process by which water turns from a liquid into a vapor."
+    },
+    {
+        "name": "Warm, sunny day",
+        "description": "Weather conditions characterized by sunshine and higher temperatures."
+    },
+    {
+        "name": "Melting",
+        "description": "The process of turning solid into liquid due to heat."
+    },
+    {
+        "name": "Freezing",
+        "description": "The process by which a liquid turns into a solid when cold."
+    },
+    {
+        "name": "Condensation",
+        "description": "The process by which water vapor turns into liquid water."
+    },
+    {
+        "name": "Bucket",
+        "description": "A container used to hold or carry liquids."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Warm, sunny day",
+        "relationship": "increases",
+        "related_concept": "Evaporation",
+        "description": "Warm, sunny weather increases the rate of evaporation of water."
+    },
+    {
+        "concept": "Water",
+        "relationship": "undergoes",
+        "related_concept": "Evaporation",
+        "description": "Water undergoes evaporation under warm conditions, turning from liquid to vapor."
+    },
+    {
+        "concept": "Bucket",
+        "relationship": "contains",
+        "related_concept": "Water",
+        "description": "The bucket serves as a container for the water."
+    },
+    {
+        "concept": "Evaporation",
+        "relationship": "opposite of",
+        "related_concept": "Condensation",
+        "description": "Evaporation is the process of liquid turning into gas, which is the opposite of condensation."
+    },
+    {
+        "concept": "Melting",
+        "relationship": "not applicable",
+        "related_concept": "Water",
+        "description": "Melting does not apply as water is already in its liquid state at warm temperatures."
+    },
+    {
+        "concept": "Freezing",
+        "relationship": "not applicable",
+        "related_concept": "Warm, sunny day",
+        "description": "Freezing does not occur under warm, sunny conditions."
+    }
+]
+
+Model Answer: {
+    "answer": "evaporation",
+    "reasoning": "On a warm, sunny day, the heat increases the water's temperature, enhancing the evaporation process where water turns from liquid into vapor. This is consistent with the basic principles of how water reacts to warm conditions and sunlight exposure."
+}

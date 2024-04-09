@@ -1,0 +1,81 @@
+Key: Mercury_SC_412698
+
+Question: One type of cold remedy is an effervescent tablet that breaks down in water. When the tablet is placed in water, it forms gas bubbles. In this example, the formation of a gas
+Options: ['is a physical property.', 'occurs when adding water to acid.', 'is a sign of a chemical change.', 'occurs when the water boils.']
+Answer: is a sign of a chemical change.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Effervescent tablet",
+        "description": "A tablet designed to dissolve in water, releasing carbon dioxide."
+    },
+    {
+        "name": "Physical property",
+        "description": "Characteristic of a material that can be observed without changing the substance itself."
+    },
+    {
+        "name": "Chemical change",
+        "description": "A process where one or more substances are altered into one or more new and different substances."
+    },
+    {
+        "name": "Gas bubbles",
+        "description": "Bubbles formed by the release of gas in a liquid."
+    },
+    {
+        "name": "Water",
+        "description": "A liquid at room temperature and essential for most forms of life."
+    },
+    {
+        "name": "Acid",
+        "description": "A substance that increases the hydrogen ion concentration in a solution."
+    },
+    {
+        "name": "Boiling",
+        "description": "The rapid vaporization of a liquid, which occurs when a liquid is heated to its boiling point."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Effervescent tablet",
+        "relationship": "dissolves in",
+        "related_concept": "Water",
+        "description": "The effervescent tablet dissolves when placed in water."
+    },
+    {
+        "concept": "Effervescent tablet",
+        "relationship": "produces",
+        "related_concept": "Gas bubbles",
+        "description": "Dissolving the effervescent tablet in water produces gas bubbles."
+    },
+    {
+        "concept": "Gas bubbles",
+        "relationship": "indicates",
+        "related_concept": "Chemical change",
+        "description": "The formation of gas bubbles is an indication of a chemical change."
+    },
+    {
+        "concept": "Chemical change",
+        "relationship": "is different from",
+        "related_concept": "Physical property",
+        "description": "A chemical change is a process that changes substances into different substances, unlike a physical property."
+    },
+    {
+        "concept": "Acid",
+        "relationship": "reacts with",
+        "related_concept": "Water",
+        "description": "Adding water to acid describes a specific chemical reaction."
+    },
+    {
+        "concept": "Water",
+        "relationship": "undergoes",
+        "related_concept": "Boiling",
+        "description": "Water boils under sufficient temperature, becoming vapor."
+    }
+]
+
+Model Answer: {
+    "answer": "is a sign of a chemical change.",
+    "reasoning": "The formation of gas bubbles when an effervescent tablet dissolves in water indicates a chemical change, as new substances (gas in this case) are produced. This process involves a chemical reaction between the substances in the tablet and water, different from physical properties or boiling, which do not involve the formation of new substances."
+}

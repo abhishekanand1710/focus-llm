@@ -1,0 +1,67 @@
+Key: VASoL_2007_3_13
+
+Question: Which of these is an example of liquid water?
+Options: ['Frost', 'Ice', 'Rain', 'Steam']
+Answer: Rain
+
+Model Response:
+Concepts: [
+    {
+        "name": "Frost",
+        "description": "Frozen water vapor on surfaces, solid state of water."
+    },
+    {
+        "name": "Ice",
+        "description": "Frozen water, solid state."
+    },
+    {
+        "name": "Rain",
+        "description": "Water condensed from atmospheric vapor and falling in drops, liquid state."
+    },
+    {
+        "name": "Steam",
+        "description": "Water vapor, gaseous state of water."
+    },
+    {
+        "name": "Liquid Water",
+        "description": "Water in its liquid state, which is fluid and shape-adaptive to its container."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Frost",
+        "relationship": "is a form of",
+        "related_concept": "Water",
+        "description": "Frost is a solid state of water occurring at cold temperatures."
+    },
+    {
+        "concept": "Ice",
+        "relationship": "is a form of",
+        "related_concept": "Water",
+        "description": "Ice is water frozen into a solid state."
+    },
+    {
+        "concept": "Rain",
+        "relationship": "is a form of",
+        "related_concept": "Water",
+        "description": "Rain is liquid water falling from the sky."
+    },
+    {
+        "concept": "Steam",
+        "relationship": "is a form of",
+        "related_concept": "Water",
+        "description": "Steam is the gaseous state of water, usually formed from boiling."
+    },
+    {
+        "concept": "Liquid Water",
+        "relationship": "is exemplified by",
+        "related_concept": "Rain",
+        "description": "Liquid water is exemplified in nature by rain, among other forms."
+    }
+]
+
+Model Answer: {
+    "answer": "Rain",
+    "reasoning": "Among the options provided, 'Rain' is an example of liquid water. It represents water in its liquid state, falling from the atmosphere to the earth, as opposed to frost and ice which are solid states of water, and steam which is the gaseous state."
+}

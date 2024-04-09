@@ -1,0 +1,77 @@
+Key: Mercury_7228043
+
+Question: The attachment of methyl radicals to genes helps regulate which property?
+Options: ['information genes store', 'mode of gene inheritance', 'gene expression', 'gene coding system']
+Answer: gene coding system
+
+Model Response:
+Concepts: [
+    {
+        "name": "Methyl radicals",
+        "description": "Methyl groups attached to DNA that can affect gene activity without changing the DNA sequence."
+    },
+    {
+        "name": "Genes",
+        "description": "Segments of DNA that contain instructions for building proteins and influencing an organism's traits."
+    },
+    {
+        "name": "Gene expression",
+        "description": "The process by which information from a gene is used to direct the synthesis of a functional gene product, often protein."
+    },
+    {
+        "name": "Information genes store",
+        "description": "The genetic instructions used in the growth and functioning of an organism."
+    },
+    {
+        "name": "Mode of gene inheritance",
+        "description": "How genetic traits are passed from parents to offspring through genes."
+    },
+    {
+        "name": "Gene coding system",
+        "description": "Refers to the way DNA sequences are translated into the amino acids of proteins."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Methyl radicals",
+        "relationship": "affect",
+        "related_concept": "Gene expression",
+        "description": "Methyl radicals attached to DNA can modulate gene expression without altering the DNA sequence."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "contain",
+        "related_concept": "Information genes store",
+        "description": "Genes are the basic unit of heredity that contain the genetic information for organismal development and functioning."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "influence",
+        "related_concept": "Gene expression",
+        "description": "The information contained in genes influences how and when proteins are made through the process of gene expression."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "determine",
+        "related_concept": "Mode of gene inheritance",
+        "description": "The genetic structure and information in genes determine the mode of inheritance for traits."
+    },
+    {
+        "concept": "Genes",
+        "relationship": "coded by",
+        "related_concept": "Gene coding system",
+        "description": "The gene coding system describes how the sequences in genes are transcribed and translated into proteins."
+    },
+    {
+        "concept": "Gene expression",
+        "relationship": "regulated by",
+        "related_concept": "Methyl radicals",
+        "description": "The attachment of methyl groups to DNA regulates the process of gene expression by activating or silencing genes."
+    }
+]
+
+Model Answer: {
+    "answer": "gene expression",
+    "reasoning": "The attachment of methyl radicals, or methyl groups, to genes plays a crucial role in regulating gene expression. This process affects how genes are turned on or off without altering the DNA sequence itself, influencing the synthesis of proteins based on the genetic information contained within the genes. It does not directly impact the information genes store, the mode of gene inheritance, or the gene coding system but rather how the expression of genes is controlled, thereby affecting protein synthesis and cell function."
+}

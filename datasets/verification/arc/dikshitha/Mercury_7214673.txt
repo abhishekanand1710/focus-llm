@@ -1,0 +1,69 @@
+Key: Mercury_7214673
+
+Question: Students recorded the initial and final temperatures of different-colored soils exposed to direct sunlight for three hours. The students want to compare the total temperature change for each soil color. Which of these formats would be the most appropriate for displaying the results of this investigation?
+Options: ['bar graph', 'line graph', 'pie chart', 'data table']
+Answer: bar graph
+
+Model Response:
+Concepts: [
+    {
+        "name": "bar graph",
+        "description": "A graphical display of data using bars of different heights"
+    },
+    {
+        "name": "line graph",
+        "description": "A graph that uses lines to connect data points to show changes over time"
+    },
+    {
+        "name": "pie chart",
+        "description": "A type of graph in which a circle is divided into sectors that each represent a proportion of the whole"
+    },
+    {
+        "name": "data table",
+        "description": "A structured representation of data in rows and columns"
+    },
+    {
+        "name": "soil color",
+        "description": "The visible color of soil, which can affect its thermal properties"
+    },
+    {
+        "name": "temperature change",
+        "description": "The difference in temperature over a period of time"
+    },
+    {
+        "name": "direct sunlight",
+        "description": "Sunlight that is unfiltered by clouds or other atmospheric conditions"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "temperature change",
+        "relationship": "affected by",
+        "related_concept": "soil color",
+        "description": "Different-colored soils may absorb and retain heat differently, affecting temperature change"
+    },
+    {
+        "concept": "temperature change",
+        "relationship": "measured in",
+        "related_concept": "data table",
+        "description": "A data table can record the numerical values of initial and final temperatures"
+    },
+    {
+        "concept": "temperature change",
+        "relationship": "compared using",
+        "related_concept": "bar graph",
+        "description": "A bar graph can visually represent and compare the temperature changes of different soil colors"
+    },
+    {
+        "concept": "soil color",
+        "relationship": "variable of study",
+        "related_concept": "direct sunlight",
+        "description": "The study focuses on how soil color affects temperature change under direct sunlight"
+    }
+]
+
+Model Answer: {
+    "answer": "bar graph",
+    "reasoning": "A bar graph is the most appropriate format for displaying the results of the investigation because it effectively compares the magnitude of temperature changes for each soil color visually. It represents each soil color as a different bar, making it easy to compare the total temperature change directly and visually amongst the soil colors. Unlike line graphs, which are better for showing trends over time, or pie charts, which are ideal for representing parts of a whole, bar graphs excel at comparing individual categories, in this case, soil colors, on a given metric, such as temperature change. Data tables are also useful for recording the exact measurements but do not visually compare the results as effectively as a bar graph."
+}

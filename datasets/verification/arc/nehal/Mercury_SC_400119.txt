@@ -1,0 +1,79 @@
+Key: Mercury_SC_400119
+
+Question: Which change will occur in the wire of an electrical circuit that is working properly?
+Options: ['The wire will become warmer.', 'The wire will lose some of its mass.', 'The wire will form an electric field.', 'The wire will develop a new crystal structure.']
+Answer: The wire will become warmer.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Electrical Circuit",
+        "description": "A path in which electrons from a voltage or current source flow"
+    },
+    {
+        "name": "Wire",
+        "description": "A conductor that allows the flow of electrical current in one or more directions"
+    },
+    {
+        "name": "Electric Current",
+        "description": "The flow of electric charge carried by moving electrons in a wire"
+    },
+    {
+        "name": "Resistance",
+        "description": "A measure of the opposition to the flow of current in an electrical circuit"
+    },
+    {
+        "name": "Heat",
+        "description": "A form of energy that is transferred by a difference in temperature"
+    },
+    {
+        "name": "Electric Field",
+        "description": "A region around a charged object where the object's electric charge affects other charged objects"
+    },
+    {
+        "name": "Crystal Structure",
+        "description": "The arrangement of atoms in a crystalline solid material"
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Electrical Circuit",
+        "relationship": "contains",
+        "related_concept": "Wire",
+        "description": "Electrical circuits contain wires to provide paths for the flow of electric current"
+    },
+    {
+        "concept": "Wire",
+        "relationship": "conducts",
+        "related_concept": "Electric Current",
+        "description": "Wires conduct electric current, allowing it to flow through an electrical circuit"
+    },
+    {
+        "concept": "Electric Current",
+        "relationship": "encounters",
+        "related_concept": "Resistance",
+        "description": "Electric current encounters resistance as it flows through a wire"
+    },
+    {
+        "concept": "Resistance",
+        "relationship": "generates",
+        "related_concept": "Heat",
+        "description": "Resistance in a wire generates heat as electric current flows through it"
+    },
+    {
+        "concept": "Wire",
+        "relationship": "creates",
+        "related_concept": "Electric Field",
+        "description": "Electrically charged wires create an electric field around them"
+    }
+]
+
+Model Answer: {
+    "answer": "The wire will become warmer.",
+    "reasoning": "As electric current flows through a wire in a properly working electrical circuit, it encounters resistance. This resistance generates heat due to the opposition to the flow of electrons, resulting in the wire becoming warmer. This is a common and expected outcome, making it the correct change that will occur in the wire."
+}

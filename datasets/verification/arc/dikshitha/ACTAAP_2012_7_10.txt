@@ -1,0 +1,71 @@
+Key: ACTAAP_2012_7_10
+
+Question: A poultry egg is dissected in science class. What is the clear, thick fluid inside the poultry egg that serves as protection for the embryo?
+Options: ['Yolk', 'Shell', 'Yolk sac', 'Albumen']
+Answer: Albumen
+
+Model Response:
+Concepts: [
+    {
+        "name": "Poultry egg",
+        "description": "An egg produced by birds raised for food, such as chickens."
+    },
+    {
+        "name": "Embryo",
+        "description": "The developing organism from fertilization until it becomes a fully formed organism."
+    },
+    {
+        "name": "Yolk",
+        "description": "The yellow part of an egg, containing stored food for the embryo."
+    },
+    {
+        "name": "Shell",
+        "description": "The hard, protective outer layer of the egg."
+    },
+    {
+        "name": "Yolk sac",
+        "description": "A membranous sac attached to an embryo, providing early nourishment in the form of yolk."
+    },
+    {
+        "name": "Albumen",
+        "description": "The clear, thick fluid, commonly known as egg white, surrounding the embryo and yolk, providing protection and hydration."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Poultry egg",
+        "relationship": "contains",
+        "related_concept": "Embryo",
+        "description": "The poultry egg contains the embryo which develops into a chick."
+    },
+    {
+        "concept": "Poultry egg",
+        "relationship": "has as parts",
+        "related_concept": "Shell",
+        "description": "The poultry egg is encased in a shell providing protection."
+    },
+    {
+        "concept": "Poultry egg",
+        "relationship": "has as parts",
+        "related_concept": "Yolk",
+        "description": "The yolk is found inside the poultry egg, serving as the primary food source for the developing embryo."
+    },
+    {
+        "concept": "Embryo",
+        "relationship": "feeds on",
+        "related_concept": "Yolk",
+        "description": "The embryo uses the yolk as a source of food."
+    },
+    {
+        "concept": "Poultry egg",
+        "relationship": "contains",
+        "related_concept": "Albumen",
+        "description": "The albumen surrounds the yolk and embryo, providing hydration and protection."
+    }
+]
+
+Model Answer: {
+    "answer": "Albumen",
+    "reasoning": "The question asks for the clear, thick fluid inside a poultry egg that serves as protection for the embryo. Among the options, 'Albumen' is the only one that fits this description, as it is known as egg white, surrounding the embryo and yolk, providing protection and hydration to the embryo."
+}

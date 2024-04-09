@@ -1,0 +1,57 @@
+Key: TIMSS_2003_8_pg28
+
+Question: Which is NOT a fossil fuel?
+Options: ['Coal', 'Oil', 'Wood', 'Natural gas']
+Answer: Wood
+
+Model Response:
+Concepts: [
+    {
+        "name": "Coal",
+        "description": "A black or brownish-black sedimentary rock that can be burned for fuel."
+    },
+    {
+        "name": "Oil",
+        "description": "A liquid fossil fuel formed from marine organisms that is used in engines and for heating."
+    },
+    {
+        "name": "Wood",
+        "description": "The hard, fibrous structural tissue of trees and other plants."
+    },
+    {
+        "name": "Natural Gas",
+        "description": "A gaseous fossil fuel consisting primarily of methane and used for heating and as a fuel source."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Coal",
+        "relationship": "is a type of",
+        "related_concept": "Fossil Fuel",
+        "description": "Coal is categorized as a fossil fuel because it originates from decayed organic matter over millions of years."
+    },
+    {
+        "concept": "Oil",
+        "relationship": "is a type of",
+        "related_concept": "Fossil Fuel",
+        "description": "Oil is recognized as a fossil fuel, formed from prehistoric organisms and sediment over geological time."
+    },
+    {
+        "concept": "Natural Gas",
+        "relationship": "is a type of",
+        "related_concept": "Fossil Fuel",
+        "description": "Natural gas, consisting mainly of methane, is classified as a fossil fuel due to its organic origins and use as an energy source."
+    },
+    {
+        "concept": "Wood",
+        "relationship": "is not a type of",
+        "related_concept": "Fossil Fuel",
+        "description": "Wood is derived from living trees and not from fossilized remains, making it a renewable resource rather than a fossil fuel."
+    }
+]
+
+Model Answer: {
+    "answer": "Wood",
+    "reasoning": "Wood is not a fossil fuel because unlike coal, oil, and natural gas, it is not formed from the fossilized remains of ancient organisms. Wood comes from living trees and plants and is considered a renewable resource, whereas fossil fuels are non-renewable and originate from the buried remains of plants and animals that lived millions of years ago."
+}

@@ -1,0 +1,61 @@
+Key: Mercury_410719
+
+Question: A student pushes a shopping cart filled with groceries. The cart has a mass of 12 kilograms (kg). The student pushes the cart with a force of 15 newtons (N). Assuming the ground is frictionless, how fast will the cart accelerate until the student stops applying the force?
+Options: ['0.625 m/s^2', '0.8 m/s^2', '1.25 m/s^2', '2.5 m/s^2']
+Answer: 1.25 m/s^2
+
+Model Response:
+Concepts: [
+    {
+        "name": "Newton's second law of motion",
+        "description": "A physical principle stating that the acceleration of an object is directly proportional to the net force acting on the object and inversely proportional to its mass."
+    },
+    {
+        "name": "Force",
+        "description": "An interaction that, when unopposed, will change the motion of an object."
+    },
+    {
+        "name": "Mass",
+        "description": "A measure of the amount of matter in an object, typically in kilograms."
+    },
+    {
+        "name": "Acceleration",
+        "description": "The rate of change of velocity of an object with respect to time."
+    },
+    {
+        "name": "Frictionless surface",
+        "description": "An idealized surface with no resistance to sliding or rolling motion."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Force",
+        "relationship": "causes",
+        "related_concept": "Acceleration",
+        "description": "The force applied to an object causes it to accelerate in the direction of the force."
+    },
+    {
+        "concept": "Mass",
+        "relationship": "modifies",
+        "related_concept": "Acceleration",
+        "description": "The mass of an object inversely affects the acceleration for a given force."
+    },
+    {
+        "concept": "Newton's second law of motion",
+        "relationship": "describes",
+        "related_concept": "relationship between Force, Mass, and Acceleration",
+        "description": "This law quantifies the relationship between force, mass, and acceleration."
+    },
+    {
+        "concept": "Frictionless surface",
+        "relationship": "eliminates",
+        "related_concept": "Friction",
+        "description": "A frictionless surface means that there is no opposing force to impede motion, simplifying calculations of motion."
+    }
+]
+
+Model Answer: {
+    "answer": "1.25 m/s^2",
+    "reasoning": "Based on Newton's second law of motion, acceleration (a) can be calculated using the formula a = F/m, where F is the force applied, and m is the mass of the object. Substituting the given values, a = 15N / 12kg = 1.25 m/s^2. This calculation assumes a frictionless surface, as specified, meaning that the only force considered is the force the student applies."
+}

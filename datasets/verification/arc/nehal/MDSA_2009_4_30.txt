@@ -1,0 +1,61 @@
+Key: MDSA_2009_4_30
+
+Question: Stars are organized into patterns called constellations. One constellation is named Leo. Which statement best explains why Leo appears in different areas of the sky throughout the year?
+Options: ['Earth revolves around the sun.', 'The sun revolves around Earth.', 'The constellations revolve around Earth.', 'Earth revolves around the constellations.']
+Answer: Earth revolves around the sun.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Earth",
+        "description": "The third planet from the sun in our solar system, home to humans"
+    },
+    {
+        "name": "Sun",
+        "description": "The star at the center of our solar system that provides light and heat to the planets"
+    },
+    {
+        "name": "Constellations",
+        "description": "Groups of stars forming recognizable patterns traditionally named after mythological beings, objects, or animals"
+    },
+    {
+        "name": "Leo",
+        "description": "A constellation named after the lion, visible in the night sky"
+    },
+    {
+        "name": "Revolution",
+        "description": "The movement of one object around a center or another object"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Earth",
+        "relationship": "revolves around",
+        "related_concept": "Sun",
+        "description": "Earth orbits or revolves around the Sun, completing one orbit every year"
+    },
+    {
+        "concept": "Constellations",
+        "relationship": "appear in",
+        "related_concept": "Sky",
+        "description": "Constellations, which include groups like Leo, are patterns observed in the night sky from Earth"
+    },
+    {
+        "concept": "Leo",
+        "relationship": "is a type of",
+        "related_concept": "Constellations",
+        "description": "Leo is one of the many constellations that can be observed in the sky"
+    },
+    {
+        "concept": "Revolution of Earth",
+        "relationship": "causes",
+        "related_concept": "Change in sky appearance",
+        "description": "As Earth revolves around the Sun, different constellations are visible at different times of the year"
+    }
+]
+
+Model Answer: {
+    "answer": "Earth revolves around the sun.",
+    "reasoning": "The changing position of constellations like Leo in the sky throughout the year is due to Earth's revolution around the Sun. This orbit causes different parts of the night sky to become visible as the Earth moves along its orbital path. This movement alters our view of the night sky, making different constellations visible at different times of the year."
+}

@@ -1,0 +1,71 @@
+Key: ACTAAP_2007_7_4
+
+Question: Which is considered a nonrenewable resource?
+Options: ['oil', 'soil', 'food', 'water']
+Answer: oil
+
+Model Response:
+Concepts: [
+    {
+        "name": "oil",
+        "description": "A fossil fuel formed from the remains of ancient organisms, used primarily for energy and as a raw material in chemicals."
+    },
+    {
+        "name": "soil",
+        "description": "The top layer of the earth's surface in which plants grow, composed of rock and mineral particles mixed with organic matter."
+    },
+    {
+        "name": "food",
+        "description": "Substances consumed to provide nutritional support for an organism."
+    },
+    {
+        "name": "water",
+        "description": "A transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of most living organisms."
+    },
+    {
+        "name": "nonrenewable resource",
+        "description": "A natural resource that cannot be readily replaced by natural means on a level quick enough to keep up with consumption."
+    },
+    {
+        "name": "renewable resource",
+        "description": "A natural resource that can be replenished naturally with the passage of time, such as solar energy, wind energy, and biomass."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "oil",
+        "relationship": "is a type of",
+        "related_concept": "nonrenewable resource",
+        "description": "Oil is considered a nonrenewable resource because it forms over millions of years and is being depleted faster than it can be replaced."
+    },
+    {
+        "concept": "soil",
+        "relationship": "is a type of",
+        "related_concept": "renewable resource",
+        "description": "Soil is generally considered a renewable resource, but it can become non-renewable if its renewal rate is exceeded by its usage and degradation rate."
+    },
+    {
+        "concept": "food",
+        "relationship": "requires",
+        "related_concept": "soil",
+        "description": "Most food production is dependent on soil, either directly for crop cultivation or indirectly for the habitat of animals."
+    },
+    {
+        "concept": "food",
+        "relationship": "requires",
+        "related_concept": "water",
+        "description": "Water is essential for the growth of food crops and for raising livestock, making it a critical component of food production."
+    },
+    {
+        "concept": "water",
+        "relationship": "can be",
+        "related_concept": "renewable resource",
+        "description": "Water is generally renewable through the natural water cycle, although it can become scarce in quantity or quality in certain locations or times."
+    }
+]
+
+Model Answer: {
+    "answer": "oil",
+    "reasoning": "Among the options provided, 'oil' is the only one classified as a nonrenewable resource. Oil forms over millions of years from the remains of ancient organisms, and the rate at which we consume oil far outpaces its natural replenishment rate. Unlike soil, food, and water, which can be considered renewable under certain conditions because they can be replenished naturally with the passage of time, oil's regeneration process is significantly slower than its consumption rate, rendering it nonrenewable."
+}

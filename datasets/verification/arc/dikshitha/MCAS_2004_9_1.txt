@@ -1,0 +1,61 @@
+Key: MCAS_2004_9_1
+
+Question: The force of gravity on an object depends primarily on the object's
+Options: ['density.', 'mass.', 'momentum.', 'volume.']
+Answer: mass.
+
+Model Response:
+Concepts: [
+    {
+        "name": "gravity",
+        "description": "A force that attracts two bodies towards each other."
+    },
+    {
+        "name": "mass",
+        "description": "A measure of the amount of matter in an object."
+    },
+    {
+        "name": "density",
+        "description": "Mass per unit volume of a substance."
+    },
+    {
+        "name": "momentum",
+        "description": "The product of the mass and velocity of an object."
+    },
+    {
+        "name": "volume",
+        "description": "The amount of space an object or substance occupies."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "gravity",
+        "relationship": "depends on",
+        "related_concept": "mass",
+        "description": "The force of gravity between two objects increases with the mass of the objects."
+    },
+    {
+        "concept": "mass",
+        "relationship": "is distinct from",
+        "related_concept": "density",
+        "description": "Mass is a property of an object, while density is mass per unit volume."
+    },
+    {
+        "concept": "mass",
+        "relationship": "is distinct from",
+        "related_concept": "volume",
+        "description": "Mass is the amount of matter, and volume is the space it occupies."
+    },
+    {
+        "concept": "mass",
+        "relationship": "affects",
+        "related_concept": "momentum",
+        "description": "Momentum depends on the mass and velocity of an object."
+    }
+]
+
+Model Answer: {
+    "answer": "mass.",
+    "reasoning": "The force of gravity between two objects depends primarily on their masses, along with the distance between them. Among the options provided, mass is the correct concept that directly affects the force of gravity on an object, as the other options pertain to different properties (density, momentum, volume) that do not directly determine gravitational force."
+}

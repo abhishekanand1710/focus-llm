@@ -1,0 +1,75 @@
+Key: Mercury_SC_405460
+
+Question: Some types of medicines can be used to cure people when they are sick. Some medicines, however, may cause bad reactions to the people taking them. This difference is an example of
+Options: ['technology being used to help heal people.', 'medical procedures being used to hurt people.', 'expensive medicines being used for many purposes.', 'the solution to one problem causing another problem.']
+Answer: the solution to one problem causing another problem.
+
+Model Response:
+Concepts: [
+    {
+        "name": "Medicines",
+        "description": "Substances used to treat medical conditions and diseases."
+    },
+    {
+        "name": "Cure",
+        "description": "A means of restoring health or alleviating a problem."
+    },
+    {
+        "name": "Bad Reactions",
+        "description": "Unintended, often negative, responses to a drug or medication."
+    },
+    {
+        "name": "Technology",
+        "description": "The application of scientific knowledge for practical purposes."
+    },
+    {
+        "name": "Medical Procedures",
+        "description": "Methods carried out to diagnose or treat diseases."
+    },
+    {
+        "name": "Expensive Medicines",
+        "description": "Medications with high costs."
+    },
+    {
+        "name": "Problem and Solution",
+        "description": "A scenario where an issue is addressed by a means that resolves it."
+    }
+]
+
+Relationships: [
+    {
+        "concept": "Medicines",
+        "relationship": "used to",
+        "related_concept": "Cure",
+        "description": "Medicines are used to cure or treat diseases and medical conditions."
+    },
+    {
+        "concept": "Medicines",
+        "relationship": "may cause",
+        "related_concept": "Bad Reactions",
+        "description": "Taking medicines may result in bad reactions or side effects in some individuals."
+    },
+    {
+        "concept": "Technology",
+        "relationship": "includes",
+        "related_concept": "Medicines",
+        "description": "Medicines are considered a form of health technology used for treatment."
+    },
+    {
+        "concept": "Medical Procedures",
+        "relationship": "utilize",
+        "related_concept": "Medicines",
+        "description": "Various medical procedures may utilize medicines for treatment or diagnostic purposes."
+    },
+    {
+        "concept": "Problem and Solution",
+        "relationship": "becomes",
+        "related_concept": "Bad Reactions",
+        "description": "A solution to a health issue with a medication might become a new problem if it causes bad reactions."
+    }
+]
+
+Model Answer: {
+    "answer": "the solution to one problem causing another problem.",
+    "reasoning": "The original statement describes a scenario where medicines, designed to cure or treat illnesses (a solution), can lead to unwanted effects or bad reactions in some individuals (a new problem). This aligns with the concept of a solution to one problem inadvertently causing another problem."
+}

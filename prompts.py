@@ -50,7 +50,7 @@ Remember to follow the following json structure -
 """
 
 
-concept_guided_reasoning_prompt_without_options = concept_guided_reasoning_prompt = """Question: - {question}
+concept_guided_reasoning_prompt_without_options = """Question: - {question}
 
 All the main real world concepts essential to answer the question are: 
 List them down along with one line description

@@ -1,0 +1,61 @@
+Key: Mercury_SC_401165
+
+Question: Which event is the best example of mechanical energy?
+Options: ['wood burning', 'light shining', 'a song playing on a radio', 'a wagon rolling down a hill']
+Answer: a wagon rolling down a hill
+
+Model Response:
+Concepts: [
+    {
+        "name": "mechanical energy",
+        "description": "energy associated with the motion and position of an object"
+    },
+    {
+        "name": "wood burning",
+        "description": "a chemical process that releases thermal energy"
+    },
+    {
+        "name": "light shining",
+        "description": "emission of electromagnetic waves visible to the human eye"
+    },
+    {
+        "name": "a song playing on a radio",
+        "description": "sound waves produced by electrical signals"
+    },
+    {
+        "name": "a wagon rolling down a hill",
+        "description": "an example of an object in motion utilizing kinetic energy"
+    }
+]
+
+Relationships: [
+    {
+        "concept": "a wagon rolling down a hill",
+        "relationship": "is an example of",
+        "related_concept": "mechanical energy",
+        "description": "A wagon's movement down a hill is due to its kinetic and potential energy, which are forms of mechanical energy"
+    },
+    {
+        "concept": "wood burning",
+        "relationship": "is not primarily related to",
+        "related_concept": "mechanical energy",
+        "description": "Wood burning involves chemical to thermal energy transformation, not mechanical energy"
+    },
+    {
+        "concept": "light shining",
+        "relationship": "is not primarily related to",
+        "related_concept": "mechanical energy",
+        "description": "Light shining involves the emission of electromagnetic energy, not mechanical energy"
+    },
+    {
+        "concept": "a song playing on a radio",
+        "relationship": "is not primarily related to",
+        "related_concept": "mechanical energy",
+        "description": "A song playing on a radio involves conversions between electrical energy and sound energy, not mechanical energy"
+    }
+]
+
+Model Answer: {
+    "answer": "a wagon rolling down a hill",
+    "reasoning": "Among the provided options, a wagon rolling down a hill best exemplifies mechanical energy because it directly involves the motion (kinetic energy) and position (potential energy) of an object, which are key aspects of mechanical energy."
+}
