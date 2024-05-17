@@ -1,0 +1,900 @@
+id,text,label,question_token1,question1,question_token2,question2,options,concept_guided_prompt,complete_question,response
+1,The janitor reprimanded the accountant because he made a mistake filing paperwork.,accountant,he,Who does 'he' refer to?,,,"['janitor', 'accountant']","Question: - The janitor reprimanded the accountant because he made a mistake filing paperwork. Who does 'he' refer to?
+Options: - ['janitor', 'accountant']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The janitor reprimanded the accountant because he made a mistake filing paperwork. Who does 'he' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""janitor"",
+      ""description"": ""A person employed to clean and maintain buildings.""
+    },
+    {
+      ""name"": ""accountant"",
+      ""description"": ""A person who records and analyzes financial transactions for a business or individual.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""janitor"",
+      ""relationship"": ""reprimands"",
+      ""related_concept"": ""accountant"",
+      ""description"": ""The janitor scolds the accountant.""
+    },
+    {
+      ""concept"": ""accountant"",
+      ""relationship"": ""makes mistake"",
+      ""related_concept"": ""filing paperwork"",
+      ""description"": ""The accountant is responsible for making a mistake in filing paperwork.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""accountant"",
+  ""reasoning"": ""The sentence structure implies that the person being reprimanded for making a mistake is the same person who
+made the mistake. Since the janitor is the one reprimanding, and the mistake is related to filing paperwork, which is an
+activity typically associated with an accountant, it logically follows that the accountant is the one who made the mistake.""
+}
+</s>"
+2,The carpenter always ask the librarian for help because she can only recognize a few words.,carpenter,she,Who does 'she' refer to?,,,"['carpenter', 'librarian']","Question: - The carpenter always ask the librarian for help because she can only recognize a few words. Who does 'she' refer to?
+Options: - ['carpenter', 'librarian']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter always ask the librarian for help because she can only recognize a few words. Who does 'she' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A skilled worker who makes or repairs things using wood or other materials.""
+    },
+    {
+      ""name"": ""librarian"",
+      ""description"": ""A person whose job is to look after books and help people find the books they want.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""asks for help"",
+      ""related_concept"": ""librarian"",
+      ""description"": ""The carpenter seeks assistance from the librarian.""
+    },
+    {
+      ""concept"": ""librarian"",
+      ""relationship"": ""provides help"",
+      ""related_concept"": ""carpenter"",
+      ""description"": ""The librarian offers assistance to the carpenter.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""carpenter"",
+  ""reasoning"": ""The sentence structure implies that the subject 'she' refers to the person who is asking for help, which is
+the carpenter. The carpenter is the one with limited recognition, hence the need for assistance from the librarian.""
+}
+</s>"
+3,The carpenter always asks the librarian for help because he knows a lot of words.,librarian,he,Who does 'he' refer to?,,,"['librarian', 'carpenter']","Question: - The carpenter always asks the librarian for help because he knows a lot of words. Who does 'he' refer to?
+Options: - ['librarian', 'carpenter']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter always asks the librarian for help because he knows a lot of words. Who does 'he' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A skilled worker who makes or repairs things from wood.""
+    },
+    {
+      ""name"": ""librarian"",
+      ""description"": ""A person responsible for looking after books and helping people find the books they want.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""asks for help"",
+      ""related_concept"": ""librarian"",
+      ""description"": ""The carpenter seeks assistance from the librarian.""
+    },
+    {
+      ""concept"": ""librarian"",
+      ""relationship"": ""has knowledge of"",
+      ""related_concept"": ""words"",
+      ""description"": ""The librarian is knowledgeable in words, possibly due to handling books.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""carpenter"",
+  ""reasoning"": ""The sentence structure implies that the subject 'he' refers to the person who is asking for help, which is
+the carpenter. The carpenter is seeking assistance from the librarian, indicating that the carpenter is the one with the
+knowledge gap, hence 'he' refers to the carpenter.""
+}
+</s>"
+4,The physician wanted to meet the counselor because she had some questions about her responsibility in the medical accident.,physician,she,Who does 'she' refer to?,her,Who does 'her' refer to?,"['physician', 'counselor']","Question: - The physician wanted to meet the counselor because she had some questions about her responsibility in the medical accident. Who does 'she' refer to?
+Options: - ['physician', 'counselor']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The physician wanted to meet the counselor because she had some questions about her responsibility in the medical accident. Who does 'she' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""physician"",
+      ""description"": ""A medical doctor""
+    },
+    {
+      ""name"": ""counselor"",
+      ""description"": ""A person trained to give advice and guidance""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""physician"",
+      ""relationship"": ""wants to meet"",
+      ""related_concept"": ""counselor"",
+      ""description"": ""The physician wants to meet the counselor""
+    },
+    {
+      ""concept"": ""counselor"",
+      ""relationship"": ""has questions for"",
+      ""related_concept"": ""physician"",
+      ""description"": ""The counselor has questions for the physician""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""counselor"",
+  ""reasoning"": ""The sentence structure implies that the 'she' in question refers to the counselor, as the physician is the
+one who wants to meet her. Therefore, the counselor is the correct answer because the physician's intention to meet implies a
+subject other than himself, which is the counselor.""
+}
+</s>"
+5,The physician wanted to meet the counselor because he has more experience about medical accidents.,counselor,he,Who does 'he' refer to?,,,"['physician', 'counselor']","Question: - The physician wanted to meet the counselor because he has more experience about medical accidents. Who does 'he' refer to?
+Options: - ['physician', 'counselor']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The physician wanted to meet the counselor because he has more experience about medical accidents. Who does 'he' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""physician"",
+      ""description"": ""A medical doctor""
+    },
+    {
+      ""name"": ""counselor"",
+      ""description"": ""A person trained to give advice and guidance""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""physician"",
+      ""relationship"": ""has_more_experience_than"",
+      ""related_concept"": ""counselor"",
+      ""description"": ""The physician has more experience in medical accidents compared to the counselor""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""physician"",
+  ""reasoning"": ""The sentence implies that the physician is seeking the counselor's advice or knowledge due to the physician's
+lack of experience in a specific area, which is medical accidents. Since the physician is seeking the counselor's expertise,
+it suggests that the physician is not the expert in this area, making 'he' refer to the physician.""
+}
+</s>"
+6,The carpenter owed the counselor some money and she had to do more work to pay the debt.,carpenter,she,Who does 'she' refer to?,,,"['carpenter', 'counselor']","Question: - The carpenter owed the counselor some money and she had to do more work to pay the debt. Who does 'she' refer to?
+Options: - ['carpenter', 'counselor']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter owed the counselor some money and she had to do more work to pay the debt. Who does 'she' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A skilled worker who makes or repairs things from wood.""
+    },
+    {
+      ""name"": ""counselor"",
+      ""description"": ""A person trained to give advice and guidance to individuals or groups.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""owes money to"",
+      ""related_concept"": ""counselor"",
+      ""description"": ""The carpenter is in debt to the counselor.""
+    },
+    {
+      ""concept"": ""counselor"",
+      ""relationship"": ""has to do more work"",
+      ""related_concept"": ""pay debt"",
+      ""description"": ""The counselor needs to work more to pay off the debt.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""counselor"",
+  ""reasoning"": ""The sentence structure implies that the 'she' who had to do more work to pay the debt is the same person who
+was owed money. Since the carpenter owed the counselor money, and the counselor had to do more work, it logically follows
+that the counselor is the one who had to do more work to pay the debt. Therefore, 'she' refers to the counselor.""
+}
+</s>"
+7,The carpenter owed the counselor some money and he never asked for any interest.,counselor,he,Who does 'he' refer to?,,,"['counselor', 'carpenter']","Question: - The carpenter owed the counselor some money and he never asked for any interest. Who does 'he' refer to?
+Options: - ['counselor', 'carpenter']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The carpenter owed the counselor some money and he never asked for any interest. Who does 'he' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""carpenter"",
+      ""description"": ""A skilled worker who makes or repairs things from wood.""
+    },
+    {
+      ""name"": ""counselor"",
+      ""description"": ""A person trained to give advice and guidance to individuals or groups.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""carpenter"",
+      ""relationship"": ""owes money to"",
+      ""related_concept"": ""counselor"",
+      ""description"": ""The carpenter has a financial obligation to the counselor.""
+    },
+    {
+      ""concept"": ""counselor"",
+      ""relationship"": ""does not ask for"",
+      ""related_concept"": ""interest"",
+      ""description"": ""The counselor does not request additional payment for the loan.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""counselor"",
+  ""reasoning"": ""The sentence structure implies that the carpenter is the one who owes money, and the counselor is the one who
+is not asking for interest. Therefore, 'he' refers to the counselor, as it is the counselor's money and interest that is
+being discussed.""
+}
+</s>"
+8,The janitor caught the cashier stealing the money and she reported it to the boss.,janitor,she,Who does 'she' refer to?,,,"['cashier', 'janitor']","Question: - The janitor caught the cashier stealing the money and she reported it to the boss. Who does 'she' refer to?
+Options: - ['cashier', 'janitor']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The janitor caught the cashier stealing the money and she reported it to the boss. Who does 'she' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""janitor"",
+      ""description"": ""an employee responsible for cleaning and maintaining a building""
+    },
+    {
+      ""name"": ""cashier"",
+      ""description"": ""an employee responsible for receiving and giving change for money paid by customers""
+    },
+    {
+      ""name"": ""boss"",
+      ""description"": ""an employer or manager""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""janitor"",
+      ""relationship"": ""catches"",
+      ""related_concept"": ""cashier"",
+      ""description"": ""The janitor catches the cashier""
+    },
+    {
+      ""concept"": ""cashier"",
+      ""relationship"": ""stealing"",
+      ""related_concept"": ""money"",
+      ""description"": ""The cashier is stealing money""
+    },
+    {
+      ""concept"": ""janitor"",
+      ""relationship"": ""reports"",
+      ""related_concept"": ""boss"",
+      ""description"": ""The janitor reports to the boss""
+    },
+    {
+      ""concept"": ""boss"",
+      ""relationship"": ""receives report"",
+      ""related_concept"": ""janitor"",
+      ""description"": ""The boss receives the report from the janitor""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""janitor"",
+  ""reasoning"": ""The sentence structure implies that the action of reporting was performed by the subject who caught the
+action being reported. Since the janitor is the one who caught the cashier stealing, the janitor is the one who reported it
+to the boss. Therefore, 'she' refers to the janitor.""
+}
+</s>"
+9,The janitor caught the cashier stealing the money and he asked for mercy.,cashier,he,Who does 'he' refer to?,,,"['janitor', 'cashier']","Question: - The janitor caught the cashier stealing the money and he asked for mercy. Who does 'he' refer to?
+Options: - ['janitor', 'cashier']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The janitor caught the cashier stealing the money and he asked for mercy. Who does 'he' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""janitor"",
+      ""description"": ""A person employed to clean and maintain buildings.""
+    },
+    {
+      ""name"": ""cashier"",
+      ""description"": ""A person who operates a cash register and collects money from customers.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""janitor"",
+      ""relationship"": ""catches"",
+      ""related_concept"": ""cashier"",
+      ""description"": ""The janitor catches the cashier.""
+    },
+    {
+      ""concept"": ""cashier"",
+      ""relationship"": ""asks for mercy"",
+      ""related_concept"": ""janitor"",
+      ""description"": ""The cashier asks for mercy from the janitor.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""janitor"",
+  ""reasoning"": ""The sentence structure implies that the subject who caught the cashier stealing is the same subject who is
+asking for mercy. Since the janitor is the one who caught the cashier, and the cashier is the one asking for mercy, 'he' must
+refer to the janitor, as the janitor is the one with the authority to show mercy or take action.""
+}
+</s>"
+10,The sheriff asked the accountant many questions because she is a suspicious man.,sheriff,she,Who does 'she' refer to?,,,"['accountant', 'sheriff']","Question: - The sheriff asked the accountant many questions because she is a suspicious man. Who does 'she' refer to?
+Options: - ['accountant', 'sheriff']
+
+All the main real world concepts essential to answer the question are: 
+List them down along with one line description
+Remember to return the response in a json structure as defined below - 
+
+""concepts"": [
+  {
+    ""name"": ""concept/entity name"",
+    ""description"": ""one line description""
+  },
+  {
+    ""name"": ""conecpt/entity name"",
+    ""description"": ""one line description""
+  },
+  ...
+]
+
+[your concepts list]
+
+In manner of ontology, describe the relationship for each concept to the other concepts in the context of the sentence in a structured manner along with one line description for each are:
+Remember to return the response in a json structure as defined below -
+
+""relationships"": [
+	{
+		""concept"": ""concept1"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept2"",
+		""description"": ""one line description""
+	},
+	{
+		""concept"": ""concept2"",
+		""relationship"": ""relation"",
+		""related_concept"": ""concept3"",
+		""description"": ""one line description""
+	},
+	....
+]
+ 
+[your relationship list]
+
+Provide the answer to the original [Question] from the [Options] and the reasoning for it based on the concepts/entities and their relationships you have identified - 
+Remember to follow the following json structure - 
+{
+  ""answer"": ""your answer"",
+  ""reasoning"": ""your reasoning""
+}
+[your answer]
+",The sheriff asked the accountant many questions because she is a suspicious man. Who does 'she' refer to?,"[your concepts list]
+{
+  ""concepts"": [
+    {
+      ""name"": ""sheriff"",
+      ""description"": ""A law enforcement officer responsible for maintaining order in a specific area.""
+    },
+    {
+      ""name"": ""accountant"",
+      ""description"": ""A financial professional responsible for recording, analyzing, and reporting financial information.""
+    }
+  ]
+}
+
+[your relationship list]
+{
+  ""relationships"": [
+    {
+      ""concept"": ""sheriff"",
+      ""relationship"": ""asks questions"",
+      ""related_concept"": ""accountant"",
+      ""description"": ""The sheriff is the one asking questions to the accountant.""
+    },
+    {
+      ""concept"": ""accountant"",
+      ""relationship"": ""is a"",
+      ""related_concept"": ""suspicious man"",
+      ""description"": ""The accountant is described as a suspicious man, implying a character trait.""
+    }
+  ]
+}
+
+[your answer]
+{
+  ""answer"": ""accountant"",
+  ""reasoning"": ""The sentence structure implies that the sheriff is asking questions to the accountant because the accountant
+is the suspicious man. Therefore, 'she' refers to the accountant, as the sheriff is the one asking questions about the
+accountant's suspicious nature.""
+}
+</s>"
